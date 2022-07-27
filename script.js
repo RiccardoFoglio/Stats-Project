@@ -1,179 +1,203 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let url = "xml/20220100.xml"
-    fetch(url)
-    .then(response=>response.text())
-    .then(data=>{
-        let parser = new DOMParser()
-        let xml = parser.parseFromString(data, "application/xml")
-        //document.getElementById('output').textContent = data
-       
-        buildGeneralInfo(xml)
-        buildScoreboard(xml)
+  const url = "xml/20220100.xml"
+  fetch(url)
+  .then(response=>response.text())
+  .then(data=>{
+    const parser = new DOMParser()
+    const xml = parser.parseFromString(data, "application/xml")
+    //document.getElementById('output').textContent = data
+    
+    buildScoreboard(xml)
+    buildScoreByQuarters(xml)
+    buildGeneralInfo(xml)
+    buildReferees(xml)
 
-    })
+  })
 })
 
+
 function buildGeneralInfo(x){
-    let divBox = document.getElementById('general-info')
+  let divBox = document.getElementById('general-info')
 
-    let venue = x.getElementsByTagName('venue')
-    for(let i=0; i<venue.length; i++){
-        
-        let date = venue[i].getAttribute('date')
-        let location = venue[i].getAttribute('location')
-        let stadium = venue[i].getAttribute('stadium')
-        let start_time = venue[i].getAttribute('start')
-        let end_time = venue[i].getAttribute('end')
-        let duration = venue[i].getAttribute('duration')
-        let attend = venue[i].getAttribute('attend')
-        let temp = venue[i].getAttribute('temp')
-        let wind = venue[i].getAttribute('wind')
-        let weather = venue[i].getAttribute('weather')
-        
-        let dateDiv = document.createElement('div')
-        dateDiv.setAttribute('id', 'date')
-        dateDiv.textContent = `Date: ${date}`
-        divBox.appendChild(dateDiv)
+  const venue = x.getElementsByTagName('venue')
 
-        let locationDiv = document.createElement('div')
-        locationDiv.setAttribute('id', 'location')
-        locationDiv.textContent = `Location: ${location} - ${stadium}`
-        divBox.appendChild(locationDiv)
+  for(let i=0; i<venue.length; i++){          
+    const date = venue[i].getAttribute('date')
+    const location = venue[i].getAttribute('location')
+    const stadium = venue[i].getAttribute('stadium')
+    const start_time = venue[i].getAttribute('start')
+    const end_time = venue[i].getAttribute('end')
+    const duration = venue[i].getAttribute('duration')
+    const attend = venue[i].getAttribute('attend')
+    const temp = venue[i].getAttribute('temp')
+    const wind = venue[i].getAttribute('wind')
+    const weather = venue[i].getAttribute('weather')
+    
+    const dateDiv = document.createElement('div')
+    dateDiv.setAttribute('id', 'date')
+    dateDiv.textContent = `Date: ${date}`
+    divBox.appendChild(dateDiv)
 
-        let attendanceDiv = document.createElement('div')
-        attendanceDiv.setAttribute('id', 'attendance')
-        attendanceDiv.textContent = `Attendance: ${attend}`
-        divBox.appendChild(attendanceDiv)
+    const locationDiv = document.createElement('div')
+    locationDiv.setAttribute('id', 'location')
+    locationDiv.textContent = `Location: ${location} - ${stadium}`
+    divBox.appendChild(locationDiv)
 
-        let timeDiv = document.createElement('div')
-        timeDiv.setAttribute('id', 'game_time')
-        timeDiv.textContent = `Start: ${start_time} - End: ${end_time} - Duration: ${duration} h`
-        divBox.appendChild(timeDiv)
+    const attendanceDiv = document.createElement('div')
+    attendanceDiv.setAttribute('id', 'attendance')
+    attendanceDiv.textContent = `Attendance: ${attend}`
+    divBox.appendChild(attendanceDiv)
 
-        let weatherDiv = document.createElement('div')
-        weatherDiv.setAttribute('id', 'weather')
-        weatherDiv.textContent = `Weather: ${weather} ${wind}, ${temp} C`
-        divBox.appendChild(weatherDiv)
-    }
+    const timeDiv = document.createElement('div')
+    timeDiv.setAttribute('id', 'game_time')
+    timeDiv.textContent = `Start: ${start_time} - End: ${end_time} - Duration: ${duration} h`
+    divBox.appendChild(timeDiv)
+
+    const weatherDiv = document.createElement('div')
+    weatherDiv.setAttribute('id', 'weather')
+    weatherDiv.textContent = `Weather: ${weather} ${wind}, ${temp} C`
+    divBox.appendChild(weatherDiv)
+  }
 }
+
+
+function refToReferee(x){
+  switch (x) {
+    case 'ref':
+      value = 'Referee'
+      break;
+    case 'ump':
+      value = 'Umpire'
+      break;
+    case 'line':
+      value = 'Linesman'
+      break;
+    case 'lj':
+      value = 'Line Judge'
+      break;
+    case 'bj':
+      value = 'Back Judge'
+      break;
+    case 'sc':
+      value = 'Scorer'
+      break;
+    default:
+      value = 'ERRORE';
+      break;
+  }
+  return value
+}
+
 
 function buildReferees(x) {
-    let officials = x.getElementsByTagName('officials')
-    for(i=0; i<officials.length; i++){
+  officialsHTML = document.getElementById('officials')
+  officialList = document.createElement('ul')
 
-        let ref = officials[i].getAttribute('ref')
-        let ump = officials[i].getAttribute('ump')
-        let line = officials[i].getAttribute('line')
-        let lj = officials[i].getAttribute('lj')
-        let bj = officials[i].getAttribute('bj')
-        let sc = officials[i].getAttribute('sc')
+  officials = x.getElementsByTagName('officials')
 
-        let officialList = document.createElement('ul')       
-        
-        let officialChildRef = document.createElement('li')
-        officialChildRef.textContent = `Referee: ${ref}`
-        officialList.appendChild(officialChildRef)
-
-        let officialChildUmp = document.createElement('li')
-        officialChildUmp.textContent = `Umpire: ${ump}`
-        officialList.appendChild(officialChildUmp)
-
-        let officialChildLine = document.createElement('li')
-        officialChildLine.textContent = `Linesman: ${line}`
-        officialList.appendChild(officialChildLine)
-
-        let officialChildLj = document.createElement('li')
-        officialChildLj.textContent = `Line Judge: ${lj}`
-        officialList.appendChild(officialChildLj)
-
-        let officialChildBj = document.createElement('li')
-        officialChildBj.textContent = `Back Judge: ${bj}`
-        officialList.appendChild(officialChildBj)
-
-        let officialChildSc = document.createElement('li')
-        officialChildSc.textContent = `Scorer: ${sc}`
-        officialList.appendChild(officialChildSc)
-
-        divBox.appendChild(officialList)
+  for(i=0; i<officials.length; i++){
+    offAttrArray = officials[i].attributes
+    for(j=0; j<offAttrArray.length; j++){
+      const refLi = document.createElement('li')
+      refLi.textContent = `${refToReferee(officials[i].attributes[j].name)}: ${officials[i].attributes[j].value}`
+      officialList.appendChild(refLi)
     }
+    officialsHTML.appendChild(officialList)
+  }
 }
 
+
 function buildScoreboard(x) {
+  const visTeamDiv = document.getElementById('visTeam')
+  const homeTeamDiv = document.getElementById('homeTeam')
+  const visDiv = document.getElementById('visScoreboard')
+  const homeDiv = document.getElementById('homeScoreboard')
 
-    let visTeamDiv = document.getElementById('visTeam')
-    let homeTeamDiv = document.getElementById('homeTeam')
-    let visDiv = document.getElementById('visScoreboard')
-    let homeDiv = document.getElementById('homeScoreboard')
+  let team = x.getElementsByTagName('team')
+  let linescore = x.getElementsByTagName('linescore')
 
-
-    let team = x.getElementsByTagName('team')
-    let linescore = x.getElementsByTagName('linescore')
-
-    for(i=0; i<team.length; i++){
-        let visOrHome = team[i].getAttribute('vh')
-        let team_id = team[i].getAttribute('id')
-        let team_name = team[i].getAttribute('name')
-        let record = team[i].getAttribute('record')
-        let score = linescore[i].getAttribute('score')
-        let logopath = 'logos/'+team_id+'.jpg'
-        
-        
-        //let teamId = document.createElement('div')
-        //teamId.textContent = team_id
-        let logo = document.createElement('img')
-        logo.src = logopath
-        let teamName = document.createElement('div')
-        teamName.textContent = team_name
-        let teamRecord = document.createElement('div')
-        teamRecord.textContent = `(${record})`
-        let teamScore = document.createElement('div')
-        teamScore.textContent = score
-
-
-        if (visOrHome === 'V') {
-            //id
-            //teamId.setAttribute('id', 'id')
-            //visTeamDiv.appendChild(teamId)
-
-            // logo
-            logo.setAttribute('id', 'visLogo')
-            visTeamDiv.appendChild(logo)
-
-            // name
-            teamName.setAttribute('id', 'visName')
-            visTeamDiv.appendChild(teamName)
-
-            // record
-            teamRecord.setAttribute('id', 'visRecord')
-            visTeamDiv.appendChild(teamRecord)
-
-            // score
-            teamScore.setAttribute('id', 'visScore')
-            visDiv.appendChild(teamScore)
-
-
-        } else {
-            // id
-            //teamId.setAttribute('id', 'id')
-            //homeTeamDiv.appendChild(teamId)
-
-            // logo
-            logo.setAttribute('id', 'homeLogo')
-            homeTeamDiv.appendChild(logo)
-
-            // name
-            teamName.setAttribute('id', 'homeName')
-            homeTeamDiv.appendChild(teamName)
-
-            // recordQ
-            teamRecord.setAttribute('id', 'homeRecord')
-            homeTeamDiv.appendChild(teamRecord)
-
-            //score
-            teamScore.setAttribute('id', 'homeScore')
-            homeDiv.appendChild(teamScore)
-        }
-
-
+  for(i=0; i<team.length; i++){
+    const visOrHome = team[i].getAttribute('vh')
+    const team_id = team[i].getAttribute('id')
+    const team_name = team[i].getAttribute('name')
+    const record = team[i].getAttribute('record')
+    const score = linescore[i].getAttribute('score')
+    const logopath = 'logos/'+team_id+'.jpg'
+    
+    if (visOrHome === 'V') {
+      document.getElementById('visLogo').src = logopath
+      document.getElementById('visName').textContent = team_name
+      document.getElementById('visRecord').textContent = `(${record})`
+      document.getElementById('visScore').textContent = score
+      
+    } else {
+      document.getElementById('homeLogo').src = logopath
+      document.getElementById('homeName').textContent = team_name
+      document.getElementById('homeRecord').textContent = `(${record})`
+      document.getElementById('homeScore').textContent = score
     }
+  }
+}
+
+
+function buildScoreByQuarters(x){
+  const headScoreByQuarterTable = document.getElementById('head-score-by-quarters-table')
+  const homeScoreByQuarter = document.getElementById('home-team-scores-by-quarter')
+  const visScoreByQuarter = document.getElementById('vis-team-scores-by-quarter')
+  
+  const team = x.getElementsByTagName('team')
+  const linescore = x.getElementsByTagName('linescore')
+  const lineprd = x.getElementsByTagName('lineprd')
+
+  for(i=0; i<team.length; i++){
+
+    const team_name = team[i].getAttribute('name')
+    const numQuarters = linescore[i].getAttribute('prds')
+    const score = linescore[i].getAttribute('score')
+    const visOrHome = team[i].getAttribute('vh')
+
+    let teamNameEntry = document.createElement('td')
+    teamNameEntry.textContent = team_name
+    teamNameEntry.setAttribute('id', 'teamNameEntry')
+
+    let finalScore = document.createElement('td')
+    finalScore.textContent = score
+    finalScore.setAttribute('id', 'finalScore')
+
+    if(visOrHome === 'H'){
+        homeScoreByQuarter.appendChild(teamNameEntry)
+      } else {
+        visScoreByQuarter.appendChild(teamNameEntry)
+      }
+    
+    for(let j=0, k=4; j<numQuarters; j++, k++){
+
+      let quarter = lineprd[j].getAttribute('prd')
+
+      let headerTable = document.createElement('th')
+      let scoreEntry = document.createElement('td')
+      scoreEntry.setAttribute('id', 'qrtScore')
+      headerTable.textContent = quarter
+
+      if(visOrHome === 'H'){
+        scoreQuarter = lineprd[k].getAttribute('score')
+        headScoreByQuarterTable.appendChild(headerTable)
+        scoreEntry.textContent = scoreQuarter
+        homeScoreByQuarter.appendChild(scoreEntry)
+      } else {
+        scoreQuarter = lineprd[j].getAttribute('score')
+        scoreEntry.textContent = scoreQuarter 
+        visScoreByQuarter.appendChild(scoreEntry)
+      }
+    }
+
+    if(visOrHome === 'H'){
+      headerTable = document.createElement('th')
+      headerTable.textContent = 'SCORE' 
+      headScoreByQuarterTable.appendChild(headerTable)
+      homeScoreByQuarter.appendChild(finalScore)
+    } else {
+      visScoreByQuarter.appendChild(finalScore)
+    }
+  }
 }

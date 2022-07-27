@@ -1,95 +1,81 @@
 #scoreboard {
-    height: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    background-color: white;
-    border-bottom: 1px solid rgb(225, 225, 225);
-    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.15);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom: 1px solid rgb(225, 225, 225);
+  box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.15);
 }
 
 #scoreboard img {
-    height: 60px;
-    margin: 20px 20px;
+  height: 60px;
+  margin: 10px 20px;
 }
 
-#homeScoreboard { 
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#homeScoreboard, #visScoreboard { 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#homeTeam {
-    width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#homeTeam, #visTeam {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#homeName {
-    font-size: 45px;
-    font-weight: 700;
-    margin: 10px;    
+#homeName, #visName {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px;
+  order: 2;
 }
 
-#homeRecord {
-    font-size: 20px;
-    margin-top: 10px;
+#homeRecord, #visRecord {
+  font-size: 20px;
+  margin-top: 10px;
+  order: 3;
 }
 
-#homeScore {
-    font-size: 40px;
-    margin-right: 20px;
+#homeScore, #visScore {
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 20px;
+  order: 2;
 }
 
-#vs {
-    font-size: 40px;
-}
-
-
-#visScoreboard {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
+#vs {font-size: 40px;}
 
 #visScore {
-    order: 1;
-    font-size: 40px;
-    margin-left: 20px;
+  order: 1;
+  margin-left: 20px;
 }
 
 #visTeam {
-    order: 2;
-    width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  order: 2;
 }
 
 #visRecord {
-    order: 1;
-    font-size: 20px;
-    margin-top: 10px;
+  order: 1;
 }
 
 #visName {
-    order: 2;
-    font-size: 40px;
-    font-weight: 700;
-    margin: 10px;
+  order: 2;
 }
 
 #visLogo {
-    order: 3;
+  order: 3;
+}
+
+#homeLogo {
+  order: 1;
 }
