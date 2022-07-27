@@ -1,0 +1,1317 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220164" visid="BLU" homeid="LNN" visname="Blue Storms Busto Ar" homename="Lancieri Novara"
+      date="5/22/2022" location="NOVARA" stadium="LANCIERI FILED"
+      start="15.00" end="17.50" leaguegame="Y"
+      duration="02.50" attend="80" temp="30" wind="NO" weather="CLOUDY">
+  <officials ref="RIZZELLO G." ump="BUONDONNO P." line="MAZZIA P-" lj="SCIVALES L." bj="MANCINO L." sc="LIVRIERILUCCHIN"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="35" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="BLU" name="Blue Storms Busto Ar" record="4-0" conf-record="4-0" abb="B">
+  <linescore prds="4" line="13,22,7,0" score="42">
+   <lineprd prd="1" score="13"></lineprd>
+   <lineprd prd="2" score="22"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="54" totoff_yards="305" totoff_avg="5.6">
+   <firstdowns no="12" rush="4" pass="8" penalty="0"></firstdowns>
+   <penalties no="6" yds="60"></penalties>
+   <conversions thirdconv="4" thirdatt="12" fourthconv="3" fourthatt="5"></conversions>
+   <fumbles no="1" lost="0"></fumbles>
+   <misc yds="0" top="23:01" ona="0" onm="0"></misc>
+   <redzone att="4" scores="3" points="22" tdrush="2" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="1" endgame="0"></redzone>
+   <rush att="26" yds="22" gain="81" loss="59" td="3" long="22"></rush>
+   <pass comp="16" att="28" int="0" yds="283" td="3" long="70" sacks="1" sackyds="8"></pass>
+   <rcv no="16" yds="283" td="3" long="70"></rcv>
+   <punt no="3" yds="116" long="42" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="38.7"></punt>
+   <ko no="6" yds="340" ob="0" tb="0"></ko>
+   <pat kickatt="5" kickmade="4" rushatt="1" rushmade="1"></pat>
+   <defense tackua="36" tacka="14" tot_tack="50" tflua="6" tfla="2" tflyds="23" sacks="1" sackyds="9" brup="4" blkd="1" fr="2" fryds="27" int="2" intyds="46"></defense>
+   <kr no="3" yds="71" td="0" long="29"></kr>
+   <ir no="2" yds="46" td="0" long="25"></ir>
+   <fr no="1" yds="27" td="0" long="27"></fr>
+   <scoring td="6" patkick="4" patrush="1"></scoring>
+  </totals>
+  <player name="Tovaglieri L." shortname="Tovaglieri L." checkname="L.,TOVAGLIERI" uni="10" gp="1" code="10">
+   <rush att="1" yds="11" gain="11" loss="0" td="0" long="11"></rush>
+   <rcv no="8" yds="167" td="3" long="70"></rcv>
+   <defense tackua="0" tacka="2" tot_tack="2"></defense>
+   <scoring td="3"></scoring>
+  </player>
+  <player name="Dotti L." shortname="Dotti L." checkname="L.,DOTTI" uni="84" gp="1" code="84">
+   <rcv no="3" yds="42" td="0" long="27"></rcv>
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Villa S." shortname="Villa S." checkname="S.,VILLA" uni="1" gp="1" code="1">
+   <rcv no="2" yds="48" td="0" long="39"></rcv>
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+   <kr no="2" yds="54" td="0" long="29"></kr>
+  </player>
+  <player name="Gangi M." shortname="Gangi M." checkname="M.,GANGI" uni="88" gp="1" code="88">
+   <rcv no="2" yds="22" td="0" long="21"></rcv>
+   <punt no="1" yds="41" long="41" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="41.0"></punt>
+   <ko no="5" yds="288" ob="0" tb="0"></ko>
+   <pat kickatt="4" kickmade="3"></pat>
+   <scoring patkick="3"></scoring>
+  </player>
+  <player name="Colombo S." shortname="Colombo S." checkname="S.,COLOMBO" uni="2" gp="1" code="2">
+   <rush att="2" yds="-9" gain="0" loss="9" td="0" long="0"></rush>
+   <pass comp="0" att="0" int="0" yds="0" td="0" long="0" sacks="1" sackyds="8"></pass>
+   <rcv no="1" yds="4" td="0" long="4"></rcv>
+  </player>
+  <player name="Macchi E." shortname="Macchi E." checkname="E.,MACCHI" uni="4" gp="1" code="4">
+   <defense tackua="7" tacka="2" tot_tack="9" tflua="1" tfla="0" tflyds="1" blkd="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Filippini A." shortname="Filippini A." checkname="A.,FILIPPINI" uni="16" gp="1" code="16">
+   <punt no="2" yds="75" long="42" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="37.5"></punt>
+   <ko no="1" yds="52" ob="0" tb="0"></ko>
+   <pat kickatt="1" kickmade="1"></pat>
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+   <scoring patkick="1"></scoring>
+  </player>
+  <player name="Tovaglieri M." shortname="Tovaglieri M." checkname="M.,TOVAGLIERI" uni="17" gp="1" code="17"></player>
+  <player name="Kolonna Appu M." shortname="Kolonna Appu M." checkname="APPU M.,KOLONNA" uni="18" gp="1" code="18">
+   <defense tackua="6" tacka="1" tot_tack="7" brup="1" int="2" intyds="46"></defense>
+   <ir no="2" yds="46" td="0" long="25"></ir>
+  </player>
+  <player name="Carboni L." shortname="Carboni L." checkname="L.,CARBONI" uni="19" gp="1" code="19"></player>
+  <player name="Barlocco G." shortname="Barlocco G." checkname="G.,BARLOCCO" uni="22" gp="1" code="22"></player>
+  <player name="Simboli V." shortname="Simboli V." checkname="V.,SIMBOLI" uni="25" gp="1" code="25">
+   <defense tackua="2" tacka="1" tot_tack="3" brup="2" fr="1" fryds="27"></defense>
+   <kr no="1" yds="17" td="0" long="17"></kr>
+   <fr no="1" yds="27" td="0" long="27"></fr>
+  </player>
+  <player name="Donati A." shortname="Donati A." checkname="A.,DONATI" uni="28" gp="1" code="28">
+   <defense tackua="5" tacka="0" tot_tack="5" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Gariboldi F." shortname="Gariboldi F." checkname="F.,GARIBOLDI" uni="6" gp="1" code="6">
+   <defense tackua="4" tacka="0" tot_tack="4"></defense>
+  </player>
+  <player name="Tatti M." shortname="Tatti M." checkname="M.,TATTI" uni="35" gp="1" code="35"></player>
+  <player name="Valera R." shortname="Valera R." checkname="R.,VALERA" uni="45" gp="1" code="45">
+   <defense tackua="5" tacka="0" tot_tack="5" tflua="3" tfla="0" tflyds="18" sackua="1" sacka="0" sackyds="9"></defense>
+  </player>
+  <player name="Hettiarachch A." shortname="Hettiarachch A." checkname="A.,HETTIARACHCH" uni="56" gp="1" code="56">
+   <defense tackua="2" tacka="2" tot_tack="4"></defense>
+  </player>
+  <player name="Piccoli M." shortname="Piccoli M." checkname="M.,PICCOLI" uni="57" gp="1" code="57">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="1" brup="1"></defense>
+  </player>
+  <player name="Pedol S." shortname="Pedol S." checkname="S.,PEDOL" uni="61" gp="1" code="61">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Cubicciotti C." shortname="Cubicciotti C." checkname="C.,CUBICCIOTTI" uni="68" gp="1" code="68">
+   <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Lana A." shortname="Lana A." checkname="A.,LANA" uni="70" gp="1" code="70">
+   <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Ferrazzi A." shortname="Ferrazzi A." checkname="A.,FERRAZZI" uni="71" gp="1" code="71">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Quinteri S." shortname="Quinteri S." checkname="S.,QUINTERI" uni="83" gp="1" code="83"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="2" yds="-28" gain="0" loss="28" td="0" long="0"></rush>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Colazingari G." shortname="Colazingari G." checkname="G.,COLAZINGARI" uni="86" gp="1" code="86"></player>
+  <player name="Colombo L." shortname="Colombo L." checkname="L.,COLOMBO" uni="5" gp="1" code="5">
+   <rush att="6" yds="9" gain="21" loss="12" td="1" long="7"></rush>
+   <pass comp="16" att="28" int="0" yds="283" td="3" long="70" sacks="0" sackyds="0"></pass>
+   <pat rushatt="1" rushmade="1"></pat>
+   <scoring td="1" patrush="1"></scoring>
+  </player>
+  <player name="Maj U." shortname="Maj U." checkname="U.,MAJ" uni="33" gp="1" code="33">
+   <rush att="15" yds="39" gain="49" loss="10" td="2" long="22"></rush>
+   <scoring td="2"></scoring>
+  </player>
+ </team>
+ <team vh="H" code="" id="LNN" name="Lancieri Novara" record="1-3" conf-record="1-3" abb="L">
+  <linescore prds="4" line="0,12,6,12" score="30">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="12"></lineprd>
+   <lineprd prd="3" score="6"></lineprd>
+   <lineprd prd="4" score="12"></lineprd>
+  </linescore>
+  <totals totoff_plays="60" totoff_yards="384" totoff_avg="6.4">
+   <firstdowns no="18" rush="2" pass="15" penalty="1"></firstdowns>
+   <penalties no="6" yds="40"></penalties>
+   <conversions thirdconv="6" thirdatt="9" fourthconv="0" fourthatt="2"></conversions>
+   <fumbles no="4" lost="2"></fumbles>
+   <misc yds="0" top="24:59" ona="1" onm="0"></misc>
+   <redzone att="5" scores="4" points="24" tdrush="2" tdpass="2" fgmade="0" endfga="0" enddowns="0" endint="1" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="20" yds="40" gain="62" loss="22" td="2" long="14"></rush>
+   <pass comp="25" att="40" int="2" yds="344" td="3" long="47" sacks="1" sackyds="9"></pass>
+   <rcv no="25" yds="344" td="3" long="47"></rcv>
+   <ko no="5" yds="224" ob="1" tb="1"></ko>
+   <pat kickatt="1" kickmade="0" passatt="4" passmade="0"></pat>
+   <defense tackua="25" tacka="22" tot_tack="47" tflua="4" tfla="0" tflyds="19" sacks="1" sackyds="8"></defense>
+   <kr no="6" yds="135" td="0" long="30"></kr>
+   <pr no="2" yds="39" td="0" long="32"></pr>
+   <scoring td="5"></scoring>
+  </totals>
+  <player name="Pricoco A." shortname="Pricoco A." checkname="A.,PRICOCO" uni="3" gp="1" code="3">
+   <rcv no="8" yds="68" td="0" long="12"></rcv>
+   <ko no="5" yds="224" ob="1" tb="1"></ko>
+   <pat kickatt="1" kickmade="0"></pat>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Mozzillo E." shortname="Mozzillo E." checkname="E.,MOZZILLO" uni="14" gp="1" code="14">
+   <rcv no="4" yds="122" td="1" long="47"></rcv>
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+   <kr no="3" yds="63" td="0" long="28"></kr>
+   <pr no="1" yds="7" td="0" long="7"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Manneh L." shortname="Manneh L." checkname="L.,MANNEH" uni="18" gp="1" code="18">
+   <rcv no="4" yds="44" td="1" long="23"></rcv>
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+   <kr no="3" yds="72" td="0" long="30"></kr>
+   <pr no="1" yds="32" td="0" long="32"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Zuliani L." shortname="Zuliani L." checkname="L.,ZULIANI" uni="21" gp="1" code="21">
+   <rcv no="4" yds="40" td="1" long="16"></rcv>
+   <defense tackua="2" tacka="1" tot_tack="3"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Miccoli L." shortname="Miccoli L." checkname="L.,MICCOLI" uni="5" gp="1" code="5">
+   <rcv no="3" yds="40" td="0" long="18"></rcv>
+  </player>
+  <player name="Scarpa N." shortname="Scarpa N." checkname="N.,SCARPA" uni="32" gp="1" code="32">
+   <rush att="9" yds="20" gain="28" loss="8" td="0" long="14"></rush>
+   <rcv no="2" yds="30" td="0" long="16"></rcv>
+   <fumbles no="2" lost="0"></fumbles>
+  </player>
+  <player name="Castaldi L." shortname="Castaldi L." checkname="L.,CASTALDI" uni="2" gp="1" code="2">
+   <defense tackua="3" tacka="3" tot_tack="6"></defense>
+  </player>
+  <player name="Infantino E." shortname="Infantino E." checkname="E.,INFANTINO" uni="13" gp="1" code="13">
+   <defense tackua="4" tacka="1" tot_tack="5"></defense>
+  </player>
+  <player name="Muca A." shortname="Muca A." checkname="A.,MUCA" uni="10" gp="1" code="10">
+   <defense tackua="3" tacka="4" tot_tack="7"></defense>
+  </player>
+  <player name="Della Marca A." shortname="Della Marca A." checkname="MARCA A.,DELLA" uni="8" gp="1" code="8"></player>
+  <player name="Rocha Silver C." shortname="Rocha Silver C." checkname="SILVER C.,ROCHA" uni="6" gp="1" code="6">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Purgh&#239;&#191;&#189; S." shortname="Purgh&#239;&#191;&#189; S." checkname="S.,PURGH&#239;&#191;&#189;" uni="33" gp="1" code="33">
+   <defense tackua="0" tacka="2" tot_tack="2"></defense>
+  </player>
+  <player name="Merante L." shortname="Merante L." checkname="L.,MERANTE" uni="45" gp="1" code="45">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="Cacciatori G." shortname="Cacciatori G." checkname="G.,CACCIATORI" uni="55" gp="1" code="55"></player>
+  <player name="Grassi M." shortname="Grassi M." checkname="M.,GRASSI" uni="59" gp="1" code="59"></player>
+  <player name="Fazio C." shortname="Fazio C." checkname="C.,FAZIO" uni="60" gp="1" code="60"></player>
+  <player name="Balloni P." shortname="Balloni P." checkname="P.,BALLONI" uni="71" gp="1" code="71"></player>
+  <player name="Faillaci R." shortname="Faillaci R." checkname="R.,FAILLACI" uni="72" gp="1" code="72"></player>
+  <player name="Molla X." shortname="Molla X." checkname="X.,MOLLA" uni="75" gp="1" code="75">
+   <defense tackua="3" tacka="3" tot_tack="6" tflua="2" tfla="0" tflyds="5"></defense>
+  </player>
+  <player name="Andreoni M." shortname="Andreoni M." checkname="M.,ANDREONI" uni="88" gp="1" code="88">
+   <defense tackua="1" tacka="6" tot_tack="7" tflua="1" tfla="0" tflyds="8" sackua="1" sacka="0" sackyds="8"></defense>
+  </player>
+  <player name="Giallella M." shortname="Giallella M." checkname="M.,GIALLELLA" uni="95" gp="1" code="95">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="6"></defense>
+  </player>
+  <player name="Di Girolamo D." shortname="Di Girolamo D." checkname="GIROLAMO D.,DI" uni="12" gp="1" code="12">
+   <rush att="10" yds="20" gain="34" loss="14" td="2" long="9"></rush>
+   <pass comp="25" att="40" int="2" yds="344" td="3" long="47" sacks="1" sackyds="9"></pass>
+   <pat passatt="4" passmade="0"></pat>
+   <scoring td="2"></scoring>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="BLU" qtr="1" clock="09:00" type="TD" how="RUSH" yds="1" scorer="Colombo L." patby="Gangi M." pattype="KICK" patres="GOOD" plays="6" drive="21" top="2:30" vscore="7" hscore="0" driveindex="2"></score>
+  <score vh="V" team="BLU" qtr="1" clock="03:00" type="TD" how="PASS" yds="70" scorer="Tovaglieri L." passer="Colombo L." patby="Gangi M." pattype="KICK" patres="FAIL" plays="2" drive="73" top="0:48" vscore="13" hscore="0" driveindex="4"></score>
+  <score vh="V" team="BLU" qtr="2" clock="10:22" type="TD" how="PASS" yds="2" scorer="Tovaglieri L." passer="Colombo L." patby="Colombo L." pattype="RUSH" patres="GOOD" plays="8" drive="53" top="2:56" vscore="21" hscore="0" driveindex="6"></score>
+  <score vh="H" team="LNN" qtr="2" clock="06:32" type="TD" how="PASS" yds="1" scorer="Manneh L." passer="Di Girolamo D." patby="Pricoco A." pattype="KICK" patres="BLKD" plays="8" drive="66" top="3:38" vscore="21" hscore="6" driveindex="7"></score>
+  <score vh="V" team="BLU" qtr="2" clock="02:00" type="TD" how="RUSH" yds="4" scorer="Maj U." patby="Gangi M." pattype="KICK" patres="GOOD" plays="2" drive="11" top="0:32" vscore="28" hscore="6" driveindex="10"></score>
+  <score vh="H" team="LNN" qtr="2" clock="00:15" type="TD" how="RUSH" yds="7" scorer="Di Girolamo D." patby="Di Girolamo D." pattype="PASS" patres="FAIL" plays="7" drive="58" top="1:39" vscore="28" hscore="12" driveindex="11"></score>
+  <score vh="V" team="BLU" qtr="2" clock="00:00" type="TD" how="PASS" yds="52" scorer="Tovaglieri L." passer="Colombo L." patby="Gangi M." pattype="KICK" patres="GOOD" plays="1" drive="52" top="0:04" vscore="35" hscore="12" driveindex="12"></score>
+  <score vh="V" team="BLU" qtr="3" clock="09:45" type="TD" how="RUSH" yds="22" scorer="Maj U." patby="Filippini A." pattype="KICK" patres="GOOD" plays="5" drive="58" top="2:00" vscore="42" hscore="12" driveindex="13"></score>
+  <score vh="H" team="LNN" qtr="3" clock="06:31" type="TD" how="RUSH" yds="6" scorer="Di Girolamo D." patby="Di Girolamo D." pattype="PASS" patres="FAIL" plays="9" drive="57" top="2:59" vscore="42" hscore="18" driveindex="14"></score>
+  <score vh="H" team="LNN" qtr="4" clock="09:24" type="TD" how="PASS" yds="9" scorer="Zuliani L." passer="Di Girolamo D." patby="Di Girolamo D." pattype="PASS" patres="FAIL" plays="5" drive="40" top="2:36" vscore="42" hscore="24" driveindex="18"></score>
+  <score vh="H" team="LNN" qtr="4" clock="03:39" type="TD" how="PASS" yds="47" scorer="Mozzillo E." passer="Di Girolamo D." patby="Di Girolamo D." pattype="PASS" patres="FAIL" plays="3" drive="63" top="1:46" vscore="42" hscore="30" driveindex="20"></score>
+ </scores>
+ <drives>
+  <drive vh="H" team="LNN" start="KO,1,12:00,33" end="INT,1,11:30,33" plays="1" yards="0" top="0:30" start_how="KO" start_qtr="1" start_time="12:00" start_spot="LNN33" end_how="INT" end_qtr="1" end_time="11:30" end_spot="LNN33" driveindex="1"></drive>
+  <drive vh="V" team="BLU" start="INT,1,11:30,79" end="TD,1,09:00,100" plays="6" yards="21" top="2:30" start_how="INT" start_qtr="1" start_time="11:30" start_spot="LNN21" end_how="TD" end_qtr="1" end_time="09:00" end_spot="LNN00" rz="1" driveindex="2"></drive>
+  <drive vh="H" team="LNN" start="KO,1,08:40,23" end="DOWNS,1,03:48,73" plays="10" yards="50" top="4:52" start_how="KO" start_qtr="1" start_time="08:40" start_spot="LNN23" end_how="DOWNS" end_qtr="1" end_time="03:48" end_spot="BLU27" driveindex="3"></drive>
+  <drive vh="V" team="BLU" start="DOWNS,1,03:48,27" end="TD,1,03:00,100" plays="2" yards="73" top="0:48" start_how="DOWNS" start_qtr="1" start_time="03:48" start_spot="BLU27" end_how="TD" end_qtr="1" end_time="03:00" end_spot="LNN00" driveindex="4"></drive>
+  <drive vh="H" team="LNN" start="KO,1,02:55,15" end="FUMB,1,01:18,53" plays="5" yards="38" top="1:37" start_how="KO" start_qtr="1" start_time="02:55" start_spot="LNN15" end_how="FUMB" end_qtr="1" end_time="01:18" end_spot="BLU47" driveindex="5"></drive>
+  <drive vh="V" team="BLU" start="FUMB,1,01:18,47" end="TD,2,10:22,100" plays="8" yards="53" top="2:56" start_how="FUMB" start_qtr="1" start_time="01:18" start_spot="BLU47" end_how="TD" end_qtr="2" end_time="10:22" end_spot="LNN00" rz="1" driveindex="6"></drive>
+  <drive vh="H" team="LNN" start="KO,2,10:10,34" end="TD,2,06:32,100" plays="8" yards="66" top="3:38" start_how="KO" start_qtr="2" start_time="10:10" start_spot="LNN34" end_how="TD" end_qtr="2" end_time="06:32" end_spot="BLU00" rz="1" driveindex="7"></drive>
+  <drive vh="V" team="BLU" start="KO,2,06:20,20" end="PUNT,2,03:22,38" plays="8" yards="18" top="2:58" start_how="KO" start_qtr="2" start_time="06:20" start_spot="BLU20" end_how="PUNT" end_qtr="2" end_time="03:22" end_spot="BLU38" driveindex="8"></drive>
+  <drive vh="H" team="LNN" start="PUNT,2,03:22,28" end="FUMB,2,02:32,38" plays="3" yards="10" top="0:50" start_how="PUNT" start_qtr="2" start_time="03:22" start_spot="LNN28" end_how="FUMB" end_qtr="2" end_time="02:32" end_spot="LNN38" driveindex="9"></drive>
+  <drive vh="V" team="BLU" start="FUMB,2,02:32,89" end="TD,2,02:00,100" plays="2" yards="11" top="0:32" start_how="FUMB" start_qtr="2" start_time="02:32" start_spot="LNN11" end_how="TD" end_qtr="2" end_time="02:00" end_spot="LNN00" rz="1" driveindex="10"></drive>
+  <drive vh="H" team="LNN" start="KO,2,01:54,42" end="TD,2,00:15,100" plays="7" yards="58" top="1:39" start_how="KO" start_qtr="2" start_time="01:54" start_spot="LNN42" end_how="TD" end_qtr="2" end_time="00:15" end_spot="BLU00" rz="1" driveindex="11"></drive>
+  <drive vh="V" team="BLU" start="KO,2,00:04,48" end="TD,3,12:00,100" plays="1" yards="52" top="0:04" start_how="KO" start_qtr="2" start_time="00:04" start_spot="BLU48" end_how="TD" end_qtr="3" end_time="12:00" end_spot="LNN00" driveindex="12"></drive>
+  <drive vh="V" team="BLU" start="KO,3,11:45,42" end="TD,3,09:45,100" plays="5" yards="58" top="2:00" start_how="KO" start_qtr="3" start_time="11:45" start_spot="BLU42" end_how="TD" end_qtr="3" end_time="09:45" end_spot="LNN00" driveindex="13"></drive>
+  <drive vh="H" team="LNN" start="KO,3,09:30,43" end="TD,3,06:31,100" plays="9" yards="57" top="2:59" start_how="KO" start_qtr="3" start_time="09:30" start_spot="LNN43" end_how="TD" end_qtr="3" end_time="06:31" end_spot="BLU00" rz="1" driveindex="14"></drive>
+  <drive vh="V" team="BLU" start="KO,3,06:21,32" end="DOWNS,3,03:05,20" plays="8" yards="-12" top="3:16" start_how="KO" start_qtr="3" start_time="06:21" start_spot="BLU32" end_how="DOWNS" end_qtr="3" end_time="03:05" end_spot="BLU20" driveindex="15"></drive>
+  <drive vh="H" team="LNN" start="DOWNS,3,03:05,80" end="INT,3,01:05,80" plays="5" yards="0" top="2:00" start_how="DOWNS" start_qtr="3" start_time="03:05" start_spot="BLU20" end_how="INT" end_qtr="3" end_time="01:05" end_spot="BLU20" rz="1" driveindex="16"></drive>
+  <drive vh="V" team="BLU" start="INT,3,01:05,30" end="PUNT,3,00:00,30" plays="3" yards="0" top="1:05" start_how="INT" start_qtr="3" start_time="01:05" start_spot="BLU30" end_how="PUNT" end_qtr="3" end_time="00:00" end_spot="BLU30" driveindex="17"></drive>
+  <drive vh="H" team="LNN" start="PUNT,4,12:00,60" end="TD,4,09:24,100" plays="5" yards="40" top="2:36" start_how="PUNT" start_qtr="4" start_time="12:00" start_spot="BLU40" end_how="TD" end_qtr="4" end_time="09:24" end_spot="BLU00" rz="1" driveindex="18"></drive>
+  <drive vh="V" team="BLU" start="KO,4,09:14,55" end="DOWNS,4,05:25,63" plays="7" yards="8" top="3:49" start_how="KO" start_qtr="4" start_time="09:14" start_spot="LNN45" end_how="DOWNS" end_qtr="4" end_time="05:25" end_spot="LNN37" driveindex="19"></drive>
+  <drive vh="H" team="LNN" start="DOWNS,4,05:25,37" end="TD,4,03:39,100" plays="3" yards="63" top="1:46" start_how="DOWNS" start_qtr="4" start_time="05:25" start_spot="LNN37" end_how="TD" end_qtr="4" end_time="03:39" end_spot="BLU00" driveindex="20"></drive>
+  <drive vh="V" team="BLU" start="KO,4,03:29,60" end="PUNT,4,01:51,64" plays="3" yards="4" top="1:38" start_how="KO" start_qtr="4" start_time="03:29" start_spot="LNN40" end_how="PUNT" end_qtr="4" end_time="01:51" end_spot="LNN36" driveindex="21"></drive>
+  <drive vh="H" team="LNN" start="PUNT,4,01:51,3" end="DOWNS,4,00:17,5" plays="4" yards="2" top="1:34" start_how="PUNT" start_qtr="4" start_time="01:51" start_spot="LNN03" end_how="DOWNS" end_qtr="4" end_time="00:17" end_spot="LNN05" driveindex="22"></drive>
+  <drive vh="V" team="BLU" start="DOWNS,4,00:17,95" end="HALF,4,00:00,94" plays="1" yards="-1" top="0:17" start_how="DOWNS" start_qtr="4" start_time="00:17" start_spot="LNN05" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="LNN06" rz="1" driveindex="23"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="BLU" down="1" togo="10" spot="BLU35" context="V,1,10,V35" playid="0,1,0"
+      text="BLUE STORMS WIN THE COIN TOSS, DEFER TO SECOND HALF" newcontext="V,1,10,V35">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU35" context="V,1,10,V35" playid="0,2,1"
+      text="BLU ball on BLU35." newcontext="V,1,10,V35">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU35" context="V,1,10,V35" playid="0,3,2" type="K"
+      text="Gangi M. kickoff 60 yards to the LNN5, Mozzillo E. return 28 yards to the LNN33 (Villa S.)." newcontext="H,1,10,H33">
+    <p_ko vh="V" name="Gangi M." gain="60"></p_ko>
+    <p_kr vh="H" name="Mozzillo E." gain="28"></p_kr>
+    <p_tk vh="V" name="Villa S."></p_tk>
+   </play>
+   <drivestart poss="H,H33,12:00" vh="H" spot="H33" clock="12:00" driveindex="1,2"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="LNN33" context="H,1,10,H33" playid="1,1,3" type="P" turnover="I"
+      text="Di Girolamo D. pass intercepted by Kolonna Appu M. at the LNN42, Kolonna Appu M. return 21 yards to the LNN21 (TEAM)." newcontext="V,1,10,H21">
+    <p_pa vh="H" qb="Di Girolamo D." result="INT"></p_pa>
+    <p_ir vh="V" name="Kolonna Appu M." at="H42" gain="21"></p_ir>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <drivesum plays="1" yards="0" top="0:30" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,H21,12:00" vh="V" spot="H21" clock="12:00" driveindex="2,3"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="LNN21" context="V,1,10,H21" playid="2,1,4" clock="11:30"
+      text="BLUE STORMS BUSTO AR drive start at 11:30." newcontext="V,1,10,H21">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="LNN21" context="V,1,10,H21" playid="2,2,5" type="P"
+      text="Colombo L. pass complete to Villa S. for 9 yards to the LNN12 (Muca A.;Castaldi L.)." newcontext="V,2,1,H12">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Villa S." gain="9"></p_pa>
+    <p_tk vh="H" name="Muca A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Castaldi L." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="1" spot="LNN12" context="V,2,1,H12" playid="2,3,6" type="R" first="R"
+      text="Maj U. rush for 3 yards to the LNN9, 1ST DOWN BLU (Merante L.)." newcontext="V,1,0,H09">
+    <p_ru vh="V" name="Maj U." gain="3"></p_ru>
+    <p_tk vh="H" name="Merante L."></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="LNN09" context="V,1,0,H09" playid="2,4,7" type="P"
+      text="Colombo L. pass complete to Gangi M. for 1 yard to the LNN8 (Infantino E.)." newcontext="V,2,0,H08">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Gangi M." gain="1"></p_pa>
+    <p_tk vh="H" name="Infantino E."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="0" spot="LNN08" context="V,2,0,H08" playid="2,5,8" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L.." newcontext="V,3,0,H08">
+    <p_pa vh="V" qb="Colombo L." result="INC" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="3" togo="0" spot="LNN08" context="V,3,0,H08" playid="2,6,9" type="R"
+      text="Colombo L. rush for 7 yards to the LNN1, out-of-bounds (Castaldi L.)." ob="Y" newcontext="V,4,0,H01">
+    <p_ru vh="V" name="Colombo L." gain="7"></p_ru>
+    <p_tk vh="H" name="Castaldi L."></p_tk>
+   </play>
+   <play hasball="BLU" down="4" togo="0" spot="LNN01" context="V,4,0,H01" playid="2,7,10" type="#" clock="09:07"
+      text="Timeout Lancieri Novara, clock 09:07." newcontext="V,4,0,H01">
+    <p_to vh="H" team="Lancieri Novara"></p_to>
+   </play>
+   <play hasball="BLU" down="4" togo="0" spot="LNN01" context="V,4,0,H01" playid="2,8,11" type="R" score="Y" clock="09:00"
+      text="Colombo L. rush for 1 yard to the LNN0, TOUCHDOWN, clock 09:00." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Colombo L." gain="1"></p_ru>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="LNN03" context="V,1,0,H03" playid="2,9,12" type="E"
+      text="Gangi M. kick attempt good, PENALTY BLU illegal block (Carboni L.) 5 yards to the LNN8, NO PLAY." newcontext="V,1,0,H08">
+    <p_pn vh="V" code="BL" type="illegal block" name="Carboni L." result="ACCEPT" at="H03" yards="5"></p_pn>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="LNN08" context="V,1,0,H08" playid="2,10,13" type="X" score="Y"
+      text="Gangi M. kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Gangi M." qb="Gangi M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="0"></score>
+   <drivesum plays="6" yards="21" top="2:30" driveindex="2" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU35" context="V,1,0,V35" playid="2,11,14" type="K"
+      text="Gangi M. kickoff 58 yards to the LNN7, Mozzillo E. return 16 yards to the LNN23, out-of-bounds (Gariboldi F.)." ob="Y" newcontext="H,1,10,H23">
+    <p_ko vh="V" name="Gangi M." gain="58"></p_ko>
+    <p_kr vh="H" name="Mozzillo E." gain="16"></p_kr>
+    <p_tk vh="V" name="Gariboldi F."></p_tk>
+   </play>
+   <drivestart poss="H,H23,09:00" vh="H" spot="H23" clock="09:00" driveindex="3,14"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="LNN23" context="H,1,10,H23" playid="3,1,15" clock="08:40"
+      text="LANCIERI NOVARA drive start at 08:40." newcontext="H,1,10,H23">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="LNN23" context="H,1,10,H23" playid="3,2,16" type="R"
+      text="Di Girolamo D. rush for 9 yards to the LNN32, out-of-bounds (Macchi E.)." ob="Y" newcontext="H,2,1,H32">
+    <p_ru vh="H" name="Di Girolamo D." gain="9"></p_ru>
+    <p_tk vh="V" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="1" spot="LNN32" context="H,2,1,H32" playid="3,3,17" type="R" first="R"
+      text="Scarpa N. rush for 14 yards to the LNN46, 1ST DOWN LNN (Macchi E.)." newcontext="H,1,10,H46">
+    <p_ru vh="H" name="Scarpa N." gain="14"></p_ru>
+    <p_tk vh="V" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="LNN46" context="H,1,10,H46" playid="3,4,18" type="R"
+      text="Scarpa N. rush for loss of 8 yards to the LNN38, fumble by Scarpa N. recovered by LNN Scarpa N. at LNN45 (Piccoli M.)." newcontext="H,2,11,H45">
+    <p_ru vh="H" name="Scarpa N." gain="-8"></p_ru>
+    <p_fumb vh="H" name="Scarpa N." at="H45" frvh="H" frname="Scarpa N."></p_fumb>
+    <p_tk vh="V" name="Piccoli M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="11" spot="LNN45" context="H,2,11,H45" playid="3,5,19" type="P"
+      text="Di Girolamo D. sacked for loss of 9 yards to the LNN36 (Valera R.), PENALTY BLU face mask (Valera R.) 15 yards to the BLU49." newcontext="H,2,5,V49">
+    <p_pa vh="H" qb="Di Girolamo D." result="SACK" gain="-9"></p_pa>
+    <p_tk vh="V" name="Valera R." sack="Y" tfl="Y"></p_tk>
+    <p_pn vh="V" code="FM" type="face mask" name="Valera R." result="ACCEPT" at="H36" yards="15"></p_pn>
+   </play>
+   <play hasball="LNN" down="2" togo="5" spot="BLU49" context="H,2,5,V49" playid="3,6,20"
+      text="1st and 10." newcontext="H,1,10,V49">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU49" context="H,1,10,V49" playid="3,7,21" type="P"
+      text="Di Girolamo D. pass complete to Pricoco A. for 9 yards to the BLU40 (Kolonna Appu M.), PENALTY LNN holding 10 yards to the 50 yardline." newcontext="H,1,11,H50">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Pricoco A." gain="9"></p_pa>
+    <p_tk vh="V" name="Kolonna Appu M."></p_tk>
+    <p_pn vh="H" code="HO" type="holding" result="ACCEPT" at="V40" yards="10"></p_pn>
+   </play>
+   <play hasball="LNN" down="1" togo="11" spot="LNN50" context="H,1,11,H50" playid="3,8,22"
+      text="1st and 11." newcontext="H,1,11,H50">
+   </play>
+   <play hasball="LNN" down="1" togo="11" spot="LNN50" context="H,1,11,H50" playid="3,9,23" type="P"
+      text="Di Girolamo D. pass incomplete to Miccoli L.." newcontext="H,2,11,H50">
+    <p_pa vh="H" qb="Di Girolamo D." result="INC" rcv="Miccoli L."></p_pa>
+   </play>
+   <play hasball="LNN" down="2" togo="11" spot="LNN50" context="H,2,11,H50" playid="3,10,24" type="E" first="E"
+      text="Di Girolamo D. pass incomplete to Miccoli L., PENALTY BLU pass interference (Gariboldi F.) 15 yards to the BLU35, 1ST DOWN LNN, NO PLAY." newcontext="H,1,10,V35">
+    <p_pn vh="V" code="PI" type="pass interference" name="Gariboldi F." result="ACCEPT" at="H50" yards="15"></p_pn>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU35" context="H,1,10,V35" playid="3,11,25" type="R"
+      text="Scarpa N. rush for loss of 2 yards to the BLU37 (Lana A.;Cubicciotti C.)." newcontext="H,2,12,V37">
+    <p_ru vh="H" name="Scarpa N." gain="-2"></p_ru>
+    <p_tk vh="V" name="Lana A." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Cubicciotti C." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="12" spot="BLU37" context="H,2,12,V37" playid="3,12,26" type="R"
+      text="Di Girolamo D. rush for loss of 4 yards to the BLU41 (Valera R.)." newcontext="H,3,16,V41">
+    <p_ru vh="H" name="Di Girolamo D." gain="-4"></p_ru>
+    <p_tk vh="V" name="Valera R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LNN" down="3" togo="16" spot="BLU41" context="H,3,16,V41" playid="3,13,27" type="P"
+      text="Di Girolamo D. pass complete to Pricoco A. for 5 yards to the BLU36 (Donati A.)." newcontext="H,4,11,V36">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Pricoco A." gain="5"></p_pa>
+    <p_tk vh="V" name="Donati A."></p_tk>
+   </play>
+   <play hasball="LNN" down="4" togo="11" spot="BLU36" context="H,4,11,V36" playid="3,14,28" type="P"
+      text="Di Girolamo D. pass complete to Pricoco A. for 9 yards to the BLU27 (Kolonna Appu M.)." newcontext="V,1,10,V27">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Pricoco A." gain="9"></p_pa>
+    <p_tk vh="V" name="Kolonna Appu M."></p_tk>
+   </play>
+   <drivesum plays="10" yards="50" top="4:52" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="V,V27,08:40" vh="V" spot="V27" clock="08:40" driveindex="4,28"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU27" context="V,1,10,V27" playid="4,1,29" clock="03:48"
+      text="BLUE STORMS BUSTO AR drive start at 03:48." newcontext="V,1,10,V27">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU27" context="V,1,10,V27" playid="4,2,30" type="R"
+      text="Maj U. rush for 3 yards to the BLU30, out-of-bounds (Infantino E.)." ob="Y" newcontext="V,2,7,V30">
+    <p_ru vh="V" name="Maj U." gain="3"></p_ru>
+    <p_tk vh="H" name="Infantino E."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="7" spot="BLU30" context="V,2,7,V30" playid="4,3,31" type="P" first="P" score="Y" clock="03:00"
+      text="Colombo L. pass complete to Tovaglieri L. for 70 yards to the LNN0, 1ST DOWN BLU, TOUCHDOWN, clock 03:00." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="70"></p_pa>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="LNN03" context="V,1,0,H03" playid="4,4,32" type="X"
+      text="Gangi M. kick attempt failed." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Gangi M." qb="Gangi M." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="13" H="0"></score>
+   <drivesum plays="2" yards="73" top="0:48" driveindex="4" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU35" context="V,1,0,V35" playid="4,5,33" type="K"
+      text="Gangi M. kickoff 65 yards to the LNN0, Manneh L. return 15 yards to the LNN15 (Villa S.)." newcontext="H,1,10,H15">
+    <p_ko vh="V" name="Gangi M." gain="65"></p_ko>
+    <p_kr vh="H" name="Manneh L." gain="15"></p_kr>
+    <p_tk vh="V" name="Villa S."></p_tk>
+   </play>
+   <drivestart poss="H,H15,03:00" vh="H" spot="H15" clock="03:00" driveindex="5,33"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="LNN15" context="H,1,10,H15" playid="5,1,34" clock="02:55"
+      text="LANCIERI NOVARA drive start at 02:55." newcontext="H,1,10,H15">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="LNN15" context="H,1,10,H15" playid="5,2,35" type="R"
+      text="Scarpa N. rush for loss of 4 yards to the LNN11, fumble by Scarpa N. recovered by LNN Di Girolamo D. at LNN10 (Valera R.)." newcontext="H,2,15,H10">
+    <p_ru vh="H" name="Scarpa N." gain="-4"></p_ru>
+    <p_fumb vh="H" name="Scarpa N." at="H10" frvh="H" frname="Di Girolamo D."></p_fumb>
+    <p_tk vh="V" name="Valera R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="15" spot="LNN10" context="H,2,15,H10" playid="5,3,36" type="R"
+      text="Scarpa N. rush for 6 yards to the LNN16, out-of-bounds (Macchi E.)." ob="Y" newcontext="H,3,9,H16">
+    <p_ru vh="H" name="Scarpa N." gain="6"></p_ru>
+    <p_tk vh="V" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="LNN" down="3" togo="9" spot="LNN16" context="H,3,9,H16" playid="5,4,37" type="P" first="P"
+      text="Di Girolamo D. pass complete to Mozzillo E. for 37 yards to the BLU47, 1ST DOWN LNN (Donati A.)." newcontext="H,1,10,V47">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Mozzillo E." gain="37"></p_pa>
+    <p_tk vh="V" name="Donati A."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU47" context="H,1,10,V47" playid="5,5,38" type="P"
+      text="Di Girolamo D. pass incomplete (Piccoli M.)." newcontext="H,2,10,V47">
+    <p_pa vh="H" qb="Di Girolamo D." result="INC"></p_pa>
+    <p_bu vh="V" name="Piccoli M."></p_bu>
+   </play>
+   <play hasball="LNN" down="2" togo="10" spot="BLU47" context="H,2,10,V47" playid="5,6,39" type="R" turnover="F"
+      text="TEAM rush for no gain to the BLU47, fumble by TEAM recovered by BLU Macchi E. at BLU47." newcontext="V,1,10,V47">
+    <p_ru vh="H" name="TEAM" gain="0"></p_ru>
+    <p_fumb vh="H" name="TEAM" at="V47" frvh="V" frname="Macchi E."></p_fumb>
+   </play>
+   <drivesum plays="5" yards="38" top="1:37" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V47,02:55" vh="V" spot="V47" clock="02:55" driveindex="6,39"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU47" context="V,1,10,V47" playid="6,1,40" clock="01:18"
+      text="BLUE STORMS BUSTO AR drive start at 01:18." newcontext="V,1,10,V47">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU47" context="V,1,10,V47" playid="6,2,41" type="R"
+      text="Maj U. rush for 4 yards to the LNN49 (Andreoni M.;Molla X.)." newcontext="V,2,6,H49">
+    <p_ru vh="V" name="Maj U." gain="4"></p_ru>
+    <p_tk vh="H" name="Andreoni M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Molla X." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="6" spot="LNN49" context="V,2,6,H49" playid="6,3,42" type="P"
+      text="Colombo L. pass complete to Tovaglieri L. for 3 yards to the LNN46 (Castaldi L.;Muca A.)." newcontext="V,3,3,H46">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="3"></p_pa>
+    <p_tk vh="H" name="Castaldi L." assist="Y"></p_tk>
+    <p_tk vh="H" name="Muca A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="3" togo="3" spot="LNN46" context="V,3,3,H46" playid="6,4,43" type="R"
+      text="Maj U. rush for no gain to the LNN46 (Andreoni M.;Merante L.)." newcontext="V,4,3,H46">
+    <p_ru vh="V" name="Maj U." gain="0"></p_ru>
+    <p_tk vh="H" name="Andreoni M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Merante L." assist="Y"></p_tk>
+   </play>
+   <score qtr="1" V="13" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BLU">
+    <firstdowns no="2" rush="1" pass="1" penalty="0"></firstdowns>
+    <penalties no="3" yds="35"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:36"></misc>
+    <rush att="6" yds="18" gain="18" loss="0" td="1" long="7"></rush>
+    <pass comp="4" att="5" int="0" yds="83" td="1" long="70" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="83" td="1" long="70"></rcv>
+    <ko no="3" yds="183" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="1"></pat>
+    <defense tackua="14" tacka="2" tot_tack="16" tflua="6" tfla="0" tflyds="23" sacks="1" sackyds="9" brup="1" fr="1" fryds="0" int="1" intyds="21"></defense>
+    <ir no="1" yds="21" td="0" long="21"></ir>
+    <scoring td="2" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LNN">
+    <firstdowns no="3" rush="1" pass="1" penalty="1"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="3" lost="1"></fumbles>
+    <misc yds="0" top="07:24"></misc>
+    <rush att="9" yds="8" gain="29" loss="21" td="0" long="14"></rush>
+    <pass comp="4" att="7" int="1" yds="60" td="0" long="37" sacks="1" sackyds="9"></pass>
+    <rcv no="4" yds="60" td="0" long="37"></rcv>
+    <defense tackua="5" tacka="8" tot_tack="13" sacks="0" sackyds="0"></defense>
+    <kr no="3" yds="59" td="0" long="28"></kr>
+    <fumbles no="3" lost="1"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="BLU" down="4" togo="3" spot="LNN46" context="V,4,3,H46" playid="6,5,44" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="V,4,3,H46">
+   </play>
+   <play hasball="BLU" down="4" togo="3" spot="LNN46" context="V,4,3,H46" playid="6,6,45" type="#" clock="12:00"
+      text="Timeout Lancieri Novara, clock 12:00." newcontext="V,4,3,H46">
+    <p_to vh="H" team="Lancieri Novara"></p_to>
+   </play>
+   <play hasball="BLU" down="4" togo="3" spot="LNN46" context="V,4,3,H46" playid="6,7,46" type="P" first="P"
+      text="Colombo L. pass complete to Dotti L. for 27 yards to the LNN19, 1ST DOWN BLU (Mozzillo E.), PENALTY LNN offside defense declined." newcontext="V,1,10,H19">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Dotti L." gain="27"></p_pa>
+    <p_tk vh="H" name="Mozzillo E."></p_tk>
+    <p_pn vh="H" code="OD" type="offside defense" result="DECLINE"></p_pn>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="LNN19" context="V,1,10,H19" playid="6,8,47" type="P" first="P"
+      text="Colombo L. pass complete to Tovaglieri L. for 17 yards to the LNN2, 1ST DOWN BLU." newcontext="V,1,0,H02">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="17"></p_pa>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="LNN02" context="V,1,0,H02" playid="6,9,48" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L.." newcontext="V,2,0,H02">
+    <p_pa vh="V" qb="Colombo L." result="INC" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="2" togo="0" spot="LNN02" context="V,2,0,H02" playid="6,10,49" type="R"
+      text="Maj U. rush for no gain to the LNN2 (Merante L.;Andreoni M.)." newcontext="V,3,0,H02">
+    <p_ru vh="V" name="Maj U." gain="0"></p_ru>
+    <p_tk vh="H" name="Merante L." assist="Y"></p_tk>
+    <p_tk vh="H" name="Andreoni M." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="3" togo="0" spot="LNN02" context="V,3,0,H02" playid="6,11,50" type="P" score="Y" clock="10:22"
+      text="Colombo L. pass complete to Tovaglieri L. for 2 yards to the LNN0, TOUCHDOWN, clock 10:22." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="2"></p_pa>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="LNN03" context="V,1,0,H03" playid="6,12,51" type="X" score="Y"
+      text="Colombo L. rush attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Colombo L." qb="Colombo L." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="21" H="0"></score>
+   <drivesum plays="8" yards="53" top="2:56" driveindex="6" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU35" context="V,1,0,V35" playid="6,13,52" type="K"
+      text="Gangi M. kickoff 50 yards to the LNN15, Mozzillo E. return 19 yards to the LNN34 (Dotti L.;Filippini A.)." newcontext="H,1,10,H34">
+    <p_ko vh="V" name="Gangi M." gain="50"></p_ko>
+    <p_kr vh="H" name="Mozzillo E." gain="19"></p_kr>
+    <p_tk vh="V" name="Dotti L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Filippini A." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="H,H34,10:22" vh="H" spot="H34" clock="10:22" driveindex="7,52"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="LNN34" context="H,1,10,H34" playid="7,1,53" clock="10:10"
+      text="LANCIERI NOVARA drive start at 10:10." newcontext="H,1,10,H34">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="LNN34" context="H,1,10,H34" playid="7,2,54" type="R"
+      text="Scarpa N. rush for 1 yard to the LNN35." newcontext="H,2,9,H35">
+    <p_ru vh="H" name="Scarpa N." gain="1"></p_ru>
+   </play>
+   <play hasball="LNN" down="2" togo="9" spot="LNN35" context="H,2,9,H35" playid="7,3,55" type="P"
+      text="Di Girolamo D. pass incomplete to Miccoli L., dropped pass." newcontext="H,3,9,H35">
+    <p_pa vh="H" qb="Di Girolamo D." result="DROP" rcv="Miccoli L."></p_pa>
+   </play>
+   <play hasball="LNN" down="3" togo="9" spot="LNN35" context="H,3,9,H35" playid="7,4,56" type="P" first="P"
+      text="Di Girolamo D. pass complete to Zuliani L. for 16 yards to the BLU49, 1ST DOWN LNN, out-of-bounds (Simboli V.)." ob="Y" newcontext="H,1,10,V49">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Zuliani L." gain="16"></p_pa>
+    <p_tk vh="V" name="Simboli V."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU49" context="H,1,10,V49" playid="7,5,57" type="R"
+      text="Scarpa N. rush for 3 yards to the BLU46 (Hettiarachch A.;Ferrazzi A.)." newcontext="H,2,7,V46">
+    <p_ru vh="H" name="Scarpa N." gain="3"></p_ru>
+    <p_tk vh="V" name="Hettiarachch A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Ferrazzi A." assist="Y"></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="7" spot="BLU46" context="H,2,7,V46" playid="7,6,58" type="P" first="P"
+      text="Di Girolamo D. pass complete to Pricoco A. for 10 yards to the BLU36, 1ST DOWN LNN (Kolonna Appu M.)." newcontext="H,1,10,V36">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Pricoco A." gain="10"></p_pa>
+    <p_tk vh="V" name="Kolonna Appu M."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU36" context="H,1,10,V36" playid="7,7,59" type="P" first="P"
+      text="Di Girolamo D. pass complete to Mozzillo E. for 30 yards to the BLU6, 1ST DOWN LNN (Pedol S.)." newcontext="H,1,0,V06">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Mozzillo E." gain="30"></p_pa>
+    <p_tk vh="V" name="Pedol S."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU06" context="H,1,0,V06" playid="7,8,60" type="R"
+      text="Di Girolamo D. rush for 5 yards to the BLU1, out-of-bounds (Gariboldi F.)." ob="Y" newcontext="H,2,0,V01">
+    <p_ru vh="H" name="Di Girolamo D." gain="5"></p_ru>
+    <p_tk vh="V" name="Gariboldi F."></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="0" spot="BLU01" context="H,2,0,V01" playid="7,9,61" type="P" score="Y" clock="06:32"
+      text="Di Girolamo D. pass complete to Manneh L. for 1 yard to the BLU0, TOUCHDOWN, clock 06:32, PENALTY BLU offside defense declined." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Manneh L." gain="1"></p_pa>
+    <p_pn vh="V" code="OD" type="offside defense" name="Kolonna Appu M." result="DECLINE"></p_pn>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU03" context="H,1,0,V03" playid="7,10,62" type="X"
+      text="Pricoco A. kick attempt failed (blocked) (blocked by Macchi E.)." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Pricoco A." qb="Pricoco A." type="K" result="BLOCKED"></p_pat>
+   </play>
+   <score V="21" H="6"></score>
+   <drivesum plays="8" yards="66" top="3:38" driveindex="7" complete="Y"></drivesum>
+   <play hasball="LNN" down="1" togo="0" spot="LNN35" context="H,1,0,H35" playid="7,11,63" type="K"
+      text="Pricoco A. kickoff 65 yards to the BLU0, touchback." newcontext="V,1,10,V20">
+    <p_ko vh="H" name="Pricoco A." gain="65" result="T"></p_ko>
+   </play>
+   <drivestart poss="V,V20,06:32" vh="V" spot="V20" clock="06:32" driveindex="8,63"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU20" context="V,1,10,V20" playid="8,1,64" clock="06:20"
+      text="BLUE STORMS BUSTO AR drive start at 06:20." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU20" context="V,1,10,V20" playid="8,2,65" type="P" first="P"
+      text="Colombo L. pass complete to Villa S. for 39 yards to the LNN41, 1ST DOWN BLU (Castaldi L.;Molla X.)." newcontext="V,1,10,H41">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Villa S." gain="39"></p_pa>
+    <p_tk vh="H" name="Castaldi L." assist="Y"></p_tk>
+    <p_tk vh="H" name="Molla X." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="LNN41" context="V,1,10,H41" playid="8,3,66" type="P"
+      text="Colombo L. pass complete to Tovaglieri L. for 7 yards to the LNN34 (Infantino E.)." newcontext="V,2,3,H34">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="7"></p_pa>
+    <p_tk vh="H" name="Infantino E."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="3" spot="LNN34" context="V,2,3,H34" playid="8,4,67" type="R"
+      text="Maj U. rush for loss of 4 yards to the LNN38 (Molla X.)." newcontext="V,3,7,H38">
+    <p_ru vh="V" name="Maj U." gain="-4"></p_ru>
+    <p_tk vh="H" name="Molla X." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="3" togo="7" spot="LNN38" context="V,3,7,H38" playid="8,5,68" type="P" first="P"
+      text="Colombo L. pass complete to Tovaglieri L. for 8 yards to the LNN30, 1ST DOWN BLU, out-of-bounds (Castaldi L.)." ob="Y" newcontext="V,1,10,H30">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="8"></p_pa>
+    <p_tk vh="H" name="Castaldi L."></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="LNN30" context="V,1,10,H30" playid="8,6,69" type="#" clock="04:26"
+      text="Timeout Lancieri Novara, clock 04:26." newcontext="V,1,10,H30">
+    <p_to vh="H" team="Lancieri Novara"></p_to>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="LNN30" context="V,1,10,H30" playid="8,7,70" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L., dropped pass." newcontext="V,2,10,H30">
+    <p_pa vh="V" qb="Colombo L." result="DROP" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="2" togo="10" spot="LNN30" context="V,2,10,H30" playid="8,8,71" type="R"
+      text="Colombo L. rush for loss of 12 yards to the LNN42, out-of-bounds, PENALTY BLU illegal block 15 yards to the BLU43." ob="Y" newcontext="V,2,37,V43">
+    <p_ru vh="V" name="Colombo L." gain="-12"></p_ru>
+    <p_pn vh="V" code="BL" type="illegal block" result="ACCEPT" at="H42" yards="15"></p_pn>
+   </play>
+   <play hasball="BLU" down="2" togo="37" spot="BLU43" context="V,2,37,V43" playid="8,9,72"
+      text="2nd and 37." newcontext="V,2,37,V43">
+   </play>
+   <play hasball="BLU" down="2" togo="37" spot="BLU43" context="V,2,37,V43" playid="8,10,73" type="E"
+      text="PENALTY BLU false start (Filippini A.) 5 yards to the BLU38." newcontext="V,2,42,V38">
+    <p_pn vh="V" code="FS" type="false start" name="Filippini A." result="ACCEPT" at="V43" yards="5"></p_pn>
+   </play>
+   <play hasball="BLU" down="2" togo="42" spot="BLU38" context="V,2,42,V38" playid="8,11,74" type="P"
+      text="Colombo L. pass incomplete to Gangi M.." newcontext="V,3,42,V38">
+    <p_pa vh="V" qb="Colombo L." result="INC" rcv="Gangi M."></p_pa>
+   </play>
+   <play hasball="BLU" down="3" togo="42" spot="BLU38" context="V,3,42,V38" playid="8,12,75" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L.." newcontext="V,4,42,V38">
+    <p_pa vh="V" qb="Colombo L." result="INC" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="4" togo="42" spot="BLU38" context="V,4,42,V38" playid="8,13,76" type="#" clock="03:42"
+      text="Timeout Blue Storms Busto Ar, clock 03:42." newcontext="V,4,42,V38">
+    <p_to vh="V" team="Blue Storms Busto Ar"></p_to>
+   </play>
+   <play hasball="BLU" down="4" togo="42" spot="BLU38" context="V,4,42,V38" playid="8,14,77" type="U"
+      text="Gangi M. punt 41 yards to the LNN21, Mozzillo E. return 7 yards to the LNN28 (Filippini A.;Tovaglieri L.)." newcontext="H,1,10,H28">
+    <p_pu vh="V" name="Gangi M." gain="41"></p_pu>
+    <p_pr vh="H" name="Mozzillo E." gain="7"></p_pr>
+    <p_tk vh="V" name="Filippini A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Tovaglieri L." assist="Y"></p_tk>
+   </play>
+   <drivesum plays="8" yards="18" top="2:58" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="H,H28,03:42" vh="H" spot="H28" clock="03:42" driveindex="9,77"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="LNN28" context="H,1,10,H28" playid="9,1,78" clock="03:22"
+      text="LANCIERI NOVARA drive start at 03:22." newcontext="H,1,10,H28">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="LNN28" context="H,1,10,H28" playid="9,2,79" type="P"
+      text="Di Girolamo D. pass incomplete to Miccoli L.." newcontext="H,2,10,H28">
+    <p_pa vh="H" qb="Di Girolamo D." result="INC" rcv="Miccoli L."></p_pa>
+   </play>
+   <play hasball="LNN" down="2" togo="10" spot="LNN28" context="H,2,10,H28" playid="9,3,80" type="P"
+      text="Di Girolamo D. pass incomplete to Zuliani L.." newcontext="H,3,10,H28">
+    <p_pa vh="H" qb="Di Girolamo D." result="INC" rcv="Zuliani L."></p_pa>
+   </play>
+   <play hasball="LNN" down="3" togo="10" spot="LNN28" context="H,3,10,H28" playid="9,4,81" type="P" turnover="F"
+      text="Di Girolamo D. pass complete to Pricoco A. for 10 yards to the LNN38, fumble by Pricoco A. recovered by BLU Simboli V. at LNN38, Simboli V. for 27 yards to the LNN11 (TEAM)." newcontext="V,1,10,H11">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Pricoco A." gain="10"></p_pa>
+    <p_fr vh="V" name="Simboli V." gain="27"></p_fr>
+    <p_fumb vh="H" name="Pricoco A." at="H38" frvh="V" frname="Simboli V."></p_fumb>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <drivesum plays="3" yards="10" top="0:50" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="V,H11,03:22" vh="V" spot="H11" clock="03:22" driveindex="10,81"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="LNN11" context="V,1,10,H11" playid="10,1,82" clock="02:32"
+      text="BLUE STORMS BUSTO AR drive start at 02:32, BLU ball on LNN11." newcontext="V,1,10,H11">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="LNN11" context="V,1,10,H11" playid="10,2,83" type="R"
+      text="Colombo L. rush for 7 yards to the LNN4, out-of-bounds (Manneh L.)." ob="Y" newcontext="V,2,3,H04">
+    <p_ru vh="V" name="Colombo L." gain="7"></p_ru>
+    <p_tk vh="H" name="Manneh L."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="3" spot="LNN04" context="V,2,3,H04" playid="10,3,84" type="R" first="R" score="Y" clock="02:00"
+      text="Maj U. rush for 4 yards to the LNN0, 1ST DOWN BLU, TOUCHDOWN, clock 02:00." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Maj U." gain="4"></p_ru>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="LNN03" context="V,1,0,H03" playid="10,4,85" type="X" score="Y"
+      text="Gangi M. kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Gangi M." qb="Gangi M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="28" H="6"></score>
+   <play hasball="BLU" down="1" togo="0" spot="BLU35" context="V,1,0,V35" playid="10,5,86" type="E"
+      text="Gangi M. kickoff 35 yards to the LNN30, out-of-bounds, PENALTY BLU illegal kicking (Gangi M.) 5 yards to the BLU30, NO PLAY." ob="Y" newcontext="V,1,0,V30">
+    <p_pn vh="V" code="KK" type="illegal kicking" name="Gangi M." result="ACCEPT" at="V35" yards="5"></p_pn>
+   </play>
+   <drivesum plays="2" yards="11" top="0:32" driveindex="10" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU30" context="V,1,0,V30" playid="10,6,87" type="K"
+      text="Gangi M. kickoff 55 yards to the LNN15, Manneh L. return 27 yards to the LNN42 (Hettiarachch A.;Tovaglieri L.)." newcontext="H,1,10,H42">
+    <p_ko vh="V" name="Gangi M." gain="55"></p_ko>
+    <p_kr vh="H" name="Manneh L." gain="27"></p_kr>
+    <p_tk vh="V" name="Hettiarachch A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Tovaglieri L." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="H,H42,02:00" vh="H" spot="H42" clock="02:00" driveindex="11,87"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="LNN42" context="H,1,10,H42" playid="11,1,88" clock="01:54"
+      text="LANCIERI NOVARA drive start at 01:54." newcontext="H,1,10,H42">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="LNN42" context="H,1,10,H42" playid="11,2,89" type="P"
+      text="Di Girolamo D. pass incomplete to Mozzillo E.." newcontext="H,2,10,H42">
+    <p_pa vh="H" qb="Di Girolamo D." result="INC" rcv="Mozzillo E."></p_pa>
+   </play>
+   <play hasball="LNN" down="2" togo="10" spot="LNN42" context="H,2,10,H42" playid="11,3,90" type="P" first="P"
+      text="Di Girolamo D. pass complete to Manneh L. for 23 yards to the BLU35, 1ST DOWN LNN (Kolonna Appu M.)." newcontext="H,1,10,V35">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Manneh L." gain="23"></p_pa>
+    <p_tk vh="V" name="Kolonna Appu M."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU35" context="H,1,10,V35" playid="11,4,91" type="P" first="P"
+      text="Di Girolamo D. pass complete to Zuliani L. for 16 yards to the BLU19, 1ST DOWN LNN (Simboli V.;Macchi E.)." newcontext="H,1,10,V19">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Zuliani L." gain="16"></p_pa>
+    <p_tk vh="V" name="Simboli V." assist="Y"></p_tk>
+    <p_tk vh="V" name="Macchi E." assist="Y"></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU19" context="H,1,10,V19" playid="11,5,92" type="R"
+      text="Di Girolamo D. rush for 1 yard to the BLU18, out-of-bounds (Hettiarachch A.)." ob="Y" newcontext="H,2,9,V18">
+    <p_ru vh="H" name="Di Girolamo D." gain="1"></p_ru>
+    <p_tk vh="V" name="Hettiarachch A."></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="9" spot="BLU18" context="H,2,9,V18" playid="11,6,93" type="P"
+      text="Di Girolamo D. pass incomplete to Miccoli L., dropped pass." newcontext="H,3,9,V18">
+    <p_pa vh="H" qb="Di Girolamo D." result="DROP" rcv="Miccoli L."></p_pa>
+   </play>
+   <play hasball="LNN" down="3" togo="9" spot="BLU18" context="H,3,9,V18" playid="11,7,94" type="P" first="P"
+      text="Di Girolamo D. pass complete to Manneh L. for 11 yards to the BLU7, 1ST DOWN LNN (Simboli V.)." newcontext="H,1,0,V07">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Manneh L." gain="11"></p_pa>
+    <p_tk vh="V" name="Simboli V."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU07" context="H,1,0,V07" playid="11,8,95" type="R" score="Y" clock="00:15"
+      text="Di Girolamo D. rush for 7 yards to the BLU0, TOUCHDOWN, clock 00:15." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Di Girolamo D." gain="7"></p_ru>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU03" context="H,1,0,V03" playid="11,9,96" type="X"
+      text="Di Girolamo D. pass attempt failed." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Di Girolamo D." qb="Di Girolamo D." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="28" H="12"></score>
+   <drivesum plays="7" yards="58" top="1:39" driveindex="11" complete="Y"></drivesum>
+   <play hasball="LNN" down="1" togo="0" spot="LNN35" context="H,1,0,H35" playid="11,10,97" type="K"
+      text="Pricoco A. kickoff 46 yards to the BLU19, Villa S. return 29 yards to the BLU48, out-of-bounds (Zuliani L.)." ob="Y" newcontext="V,1,10,V48">
+    <p_ko vh="H" name="Pricoco A." gain="46"></p_ko>
+    <p_kr vh="V" name="Villa S." gain="29"></p_kr>
+    <p_tk vh="H" name="Zuliani L."></p_tk>
+   </play>
+   <drivestart poss="V,V48,00:15" vh="V" spot="V48" clock="00:15" driveindex="12,97"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU48" context="V,1,10,V48" playid="12,1,98" clock="00:04"
+      text="BLUE STORMS BUSTO AR drive start at 00:04." newcontext="V,1,10,V48">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU48" context="V,1,10,V48" playid="12,2,99" type="P" first="P" score="Y" clock="00:00"
+      text="Colombo L. pass complete to Tovaglieri L. for 52 yards to the LNN0, 1ST DOWN BLU, TOUCHDOWN, clock 00:00." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="52"></p_pa>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="LNN03" context="V,1,0,H03" playid="12,3,100" type="X" score="Y"
+      text="Gangi M. kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Gangi M." qb="Gangi M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="35" H="12"></score>
+   <play hasball="BLU" down="1" togo="0" spot="BLU35" context="V,1,0,V35" playid="12,4,101" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="V,1,0,V35">
+   </play>
+   <drivesum plays="1" yards="52" top="0:04" driveindex="12" complete="Y"></drivesum>
+   <score qtr="2" V="35" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BLU">
+    <firstdowns no="6" rush="1" pass="5" penalty="0"></firstdowns>
+    <penalties no="3" yds="25"></penalties>
+    <conversions thirdconv="2" thirdatt="4" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:35"></misc>
+    <rush att="5" yds="-5" gain="11" loss="16" td="1" long="0"></rush>
+    <pass comp="7" att="11" int="0" yds="152" td="2" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="7" yds="152" td="2" long="0"></rcv>
+    <punt no="1" yds="41" long="41" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="41.0"></punt>
+    <ko no="2" yds="105" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2" rushatt="1" rushmade="1"></pat>
+    <defense tackua="7" tacka="10" tot_tack="17" sacks="1" sackyds="9" blkd="1" fr="1" fryds="27"></defense>
+    <kr no="1" yds="29" td="0" long="29"></kr>
+    <fr no="1" yds="27" td="0" long="27"></fr>
+    <scoring td="3" patkick="2" patrush="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LNN">
+    <firstdowns no="6" rush="0" pass="6" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="06:25"></misc>
+    <rush att="5" yds="17" gain="17" loss="0" td="1" long="0"></rush>
+    <pass comp="8" att="13" int="0" yds="117" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="8" yds="117" td="1" long="0"></rcv>
+    <ko no="2" yds="111" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="0" passatt="1" passmade="0"></pat>
+    <defense tackua="7" tacka="4" tot_tack="11" tflua="1" tfla="0" tflyds="4" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="46" td="0" long="0"></kr>
+    <pr no="1" yds="7" td="0" long="7"></pr>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="BLU" down="1" togo="0" spot="BLU35" context="V,1,0,V35" playid="12,5,102" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, LNN ball on LNN35." newcontext="H,1,0,H35">
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="LNN35" context="H,1,0,H35" playid="12,6,103" type="E"
+      text="Pricoco A. kickoff 39 yards to the BLU26, out-of-bounds, PENALTY LNN illegal kicking (Pricoco A.) 5 yards to the LNN30, NO PLAY." ob="Y" newcontext="H,1,0,H30">
+    <p_pn vh="H" code="KK" type="illegal kicking" name="Pricoco A." result="ACCEPT" at="H35" yards="5"></p_pn>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="LNN30" context="H,1,0,H30" playid="12,7,104" type="K"
+      text="Pricoco A. kickoff 53 yards to the BLU17, Villa S. return 25 yards to the BLU42 (Manneh L.)." newcontext="V,1,10,V42">
+    <p_ko vh="H" name="Pricoco A." gain="53"></p_ko>
+    <p_kr vh="V" name="Villa S." gain="25"></p_kr>
+    <p_tk vh="H" name="Manneh L."></p_tk>
+   </play>
+   <drivestart poss="V,V42,12:00" vh="V" spot="V42" clock="12:00" driveindex="13,104"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU42" context="V,1,10,V42" playid="13,1,105" clock="11:45"
+      text="BLUE STORMS BUSTO AR drive start at 11:45." newcontext="V,1,10,V42">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU42" context="V,1,10,V42" playid="13,2,106" type="P"
+      text="Colombo L. pass complete to Dotti L. for 7 yards to the BLU49 (Muca A.)." newcontext="V,2,3,V49">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Dotti L." gain="7"></p_pa>
+    <p_tk vh="H" name="Muca A."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="3" spot="BLU49" context="V,2,3,V49" playid="13,3,107" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L., dropped pass." newcontext="V,3,3,V49">
+    <p_pa vh="V" qb="Colombo L." result="DROP" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="3" togo="3" spot="BLU49" context="V,3,3,V49" playid="13,4,108" type="P" first="P"
+      text="Colombo L. pass complete to Gangi M. for 21 yards to the LNN30, 1ST DOWN BLU (Muca A.)." newcontext="V,1,10,H30">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Gangi M." gain="21"></p_pa>
+    <p_tk vh="H" name="Muca A."></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="LNN30" context="V,1,10,H30" playid="13,5,109" type="P"
+      text="Colombo L. pass complete to Tovaglieri L. for 8 yards to the LNN22 (Mozzillo E.)." newcontext="V,2,2,H22">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="8"></p_pa>
+    <p_tk vh="H" name="Mozzillo E."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="2" spot="LNN22" context="V,2,2,H22" playid="13,6,110" type="R" first="R" score="Y" clock="09:45"
+      text="Maj U. rush for 22 yards to the LNN0, 1ST DOWN BLU, TOUCHDOWN, clock 09:45." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Maj U." gain="22"></p_ru>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="LNN03" context="V,1,0,H03" playid="13,7,111" type="X" score="Y"
+      text="Filippini A. kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Filippini A." qb="Filippini A." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="42" H="12"></score>
+   <drivesum plays="5" yards="58" top="2:00" driveindex="13" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU35" context="V,1,0,V35" playid="13,8,112" type="K"
+      text="Filippini A. kickoff 52 yards to the LNN13, Manneh L. return 30 yards to the LNN43 (Kolonna Appu M.)." newcontext="H,1,10,H43">
+    <p_ko vh="V" name="Filippini A." gain="52"></p_ko>
+    <p_kr vh="H" name="Manneh L." gain="30"></p_kr>
+    <p_tk vh="V" name="Kolonna Appu M."></p_tk>
+   </play>
+   <drivestart poss="H,H43,09:45" vh="H" spot="H43" clock="09:45" driveindex="14,112"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="LNN43" context="H,1,10,H43" playid="14,1,113" clock="09:30"
+      text="LANCIERI NOVARA drive start at 09:30." newcontext="H,1,10,H43">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="LNN43" context="H,1,10,H43" playid="14,2,114" type="P" first="P"
+      text="Di Girolamo D. pass complete to Miccoli L. for 18 yards to the BLU39, 1ST DOWN LNN (Gariboldi F.)." newcontext="H,1,10,V39">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Miccoli L." gain="18"></p_pa>
+    <p_tk vh="V" name="Gariboldi F."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU39" context="H,1,10,V39" playid="14,3,115" type="P"
+      text="Di Girolamo D. pass incomplete to Mozzillo E. (Kolonna Appu M.)." newcontext="H,2,10,V39">
+    <p_pa vh="H" qb="Di Girolamo D." result="INC" rcv="Mozzillo E."></p_pa>
+    <p_bu vh="V" name="Kolonna Appu M."></p_bu>
+   </play>
+   <play hasball="LNN" down="2" togo="10" spot="BLU39" context="H,2,10,V39" playid="14,4,116" type="P"
+      text="Di Girolamo D. pass incomplete to Pricoco A., dropped pass." newcontext="H,3,10,V39">
+    <p_pa vh="H" qb="Di Girolamo D." result="DROP" rcv="Pricoco A."></p_pa>
+   </play>
+   <play hasball="LNN" down="3" togo="10" spot="BLU39" context="H,3,10,V39" playid="14,5,117" type="P" first="P"
+      text="Di Girolamo D. pass complete to Pricoco A. for 12 yards to the BLU27, 1ST DOWN LNN." newcontext="H,1,10,V27">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Pricoco A." gain="12"></p_pa>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU27" context="H,1,10,V27" playid="14,6,118" type="E"
+      text="Di Girolamo D. pass complete to Miccoli L. for 2 yards to the BLU25 (Simboli V.), PENALTY LNN illegal procedure 5 yards to the BLU32, NO PLAY." newcontext="H,1,15,V32">
+    <p_pn vh="H" code="PR" type="illegal procedure" result="ACCEPT" at="V27" yards="5"></p_pn>
+   </play>
+   <play hasball="LNN" down="1" togo="15" spot="BLU32" context="H,1,15,V32" playid="14,7,119" type="P"
+      text="Di Girolamo D. pass incomplete to Pricoco A.." newcontext="H,2,15,V32">
+    <p_pa vh="H" qb="Di Girolamo D." result="INC" rcv="Pricoco A."></p_pa>
+   </play>
+   <play hasball="LNN" down="2" togo="15" spot="BLU32" context="H,2,15,V32" playid="14,8,120" type="P"
+      text="Di Girolamo D. pass complete to Scarpa N. for 14 yards to the BLU18 (Macchi E.)." newcontext="H,3,1,V18">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Scarpa N." gain="14"></p_pa>
+    <p_tk vh="V" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="LNN" down="3" togo="1" spot="BLU18" context="H,3,1,V18" playid="14,9,121" type="P" first="P"
+      text="Di Girolamo D. pass complete to Manneh L. for 9 yards to the BLU9, 1ST DOWN LNN (Macchi E.)." newcontext="H,1,0,V09">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Manneh L." gain="9"></p_pa>
+    <p_tk vh="V" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU09" context="H,1,0,V09" playid="14,10,122" type="R"
+      text="Scarpa N. rush for 3 yards to the BLU6 (Donati A.)." newcontext="H,2,0,V06">
+    <p_ru vh="H" name="Scarpa N." gain="3"></p_ru>
+    <p_tk vh="V" name="Donati A."></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="0" spot="BLU06" context="H,2,0,V06" playid="14,11,123" type="R" score="Y" clock="06:31"
+      text="Di Girolamo D. rush for 6 yards to the BLU0, TOUCHDOWN, clock 06:31." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Di Girolamo D." gain="6"></p_ru>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU03" context="H,1,0,V03" playid="14,12,124" type="X"
+      text="Di Girolamo D. pass attempt failed." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Di Girolamo D." qb="Di Girolamo D." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="42" H="18"></score>
+   <play hasball="LNN" down="1" togo="0" spot="LNN35" context="H,1,0,H35" playid="14,13,125" type="E"
+      text="Pricoco A. kickoff 47 yards to the BLU18, out-of-bounds, PENALTY LNN illegal kicking (Pricoco A.) 5 yards to the LNN30, NO PLAY." ob="Y" newcontext="H,1,0,H30">
+    <p_pn vh="H" code="KK" type="illegal kicking" name="Pricoco A." result="ACCEPT" at="H35" yards="5"></p_pn>
+   </play>
+   <drivesum plays="9" yards="57" top="2:59" driveindex="14" complete="Y"></drivesum>
+   <play hasball="LNN" down="1" togo="0" spot="LNN30" context="H,1,0,H30" playid="14,14,126" type="K"
+      text="Pricoco A. kickoff 55 yards to the BLU15, Simboli V. return 17 yards to the BLU32, out-of-bounds (Rocha Silver C.)." ob="Y" newcontext="V,1,10,V32">
+    <p_ko vh="H" name="Pricoco A." gain="55"></p_ko>
+    <p_kr vh="V" name="Simboli V." gain="17"></p_kr>
+    <p_tk vh="H" name="Rocha Silver C."></p_tk>
+   </play>
+   <drivestart poss="V,V32,06:31" vh="V" spot="V32" clock="06:31" driveindex="15,126"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU32" context="V,1,10,V32" playid="15,1,127" clock="06:21"
+      text="BLUE STORMS BUSTO AR drive start at 06:21." newcontext="V,1,10,V32">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU32" context="V,1,10,V32" playid="15,2,128" type="P"
+      text="Colombo L. pass incomplete to Dotti L.." newcontext="V,2,10,V32">
+    <p_pa vh="V" qb="Colombo L." result="INC" rcv="Dotti L."></p_pa>
+   </play>
+   <play hasball="BLU" down="2" togo="10" spot="BLU32" context="V,2,10,V32" playid="15,3,129" type="R"
+      text="Colombo L. rush for 3 yards to the BLU35, out-of-bounds (Infantino E.)." ob="Y" newcontext="V,3,7,V35">
+    <p_ru vh="V" name="Colombo L." gain="3"></p_ru>
+    <p_tk vh="H" name="Infantino E."></p_tk>
+   </play>
+   <play hasball="BLU" down="3" togo="7" spot="BLU35" context="V,3,7,V35" playid="15,4,130" type="P"
+      text="Colombo L. pass complete to Colombo S. for 4 yards to the BLU39 (Castaldi L.)." newcontext="V,4,3,V39">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Colombo S." gain="4"></p_pa>
+    <p_tk vh="H" name="Castaldi L."></p_tk>
+   </play>
+   <play hasball="BLU" down="4" togo="3" spot="BLU39" context="V,4,3,V39" playid="15,5,131" type="P" first="P"
+      text="Colombo L. pass complete to Dotti L. for 8 yards to the BLU47, 1ST DOWN BLU, out-of-bounds (Muca A.)." ob="Y" newcontext="V,1,10,V47">
+    <p_pa vh="V" qb="Colombo L." result="COMP" rcv="Dotti L." gain="8"></p_pa>
+    <p_tk vh="H" name="Muca A."></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU47" context="V,1,10,V47" playid="15,6,132" type="R"
+      text="Maj U. rush for no gain to the BLU47 (Molla X.)." newcontext="V,2,10,V47">
+    <p_ru vh="V" name="Maj U." gain="0"></p_ru>
+    <p_tk vh="H" name="Molla X."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="10" spot="BLU47" context="V,2,10,V47" playid="15,7,133" type="P"
+      text="Colombo L. pass incomplete." newcontext="V,3,10,V47">
+    <p_pa vh="V" qb="Colombo L." result="INC"></p_pa>
+   </play>
+   <play hasball="BLU" down="3" togo="10" spot="BLU47" context="V,3,10,V47" playid="15,8,134" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L.." newcontext="V,4,10,V47">
+    <p_pa vh="V" qb="Colombo L." result="INC" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="4" togo="10" spot="BLU47" context="V,4,10,V47" playid="15,9,135" type="R"
+      text="TEAM rush for loss of 27 yards to the BLU20, fumble by TEAM recovered by BLU Filippini A. at BLU20." newcontext="H,1,10,V20">
+    <p_ru vh="V" name="TEAM" gain="-27"></p_ru>
+    <p_fumb vh="V" name="TEAM" at="V20" frvh="V" frname="Filippini A."></p_fumb>
+   </play>
+   <drivesum plays="8" yards="-12" top="3:16" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,V20,06:21" vh="H" spot="V20" clock="06:21" driveindex="16,135"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="BLU20" context="H,1,10,V20" playid="16,1,136" clock="03:05"
+      text="LANCIERI NOVARA drive start at 03:05." newcontext="H,1,10,V20">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU20" context="H,1,10,V20" playid="16,2,137" type="P"
+      text="Di Girolamo D. pass incomplete to Zuliani L.." newcontext="H,2,10,V20">
+    <p_pa vh="H" qb="Di Girolamo D." result="INC" rcv="Zuliani L."></p_pa>
+   </play>
+   <play hasball="LNN" down="2" togo="10" spot="BLU20" context="H,2,10,V20" playid="16,3,138" type="P"
+      text="Di Girolamo D. pass complete to Mozzillo E. for 8 yards to the BLU12 (Kolonna Appu M.;Macchi E.)." newcontext="H,3,2,V12">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Mozzillo E." gain="8"></p_pa>
+    <p_tk vh="V" name="Kolonna Appu M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Macchi E." assist="Y"></p_tk>
+   </play>
+   <play hasball="LNN" down="3" togo="2" spot="BLU12" context="H,3,2,V12" playid="16,4,139" type="R" first="R"
+      text="Di Girolamo D. rush for 3 yards to the BLU9, 1ST DOWN LNN (Valera R.)." newcontext="H,1,0,V09">
+    <p_ru vh="H" name="Di Girolamo D." gain="3"></p_ru>
+    <p_tk vh="V" name="Valera R."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU09" context="H,1,0,V09" playid="16,5,140" type="R"
+      text="Di Girolamo D. rush for loss of 1 yard to the BLU10 (Donati A.), PENALTY LNN personal foul (Manneh L.) 10 yards to the BLU20." newcontext="H,1,0,V20">
+    <p_ru vh="H" name="Di Girolamo D." gain="-1"></p_ru>
+    <p_tk vh="V" name="Donati A." tfl="Y"></p_tk>
+    <p_pn vh="H" code="PF" type="personal foul" name="Manneh L." result="ACCEPT" at="V10" yards="10"></p_pn>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU20" context="H,1,0,V20" playid="16,6,141"
+      text="1st and 20." newcontext="H,1,0,V20">
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU20" context="H,1,0,V20" playid="16,7,142" type="P" turnover="I"
+      text="Di Girolamo D. pass intercepted by Kolonna Appu M. at the BLU5, Kolonna Appu M. return 25 yards to the BLU30, out-of-bounds." ob="Y" newcontext="V,1,10,V30">
+    <p_pa vh="H" qb="Di Girolamo D." result="INT"></p_pa>
+    <p_ir vh="V" name="Kolonna Appu M." at="V05" gain="25"></p_ir>
+   </play>
+   <drivesum plays="5" yards="0" top="2:00" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="V,V30,03:05" vh="V" spot="V30" clock="03:05" driveindex="17,142"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU30" context="V,1,10,V30" playid="17,1,143" clock="01:05"
+      text="BLUE STORMS BUSTO AR drive start at 01:05." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU30" context="V,1,10,V30" playid="17,2,144" type="P"
+      text="Colombo L. pass incomplete to Filippini A.." newcontext="V,2,10,V30">
+    <p_pa vh="V" qb="Colombo L." result="INC" rcv="Filippini A."></p_pa>
+   </play>
+   <play hasball="BLU" down="2" togo="10" spot="BLU30" context="V,2,10,V30" playid="17,3,145" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L.." newcontext="V,3,10,V30">
+    <p_pa vh="V" qb="Colombo L." result="INC" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="3" togo="10" spot="BLU30" context="V,3,10,V30" playid="17,4,146" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L.." newcontext="V,4,10,V30">
+    <p_pa vh="V" qb="Colombo L." result="INC" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="4" togo="10" spot="BLU30" context="V,4,10,V30" playid="17,5,147" type="U"
+      text="Filippini A. punt 42 yards to the LNN28, Manneh L. return 32 yards to the BLU40 (Filippini A.)." newcontext="H,1,10,V40">
+    <p_pu vh="V" name="Filippini A." gain="42"></p_pu>
+    <p_pr vh="H" name="Manneh L." gain="32"></p_pr>
+    <p_tk vh="V" name="Filippini A."></p_tk>
+   </play>
+   <drivesum plays="3" yards="0" top="1:05" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,V40,01:05" vh="H" spot="V40" clock="01:05" driveindex="18,147"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="BLU40" context="H,1,10,V40" playid="18,1,148" clock="00:00"
+      text="LANCIERI NOVARA drive start at 00:00." newcontext="H,1,10,V40">
+   </play>
+   <score qtr="3" V="42" H="18"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BLU">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="06:46"></misc>
+    <rush att="4" yds="-2" gain="25" loss="27" td="1" long="15"></rush>
+    <pass comp="5" att="12" int="0" yds="48" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="48" td="0" long="0"></rcv>
+    <punt no="1" yds="42" long="1" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="42.0"></punt>
+    <ko no="1" yds="52" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="8" tacka="2" tot_tack="10" tflua="1" tfla="0" tflyds="1" sacks="1" sackyds="9" brup="1" int="1" intyds="25"></defense>
+    <kr no="2" yds="42" td="0" long="0"></kr>
+    <ir no="1" yds="25" td="0" long="4"></ir>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LNN">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="4" yds="25"></penalties>
+    <conversions thirdconv="3" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:14"></misc>
+    <rush att="4" yds="11" gain="12" loss="1" td="1" long="0"></rush>
+    <pass comp="5" att="10" int="1" yds="61" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="61" td="0" long="0"></rcv>
+    <ko no="2" yds="108" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="9" tacka="0" tot_tack="9" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="30" td="0" long="2"></kr>
+    <pr no="1" yds="32" td="0" long="25"></pr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="LNN" down="1" togo="10" spot="BLU40" context="H,1,10,V40" playid="18,2,149" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="H,1,10,V40">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU40" context="H,1,10,V40" playid="18,3,150" type="R"
+      text="Scarpa N. rush for 1 yard to the BLU39, out-of-bounds (Hettiarachch A.)." ob="Y" newcontext="H,2,9,V39">
+    <p_ru vh="H" name="Scarpa N." gain="1"></p_ru>
+    <p_tk vh="V" name="Hettiarachch A."></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="9" spot="BLU39" context="H,2,9,V39" playid="18,4,151" type="P" first="P"
+      text="Di Girolamo D. pass complete to Miccoli L. for 11 yards to the BLU28, 1ST DOWN LNN." newcontext="H,1,10,V28">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Miccoli L." gain="11"></p_pa>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU28" context="H,1,10,V28" playid="18,5,152" type="P" first="P"
+      text="Di Girolamo D. pass complete to Scarpa N. for 16 yards to the BLU12, 1ST DOWN LNN (Macchi E.)." newcontext="H,1,10,V12">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Scarpa N." gain="16"></p_pa>
+    <p_tk vh="V" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="BLU12" context="H,1,10,V12" playid="18,6,153" type="P"
+      text="Di Girolamo D. pass complete to Pricoco A. for 3 yards to the BLU9 (Valera R.)." newcontext="H,2,7,V09">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Pricoco A." gain="3"></p_pa>
+    <p_tk vh="V" name="Valera R."></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="7" spot="BLU09" context="H,2,7,V09" playid="18,7,154" type="P" first="P" score="Y" clock="09:24"
+      text="Di Girolamo D. pass complete to Zuliani L. for 9 yards to the BLU0, 1ST DOWN LNN, TOUCHDOWN, clock 09:24." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Zuliani L." gain="9"></p_pa>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU03" context="H,1,0,V03" playid="18,8,155" type="X"
+      text="Di Girolamo D. pass attempt failed." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Di Girolamo D." qb="Di Girolamo D." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="42" H="24"></score>
+   <play hasball="LNN" down="1" togo="0" spot="LNN35" context="H,1,0,H35" playid="18,9,156" type="#" clock="09:24"
+      text="Timeout Lancieri Novara, clock 09:24." newcontext="H,1,0,H35">
+    <p_to vh="H" team="Lancieri Novara"></p_to>
+   </play>
+   <drivesum plays="5" yards="40" top="2:36" driveindex="18" complete="Y"></drivesum>
+   <play hasball="LNN" down="1" togo="0" spot="LNN35" context="H,1,0,H35" playid="18,10,157" type="K"
+      text="Pricoco A. kickoff 10 yards to the LNN45, on-side kick, recovered by BLU on LNN45." newcontext="V,1,10,H45">
+    <p_ko vh="H" name="Pricoco A." gain="10" result="N"></p_ko>
+   </play>
+   <drivestart poss="V,H45,09:24" vh="V" spot="H45" clock="09:24" driveindex="19,157"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="LNN45" context="V,1,10,H45" playid="19,1,158" clock="09:14"
+      text="BLUE STORMS BUSTO AR drive start at 09:14." newcontext="V,1,10,H45">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="LNN45" context="V,1,10,H45" playid="19,2,159" type="R"
+      text="Maj U. rush for 6 yards to the LNN39 (Zuliani L.)." newcontext="V,2,4,H39">
+    <p_ru vh="V" name="Maj U." gain="6"></p_ru>
+    <p_tk vh="H" name="Zuliani L."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="4" spot="LNN39" context="V,2,4,H39" playid="19,3,160" type="R"
+      text="Maj U. rush for 3 yards to the LNN36 (Zuliani L.;Purgh&#239;&#191;&#189; S.)." newcontext="V,3,1,H36">
+    <p_ru vh="V" name="Maj U." gain="3"></p_ru>
+    <p_tk vh="H" name="Zuliani L." assist="Y"></p_tk>
+    <p_tk vh="H" name="Purgh&#239;&#191;&#189; S." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="3" togo="1" spot="LNN36" context="V,3,1,H36" playid="19,4,161" type="R" first="R"
+      text="Colombo L. rush for 3 yards to the LNN33, 1ST DOWN BLU." newcontext="V,1,10,H33">
+    <p_ru vh="V" name="Colombo L." gain="3"></p_ru>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="LNN33" context="V,1,10,H33" playid="19,5,162" type="R"
+      text="Maj U. rush for loss of 6 yards to the LNN39 (Giallella M.)." newcontext="V,2,16,H39">
+    <p_ru vh="V" name="Maj U." gain="-6"></p_ru>
+    <p_tk vh="H" name="Giallella M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="16" spot="LNN39" context="V,2,16,H39" playid="19,6,163" type="R"
+      text="Colombo S. rush for loss of 1 yard to the LNN40 (Molla X.)." newcontext="V,3,17,H40">
+    <p_ru vh="V" name="Colombo S." gain="-1"></p_ru>
+    <p_tk vh="H" name="Molla X." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="3" togo="17" spot="LNN40" context="V,3,17,H40" playid="19,7,164" type="#" clock="06:24"
+      text="Timeout Blue Storms Busto Ar, clock 06:24." newcontext="V,3,17,H40">
+    <p_to vh="V" team="Blue Storms Busto Ar"></p_to>
+   </play>
+   <play hasball="BLU" down="3" togo="17" spot="LNN40" context="V,3,17,H40" playid="19,8,165" type="R"
+      text="Tovaglieri L. rush for 11 yards to the LNN29 (Muca A.;Andreoni M.)." newcontext="V,4,6,H29">
+    <p_ru vh="V" name="Tovaglieri L." gain="11"></p_ru>
+    <p_tk vh="H" name="Muca A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Andreoni M." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="4" togo="6" spot="LNN29" context="V,4,6,H29" playid="19,9,166" type="P"
+      text="Colombo S. sacked for loss of 8 yards to the LNN37 (Andreoni M.)." newcontext="H,1,10,H37">
+    <p_pa vh="V" qb="Colombo S." result="SACK" gain="-8"></p_pa>
+    <p_tk vh="H" name="Andreoni M." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <drivesum plays="7" yards="8" top="3:49" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,H37,06:24" vh="H" spot="H37" clock="06:24" driveindex="20,166"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="LNN37" context="H,1,10,H37" playid="20,1,167" clock="05:25"
+      text="LANCIERI NOVARA drive start at 05:25." newcontext="H,1,10,H37">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="LNN37" context="H,1,10,H37" playid="20,2,168" type="P" first="P"
+      text="Di Girolamo D. pass complete to Miccoli L. for 11 yards to the LNN48, 1ST DOWN LNN (Gariboldi F.)." newcontext="H,1,10,H48">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Miccoli L." gain="11"></p_pa>
+    <p_tk vh="V" name="Gariboldi F."></p_tk>
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="LNN48" context="H,1,10,H48" playid="20,3,169" type="E"
+      text="PENALTY LNN false start (Manneh L.) 5 yards to the LNN43." newcontext="H,1,15,H43">
+    <p_pn vh="H" code="FS" type="false start" name="Manneh L." result="ACCEPT" at="H48" yards="5"></p_pn>
+   </play>
+   <play hasball="LNN" down="1" togo="15" spot="LNN43" context="H,1,15,H43" playid="20,4,170" type="P"
+      text="Di Girolamo D. pass complete to Pricoco A. for 10 yards to the BLU47 (Kolonna Appu M.)." newcontext="H,2,5,V47">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Pricoco A." gain="10"></p_pa>
+    <p_tk vh="V" name="Kolonna Appu M."></p_tk>
+   </play>
+   <play hasball="LNN" down="2" togo="5" spot="BLU47" context="H,2,5,V47" playid="20,5,171" type="P" first="P" score="Y" clock="03:39"
+      text="Di Girolamo D. pass complete to Mozzillo E. for 47 yards to the BLU0, 1ST DOWN LNN, TOUCHDOWN, clock 03:39." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Mozzillo E." gain="47"></p_pa>
+   </play>
+   <play hasball="LNN" down="1" togo="0" spot="BLU03" context="H,1,0,V03" playid="20,6,172" type="X"
+      text="Di Girolamo D. pass attempt failed." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Di Girolamo D." qb="Di Girolamo D." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="42" H="30"></score>
+   <drivesum plays="3" yards="63" top="1:46" driveindex="20" complete="Y"></drivesum>
+   <play hasball="LNN" down="1" togo="0" spot="LNN35" context="H,1,0,H35" playid="20,7,173" type="K"
+      text="Pricoco A. kickoff 5 yards to the LNN40, out-of-bounds, BLU ball on LNN40." ob="Y" newcontext="V,1,10,H40">
+    <p_ko vh="H" name="Pricoco A." gain="5" result="O"></p_ko>
+   </play>
+   <drivestart poss="V,H40,03:39" vh="V" spot="H40" clock="03:39" driveindex="21,173"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="LNN40" context="V,1,10,H40" playid="21,1,174" clock="03:29"
+      text="BLUE STORMS BUSTO AR drive start at 03:29." newcontext="V,1,10,H40">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="LNN40" context="V,1,10,H40" playid="21,2,175" type="R"
+      text="Maj U. rush for no gain to the LNN40 (Molla X.;Andreoni M.)." newcontext="V,2,10,H40">
+    <p_ru vh="V" name="Maj U." gain="0"></p_ru>
+    <p_tk vh="H" name="Molla X." assist="Y"></p_tk>
+    <p_tk vh="H" name="Andreoni M." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="10" spot="LNN40" context="V,2,10,H40" playid="21,3,176" type="R"
+      text="Maj U. rush for 2 yards to the LNN38 (Purgh&#239;&#191;&#189; S.;Andreoni M.)." newcontext="V,3,8,H38">
+    <p_ru vh="V" name="Maj U." gain="2"></p_ru>
+    <p_tk vh="H" name="Purgh&#239;&#191;&#189; S." assist="Y"></p_tk>
+    <p_tk vh="H" name="Andreoni M." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="3" togo="8" spot="LNN38" context="V,3,8,H38" playid="21,4,177" type="R"
+      text="Maj U. rush for 2 yards to the LNN36 (Muca A.;Infantino E.)." newcontext="V,4,6,H36">
+    <p_ru vh="V" name="Maj U." gain="2"></p_ru>
+    <p_tk vh="H" name="Muca A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Infantino E." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="4" togo="6" spot="LNN36" context="V,4,6,H36" playid="21,5,178" type="U"
+      text="Filippini A. punt 33 yards to the LNN3, out-of-bounds." ob="Y" newcontext="H,1,10,H03">
+    <p_pu vh="V" name="Filippini A." gain="33" in20="Y" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="4" top="1:38" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="H,H03,03:29" vh="H" spot="H03" clock="03:29" driveindex="22,178"></drivestart>
+   <play hasball="LNN" down="1" togo="10" spot="LNN03" context="H,1,10,H03" playid="22,1,179" clock="01:51"
+      text="LANCIERI NOVARA drive start at 01:51." newcontext="H,1,10,H03">
+   </play>
+   <play hasball="LNN" down="1" togo="10" spot="LNN03" context="H,1,10,H03" playid="22,2,180" type="P"
+      text="Di Girolamo D. pass incomplete to Mozzillo E. (Simboli V.)." newcontext="H,2,10,H03">
+    <p_pa vh="H" qb="Di Girolamo D." result="INC" rcv="Mozzillo E."></p_pa>
+    <p_bu vh="V" name="Simboli V."></p_bu>
+   </play>
+   <play hasball="LNN" down="2" togo="10" spot="LNN03" context="H,2,10,H03" playid="22,3,181" type="P"
+      text="Di Girolamo D. pass incomplete to Manneh L. (Simboli V.)." newcontext="H,3,10,H03">
+    <p_pa vh="H" qb="Di Girolamo D." result="INC" rcv="Manneh L."></p_pa>
+    <p_bu vh="V" name="Simboli V."></p_bu>
+   </play>
+   <play hasball="LNN" down="3" togo="10" spot="LNN03" context="H,3,10,H03" playid="22,4,182" type="R"
+      text="Di Girolamo D. rush for 3 yards to the LNN6 (Donati A.)." newcontext="H,4,7,H06">
+    <p_ru vh="H" name="Di Girolamo D." gain="3"></p_ru>
+    <p_tk vh="V" name="Donati A."></p_tk>
+   </play>
+   <play hasball="LNN" down="4" togo="7" spot="LNN06" context="H,4,7,H06" playid="22,5,183" type="P"
+      text="Di Girolamo D. pass complete to Zuliani L. for loss of 1 yard to the LNN5 (Macchi E.)." newcontext="V,1,0,H05">
+    <p_pa vh="H" qb="Di Girolamo D." result="COMP" rcv="Zuliani L." gain="-1"></p_pa>
+    <p_tk vh="V" name="Macchi E." tfl="Y"></p_tk>
+   </play>
+   <drivesum plays="4" yards="2" top="1:34" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="V,H05,01:51" vh="V" spot="H05" clock="01:51" driveindex="23,183"></drivestart>
+   <play hasball="BLU" down="1" togo="0" spot="LNN05" context="V,1,0,H05" playid="23,1,184" clock="00:17"
+      text="BLUE STORMS BUSTO AR drive start at 00:17." newcontext="V,1,0,H05">
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="LNN05" context="V,1,0,H05" playid="23,2,185" type="R"
+      text="TEAM rush for loss of 1 yard to the LNN6." newcontext="V,2,0,H06">
+    <p_ru vh="V" name="TEAM" gain="-1"></p_ru>
+   </play>
+   <play hasball="BLU" down="2" togo="0" spot="LNN06" context="V,2,0,H06" playid="23,3,186" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="V,2,0,H06">
+   </play>
+   <drivesum plays="1" yards="-1" top="0:17" driveindex="23" complete="Y"></drivesum>
+   <score final="Y" V="42" H="30"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BLU">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:04"></misc>
+    <rush att="11" yds="11" gain="27" loss="16" td="0" long="0"></rush>
+    <pass comp="0" att="0" int="0" yds="0" td="0" long="0" sacks="1" sackyds="8"></pass>
+    <punt no="1" yds="33" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="33.0"></punt>
+    <defense tackua="7" tacka="0" tot_tack="7" tflua="1" tfla="0" tflyds="1" sacks="1" sackyds="9" brup="2"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LNN">
+    <firstdowns no="5" rush="0" pass="5" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:56"></misc>
+    <rush att="2" yds="4" gain="4" loss="0" td="0" long="0"></rush>
+    <pass comp="8" att="10" int="0" yds="106" td="2" long="10" sacks="0" sackyds="0"></pass>
+    <rcv no="8" yds="106" td="2" long="10"></rcv>
+    <ko no="1" yds="5" ob="1" tb="0"></ko>
+    <pat passatt="2" passmade="0"></pat>
+    <defense tackua="4" tacka="10" tot_tack="14" tflua="3" tfla="0" tflyds="15" sacks="1" sackyds="8"></defense>
+    <scoring td="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="BLU" down="2" togo="0" spot="LNN06" context="V,2,0,H06" qtr="4" clock="00:00" vtoh="1" htoh="1"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="BLU">
+  <player name="12" checkname="" uni="12" gp="0" code="12"></player>
+ </dnp>
+ <dnp vh="H" id="LNN">
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="V" id="BLU" yds="70" play="PASS" players="Colombo L. to Tovaglieri L." td="Y"></longplay>
+ </longplays>
+</fbgame>

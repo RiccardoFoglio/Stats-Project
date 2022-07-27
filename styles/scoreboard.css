@@ -1,0 +1,95 @@
+#scoreboard {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.15);
+}
+
+#scoreboard img {
+    height: 60px;
+    margin: 20px 20px;
+}
+
+#homeScoreboard { 
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#homeTeam {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homeName {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px;    
+}
+
+#homeRecord {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#homeScore {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+#vs {
+    font-size: 40px;
+}
+
+
+#visScoreboard {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#visScore {
+    order: 1;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+#visTeam {
+    order: 2;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#visRecord {
+    order: 1;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#visName {
+    order: 2;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+#visLogo {
+    order: 3;
+}

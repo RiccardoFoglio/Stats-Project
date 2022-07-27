@@ -1,0 +1,1016 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220498" visid="EPC" homeid="DV3" visname="Elephants Catania" homename="Doves Bologna"
+      date="6/5/2022" location="BOLOGNA" stadium="C.S. BERNARDI"
+      start="12:00" end="14:15" leaguegame="Y" postseason="Y"
+      duration="02:00" attend="25" temp="34 c" wind="NONE" weather="PARTLY CLOUDY">
+  <officials sc="E.CALZOLARI"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="35" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="EPC" name="Elephants Catania" record="2-3" conf-record="2-2" abb="E">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="48" totoff_yards="178" totoff_avg="3.7">
+   <firstdowns no="8" rush="6" pass="1" penalty="1"></firstdowns>
+   <penalties no="7" yds="94"></penalties>
+   <conversions thirdconv="2" thirdatt="10" fourthconv="3" fourthatt="5"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="27:25" ona="0" onm="0"></misc>
+   <redzone att="1" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="1" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="32" yds="148" gain="174" loss="26" td="0" long="41"></rush>
+   <pass comp="5" att="16" int="2" yds="30" td="0" long="11" sacks="0" sackyds="0"></pass>
+   <rcv no="5" yds="30" td="0" long="11"></rcv>
+   <punt no="2" yds="59" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="29.5"></punt>
+   <ko no="1" yds="48" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <defense tackua="18" tacka="12" tot_tack="30" tflua="1" tfla="2" tflyds="5" sacks="0" sackyds="0" brup="4" fr="1" fryds="0"></defense>
+   <kr no="2" yds="28" td="0" long="22"></kr>
+   <pr no="2" yds="36" td="0" long="35"></pr>
+  </totals>
+  <player name="Piccione S." shortname="Piccione S." checkname="S.,PICCIONE" uni="89" gp="1" code="89">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <rcv no="2" yds="15" td="0" long="8"></rcv>
+   <ko no="1" yds="48" ob="0" tb="0"></ko>
+  </player>
+  <player name="Giordano L." shortname="Giordano L." checkname="L.,GIORDANO" uni="17" gp="1" code="17">
+   <rcv no="1" yds="11" td="0" long="11"></rcv>
+   <defense tackua="2" tacka="2" tot_tack="4" tflua="1" tfla="1" tflyds="3"></defense>
+  </player>
+  <player name="Lombardo E." shortname="Lombardo E." checkname="E.,LOMBARDO" uni="37" gp="1" code="37">
+   <rush att="20" yds="128" gain="134" loss="6" td="0" long="41"></rush>
+   <rcv no="1" yds="4" td="0" long="4"></rcv>
+   <pr no="1" yds="35" td="0" long="35"></pr>
+  </player>
+  <player name="Piccione G." shortname="Piccione G." checkname="G.,PICCIONE" uni="84" gp="1" code="84">
+   <rcv no="1" yds="0" td="0" long="0"></rcv>
+  </player>
+  <player name="Maugeri G." shortname="Maugeri G." checkname="G.,MAUGERI" uni="20" gp="1" code="20">
+   <punt no="2" yds="59" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="29.5"></punt>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <defense tackua="3" tacka="1" tot_tack="4" brup="2"></defense>
+   <kr no="2" yds="28" td="0" long="22"></kr>
+   <pr no="1" yds="1" td="0" long="1"></pr>
+  </player>
+  <player name="Di Mauro G." shortname="Di Mauro G." checkname="MAURO G.,DI" uni="21" gp="1" code="21">
+   <defense tackua="1" tacka="3" tot_tack="4"></defense>
+  </player>
+  <player name="Greco L." shortname="Greco L." checkname="L.,GRECO" uni="28" gp="1" code="28">
+   <defense tackua="2" tacka="1" tot_tack="3"></defense>
+  </player>
+  <player name="Gulisano R." shortname="Gulisano R." checkname="R.,GULISANO" uni="31" gp="1" code="31">
+   <defense brup="1"></defense>
+  </player>
+  <player name="Tracuzzi Spa G." shortname="Tracuzzi Spa G." checkname="SPA G.,TRACUZZI" uni="35" gp="1" code="35">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+  <player name="Fichera S." shortname="Fichera S." checkname="S.,FICHERA" uni="47" gp="1" code="47">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Fetene F." shortname="Fetene F." checkname="F.,FETENE" uni="51" gp="1" code="51">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Privitera D." shortname="Privitera D." checkname="D.,PRIVITERA" uni="57" gp="1" code="57">
+   <defense tackua="2" tacka="3" tot_tack="5" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Bonaccorsi G." shortname="Bonaccorsi G." checkname="G.,BONACCORSI" uni="81" gp="1" code="81">
+   <rush att="11" yds="20" gain="40" loss="20" td="0" long="9"></rush>
+   <pass comp="5" att="16" int="2" yds="30" td="0" long="11" sacks="0" sackyds="0"></pass>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Crocella' S." shortname="Crocella' S." checkname="S.,CROCELLA'" uni="88" gp="1" code="88">
+   <defense tackua="1" tacka="1" tot_tack="2" brup="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Leonardi A." shortname="Leonardi A." checkname="A.,LEONARDI" uni="15" gp="1" code="15"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="DV3" name="Doves Bologna" record="4-1" conf-record="3-1" abb="D">
+  <linescore prds="4" line="0,0,7,7" score="14">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="7"></lineprd>
+  </linescore>
+  <totals totoff_plays="39" totoff_yards="219" totoff_avg="5.6">
+   <firstdowns no="11" rush="6" pass="4" penalty="1"></firstdowns>
+   <penalties no="4" yds="36"></penalties>
+   <conversions thirdconv="0" thirdatt="5" fourthconv="0" fourthatt="2"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="20:35" ona="0" onm="0"></misc>
+   <redzone att="4" scores="1" points="7" tdrush="1" tdpass="0" fgmade="0" endfga="1" enddowns="1" endint="0" endfumb="1" endhalf="0" endgame="0"></redzone>
+   <rush att="22" yds="118" gain="123" loss="5" td="1" long="17"></rush>
+   <pass comp="6" att="17" int="0" yds="101" td="0" long="36" sacks="0" sackyds="0"></pass>
+   <rcv no="6" yds="101" td="0" long="36"></rcv>
+   <punt no="3" yds="116" long="48" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="38.7"></punt>
+   <ko no="2" yds="72" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="32" tacka="12" tot_tack="44" tflua="5" tfla="0" tflyds="26" sacks="0" sackyds="0" brup="1" int="2" intyds="16"></defense>
+   <kr no="1" yds="27" td="0" long="27"></kr>
+   <ir no="2" yds="16" td="1" long="15"></ir>
+   <scoring td="2" patkick="2"></scoring>
+  </totals>
+  <player name="Vanni G." shortname="Vanni G." checkname="G.,VANNI" uni="11" gp="1" code="11">
+   <rcv no="2" yds="32" td="0" long="28"></rcv>
+   <defense tackua="4" tacka="2" tot_tack="6" brup="1"></defense>
+  </player>
+  <player name="Biagini D." shortname="Biagini D." checkname="D.,BIAGINI" uni="13" gp="1" code="13">
+   <rcv no="1" yds="36" td="0" long="36"></rcv>
+  </player>
+  <player name="Guidi M." shortname="Guidi M." checkname="M.,GUIDI" uni="9" gp="1" code="9">
+   <rcv no="1" yds="14" td="0" long="14"></rcv>
+  </player>
+  <player name="Ambrosi L." shortname="Ambrosi L." checkname="L.,AMBROSI" uni="23" gp="1" code="23">
+   <rcv no="1" yds="11" td="0" long="11"></rcv>
+  </player>
+  <player name="Bilacchi F." shortname="Bilacchi F." checkname="F.,BILACCHI" uni="1" gp="1" code="1">
+   <rush att="1" yds="11" gain="11" loss="0" td="0" long="11"></rush>
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+   <defense tackua="3" tacka="3" tot_tack="6" tflua="1" tfla="0" tflyds="4" int="1" intyds="15"></defense>
+   <kr no="1" yds="27" td="0" long="27"></kr>
+   <ir no="1" yds="15" td="0" long="15"></ir>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+  </player>
+  <player name="Aiello M." shortname="Aiello M." checkname="M.,AIELLO" uni="80" gp="1" code="80">
+   <rush att="1" yds="3" gain="3" loss="0" td="0" long="3"></rush>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Scaglia N." shortname="Scaglia N." checkname="N.,SCAGLIA" uni="15" gp="1" code="15">
+   <rush att="2" yds="17" gain="17" loss="0" td="0" long="12"></rush>
+   <pass comp="6" att="17" int="0" yds="101" td="0" long="36" sacks="0" sackyds="0"></pass>
+   <punt no="2" yds="68" long="35" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="34.0"></punt>
+  </player>
+  <player name="Gamberini A." shortname="Gamberini A." checkname="A.,GAMBERINI" uni="21" gp="1" code="21">
+   <defense tackua="3" tacka="4" tot_tack="7" int="1" intyds="1"></defense>
+   <ir no="1" yds="1" td="1" long="1"></ir>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Vitale R." shortname="Vitale R." checkname="R.,VITALE" uni="22" gp="1" code="22">
+   <defense tackua="3" tacka="1" tot_tack="4" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Khalafalla R." shortname="Khalafalla R." checkname="R.,KHALAFALLA" uni="33" gp="1" code="33">
+   <rush att="17" yds="87" gain="92" loss="5" td="1" long="17"></rush>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Zagni D." shortname="Zagni D." checkname="D.,ZAGNI" uni="25" gp="1" code="25">
+   <punt no="1" yds="48" long="48" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="48.0"></punt>
+   <ko no="2" yds="72" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+   <scoring patkick="2"></scoring>
+  </player>
+  <player name="Campanale M." shortname="Campanale M." checkname="M.,CAMPANALE" uni="31" gp="1" code="31">
+   <defense tackua="5" tacka="1" tot_tack="6" tflua="2" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Montella G." shortname="Montella G." checkname="G.,MONTELLA" uni="2" gp="1" code="2">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Venturi M." shortname="Venturi M." checkname="M.,VENTURI" uni="42" gp="1" code="42">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="Da Silva Net J." shortname="Da Silva Net J." checkname="SILVA NET J.,DA" uni="46" gp="1" code="46">
+   <defense tackua="3" tacka="1" tot_tack="4"></defense>
+  </player>
+  <player name="Elsayed M." shortname="Elsayed M." checkname="M.,ELSAYED" uni="47" gp="1" code="47">
+   <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="18"></defense>
+  </player>
+  <player name="Finco N." shortname="Finco N." checkname="N.,FINCO" uni="58" gp="1" code="58">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="Zucchini T." shortname="Zucchini T." checkname="T.,ZUCCHINI" uni="99" gp="1" code="99">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="DV3" qtr="3" clock="04:00" type="TD" how="RUSH" yds="8" scorer="Khalafalla R." patby="Zagni D." pattype="KICK" patres="GOOD" plays="5" drive="43" top="5:17" vscore="0" hscore="7" driveindex="8"></score>
+  <score vh="H" team="DV3" qtr="4" clock="02:00" type="TD" how="INT" yds="1" scorer="Gamberini A." patby="Zagni D." pattype="KICK" patres="GOOD" vscore="0" hscore="14" driveindex="14"></score>
+ </scores>
+ <fgas>
+  <fga vh="H" team="DV3" kicker="Zagni D." qtr="2" clock="01:20" distance="32" result="missed"></fga>
+  <fga vh="V" team="EPC" kicker="Maugeri G." qtr="3" clock="00:15" distance="20" result="missed"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="DV3" start="KO,1,12:00,44" end="DOWNS,1,09:47,83" plays="5" yards="39" top="2:13" start_how="KO" start_qtr="1" start_time="12:00" start_spot="DV344" end_how="DOWNS" end_qtr="1" end_time="09:47" end_spot="EPC17" rz="1" driveindex="1"></drive>
+  <drive vh="V" team="EPC" start="DOWNS,1,09:47,17" end="DOWNS,1,00:00,50" plays="12" yards="33" top="9:47" start_how="DOWNS" start_qtr="1" start_time="09:47" start_spot="EPC17" end_how="DOWNS" end_qtr="1" end_time="00:00" end_spot="EPC50" driveindex="2"></drive>
+  <drive vh="H" team="DV3" start="DOWNS,2,12:00,50" end="FUMB,2,10:00,90" plays="3" yards="40" top="2:00" start_how="DOWNS" start_qtr="2" start_time="12:00" start_spot="DV350" end_how="FUMB" end_qtr="2" end_time="10:00" end_spot="EPC10" rz="1" driveindex="3"></drive>
+  <drive vh="V" team="EPC" start="FUMB,2,10:00,10" end="PUNT,2,06:23,28" plays="6" yards="18" top="3:37" start_how="FUMB" start_qtr="2" start_time="10:00" start_spot="EPC10" end_how="PUNT" end_qtr="2" end_time="06:23" end_spot="EPC28" driveindex="4"></drive>
+  <drive vh="H" team="DV3" start="PUNT,2,06:23,47" end="FGA,2,01:20,85" plays="15" yards="38" top="5:03" start_how="PUNT" start_qtr="2" start_time="06:23" start_spot="DV347" end_how="FGA" end_qtr="2" end_time="01:20" end_spot="EPC15" rz="1" driveindex="5"></drive>
+  <drive vh="V" team="EPC" start="FGA,2,01:20,20" end="HALF,2,00:00,19" plays="2" yards="-1" top="1:20" start_how="FGA" start_qtr="2" start_time="01:20" start_spot="EPC20" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="EPC19" driveindex="6"></drive>
+  <drive vh="V" team="EPC" start="KO,3,12:00,36" end="DOWNS,3,09:17,43" plays="4" yards="7" top="2:43" start_how="KO" start_qtr="3" start_time="12:00" start_spot="EPC36" end_how="DOWNS" end_qtr="3" end_time="09:17" end_spot="EPC43" driveindex="7"></drive>
+  <drive vh="H" team="DV3" start="DOWNS,3,09:17,57" end="TD,3,04:00,100" plays="5" yards="43" top="5:17" start_how="DOWNS" start_qtr="3" start_time="09:17" start_spot="EPC43" end_how="TD" end_qtr="3" end_time="04:00" end_spot="EPC00" rz="1" driveindex="8"></drive>
+  <drive vh="V" team="EPC" start="KO,3,04:00,50" end="FGA,3,00:15,86" plays="11" yards="36" top="3:45" start_how="KO" start_qtr="3" start_time="04:00" start_spot="EPC50" end_how="FGA" end_qtr="3" end_time="00:15" end_spot="DV314" rz="1" driveindex="9"></drive>
+  <drive vh="H" team="DV3" start="FGA,3,00:15,20" end="PUNT,4,11:03,38" plays="4" yards="18" top="1:12" start_how="FGA" start_qtr="3" start_time="00:15" start_spot="DV320" end_how="PUNT" end_qtr="4" end_time="11:03" end_spot="DV338" driveindex="10"></drive>
+  <drive vh="V" team="EPC" start="PUNT,4,11:03,27" end="PUNT,4,09:00,42" plays="4" yards="15" top="2:03" start_how="PUNT" start_qtr="4" start_time="11:03" start_spot="EPC27" end_how="PUNT" end_qtr="4" end_time="09:00" end_spot="EPC42" driveindex="11"></drive>
+  <drive vh="H" team="DV3" start="PUNT,4,09:00,24" end="PUNT,4,04:18,50" plays="7" yards="26" top="4:42" start_how="PUNT" start_qtr="4" start_time="09:00" start_spot="DV324" end_how="PUNT" end_qtr="4" end_time="04:18" end_spot="DV350" driveindex="12"></drive>
+  <drive vh="V" team="EPC" start="PUNT,4,04:18,18" end="INT,4,02:00,2" plays="7" yards="-16" top="2:18" start_how="PUNT" start_qtr="4" start_time="04:18" start_spot="EPC18" end_how="INT" end_qtr="4" end_time="02:00" end_spot="EPC02" driveindex="13"></drive>
+  <drive vh="H" team="DV3" start="INT,4,02:00,100" end="TD,4,02:00,100" plays="0" yards="0" top="0:00" start_how="INT" start_qtr="4" start_time="02:00" start_spot="EPC00" end_how="TD" end_qtr="4" end_time="02:00" end_spot="EPC00" driveindex="14"></drive>
+  <drive vh="V" team="EPC" start="PUNT,4,01:37,52" end="INT,4,00:08,65" plays="3" yards="13" top="1:29" start_how="PUNT" start_qtr="4" start_time="01:37" start_spot="DV348" end_how="INT" end_qtr="4" end_time="00:08" end_spot="DV335" driveindex="15"></drive>
+  <drive vh="H" team="DV3" start="INT,4,00:08,35" end="HALF,4,00:00,35" plays="1" yards="0" top="0:08" start_how="INT" start_qtr="4" start_time="00:08" start_spot="DV335" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="DV335" driveindex="16"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="EPC" down="1" togo="10" spot="EPC35" context="V,1,10,V35" playid="0,1,0"
+      text="DOVES BOLOGNA WIN THE COIN TOSS ELECT TO RECEIVE" newcontext="V,1,10,V35">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC35" context="V,1,10,V35" playid="0,2,1" type="K"
+      text="Piccione S. kickoff 48 yards to the DV317, Bilacchi F. return 27 yards to the DV344, out-of-bounds (Fetene F.)." ob="Y" newcontext="H,1,10,H44">
+    <p_ko vh="V" name="Piccione S." gain="48"></p_ko>
+    <p_kr vh="H" name="Bilacchi F." gain="27"></p_kr>
+    <p_tk vh="V" name="Fetene F."></p_tk>
+   </play>
+   <drivestart poss="H,H44,12:00" vh="H" spot="H44" clock="12:00" driveindex="1,1"></drivestart>
+   <play hasball="DV3" down="1" togo="10" spot="DV344" context="H,1,10,H44" playid="1,1,2" type="P" first="P"
+      text="Scaglia N. pass complete to Biagini D. for 36 yards to the EPC20, 1ST DOWN DV3 (Crocella' S.)." newcontext="H,1,10,V20">
+    <p_pa vh="H" qb="Scaglia N." result="COMP" rcv="Biagini D." gain="36"></p_pa>
+    <p_tk vh="V" name="Crocella' S."></p_tk>
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="EPC20" context="H,1,10,V20" playid="1,2,3" type="P"
+      text="Scaglia N. pass incomplete to Biagini D. (Gulisano R.)." newcontext="H,2,10,V20">
+    <p_pa vh="H" qb="Scaglia N." result="BRUP" rcv="Biagini D."></p_pa>
+    <p_bu vh="V" name="Gulisano R."></p_bu>
+   </play>
+   <play hasball="DV3" down="2" togo="10" spot="EPC20" context="H,2,10,V20" playid="1,3,4" type="R"
+      text="Khalafalla R. rush for loss of 2 yards to the EPC22 (Giordano L.)." newcontext="H,3,12,V22">
+    <p_ru vh="H" name="Khalafalla R." gain="-2"></p_ru>
+    <p_tk vh="V" name="Giordano L." tfl="Y"></p_tk>
+   </play>
+   <play hasball="DV3" down="3" togo="12" spot="EPC22" context="H,3,12,V22" playid="1,4,5" type="P"
+      text="Scaglia N. pass incomplete to Biagini D. (Crocella' S.)." newcontext="H,4,12,V22">
+    <p_pa vh="H" qb="Scaglia N." result="BRUP" rcv="Biagini D."></p_pa>
+    <p_bu vh="V" name="Crocella' S."></p_bu>
+   </play>
+   <play hasball="DV3" down="4" togo="12" spot="EPC22" context="H,4,12,V22" playid="1,5,6" type="E"
+      text="PENALTY EPC offside defense 5 yards to the EPC17." newcontext="H,4,7,V17">
+    <p_pn vh="V" code="OD" type="offside defense" result="ACCEPT" at="V22" yards="5"></p_pn>
+   </play>
+   <play hasball="DV3" down="4" togo="7" spot="EPC17" context="H,4,7,V17" playid="1,6,7" type="P"
+      text="Scaglia N. pass incomplete to Gatto T.." newcontext="V,1,10,V17">
+    <p_pa vh="H" qb="Scaglia N." result="INC" rcv="Gatto T."></p_pa>
+   </play>
+   <drivesum plays="5" yards="39" top="2:13" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,V17,12:00" vh="V" spot="V17" clock="12:00" driveindex="2,7"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC17" context="V,1,10,V17" playid="2,1,8" clock="09:47"
+      text="ELEPHANTS CATANIA drive start at 09:47." newcontext="V,1,10,V17">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC17" context="V,1,10,V17" playid="2,2,9" type="R"
+      text="Bonaccorsi G. rush for 4 yards to the EPC21 (Vitale R.)." newcontext="V,2,6,V21">
+    <p_ru vh="V" name="Bonaccorsi G." gain="4"></p_ru>
+    <p_tk vh="H" name="Vitale R."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="6" spot="EPC21" context="V,2,6,V21" playid="2,3,10" type="R"
+      text="Lombardo E. rush for 4 yards to the EPC25 (Gamberini A.;Campanale M.)." newcontext="V,3,2,V25">
+    <p_ru vh="V" name="Lombardo E." gain="4"></p_ru>
+    <p_tk vh="H" name="Gamberini A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Campanale M." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="2" spot="EPC25" context="V,3,2,V25" playid="2,4,11" type="R" first="R"
+      text="Lombardo E. rush for 5 yards to the EPC30, 1ST DOWN EPC (Bilacchi F.;Gamberini A.)." newcontext="V,1,10,V30">
+    <p_ru vh="V" name="Lombardo E." gain="5"></p_ru>
+    <p_tk vh="H" name="Bilacchi F." assist="Y"></p_tk>
+    <p_tk vh="H" name="Gamberini A." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC30" context="V,1,10,V30" playid="2,5,12" type="P"
+      text="Bonaccorsi G. pass complete to Piccione S. for 7 yards to the EPC37 (Vanni G.)." newcontext="V,2,3,V37">
+    <p_pa vh="V" qb="Bonaccorsi G." result="COMP" rcv="Piccione S." gain="7"></p_pa>
+    <p_tk vh="H" name="Vanni G."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="3" spot="EPC37" context="V,2,3,V37" playid="2,6,13" type="R"
+      text="Piccione S. rush for no gain to the EPC37 (Zucchini T.)." newcontext="V,3,3,V37">
+    <p_ru vh="V" name="Piccione S." gain="0"></p_ru>
+    <p_tk vh="H" name="Zucchini T."></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="3" spot="EPC37" context="V,3,3,V37" playid="2,7,14" type="R"
+      text="Lombardo E. rush for 2 yards to the EPC39 (Gamberini A.;Bilacchi F.)." newcontext="V,4,1,V39">
+    <p_ru vh="V" name="Lombardo E." gain="2"></p_ru>
+    <p_tk vh="H" name="Gamberini A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Bilacchi F." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="1" spot="EPC39" context="V,4,1,V39" playid="2,8,15" type="#" clock="04:45"
+      text="Timeout Elephants Catania, clock 04:45." newcontext="V,4,1,V39">
+    <p_to vh="V" team="Elephants Catania"></p_to>
+   </play>
+   <play hasball="EPC" down="4" togo="1" spot="EPC39" context="V,4,1,V39" playid="2,9,16" type="R" first="R"
+      text="Lombardo E. rush for 12 yards to the DV349, 1ST DOWN EPC, out-of-bounds." ob="Y" newcontext="V,1,10,H49">
+    <p_ru vh="V" name="Lombardo E." gain="12"></p_ru>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="DV349" context="V,1,10,H49" playid="2,10,17" type="R"
+      text="Bonaccorsi G. rush for loss of 1 yard to the 50 yardline (Campanale M.)." newcontext="V,2,11,V50">
+    <p_ru vh="V" name="Bonaccorsi G." gain="-1"></p_ru>
+    <p_tk vh="H" name="Campanale M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="11" spot="EPC50" context="V,2,11,V50" playid="2,11,18" type="E"
+      text="Lombardo E. rush for 3 yards to the DV347 (Vanni G.), PENALTY EPC holding (Giordano L.) 7 yards to the EPC43, NO PLAY." newcontext="V,2,18,V43">
+    <p_pn vh="V" code="HO" type="holding" name="Giordano L." result="ACCEPT" at="V50" yards="7"></p_pn>
+   </play>
+   <play hasball="EPC" down="2" togo="18" spot="EPC43" context="V,2,18,V43" playid="2,12,19" type="R"
+      text="Bonaccorsi G. rush for 8 yards to the DV349 (Elsayed M.)." newcontext="V,3,10,H49">
+    <p_ru vh="V" name="Bonaccorsi G." gain="8"></p_ru>
+    <p_tk vh="H" name="Elsayed M."></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="10" spot="DV349" context="V,3,10,H49" playid="2,13,20" type="R"
+      text="Bonaccorsi G. rush for 9 yards to the DV340 (Gamberini A.), PENALTY EPC holding (Piccione G.) 10 yards to the 50 yardline." newcontext="V,3,11,V50">
+    <p_ru vh="V" name="Bonaccorsi G." gain="9"></p_ru>
+    <p_tk vh="H" name="Gamberini A."></p_tk>
+    <p_pn vh="V" code="HO" type="holding" name="Piccione G." result="ACCEPT" at="H40" yards="10"></p_pn>
+   </play>
+   <play hasball="EPC" down="3" togo="11" spot="EPC50" context="V,3,11,V50" playid="2,14,21"
+      text="3rd and 11." newcontext="V,3,11,V50">
+   </play>
+   <play hasball="EPC" down="3" togo="11" spot="EPC50" context="V,3,11,V50" playid="2,15,22" type="P"
+      text="Bonaccorsi G. pass complete to Piccione G. for no gain to the 50 yardline (Bilacchi F.)." newcontext="V,4,11,V50">
+    <p_pa vh="V" qb="Bonaccorsi G." result="COMP" rcv="Piccione G." gain="0"></p_pa>
+    <p_tk vh="H" name="Bilacchi F."></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="11" spot="EPC50" context="V,4,11,V50" playid="2,16,23" type="R"
+      text="Lombardo E. rush for no gain to the 50 yardline (Finco N.)." newcontext="H,1,10,H50">
+    <p_ru vh="V" name="Lombardo E." gain="0"></p_ru>
+    <p_tk vh="H" name="Finco N."></p_tk>
+   </play>
+   <drivesum plays="12" yards="33" top="9:47" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,H50,04:45" vh="H" spot="H50" clock="04:45" driveindex="3,23"></drivestart>
+   <play hasball="DV3" down="1" togo="10" spot="DV350" context="H,1,10,H50" playid="3,1,24" clock="00:00"
+      text="DOVES BOLOGNA drive start at 00:00." newcontext="H,1,10,H50">
+   </play>
+   <score qtr="1" V="0" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="EPC">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="22"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:47"></misc>
+    <rush att="10" yds="43" gain="44" loss="1" td="0" long="12"></rush>
+    <pass comp="2" att="2" int="0" yds="7" td="0" long="7" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="7" td="0" long="7"></rcv>
+    <ko no="1" yds="48" ob="0" tb="0"></ko>
+    <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0" brup="2"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="DV3">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="02:13"></misc>
+    <rush att="1" yds="-2" gain="0" loss="2" td="0" long="0"></rush>
+    <pass comp="1" att="4" int="0" yds="36" td="0" long="36" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="36" td="0" long="36"></rcv>
+    <defense tackua="8" tacka="6" tot_tack="14" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="27" td="0" long="27"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="DV3" down="1" togo="10" spot="DV350" context="H,1,10,H50" playid="3,2,25" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="H,1,10,H50">
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="DV350" context="H,1,10,H50" playid="3,3,26" type="R"
+      text="Khalafalla R. rush for 5 yards to the EPC45 (Di Mauro G.)." newcontext="H,2,5,V45">
+    <p_ru vh="H" name="Khalafalla R." gain="5"></p_ru>
+    <p_tk vh="V" name="Di Mauro G."></p_tk>
+   </play>
+   <play hasball="DV3" down="2" togo="5" spot="EPC45" context="H,2,5,V45" playid="3,4,27" type="P" first="P"
+      text="Scaglia N. pass complete to Vanni G. for 28 yards to the EPC17, 1ST DOWN DV3 (Greco L.)." newcontext="H,1,10,V17">
+    <p_pa vh="H" qb="Scaglia N." result="COMP" rcv="Vanni G." gain="28"></p_pa>
+    <p_tk vh="V" name="Greco L."></p_tk>
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="EPC17" context="H,1,10,V17" playid="3,5,28" type="R" turnover="F"
+      text="Khalafalla R. rush for 7 yards to the EPC10, fumble by Khalafalla R. recovered by EPC Crocella' S. at EPC10." newcontext="V,1,10,V10">
+    <p_ru vh="H" name="Khalafalla R." gain="7"></p_ru>
+    <p_fumb vh="H" name="Khalafalla R." at="V10" frvh="V" frname="Crocella' S."></p_fumb>
+   </play>
+   <drivesum plays="3" yards="40" top="2:00" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="V,V10,12:00" vh="V" spot="V10" clock="12:00" driveindex="4,28"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC10" context="V,1,10,V10" playid="4,1,29" clock="10:00"
+      text="ELEPHANTS CATANIA drive start at 10:00." newcontext="V,1,10,V10">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC10" context="V,1,10,V10" playid="4,2,30" type="R"
+      text="Lombardo E. rush for 7 yards to the EPC17 (Vitale R.)." newcontext="V,2,3,V17">
+    <p_ru vh="V" name="Lombardo E." gain="7"></p_ru>
+    <p_tk vh="H" name="Vitale R."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="3" spot="EPC17" context="V,2,3,V17" playid="4,3,31" type="R" first="R"
+      text="Lombardo E. rush for 10 yards to the EPC27, 1ST DOWN EPC (Bilacchi F.)." newcontext="V,1,10,V27">
+    <p_ru vh="V" name="Lombardo E." gain="10"></p_ru>
+    <p_tk vh="H" name="Bilacchi F."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC27" context="V,1,10,V27" playid="4,4,32" type="R"
+      text="Lombardo E. rush for 2 yards to the EPC29, PENALTY EPC holding (Megna P.) 11 yards to the EPC18." newcontext="V,1,19,V18">
+    <p_ru vh="V" name="Lombardo E." gain="2"></p_ru>
+    <p_pn vh="V" code="HO" type="holding" name="Megna P." result="ACCEPT" at="V29" yards="11"></p_pn>
+   </play>
+   <play hasball="EPC" down="1" togo="19" spot="EPC18" context="V,1,19,V18" playid="4,5,33"
+      text="1st and 19." newcontext="V,1,19,V18">
+   </play>
+   <play hasball="EPC" down="1" togo="19" spot="EPC18" context="V,1,19,V18" playid="4,6,34" type="R"
+      text="Bonaccorsi G. rush for no gain to the EPC18 (Montella G.)." newcontext="V,2,19,V18">
+    <p_ru vh="V" name="Bonaccorsi G." gain="0"></p_ru>
+    <p_tk vh="H" name="Montella G."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="19" spot="EPC18" context="V,2,19,V18" playid="4,7,35" type="P"
+      text="Bonaccorsi G. pass incomplete to Piccione G.." newcontext="V,3,19,V18">
+    <p_pa vh="V" qb="Bonaccorsi G." result="INC" rcv="Piccione G."></p_pa>
+   </play>
+   <play hasball="EPC" down="3" togo="19" spot="EPC18" context="V,3,19,V18" playid="4,8,36" type="R"
+      text="Lombardo E. rush for 10 yards to the EPC28 (Gamberini A.)." newcontext="V,4,9,V28">
+    <p_ru vh="V" name="Lombardo E." gain="10"></p_ru>
+    <p_tk vh="H" name="Gamberini A."></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="9" spot="EPC28" context="V,4,9,V28" playid="4,9,37" type="U"
+      text="Maugeri G. punt 25 yards to the DV347, out-of-bounds." ob="Y" newcontext="H,1,10,H47">
+    <p_pu vh="V" name="Maugeri G." gain="25" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="6" yards="18" top="3:37" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,H47,10:00" vh="H" spot="H47" clock="10:00" driveindex="5,37"></drivestart>
+   <play hasball="DV3" down="1" togo="10" spot="DV347" context="H,1,10,H47" playid="5,1,38" clock="06:23"
+      text="DOVES BOLOGNA drive start at 06:23." newcontext="H,1,10,H47">
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="DV347" context="H,1,10,H47" playid="5,2,39" type="R"
+      text="Khalafalla R. rush for 3 yards to the 50 yardline, out-of-bounds (Greco L.)." ob="Y" newcontext="H,2,7,H50">
+    <p_ru vh="H" name="Khalafalla R." gain="3"></p_ru>
+    <p_tk vh="V" name="Greco L."></p_tk>
+   </play>
+   <play hasball="DV3" down="2" togo="7" spot="DV350" context="H,2,7,H50" playid="5,3,40" type="P" first="P"
+      text="Scaglia N. pass complete to Guidi M. for 14 yards to the EPC36, 1ST DOWN DV3." newcontext="H,1,10,V36">
+    <p_pa vh="H" qb="Scaglia N." result="COMP" rcv="Guidi M." gain="14"></p_pa>
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="EPC36" context="H,1,10,V36" playid="5,4,41" type="R"
+      text="Khalafalla R. rush for 2 yards to the EPC34 (Giordano L.)." newcontext="H,2,8,V34">
+    <p_ru vh="H" name="Khalafalla R." gain="2"></p_ru>
+    <p_tk vh="V" name="Giordano L."></p_tk>
+   </play>
+   <play hasball="DV3" down="2" togo="8" spot="EPC34" context="H,2,8,V34" playid="5,5,42" type="P" first="P"
+      text="Scaglia N. pass complete to Ambrosi L. for 11 yards to the EPC23, 1ST DOWN DV3, out-of-bounds." ob="Y" newcontext="H,1,10,V23">
+    <p_pa vh="H" qb="Scaglia N." result="COMP" rcv="Ambrosi L." gain="11"></p_pa>
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="EPC23" context="H,1,10,V23" playid="5,6,43" type="R"
+      text="Aiello M. rush for 3 yards to the EPC20 (Di Mauro G.;Fetene F.)." newcontext="H,2,7,V20">
+    <p_ru vh="H" name="Aiello M." gain="3"></p_ru>
+    <p_tk vh="V" name="Di Mauro G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Fetene F." assist="Y"></p_tk>
+   </play>
+   <play hasball="DV3" down="2" togo="7" spot="EPC20" context="H,2,7,V20" playid="5,7,44" type="R"
+      text="Khalafalla R. rush for 3 yards to the EPC17 (Privitera D.;Greco L.)." newcontext="H,3,4,V17">
+    <p_ru vh="H" name="Khalafalla R." gain="3"></p_ru>
+    <p_tk vh="V" name="Privitera D." assist="Y"></p_tk>
+    <p_tk vh="V" name="Greco L." assist="Y"></p_tk>
+   </play>
+   <play hasball="DV3" down="3" togo="4" spot="EPC17" context="H,3,4,V17" playid="5,8,45" type="P"
+      text="Scaglia N. pass incomplete to Ambrosi L.." newcontext="H,4,4,V17">
+    <p_pa vh="H" qb="Scaglia N." result="INC" rcv="Ambrosi L."></p_pa>
+   </play>
+   <play hasball="DV3" down="4" togo="4" spot="EPC17" context="H,4,4,V17" playid="5,9,46" type="P" first="E"
+      text="Scaglia N. pass incomplete to Guidi M., PENALTY EPC offside defense (Mondo L.) 5 yards to the EPC12, 1ST DOWN DV3." newcontext="H,1,10,V12">
+    <p_pa vh="H" qb="Scaglia N." result="INC" rcv="Guidi M."></p_pa>
+    <p_pn vh="V" code="OD" type="offside defense" name="Mondo L." result="ACCEPT" at="V17" yards="5"></p_pn>
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="EPC12" context="H,1,10,V12" playid="5,10,47"
+      text="1st and 10." newcontext="H,1,10,V12">
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="EPC12" context="H,1,10,V12" playid="5,11,48" type="R"
+      text="Khalafalla R. rush for loss of 3 yards to the EPC15 (Privitera D.;Giordano L.), PENALTY DV3 holding (Mazza F.) 6 yards to the EPC21." newcontext="H,1,19,V21">
+    <p_ru vh="H" name="Khalafalla R." gain="-3"></p_ru>
+    <p_tk vh="V" name="Privitera D." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Giordano L." tfl="Y" assist="Y"></p_tk>
+    <p_pn vh="H" code="HO" type="holding" name="Mazza F." result="ACCEPT" at="V15" yards="6"></p_pn>
+   </play>
+   <play hasball="DV3" down="1" togo="19" spot="EPC21" context="H,1,19,V21" playid="5,12,49"
+      text="1st and 19." newcontext="H,1,19,V21">
+   </play>
+   <play hasball="DV3" down="1" togo="19" spot="EPC21" context="H,1,19,V21" playid="5,13,50" type="P"
+      text="Scaglia N. pass incomplete to Vanni G.." newcontext="H,2,19,V21">
+    <p_pa vh="H" qb="Scaglia N." result="INC" rcv="Vanni G."></p_pa>
+   </play>
+   <play hasball="DV3" down="2" togo="19" spot="EPC21" context="H,2,19,V21" playid="5,14,51" type="#" clock="02:25"
+      text="Timeout Doves Bologna, clock 02:25." newcontext="H,2,19,V21">
+    <p_to vh="H" team="Doves Bologna"></p_to>
+   </play>
+   <play hasball="DV3" down="2" togo="19" spot="EPC21" context="H,2,19,V21" playid="5,15,52" type="R"
+      text="Scaglia N. rush for 12 yards to the EPC9 (Privitera D.)." newcontext="H,3,7,V09">
+    <p_ru vh="H" name="Scaglia N." gain="12"></p_ru>
+    <p_tk vh="V" name="Privitera D."></p_tk>
+   </play>
+   <play hasball="DV3" down="3" togo="7" spot="EPC09" context="H,3,7,V09" playid="5,16,53" type="P"
+      text="Scaglia N. pass complete to Bilacchi F. for 8 yards to the EPC1, PENALTY DV3 holding (Guzzinati F.) 11 yards to the EPC12." newcontext="H,3,10,V12">
+    <p_pa vh="H" qb="Scaglia N." result="COMP" rcv="Bilacchi F." gain="8"></p_pa>
+    <p_pn vh="H" code="HO" type="holding" name="Guzzinati F." result="ACCEPT" at="V01" yards="11"></p_pn>
+   </play>
+   <play hasball="DV3" down="3" togo="10" spot="EPC12" context="H,3,10,V12" playid="5,17,54"
+      text="3rd and 10." newcontext="H,3,10,V12">
+   </play>
+   <play hasball="DV3" down="3" togo="10" spot="EPC12" context="H,3,10,V12" playid="5,18,55" type="R"
+      text="Bilacchi F. rush for 11 yards to the EPC1, PENALTY DV3 holding (Guidi M.) 14 yards to the EPC15." newcontext="H,3,13,V15">
+    <p_ru vh="H" name="Bilacchi F." gain="11"></p_ru>
+    <p_pn vh="H" code="HO" type="holding" name="Guidi M." result="ACCEPT" at="V01" yards="14"></p_pn>
+   </play>
+   <play hasball="DV3" down="3" togo="13" spot="EPC15" context="H,3,13,V15" playid="5,19,56"
+      text="3rd and 13." newcontext="H,3,13,V15">
+   </play>
+   <play hasball="DV3" down="3" togo="13" spot="EPC15" context="H,3,13,V15" playid="5,20,57" type="#" clock="01:40"
+      text="Timeout Elephants Catania, clock 01:40." newcontext="H,3,13,V15">
+    <p_to vh="V" team="Elephants Catania"></p_to>
+   </play>
+   <play hasball="DV3" down="3" togo="13" spot="EPC15" context="H,3,13,V15" playid="5,21,58" type="P"
+      text="Scaglia N. pass incomplete to Gatto T.." newcontext="H,4,13,V15">
+    <p_pa vh="H" qb="Scaglia N." result="INC" rcv="Gatto T."></p_pa>
+   </play>
+   <play hasball="DV3" down="4" togo="13" spot="EPC15" context="H,4,13,V15" playid="5,22,59" type="F" clock="01:20"
+      text="Zagni D. field goal attempt from 32 MISSED - wide left, spot at EPC20, clock 01:20." newcontext="V,1,10,V20">
+    <p_fg vh="H" name="Zagni D." distance="32" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="14" yards="38" top="5:03" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V20,01:20" vh="V" spot="V20" clock="01:20" driveindex="6,59"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC20" context="V,1,10,V20" playid="6,1,60" type="R"
+      text="Bonaccorsi G. rush for loss of 1 yard to the EPC19 (Campanale M.)." newcontext="V,2,11,V19">
+    <p_ru vh="V" name="Bonaccorsi G." gain="-1"></p_ru>
+    <p_tk vh="H" name="Campanale M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="11" spot="EPC19" context="V,2,11,V19" playid="6,2,61" type="R"
+      text="Lombardo E. rush for no gain to the EPC19 (Campanale M.)." newcontext="V,3,11,V19">
+    <p_ru vh="V" name="Lombardo E." gain="0"></p_ru>
+    <p_tk vh="H" name="Campanale M."></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="11" spot="EPC19" context="V,3,11,V19" playid="6,3,62" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="V,3,11,V19">
+   </play>
+   <drivesum plays="2" yards="-1" top="1:20" driveindex="6" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="EPC">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="16"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:57"></misc>
+    <rush att="7" yds="28" gain="29" loss="1" td="0" long="0"></rush>
+    <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="1" yds="25" long="25" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="25.0"></punt>
+    <defense tackua="5" tacka="6" tot_tack="11" tflua="2" tfla="0" tflyds="6" sacks="0" sackyds="0" fr="1" fryds="0"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="DV3">
+    <firstdowns no="4" rush="0" pass="3" penalty="1"></firstdowns>
+    <penalties no="3" yds="31"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="07:03"></misc>
+    <rush att="9" yds="43" gain="46" loss="3" td="0" long="12"></rush>
+    <pass comp="4" att="8" int="0" yds="61" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="61" td="0" long="0"></rcv>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <defense tackua="6" tacka="0" tot_tack="6" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0"></defense>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="EPC" down="3" togo="11" spot="EPC19" context="V,3,11,V19" playid="6,4,63" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, DV3 ball on DV335." newcontext="H,3,11,H35">
+   </play>
+   <play hasball="DV3" down="3" togo="11" spot="DV335" context="H,3,11,H35" playid="6,5,64" type="K"
+      text="Zagni D. kickoff 35 yards to the EPC30, Maugeri G. return 6 yards to the EPC36 (Gamberini A.)." newcontext="V,1,10,V36">
+    <p_ko vh="H" name="Zagni D." gain="35"></p_ko>
+    <p_kr vh="V" name="Maugeri G." gain="6"></p_kr>
+    <p_tk vh="H" name="Gamberini A."></p_tk>
+   </play>
+   <drivestart poss="V,V36,12:00" vh="V" spot="V36" clock="12:00" driveindex="7,64"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC36" context="V,1,10,V36" playid="7,1,65" clock="12:00"
+      text="ELEPHANTS CATANIA drive start at 12:00." newcontext="V,1,10,V36">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC36" context="V,1,10,V36" playid="7,2,66" type="R"
+      text="Lombardo E. rush for 9 yards to the EPC45 (Gamberini A.;Vitale R.)." newcontext="V,2,1,V45">
+    <p_ru vh="V" name="Lombardo E." gain="9"></p_ru>
+    <p_tk vh="H" name="Gamberini A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Vitale R." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="1" spot="EPC45" context="V,2,1,V45" playid="7,3,67" type="R"
+      text="Lombardo E. rush for no gain to the EPC45." newcontext="V,3,1,V45">
+    <p_ru vh="V" name="Lombardo E." gain="0"></p_ru>
+   </play>
+   <play hasball="EPC" down="3" togo="1" spot="EPC45" context="V,3,1,V45" playid="7,4,68" type="R"
+      text="Lombardo E. rush for loss of 2 yards to the EPC43 (Vitale R.)." newcontext="V,4,3,V43">
+    <p_ru vh="V" name="Lombardo E." gain="-2"></p_ru>
+    <p_tk vh="H" name="Vitale R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="3" spot="EPC43" context="V,4,3,V43" playid="7,5,69" type="P"
+      text="Bonaccorsi G. pass incomplete to Bonaccorsi S.." newcontext="H,1,10,V43">
+    <p_pa vh="V" qb="Bonaccorsi G." result="INC" rcv="Bonaccorsi S."></p_pa>
+   </play>
+   <drivesum plays="4" yards="7" top="2:43" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,V43,12:00" vh="H" spot="V43" clock="12:00" driveindex="8,69"></drivestart>
+   <play hasball="DV3" down="1" togo="10" spot="EPC43" context="H,1,10,V43" playid="8,1,70" clock="09:17"
+      text="DOVES BOLOGNA drive start at 09:17." newcontext="H,1,10,V43">
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="EPC43" context="H,1,10,V43" playid="8,2,71" type="R"
+      text="Khalafalla R. rush for no gain to the EPC43 (Privitera D.), PENALTY EPC offside defense (Privitera D.) 6 yards to the EPC37." newcontext="H,1,4,V37">
+    <p_ru vh="H" name="Khalafalla R." gain="0"></p_ru>
+    <p_tk vh="V" name="Privitera D."></p_tk>
+    <p_pn vh="V" code="OD" type="offside defense" name="Privitera D." result="ACCEPT" at="V43" yards="6"></p_pn>
+   </play>
+   <play hasball="DV3" down="1" togo="4" spot="EPC37" context="H,1,4,V37" playid="8,3,72"
+      text="1st and 4." newcontext="H,1,4,V37">
+   </play>
+   <play hasball="DV3" down="1" togo="4" spot="EPC37" context="H,1,4,V37" playid="8,4,73" type="R" first="R"
+      text="Khalafalla R. rush for 10 yards to the EPC27, 1ST DOWN DV3 (Crocella' S.;Di Mauro G.)." newcontext="H,1,10,V27">
+    <p_ru vh="H" name="Khalafalla R." gain="10"></p_ru>
+    <p_tk vh="V" name="Crocella' S." assist="Y"></p_tk>
+    <p_tk vh="V" name="Di Mauro G." assist="Y"></p_tk>
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="EPC27" context="H,1,10,V27" playid="8,5,74" type="R" first="R"
+      text="Khalafalla R. rush for 15 yards to the EPC12, 1ST DOWN DV3 (Maugeri G.)." newcontext="H,1,10,V12">
+    <p_ru vh="H" name="Khalafalla R." gain="15"></p_ru>
+    <p_tk vh="V" name="Maugeri G."></p_tk>
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="EPC12" context="H,1,10,V12" playid="8,6,75" type="P"
+      text="Scaglia N. pass complete to Vanni G. for 4 yards to the EPC8 (Di Mauro G.;Maugeri G.)." newcontext="H,2,6,V08">
+    <p_pa vh="H" qb="Scaglia N." result="COMP" rcv="Vanni G." gain="4"></p_pa>
+    <p_tk vh="V" name="Di Mauro G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Maugeri G." assist="Y"></p_tk>
+   </play>
+   <play hasball="DV3" down="2" togo="6" spot="EPC08" context="H,2,6,V08" playid="8,7,76" type="R" first="R" score="Y" clock="04:00"
+      text="Khalafalla R. rush for 8 yards to the EPC0, 1ST DOWN DV3, TOUCHDOWN, clock 04:00." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Khalafalla R." gain="8"></p_ru>
+   </play>
+   <play hasball="DV3" down="1" togo="0" spot="EPC03" context="H,1,0,V03" playid="8,8,77" type="X" score="Y"
+      text="Zagni D. kick attempt good." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Zagni D." qb="Zagni D." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="7"></score>
+   <drivesum plays="5" yards="43" top="5:17" driveindex="8" complete="Y"></drivesum>
+   <play hasball="DV3" down="1" togo="0" spot="DV335" context="H,1,0,H35" playid="8,9,78" type="K"
+      text="Zagni D. kickoff 37 yards to the EPC28, Maugeri G. return 22 yards to the 50 yardline (Campanale M.)." newcontext="V,1,10,V50">
+    <p_ko vh="H" name="Zagni D." gain="37"></p_ko>
+    <p_kr vh="V" name="Maugeri G." gain="22"></p_kr>
+    <p_tk vh="H" name="Campanale M."></p_tk>
+   </play>
+   <drivestart poss="V,V50,04:00" vh="V" spot="V50" clock="04:00" driveindex="9,78"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC50" context="V,1,10,V50" playid="9,1,79" clock="04:00"
+      text="ELEPHANTS CATANIA drive start at 04:00." newcontext="V,1,10,V50">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC50" context="V,1,10,V50" playid="9,2,80" type="P"
+      text="Bonaccorsi G. pass incomplete to Bonaccorsi S.." newcontext="V,2,10,V50">
+    <p_pa vh="V" qb="Bonaccorsi G." result="INC" rcv="Bonaccorsi S."></p_pa>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="EPC50" context="V,2,10,V50" playid="9,3,81" type="R"
+      text="Lombardo E. rush for 6 yards to the DV344 (Vanni G.)." newcontext="V,3,4,H44">
+    <p_ru vh="V" name="Lombardo E." gain="6"></p_ru>
+    <p_tk vh="H" name="Vanni G."></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="4" spot="DV344" context="V,3,4,H44" playid="9,4,82" type="R" first="R"
+      text="Lombardo E. rush for 15 yards to the DV329, 1ST DOWN EPC (Da Silva Net J.)." newcontext="V,1,10,H29">
+    <p_ru vh="V" name="Lombardo E." gain="15"></p_ru>
+    <p_tk vh="H" name="Da Silva Net J."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="DV329" context="V,1,10,H29" playid="9,5,83" type="R"
+      text="Lombardo E. rush for 4 yards to the DV325 (Finco N.)." newcontext="V,2,6,H25">
+    <p_ru vh="V" name="Lombardo E." gain="4"></p_ru>
+    <p_tk vh="H" name="Finco N."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="6" spot="DV325" context="V,2,6,H25" playid="9,6,84" type="P"
+      text="Bonaccorsi G. pass incomplete to Piccione S., dropped pass." newcontext="V,3,6,H25">
+    <p_pa vh="V" qb="Bonaccorsi G." result="DROP" rcv="Piccione S."></p_pa>
+   </play>
+   <play hasball="EPC" down="3" togo="6" spot="DV325" context="V,3,6,H25" playid="9,7,85" type="R"
+      text="Bonaccorsi G. rush for 5 yards to the DV320 (Campanale M.)." newcontext="V,4,1,H20">
+    <p_ru vh="V" name="Bonaccorsi G." gain="5"></p_ru>
+    <p_tk vh="H" name="Campanale M."></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="1" spot="DV320" context="V,4,1,H20" playid="9,8,86" type="#" clock="02:40"
+      text="Timeout Elephants Catania, clock 02:40." newcontext="V,4,1,H20">
+    <p_to vh="V" team="Elephants Catania"></p_to>
+   </play>
+   <play hasball="EPC" down="4" togo="1" spot="DV320" context="V,4,1,H20" playid="9,9,87" type="R" first="R"
+      text="Bonaccorsi G. rush for 7 yards to the DV313, 1ST DOWN EPC (Vanni G.;Da Silva Net J.)." newcontext="V,1,10,H13">
+    <p_ru vh="V" name="Bonaccorsi G." gain="7"></p_ru>
+    <p_tk vh="H" name="Vanni G." assist="Y"></p_tk>
+    <p_tk vh="H" name="Da Silva Net J." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="DV313" context="V,1,10,H13" playid="9,10,88" type="R"
+      text="Lombardo E. rush for loss of 4 yards to the DV317 (Bilacchi F.)." newcontext="V,2,14,H17">
+    <p_ru vh="V" name="Lombardo E." gain="-4"></p_ru>
+    <p_tk vh="H" name="Bilacchi F." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="14" spot="DV317" context="V,2,14,H17" playid="9,11,89" type="R"
+      text="Bonaccorsi G. rush for 3 yards to the DV314 (Bilacchi F.;Vanni G.)." newcontext="V,3,11,H14">
+    <p_ru vh="V" name="Bonaccorsi G." gain="3"></p_ru>
+    <p_tk vh="H" name="Bilacchi F." assist="Y"></p_tk>
+    <p_tk vh="H" name="Vanni G." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="11" spot="DV314" context="V,3,11,H14" playid="9,12,90" type="#" clock="00:55"
+      text="Timeout Elephants Catania, clock 00:55." newcontext="V,3,11,H14">
+    <p_to vh="V" team="Elephants Catania"></p_to>
+   </play>
+   <play hasball="EPC" down="3" togo="11" spot="DV314" context="V,3,11,H14" playid="9,13,91" type="P"
+      text="Bonaccorsi G. pass incomplete to Bonaccorsi S.." newcontext="V,4,11,H14">
+    <p_pa vh="V" qb="Bonaccorsi G." result="INC" rcv="Bonaccorsi S."></p_pa>
+   </play>
+   <play hasball="EPC" down="4" togo="11" spot="DV314" context="V,4,11,H14" playid="9,14,92" type="F" clock="00:15"
+      text="Maugeri G. field goal attempt from 20 MISSED - wide right, spot at DV320, clock 00:15." newcontext="H,1,10,H20">
+    <p_fg vh="V" name="Maugeri G." distance="20" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="10" yards="36" top="3:45" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,H20,00:15" vh="H" spot="H20" clock="00:15" driveindex="10,92"></drivestart>
+   <play hasball="DV3" down="1" togo="10" spot="DV320" context="H,1,10,H20" playid="10,1,93" type="R" first="R"
+      text="Khalafalla R. rush for 17 yards to the DV337, 1ST DOWN DV3 (Maugeri G.)." newcontext="H,1,10,H37">
+    <p_ru vh="H" name="Khalafalla R." gain="17"></p_ru>
+    <p_tk vh="V" name="Maugeri G."></p_tk>
+   </play>
+   <score qtr="3" V="0" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="EPC">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="6"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:28"></misc>
+    <rush att="10" yds="43" gain="49" loss="6" td="0" long="3"></rush>
+    <pass comp="0" att="4" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <defense tackua="3" tacka="4" tot_tack="7" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="28" td="0" long="22"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="DV3">
+    <firstdowns no="4" rush="4" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:32"></misc>
+    <rush att="5" yds="50" gain="50" loss="0" td="1" long="5"></rush>
+    <pass comp="1" att="1" int="0" yds="4" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="4" td="0" long="0"></rcv>
+    <ko no="2" yds="72" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="8" tacka="6" tot_tack="14" tflua="2" tfla="0" tflyds="6" sacks="0" sackyds="0"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="DV3" down="1" togo="10" spot="DV337" context="H,1,10,H37" playid="10,2,94" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="H,1,10,H37">
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="DV337" context="H,1,10,H37" playid="10,3,95" type="P"
+      text="Scaglia N. pass incomplete to Ambrosi L. (Maugeri G.)." newcontext="H,2,10,H37">
+    <p_pa vh="H" qb="Scaglia N." result="BRUP" rcv="Ambrosi L."></p_pa>
+    <p_bu vh="V" name="Maugeri G."></p_bu>
+   </play>
+   <play hasball="DV3" down="2" togo="10" spot="DV337" context="H,2,10,H37" playid="10,4,96" type="R"
+      text="Khalafalla R. rush for 1 yard to the DV338 (Fichera S.)." newcontext="H,3,9,H38">
+    <p_ru vh="H" name="Khalafalla R." gain="1"></p_ru>
+    <p_tk vh="V" name="Fichera S."></p_tk>
+   </play>
+   <play hasball="DV3" down="3" togo="9" spot="DV338" context="H,3,9,H38" playid="10,5,97" type="P"
+      text="Scaglia N. pass incomplete to Vanni G.." newcontext="H,4,9,H38">
+    <p_pa vh="H" qb="Scaglia N." result="INC" rcv="Vanni G."></p_pa>
+   </play>
+   <play hasball="DV3" down="4" togo="9" spot="DV338" context="H,4,9,H38" playid="10,6,98" type="U"
+      text="Scaglia N. punt 35 yards to the EPC27." newcontext="V,1,10,V27">
+    <p_pu vh="H" name="Scaglia N." gain="35"></p_pu>
+   </play>
+   <drivesum plays="4" yards="18" top="1:12" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V27,12:00" vh="V" spot="V27" clock="12:00" driveindex="11,98"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC27" context="V,1,10,V27" playid="11,1,99" clock="11:03"
+      text="ELEPHANTS CATANIA drive start at 11:03." newcontext="V,1,10,V27">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC27" context="V,1,10,V27" playid="11,2,100" type="P" first="P"
+      text="Bonaccorsi G. pass complete to Giordano L. for 11 yards to the EPC38, 1ST DOWN EPC (Da Silva Net J.)." newcontext="V,1,10,V38">
+    <p_pa vh="V" qb="Bonaccorsi G." result="COMP" rcv="Giordano L." gain="11"></p_pa>
+    <p_tk vh="H" name="Da Silva Net J."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC38" context="V,1,10,V38" playid="11,3,101" type="P"
+      text="Bonaccorsi G. pass incomplete to Di Mauro G.." newcontext="V,2,10,V38">
+    <p_pa vh="V" qb="Bonaccorsi G." result="INC" rcv="Di Mauro G."></p_pa>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="EPC38" context="V,2,10,V38" playid="11,4,102" type="R"
+      text="Bonaccorsi G. rush for 4 yards to the EPC42 (Venturi M.)." newcontext="V,3,6,V42">
+    <p_ru vh="V" name="Bonaccorsi G." gain="4"></p_ru>
+    <p_tk vh="H" name="Venturi M."></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="6" spot="EPC42" context="V,3,6,V42" playid="11,5,103" type="P"
+      text="Bonaccorsi G. pass incomplete to Piccione S.." newcontext="V,4,6,V42">
+    <p_pa vh="V" qb="Bonaccorsi G." result="INC" rcv="Piccione S."></p_pa>
+   </play>
+   <play hasball="EPC" down="4" togo="6" spot="EPC42" context="V,4,6,V42" playid="11,6,104" type="U"
+      text="Maugeri G. punt 34 yards to the DV324." newcontext="H,1,10,H24">
+    <p_pu vh="V" name="Maugeri G." gain="34"></p_pu>
+   </play>
+   <drivesum plays="4" yards="15" top="2:03" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,H24,11:03" vh="H" spot="H24" clock="11:03" driveindex="12,104"></drivestart>
+   <play hasball="DV3" down="1" togo="10" spot="DV324" context="H,1,10,H24" playid="12,1,105" clock="09:00"
+      text="DOVES BOLOGNA drive start at 09:00." newcontext="H,1,10,H24">
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="DV324" context="H,1,10,H24" playid="12,2,106" type="R"
+      text="Scaglia N. rush for 5 yards to the DV329, out-of-bounds (Maugeri G.)." ob="Y" newcontext="H,2,5,H29">
+    <p_ru vh="H" name="Scaglia N." gain="5"></p_ru>
+    <p_tk vh="V" name="Maugeri G."></p_tk>
+   </play>
+   <play hasball="DV3" down="2" togo="5" spot="DV329" context="H,2,5,H29" playid="12,3,107" type="R" first="R"
+      text="Khalafalla R. rush for 5 yards to the DV334, 1ST DOWN DV3 (Tracuzzi Spa G.)." newcontext="H,1,10,H34">
+    <p_ru vh="H" name="Khalafalla R." gain="5"></p_ru>
+    <p_tk vh="V" name="Tracuzzi Spa G."></p_tk>
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="DV334" context="H,1,10,H34" playid="12,4,108" type="R"
+      text="Khalafalla R. rush for 9 yards to the DV343 (Tracuzzi Spa G.)." newcontext="H,2,1,H43">
+    <p_ru vh="H" name="Khalafalla R." gain="9"></p_ru>
+    <p_tk vh="V" name="Tracuzzi Spa G."></p_tk>
+   </play>
+   <play hasball="DV3" down="2" togo="1" spot="DV343" context="H,2,1,H43" playid="12,5,109" type="R" first="R"
+      text="Khalafalla R. rush for 2 yards to the DV345, 1ST DOWN DV3 (Tracuzzi Spa G.)." newcontext="H,1,10,H45">
+    <p_ru vh="H" name="Khalafalla R." gain="2"></p_ru>
+    <p_tk vh="V" name="Tracuzzi Spa G."></p_tk>
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="DV345" context="H,1,10,H45" playid="12,6,110" type="P"
+      text="Scaglia N. pass incomplete to Biagini D.." newcontext="H,2,10,H45">
+    <p_pa vh="H" qb="Scaglia N." result="INC" rcv="Biagini D."></p_pa>
+   </play>
+   <play hasball="DV3" down="2" togo="10" spot="DV345" context="H,2,10,H45" playid="12,7,111" type="#" clock="06:21"
+      text="Timeout Doves Bologna, clock 06:21." newcontext="H,2,10,H45">
+    <p_to vh="H" team="Doves Bologna"></p_to>
+   </play>
+   <play hasball="DV3" down="2" togo="10" spot="DV345" context="H,2,10,H45" playid="12,8,112" type="#" clock="06:21"
+      text="Timeout Doves Bologna, clock 06:21." newcontext="H,2,10,H45">
+    <p_to vh="H" team="Doves Bologna"></p_to>
+   </play>
+   <play hasball="DV3" down="2" togo="10" spot="DV345" context="H,2,10,H45" playid="12,9,113" type="P"
+      text="Scaglia N. pass incomplete to Gatto T. (Maugeri G.)." newcontext="H,3,10,H45">
+    <p_pa vh="H" qb="Scaglia N." result="BRUP" rcv="Gatto T."></p_pa>
+    <p_bu vh="V" name="Maugeri G."></p_bu>
+   </play>
+   <play hasball="DV3" down="3" togo="10" spot="DV345" context="H,3,10,H45" playid="12,10,114" type="R"
+      text="Khalafalla R. rush for 5 yards to the 50 yardline (Privitera D.;Giordano L.)." newcontext="H,4,5,H50">
+    <p_ru vh="H" name="Khalafalla R." gain="5"></p_ru>
+    <p_tk vh="V" name="Privitera D." assist="Y"></p_tk>
+    <p_tk vh="V" name="Giordano L." assist="Y"></p_tk>
+   </play>
+   <play hasball="DV3" down="4" togo="5" spot="DV350" context="H,4,5,H50" playid="12,11,115" type="U"
+      text="Scaglia N. punt 33 yards to the EPC17, Maugeri G. return 1 yards to the EPC18 (Venturi M.)." newcontext="V,1,10,V18">
+    <p_pu vh="H" name="Scaglia N." gain="33" in20="Y"></p_pu>
+    <p_pr vh="V" name="Maugeri G." gain="1"></p_pr>
+    <p_tk vh="H" name="Venturi M."></p_tk>
+   </play>
+   <drivesum plays="7" yards="26" top="4:42" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V18,06:21" vh="V" spot="V18" clock="06:21" driveindex="13,115"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC18" context="V,1,10,V18" playid="13,1,116" clock="04:18"
+      text="ELEPHANTS CATANIA drive start at 04:18." newcontext="V,1,10,V18">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC18" context="V,1,10,V18" playid="13,2,117" type="P"
+      text="Bonaccorsi G. pass incomplete to Piccione S.." newcontext="V,2,10,V18">
+    <p_pa vh="V" qb="Bonaccorsi G." result="INC" rcv="Piccione S."></p_pa>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="EPC18" context="V,2,10,V18" playid="13,3,118" type="R"
+      text="Lombardo E. rush for 3 yards to the EPC21 (Aiello M.)." newcontext="V,3,7,V21">
+    <p_ru vh="V" name="Lombardo E." gain="3"></p_ru>
+    <p_tk vh="H" name="Aiello M."></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="7" spot="EPC21" context="V,3,7,V21" playid="13,4,119" type="P"
+      text="Bonaccorsi G. pass complete to Lombardo E. for 4 yards to the EPC25 (Da Silva Net J.)." newcontext="V,4,3,V25">
+    <p_pa vh="V" qb="Bonaccorsi G." result="COMP" rcv="Lombardo E." gain="4"></p_pa>
+    <p_tk vh="H" name="Da Silva Net J."></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="3" spot="EPC25" context="V,4,3,V25" playid="13,5,120" type="R" first="R"
+      text="Lombardo E. rush for 4 yards to the EPC29, 1ST DOWN EPC, out-of-bounds (Vanni G.)." ob="Y" newcontext="V,1,10,V29">
+    <p_ru vh="V" name="Lombardo E." gain="4"></p_ru>
+    <p_tk vh="H" name="Vanni G."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC29" context="V,1,10,V29" playid="13,6,121" type="R"
+      text="Lombardo E. rush for 41 yards to the DV330 (Elsayed M.), PENALTY EPC holding (Megna P.) 50 yards to the EPC20." newcontext="V,1,19,V20">
+    <p_ru vh="V" name="Lombardo E." gain="41"></p_ru>
+    <p_tk vh="H" name="Elsayed M."></p_tk>
+    <p_pn vh="V" code="HO" type="holding" name="Megna P." result="ACCEPT" at="H30" yards="50"></p_pn>
+   </play>
+   <play hasball="EPC" down="1" togo="19" spot="EPC20" context="V,1,19,V20" playid="13,7,122"
+      text="1st and 19." newcontext="V,1,19,V20">
+   </play>
+   <play hasball="EPC" down="1" togo="19" spot="EPC20" context="V,1,19,V20" playid="13,8,123" type="R"
+      text="Bonaccorsi G. rush for loss of 18 yards to the EPC2 (Elsayed M.)." newcontext="V,2,37,V02">
+    <p_ru vh="V" name="Bonaccorsi G." gain="-18"></p_ru>
+    <p_tk vh="H" name="Elsayed M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="37" spot="EPC02" context="V,2,37,V02" playid="13,9,124" type="P" score="Y" turnover="I" clock="02:00"
+      text="Bonaccorsi G. pass intercepted by Gamberini A. at the EPC1, Gamberini A. return 1 yards to the EPC0, TOUCHDOWN, clock 02:00." newcontext="H,1,0,V03">
+    <p_pa vh="V" qb="Bonaccorsi G." result="INT"></p_pa>
+    <p_ir vh="H" name="Gamberini A." at="V01" gain="1"></p_ir>
+   </play>
+   <drivesum plays="7" yards="-16" top="2:18" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,V03,02:00" vh="H" spot="V03" clock="02:00" driveindex="14,124"></drivestart>
+   <play hasball="DV3" down="1" togo="0" spot="EPC03" context="H,1,0,V03" playid="14,1,125" type="X" score="Y"
+      text="Zagni D. kick attempt good." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Zagni D." qb="Zagni D." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="14"></score>
+   <play hasball="DV3" down="1" togo="0" spot="DV335" context="H,1,0,H35" playid="14,2,126" type="U"
+      text="Zagni D. punt 48 yards to the EPC17, Lombardo E. return 35 yards to the DV348 (Zagni D.)." newcontext="V,1,10,H48">
+    <p_pu vh="H" name="Zagni D." gain="48"></p_pu>
+    <p_pr vh="V" name="Lombardo E." gain="35"></p_pr>
+    <p_tk vh="H" name="Zagni D."></p_tk>
+   </play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,H48,02:00" vh="V" spot="H48" clock="02:00" driveindex="15,126"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="DV348" context="V,1,10,H48" playid="15,1,127" clock="01:37"
+      text="ELEPHANTS CATANIA drive start at 01:37." newcontext="V,1,10,H48">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="DV348" context="V,1,10,H48" playid="15,2,128" type="P"
+      text="Bonaccorsi G. pass complete to Piccione S. for 8 yards to the DV340 (Vanni G.)." newcontext="V,2,2,H40">
+    <p_pa vh="V" qb="Bonaccorsi G." result="COMP" rcv="Piccione S." gain="8"></p_pa>
+    <p_tk vh="H" name="Vanni G."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="2" spot="DV340" context="V,2,2,H40" playid="15,3,129" type="E" first="E"
+      text="PENALTY DV3 offside defense 5 yards to the DV335, 1ST DOWN EPC." newcontext="V,1,10,H35">
+    <p_pn vh="H" code="OD" type="offside defense" result="ACCEPT" at="H40" yards="5"></p_pn>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="DV335" context="V,1,10,H35" playid="15,4,130" type="P"
+      text="Bonaccorsi G. pass incomplete to Leonardi A. (Vanni G.)." newcontext="V,2,10,H35">
+    <p_pa vh="V" qb="Bonaccorsi G." result="BRUP" rcv="Leonardi A."></p_pa>
+    <p_bu vh="H" name="Vanni G."></p_bu>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="DV335" context="V,2,10,H35" playid="15,5,131" type="P" turnover="I"
+      text="Bonaccorsi G. pass intercepted by Bilacchi F. at the DV320, Bilacchi F. return 15 yards to the DV335 (Bonaccorsi G.)." newcontext="H,1,10,H35">
+    <p_pa vh="V" qb="Bonaccorsi G." result="INT"></p_pa>
+    <p_ir vh="H" name="Bilacchi F." at="H20" gain="15"></p_ir>
+    <p_tk vh="V" name="Bonaccorsi G."></p_tk>
+   </play>
+   <drivesum plays="3" yards="13" top="1:29" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H35,01:37" vh="H" spot="H35" clock="01:37" driveindex="16,131"></drivestart>
+   <play hasball="DV3" down="1" togo="10" spot="DV335" context="H,1,10,H35" playid="16,1,132" clock="00:08"
+      text="DOVES BOLOGNA drive start at 00:08." newcontext="H,1,10,H35">
+   </play>
+   <play hasball="DV3" down="1" togo="10" spot="DV335" context="H,1,10,H35" playid="16,2,133" type="R"
+      text="TEAM rush for no gain to the DV335 (TEAM)." newcontext="H,2,10,H35">
+    <p_ru vh="H" name="TEAM" gain="0"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="DV3" down="2" togo="10" spot="DV335" context="H,2,10,H35" playid="16,3,134" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="H,2,10,H35">
+   </play>
+   <drivesum plays="1" yards="0" top="0:08" driveindex="16" complete="Y"></drivesum>
+   <score final="Y" V="0" H="14"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="EPC">
+    <firstdowns no="3" rush="1" pass="1" penalty="1"></firstdowns>
+    <penalties no="1" yds="50"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:13"></misc>
+    <rush att="5" yds="34" gain="52" loss="18" td="0" long="26"></rush>
+    <pass comp="3" att="9" int="2" yds="23" td="0" long="4" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="23" td="0" long="4"></rcv>
+    <punt no="1" yds="34" long="9" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="34.0"></punt>
+    <defense tackua="7" tacka="2" tot_tack="9" sacks="0" sackyds="0" brup="2"></defense>
+    <pr no="2" yds="36" td="0" long="35"></pr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="DV3">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:47"></misc>
+    <rush att="7" yds="27" gain="27" loss="0" td="0" long="0"></rush>
+    <pass comp="0" att="4" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="3" yds="116" long="48" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="38.7"></punt>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="10" tacka="0" tot_tack="10" tflua="1" tfla="0" tflyds="18" sacks="0" sackyds="0" brup="1" int="2" intyds="16"></defense>
+    <ir no="2" yds="16" td="1" long="15"></ir>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="H" id="DV3" down="2" togo="10" spot="DV335" context="H,2,10,H35" qtr="4" clock="00:00" vtoh="2" htoh="2"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="EPC">
+  <player name="Bonaccorsi S." checkname="S.,BONACCORSI" uni="24" gp="0" code="24"></player>
+  <player name="Leotta A." checkname="A.,LEOTTA" uni="13" gp="0" code="13"></player>
+  <player name="Pinieri M." checkname="M.,PINIERI" uni="42" gp="0" code="42"></player>
+  <player name="Megna P." checkname="P.,MEGNA" uni="56" gp="0" code="56"></player>
+  <player name="Corsaro A." checkname="A.,CORSARO" uni="59" gp="0" code="59"></player>
+  <player name="Mancuso F." checkname="F.,MANCUSO" uni="61" gp="0" code="61"></player>
+  <player name="Mondo L." checkname="L.,MONDO" uni="62" gp="0" code="62"></player>
+  <player name="Zaccone E." checkname="E.,ZACCONE" uni="79" gp="0" code="79"></player>
+  <player name="Mammana R." checkname="R.,MAMMANA" uni="9" gp="0" code="9"></player>
+ </dnp>
+ <dnp vh="H" id="DV3">
+  <player name="Margheriti F." checkname="F.,MARGHERITI" uni="10" gp="0" code="10"></player>
+  <player name="Lopez G." checkname="G.,LOPEZ" uni="18" gp="0" code="18"></player>
+  <player name="Lamborghini S." checkname="S.,LAMBORGHINI" uni="24" gp="0" code="24"></player>
+  <player name="Fini A." checkname="A.,FINI" uni="32" gp="0" code="32"></player>
+  <player name="Napoli S." checkname="S.,NAPOLI" uni="54" gp="0" code="54"></player>
+  <player name="Riccardo F." checkname="F.,RICCARDO" uni="55" gp="0" code="55"></player>
+  <player name="Minonne F." checkname="F.,MINONNE" uni="56" gp="0" code="56"></player>
+  <player name="Ferrari F." checkname="F.,FERRARI" uni="60" gp="0" code="60"></player>
+  <player name="Cavallaro A." checkname="A.,CAVALLARO" uni="61" gp="0" code="61"></player>
+  <player name="Guzzinati F." checkname="F.,GUZZINATI" uni="69" gp="0" code="69"></player>
+  <player name="Matei D." checkname="D.,MATEI" uni="72" gp="0" code="72"></player>
+  <player name="Fragomeni F." checkname="F.,FRAGOMENI" uni="76" gp="0" code="76"></player>
+  <player name="Cane' M." checkname="M.,CANE'" uni="78" gp="0" code="78"></player>
+  <player name="Amato A." checkname="A.,AMATO" uni="5" gp="0" code="5"></player>
+  <player name="Gatto T." checkname="T.,GATTO" uni="81" gp="0" code="81"></player>
+  <player name="Mazza F." checkname="F.,MAZZA" uni="84" gp="0" code="84"></player>
+  <player name="Leoni M." checkname="M.,LEONI" uni="98" gp="0" code="98"></player>
+  <player name="Corsi Balbon P." checkname="BALBON P.,CORSI" uni="4" gp="0" code="4"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

@@ -1,0 +1,957 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220150" visid="AFA" homeid="BLU" visname="Alfieri Asti" homename="Blue Storms Busto Ar"
+      date="5/8/2022" location="BIENATE" stadium="CAMPO SPORTIVO"
+      start="15.00" end="16.45" leaguegame="Y"
+      duration="01.45" attend="100" temp="16" wind="NO" weather="CLOUDY">
+  <officials ref="MANCINO L." ump="BUONDONNO P." line="GIULIANELLI P." lj="SCIVALES L." bj="ZAMPEDRI R." sc="LIVRIERI-LUCCHI"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="AFA" name="Alfieri Asti" record="0-3" conf-record="0-3" abb="A">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="42" totoff_yards="118" totoff_avg="2.8">
+   <firstdowns no="9" rush="4" pass="3" penalty="2"></firstdowns>
+   <penalties no="5" yds="35"></penalties>
+   <conversions thirdconv="6" thirdatt="10" fourthconv="0" fourthatt="4"></conversions>
+   <fumbles no="4" lost="2"></fumbles>
+   <misc yds="0" top="27:55" ona="1" onm="0"></misc>
+   <redzone att="1" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="32" yds="41" gain="79" loss="38" td="0" long="16"></rush>
+   <pass comp="6" att="10" int="0" yds="77" td="0" long="29" sacks="2" sackyds="19"></pass>
+   <rcv no="6" yds="77" td="0" long="29"></rcv>
+   <defense tackua="15" tacka="14" tot_tack="29" tflua="2" tfla="0" tflyds="3" sacks="0" sackyds="0" brup="1" blkd="1"></defense>
+   <kr no="6" yds="91" td="0" long="19"></kr>
+  </totals>
+  <player name="Morra S." shortname="Morra S." checkname="S.,MORRA" uni="87" gp="1" code="87">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <rcv no="4" yds="65" td="0" long="29"></rcv>
+   <kr no="4" yds="59" td="0" long="19"></kr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Castagneri S." shortname="Castagneri S." checkname="S.,CASTAGNERI" uni="89" gp="1" code="89">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <rcv no="2" yds="12" td="0" long="7"></rcv>
+  </player>
+  <player name="Ferro D." shortname="Ferro D." checkname="D.,FERRO" uni="85" gp="1" code="85">
+   <rush att="1" yds="1" gain="1" loss="0" td="0" long="1"></rush>
+  </player>
+  <player name="Jarju B." shortname="Jarju B." checkname="B.,JARJU" uni="9" gp="1" code="9">
+   <rush att="5" yds="9" gain="11" loss="2" td="0" long="9"></rush>
+   <kr no="2" yds="32" td="0" long="17"></kr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Sitra Da." shortname="Sitra Da." checkname="DA.,SITRA" uni="24" gp="1" code="24">
+   <rush att="16" yds="53" gain="58" loss="5" td="0" long="16"></rush>
+  </player>
+  <player name="Delfino M." shortname="Delfino M." checkname="M.,DELFINO" uni="30" gp="1" code="30">
+   <rush att="2" yds="-2" gain="0" loss="2" td="0" long="0"></rush>
+   <pass comp="1" att="1" int="0" yds="4" td="0" long="4" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="1" yds="-5" gain="0" loss="5" td="0" long="0"></rush>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Furnari G." shortname="Furnari G." checkname="G.,FURNARI" uni="4" gp="1" code="4">
+   <rush att="5" yds="-15" gain="9" loss="24" td="0" long="8"></rush>
+   <pass comp="5" att="9" int="0" yds="73" td="0" long="29" sacks="2" sackyds="19"></pass>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Viarengo D." shortname="Viarengo D." checkname="D.,VIARENGO" uni="25" gp="1" code="25"></player>
+  <player name="Minasso A." shortname="Minasso A." checkname="A.,MINASSO" uni="28" gp="1" code="28"></player>
+  <player name="Guandalini F." shortname="Guandalini F." checkname="F.,GUANDALINI" uni="38" gp="1" code="38">
+   <defense tackua="2" tacka="2" tot_tack="4" blkd="1"></defense>
+  </player>
+  <player name="Locci Gerbot N." shortname="Locci Gerbot N." checkname="GERBOT N.,LOCCI" uni="39" gp="1" code="39">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="Mastrolia G." shortname="Mastrolia G." checkname="G.,MASTROLIA" uni="47" gp="1" code="47"></player>
+  <player name="Marino A." shortname="Marino A." checkname="A.,MARINO" uni="52" gp="1" code="52">
+   <defense tackua="5" tacka="2" tot_tack="7" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Dipietro F." shortname="Dipietro F." checkname="F.,DIPIETRO" uni="62" gp="1" code="62">
+   <defense tackua="0" tacka="2" tot_tack="2"></defense>
+  </player>
+  <player name="Garoglio U." shortname="Garoglio U." checkname="U.,GAROGLIO" uni="66" gp="1" code="66"></player>
+  <player name="Nano L." shortname="Nano L." checkname="L.,NANO" uni="69" gp="1" code="69"></player>
+  <player name="Fongaro A." shortname="Fongaro A." checkname="A.,FONGARO" uni="73" gp="1" code="73"></player>
+  <player name="Sarto S." shortname="Sarto S." checkname="S.,SARTO" uni="23" gp="1" code="23">
+   <defense tackua="3" tacka="2" tot_tack="5"></defense>
+  </player>
+  <player name="Marangoni P." shortname="Marangoni P." checkname="P.,MARANGONI" uni="22" gp="1" code="22">
+   <defense tackua="0" tacka="2" tot_tack="2"></defense>
+  </player>
+  <player name="Sitra Di." shortname="Sitra Di." checkname="DI.,SITRA" uni="20" gp="1" code="20">
+   <defense tackua="2" tacka="2" tot_tack="4" brup="1"></defense>
+  </player>
+  <player name="Tagliani A." shortname="Tagliani A." checkname="A.,TAGLIANI" uni="19" gp="1" code="19">
+   <defense tackua="1" tacka="2" tot_tack="3" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="BLU" name="Blue Storms Busto Ar" record="3-0" conf-record="3-0" abb="B">
+  <linescore prds="4" line="7,21,0,13" score="41">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="21"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="13"></lineprd>
+  </linescore>
+  <totals totoff_plays="40" totoff_yards="269" totoff_avg="6.7">
+   <firstdowns no="16" rush="2" pass="12" penalty="2"></firstdowns>
+   <penalties no="3" yds="35"></penalties>
+   <conversions thirdconv="5" thirdatt="7" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="20:05" ona="0" onm="0"></misc>
+   <redzone att="4" scores="3" points="20" tdrush="1" tdpass="2" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="11" yds="50" gain="53" loss="3" td="1" long="12"></rush>
+   <pass comp="19" att="29" int="0" yds="219" td="4" long="30" sacks="0" sackyds="0"></pass>
+   <rcv no="19" yds="219" td="4" long="30"></rcv>
+   <ko no="7" yds="343" ob="0" tb="0"></ko>
+   <pat kickatt="5" kickmade="5" rushatt="1" rushmade="0"></pat>
+   <defense tackua="33" tacka="8" tot_tack="41" tflua="7" tfla="0" tflyds="25" sacks="2" sackyds="19" ff="1" fr="2" fryds="5"></defense>
+   <fr no="1" yds="5" td="1" long="5"></fr>
+   <scoring td="6" patkick="5"></scoring>
+  </totals>
+  <player name="Colombo S." shortname="Colombo S." checkname="S.,COLOMBO" uni="2" gp="1" code="2">
+   <rcv no="6" yds="22" td="0" long="6"></rcv>
+   <pat rushatt="1" rushmade="0"></pat>
+  </player>
+  <player name="Tovaglieri L." shortname="Tovaglieri L." checkname="L.,TOVAGLIERI" uni="10" gp="1" code="10">
+   <rcv no="5" yds="54" td="0" long="17"></rcv>
+  </player>
+  <player name="Villa S." shortname="Villa S." checkname="S.,VILLA" uni="1" gp="1" code="1">
+   <rcv no="4" yds="92" td="2" long="30"></rcv>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Colazingari G." shortname="Colazingari G." checkname="G.,COLAZINGARI" uni="86" gp="1" code="86">
+   <rcv no="2" yds="21" td="1" long="18"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Dotti L." shortname="Dotti L." checkname="L.,DOTTI" uni="84" gp="1" code="84">
+   <rcv no="1" yds="16" td="0" long="16"></rcv>
+  </player>
+  <player name="Filippini A." shortname="Filippini A." checkname="A.,FILIPPINI" uni="16" gp="1" code="16">
+   <rcv no="1" yds="14" td="1" long="14"></rcv>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Tovaglieri M." shortname="Tovaglieri M." checkname="M.,TOVAGLIERI" uni="17" gp="1" code="17">
+   <rush att="1" yds="6" gain="6" loss="0" td="0" long="6"></rush>
+  </player>
+  <player name="Barlocco G." shortname="Barlocco G." checkname="G.,BARLOCCO" uni="22" gp="1" code="22">
+   <rush att="2" yds="11" gain="11" loss="0" td="0" long="6"></rush>
+  </player>
+  <player name="Kolonna Appu M." shortname="Kolonna Appu M." checkname="APPU M.,KOLONNA" uni="18" gp="1" code="18"></player>
+  <player name="Carboni L." shortname="Carboni L." checkname="L.,CARBONI" uni="19" gp="1" code="19"></player>
+  <player name="Macchi E." shortname="Macchi E." checkname="E.,MACCHI" uni="4" gp="1" code="4">
+   <defense tackua="6" tacka="0" tot_tack="6" tflua="1" tfla="0" tflyds="11" sackua="1" sacka="0" sackyds="11" fr="1" fryds="5"></defense>
+   <fr no="1" yds="5" td="1" long="5"></fr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Zilioli T." shortname="Zilioli T." checkname="T.,ZILIOLI" uni="27" gp="1" code="27">
+   <defense tackua="2" tacka="2" tot_tack="4"></defense>
+  </player>
+  <player name="Donati A." shortname="Donati A." checkname="A.,DONATI" uni="28" gp="1" code="28">
+   <defense tackua="2" tacka="1" tot_tack="3" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Piccoli M." shortname="Piccoli M." checkname="M.,PICCOLI" uni="35" gp="1" code="35"></player>
+  <player name="Valera R." shortname="Valera R." checkname="R.,VALERA" uni="45" gp="1" code="45">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Hettiarachch A." shortname="Hettiarachch A." checkname="A.,HETTIARACHCH" uni="56" gp="1" code="56">
+   <defense tackua="5" tacka="2" tot_tack="7" tflua="2" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Tatti M." shortname="Tatti M." checkname="M.,TATTI" uni="57" gp="1" code="57"></player>
+  <player name="Pedol S." shortname="Pedol S." checkname="S.,PEDOL" uni="61" gp="1" code="61">
+   <defense tackua="1" tacka="1" tot_tack="2" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Cubicciotti C." shortname="Cubicciotti C." checkname="C.,CUBICCIOTTI" uni="68" gp="1" code="68"></player>
+  <player name="Tranchina G." shortname="Tranchina G." checkname="G.,TRANCHINA" uni="69" gp="1" code="69">
+   <defense tackua="7" tacka="0" tot_tack="7" tflua="2" tfla="0" tflyds="3" ff="1"></defense>
+  </player>
+  <player name="Lana A." shortname="Lana A." checkname="A.,LANA" uni="70" gp="1" code="70"></player>
+  <player name="Ferrazzi A." shortname="Ferrazzi A." checkname="A.,FERRAZZI" uni="71" gp="1" code="71"></player>
+  <player name="Martignoni F." shortname="Martignoni F." checkname="F.,MARTIGNONI" uni="77" gp="1" code="77">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="Gariboldi F." shortname="Gariboldi F." checkname="F.,GARIBOLDI" uni="6" gp="1" code="6">
+   <defense tackua="4" tacka="1" tot_tack="5" tflua="1" tfla="0" tflyds="8" sackua="1" sacka="0" sackyds="8"></defense>
+  </player>
+  <player name="Colombo L." shortname="Colombo L." checkname="L.,COLOMBO" uni="5" gp="1" code="5">
+   <rush att="2" yds="16" gain="16" loss="0" td="0" long="12"></rush>
+   <pass comp="19" att="29" int="0" yds="219" td="4" long="30" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="Gangi M." shortname="Gangi M." checkname="M.,GANGI" uni="88" gp="1" code="88">
+   <rush att="6" yds="17" gain="20" loss="3" td="1" long="12"></rush>
+   <ko no="7" yds="343" ob="0" tb="0"></ko>
+   <pat kickatt="5" kickmade="5"></pat>
+   <scoring td="1" patkick="5"></scoring>
+  </player>
+  <player name="Formentin A." shortname="Formentin A." checkname="A.,FORMENTIN" uni="95" gp="1" code="95"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="BLU" qtr="1" clock="08:04" type="TD" how="RUSH" yds="2" scorer="Gangi M." patby="Gangi M." pattype="KICK" patres="GOOD" plays="9" drive="50" top="3:56" vscore="0" hscore="7" driveindex="1"></score>
+  <score vh="H" team="BLU" qtr="2" clock="10:27" type="TD" how="PASS" yds="30" scorer="Villa S." passer="Colombo L." patby="Gangi M." pattype="KICK" patres="GOOD" plays="7" drive="85" top="3:08" vscore="0" hscore="14" driveindex="3"></score>
+  <score vh="H" team="BLU" qtr="2" clock="09:16" type="TD" how="FUMB" yds="5" scorer="Macchi E." patby="Gangi M." pattype="KICK" patres="GOOD" vscore="0" hscore="21" driveindex="5"></score>
+  <score vh="H" team="BLU" qtr="2" clock="01:04" type="TD" how="PASS" yds="21" scorer="Villa S." passer="Colombo L." patby="Gangi M." pattype="KICK" patres="GOOD" plays="5" drive="53" top="0:56" vscore="0" hscore="28" driveindex="7"></score>
+  <score vh="H" team="BLU" qtr="4" clock="06:51" type="TD" how="PASS" yds="18" scorer="Colazingari G." passer="Colombo L." patby="Gangi M." pattype="KICK" patres="GOOD" plays="3" drive="23" top="2:41" vscore="0" hscore="35" driveindex="12"></score>
+  <score vh="H" team="BLU" qtr="4" clock="02:53" type="TD" how="PASS" yds="14" scorer="Filippini A." passer="Colombo L." patby="Colombo S." pattype="RUSH" patres="FUMB" plays="4" drive="31" top="3:28" vscore="0" hscore="41" driveindex="14"></score>
+ </scores>
+ <drives>
+  <drive vh="H" team="BLU" start="KO,1,12:00,40" end="TD,1,08:04,90" plays="9" yards="50" top="3:56" start_how="KO" start_qtr="1" start_time="12:00" start_spot="BLU40" end_how="TD" end_qtr="1" end_time="08:04" end_spot="AFA00" rz="1" driveindex="1"></drive>
+  <drive vh="V" team="AFA" start="KO,1,07:55,24" end="DOWNS,1,01:35,85" plays="10" yards="61" top="6:20" start_how="KO" start_qtr="1" start_time="07:55" start_spot="AFA24" end_how="DOWNS" end_qtr="1" end_time="01:35" end_spot="BLU05" rz="1" driveindex="2"></drive>
+  <drive vh="H" team="BLU" start="DOWNS,1,01:35,5" end="TD,2,10:27,90" plays="7" yards="85" top="3:08" start_how="DOWNS" start_qtr="1" start_time="01:35" start_spot="BLU05" end_how="TD" end_qtr="2" end_time="10:27" end_spot="AFA00" driveindex="3"></drive>
+  <drive vh="V" team="AFA" start="KO,2,10:12,5" end="FUMB,2,09:16,5" plays="1" yards="0" top="0:56" start_how="KO" start_qtr="2" start_time="10:12" start_spot="AFA05" end_how="FUMB" end_qtr="2" end_time="09:16" end_spot="AFA05" driveindex="4"></drive>
+  <drive vh="H" team="BLU" start="FUMB,2,09:16,85" end="TD,2,09:16,85" plays="0" yards="0" top="0:00" start_how="FUMB" start_qtr="2" start_time="09:16" start_spot="AFA05" end_how="TD" end_qtr="2" end_time="09:16" end_spot="AFA05" driveindex="5"></drive>
+  <drive vh="V" team="AFA" start="KO,2,09:00,20" end="DOWNS,2,02:00,53" plays="11" yards="33" top="7:00" start_how="KO" start_qtr="2" start_time="09:00" start_spot="AFA20" end_how="DOWNS" end_qtr="2" end_time="02:00" end_spot="BLU37" driveindex="6"></drive>
+  <drive vh="H" team="BLU" start="DOWNS,2,02:00,37" end="TD,2,01:04,90" plays="5" yards="53" top="0:56" start_how="DOWNS" start_qtr="2" start_time="02:00" start_spot="BLU37" end_how="TD" end_qtr="2" end_time="01:04" end_spot="AFA00" driveindex="7"></drive>
+  <drive vh="V" team="AFA" start="KO,2,00:57,22" end="HALF,2,00:00,28" plays="2" yards="6" top="0:57" start_how="KO" start_qtr="2" start_time="00:57" start_spot="AFA22" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="AFA28" driveindex="8"></drive>
+  <drive vh="V" team="AFA" start="KO,3,11:45,34" end="DOWNS,3,08:48,58" plays="6" yards="24" top="2:57" start_how="KO" start_qtr="3" start_time="11:45" start_spot="AFA34" end_how="DOWNS" end_qtr="3" end_time="08:48" end_spot="BLU32" driveindex="9"></drive>
+  <drive vh="H" team="BLU" start="DOWNS,3,08:48,32" end="DOWNS,3,02:52,79" plays="12" yards="47" top="5:56" start_how="DOWNS" start_qtr="3" start_time="08:48" start_spot="BLU32" end_how="DOWNS" end_qtr="3" end_time="02:52" end_spot="AFA11" rz="1" driveindex="10"></drive>
+  <drive vh="V" team="AFA" start="DOWNS,3,02:52,11" end="DOWNS,4,09:02,23" plays="10" yards="12" top="5:50" start_how="DOWNS" start_qtr="3" start_time="02:52" start_spot="AFA11" end_how="DOWNS" end_qtr="4" end_time="09:02" end_spot="AFA23" driveindex="11"></drive>
+  <drive vh="H" team="BLU" start="DOWNS,4,09:02,67" end="TD,4,06:21,90" plays="3" yards="23" top="2:41" start_how="DOWNS" start_qtr="4" start_time="09:02" start_spot="AFA23" end_how="TD" end_qtr="4" end_time="06:21" end_spot="AFA00" rz="1" driveindex="12"></drive>
+  <drive vh="V" team="AFA" start="KO,4,06:51,31" end="FUMB,4,06:21,31" plays="0" yards="0" top="0:30" start_how="KO" start_qtr="4" start_time="06:51" start_spot="AFA31" end_how="FUMB" end_qtr="4" end_time="06:21" end_spot="AFA31" driveindex="13"></drive>
+  <drive vh="H" team="BLU" start="FUMB,4,06:21,59" end="TD,4,02:53,90" plays="4" yards="31" top="3:28" start_how="FUMB" start_qtr="4" start_time="06:21" start_spot="AFA31" end_how="TD" end_qtr="4" end_time="02:53" end_spot="AFA00" rz="1" driveindex="14"></drive>
+  <drive vh="V" team="AFA" start="KO,4,01:25,32" end="HALF,4,00:00,34" plays="2" yards="2" top="1:25" start_how="KO" start_qtr="4" start_time="01:25" start_spot="AFA32" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="AFA34" driveindex="15"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="AFA" down="1" togo="10" spot="AFA30" context="V,1,10,V30" playid="0,1,0"
+      text="ALFIERI ASTI WIN THE COIN TOSS, DEFER TO SECOND HALF" newcontext="V,1,10,V30">
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA30" context="V,1,10,V30" playid="0,2,1"
+      text="AFA ball on AFA30." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA30" context="V,1,10,V30" playid="0,3,2" type="K"
+      text="Castagneri S. kickoff 20 yards to the BLU40, on-side kick, recovered by BLU on BLU40." newcontext="H,1,10,H40">
+    <p_ko vh="V" name="Castagneri S." gain="20" result="N"></p_ko>
+   </play>
+   <drivestart poss="H,H40,12:00" vh="H" spot="H40" clock="12:00" driveindex="1,2"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU40" context="H,1,10,H40" playid="1,1,3" type="R"
+      text="Gangi M. rush for loss of 2 yards to the BLU38 (Tagliani A.)." newcontext="H,2,12,H38">
+    <p_ru vh="H" name="Gangi M." gain="-2"></p_ru>
+    <p_tk vh="V" name="Tagliani A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="12" spot="BLU38" context="H,2,12,H38" playid="1,2,4" type="P" first="P"
+      text="Colombo L. pass complete to Tovaglieri L. for 16 yards to the AFA36, 1ST DOWN BLU (Sarto S.;Guandalini F.)." newcontext="H,1,10,V36">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="16"></p_pa>
+    <p_tk vh="V" name="Sarto S." assist="Y"></p_tk>
+    <p_tk vh="V" name="Guandalini F." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA36" context="H,1,10,V36" playid="1,3,5" type="R"
+      text="Gangi M. rush for no gain to the AFA36 (Guandalini F.)." newcontext="H,2,10,V36">
+    <p_ru vh="H" name="Gangi M." gain="0"></p_ru>
+    <p_tk vh="V" name="Guandalini F."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="10" spot="AFA36" context="H,2,10,V36" playid="1,4,6" type="P" first="P"
+      text="Colombo L. pass complete to Dotti L. for 16 yards to the AFA20, 1ST DOWN BLU, out-of-bounds (Sarto S.)." ob="Y" newcontext="H,1,10,V20">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Dotti L." gain="16"></p_pa>
+    <p_tk vh="V" name="Sarto S."></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA20" context="H,1,10,V20" playid="1,5,7" type="P"
+      text="Colombo L. pass incomplete to Dotti L.." newcontext="H,2,10,V20">
+    <p_pa vh="H" qb="Colombo L." result="INC" rcv="Dotti L."></p_pa>
+   </play>
+   <play hasball="BLU" down="2" togo="10" spot="AFA20" context="H,2,10,V20" playid="1,6,8" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L.." newcontext="H,3,10,V20">
+    <p_pa vh="H" qb="Colombo L." result="INC" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="3" togo="10" spot="AFA20" context="H,3,10,V20" playid="1,7,9" type="R" first="R"
+      text="Gangi M. rush for 12 yards to the AFA8, 1ST DOWN BLU, out-of-bounds (Marino A.)." ob="Y" newcontext="H,1,0,V08">
+    <p_ru vh="H" name="Gangi M." gain="12"></p_ru>
+    <p_tk vh="V" name="Marino A."></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="AFA08" context="H,1,0,V08" playid="1,8,10" type="R"
+      text="Gangi M. rush for 6 yards to the AFA2 (Marino A.;Dipietro F.)." newcontext="H,2,0,V02">
+    <p_ru vh="H" name="Gangi M." gain="6"></p_ru>
+    <p_tk vh="V" name="Marino A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dipietro F." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="0" spot="AFA02" context="H,2,0,V02" playid="1,9,11" type="R" score="Y" clock="08:04"
+      text="Gangi M. rush for 2 yards to the AFA0, TOUCHDOWN, clock 08:04." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Gangi M." gain="2"></p_ru>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="AFA03" context="H,1,0,V03" playid="1,10,12" type="X" score="Y"
+      text="Gangi M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Gangi M." qb="Gangi M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="7"></score>
+   <drivesum plays="9" yards="50" top="3:56" driveindex="1" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU30" context="H,1,0,H30" playid="1,11,13" type="K"
+      text="Gangi M. kickoff 52 yards to the AFA8, Morra S. return 16 yards to the AFA24 (Filippini A.)." newcontext="V,1,10,V24">
+    <p_ko vh="H" name="Gangi M." gain="52"></p_ko>
+    <p_kr vh="V" name="Morra S." gain="16"></p_kr>
+    <p_tk vh="H" name="Filippini A."></p_tk>
+   </play>
+   <drivestart poss="V,V24,08:04" vh="V" spot="V24" clock="08:04" driveindex="2,13"></drivestart>
+   <play hasball="AFA" down="1" togo="10" spot="AFA24" context="V,1,10,V24" playid="2,1,14" clock="07:55"
+      text="ALFIERI ASTI drive start at 07:55." newcontext="V,1,10,V24">
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA24" context="V,1,10,V24" playid="2,2,15" type="R"
+      text="Jarju B. rush for 2 yards to the AFA26 (Donati A.)." newcontext="V,2,8,V26">
+    <p_ru vh="V" name="Jarju B." gain="2"></p_ru>
+    <p_tk vh="H" name="Donati A."></p_tk>
+   </play>
+   <play hasball="AFA" down="2" togo="8" spot="AFA26" context="V,2,8,V26" playid="2,3,16" type="R"
+      text="Sitra Da. rush for loss of 2 yards to the AFA24 (Tranchina G.)." newcontext="V,3,10,V24">
+    <p_ru vh="V" name="Sitra Da." gain="-2"></p_ru>
+    <p_tk vh="H" name="Tranchina G." tfl="Y"></p_tk>
+   </play>
+   <play hasball="AFA" down="3" togo="10" spot="AFA24" context="V,3,10,V24" playid="2,4,17" type="P" first="P"
+      text="Furnari G. pass complete to Morra S. for 29 yards to the BLU37, 1ST DOWN AFA (Gariboldi F.)." newcontext="V,1,10,H37">
+    <p_pa vh="V" qb="Furnari G." result="COMP" rcv="Morra S." gain="29"></p_pa>
+    <p_tk vh="H" name="Gariboldi F."></p_tk>
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="BLU37" context="V,1,10,H37" playid="2,5,18" type="R"
+      text="Sitra Da. rush for 2 yards to the BLU35 (Tranchina G.)." newcontext="V,2,8,H35">
+    <p_ru vh="V" name="Sitra Da." gain="2"></p_ru>
+    <p_tk vh="H" name="Tranchina G."></p_tk>
+   </play>
+   <play hasball="AFA" down="2" togo="8" spot="BLU35" context="V,2,8,H35" playid="2,6,19" type="R"
+      text="Castagneri S. rush for no gain to the BLU35 (TEAM)." newcontext="V,3,8,H35">
+    <p_ru vh="V" name="Castagneri S." gain="0"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="AFA" down="3" togo="8" spot="BLU35" context="V,3,8,H35" playid="2,7,20" type="P" first="P"
+      text="Furnari G. pass complete to Morra S. for 23 yards to the BLU12, 1ST DOWN AFA (Gariboldi F.)." newcontext="V,1,10,H12">
+    <p_pa vh="V" qb="Furnari G." result="COMP" rcv="Morra S." gain="23"></p_pa>
+    <p_tk vh="H" name="Gariboldi F."></p_tk>
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="BLU12" context="V,1,10,H12" playid="2,8,21" type="R"
+      text="Sitra Da. rush for no gain to the BLU12 (Macchi E.)." newcontext="V,2,10,H12">
+    <p_ru vh="V" name="Sitra Da." gain="0"></p_ru>
+    <p_tk vh="H" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="AFA" down="2" togo="10" spot="BLU12" context="V,2,10,H12" playid="2,9,22" type="#" clock="03:38"
+      text="Timeout Alfieri Asti, clock 03:38." newcontext="V,2,10,H12">
+    <p_to vh="V" team="Alfieri Asti"></p_to>
+   </play>
+   <play hasball="AFA" down="2" togo="10" spot="BLU12" context="V,2,10,H12" playid="2,10,23" type="R"
+      text="Morra S. rush for no gain to the BLU12 (Gariboldi F.)." newcontext="V,3,10,H12">
+    <p_ru vh="V" name="Morra S." gain="0"></p_ru>
+    <p_tk vh="H" name="Gariboldi F."></p_tk>
+   </play>
+   <play hasball="AFA" down="3" togo="10" spot="BLU12" context="V,3,10,H12" playid="2,11,24" type="P"
+      text="Furnari G. pass complete to Castagneri S. for 7 yards to the BLU5 (Zilioli T.)." newcontext="V,4,3,H05">
+    <p_pa vh="V" qb="Furnari G." result="COMP" rcv="Castagneri S." gain="7"></p_pa>
+    <p_tk vh="H" name="Zilioli T."></p_tk>
+   </play>
+   <play hasball="AFA" down="4" togo="3" spot="BLU05" context="V,4,3,H05" playid="2,12,25" type="P"
+      text="Furnari G. pass incomplete to Castagneri S.." newcontext="H,1,10,H05">
+    <p_pa vh="V" qb="Furnari G." result="INC" rcv="Castagneri S."></p_pa>
+   </play>
+   <drivesum plays="10" yards="61" top="6:20" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,H05,03:38" vh="H" spot="H05" clock="03:38" driveindex="3,25"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU05" context="H,1,10,H05" playid="3,1,26" clock="01:35"
+      text="BLUE STORMS BUSTO AR drive start at 01:35." newcontext="H,1,10,H05">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU05" context="H,1,10,H05" playid="3,2,27" type="P"
+      text="Colombo L. pass complete to Tovaglieri L. for 6 yards to the BLU11." newcontext="H,2,4,H11">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="6"></p_pa>
+   </play>
+   <play hasball="BLU" down="2" togo="4" spot="BLU11" context="H,2,4,H11" playid="3,3,28" type="P"
+      text="Colombo L. pass incomplete to Villa S. (Sitra Di.)." newcontext="H,3,4,H11">
+    <p_pa vh="H" qb="Colombo L." result="INC" rcv="Villa S."></p_pa>
+    <p_bu vh="V" name="Sitra Di."></p_bu>
+   </play>
+   <play hasball="BLU" down="3" togo="4" spot="BLU11" context="H,3,4,H11" playid="3,4,29" type="E" first="E"
+      text="Colombo L. rush for 4 yards to the BLU15, out-of-bounds, PENALTY AFA false start (Dipietro F.) 5 yards to the BLU16, 1ST DOWN BLU, NO PLAY." ob="Y" newcontext="H,1,10,H16">
+    <p_pn vh="V" code="FS" type="false start" name="Dipietro F." result="ACCEPT" at="H11" yards="5"></p_pn>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU16" context="H,1,10,H16" playid="3,5,30" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L.." newcontext="H,2,10,H16">
+    <p_pa vh="H" qb="Colombo L." result="INC" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="2" togo="10" spot="BLU16" context="H,2,10,H16" playid="3,6,31" type="R"
+      text="Gangi M. rush for loss of 1 yard to the BLU15 (Marino A.)." newcontext="H,3,11,H15">
+    <p_ru vh="H" name="Gangi M." gain="-1"></p_ru>
+    <p_tk vh="V" name="Marino A." tfl="Y"></p_tk>
+   </play>
+   <score qtr="1" V="0" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AFA">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:29"></misc>
+    <rush att="6" yds="2" gain="4" loss="2" td="0" long="2"></rush>
+    <pass comp="3" att="4" int="0" yds="59" td="0" long="29" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="59" td="0" long="29"></rcv>
+    <defense tackua="5" tacka="4" tot_tack="9" tflua="2" tfla="0" tflyds="3" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="1" yds="16" td="0" long="16"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BLU">
+    <firstdowns no="4" rush="1" pass="2" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:31"></misc>
+    <rush att="6" yds="17" gain="20" loss="3" td="1" long="12"></rush>
+    <pass comp="3" att="7" int="0" yds="38" td="0" long="16" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="38" td="0" long="16"></rcv>
+    <ko no="1" yds="52" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="10" tacka="0" tot_tack="10" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="BLU" down="3" togo="11" spot="BLU15" context="H,3,11,H15" playid="3,7,32" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="H,3,11,H15">
+   </play>
+   <play hasball="BLU" down="3" togo="11" spot="BLU15" context="H,3,11,H15" playid="3,8,33" type="E" first="E"
+      text="Colombo L. pass incomplete to Tovaglieri L., PENALTY AFA pass interference (Locci Gerbot N.) 15 yards to the BLU30, 1ST DOWN BLU, NO PLAY." newcontext="H,1,10,H30">
+    <p_pn vh="V" code="PI" type="pass interference" name="Locci Gerbot N." result="ACCEPT" at="H15" yards="15"></p_pn>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU30" context="H,1,10,H30" playid="3,9,34" type="P" first="P"
+      text="Colombo L. pass complete to Tovaglieri L. for 17 yards to the AFA43, 1ST DOWN BLU (Guandalini F.)." newcontext="H,1,10,V43">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="17"></p_pa>
+    <p_tk vh="V" name="Guandalini F."></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA43" context="H,1,10,V43" playid="3,10,35" type="P" first="P"
+      text="Colombo L. pass complete to Villa S. for 13 yards to the AFA30, 1ST DOWN BLU, out-of-bounds (Sarto S.)." ob="Y" newcontext="H,1,10,V30">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Villa S." gain="13"></p_pa>
+    <p_tk vh="V" name="Sarto S."></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA30" context="H,1,10,V30" playid="3,11,36" type="P" first="P" score="Y" clock="10:27"
+      text="Colombo L. pass complete to Villa S. for 30 yards to the AFA0, 1ST DOWN BLU, TOUCHDOWN, clock 10:27." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Villa S." gain="30"></p_pa>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="AFA03" context="H,1,0,V03" playid="3,12,37" type="X" score="Y"
+      text="Gangi M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Gangi M." qb="Gangi M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="14"></score>
+   <drivesum plays="7" yards="85" top="3:08" driveindex="3" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU30" context="H,1,0,H30" playid="3,13,38" type="K"
+      text="Gangi M. kickoff 55 yards to the AFA5, downed." newcontext="V,1,10,V05">
+    <p_ko vh="H" name="Gangi M." gain="55"></p_ko>
+   </play>
+   <drivestart poss="V,V05,10:27" vh="V" spot="V05" clock="10:27" driveindex="4,38"></drivestart>
+   <play hasball="AFA" down="1" togo="10" spot="AFA05" context="V,1,10,V05" playid="4,1,39" clock="10:12"
+      text="ALFIERI ASTI drive start at 10:12." newcontext="V,1,10,V05">
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA05" context="V,1,10,V05" playid="4,2,40" type="R" score="Y" turnover="F" clock="09:16"
+      text="Jarju B. rush for no gain to the AFA5, fumble forced by Tranchina G., fumble by Jarju B. recovered by BLU Macchi E. at AFA5, Macchi E. for 5 yards to the AFA0, TOUCHDOWN, clock 09:16." newcontext="H,1,0,V03">
+    <p_ru vh="V" name="Jarju B." gain="0"></p_ru>
+    <p_fr vh="H" name="Macchi E." gain="5"></p_fr>
+    <p_fumb vh="V" name="Jarju B." at="V05" frvh="H" frname="Macchi E."></p_fumb>
+    <p_tk vh="H" name="Tranchina G." ff="Y"></p_tk>
+   </play>
+   <drivesum plays="1" yards="0" top="0:56" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,V03,09:16" vh="H" spot="V03" clock="09:16" driveindex="5,40"></drivestart>
+   <play hasball="BLU" down="1" togo="0" spot="AFA03" context="H,1,0,V03" playid="5,1,41" type="X" score="Y"
+      text="Gangi M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Gangi M." qb="Gangi M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="21"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="5" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU30" context="H,1,0,H30" playid="5,2,42" type="K"
+      text="Gangi M. kickoff 55 yards to the AFA5, Jarju B. return 15 yards to the AFA20 (Zilioli T.)." newcontext="V,1,10,V20">
+    <p_ko vh="H" name="Gangi M." gain="55"></p_ko>
+    <p_kr vh="V" name="Jarju B." gain="15"></p_kr>
+    <p_tk vh="H" name="Zilioli T."></p_tk>
+   </play>
+   <drivestart poss="V,V20,09:16" vh="V" spot="V20" clock="09:16" driveindex="6,42"></drivestart>
+   <play hasball="AFA" down="1" togo="10" spot="AFA20" context="V,1,10,V20" playid="6,1,43" clock="09:00"
+      text="ALFIERI ASTI drive start at 09:00." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA20" context="V,1,10,V20" playid="6,2,44" type="R"
+      text="Jarju B. rush for loss of 1 yard to the AFA19 (Tranchina G.)." newcontext="V,2,11,V19">
+    <p_ru vh="V" name="Jarju B." gain="-1"></p_ru>
+    <p_tk vh="H" name="Tranchina G." tfl="Y"></p_tk>
+   </play>
+   <play hasball="AFA" down="2" togo="11" spot="AFA19" context="V,2,11,V19" playid="6,3,45" type="R"
+      text="Jarju B. rush for 9 yards to the AFA28 (Donati A.;Zilioli T.)." newcontext="V,3,2,V28">
+    <p_ru vh="V" name="Jarju B." gain="9"></p_ru>
+    <p_tk vh="H" name="Donati A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Zilioli T." assist="Y"></p_tk>
+   </play>
+   <play hasball="AFA" down="3" togo="2" spot="AFA28" context="V,3,2,V28" playid="6,4,46" type="E"
+      text="PENALTY AFA delay of game 5 yards to the AFA23." newcontext="V,3,7,V23">
+    <p_pn vh="V" code="DG" type="delay of game" result="ACCEPT" at="V28" yards="5"></p_pn>
+   </play>
+   <play hasball="AFA" down="3" togo="7" spot="AFA23" context="V,3,7,V23" playid="6,5,47" type="R" first="R"
+      text="Sitra Da. rush for 7 yards to the AFA30, 1ST DOWN AFA (Hettiarachch A.), PENALTY BLU face mask (Hettiarachch A.) 15 yards to the 45 yardline, 1ST DOWN AFA." newcontext="V,1,10,V45">
+    <p_ru vh="V" name="Sitra Da." gain="7"></p_ru>
+    <p_tk vh="H" name="Hettiarachch A."></p_tk>
+    <p_pn vh="H" code="FM" type="face mask" name="Hettiarachch A." result="ACCEPT" at="V30" yards="15"></p_pn>
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA45" context="V,1,10,V45" playid="6,6,48"
+      text="1st and 10." newcontext="V,1,10,V45">
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA45" context="V,1,10,V45" playid="6,7,49" type="P"
+      text="Furnari G. pass complete to Castagneri S. for 5 yards to the BLU40, out-of-bounds (Donati A.)." ob="Y" newcontext="V,2,5,H40">
+    <p_pa vh="V" qb="Furnari G." result="COMP" rcv="Castagneri S." gain="5"></p_pa>
+    <p_tk vh="H" name="Donati A."></p_tk>
+   </play>
+   <play hasball="AFA" down="2" togo="5" spot="BLU40" context="V,2,5,H40" playid="6,8,50" type="R"
+      text="Furnari G. rush for 1 yard to the BLU39, out-of-bounds (Macchi E.)." ob="Y" newcontext="V,3,4,H39">
+    <p_ru vh="V" name="Furnari G." gain="1"></p_ru>
+    <p_tk vh="H" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="AFA" down="3" togo="4" spot="BLU39" context="V,3,4,H39" playid="6,9,51" type="R" first="R"
+      text="Sitra Da. rush for 4 yards to the BLU35, 1ST DOWN AFA (Hettiarachch A.)." newcontext="V,1,10,H35">
+    <p_ru vh="V" name="Sitra Da." gain="4"></p_ru>
+    <p_tk vh="H" name="Hettiarachch A."></p_tk>
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="BLU35" context="V,1,10,H35" playid="6,10,52" type="R"
+      text="Sitra Da. rush for loss of 1 yard to the BLU36 (Pedol S.)." newcontext="V,2,11,H36">
+    <p_ru vh="V" name="Sitra Da." gain="-1"></p_ru>
+    <p_tk vh="H" name="Pedol S." tfl="Y"></p_tk>
+   </play>
+   <play hasball="AFA" down="2" togo="11" spot="BLU36" context="V,2,11,H36" playid="6,11,53" type="E" first="E"
+      text="Furnari G. pass incomplete to Morra S., PENALTY BLU roughing passer (Piccoli M.) 15 yards to the BLU21, 1ST DOWN AFA, NO PLAY." newcontext="V,1,10,H21">
+    <p_pn vh="H" code="RP" type="roughing passer" name="Piccoli M." result="ACCEPT" at="H36" yards="15"></p_pn>
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="BLU21" context="V,1,10,H21" playid="6,12,54" type="R"
+      text="Sitra Da. rush for no gain to the BLU21 (Tranchina G.), PENALTY AFA personal foul off-setting, PENALTY BLU personal foul off-setting." newcontext="V,2,10,H21">
+    <p_ru vh="V" name="Sitra Da." gain="0"></p_ru>
+    <p_tk vh="H" name="Tranchina G."></p_tk>
+    <p_pn vh="V" code="PF" type="personal foul" result="OFFSET"></p_pn>
+    <p_pn vh="H" code="PF" type="personal foul" result="OFFSET"></p_pn>
+   </play>
+   <play hasball="AFA" down="2" togo="10" spot="BLU21" context="V,2,10,H21" playid="6,13,55" type="P"
+      text="Furnari G. pass incomplete to Castagneri S.." newcontext="V,3,10,H21">
+    <p_pa vh="V" qb="Furnari G." result="INC" rcv="Castagneri S."></p_pa>
+   </play>
+   <play hasball="AFA" down="3" togo="10" spot="BLU21" context="V,3,10,H21" playid="6,14,56" type="#" clock="03:01"
+      text="Timeout Alfieri Asti, clock 03:01." newcontext="V,3,10,H21">
+    <p_to vh="V" team="Alfieri Asti"></p_to>
+   </play>
+   <play hasball="AFA" down="3" togo="10" spot="BLU21" context="V,3,10,H21" playid="6,15,57" type="P"
+      text="Furnari G. sacked for loss of 11 yards to the BLU32 (Macchi E.)." newcontext="V,4,21,H32">
+    <p_pa vh="V" qb="Furnari G." result="SACK" gain="-11"></p_pa>
+    <p_tk vh="H" name="Macchi E." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="AFA" down="4" togo="21" spot="BLU32" context="V,4,21,H32" playid="6,16,58" type="R"
+      text="Furnari G. rush for loss of 5 yards to the BLU37, fumble by Furnari G. recovered by AFA Sitra Da. at BLU37." newcontext="H,1,10,H37">
+    <p_ru vh="V" name="Furnari G." gain="-5"></p_ru>
+    <p_fumb vh="V" name="Furnari G." at="H37" frvh="V" frname="Sitra Da."></p_fumb>
+   </play>
+   <drivesum plays="11" yards="33" top="7:00" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H37,03:01" vh="H" spot="H37" clock="03:01" driveindex="7,58"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU37" context="H,1,10,H37" playid="7,1,59" clock="02:00"
+      text="BLUE STORMS BUSTO AR drive start at 02:00." newcontext="H,1,10,H37">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU37" context="H,1,10,H37" playid="7,2,60" type="P"
+      text="Colombo L. pass complete to Tovaglieri L. for 4 yards to the BLU41 (Locci Gerbot N.)." newcontext="H,2,6,H41">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="4"></p_pa>
+    <p_tk vh="V" name="Locci Gerbot N."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="6" spot="BLU41" context="H,2,6,H41" playid="7,3,61" type="P"
+      text="Colombo L. pass incomplete to Villa S.." newcontext="H,3,6,H41">
+    <p_pa vh="H" qb="Colombo L." result="INC" rcv="Villa S."></p_pa>
+   </play>
+   <play hasball="BLU" down="3" togo="6" spot="BLU41" context="H,3,6,H41" playid="7,4,62" type="P"
+      text="Colombo L. pass incomplete to Filippini A.." newcontext="H,4,6,H41">
+    <p_pa vh="H" qb="Colombo L." result="INC" rcv="Filippini A."></p_pa>
+   </play>
+   <play hasball="BLU" down="4" togo="6" spot="BLU41" context="H,4,6,H41" playid="7,5,63" type="P" first="P"
+      text="Colombo L. pass complete to Villa S. for 28 yards to the AFA21, 1ST DOWN BLU (Guandalini F.;Sarto S.)." newcontext="H,1,10,V21">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Villa S." gain="28"></p_pa>
+    <p_tk vh="V" name="Guandalini F." assist="Y"></p_tk>
+    <p_tk vh="V" name="Sarto S." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA21" context="H,1,10,V21" playid="7,6,64" type="#" clock="01:17"
+      text="Timeout Blue Storms Busto Ar, clock 01:17." newcontext="H,1,10,V21">
+    <p_to vh="H" team="Blue Storms Busto Ar"></p_to>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA21" context="H,1,10,V21" playid="7,7,65" type="P" first="P" score="Y" clock="01:04"
+      text="Colombo L. pass complete to Villa S. for 21 yards to the AFA0, 1ST DOWN BLU, TOUCHDOWN, clock 01:04." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Villa S." gain="21"></p_pa>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="AFA03" context="H,1,0,V03" playid="7,8,66" type="X" score="Y"
+      text="Gangi M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Gangi M." qb="Gangi M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="28"></score>
+   <drivesum plays="5" yards="53" top="0:56" driveindex="7" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU30" context="H,1,0,H30" playid="7,9,67" type="K"
+      text="Gangi M. kickoff 55 yards to the AFA5, Jarju B. return 17 yards to the AFA22 (Valera R.;Hettiarachch A.)." newcontext="V,1,10,V22">
+    <p_ko vh="H" name="Gangi M." gain="55"></p_ko>
+    <p_kr vh="V" name="Jarju B." gain="17"></p_kr>
+    <p_tk vh="H" name="Valera R." assist="Y"></p_tk>
+    <p_tk vh="H" name="Hettiarachch A." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="V,V22,01:04" vh="V" spot="V22" clock="01:04" driveindex="8,67"></drivestart>
+   <play hasball="AFA" down="1" togo="10" spot="AFA22" context="V,1,10,V22" playid="8,1,68" clock="00:57"
+      text="ALFIERI ASTI drive start at 00:57." newcontext="V,1,10,V22">
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA22" context="V,1,10,V22" playid="8,2,69" type="R"
+      text="Sitra Da. rush for 3 yards to the AFA25 (Tranchina G.)." newcontext="V,2,7,V25">
+    <p_ru vh="V" name="Sitra Da." gain="3"></p_ru>
+    <p_tk vh="H" name="Tranchina G."></p_tk>
+   </play>
+   <play hasball="AFA" down="2" togo="7" spot="AFA25" context="V,2,7,V25" playid="8,3,70" type="R"
+      text="Sitra Da. rush for 3 yards to the AFA28 (Martignoni F.)." newcontext="V,3,4,V28">
+    <p_ru vh="V" name="Sitra Da." gain="3"></p_ru>
+    <p_tk vh="H" name="Martignoni F."></p_tk>
+   </play>
+   <play hasball="AFA" down="3" togo="4" spot="AFA28" context="V,3,4,V28" playid="8,4,71"
+      text="End of half." newcontext="V,3,4,V28">
+   </play>
+   <drivesum plays="2" yards="6" top="0:57" driveindex="8" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="28"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AFA">
+    <firstdowns no="4" rush="2" pass="0" penalty="2"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="2" lost="1"></fumbles>
+    <misc yds="0" top="09:31"></misc>
+    <rush att="12" yds="9" gain="27" loss="18" td="0" long="7"></rush>
+    <pass comp="1" att="2" int="0" yds="5" td="0" long="0" sacks="1" sackyds="11"></pass>
+    <rcv no="1" yds="5" td="0" long="0"></rcv>
+    <defense tackua="3" tacka="2" tot_tack="5" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="32" td="0" long="1"></kr>
+    <fumbles no="2" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BLU">
+    <firstdowns no="6" rush="0" pass="5" penalty="1"></firstdowns>
+    <penalties no="2" yds="30"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="02:29"></misc>
+    <pass comp="6" att="8" int="0" yds="113" td="2" long="14" sacks="0" sackyds="0"></pass>
+    <rcv no="6" yds="113" td="2" long="14"></rcv>
+    <ko no="3" yds="165" ob="0" tb="0"></ko>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="12" tacka="4" tot_tack="16" tflua="3" tfla="0" tflyds="13" sacks="1" sackyds="11" ff="1" fr="1" fryds="5"></defense>
+    <fr no="1" yds="5" td="1" long="5"></fr>
+    <scoring td="3" patkick="3"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="AFA" down="3" togo="4" spot="AFA28" context="V,3,4,V28" playid="8,5,72" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, BLU ball on BLU30." newcontext="H,3,4,H30">
+   </play>
+   <play hasball="BLU" down="3" togo="4" spot="BLU30" context="H,3,4,H30" playid="8,6,73" type="K"
+      text="Gangi M. kickoff 45 yards to the AFA15, Morra S. return 19 yards to the AFA34 (Hettiarachch A.)." newcontext="V,1,10,V34">
+    <p_ko vh="H" name="Gangi M." gain="45"></p_ko>
+    <p_kr vh="V" name="Morra S." gain="19"></p_kr>
+    <p_tk vh="H" name="Hettiarachch A."></p_tk>
+   </play>
+   <drivestart poss="V,V34,12:00" vh="V" spot="V34" clock="12:00" driveindex="9,73"></drivestart>
+   <play hasball="AFA" down="1" togo="10" spot="AFA34" context="V,1,10,V34" playid="9,1,74" clock="11:45"
+      text="ALFIERI ASTI drive start at 11:45." newcontext="V,1,10,V34">
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA34" context="V,1,10,V34" playid="9,2,75" type="P"
+      text="Furnari G. pass incomplete to Delfino M.." newcontext="V,2,10,V34">
+    <p_pa vh="V" qb="Furnari G." result="INC" rcv="Delfino M."></p_pa>
+   </play>
+   <play hasball="AFA" down="2" togo="10" spot="AFA34" context="V,2,10,V34" playid="9,3,76" type="R" first="R"
+      text="Sitra Da. rush for 16 yards to the BLU40, 1ST DOWN AFA (Zilioli T.;Pedol S.)." newcontext="V,1,10,H40">
+    <p_ru vh="V" name="Sitra Da." gain="16"></p_ru>
+    <p_tk vh="H" name="Zilioli T." assist="Y"></p_tk>
+    <p_tk vh="H" name="Pedol S." assist="Y"></p_tk>
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="BLU40" context="V,1,10,H40" playid="9,4,77" type="R"
+      text="Ferro D. rush for 1 yard to the BLU39 (Tranchina G.)." newcontext="V,2,9,H39">
+    <p_ru vh="V" name="Ferro D." gain="1"></p_ru>
+    <p_tk vh="H" name="Tranchina G."></p_tk>
+   </play>
+   <play hasball="AFA" down="2" togo="9" spot="BLU39" context="V,2,9,H39" playid="9,5,78" type="R"
+      text="Furnari G. rush for 8 yards to the BLU31, out-of-bounds (Macchi E.)." ob="Y" newcontext="V,3,1,H31">
+    <p_ru vh="V" name="Furnari G." gain="8"></p_ru>
+    <p_tk vh="H" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="AFA" down="3" togo="1" spot="BLU31" context="V,3,1,H31" playid="9,6,79" type="R"
+      text="Sitra Da. rush for loss of 1 yard to the BLU32 (Hettiarachch A.)." newcontext="V,4,2,H32">
+    <p_ru vh="V" name="Sitra Da." gain="-1"></p_ru>
+    <p_tk vh="H" name="Hettiarachch A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="AFA" down="4" togo="2" spot="BLU32" context="V,4,2,H32" playid="9,7,80" type="R"
+      text="Delfino M. rush for no gain to the BLU32 (TEAM)." newcontext="H,1,10,H32">
+    <p_ru vh="V" name="Delfino M." gain="0"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <drivesum plays="6" yards="24" top="2:57" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,H32,11:45" vh="H" spot="H32" clock="11:45" driveindex="10,80"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="BLU32" context="H,1,10,H32" playid="10,1,81" clock="08:48"
+      text="BLUE STORMS BUSTO AR drive start at 08:48." newcontext="H,1,10,H32">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU32" context="H,1,10,H32" playid="10,2,82" type="E"
+      text="PENALTY AFA offside defense (Viarengo D.) 5 yards to the BLU37." newcontext="H,1,5,H37">
+    <p_pn vh="V" code="OD" type="offside defense" name="Viarengo D." result="ACCEPT" at="H32" yards="5"></p_pn>
+   </play>
+   <play hasball="BLU" down="1" togo="5" spot="BLU37" context="H,1,5,H37" playid="10,3,83" type="P"
+      text="Colombo L. pass complete to Colombo S. for 3 yards to the BLU40 (Sitra Di.)." newcontext="H,2,2,H40">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Colombo S." gain="3"></p_pa>
+    <p_tk vh="V" name="Sitra Di."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="2" spot="BLU40" context="H,2,2,H40" playid="10,4,84" type="P" first="P"
+      text="Colombo L. pass complete to Colazingari G. for 3 yards to the BLU43, 1ST DOWN BLU, out-of-bounds." ob="Y" newcontext="H,1,10,H43">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Colazingari G." gain="3"></p_pa>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="BLU43" context="H,1,10,H43" playid="10,5,85" type="P"
+      text="Colombo L. pass complete to Colombo S. for 6 yards to the AFA41 (Sitra Di.;Marino A.)." newcontext="H,2,4,V41">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Colombo S." gain="6"></p_pa>
+    <p_tk vh="V" name="Sitra Di." assist="Y"></p_tk>
+    <p_tk vh="V" name="Marino A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="4" spot="AFA41" context="H,2,4,V41" playid="10,6,86" type="P"
+      text="Colombo L. pass incomplete to Colazingari G.." newcontext="H,3,4,V41">
+    <p_pa vh="H" qb="Colombo L." result="INC" rcv="Colazingari G."></p_pa>
+   </play>
+   <play hasball="BLU" down="3" togo="4" spot="AFA41" context="H,3,4,V41" playid="10,7,87" type="P" first="P"
+      text="Colombo L. pass complete to Tovaglieri L. for 11 yards to the AFA30, 1ST DOWN BLU, out-of-bounds (Locci Gerbot N.)." ob="Y" newcontext="H,1,10,V30">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Tovaglieri L." gain="11"></p_pa>
+    <p_tk vh="V" name="Locci Gerbot N."></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA30" context="H,1,10,V30" playid="10,8,88" type="P"
+      text="Colombo L. pass complete to Colombo S. for 2 yards to the AFA28 (Tagliani A.;Dipietro F.)." newcontext="H,2,8,V28">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Colombo S." gain="2"></p_pa>
+    <p_tk vh="V" name="Tagliani A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dipietro F." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="8" spot="AFA28" context="H,2,8,V28" playid="10,9,89" type="R"
+      text="Tovaglieri M. rush for 6 yards to the AFA22 (Marangoni P.;Tagliani A.)." newcontext="H,3,2,V22">
+    <p_ru vh="H" name="Tovaglieri M." gain="6"></p_ru>
+    <p_tk vh="V" name="Marangoni P." assist="Y"></p_tk>
+    <p_tk vh="V" name="Tagliani A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="3" togo="2" spot="AFA22" context="H,3,2,V22" playid="10,10,90" type="P" first="P"
+      text="Colombo L. pass complete to Colombo S. for 6 yards to the AFA16, 1ST DOWN BLU (Marangoni P.;Sitra Di.)." newcontext="H,1,10,V16">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Colombo S." gain="6"></p_pa>
+    <p_tk vh="V" name="Marangoni P." assist="Y"></p_tk>
+    <p_tk vh="V" name="Sitra Di." assist="Y"></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA16" context="H,1,10,V16" playid="10,11,91" type="P"
+      text="Colombo L. pass complete to Colombo S. for 1 yard to the AFA15 (Marino A.)." newcontext="H,2,9,V15">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Colombo S." gain="1"></p_pa>
+    <p_tk vh="V" name="Marino A."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="9" spot="AFA15" context="H,2,9,V15" playid="10,12,92" type="R"
+      text="Colombo L. rush for 4 yards to the AFA11, out-of-bounds." ob="Y" newcontext="H,3,5,V11">
+    <p_ru vh="H" name="Colombo L." gain="4"></p_ru>
+   </play>
+   <play hasball="BLU" down="3" togo="5" spot="AFA11" context="H,3,5,V11" playid="10,13,93" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L.." newcontext="H,4,5,V11">
+    <p_pa vh="H" qb="Colombo L." result="INC" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <play hasball="BLU" down="4" togo="5" spot="AFA11" context="H,4,5,V11" playid="10,14,94" type="P"
+      text="Colombo L. pass incomplete to Tovaglieri L.." newcontext="V,1,10,V11">
+    <p_pa vh="H" qb="Colombo L." result="INC" rcv="Tovaglieri L."></p_pa>
+   </play>
+   <drivesum plays="12" yards="47" top="5:56" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V11,08:48" vh="V" spot="V11" clock="08:48" driveindex="11,94"></drivestart>
+   <play hasball="AFA" down="1" togo="10" spot="AFA11" context="V,1,10,V11" playid="11,1,95" clock="02:52"
+      text="ALFIERI ASTI drive start at 02:52." newcontext="V,1,10,V11">
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA11" context="V,1,10,V11" playid="11,2,96" type="R"
+      text="Sitra Da. rush for 7 yards to the AFA18, out-of-bounds." ob="Y" newcontext="V,2,3,V18">
+    <p_ru vh="V" name="Sitra Da." gain="7"></p_ru>
+   </play>
+   <play hasball="AFA" down="2" togo="3" spot="AFA18" context="V,2,3,V18" playid="11,3,97" type="R"
+      text="Sitra Da. rush for loss of 1 yard to the AFA17." newcontext="V,3,4,V17">
+    <p_ru vh="V" name="Sitra Da." gain="-1"></p_ru>
+   </play>
+   <play hasball="AFA" down="3" togo="4" spot="AFA17" context="V,3,4,V17" playid="11,4,98" type="P" first="P"
+      text="Delfino M. pass complete to Morra S. for 4 yards to the AFA21, 1ST DOWN AFA, out-of-bounds (Macchi E.)." ob="Y" newcontext="V,1,10,V21">
+    <p_pa vh="V" qb="Delfino M." result="COMP" rcv="Morra S." gain="4"></p_pa>
+    <p_tk vh="H" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA21" context="V,1,10,V21" playid="11,5,99" type="R"
+      text="Delfino M. rush for loss of 2 yards to the AFA19." newcontext="V,2,12,V19">
+    <p_ru vh="V" name="Delfino M." gain="-2"></p_ru>
+   </play>
+   <play hasball="AFA" down="2" togo="12" spot="AFA19" context="V,2,12,V19" playid="11,6,100" type="R"
+      text="Sitra Da. rush for 11 yards to the AFA30 (Hettiarachch A.;Gariboldi F.)." newcontext="V,3,1,V30">
+    <p_ru vh="V" name="Sitra Da." gain="11"></p_ru>
+    <p_tk vh="H" name="Hettiarachch A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Gariboldi F." assist="Y"></p_tk>
+   </play>
+   <score qtr="3" V="0" H="28"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AFA">
+    <firstdowns no="2" rush="1" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:04"></misc>
+    <rush att="9" yds="39" gain="43" loss="4" td="0" long="7"></rush>
+    <pass comp="1" att="2" int="0" yds="4" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="4" td="0" long="0"></rcv>
+    <defense tackua="3" tacka="8" tot_tack="11" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="19" td="0" long="2"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BLU">
+    <firstdowns no="3" rush="0" pass="3" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:56"></misc>
+    <rush att="2" yds="10" gain="10" loss="0" td="0" long="0"></rush>
+    <pass comp="7" att="10" int="0" yds="32" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="7" yds="32" td="0" long="0"></rcv>
+    <ko no="1" yds="45" ob="0" tb="0"></ko>
+    <defense tackua="6" tacka="4" tot_tack="10" tflua="1" tfla="0" tflyds="1" sacks="1" sackyds="11"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="AFA" down="3" togo="1" spot="AFA30" context="V,3,1,V30" playid="11,7,101" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="V,3,1,V30">
+   </play>
+   <play hasball="AFA" down="3" togo="1" spot="AFA30" context="V,3,1,V30" playid="11,8,102" type="R" first="R"
+      text="Sitra Da. rush for 2 yards to the AFA32, 1ST DOWN AFA (Martignoni F.)." newcontext="V,1,10,V32">
+    <p_ru vh="V" name="Sitra Da." gain="2"></p_ru>
+    <p_tk vh="H" name="Martignoni F."></p_tk>
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA32" context="V,1,10,V32" playid="11,9,103" type="P"
+      text="Furnari G. sacked for loss of 8 yards to the AFA24 (Gariboldi F.)." newcontext="V,2,18,V24">
+    <p_pa vh="V" qb="Furnari G." result="SACK" gain="-8"></p_pa>
+    <p_tk vh="H" name="Gariboldi F." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="AFA" down="2" togo="18" spot="AFA24" context="V,2,18,V24" playid="11,10,104" type="P"
+      text="Furnari G. pass complete to Morra S. for 9 yards to the AFA33, out-of-bounds." ob="Y" newcontext="V,3,9,V33">
+    <p_pa vh="V" qb="Furnari G." result="COMP" rcv="Morra S." gain="9"></p_pa>
+   </play>
+   <play hasball="AFA" down="3" togo="9" spot="AFA33" context="V,3,9,V33" playid="11,11,105" type="P"
+      text="Furnari G. pass incomplete to Morra S.." newcontext="V,4,9,V33">
+    <p_pa vh="V" qb="Furnari G." result="INC" rcv="Morra S."></p_pa>
+   </play>
+   <play hasball="AFA" down="4" togo="9" spot="AFA33" context="V,4,9,V33" playid="11,12,106" type="E"
+      text="PENALTY AFA illegal formation 5 yards to the AFA28." newcontext="V,4,14,V28">
+    <p_pn vh="V" code="FO" type="illegal formation" result="ACCEPT" at="V33" yards="5"></p_pn>
+   </play>
+   <play hasball="AFA" down="4" togo="14" spot="AFA28" context="V,4,14,V28" playid="11,13,107" type="R"
+      text="TEAM rush for loss of 5 yards to the AFA23, fumble by TEAM recovered by AFA Sarto S. at AFA23." newcontext="H,1,10,V23">
+    <p_ru vh="V" name="TEAM" gain="-5"></p_ru>
+    <p_fumb vh="V" name="TEAM" at="V23" frvh="V" frname="Sarto S."></p_fumb>
+   </play>
+   <drivesum plays="10" yards="12" top="5:50" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,V23,12:00" vh="H" spot="V23" clock="12:00" driveindex="12,107"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="AFA23" context="H,1,10,V23" playid="12,1,108" clock="09:02"
+      text="BLUE STORMS BUSTO AR drive start at 09:02." newcontext="H,1,10,V23">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA23" context="H,1,10,V23" playid="12,2,109" type="P"
+      text="Colombo L. pass complete to Colombo S. for 4 yards to the AFA19 (Sitra Di.)." newcontext="H,2,6,V19">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Colombo S." gain="4"></p_pa>
+    <p_tk vh="V" name="Sitra Di."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="6" spot="AFA19" context="H,2,6,V19" playid="12,3,110" type="E"
+      text="PENALTY BLU false start (Colombo S.) 5 yards to the AFA24." newcontext="H,2,11,V24">
+    <p_pn vh="H" code="FS" type="false start" name="Colombo S." result="ACCEPT" at="V19" yards="5"></p_pn>
+   </play>
+   <play hasball="BLU" down="2" togo="11" spot="AFA24" context="H,2,11,V24" playid="12,4,111" type="R"
+      text="Barlocco G. rush for 6 yards to the AFA18 (Marino A.)." newcontext="H,3,5,V18">
+    <p_ru vh="H" name="Barlocco G." gain="6"></p_ru>
+    <p_tk vh="V" name="Marino A."></p_tk>
+   </play>
+   <play hasball="BLU" down="3" togo="5" spot="AFA18" context="H,3,5,V18" playid="12,5,112" type="P" first="P" score="Y" clock="06:51"
+      text="Colombo L. pass complete to Colazingari G. for 18 yards to the AFA0, 1ST DOWN BLU, TOUCHDOWN, clock 06:51." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Colazingari G." gain="18"></p_pa>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="AFA03" context="H,1,0,V03" playid="12,6,113" type="X" score="Y"
+      text="Gangi M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Gangi M." qb="Gangi M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="35"></score>
+   <drivesum plays="3" yards="23" top="2:41" driveindex="12" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU30" context="H,1,0,H30" playid="12,7,114" type="K" turnover="F"
+      text="Gangi M. kickoff 40 yards to the AFA20, Morra S. return 11 yards to the AFA31, fumble by Morra S. recovered by BLU Donati A. at AFA31." newcontext="H,1,10,V31">
+    <p_ko vh="H" name="Gangi M." gain="40"></p_ko>
+    <p_kr vh="V" name="Morra S." gain="11"></p_kr>
+    <p_fumb vh="V" name="Morra S." at="V31" frvh="H" frname="Donati A."></p_fumb>
+   </play>
+   <drivestart poss="H,V31,06:51" vh="H" spot="V31" clock="06:51" driveindex="14,114"></drivestart>
+   <play hasball="BLU" down="1" togo="10" spot="AFA31" context="H,1,10,V31" playid="14,1,115" clock="06:21"
+      text="BLUE STORMS BUSTO AR drive start at 06:21." newcontext="H,1,10,V31">
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA31" context="H,1,10,V31" playid="14,2,116" type="R" first="R"
+      text="Colombo L. rush for 12 yards to the AFA19, 1ST DOWN BLU, out-of-bounds (Sarto S.)." ob="Y" newcontext="H,1,10,V19">
+    <p_ru vh="H" name="Colombo L." gain="12"></p_ru>
+    <p_tk vh="V" name="Sarto S."></p_tk>
+   </play>
+   <play hasball="BLU" down="1" togo="10" spot="AFA19" context="H,1,10,V19" playid="14,3,117" type="R"
+      text="Barlocco G. rush for 5 yards to the AFA14 (Marino A.)." newcontext="H,2,5,V14">
+    <p_ru vh="H" name="Barlocco G." gain="5"></p_ru>
+    <p_tk vh="V" name="Marino A."></p_tk>
+   </play>
+   <play hasball="BLU" down="2" togo="5" spot="AFA14" context="H,2,5,V14" playid="14,4,118" type="P"
+      text="Colombo L. pass incomplete to Filippini A.." newcontext="H,3,5,V14">
+    <p_pa vh="H" qb="Colombo L." result="INC" rcv="Filippini A."></p_pa>
+   </play>
+   <play hasball="BLU" down="3" togo="5" spot="AFA14" context="H,3,5,V14" playid="14,5,119" type="P" first="P" score="Y" clock="02:53"
+      text="Colombo L. pass complete to Filippini A. for 14 yards to the AFA0, 1ST DOWN BLU, TOUCHDOWN, clock 02:53." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Colombo L." result="COMP" rcv="Filippini A." gain="14"></p_pa>
+   </play>
+   <play hasball="BLU" down="1" togo="0" spot="AFA03" context="H,1,0,V03" playid="14,6,120" type="X"
+      text="Colombo S. rush attempt failed (blocked) (blocked by Guandalini F.)." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Colombo S." qb="Colombo S." type="R" result="BLOCKED"></p_pat>
+   </play>
+   <score V="0" H="41"></score>
+   <drivesum plays="4" yards="31" top="3:28" driveindex="14" complete="Y"></drivesum>
+   <play hasball="BLU" down="1" togo="0" spot="BLU30" context="H,1,0,H30" playid="14,7,121" type="K"
+      text="Gangi M. kickoff 41 yards to the AFA19, Morra S. return 13 yards to the AFA32 (Villa S.)." newcontext="V,1,10,V32">
+    <p_ko vh="H" name="Gangi M." gain="41"></p_ko>
+    <p_kr vh="V" name="Morra S." gain="13"></p_kr>
+    <p_tk vh="H" name="Villa S."></p_tk>
+   </play>
+   <drivestart poss="V,V32,02:53" vh="V" spot="V32" clock="02:53" driveindex="15,121"></drivestart>
+   <play hasball="AFA" down="1" togo="10" spot="AFA32" context="V,1,10,V32" playid="15,1,122" clock="01:25"
+      text="ALFIERI ASTI drive start at 01:25." newcontext="V,1,10,V32">
+   </play>
+   <play hasball="AFA" down="1" togo="10" spot="AFA32" context="V,1,10,V32" playid="15,2,123" type="R"
+      text="Jarju B. rush for loss of 1 yard to the AFA31 (Hettiarachch A.)." newcontext="V,2,11,V31">
+    <p_ru vh="V" name="Jarju B." gain="-1"></p_ru>
+    <p_tk vh="H" name="Hettiarachch A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="AFA" down="2" togo="11" spot="AFA31" context="V,2,11,V31" playid="15,3,124" type="R"
+      text="Sitra Da. rush for 3 yards to the AFA34, out-of-bounds (Macchi E.)." ob="Y" newcontext="V,3,8,V34">
+    <p_ru vh="V" name="Sitra Da." gain="3"></p_ru>
+    <p_tk vh="H" name="Macchi E."></p_tk>
+   </play>
+   <play hasball="AFA" down="3" togo="8" spot="AFA34" context="V,3,8,V34" playid="15,4,125"
+      text="End of game." newcontext="V,3,8,V34">
+   </play>
+   <drivesum plays="2" yards="2" top="1:25" driveindex="15" complete="Y"></drivesum>
+   <score V="0" H="41"></score>
+   <qtrsummary vh="V" id="AFA">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="2" lost="1"></fumbles>
+    <misc yds="0" top="05:51"></misc>
+    <rush att="5" yds="-9" gain="5" loss="14" td="0" long="0"></rush>
+    <pass comp="1" att="2" int="0" yds="9" td="0" long="0" sacks="1" sackyds="8"></pass>
+    <rcv no="1" yds="9" td="0" long="0"></rcv>
+    <defense tackua="4" tacka="0" tot_tack="4" sacks="0" sackyds="0" blkd="1"></defense>
+    <kr no="2" yds="24" td="0" long="0"></kr>
+    <fumbles no="2" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BLU">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:09"></misc>
+    <rush att="3" yds="23" gain="23" loss="0" td="0" long="0"></rush>
+    <pass comp="3" att="4" int="0" yds="36" td="2" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="36" td="2" long="0"></rcv>
+    <ko no="2" yds="81" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1" rushatt="1" rushmade="0"></pat>
+    <defense tackua="5" tacka="0" tot_tack="5" tflua="2" tfla="0" tflyds="9" sacks="2" sackyds="19" fr="1" fryds="0"></defense>
+    <scoring td="2" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="AFA" down="3" togo="8" spot="AFA34" context="V,3,8,V34" qtr="4" clock="01:25" vtoh="0" htoh="0"
+       lastplay="End of game."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="AFA">
+  <player name="5" checkname="" uni="5" gp="0" code="5"></player>
+ </dnp>
+ <dnp vh="H" id="BLU">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

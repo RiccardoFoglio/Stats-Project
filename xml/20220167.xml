@@ -1,0 +1,1121 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220167" visid="BRC" homeid="ANG" visname="Roosters Romagna" homename="Angels Pesaro"
+      date="5/22/2022" location="PESARO" stadium="C.S. VIA RESPIGHI"
+      start="15,30" end="17,50" leaguegame="Y"
+      duration="2,20" attend="50" temp="28" wind="NO WIND" weather="SUNNY">
+  <officials ref="M.SALA" ump="D.GILARDI" line="C.TOMAZ" lj="M.CICCIOLI" bj="E.DI BATTISTA" sc="FABBRI F."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="92" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="BRC" name="Roosters Romagna" record="4-0" conf-record="3-0" abb="B">
+  <linescore prds="4" line="7,6,8,7" score="28">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="6"></lineprd>
+   <lineprd prd="3" score="8"></lineprd>
+   <lineprd prd="4" score="7"></lineprd>
+  </linescore>
+  <totals totoff_plays="60" totoff_yards="358" totoff_avg="6.0">
+   <firstdowns no="20" rush="12" pass="8" penalty="0"></firstdowns>
+   <penalties no="6" yds="57"></penalties>
+   <conversions thirdconv="5" thirdatt="9" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="23:36" ona="0" onm="0"></misc>
+   <redzone att="7" scores="4" points="28" tdrush="3" tdpass="1" fgmade="0" endfga="0" enddowns="1" endint="2" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="36" yds="189" gain="197" loss="8" td="3" long="30"></rush>
+   <pass comp="13" att="24" int="2" yds="169" td="1" long="35" sacks="0" sackyds="0"></pass>
+   <rcv no="13" yds="169" td="1" long="35"></rcv>
+   <punt no="1" yds="31" long="31" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="31.0"></punt>
+   <ko no="5" yds="245" ob="0" tb="0"></ko>
+   <pat kickatt="3" kickmade="2" rushatt="1" rushmade="1"></pat>
+   <defense tackua="21" tacka="12" tot_tack="33" tflua="2" tfla="4" tflyds="7" sacks="1" sackyds="0" brup="1"></defense>
+   <kr no="2" yds="67" td="0" long="43"></kr>
+   <scoring td="4" patkick="2" patrush="1"></scoring>
+  </totals>
+  <player name="Monti M." shortname="Monti M." checkname="M.,MONTI" uni="87" gp="1" code="87">
+   <rcv no="7" yds="59" td="0" long="12"></rcv>
+  </player>
+  <player name="Mazzotti M." shortname="Mazzotti M." checkname="M.,MAZZOTTI" uni="22" gp="1" code="22">
+   <rush att="7" yds="43" gain="44" loss="1" td="0" long="9"></rush>
+   <rcv no="3" yds="50" td="0" long="28"></rcv>
+   <kr no="2" yds="67" td="0" long="43"></kr>
+  </player>
+  <player name="Fiumana L." shortname="Fiumana L." checkname="L.,FIUMANA" uni="12" gp="1" code="12">
+   <rush att="4" yds="27" gain="27" loss="0" td="0" long="11"></rush>
+   <rcv no="2" yds="51" td="1" long="35"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Comandini P." shortname="Comandini P." checkname="P.,COMANDINI" uni="80" gp="1" code="80">
+   <rcv no="1" yds="9" td="0" long="9"></rcv>
+  </player>
+  <player name="Bartoli G." shortname="Bartoli G." checkname="G.,BARTOLI" uni="47" gp="1" code="47">
+   <rush att="8" yds="22" gain="24" loss="2" td="0" long="8"></rush>
+  </player>
+  <player name="Freddi E." shortname="Freddi E." checkname="E.,FREDDI" uni="92" gp="1" code="92">
+   <rush att="3" yds="2" gain="2" loss="0" td="1" long="2"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Maroncelli J." shortname="Maroncelli J." checkname="J.,MARONCELLI" uni="9" gp="1" code="9">
+   <punt no="1" yds="31" long="31" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="31.0"></punt>
+   <defense tackua="7" tacka="1" tot_tack="8" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Ragazzini G." shortname="Ragazzini G." checkname="G.,RAGAZZINI" uni="11" gp="1" code="11">
+   <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Neri L." shortname="Neri L." checkname="L.,NERI" uni="25" gp="1" code="25">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Orlati J." shortname="Orlati J." checkname="J.,ORLATI" uni="28" gp="1" code="28">
+   <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Tarroni F." shortname="Tarroni F." checkname="F.,TARRONI" uni="31" gp="1" code="31">
+   <defense tackua="1" tacka="1" tot_tack="2" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+  <player name="Grasselli F." shortname="Grasselli F." checkname="F.,GRASSELLI" uni="35" gp="1" code="35">
+   <defense tackua="1" tacka="2" tot_tack="3" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Chiarini F." shortname="Chiarini F." checkname="F.,CHIARINI" uni="37" gp="1" code="37">
+   <defense brup="1"></defense>
+  </player>
+  <player name="Morigi M." shortname="Morigi M." checkname="M.,MORIGI" uni="39" gp="1" code="39">
+   <defense tackua="7" tacka="2" tot_tack="9"></defense>
+  </player>
+  <player name="Cavaliere I." shortname="Cavaliere I." checkname="I.,CAVALIERE" uni="50" gp="1" code="50">
+   <ko no="5" yds="245" ob="0" tb="0"></ko>
+   <pat kickatt="3" kickmade="2"></pat>
+   <scoring patkick="2"></scoring>
+  </player>
+  <player name="Giannelli N." shortname="Giannelli N." checkname="N.,GIANNELLI" uni="1" gp="1" code="1">
+   <rush att="7" yds="27" gain="27" loss="0" td="1" long="10"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Mazzotti A." shortname="Mazzotti A." checkname="A.,MAZZOTTI" uni="8" gp="1" code="8">
+   <rush att="7" yds="68" gain="73" loss="5" td="1" long="30"></rush>
+   <pass comp="13" att="24" int="2" yds="169" td="1" long="35" sacks="0" sackyds="0"></pass>
+   <pat rushatt="1" rushmade="1"></pat>
+   <scoring td="1" patrush="1"></scoring>
+  </player>
+  <player name="Picoco M." shortname="Picoco M." checkname="M.,PICOCO" uni="2" gp="1" code="2">
+   <defense tackua="1" tacka="3" tot_tack="4" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Pirazzini C." shortname="Pirazzini C." checkname="C.,PIRAZZINI" uni="99" gp="1" code="99">
+   <defense tackua="2" tacka="0" tot_tack="2" sackua="1" sacka="0" sackyds="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="ANG" name="Angels Pesaro" record="1-3" conf-record="1-3" abb="A">
+  <linescore prds="4" line="0,0,0,12" score="12">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="12"></lineprd>
+  </linescore>
+  <totals totoff_plays="41" totoff_yards="191" totoff_avg="4.7">
+   <firstdowns no="11" rush="3" pass="6" penalty="2"></firstdowns>
+   <penalties no="2" yds="10"></penalties>
+   <conversions thirdconv="3" thirdatt="10" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="24:24" ona="0" onm="0"></misc>
+   <redzone att="3" scores="2" points="12" tdrush="0" tdpass="2" fgmade="0" endfga="1" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="17" yds="56" gain="61" loss="5" td="0" long="22"></rush>
+   <pass comp="10" att="24" int="0" yds="135" td="2" long="38" sacks="1" sackyds="0"></pass>
+   <rcv no="10" yds="135" td="2" long="38"></rcv>
+   <punt no="6" yds="163" long="50" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="27.2"></punt>
+   <ko no="2" yds="99" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <pat kickatt="2" kickmade="0"></pat>
+   <defense tackua="31" tacka="24" tot_tack="55" tflua="2" tfla="2" tflyds="3" sacks="0" sackyds="0" int="2" intyds="0"></defense>
+   <kr no="5" yds="88" td="0" long="25"></kr>
+   <ir no="2" yds="0" td="0" long="0"></ir>
+   <scoring td="2"></scoring>
+  </totals>
+  <player name="Troisi L." shortname="Troisi L." checkname="L.,TROISI" uni="48" gp="1" code="48">
+   <rush att="1" yds="1" gain="1" loss="0" td="0" long="1"></rush>
+   <rcv no="4" yds="67" td="1" long="38"></rcv>
+   <defense tackua="2" tacka="1" tot_tack="3"></defense>
+   <kr no="1" yds="17" td="0" long="17"></kr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Khalafa N." shortname="Khalafa N." checkname="N.,KHALAFA" uni="13" gp="1" code="13">
+   <rcv no="2" yds="31" td="0" long="23"></rcv>
+  </player>
+  <player name="Lee J." shortname="Lee J." checkname="J.,LEE" uni="22" gp="1" code="22">
+   <rcv no="1" yds="17" td="1" long="17"></rcv>
+   <kr no="1" yds="5" td="0" long="5"></kr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Zito G." shortname="Zito G." checkname="G.,ZITO" uni="33" gp="1" code="33">
+   <rush att="3" yds="9" gain="9" loss="0" td="0" long="3"></rush>
+   <rcv no="1" yds="12" td="0" long="12"></rcv>
+   <punt no="6" yds="163" long="50" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="27.2"></punt>
+   <ko no="2" yds="99" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <pat kickatt="2" kickmade="0"></pat>
+   <kr no="3" yds="66" td="0" long="25"></kr>
+  </player>
+  <player name="Fiordoro A." shortname="Fiordoro A." checkname="A.,FIORDORO" uni="12" gp="1" code="12">
+   <rush att="5" yds="6" gain="7" loss="1" td="0" long="6"></rush>
+   <pass comp="10" att="24" int="0" yds="135" td="2" long="38" sacks="1" sackyds="0"></pass>
+   <rcv no="1" yds="10" td="0" long="10"></rcv>
+  </player>
+  <player name="Politino S." shortname="Politino S." checkname="S.,POLITINO" uni="27" gp="1" code="27">
+   <rush att="8" yds="40" gain="44" loss="4" td="0" long="22"></rush>
+   <rcv no="1" yds="-2" td="0" long="0"></rcv>
+  </player>
+  <player name="Arena G." shortname="Arena G." checkname="G.,ARENA" uni="1" gp="1" code="1">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Ferri A." shortname="Ferri A." checkname="A.,FERRI" uni="8" gp="1" code="8">
+   <defense tackua="5" tacka="6" tot_tack="11" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Aguzzi E." shortname="Aguzzi E." checkname="E.,AGUZZI" uni="6" gp="1" code="6">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Giangregorio M." shortname="Giangregorio M." checkname="M.,GIANGREGORIO" uni="30" gp="1" code="30">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Civinelli L." shortname="Civinelli L." checkname="L.,CIVINELLI" uni="3" gp="1" code="3">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="Arcangeloni B." shortname="Arcangeloni B." checkname="B.,ARCANGELONI" uni="34" gp="1" code="34">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="Piermaria F." shortname="Piermaria F." checkname="F.,PIERMARIA" uni="42" gp="1" code="42">
+   <defense tackua="3" tacka="2" tot_tack="5" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Rossi F." shortname="Rossi F." checkname="F.,ROSSI" uni="44" gp="1" code="44">
+   <defense tackua="0" tacka="4" tot_tack="4" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+  <player name="Abbondanza A." shortname="Abbondanza A." checkname="A.,ABBONDANZA" uni="7" gp="1" code="7">
+   <defense tackua="9" tacka="1" tot_tack="10" int="2" intyds="0"></defense>
+   <ir no="2" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Gallo M." shortname="Gallo M." checkname="M.,GALLO" uni="55" gp="1" code="55">
+   <defense tackua="4" tacka="4" tot_tack="8" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="4" tacka="0" tot_tack="4"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="BRC" qtr="1" clock="03:15" type="TD" how="RUSH" yds="1" scorer="Giannelli N." patby="Cavaliere I." pattype="KICK" patres="GOOD" plays="11" drive="67" top="4:45" vscore="7" hscore="0" driveindex="2"></score>
+  <score vh="V" team="BRC" qtr="2" clock="03:00" type="TD" how="RUSH" yds="2" scorer="Freddi E." patby="Cavaliere I." pattype="KICK" patres="FAIL" plays="10" drive="89" top="2:06" vscore="13" hscore="0" driveindex="6"></score>
+  <score vh="V" team="BRC" qtr="3" clock="04:19" type="TD" how="RUSH" yds="1" scorer="Mazzotti A." patby="Mazzotti A." pattype="RUSH" patres="GOOD" plays="7" drive="62" top="1:41" vscore="21" hscore="0" driveindex="13"></score>
+  <score vh="H" team="ANG" qtr="4" clock="04:36" type="TD" how="PASS" yds="8" scorer="Troisi L." passer="Fiordoro A." patby="Zito G." pattype="KICK" patres="FAIL" plays="8" drive="72" top="4:24" vscore="21" hscore="6" driveindex="16"></score>
+  <score vh="V" team="BRC" qtr="4" clock="00:22" type="TD" how="PASS" yds="16" scorer="Fiumana L." passer="Mazzotti A." patby="Cavaliere I." pattype="KICK" patres="GOOD" plays="8" drive="39" top="3:48" vscore="28" hscore="6" driveindex="17"></score>
+  <score vh="H" team="ANG" qtr="4" clock="00:00" type="TD" how="PASS" yds="17" scorer="Lee J." passer="Fiordoro A." patby="Zito G." pattype="KICK" patres="FAIL" plays="2" drive="55" top="0:05" vscore="28" hscore="12" driveindex="18"></score>
+ </scores>
+ <fgas>
+  <fga vh="H" team="ANG" kicker="Zito G." qtr="2" clock="00:25" distance="27" result="missed"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="ANG" start="KO,1,12:00,25" end="PUNT,1,08:00,42" plays="6" yards="17" top="4:00" start_how="KO" start_qtr="1" start_time="12:00" start_spot="ANG25" end_how="PUNT" end_qtr="1" end_time="08:00" end_spot="ANG42" driveindex="1"></drive>
+  <drive vh="V" team="BRC" start="PUNT,1,08:00,25" end="TD,1,03:15,92" plays="11" yards="67" top="4:45" start_how="PUNT" start_qtr="1" start_time="08:00" start_spot="BRC25" end_how="TD" end_qtr="1" end_time="03:15" end_spot="ANG00" rz="1" driveindex="2"></drive>
+  <drive vh="H" team="ANG" start="KO,1,02:55,27" end="PUNT,1,01:35,36" plays="3" yards="9" top="1:20" start_how="KO" start_qtr="1" start_time="02:55" start_spot="ANG27" end_how="PUNT" end_qtr="1" end_time="01:35" end_spot="ANG36" driveindex="3"></drive>
+  <drive vh="V" team="BRC" start="PUNT,1,01:35,39" end="DOWNS,2,09:55,62" plays="7" yards="23" top="3:40" start_how="PUNT" start_qtr="1" start_time="01:35" start_spot="BRC39" end_how="DOWNS" end_qtr="2" end_time="09:55" end_spot="ANG30" rz="1" driveindex="4"></drive>
+  <drive vh="H" team="ANG" start="DOWNS,2,09:55,30" end="PUNT,2,05:06,39" plays="3" yards="9" top="4:49" start_how="DOWNS" start_qtr="2" start_time="09:55" start_spot="ANG30" end_how="PUNT" end_qtr="2" end_time="05:06" end_spot="ANG39" driveindex="5"></drive>
+  <drive vh="V" team="BRC" start="PUNT,2,05:06,3" end="TD,2,03:00,92" plays="10" yards="89" top="2:06" start_how="PUNT" start_qtr="2" start_time="05:06" start_spot="BRC03" end_how="TD" end_qtr="2" end_time="03:00" end_spot="ANG00" rz="1" driveindex="6"></drive>
+  <drive vh="H" team="ANG" start="KO,2,02:50,39" end="FGA,2,00:25,75" plays="7" yards="36" top="2:25" start_how="KO" start_qtr="2" start_time="02:50" start_spot="ANG39" end_how="FGA" end_qtr="2" end_time="00:25" end_spot="BRC17" rz="1" driveindex="7"></drive>
+  <drive vh="V" team="BRC" start="FGA,2,00:25,17" end="HALF,2,00:00,8" plays="1" yards="-9" top="0:25" start_how="FGA" start_qtr="2" start_time="00:25" start_spot="BRC17" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="BRC08" driveindex="8"></drive>
+  <drive vh="V" team="BRC" start="KO,3,11:40,39" end="PUNT,3,10:45,41" plays="3" yards="2" top="0:55" start_how="KO" start_qtr="3" start_time="11:40" start_spot="BRC39" end_how="PUNT" end_qtr="3" end_time="10:45" end_spot="BRC41" driveindex="9"></drive>
+  <drive vh="H" team="ANG" start="PUNT,3,10:45,20" end="PUNT,3,09:30,21" plays="3" yards="1" top="1:15" start_how="PUNT" start_qtr="3" start_time="10:45" start_spot="ANG20" end_how="PUNT" end_qtr="3" end_time="09:30" end_spot="ANG21" driveindex="10"></drive>
+  <drive vh="V" team="BRC" start="PUNT,3,09:30,52" end="INT,3,07:00,74" plays="6" yards="22" top="2:30" start_how="PUNT" start_qtr="3" start_time="09:30" start_spot="ANG40" end_how="INT" end_qtr="3" end_time="07:00" end_spot="ANG18" rz="1" driveindex="11"></drive>
+  <drive vh="H" team="ANG" start="INT,3,07:00,20" end="PUNT,3,06:00,25" plays="3" yards="5" top="1:00" start_how="INT" start_qtr="3" start_time="07:00" start_spot="ANG20" end_how="PUNT" end_qtr="3" end_time="06:00" end_spot="ANG25" driveindex="12"></drive>
+  <drive vh="V" team="BRC" start="PUNT,3,06:00,30" end="TD,3,04:19,92" plays="7" yards="62" top="1:41" start_how="PUNT" start_qtr="3" start_time="06:00" start_spot="BRC30" end_how="TD" end_qtr="3" end_time="04:19" end_spot="ANG00" rz="1" driveindex="13"></drive>
+  <drive vh="H" team="ANG" start="KO,3,03:50,25" end="PUNT,3,00:00,40" plays="6" yards="15" top="3:50" start_how="KO" start_qtr="3" start_time="03:50" start_spot="ANG25" end_how="PUNT" end_qtr="3" end_time="00:00" end_spot="ANG40" driveindex="14"></drive>
+  <drive vh="V" team="BRC" start="PUNT,4,12:00,37" end="INT,4,09:00,81" plays="7" yards="44" top="3:00" start_how="PUNT" start_qtr="4" start_time="12:00" start_spot="BRC37" end_how="INT" end_qtr="4" end_time="09:00" end_spot="ANG11" rz="1" driveindex="15"></drive>
+  <drive vh="H" team="ANG" start="INT,4,09:00,20" end="TD,4,04:36,92" plays="8" yards="72" top="4:24" start_how="INT" start_qtr="4" start_time="09:00" start_spot="ANG20" end_how="TD" end_qtr="4" end_time="04:36" end_spot="BRC00" rz="1" driveindex="16"></drive>
+  <drive vh="V" team="BRC" start="KO,4,04:10,53" end="TD,4,00:22,92" plays="8" yards="39" top="3:48" start_how="KO" start_qtr="4" start_time="04:10" start_spot="ANG39" end_how="TD" end_qtr="4" end_time="00:22" end_spot="ANG00" rz="1" driveindex="17"></drive>
+  <drive vh="H" team="ANG" start="KO,4,00:05,37" end="TD,4,00:00,92" plays="2" yards="55" top="0:05" start_how="KO" start_qtr="4" start_time="00:05" start_spot="ANG37" end_how="TD" end_qtr="4" end_time="00:00" end_spot="BRC00" rz="1" driveindex="18"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="BRC" down="1" togo="10" spot="BRC30" context="V,1,10,V30" playid="0,1,0"
+      text="ANGELS PEASARO WIN THE COIN TOSS, ELECT TO RECEIVE" newcontext="V,1,10,V30">
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="BRC30" context="V,1,10,V30" playid="0,2,1" type="K"
+      text="BRC ball on BRC30, Cavaliere I. kickoff 42 yards to the ANG20, Lee J. return 5 yards to the ANG25 (Grasselli F.)." newcontext="H,1,10,H25">
+    <p_ko vh="V" name="Cavaliere I." gain="42"></p_ko>
+    <p_kr vh="H" name="Lee J." gain="5"></p_kr>
+    <p_tk vh="V" name="Grasselli F."></p_tk>
+   </play>
+   <drivestart poss="H,H25,12:00" vh="H" spot="H25" clock="12:00" driveindex="1,1"></drivestart>
+   <play hasball="ANG" down="1" togo="10" spot="ANG25" context="H,1,10,H25" playid="1,1,2" type="R"
+      text="Fiordoro A. rush for loss of 1 yard to the ANG24 (Picoco M.;Tarroni F.)." newcontext="H,2,11,H24">
+    <p_ru vh="H" name="Fiordoro A." gain="-1"></p_ru>
+    <p_tk vh="V" name="Picoco M." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Tarroni F." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="ANG" down="2" togo="11" spot="ANG24" context="H,2,11,H24" playid="1,2,3" type="E"
+      text="PENALTY ANG offside (Rossi F.) 5 yards to the ANG19." newcontext="H,2,16,H19">
+    <p_pn vh="H" code="OS" type="offside" name="Rossi F." result="ACCEPT" at="H24" yards="5"></p_pn>
+   </play>
+   <play hasball="ANG" down="2" togo="16" spot="ANG19" context="H,2,16,H19" playid="1,3,4" type="P"
+      text="Fiordoro A. pass complete to Zito G. for 12 yards to the ANG31 (Morigi M.)." newcontext="H,3,4,H31">
+    <p_pa vh="H" qb="Fiordoro A." result="COMP" rcv="Zito G." gain="12"></p_pa>
+    <p_tk vh="V" name="Morigi M."></p_tk>
+   </play>
+   <play hasball="ANG" down="3" togo="4" spot="ANG31" context="H,3,4,H31" playid="1,4,5" type="P" first="P"
+      text="Fiordoro A. pass complete to Troisi L. for 13 yards to the ANG44, 1ST DOWN ANG (Morigi M.)." newcontext="H,1,10,H44">
+    <p_pa vh="H" qb="Fiordoro A." result="COMP" rcv="Troisi L." gain="13"></p_pa>
+    <p_tk vh="V" name="Morigi M."></p_tk>
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG44" context="H,1,10,H44" playid="1,5,6" type="P"
+      text="Fiordoro A. pass complete to Politino S. for loss of 2 yards to the ANG42 (Orlati J.)." newcontext="H,2,12,H42">
+    <p_pa vh="H" qb="Fiordoro A." result="COMP" rcv="Politino S." gain="-2"></p_pa>
+    <p_tk vh="V" name="Orlati J." tfl="Y"></p_tk>
+   </play>
+   <play hasball="ANG" down="2" togo="12" spot="ANG42" context="H,2,12,H42" playid="1,6,7" type="P"
+      text="Fiordoro A. pass incomplete to Lee J., dropped pass." newcontext="H,3,12,H42">
+    <p_pa vh="H" qb="Fiordoro A." result="DROP" rcv="Lee J."></p_pa>
+   </play>
+   <play hasball="ANG" down="3" togo="12" spot="ANG42" context="H,3,12,H42" playid="1,7,8" type="R"
+      text="Fiordoro A. rush for no gain to the ANG42 (Orlati J.;Morigi M.)." newcontext="H,4,12,H42">
+    <p_ru vh="H" name="Fiordoro A." gain="0"></p_ru>
+    <p_tk vh="V" name="Orlati J." assist="Y"></p_tk>
+    <p_tk vh="V" name="Morigi M." assist="Y"></p_tk>
+   </play>
+   <play hasball="ANG" down="4" togo="12" spot="ANG42" context="H,4,12,H42" playid="1,8,9" type="U"
+      text="Zito G. punt 25 yards to the BRC25." newcontext="V,1,10,V25">
+    <p_pu vh="H" name="Zito G." gain="25"></p_pu>
+   </play>
+   <drivesum plays="6" yards="17" top="4:00" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,V25,12:00" vh="V" spot="V25" clock="12:00" driveindex="2,9"></drivestart>
+   <play hasball="BRC" down="1" togo="10" spot="BRC25" context="V,1,10,V25" playid="2,1,10" clock="08:00"
+      text="ROOSTERS ROMAGNA drive start at 08:00." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="BRC25" context="V,1,10,V25" playid="2,2,11" type="P"
+      text="Mazzotti A. pass incomplete." newcontext="V,2,10,V25">
+    <p_pa vh="V" qb="Mazzotti A." result="INC"></p_pa>
+   </play>
+   <play hasball="BRC" down="2" togo="10" spot="BRC25" context="V,2,10,V25" playid="2,3,12" type="R"
+      text="Mazzotti M. rush for 9 yards to the BRC34 (Arcangeloni B.)." newcontext="V,3,1,V34">
+    <p_ru vh="V" name="Mazzotti M." gain="9"></p_ru>
+    <p_tk vh="H" name="Arcangeloni B."></p_tk>
+   </play>
+   <play hasball="BRC" down="3" togo="1" spot="BRC34" context="V,3,1,V34" playid="2,4,13" type="R" first="R"
+      text="Giannelli N. rush for 3 yards to the BRC37, 1ST DOWN BRC (Abbondanza A.)." newcontext="V,1,10,V37">
+    <p_ru vh="V" name="Giannelli N." gain="3"></p_ru>
+    <p_tk vh="H" name="Abbondanza A."></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="BRC37" context="V,1,10,V37" playid="2,5,14" type="P"
+      text="Mazzotti A. pass incomplete to Monti M.." newcontext="V,2,10,V37">
+    <p_pa vh="V" qb="Mazzotti A." result="INC" rcv="Monti M."></p_pa>
+   </play>
+   <play hasball="BRC" down="2" togo="10" spot="BRC37" context="V,2,10,V37" playid="2,6,15" type="R" first="R"
+      text="Fiumana L. rush for 11 yards to the ANG44, 1ST DOWN BRC (TEAM)." newcontext="V,1,10,H44">
+    <p_ru vh="V" name="Fiumana L." gain="11"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG44" context="V,1,10,H44" playid="2,7,16" type="P"
+      text="Mazzotti A. pass complete to Monti M. for 8 yards to the ANG36 (Piermaria F.)." newcontext="V,2,2,H36">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Monti M." gain="8"></p_pa>
+    <p_tk vh="H" name="Piermaria F."></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="2" spot="ANG36" context="V,2,2,H36" playid="2,8,17" type="R" first="R"
+      text="Giannelli N. rush for 5 yards to the ANG31, 1ST DOWN BRC (Gallo M.)." newcontext="V,1,10,H31">
+    <p_ru vh="V" name="Giannelli N." gain="5"></p_ru>
+    <p_tk vh="H" name="Gallo M."></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG31" context="V,1,10,H31" playid="2,9,18" type="P"
+      text="Mazzotti A. pass incomplete." newcontext="V,2,10,H31">
+    <p_pa vh="V" qb="Mazzotti A." result="INC"></p_pa>
+   </play>
+   <play hasball="BRC" down="2" togo="10" spot="ANG31" context="V,2,10,H31" playid="2,10,19" type="P" first="P"
+      text="Mazzotti A. pass complete to Mazzotti M. for 28 yards to the ANG3, 1ST DOWN BRC (Abbondanza A.)." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Mazzotti M." gain="28"></p_pa>
+    <p_tk vh="H" name="Abbondanza A."></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="0" spot="ANG03" context="V,1,0,H03" playid="2,11,20" type="R"
+      text="Giannelli N. rush for 2 yards to the ANG1 (Abbondanza A.)." newcontext="V,2,0,H01">
+    <p_ru vh="V" name="Giannelli N." gain="2"></p_ru>
+    <p_tk vh="H" name="Abbondanza A."></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="0" spot="ANG01" context="V,2,0,H01" playid="2,12,21" type="R" score="Y" clock="03:15"
+      text="Giannelli N. rush for 1 yard to the ANG0, TOUCHDOWN, clock 03:15." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Giannelli N." gain="1"></p_ru>
+   </play>
+   <play hasball="BRC" down="1" togo="0" spot="ANG03" context="V,1,0,H03" playid="2,13,22" type="X" score="Y"
+      text="Cavaliere I. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Cavaliere I." qb="Cavaliere I." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="0"></score>
+   <drivesum plays="11" yards="67" top="4:45" driveindex="2" complete="Y"></drivesum>
+   <play hasball="BRC" down="1" togo="0" spot="BRC30" context="V,1,0,V30" playid="2,14,23" type="K"
+      text="Cavaliere I. kickoff 52 yards to the ANG10, Zito G. return 17 yards to the ANG27 (Maroncelli J.)." newcontext="H,1,10,H27">
+    <p_ko vh="V" name="Cavaliere I." gain="52"></p_ko>
+    <p_kr vh="H" name="Zito G." gain="17"></p_kr>
+    <p_tk vh="V" name="Maroncelli J."></p_tk>
+   </play>
+   <drivestart poss="H,H27,03:15" vh="H" spot="H27" clock="03:15" driveindex="3,23"></drivestart>
+   <play hasball="ANG" down="1" togo="10" spot="ANG27" context="H,1,10,H27" playid="3,1,24" clock="02:55"
+      text="ANGELS PESARO drive start at 02:55." newcontext="H,1,10,H27">
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG27" context="H,1,10,H27" playid="3,2,25" type="P"
+      text="Fiordoro A. pass complete to Troisi L. for 8 yards to the ANG35 (Orlati J.)." newcontext="H,2,2,H35">
+    <p_pa vh="H" qb="Fiordoro A." result="COMP" rcv="Troisi L." gain="8"></p_pa>
+    <p_tk vh="V" name="Orlati J."></p_tk>
+   </play>
+   <play hasball="ANG" down="2" togo="2" spot="ANG35" context="H,2,2,H35" playid="3,3,26" type="P"
+      text="Fiordoro A. pass incomplete." newcontext="H,3,2,H35">
+    <p_pa vh="H" qb="Fiordoro A." result="INC"></p_pa>
+   </play>
+   <play hasball="ANG" down="3" togo="2" spot="ANG35" context="H,3,2,H35" playid="3,4,27" type="R"
+      text="Fiordoro A. rush for 1 yard to the ANG36 (Maroncelli J.)." newcontext="H,4,1,H36">
+    <p_ru vh="H" name="Fiordoro A." gain="1"></p_ru>
+    <p_tk vh="V" name="Maroncelli J."></p_tk>
+   </play>
+   <play hasball="ANG" down="4" togo="1" spot="ANG36" context="H,4,1,H36" playid="3,5,28" type="U"
+      text="Zito G. punt 17 yards to the BRC39." newcontext="V,1,10,V39">
+    <p_pu vh="H" name="Zito G." gain="17"></p_pu>
+   </play>
+   <drivesum plays="3" yards="9" top="1:20" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="V,V39,02:55" vh="V" spot="V39" clock="02:55" driveindex="4,28"></drivestart>
+   <play hasball="BRC" down="1" togo="10" spot="BRC39" context="V,1,10,V39" playid="4,1,29" clock="01:35"
+      text="ROOSTERS ROMAGNA drive start at 01:35." newcontext="V,1,10,V39">
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="BRC39" context="V,1,10,V39" playid="4,2,30" type="P" first="P"
+      text="Mazzotti A. pass complete to Monti M. for 12 yards to the ANG41, 1ST DOWN BRC (Ferri A.)." newcontext="V,1,10,H41">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Monti M." gain="12"></p_pa>
+    <p_tk vh="H" name="Ferri A."></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG41" context="V,1,10,H41" playid="4,3,31" type="R"
+      text="Fiumana L. rush for 2 yards to the ANG39 (Abbondanza A.)." newcontext="V,2,8,H39">
+    <p_ru vh="V" name="Fiumana L." gain="2"></p_ru>
+    <p_tk vh="H" name="Abbondanza A."></p_tk>
+   </play>
+   <score qtr="1" V="7" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BRC">
+    <firstdowns no="5" rush="3" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:20"></misc>
+    <rush att="7" yds="33" gain="33" loss="0" td="1" long="11"></rush>
+    <pass comp="3" att="6" int="0" yds="48" td="0" long="28" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="48" td="0" long="28"></rcv>
+    <ko no="2" yds="94" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="7" tacka="4" tot_tack="11" tflua="3" tfla="0" tflyds="4" sacks="0" sackyds="0"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ANG">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:40"></misc>
+    <rush att="3" yds="0" gain="1" loss="1" td="0" long="1"></rush>
+    <pass comp="4" att="6" int="0" yds="31" td="0" long="13" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="31" td="0" long="13"></rcv>
+    <punt no="2" yds="42" long="25" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="21.0"></punt>
+    <defense tackua="9" tacka="0" tot_tack="9" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="22" td="0" long="17"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="BRC" down="2" togo="8" spot="ANG39" context="V,2,8,H39" playid="4,4,32" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="V,2,8,H39">
+   </play>
+   <play hasball="BRC" down="2" togo="8" spot="ANG39" context="V,2,8,H39" playid="4,5,33" type="P" first="P"
+      text="Mazzotti A. pass complete to Monti M. for 10 yards to the ANG29, 1ST DOWN BRC (Giangregorio M.;Gallo M.)." newcontext="V,1,10,H29">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Monti M." gain="10"></p_pa>
+    <p_tk vh="H" name="Giangregorio M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Gallo M." assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG29" context="V,1,10,H29" playid="4,6,34" type="R"
+      text="Mazzotti M. rush for 9 yards to the ANG20 (Civinelli L.)." newcontext="V,2,1,H20">
+    <p_ru vh="V" name="Mazzotti M." gain="9"></p_ru>
+    <p_tk vh="H" name="Civinelli L."></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="1" spot="ANG20" context="V,2,1,H20" playid="4,7,35" type="E"
+      text="Mazzotti A. pass complete to Mazzotti M. for 18 yards to the ANG2 (Giangregorio M.), PENALTY BRC holding 10 yards to the ANG30, NO PLAY." newcontext="V,2,11,H30">
+    <p_pn vh="V" code="HO" type="holding" result="ACCEPT" at="H20" yards="10"></p_pn>
+   </play>
+   <play hasball="BRC" down="2" togo="11" spot="ANG30" context="V,2,11,H30" playid="4,8,36" type="P"
+      text="Mazzotti A. pass incomplete." newcontext="V,3,11,H30">
+    <p_pa vh="V" qb="Mazzotti A." result="INC"></p_pa>
+   </play>
+   <play hasball="BRC" down="3" togo="11" spot="ANG30" context="V,3,11,H30" playid="4,9,37" type="P"
+      text="Mazzotti A. pass incomplete." newcontext="V,4,11,H30">
+    <p_pa vh="V" qb="Mazzotti A." result="INC"></p_pa>
+   </play>
+   <play hasball="BRC" down="4" togo="11" spot="ANG30" context="V,4,11,H30" playid="4,10,38" type="#" clock="10:04"
+      text="Timeout Roosters Romagna, clock 10:04." newcontext="V,4,11,H30">
+    <p_to vh="V" team="Roosters Romagna"></p_to>
+   </play>
+   <play hasball="BRC" down="4" togo="11" spot="ANG30" context="V,4,11,H30" playid="4,11,39" type="P"
+      text="Mazzotti A. pass incomplete." newcontext="H,1,10,H30">
+    <p_pa vh="V" qb="Mazzotti A." result="INC"></p_pa>
+   </play>
+   <drivesum plays="7" yards="23" top="3:40" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,H30,10:04" vh="H" spot="H30" clock="10:04" driveindex="5,39"></drivestart>
+   <play hasball="ANG" down="1" togo="10" spot="ANG30" context="H,1,10,H30" playid="5,1,40" clock="09:55"
+      text="ANGELS PESARO drive start at 09:55." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG30" context="H,1,10,H30" playid="5,2,41" type="R"
+      text="Politino S. rush for 9 yards to the ANG39, out-of-bounds." ob="Y" newcontext="H,2,1,H39">
+    <p_ru vh="H" name="Politino S." gain="9"></p_ru>
+   </play>
+   <play hasball="ANG" down="2" togo="1" spot="ANG39" context="H,2,1,H39" playid="5,3,42" type="R" first="R"
+      text="Zito G. rush for 3 yards to the ANG42, 1ST DOWN ANG (Picoco M.;Grasselli F.)." newcontext="H,1,10,H42">
+    <p_ru vh="H" name="Zito G." gain="3"></p_ru>
+    <p_tk vh="V" name="Picoco M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Grasselli F." assist="Y"></p_tk>
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG42" context="H,1,10,H42" playid="5,4,43" type="R"
+      text="Politino S. rush for loss of 3 yards to the ANG39 (Ragazzini G.;Grasselli F.)." newcontext="H,2,13,H39">
+    <p_ru vh="H" name="Politino S." gain="-3"></p_ru>
+    <p_tk vh="V" name="Ragazzini G." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Grasselli F." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="ANG" down="2" togo="13" spot="ANG39" context="H,2,13,H39" playid="5,5,44" type="U"
+      text="Zito G. punt 50 yards to the BRC3." newcontext="V,1,10,V03">
+    <p_pu vh="H" name="Zito G." gain="50" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="9" top="4:49" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V03,09:55" vh="V" spot="V03" clock="09:55" driveindex="6,44"></drivestart>
+   <play hasball="BRC" down="1" togo="10" spot="BRC03" context="V,1,10,V03" playid="6,1,45" clock="05:06"
+      text="ROOSTERS ROMAGNA drive start at 05:06." newcontext="V,1,10,V03">
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="BRC03" context="V,1,10,V03" playid="6,2,46" type="R"
+      text="Bartoli G. rush for 8 yards to the BRC11 (Ferri A.)." newcontext="V,2,2,V11">
+    <p_ru vh="V" name="Bartoli G." gain="8"></p_ru>
+    <p_tk vh="H" name="Ferri A."></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="2" spot="BRC11" context="V,2,2,V11" playid="6,3,47" type="R"
+      text="Bartoli G. rush for 1 yard to the BRC12 (Gallo M.)." newcontext="V,3,1,V12">
+    <p_ru vh="V" name="Bartoli G." gain="1"></p_ru>
+    <p_tk vh="H" name="Gallo M."></p_tk>
+   </play>
+   <play hasball="BRC" down="3" togo="1" spot="BRC12" context="V,3,1,V12" playid="6,4,48" type="R" first="R"
+      text="Bartoli G. rush for 6 yards to the BRC18, 1ST DOWN BRC (Civinelli L.;Ferri A.)." newcontext="V,1,10,V18">
+    <p_ru vh="V" name="Bartoli G." gain="6"></p_ru>
+    <p_tk vh="H" name="Civinelli L." assist="Y"></p_tk>
+    <p_tk vh="H" name="Ferri A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="BRC18" context="V,1,10,V18" playid="6,5,49" type="P"
+      text="Mazzotti A. pass complete to Mazzotti M. for 6 yards to the BRC24 (Aguzzi E.)." newcontext="V,2,4,V24">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Mazzotti M." gain="6"></p_pa>
+    <p_tk vh="H" name="Aguzzi E."></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="4" spot="BRC24" context="V,2,4,V24" playid="6,6,50" type="P" first="P"
+      text="Mazzotti A. pass complete to Monti M. for 6 yards to the BRC30, 1ST DOWN BRC (Arena G.;Ferri A.)." newcontext="V,1,10,V30">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Monti M." gain="6"></p_pa>
+    <p_tk vh="H" name="Arena G." assist="Y"></p_tk>
+    <p_tk vh="H" name="Ferri A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="BRC30" context="V,1,10,V30" playid="6,7,51" type="P"
+      text="Mazzotti A. pass complete to Monti M. for 8 yards to the BRC38 (Troisi L.;Ferri A.)." newcontext="V,2,2,V38">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Monti M." gain="8"></p_pa>
+    <p_tk vh="H" name="Troisi L." assist="Y"></p_tk>
+    <p_tk vh="H" name="Ferri A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="2" spot="BRC38" context="V,2,2,V38" playid="6,8,52" type="P" first="P"
+      text="Mazzotti A. pass complete to Mazzotti M. for 16 yards to the ANG38, 1ST DOWN BRC (Abbondanza A.)." newcontext="V,1,10,H38">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Mazzotti M." gain="16"></p_pa>
+    <p_tk vh="H" name="Abbondanza A."></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG38" context="V,1,10,H38" playid="6,9,53" type="R"
+      text="Mazzotti M. rush for 6 yards to the ANG32 (Abbondanza A.)." newcontext="V,2,4,H32">
+    <p_ru vh="V" name="Mazzotti M." gain="6"></p_ru>
+    <p_tk vh="H" name="Abbondanza A."></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="4" spot="ANG32" context="V,2,4,H32" playid="6,10,54" type="#" clock="03:38"
+      text="Timeout Angels Pesaro, clock 03:38." newcontext="V,2,4,H32">
+    <p_to vh="H" team="Angels Pesaro"></p_to>
+   </play>
+   <play hasball="BRC" down="2" togo="4" spot="ANG32" context="V,2,4,H32" playid="6,11,55" type="R" first="R"
+      text="Mazzotti A. rush for 30 yards to the ANG2, 1ST DOWN BRC (Ferri A.)." newcontext="V,1,0,H02">
+    <p_ru vh="V" name="Mazzotti A." gain="30"></p_ru>
+    <p_tk vh="H" name="Ferri A."></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="0" spot="ANG02" context="V,1,0,H02" playid="6,12,56" type="R" score="Y" clock="03:00"
+      text="Freddi E. rush for 2 yards to the ANG0, TOUCHDOWN, clock 03:00." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Freddi E." gain="2"></p_ru>
+   </play>
+   <play hasball="BRC" down="1" togo="0" spot="ANG03" context="V,1,0,H03" playid="6,13,57" type="X"
+      text="Cavaliere I. kick attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Cavaliere I." qb="Cavaliere I." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="13" H="0"></score>
+   <drivesum plays="10" yards="89" top="2:06" driveindex="6" complete="Y"></drivesum>
+   <play hasball="BRC" down="1" togo="0" spot="BRC30" context="V,1,0,V30" playid="6,14,58" type="K"
+      text="Cavaliere I. kickoff 47 yards to the ANG15, Zito G. return 24 yards to the ANG39 (Maroncelli J.)." newcontext="H,1,10,H39">
+    <p_ko vh="V" name="Cavaliere I." gain="47"></p_ko>
+    <p_kr vh="H" name="Zito G." gain="24"></p_kr>
+    <p_tk vh="V" name="Maroncelli J."></p_tk>
+   </play>
+   <drivestart poss="H,H39,03:00" vh="H" spot="H39" clock="03:00" driveindex="7,58"></drivestart>
+   <play hasball="ANG" down="1" togo="10" spot="ANG39" context="H,1,10,H39" playid="7,1,59" clock="02:50"
+      text="ANGELS PESARO drive start at 02:50." newcontext="H,1,10,H39">
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG39" context="H,1,10,H39" playid="7,2,60" type="P"
+      text="Fiordoro A. pass incomplete to Lee J., dropped pass." newcontext="H,2,10,H39">
+    <p_pa vh="H" qb="Fiordoro A." result="DROP" rcv="Lee J."></p_pa>
+   </play>
+   <play hasball="ANG" down="2" togo="10" spot="ANG39" context="H,2,10,H39" playid="7,3,61" type="E"
+      text="Fiordoro A. pass complete to Khalafa N. for 3 yards to the ANG42 (Grasselli F.), PENALTY BRC offside defense 5 yards to the ANG44, NO PLAY." newcontext="H,2,5,H44">
+    <p_pn vh="V" code="OD" type="offside defense" result="ACCEPT" at="H39" yards="5"></p_pn>
+   </play>
+   <play hasball="ANG" down="2" togo="5" spot="ANG44" context="H,2,5,H44" playid="7,4,62" type="P" first="P"
+      text="Fiordoro A. pass complete to Khalafa N. for 8 yards to the BRC40, 1ST DOWN ANG (Picoco M.;Morigi M.)." newcontext="H,1,10,V40">
+    <p_pa vh="H" qb="Fiordoro A." result="COMP" rcv="Khalafa N." gain="8"></p_pa>
+    <p_tk vh="V" name="Picoco M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Morigi M." assist="Y"></p_tk>
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="BRC40" context="H,1,10,V40" playid="7,5,63" type="P"
+      text="Fiordoro A. sacked for no gain to the BRC40 (Pirazzini C.)." newcontext="H,2,10,V40">
+    <p_pa vh="H" qb="Fiordoro A." result="SACK" gain="0"></p_pa>
+    <p_tk vh="V" name="Pirazzini C." sack="Y"></p_tk>
+   </play>
+   <play hasball="ANG" down="2" togo="10" spot="BRC40" context="H,2,10,V40" playid="7,6,64" type="R" first="R"
+      text="Politino S. rush for 22 yards to the BRC18, 1ST DOWN ANG, out-of-bounds." ob="Y" newcontext="H,1,10,V18">
+    <p_ru vh="H" name="Politino S." gain="22"></p_ru>
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="BRC18" context="H,1,10,V18" playid="7,7,65" type="R"
+      text="Politino S. rush for 1 yard to the BRC17 (Maroncelli J.)." newcontext="H,2,9,V17">
+    <p_ru vh="H" name="Politino S." gain="1"></p_ru>
+    <p_tk vh="V" name="Maroncelli J."></p_tk>
+   </play>
+   <play hasball="ANG" down="2" togo="9" spot="BRC17" context="H,2,9,V17" playid="7,8,66" type="P"
+      text="Fiordoro A. pass incomplete to Zito G.." newcontext="H,3,9,V17">
+    <p_pa vh="H" qb="Fiordoro A." result="INC" rcv="Zito G."></p_pa>
+   </play>
+   <play hasball="ANG" down="3" togo="9" spot="BRC17" context="H,3,9,V17" playid="7,9,67" type="P"
+      text="Fiordoro A. pass incomplete." newcontext="H,4,9,V17">
+    <p_pa vh="H" qb="Fiordoro A." result="INC"></p_pa>
+   </play>
+   <play hasball="ANG" down="4" togo="9" spot="BRC17" context="H,4,9,V17" playid="7,10,68" type="F" clock="00:25"
+      text="Zito G. field goal attempt from 27 MISSED - short, spot at BRC17, clock 00:25." newcontext="V,1,10,V17">
+    <p_fg vh="H" name="Zito G." distance="27" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="7" yards="36" top="2:25" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,V17,00:25" vh="V" spot="V17" clock="00:25" driveindex="8,68"></drivestart>
+   <play hasball="BRC" down="1" togo="10" spot="BRC17" context="V,1,10,V17" playid="8,1,69" type="E" clock="00:09"
+      text="Mazzotti A. pass complete to Fiumana L. for 75 yards to the ANG0, clock 00:09, PENALTY BRC holding 9 yards to the BRC8, NO PLAY." newcontext="V,1,19,V08">
+    <p_pn vh="V" code="HO" type="holding" result="ACCEPT" at="V17" yards="9"></p_pn>
+   </play>
+   <score qtr="2" V="13" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BRC">
+    <firstdowns no="5" rush="2" pass="3" penalty="0"></firstdowns>
+    <penalties no="3" yds="24"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:36"></misc>
+    <rush att="7" yds="62" gain="62" loss="0" td="1" long="19"></rush>
+    <pass comp="5" att="9" int="0" yds="46" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="46" td="0" long="0"></rcv>
+    <ko no="1" yds="47" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="3" tacka="6" tot_tack="9" tflua="2" tfla="0" tflyds="6" sacks="1" sackyds="0"></defense>
+    <kr no="1" yds="24" td="0" long="24"></kr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ANG">
+    <firstdowns no="3" rush="2" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:24"></misc>
+    <rush att="6" yds="32" gain="35" loss="3" td="0" long="21"></rush>
+    <pass comp="1" att="4" int="0" yds="8" td="0" long="0" sacks="1" sackyds="0"></pass>
+    <rcv no="1" yds="8" td="0" long="0"></rcv>
+    <punt no="1" yds="50" long="25" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="50.0"></punt>
+    <ko no="1" yds="47" ob="0" tb="0"></ko>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <defense tackua="8" tacka="8" tot_tack="16" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="24" td="0" long="7"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="BRC" down="1" togo="19" spot="BRC08" context="V,1,19,V08" playid="8,2,70" type="K" clock="12:00"
+      text="Mazzotti A. pass incomplete, end of half, clock 00:00, start of 3rd quarter, clock 12:00, ANG ball on ANG30, Zito G. kickoff 47 yards to the BRC15, Mazzotti M. return 24 yards to the BRC39 (TEAM)." newcontext="V,1,10,V39">
+    <p_pa vh="V" qb="Mazzotti A." result="INC"></p_pa>
+    <p_ko vh="H" name="Zito G." gain="47"></p_ko>
+    <p_kr vh="V" name="Mazzotti M." gain="24"></p_kr>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <drivesum plays="1" yards="-9" top="0:25" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,V39,12:00" vh="V" spot="V39" clock="12:00" driveindex="9,70"></drivestart>
+   <drivesum plays="1" yards="-9" top="0:25" driveindex="8" complete="Y"></drivesum>
+   <play hasball="BRC" down="1" togo="10" spot="BRC39" context="V,1,10,V39" playid="9,1,71" clock="11:40"
+      text="ROOSTERS ROMAGNA drive start at 11:40." newcontext="V,1,10,V39">
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="BRC39" context="V,1,10,V39" playid="9,2,72" type="R"
+      text="Mazzotti M. rush for loss of 1 yard to the BRC38 (Gallo M.;Rossi F.)." newcontext="V,2,11,V38">
+    <p_ru vh="V" name="Mazzotti M." gain="-1"></p_ru>
+    <p_tk vh="H" name="Gallo M." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="H" name="Rossi F." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="11" spot="BRC38" context="V,2,11,V38" playid="9,3,73" type="R"
+      text="Bartoli G. rush for 3 yards to the BRC41 (Rossi F.;Piermaria F.)." newcontext="V,3,8,V41">
+    <p_ru vh="V" name="Bartoli G." gain="3"></p_ru>
+    <p_tk vh="H" name="Rossi F." assist="Y"></p_tk>
+    <p_tk vh="H" name="Piermaria F." assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="3" togo="8" spot="BRC41" context="V,3,8,V41" playid="9,4,74" type="P"
+      text="Mazzotti A. pass incomplete to Monti M.." newcontext="V,4,8,V41">
+    <p_pa vh="V" qb="Mazzotti A." result="INC" rcv="Monti M."></p_pa>
+   </play>
+   <play hasball="BRC" down="4" togo="8" spot="BRC41" context="V,4,8,V41" playid="9,5,75" type="U"
+      text="Maroncelli J. punt 31 yards to the ANG20." newcontext="H,1,10,H20">
+    <p_pu vh="V" name="Maroncelli J." gain="31"></p_pu>
+   </play>
+   <drivestart poss="H,H20,11:40" vh="H" spot="H20" clock="11:40" driveindex="10,75"></drivestart>
+   <play hasball="ANG" down="1" togo="10" spot="ANG20" context="H,1,10,H20" playid="10,1,76" clock="10:45"
+      text="ANGELS PESARO drive start at 10:45." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG20" context="H,1,10,H20" playid="10,2,77" type="R"
+      text="Troisi L. rush for 1 yard to the ANG21 (Maroncelli J.)." newcontext="H,2,9,H21">
+    <p_ru vh="H" name="Troisi L." gain="1"></p_ru>
+    <p_tk vh="V" name="Maroncelli J."></p_tk>
+   </play>
+   <play hasball="ANG" down="2" togo="9" spot="ANG21" context="H,2,9,H21" playid="10,3,78" type="P"
+      text="Fiordoro A. pass incomplete to Zito G.." newcontext="H,3,9,H21">
+    <p_pa vh="H" qb="Fiordoro A." result="INC" rcv="Zito G."></p_pa>
+   </play>
+   <play hasball="ANG" down="3" togo="9" spot="ANG21" context="H,3,9,H21" playid="10,4,79" type="P"
+      text="Fiordoro A. pass incomplete." newcontext="H,4,9,H21">
+    <p_pa vh="H" qb="Fiordoro A." result="INC"></p_pa>
+   </play>
+   <play hasball="ANG" down="4" togo="9" spot="ANG21" context="H,4,9,H21" playid="10,5,80" type="U"
+      text="Zito G. punt 19 yards to the ANG40." newcontext="V,1,10,H40">
+    <p_pu vh="H" name="Zito G." gain="19"></p_pu>
+   </play>
+   <drivesum plays="3" yards="1" top="1:15" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,H40,10:45" vh="V" spot="H40" clock="10:45" driveindex="11,80"></drivestart>
+   <play hasball="BRC" down="1" togo="10" spot="ANG40" context="V,1,10,H40" playid="11,1,81" clock="09:30"
+      text="ROOSTERS ROMAGNA drive start at 09:30." newcontext="V,1,10,H40">
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG40" context="V,1,10,H40" playid="11,2,82" type="P"
+      text="Mazzotti A. pass incomplete to Mazzotti M.." newcontext="V,2,10,H40">
+    <p_pa vh="V" qb="Mazzotti A." result="INC" rcv="Mazzotti M."></p_pa>
+   </play>
+   <play hasball="BRC" down="2" togo="10" spot="ANG40" context="V,2,10,H40" playid="11,3,83" type="R"
+      text="Giannelli N. rush for no gain to the ANG40 (Piermaria F.)." newcontext="V,3,10,H40">
+    <p_ru vh="V" name="Giannelli N." gain="0"></p_ru>
+    <p_tk vh="H" name="Piermaria F."></p_tk>
+   </play>
+   <play hasball="BRC" down="3" togo="10" spot="ANG40" context="V,3,10,H40" playid="11,4,84" type="P" first="P"
+      text="Mazzotti A. pass complete to Monti M. for 11 yards to the ANG29, 1ST DOWN BRC (TEAM)." newcontext="V,1,10,H29">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Monti M." gain="11"></p_pa>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG29" context="V,1,10,H29" playid="11,5,85" type="R"
+      text="Mazzotti A. rush for 5 yards to the ANG24 (Piermaria F.;Gallo M.)." newcontext="V,2,5,H24">
+    <p_ru vh="V" name="Mazzotti A." gain="5"></p_ru>
+    <p_tk vh="H" name="Piermaria F." assist="Y"></p_tk>
+    <p_tk vh="H" name="Gallo M." assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="5" spot="ANG24" context="V,2,5,H24" playid="11,6,86" type="R" first="R"
+      text="Giannelli N. rush for 6 yards to the ANG18, 1ST DOWN BRC (Abbondanza A.;Ferri A.)." newcontext="V,1,10,H18">
+    <p_ru vh="V" name="Giannelli N." gain="6"></p_ru>
+    <p_tk vh="H" name="Abbondanza A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Ferri A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG18" context="V,1,10,H18" playid="11,7,87" type="P" turnover="I"
+      text="Mazzotti A. pass intercepted by Abbondanza A. at the ANG0, Abbondanza A. return 0 yards to the ANG0, touchback." newcontext="H,1,10,H20">
+    <p_pa vh="V" qb="Mazzotti A." result="INT"></p_pa>
+    <p_ir vh="H" name="Abbondanza A." at="H00" gain="0"></p_ir>
+   </play>
+   <drivesum plays="6" yards="22" top="2:30" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,H20,09:30" vh="H" spot="H20" clock="09:30" driveindex="12,87"></drivestart>
+   <play hasball="ANG" down="1" togo="10" spot="ANG20" context="H,1,10,H20" playid="12,1,88" clock="07:00"
+      text="ANGELS PESARO drive start at 07:00." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG20" context="H,1,10,H20" playid="12,2,89" type="P"
+      text="Fiordoro A. pass incomplete to Aguzzi E.." newcontext="H,2,10,H20">
+    <p_pa vh="H" qb="Fiordoro A." result="INC" rcv="Aguzzi E."></p_pa>
+   </play>
+   <play hasball="ANG" down="2" togo="10" spot="ANG20" context="H,2,10,H20" playid="12,3,90" type="P"
+      text="Fiordoro A. pass incomplete." newcontext="H,3,10,H20">
+    <p_pa vh="H" qb="Fiordoro A." result="INC"></p_pa>
+   </play>
+   <play hasball="ANG" down="3" togo="10" spot="ANG20" context="H,3,10,H20" playid="12,4,91" type="E"
+      text="PENALTY BRC offside defense 5 yards to the ANG25." newcontext="H,3,5,H25">
+    <p_pn vh="V" code="OD" type="offside defense" result="ACCEPT" at="H20" yards="5"></p_pn>
+   </play>
+   <play hasball="ANG" down="3" togo="5" spot="ANG25" context="H,3,5,H25" playid="12,5,92" type="P"
+      text="Fiordoro A. pass incomplete." newcontext="H,4,5,H25">
+    <p_pa vh="H" qb="Fiordoro A." result="INC"></p_pa>
+   </play>
+   <play hasball="ANG" down="4" togo="5" spot="ANG25" context="H,4,5,H25" playid="12,6,93" type="U"
+      text="Zito G. punt 37 yards to the BRC30, out-of-bounds." ob="Y" newcontext="V,1,10,V30">
+    <p_pu vh="H" name="Zito G." gain="37" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="5" top="1:00" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V30,07:00" vh="V" spot="V30" clock="07:00" driveindex="13,93"></drivestart>
+   <play hasball="BRC" down="1" togo="10" spot="BRC30" context="V,1,10,V30" playid="13,1,94" clock="06:00"
+      text="ROOSTERS ROMAGNA drive start at 06:00." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="BRC30" context="V,1,10,V30" playid="13,2,95" type="R" first="R"
+      text="Mazzotti A. rush for 21 yards to the ANG41, 1ST DOWN BRC, out-of-bounds." ob="Y" newcontext="V,1,10,H41">
+    <p_ru vh="V" name="Mazzotti A." gain="21"></p_ru>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG41" context="V,1,10,H41" playid="13,3,96" type="R"
+      text="Fiumana L. rush for 9 yards to the ANG32, out-of-bounds." ob="Y" newcontext="V,2,1,H32">
+    <p_ru vh="V" name="Fiumana L." gain="9"></p_ru>
+   </play>
+   <play hasball="BRC" down="2" togo="1" spot="ANG32" context="V,2,1,H32" playid="13,4,97" type="R" first="R"
+      text="Giannelli N. rush for 10 yards to the ANG22, 1ST DOWN BRC (Abbondanza A.)." newcontext="V,1,10,H22">
+    <p_ru vh="V" name="Giannelli N." gain="10"></p_ru>
+    <p_tk vh="H" name="Abbondanza A."></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG22" context="V,1,10,H22" playid="13,5,98" type="R"
+      text="Mazzotti M. rush for 7 yards to the ANG15 (Gallo M.)." newcontext="V,2,3,H15">
+    <p_ru vh="V" name="Mazzotti M." gain="7"></p_ru>
+    <p_tk vh="H" name="Gallo M."></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="3" spot="ANG15" context="V,2,3,H15" playid="13,6,99" type="R"
+      text="Freddi E. rush for no gain to the ANG15 (Gallo M.)." newcontext="V,3,3,H15">
+    <p_ru vh="V" name="Freddi E." gain="0"></p_ru>
+    <p_tk vh="H" name="Gallo M."></p_tk>
+   </play>
+   <play hasball="BRC" down="3" togo="3" spot="ANG15" context="V,3,3,H15" playid="13,7,100" type="R" first="R"
+      text="Mazzotti A. rush for 14 yards to the ANG1, 1ST DOWN BRC (Abbondanza A.)." newcontext="V,1,0,H01">
+    <p_ru vh="V" name="Mazzotti A." gain="14"></p_ru>
+    <p_tk vh="H" name="Abbondanza A."></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="0" spot="ANG01" context="V,1,0,H01" playid="13,8,101" type="R" score="Y" clock="04:19"
+      text="Mazzotti A. rush for 1 yard to the ANG0, TOUCHDOWN, clock 04:19." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Mazzotti A." gain="1"></p_ru>
+   </play>
+   <play hasball="BRC" down="1" togo="0" spot="ANG03" context="V,1,0,H03" playid="13,9,102" type="X" score="Y"
+      text="Mazzotti A. rush attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Mazzotti A." qb="Mazzotti A." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="21" H="0"></score>
+   <drivesum plays="7" yards="62" top="1:41" driveindex="13" complete="Y"></drivesum>
+   <play hasball="BRC" down="1" togo="0" spot="BRC30" context="V,1,0,V30" playid="13,10,103" type="K"
+      text="Cavaliere I. kickoff 54 yards to the ANG8, Troisi L. return 17 yards to the ANG25 (Neri L.;Maroncelli J.)." newcontext="H,1,10,H25">
+    <p_ko vh="V" name="Cavaliere I." gain="54"></p_ko>
+    <p_kr vh="H" name="Troisi L." gain="17"></p_kr>
+    <p_tk vh="V" name="Neri L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Maroncelli J." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="H,H25,04:19" vh="H" spot="H25" clock="04:19" driveindex="14,103"></drivestart>
+   <play hasball="ANG" down="1" togo="10" spot="ANG25" context="H,1,10,H25" playid="14,1,104" clock="03:50"
+      text="ANGELS PESARO drive start at 03:50." newcontext="H,1,10,H25">
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG25" context="H,1,10,H25" playid="14,2,105" type="R"
+      text="Politino S. rush for 4 yards to the ANG29 (Picoco M.)." newcontext="H,2,6,H29">
+    <p_ru vh="H" name="Politino S." gain="4"></p_ru>
+    <p_tk vh="V" name="Picoco M."></p_tk>
+   </play>
+   <play hasball="ANG" down="2" togo="6" spot="ANG29" context="H,2,6,H29" playid="14,3,106" type="R"
+      text="Zito G. rush for 3 yards to the ANG32 (Morigi M.)." newcontext="H,3,3,H32">
+    <p_ru vh="H" name="Zito G." gain="3"></p_ru>
+    <p_tk vh="V" name="Morigi M."></p_tk>
+   </play>
+   <play hasball="ANG" down="3" togo="3" spot="ANG32" context="H,3,3,H32" playid="14,4,107" type="R" first="R"
+      text="Fiordoro A. rush for 6 yards to the ANG38, 1ST DOWN ANG (Morigi M.)." newcontext="H,1,10,H38">
+    <p_ru vh="H" name="Fiordoro A." gain="6"></p_ru>
+    <p_tk vh="V" name="Morigi M."></p_tk>
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG38" context="H,1,10,H38" playid="14,5,108" type="R"
+      text="Zito G. rush for 3 yards to the ANG41 (Maroncelli J.)." newcontext="H,2,7,H41">
+    <p_ru vh="H" name="Zito G." gain="3"></p_ru>
+    <p_tk vh="V" name="Maroncelli J."></p_tk>
+   </play>
+   <play hasball="ANG" down="2" togo="7" spot="ANG41" context="H,2,7,H41" playid="14,6,109" type="R"
+      text="Politino S. rush for loss of 1 yard to the ANG40 (Maroncelli J.)." newcontext="H,3,8,H40">
+    <p_ru vh="H" name="Politino S." gain="-1"></p_ru>
+    <p_tk vh="V" name="Maroncelli J." tfl="Y"></p_tk>
+   </play>
+   <play hasball="ANG" down="3" togo="8" spot="ANG40" context="H,3,8,H40" playid="14,7,110" type="P"
+      text="Fiordoro A. pass incomplete." newcontext="H,4,8,H40">
+    <p_pa vh="H" qb="Fiordoro A." result="INC"></p_pa>
+   </play>
+   <play hasball="ANG" down="4" togo="8" spot="ANG40" context="H,4,8,H40" playid="14,8,111" type="U"
+      text="Zito G. punt 15 yards to the BRC37." newcontext="V,1,10,V37">
+    <p_pu vh="H" name="Zito G." gain="15"></p_pu>
+   </play>
+   <drivesum plays="6" yards="15" top="3:50" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,V37,03:50" vh="V" spot="V37" clock="03:50" driveindex="15,111"></drivestart>
+   <score qtr="3" V="21" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BRC">
+    <firstdowns no="5" rush="4" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:26"></misc>
+    <rush att="12" yds="75" gain="76" loss="1" td="1" long="0"></rush>
+    <pass comp="1" att="4" int="1" yds="11" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="11" td="0" long="0"></rcv>
+    <punt no="1" yds="31" long="31" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="31.0"></punt>
+    <ko no="1" yds="54" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="1"></pat>
+    <defense tackua="6" tacka="2" tot_tack="8" tflua="1" tfla="0" tflyds="1" sacks="1" sackyds="0"></defense>
+    <scoring td="1" patrush="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ANG">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:34"></misc>
+    <rush att="6" yds="16" gain="17" loss="1" td="0" long="0"></rush>
+    <pass comp="0" att="6" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="3" yds="71" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="23.7"></punt>
+    <defense tackua="6" tacka="8" tot_tack="14" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0" int="1" intyds="0"></defense>
+    <kr no="1" yds="17" td="0" long="0"></kr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="BRC" down="1" togo="10" spot="BRC37" context="V,1,10,V37" playid="15,1,112" type="#" clock="12:00"
+      text="ROOSTERS ROMAGNA drive start at 00:00, start of 4th quarter, clock 12:00." newcontext="V,1,10,V37">
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="BRC37" context="V,1,10,V37" playid="15,2,113" type="P" first="P"
+      text="Mazzotti A. pass complete to Fiumana L. for 35 yards to the ANG20, 1ST DOWN BRC, out-of-bounds." ob="Y" newcontext="V,1,10,H20">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Fiumana L." gain="35"></p_pa>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG20" context="V,1,10,H20" playid="15,3,114" type="R"
+      text="Bartoli G. rush for loss of 1 yard to the ANG21 (Ferri A.)." newcontext="V,2,11,H21">
+    <p_ru vh="V" name="Bartoli G." gain="-1"></p_ru>
+    <p_tk vh="H" name="Ferri A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="11" spot="ANG21" context="V,2,11,H21" playid="15,4,115" type="P"
+      text="Mazzotti A. pass complete to Comandini P. for 9 yards to the ANG12 (Arcangeloni B.;Ferri A.)." newcontext="V,3,2,H12">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Comandini P." gain="9"></p_pa>
+    <p_tk vh="H" name="Arcangeloni B." assist="Y"></p_tk>
+    <p_tk vh="H" name="Ferri A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="3" togo="2" spot="ANG12" context="V,3,2,H12" playid="15,5,116" type="R" first="R"
+      text="Mazzotti M. rush for 4 yards to the ANG8, 1ST DOWN BRC (Troisi L.)." newcontext="V,1,0,H08">
+    <p_ru vh="V" name="Mazzotti M." gain="4"></p_ru>
+    <p_tk vh="H" name="Troisi L."></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="0" spot="ANG08" context="V,1,0,H08" playid="15,6,117" type="R"
+      text="Bartoli G. rush for 2 yards to the ANG6 (Rossi F.;Gallo M.)." newcontext="V,2,0,H06">
+    <p_ru vh="V" name="Bartoli G." gain="2"></p_ru>
+    <p_tk vh="H" name="Rossi F." assist="Y"></p_tk>
+    <p_tk vh="H" name="Gallo M." assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="0" spot="ANG06" context="V,2,0,H06" playid="15,7,118" type="R"
+      text="Mazzotti A. rush for loss of 5 yards to the ANG11, out-of-bounds." ob="Y" newcontext="V,3,0,H11">
+    <p_ru vh="V" name="Mazzotti A." gain="-5"></p_ru>
+   </play>
+   <play hasball="BRC" down="3" togo="0" spot="ANG11" context="V,3,0,H11" playid="15,8,119" type="P" turnover="I"
+      text="Mazzotti A. pass intercepted by Abbondanza A. at the ANG0, Abbondanza A. return 0 yards to the ANG0, touchback." newcontext="H,1,10,H20">
+    <p_pa vh="V" qb="Mazzotti A." result="INT"></p_pa>
+    <p_ir vh="H" name="Abbondanza A." at="H00" gain="0"></p_ir>
+   </play>
+   <drivesum plays="7" yards="44" top="3:00" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H20,12:00" vh="H" spot="H20" clock="12:00" driveindex="16,119"></drivestart>
+   <play hasball="ANG" down="1" togo="10" spot="ANG20" context="H,1,10,H20" playid="16,1,120" clock="09:00"
+      text="ANGELS PESARO drive start at 09:00." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG20" context="H,1,10,H20" playid="16,2,121" type="P" first="P"
+      text="Fiordoro A. pass complete to Fiordoro A. for 10 yards to the ANG30, 1ST DOWN ANG (Morigi M.)." newcontext="H,1,10,H30">
+    <p_pa vh="H" qb="Fiordoro A." result="COMP" rcv="Fiordoro A." gain="10"></p_pa>
+    <p_tk vh="V" name="Morigi M."></p_tk>
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG30" context="H,1,10,H30" playid="16,3,122" type="E" first="E"
+      text="Fiordoro A. pass incomplete, PENALTY BRC roughing passer 15 yards to the ANG45, 1ST DOWN ANG, NO PLAY." newcontext="H,1,10,H45">
+    <p_pn vh="V" code="RP" type="roughing passer" result="ACCEPT" at="H30" yards="15"></p_pn>
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG45" context="H,1,10,H45" playid="16,4,123" type="P"
+      text="Fiordoro A. pass incomplete." newcontext="H,2,10,H45">
+    <p_pa vh="H" qb="Fiordoro A." result="INC"></p_pa>
+   </play>
+   <play hasball="ANG" down="2" togo="10" spot="ANG45" context="H,2,10,H45" playid="16,5,124" type="R"
+      text="Politino S. rush for 8 yards to the BRC39 (Pirazzini C.)." newcontext="H,3,2,V39">
+    <p_ru vh="H" name="Politino S." gain="8"></p_ru>
+    <p_tk vh="V" name="Pirazzini C."></p_tk>
+   </play>
+   <play hasball="ANG" down="3" togo="2" spot="BRC39" context="H,3,2,V39" playid="16,6,125" type="E"
+      text="Zito G. rush for 9 yards to the BRC30 (Tarroni F.), PENALTY ANG offside (Sow M.) 5 yards to the BRC44, NO PLAY." newcontext="H,3,7,V44">
+    <p_pn vh="H" code="OS" type="offside" name="Sow M." result="ACCEPT" at="V39" yards="5"></p_pn>
+   </play>
+   <play hasball="ANG" down="3" togo="7" spot="BRC44" context="H,3,7,V44" playid="16,7,126" type="#" clock="06:45"
+      text="Timeout Angels Pesaro, clock 06:45." newcontext="H,3,7,V44">
+    <p_to vh="H" team="Angels Pesaro"></p_to>
+   </play>
+   <play hasball="ANG" down="3" togo="7" spot="BRC44" context="H,3,7,V44" playid="16,8,127" type="P" first="P"
+      text="Fiordoro A. pass complete to Khalafa N. for 23 yards to the BRC21, 1ST DOWN ANG (Morigi M.)." newcontext="H,1,10,V21">
+    <p_pa vh="H" qb="Fiordoro A." result="COMP" rcv="Khalafa N." gain="23"></p_pa>
+    <p_tk vh="V" name="Morigi M."></p_tk>
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="BRC21" context="H,1,10,V21" playid="16,9,128" type="R"
+      text="Politino S. rush for no gain to the BRC21 (Morigi M.)." newcontext="H,2,10,V21">
+    <p_ru vh="H" name="Politino S." gain="0"></p_ru>
+    <p_tk vh="V" name="Morigi M."></p_tk>
+   </play>
+   <play hasball="ANG" down="2" togo="10" spot="BRC21" context="H,2,10,V21" playid="16,10,129" type="P"
+      text="Fiordoro A. pass incomplete to Lee J.." newcontext="H,3,10,V21">
+    <p_pa vh="H" qb="Fiordoro A." result="INC" rcv="Lee J."></p_pa>
+   </play>
+   <play hasball="ANG" down="3" togo="10" spot="BRC21" context="H,3,10,V21" playid="16,11,130" type="P"
+      text="Fiordoro A. pass incomplete to Lee J. (Chiarini F.)." newcontext="H,4,10,V21">
+    <p_pa vh="H" qb="Fiordoro A." result="INC" rcv="Lee J."></p_pa>
+    <p_bu vh="V" name="Chiarini F."></p_bu>
+   </play>
+   <play hasball="ANG" down="4" togo="10" spot="BRC21" context="H,4,10,V21" playid="16,12,131" type="E" first="E"
+      text="PENALTY BRC pass interference (Chiarini F.) 13 yards to the BRC8, 1ST DOWN ANG." newcontext="H,1,0,V08">
+    <p_pn vh="V" code="PI" type="pass interference" name="Chiarini F." result="ACCEPT" at="V21" yards="13"></p_pn>
+   </play>
+   <play hasball="ANG" down="1" togo="0" spot="BRC08" context="H,1,0,V08" playid="16,13,132" type="P" score="Y" clock="04:36"
+      text="Fiordoro A. pass complete to Troisi L. for 8 yards to the BRC0, TOUCHDOWN, clock 04:36." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Fiordoro A." result="COMP" rcv="Troisi L." gain="8"></p_pa>
+   </play>
+   <play hasball="ANG" down="1" togo="0" spot="BRC03" context="H,1,0,V03" playid="16,14,133" type="X"
+      text="Zito G. kick attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Zito G." qb="Zito G." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="21" H="6"></score>
+   <drivesum plays="8" yards="72" top="4:24" driveindex="16" complete="Y"></drivesum>
+   <play hasball="ANG" down="1" togo="0" spot="ANG30" context="H,1,0,H30" playid="16,15,134" type="K"
+      text="Zito G. kickoff 52 yards to the BRC10, Mazzotti M. return 43 yards to the ANG39 (Civinelli L.;Arcangeloni B.)." newcontext="V,1,10,H39">
+    <p_ko vh="H" name="Zito G." gain="52"></p_ko>
+    <p_kr vh="V" name="Mazzotti M." gain="43"></p_kr>
+    <p_tk vh="H" name="Civinelli L." assist="Y"></p_tk>
+    <p_tk vh="H" name="Arcangeloni B." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="V,H39,04:36" vh="V" spot="H39" clock="04:36" driveindex="17,134"></drivestart>
+   <play hasball="BRC" down="1" togo="10" spot="ANG39" context="V,1,10,H39" playid="17,1,135" clock="04:10"
+      text="ROOSTERS ROMAGNA drive start at 04:10." newcontext="V,1,10,H39">
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG39" context="V,1,10,H39" playid="17,2,136" type="R"
+      text="Mazzotti M. rush for 9 yards to the ANG30 (Arena G.)." newcontext="V,2,1,H30">
+    <p_ru vh="V" name="Mazzotti M." gain="9"></p_ru>
+    <p_tk vh="H" name="Arena G."></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="1" spot="ANG30" context="V,2,1,H30" playid="17,3,137" type="R" first="R"
+      text="Fiumana L. rush for 5 yards to the ANG25, 1ST DOWN BRC (Ferri A.)." newcontext="V,1,10,H25">
+    <p_ru vh="V" name="Fiumana L." gain="5"></p_ru>
+    <p_tk vh="H" name="Ferri A."></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG25" context="V,1,10,H25" playid="17,4,138" type="R"
+      text="Freddi E. rush for no gain to the ANG25 (Ferri A.;Rossi F.)." newcontext="V,2,10,H25">
+    <p_ru vh="V" name="Freddi E." gain="0"></p_ru>
+    <p_tk vh="H" name="Ferri A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Rossi F." assist="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="10" spot="ANG25" context="V,2,10,H25" playid="17,5,139" type="P"
+      text="Mazzotti A. pass complete to Monti M. for 4 yards to the ANG21 (Troisi L.)." newcontext="V,3,6,H21">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Monti M." gain="4"></p_pa>
+    <p_tk vh="H" name="Troisi L."></p_tk>
+   </play>
+   <play hasball="BRC" down="3" togo="6" spot="ANG21" context="V,3,6,H21" playid="17,6,140" type="R"
+      text="Mazzotti A. rush for 2 yards to the ANG19 (Abbondanza A.)." newcontext="V,4,4,H19">
+    <p_ru vh="V" name="Mazzotti A." gain="2"></p_ru>
+    <p_tk vh="H" name="Abbondanza A."></p_tk>
+   </play>
+   <play hasball="BRC" down="4" togo="4" spot="ANG19" context="V,4,4,H19" playid="17,7,141" type="R" first="R"
+      text="Bartoli G. rush for 4 yards to the ANG15, 1ST DOWN BRC (TEAM)." newcontext="V,1,10,H15">
+    <p_ru vh="V" name="Bartoli G." gain="4"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="BRC" down="1" togo="10" spot="ANG15" context="V,1,10,H15" playid="17,8,142" type="R"
+      text="Bartoli G. rush for loss of 1 yard to the ANG16 (Piermaria F.)." newcontext="V,2,11,H16">
+    <p_ru vh="V" name="Bartoli G." gain="-1"></p_ru>
+    <p_tk vh="H" name="Piermaria F." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BRC" down="2" togo="11" spot="ANG16" context="V,2,11,H16" playid="17,9,143" type="P" first="P" score="Y" clock="00:22"
+      text="Mazzotti A. pass complete to Fiumana L. for 16 yards to the ANG0, 1ST DOWN BRC, TOUCHDOWN, clock 00:22." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Mazzotti A." result="COMP" rcv="Fiumana L." gain="16"></p_pa>
+   </play>
+   <play hasball="BRC" down="1" togo="0" spot="ANG03" context="V,1,0,H03" playid="17,10,144" type="X" score="Y"
+      text="Cavaliere I. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Cavaliere I." qb="Cavaliere I." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="28" H="6"></score>
+   <drivesum plays="8" yards="39" top="3:48" driveindex="17" complete="Y"></drivesum>
+   <play hasball="BRC" down="1" togo="0" spot="BRC30" context="V,1,0,V30" playid="17,11,145" type="K"
+      text="Cavaliere I. kickoff 50 yards to the ANG12, Zito G. return 25 yards to the ANG37 (Tarroni F.)." newcontext="H,1,10,H37">
+    <p_ko vh="V" name="Cavaliere I." gain="50"></p_ko>
+    <p_kr vh="H" name="Zito G." gain="25"></p_kr>
+    <p_tk vh="V" name="Tarroni F."></p_tk>
+   </play>
+   <drivestart poss="H,H37,00:22" vh="H" spot="H37" clock="00:22" driveindex="18,145"></drivestart>
+   <play hasball="ANG" down="1" togo="10" spot="ANG37" context="H,1,10,H37" playid="18,1,146" clock="00:05"
+      text="ANGELS PESARO drive start at 00:05." newcontext="H,1,10,H37">
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="ANG37" context="H,1,10,H37" playid="18,2,147" type="P" first="P"
+      text="Fiordoro A. pass complete to Troisi L. for 38 yards to the BRC17, 1ST DOWN ANG, out-of-bounds." ob="Y" newcontext="H,1,10,V17">
+    <p_pa vh="H" qb="Fiordoro A." result="COMP" rcv="Troisi L." gain="38"></p_pa>
+   </play>
+   <play hasball="ANG" down="1" togo="10" spot="BRC17" context="H,1,10,V17" playid="18,3,148" type="P" first="P" score="Y" clock="00:00"
+      text="Fiordoro A. pass complete to Lee J. for 17 yards to the BRC0, 1ST DOWN ANG, TOUCHDOWN, clock 00:00." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Fiordoro A." result="COMP" rcv="Lee J." gain="17"></p_pa>
+   </play>
+   <play hasball="ANG" down="1" togo="0" spot="BRC03" context="H,1,0,V03" playid="18,4,149" type="X"
+      text="Zito G. kick attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Zito G." qb="Zito G." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="28" H="12"></score>
+   <play hasball="ANG" down="1" togo="0" spot="ANG30" context="H,1,0,H30" playid="18,5,150" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="H,1,0,H30">
+   </play>
+   <drivesum plays="2" yards="55" top="0:05" driveindex="18" complete="Y"></drivesum>
+   <score final="Y" V="28" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BRC">
+    <firstdowns no="5" rush="3" pass="2" penalty="0"></firstdowns>
+    <penalties no="2" yds="28"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:14"></misc>
+    <rush att="10" yds="19" gain="26" loss="7" td="0" long="0"></rush>
+    <pass comp="4" att="5" int="1" yds="64" td="1" long="7" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="64" td="1" long="7"></rcv>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="5" tacka="0" tot_tack="5" sacks="1" sackyds="0" brup="1"></defense>
+    <kr no="1" yds="43" td="0" long="19"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ANG">
+    <firstdowns no="6" rush="0" pass="4" penalty="2"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:46"></misc>
+    <rush att="2" yds="8" gain="8" loss="0" td="0" long="0"></rush>
+    <pass comp="5" att="8" int="0" yds="96" td="2" long="25" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="96" td="2" long="25"></rcv>
+    <ko no="1" yds="52" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="0"></pat>
+    <defense tackua="8" tacka="8" tot_tack="16" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0" int="1" intyds="0"></defense>
+    <kr no="1" yds="25" td="0" long="1"></kr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <scoring td="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="H" id="ANG" down="1" togo="0" spot="ANG30" context="H,1,0,H30" qtr="4" clock="00:00" vtoh="0" htoh="1"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="BRC">
+  <player name="Bezzi L." checkname="L.,BEZZI" uni="7" gp="0" code="7"></player>
+  <player name="Negretto D." checkname="D.,NEGRETTO" uni="12" gp="0" code="12"></player>
+  <player name="Ghirotti G." checkname="G.,GHIROTTI" uni="18" gp="0" code="18"></player>
+  <player name="Sabriu E." checkname="E.,SABRIU" uni="21" gp="0" code="21"></player>
+  <player name="Fugantini E." checkname="E.,FUGANTINI" uni="6" gp="0" code="6"></player>
+  <player name="Curci C." checkname="C.,CURCI" uni="23" gp="0" code="23"></player>
+  <player name="Tumino A." checkname="A.,TUMINO" uni="32" gp="0" code="32"></player>
+  <player name="D'amore M." checkname="M.,D'AMORE" uni="3" gp="0" code="3"></player>
+  <player name="Falcinelli M." checkname="M.,FALCINELLI" uni="54" gp="0" code="54"></player>
+  <player name="Rigon A." checkname="A.,RIGON" uni="62" gp="0" code="62"></player>
+  <player name="Liverani M." checkname="M.,LIVERANI" uni="66" gp="0" code="66"></player>
+  <player name="Nicolo' G." checkname="G.,NICOLO'" uni="69" gp="0" code="69"></player>
+  <player name="Bressan F." checkname="F.,BRESSAN" uni="76" gp="0" code="76"></player>
+  <player name="Ricci P." checkname="P.,RICCI" uni="77" gp="0" code="77"></player>
+  <player name="Toksu M." checkname="M.,TOKSU" uni="82" gp="0" code="82"></player>
+  <player name="Ricciardelli D." checkname="D.,RICCIARDELLI" uni="89" gp="0" code="89"></player>
+  <player name="Capitani K." checkname="K.,CAPITANI" uni="90" gp="0" code="90"></player>
+ </dnp>
+ <dnp vh="H" id="ANG">
+  <player name="Bianchini A." checkname="A.,BIANCHINI" uni="10" gp="0" code="10"></player>
+  <player name="Sow M." checkname="M.,SOW" uni="58" gp="0" code="58"></player>
+  <player name="Ascani M." checkname="M.,ASCANI" uni="60" gp="0" code="60"></player>
+  <player name="Gutierrez A." checkname="A.,GUTIERREZ" uni="65" gp="0" code="65"></player>
+  <player name="Dolci F." checkname="F.,DOLCI" uni="74" gp="0" code="74"></player>
+  <player name="Pongoli C." checkname="C.,PONGOLI" uni="77" gp="0" code="77"></player>
+  <player name="Morri M." checkname="M.,MORRI" uni="83" gp="0" code="83"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

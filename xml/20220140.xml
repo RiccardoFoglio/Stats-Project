@@ -1,0 +1,1009 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220140" visid="MUL" homeid="ISL" visname="Muli Trieste" homename="Venezia A.F.T."
+      date="4/24/2022" location="Favaro V.to (VE)" stadium="C.S. Comunale"
+      start="14:30" end="16:48" leaguegame="Y"
+      duration="2:18" attend="50" temp="15C" wind="Breeze" weather="Cloudy">
+  <officials ref="Colombo" ump="Mazzia" line="Antonelli" lj="Rustja" bj="Robledo" sc="Dal Zio L."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="80" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="MUL" name="Muli Trieste" record="1-2" conf-record="1-2" abb="M">
+  <linescore prds="4" line="12,0,0,6" score="18">
+   <lineprd prd="1" score="12"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals totoff_plays="42" totoff_yards="131" totoff_avg="3.1">
+   <firstdowns no="7" rush="3" pass="4" penalty="0"></firstdowns>
+   <penalties no="6" yds="60"></penalties>
+   <conversions thirdconv="3" thirdatt="10" fourthconv="1" fourthatt="3"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="25:23" ona="0" onm="0"></misc>
+   <redzone att="4" scores="3" points="18" tdrush="1" tdpass="2" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="23" yds="34" gain="55" loss="21" td="1" long="11"></rush>
+   <pass comp="12" att="19" int="0" yds="97" td="2" long="14" sacks="1" sackyds="3"></pass>
+   <rcv no="12" yds="97" td="2" long="14"></rcv>
+   <punt no="3" yds="58" long="28" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="19.3"></punt>
+   <ko no="4" yds="169" ob="0" tb="1"></ko>
+   <pat rushatt="1" rushmade="0" passatt="2" passmade="0"></pat>
+   <defense tackua="17" tacka="10" tot_tack="27" tflua="2" tfla="2" tflyds="9" sacks="0" sackyds="0" brup="2" fr="3" fryds="0"></defense>
+   <pr no="1" yds="19" td="0" long="19"></pr>
+   <scoring td="3"></scoring>
+  </totals>
+  <player name="Dosso J." shortname="Dosso J." checkname="J.,DOSSO" uni="6" gp="1" code="6">
+   <rush att="10" yds="23" gain="26" loss="3" td="1" long="11"></rush>
+   <pass comp="12" att="19" int="0" yds="97" td="2" long="14" sacks="1" sackyds="3"></pass>
+   <pat rushatt="1" rushmade="0" passatt="2" passmade="0"></pat>
+   <defense tackua="1" tacka="0" tot_tack="1" brup="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Zaccaria V." shortname="Zaccaria V." checkname="V.,ZACCARIA" uni="7" gp="1" code="7">
+   <defense tackua="1" tacka="1" tot_tack="2" tflua="1" tfla="0" tflyds="4"></defense>
+  </player>
+  <player name="Bonini L." shortname="Bonini L." checkname="L.,BONINI" uni="9" gp="1" code="9">
+   <defense tackua="0" tacka="2" tot_tack="2" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Sivec A." shortname="Sivec A." checkname="A.,SIVEC" uni="18" gp="1" code="18">
+   <rcv no="1" yds="11" td="0" long="11"></rcv>
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+  <player name="Kobal L." shortname="Kobal L." checkname="L.,KOBAL" uni="20" gp="1" code="20">
+   <rush att="1" yds="8" gain="8" loss="0" td="0" long="8"></rush>
+   <rcv no="7" yds="57" td="1" long="11"></rcv>
+   <punt no="3" yds="58" long="28" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="19.3"></punt>
+   <ko no="2" yds="99" ob="0" tb="1"></ko>
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+   <pr no="1" yds="19" td="0" long="19"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Gentile G." shortname="Gentile G." checkname="G.,GENTILE" uni="23" gp="1" code="23">
+   <defense tackua="0" tacka="3" tot_tack="3"></defense>
+  </player>
+  <player name="Savi L." shortname="Savi L." checkname="L.,SAVI" uni="24" gp="1" code="24">
+   <rush att="3" yds="4" gain="4" loss="0" td="0" long="4"></rush>
+   <defense tackua="1" tacka="3" tot_tack="4" tflua="0" tfla="1" tflyds="1" brup="1"></defense>
+  </player>
+  <player name="Agnello E." shortname="Agnello E." checkname="E.,AGNELLO" uni="40" gp="1" code="40">
+   <rush att="8" yds="-1" gain="17" loss="18" td="0" long="10"></rush>
+   <ko no="2" yds="70" ob="0" tb="0"></ko>
+  </player>
+  <player name="Hristov M." shortname="Hristov M." checkname="M.,HRISTOV" uni="50" gp="1" code="50">
+   <defense fr="1" fryds="0"></defense>
+  </player>
+  <player name="Palcich L." shortname="Palcich L." checkname="L.,PALCICH" uni="56" gp="1" code="56">
+   <defense tackua="4" tacka="0" tot_tack="4"></defense>
+  </player>
+  <player name="Stolfa G." shortname="Stolfa G." checkname="G.,STOLFA" uni="81" gp="1" code="81">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <rcv no="4" yds="29" td="1" long="14"></rcv>
+   <defense tackua="4" tacka="1" tot_tack="5" tflua="1" tfla="1" tflyds="4" fr="1" fryds="0"></defense>
+   <scoring td="1"></scoring>
+  </player>
+ </team>
+ <team vh="H" code="" id="ISL" name="Venezia A.F.T." record="0-3" conf-record="0-3" abb="V">
+  <linescore prds="4" line="0,6,0,0" score="6">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="6"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="44" totoff_yards="165" totoff_avg="3.8">
+   <firstdowns no="11" rush="7" pass="3" penalty="1"></firstdowns>
+   <penalties no="7" yds="45"></penalties>
+   <conversions thirdconv="2" thirdatt="9" fourthconv="2" fourthatt="5"></conversions>
+   <fumbles no="4" lost="3"></fumbles>
+   <misc yds="0" top="22:37" ona="0" onm="0"></misc>
+   <redzone att="2" scores="1" points="6" tdrush="1" tdpass="0" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="22" yds="51" gain="93" loss="42" td="1" long="11"></rush>
+   <pass comp="9" att="22" int="0" yds="114" td="0" long="29" sacks="0" sackyds="0"></pass>
+   <rcv no="9" yds="114" td="0" long="29"></rcv>
+   <punt no="1" yds="40" long="40" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="40.0"></punt>
+   <ko no="2" yds="100" ob="0" tb="2"></ko>
+   <pat passatt="1" passmade="0"></pat>
+   <defense tackua="21" tacka="18" tot_tack="39" tflua="3" tfla="2" tflyds="17" sacks="1" sackyds="3"></defense>
+   <kr no="3" yds="18" td="0" long="12"></kr>
+   <scoring td="1"></scoring>
+  </totals>
+  <player name="Cester M." shortname="Cester M." checkname="M.,CESTER" uni="5" gp="1" code="5">
+   <rush att="2" yds="5" gain="7" loss="2" td="0" long="7"></rush>
+   <rcv no="1" yds="12" td="0" long="12"></rcv>
+  </player>
+  <player name="Maidan D." shortname="Maidan D." checkname="D.,MAIDAN" uni="10" gp="1" code="10">
+   <rush att="9" yds="28" gain="49" loss="21" td="0" long="9"></rush>
+   <fumbles no="2" lost="2"></fumbles>
+  </player>
+  <player name="Seno M." shortname="Seno M." checkname="M.,SENO" uni="11" gp="1" code="11">
+   <defense tackua="4" tacka="4" tot_tack="8" tflua="1" tfla="0" tflyds="6"></defense>
+   <kr no="1" yds="3" td="0" long="3"></kr>
+  </player>
+  <player name="Favaro S." shortname="Favaro S." checkname="S.,FAVARO" uni="12" gp="1" code="12">
+   <rcv no="1" yds="28" td="0" long="28"></rcv>
+   <punt no="1" yds="40" long="40" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="40.0"></punt>
+   <ko no="2" yds="100" ob="0" tb="2"></ko>
+  </player>
+  <player name="Sportillo R." shortname="Sportillo R." checkname="R.,SPORTILLO" uni="13" gp="1" code="13">
+   <rush att="1" yds="6" gain="6" loss="0" td="0" long="6"></rush>
+   <rcv no="3" yds="47" td="0" long="29"></rcv>
+   <kr no="1" yds="12" td="0" long="12"></kr>
+  </player>
+  <player name="Annibale D." shortname="Annibale D." checkname="D.,ANNIBALE" uni="15" gp="1" code="15">
+   <rush att="10" yds="12" gain="31" loss="19" td="1" long="11"></rush>
+   <pass comp="9" att="22" int="0" yds="114" td="0" long="29" sacks="0" sackyds="0"></pass>
+   <pat passatt="1" passmade="0"></pat>
+   <fumbles no="2" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Lucchi S." shortname="Lucchi S." checkname="S.,LUCCHI" uni="18" gp="1" code="18">
+   <rcv no="2" yds="14" td="0" long="10"></rcv>
+   <kr no="1" yds="3" td="0" long="3"></kr>
+  </player>
+  <player name="Duse F." shortname="Duse F." checkname="F.,DUSE" uni="21" gp="1" code="21">
+   <rcv no="2" yds="13" td="0" long="8"></rcv>
+  </player>
+  <player name="Presotto A." shortname="Presotto A." checkname="A.,PRESOTTO" uni="29" gp="1" code="29">
+   <defense tackua="2" tacka="2" tot_tack="4"></defense>
+  </player>
+  <player name="Portesan R." shortname="Portesan R." checkname="R.,PORTESAN" uni="31" gp="1" code="31">
+   <defense tackua="3" tacka="1" tot_tack="4"></defense>
+  </player>
+  <player name="Veratelli M." shortname="Veratelli M." checkname="M.,VERATELLI" uni="35" gp="1" code="35">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Berzaghi S." shortname="Berzaghi S." checkname="S.,BERZAGHI" uni="44" gp="1" code="44">
+   <defense tackua="2" tacka="4" tot_tack="6" tflua="1" tfla="0" tflyds="4"></defense>
+  </player>
+  <player name="Mistretta M." shortname="Mistretta M." checkname="M.,MISTRETTA" uni="85" gp="1" code="85">
+   <defense tackua="2" tacka="1" tot_tack="3"></defense>
+  </player>
+  <player name="Marton I." shortname="Marton I." checkname="I.,MARTON" uni="87" gp="1" code="87">
+   <defense tackua="3" tacka="3" tot_tack="6" tflua="1" tfla="1" tflyds="6" sackua="0" sacka="1" sackyds="2"></defense>
+  </player>
+  <player name="Tiozzo Lia N." shortname="Tiozzo Lia N." checkname="LIA N.,TIOZZO" uni="89" gp="1" code="89">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Tescione G." shortname="Tescione G." checkname="G.,TESCIONE" uni="99" gp="1" code="99">
+   <defense tackua="0" tacka="2" tot_tack="2" tflua="0" tfla="1" tflyds="1" sackua="0" sacka="1" sackyds="1"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="4" tacka="0" tot_tack="4"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="MUL" qtr="1" clock="05:37" type="TD" how="PASS" yds="4" scorer="Kobal L." passer="Dosso J." patby="Dosso J." pattype="RUSH" patres="FAIL" plays="3" drive="23" top="1:59" vscore="6" hscore="0" driveindex="3"></score>
+  <score vh="V" team="MUL" qtr="1" clock="00:52" type="TD" how="RUSH" yds="2" scorer="Dosso J." patby="Dosso J." pattype="PASS" patres="FAIL" plays="7" drive="22" top="0:36" vscore="12" hscore="0" driveindex="7"></score>
+  <score vh="H" team="ISL" qtr="2" clock="01:49" type="TD" how="RUSH" yds="10" scorer="Annibale D." patby="Annibale D." pattype="PASS" patres="FAIL" plays="9" drive="57" top="5:04" vscore="12" hscore="6" driveindex="10"></score>
+  <score vh="V" team="MUL" qtr="4" clock="10:40" type="TD" how="PASS" yds="7" scorer="Stolfa G." passer="Dosso J." patby="Dosso J." pattype="PASS" patres="FAIL" plays="8" drive="42" top="5:10" vscore="18" hscore="6" driveindex="15"></score>
+ </scores>
+ <drives>
+  <drive vh="V" team="MUL" start="KO,1,12:00,20" end="PUNT,1,08:33,32" plays="5" yards="12" top="3:27" start_how="KO" start_qtr="1" start_time="12:00" start_spot="MUL20" end_how="PUNT" end_qtr="1" end_time="08:33" end_spot="MUL32" driveindex="1"></drive>
+  <drive vh="H" team="ISL" start="PUNT,1,08:33,32" end="FUMB,1,07:36,23" plays="2" yards="-9" top="0:57" start_how="PUNT" start_qtr="1" start_time="08:33" start_spot="ISL32" end_how="FUMB" end_qtr="1" end_time="07:36" end_spot="ISL23" driveindex="2"></drive>
+  <drive vh="V" team="MUL" start="FUMB,1,07:36,57" end="TD,1,05:37,80" plays="3" yards="23" top="1:59" start_how="FUMB" start_qtr="1" start_time="07:36" start_spot="ISL23" end_how="TD" end_qtr="1" end_time="05:37" end_spot="ISL00" rz="1" driveindex="3"></drive>
+  <drive vh="H" team="ISL" start="KO,1,05:30,23" end="FUMB,1,04:45,36" plays="2" yards="13" top="0:45" start_how="KO" start_qtr="1" start_time="05:30" start_spot="ISL23" end_how="FUMB" end_qtr="1" end_time="04:45" end_spot="ISL36" driveindex="4"></drive>
+  <drive vh="V" team="MUL" start="FUMB,1,04:45,44" end="DOWNS,1,01:33,42" plays="4" yards="-2" top="3:12" start_how="FUMB" start_qtr="1" start_time="04:45" start_spot="ISL36" end_how="DOWNS" end_qtr="1" end_time="01:33" end_spot="ISL38" driveindex="5"></drive>
+  <drive vh="H" team="ISL" start="DOWNS,1,01:33,38" end="FUMB,1,01:28,22" plays="1" yards="-16" top="0:05" start_how="DOWNS" start_qtr="1" start_time="01:33" start_spot="ISL38" end_how="FUMB" end_qtr="1" end_time="01:28" end_spot="ISL22" driveindex="6"></drive>
+  <drive vh="V" team="MUL" start="FUMB,1,01:28,58" end="TD,1,00:52,80" plays="7" yards="22" top="0:36" start_how="FUMB" start_qtr="1" start_time="01:28" start_spot="ISL22" end_how="TD" end_qtr="1" end_time="00:52" end_spot="ISL00" rz="1" driveindex="7"></drive>
+  <drive vh="H" team="ISL" start="KO,1,00:46,13" end="DOWNS,2,12:00,22" plays="4" yards="9" top="0:46" start_how="KO" start_qtr="1" start_time="00:46" start_spot="ISL13" end_how="DOWNS" end_qtr="2" end_time="12:00" end_spot="ISL22" driveindex="8"></drive>
+  <drive vh="V" team="MUL" start="DOWNS,2,12:00,58" end="DOWNS,2,06:53,57" plays="6" yards="-1" top="5:07" start_how="DOWNS" start_qtr="2" start_time="12:00" start_spot="ISL22" end_how="DOWNS" end_qtr="2" end_time="06:53" end_spot="ISL23" rz="1" driveindex="9"></drive>
+  <drive vh="H" team="ISL" start="DOWNS,2,06:53,23" end="TD,2,01:49,80" plays="9" yards="57" top="5:04" start_how="DOWNS" start_qtr="2" start_time="06:53" start_spot="ISL23" end_how="TD" end_qtr="2" end_time="01:49" end_spot="MUL00" rz="1" driveindex="10"></drive>
+  <drive vh="V" team="MUL" start="KO,2,01:42,20" end="HALF,3,12:00,29" plays="3" yards="9" top="1:42" start_how="KO" start_qtr="2" start_time="01:42" start_spot="MUL20" end_how="HALF" end_qtr="3" end_time="12:00" end_spot="MUL29" driveindex="11"></drive>
+  <drive vh="H" team="ISL" start="KO,3,11:54,20" end="PUNT,3,10:00,20" plays="3" yards="0" top="1:54" start_how="KO" start_qtr="3" start_time="11:54" start_spot="ISL20" end_how="PUNT" end_qtr="3" end_time="10:00" end_spot="ISL20" driveindex="12"></drive>
+  <drive vh="V" team="MUL" start="PUNT,3,10:00,39" end="PUNT,3,06:57,42" plays="3" yards="3" top="3:03" start_how="PUNT" start_qtr="3" start_time="10:00" start_spot="MUL39" end_how="PUNT" end_qtr="3" end_time="06:57" end_spot="ISL38" driveindex="13"></drive>
+  <drive vh="H" team="ISL" start="PUNT,3,06:57,24" end="DOWNS,3,03:50,42" plays="6" yards="18" top="3:07" start_how="PUNT" start_qtr="3" start_time="06:57" start_spot="ISL24" end_how="DOWNS" end_qtr="3" end_time="03:50" end_spot="MUL38" driveindex="14"></drive>
+  <drive vh="V" team="MUL" start="DOWNS,3,03:50,38" end="TD,4,10:40,80" plays="8" yards="42" top="5:10" start_how="DOWNS" start_qtr="3" start_time="03:50" start_spot="MUL38" end_how="TD" end_qtr="4" end_time="10:40" end_spot="ISL00" rz="1" driveindex="15"></drive>
+  <drive vh="H" team="ISL" start="KO,4,10:32,28" end="DOWNS,4,02:39,65" plays="12" yards="37" top="7:53" start_how="KO" start_qtr="4" start_time="10:32" start_spot="ISL28" end_how="DOWNS" end_qtr="4" end_time="02:39" end_spot="MUL15" rz="1" driveindex="16"></drive>
+  <drive vh="V" team="MUL" start="DOWNS,4,02:39,15" end="PUNT,4,01:39,18" plays="3" yards="3" top="1:00" start_how="DOWNS" start_qtr="4" start_time="02:39" start_spot="MUL15" end_how="PUNT" end_qtr="4" end_time="01:39" end_spot="MUL18" driveindex="17"></drive>
+  <drive vh="H" team="ISL" start="PUNT,4,01:39,34" end="HALF,4,00:00,75" plays="5" yards="41" top="1:39" start_how="PUNT" start_qtr="4" start_time="01:39" start_spot="ISL34" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="MUL05" driveindex="18"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="MUL" down="1" togo="10" spot="MUL30" context="V,1,10,V30" playid="0,1,0"
+      text="Venezia AFT win the coin toss; elect to kick" newcontext="V,1,10,V30">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL30" context="V,1,10,V30" playid="0,2,1"
+      text="ISL ball on ISL30." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL30" context="H,1,10,H30" playid="0,3,2" type="K"
+      text="Favaro S. kickoff 50 yards to the MUL0, touchback." newcontext="V,1,10,V20">
+    <p_ko vh="H" name="Favaro S." gain="50" result="T"></p_ko>
+   </play>
+   <drivestart poss="V,V20,12:00" vh="V" spot="V20" clock="12:00" driveindex="1,2"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL20" context="V,1,10,V20" playid="1,1,3" type="P"
+      text="Dosso J. pass complete to Kobal L. for 9 yards to the MUL29 (Veratelli M.)." newcontext="V,2,1,V29">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="9"></p_pa>
+    <p_tk vh="H" name="Veratelli M."></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="1" spot="MUL29" context="V,2,1,V29" playid="1,2,4" type="P" first="P"
+      text="Dosso J. pass complete to Kobal L. for 11 yards to the 40 yardline, 1ST DOWN MUL (Mistretta M.)." newcontext="V,1,10,V40">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="11"></p_pa>
+    <p_tk vh="H" name="Mistretta M."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL40" context="V,1,10,V40" playid="1,3,5" type="P"
+      text="Dosso J. pass incomplete to Kobal L.." newcontext="V,2,10,V40">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="MUL40" context="V,2,10,V40" playid="1,4,6" type="R"
+      text="Agnello E. rush for loss of 4 yards to the MUL36 (Berzaghi S.)." newcontext="V,3,14,V36">
+    <p_ru vh="V" name="Agnello E." gain="-4"></p_ru>
+    <p_tk vh="H" name="Berzaghi S." tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="14" spot="MUL36" context="V,3,14,V36" playid="1,5,7" type="R"
+      text="Agnello E. rush for loss of 4 yards to the MUL32 (Marton I.)." newcontext="V,4,18,V32">
+    <p_ru vh="V" name="Agnello E." gain="-4"></p_ru>
+    <p_tk vh="H" name="Marton I." tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="18" spot="MUL32" context="V,4,18,V32" playid="1,6,8" type="U"
+      text="Kobal L. punt 16 yards to the ISL32." newcontext="H,1,10,H32">
+    <p_pu vh="V" name="Kobal L." gain="16"></p_pu>
+   </play>
+   <drivesum plays="5" yards="12" top="3:27" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,H32,12:00" vh="H" spot="H32" clock="12:00" driveindex="2,8"></drivestart>
+   <play hasball="ISL" down="1" togo="10" spot="ISL32" context="H,1,10,H32" playid="2,1,9" clock="08:33"
+      text="VENEZIA A.F.T. drive start at 08:33." newcontext="H,1,10,H32">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL32" context="H,1,10,H32" playid="2,2,10" type="R"
+      text="Maidan D. rush for 5 yards to the ISL37 (Gentile G.;Bonini L.)." newcontext="H,2,5,H37">
+    <p_ru vh="H" name="Maidan D." gain="5"></p_ru>
+    <p_tk vh="V" name="Gentile G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Bonini L." assist="Y"></p_tk>
+   </play>
+   <play hasball="ISL" down="2" togo="5" spot="ISL37" context="H,2,5,H37" playid="2,3,11" type="R" turnover="F"
+      text="Maidan D. rush for loss of 14 yards to the ISL23, fumble by Maidan D. recovered by MUL Stolfa G. at ISL23." newcontext="V,1,10,H23">
+    <p_ru vh="H" name="Maidan D." gain="-14"></p_ru>
+    <p_fumb vh="H" name="Maidan D." at="H23" frvh="V" frname="Stolfa G."></p_fumb>
+   </play>
+   <drivesum plays="2" yards="-9" top="0:57" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,H23,08:33" vh="V" spot="H23" clock="08:33" driveindex="3,11"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="ISL23" context="V,1,10,H23" playid="3,1,12" clock="07:36"
+      text="MULI TRIESTE drive start at 07:36." newcontext="V,1,10,H23">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="ISL23" context="V,1,10,H23" playid="3,2,13" type="E"
+      text="Dosso J. pass incomplete to Stolfa G., PENALTY ISL offside defense 5 yards to the ISL18, NO PLAY." newcontext="V,1,5,H18">
+    <p_pn vh="H" code="OD" type="offside defense" result="ACCEPT" at="H23" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="1" togo="5" spot="ISL18" context="V,1,5,H18" playid="3,3,14" type="R" first="R"
+      text="Dosso J. rush for 11 yards to the ISL7, 1ST DOWN MUL (Berzaghi S.)." newcontext="V,1,0,H07">
+    <p_ru vh="V" name="Dosso J." gain="11"></p_ru>
+    <p_tk vh="H" name="Berzaghi S."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="0" spot="ISL07" context="V,1,0,H07" playid="3,4,15" type="R"
+      text="Dosso J. rush for 3 yards to the ISL4 (TEAM)." newcontext="V,2,0,H04">
+    <p_ru vh="V" name="Dosso J." gain="3"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="0" spot="ISL04" context="V,2,0,H04" playid="3,5,16" type="P" score="Y" clock="05:37"
+      text="Dosso J. pass complete to Kobal L. for 4 yards to the ISL0, TOUCHDOWN, clock 05:37." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="4"></p_pa>
+   </play>
+   <play hasball="MUL" down="1" togo="0" spot="ISL03" context="V,1,0,H03" playid="3,6,17" type="X"
+      text="Dosso J. rush attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Dosso J." qb="Dosso J." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="6" H="0"></score>
+   <drivesum plays="3" yards="23" top="1:59" driveindex="3" complete="Y"></drivesum>
+   <play hasball="MUL" down="1" togo="0" spot="MUL30" context="V,1,0,V30" playid="3,7,18" type="K"
+      text="Agnello E. kickoff 30 yards to the ISL20, Seno M. return 3 yards to the ISL23." newcontext="H,1,10,H23">
+    <p_ko vh="V" name="Agnello E." gain="30"></p_ko>
+    <p_kr vh="H" name="Seno M." gain="3"></p_kr>
+   </play>
+   <drivestart poss="H,H23,05:37" vh="H" spot="H23" clock="05:37" driveindex="4,18"></drivestart>
+   <play hasball="ISL" down="1" togo="10" spot="ISL23" context="H,1,10,H23" playid="4,1,19" clock="05:30"
+      text="VENEZIA A.F.T. drive start at 05:30." newcontext="H,1,10,H23">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL23" context="H,1,10,H23" playid="4,2,20" type="R" first="R"
+      text="Annibale D. rush for loss of 1 yard to the ISL22, Maidan D. for 14 yards to the ISL36, 1ST DOWN ISL, out-of-bounds (Kobal L.)." ob="Y" newcontext="H,1,10,H36">
+    <p_ru vh="H" name="Annibale D." gain="-1"></p_ru>
+    <p_cont vh="H" name="Maidan D." context="RUSH" at="H22" gain="14"></p_cont>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL36" context="H,1,10,H36" playid="4,3,21" type="R" turnover="F"
+      text="Maidan D. rush for no gain to the ISL36, fumble by Maidan D. recovered by MUL Bonini L. at ISL36." newcontext="V,1,10,H36">
+    <p_ru vh="H" name="Maidan D." gain="0"></p_ru>
+    <p_fumb vh="H" name="Maidan D." at="H36" frvh="V" frname="Bonini L."></p_fumb>
+   </play>
+   <drivesum plays="2" yards="13" top="0:45" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,H36,05:30" vh="V" spot="H36" clock="05:30" driveindex="5,21"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="ISL36" context="V,1,10,H36" playid="5,1,22" clock="04:45"
+      text="MULI TRIESTE drive start at 04:45." newcontext="V,1,10,H36">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="ISL36" context="V,1,10,H36" playid="5,2,23" type="P"
+      text="Dosso J. pass incomplete to Sivec A.." newcontext="V,2,10,H36">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Sivec A."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="ISL36" context="V,2,10,H36" playid="5,3,24" type="P"
+      text="Dosso J. pass incomplete to Savi L.." newcontext="V,3,10,H36">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Savi L."></p_pa>
+   </play>
+   <play hasball="MUL" down="3" togo="10" spot="ISL36" context="V,3,10,H36" playid="5,4,25" type="P"
+      text="Dosso J. pass complete to Kobal L. for 9 yards to the ISL27 (Marton I.;Berzaghi S.)." newcontext="V,4,1,H27">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="9"></p_pa>
+    <p_tk vh="H" name="Marton I." assist="Y"></p_tk>
+    <p_tk vh="H" name="Berzaghi S." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="1" spot="ISL27" context="V,4,1,H27" playid="5,5,26" type="E"
+      text="PENALTY MUL false start (Agnello E.) 5 yards to the ISL32." newcontext="V,4,6,H32">
+    <p_pn vh="V" code="FS" type="false start" name="Agnello E." result="ACCEPT" at="H27" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="4" togo="6" spot="ISL32" context="V,4,6,H32" playid="5,6,27" type="R"
+      text="Agnello E. rush for loss of 6 yards to the ISL38 (Seno M.)." newcontext="H,1,10,H38">
+    <p_ru vh="V" name="Agnello E." gain="-6"></p_ru>
+    <p_tk vh="H" name="Seno M." tfl="Y"></p_tk>
+   </play>
+   <drivesum plays="4" yards="-2" top="3:12" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H38,04:45" vh="H" spot="H38" clock="04:45" driveindex="6,27"></drivestart>
+   <play hasball="ISL" down="1" togo="10" spot="ISL38" context="H,1,10,H38" playid="6,1,28" clock="01:33"
+      text="VENEZIA A.F.T. drive start at 01:33." newcontext="H,1,10,H38">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL38" context="H,1,10,H38" playid="6,2,29" type="R" turnover="F"
+      text="Annibale D. rush for no gain to the ISL38, fumble by Annibale D. recovered by MUL Hristov M. at ISL22." newcontext="V,1,10,H22">
+    <p_ru vh="H" name="Annibale D." gain="0"></p_ru>
+    <p_fumb vh="H" name="Annibale D." at="H22" frvh="V" frname="Hristov M."></p_fumb>
+   </play>
+   <drivesum plays="1" yards="-16" top="0:05" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,H22,01:33" vh="V" spot="H22" clock="01:33" driveindex="7,29"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="ISL22" context="V,1,10,H22" playid="7,1,30" clock="01:28"
+      text="MULI TRIESTE drive start at 01:28." newcontext="V,1,10,H22">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="ISL22" context="V,1,10,H22" playid="7,2,31" type="P"
+      text="Dosso J. pass incomplete to Savi L.." newcontext="V,2,10,H22">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Savi L."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="ISL22" context="V,2,10,H22" playid="7,3,32" type="P"
+      text="Dosso J. pass incomplete to Kobal L.." newcontext="V,3,10,H22">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="3" togo="10" spot="ISL22" context="V,3,10,H22" playid="7,4,33" type="P"
+      text="Dosso J. pass incomplete to Kobal L.." newcontext="V,4,10,H22">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="4" togo="10" spot="ISL22" context="V,4,10,H22" playid="7,5,34" type="P" first="P"
+      text="Dosso J. pass complete to Kobal L. for 11 yards to the ISL11, 1ST DOWN MUL (Portesan R.)." newcontext="V,1,10,H11">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="11"></p_pa>
+    <p_tk vh="H" name="Portesan R."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="ISL11" context="V,1,10,H11" playid="7,6,35" type="P"
+      text="Dosso J. pass complete to Kobal L. for 8 yards to the ISL3 (Portesan R.)." newcontext="V,2,2,H03">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="8"></p_pa>
+    <p_tk vh="H" name="Portesan R."></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="2" spot="ISL03" context="V,2,2,H03" playid="7,7,36" type="R"
+      text="Dosso J. rush for 1 yard to the ISL2 (TEAM)." newcontext="V,3,1,H02">
+    <p_ru vh="V" name="Dosso J." gain="1"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="1" spot="ISL02" context="V,3,1,H02" playid="7,8,37" type="#" clock="01:02"
+      text="Timeout Muli Trieste, clock 01:02." newcontext="V,3,1,H02">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="MUL" down="3" togo="1" spot="ISL02" context="V,3,1,H02" playid="7,9,38" type="R" first="R" score="Y" clock="00:52"
+      text="Dosso J. rush for 2 yards to the ISL0, 1ST DOWN MUL, TOUCHDOWN, clock 00:52." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Dosso J." gain="2"></p_ru>
+   </play>
+   <play hasball="MUL" down="1" togo="0" spot="ISL03" context="V,1,0,H03" playid="7,10,39" type="X"
+      text="Dosso J. pass attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Dosso J." qb="Dosso J." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="12" H="0"></score>
+   <drivesum plays="7" yards="22" top="0:36" driveindex="7" complete="Y"></drivesum>
+   <play hasball="MUL" down="1" togo="0" spot="MUL30" context="V,1,0,V30" playid="7,11,40" type="K"
+      text="Agnello E. kickoff 40 yards to the ISL10, Lucchi S. return 3 yards to the ISL13 (Sivec A.)." newcontext="H,1,10,H13">
+    <p_ko vh="V" name="Agnello E." gain="40"></p_ko>
+    <p_kr vh="H" name="Lucchi S." gain="3"></p_kr>
+    <p_tk vh="V" name="Sivec A."></p_tk>
+   </play>
+   <drivestart poss="H,H13,00:52" vh="H" spot="H13" clock="00:52" driveindex="8,40"></drivestart>
+   <play hasball="ISL" down="1" togo="10" spot="ISL13" context="H,1,10,H13" playid="8,1,41" clock="00:46"
+      text="VENEZIA A.F.T. drive start at 00:46." newcontext="H,1,10,H13">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL13" context="H,1,10,H13" playid="8,2,42" type="R"
+      text="Sportillo R. rush for 6 yards to the ISL19, out-of-bounds." ob="Y" newcontext="H,2,4,H19">
+    <p_ru vh="H" name="Sportillo R." gain="6"></p_ru>
+   </play>
+   <play hasball="ISL" down="2" togo="4" spot="ISL19" context="H,2,4,H19" playid="8,3,43" type="P"
+      text="Annibale D. pass incomplete (Savi L.)." newcontext="H,3,4,H19">
+    <p_pa vh="H" qb="Annibale D." result="BRUP"></p_pa>
+    <p_bu vh="V" name="Savi L."></p_bu>
+   </play>
+   <play hasball="ISL" down="3" togo="4" spot="ISL19" context="H,3,4,H19" playid="8,4,44" type="P"
+      text="Annibale D. pass incomplete to Duse F.." newcontext="H,4,4,H19">
+    <p_pa vh="H" qb="Annibale D." result="INC" rcv="Duse F."></p_pa>
+   </play>
+   <play hasball="ISL" down="4" togo="4" spot="ISL19" context="H,4,4,H19" playid="8,5,45" type="R"
+      text="Maidan D. rush for 3 yards to the ISL22, out-of-bounds." ob="Y" newcontext="V,1,10,H22">
+    <p_ru vh="H" name="Maidan D." gain="3"></p_ru>
+   </play>
+   <drivesum plays="4" yards="9" top="0:46" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,H22,00:46" vh="V" spot="H22" clock="00:46" driveindex="9,45"></drivestart>
+   <score qtr="1" V="12" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="4" rush="2" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:14"></misc>
+    <rush att="7" yds="3" gain="17" loss="14" td="1" long="11"></rush>
+    <pass comp="6" att="12" int="0" yds="52" td="1" long="11" sacks="0" sackyds="0"></pass>
+    <rcv no="6" yds="52" td="1" long="11"></rcv>
+    <punt no="1" yds="16" long="16" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="16.0"></punt>
+    <ko no="2" yds="70" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="0" passatt="1" passmade="0"></pat>
+    <defense tackua="2" tacka="2" tot_tack="4" sacks="0" sackyds="0" brup="1" fr="3" fryds="0"></defense>
+    <scoring td="2"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ISL">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="3" lost="3"></fumbles>
+    <misc yds="0" top="02:46"></misc>
+    <rush att="7" yds="-3" gain="28" loss="31" td="0" long="6"></rush>
+    <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <ko no="1" yds="50" ob="0" tb="1"></ko>
+    <defense tackua="10" tacka="2" tot_tack="12" tflua="3" tfla="0" tflyds="14" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="6" td="0" long="3"></kr>
+    <fumbles no="3" lost="3"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="MUL" down="1" togo="10" spot="ISL22" context="V,1,10,H22" playid="9,1,46" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="V,1,10,H22">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="ISL22" context="V,1,10,H22" playid="9,2,47" type="R"
+      text="Dosso J. rush for 1 yard to the ISL21 (Marton I.)." newcontext="V,2,9,H21">
+    <p_ru vh="V" name="Dosso J." gain="1"></p_ru>
+    <p_tk vh="H" name="Marton I."></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="9" spot="ISL21" context="V,2,9,H21" playid="9,3,48" type="E"
+      text="Dosso J. pass intercepted by Tiozzo Lia N. at the ISL5, Tiozzo Lia N. return to the ISL5, PENALTY ISL offside defense (Mistretta M.) 5 yards to the ISL16, NO PLAY." newcontext="V,2,4,H16">
+    <p_pn vh="H" code="OD" type="offside defense" name="Mistretta M." result="ACCEPT" at="H21" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="2" togo="4" spot="ISL16" context="V,2,4,H16" playid="9,4,49" type="R" first="R"
+      text="Agnello E. rush for 4 yards to the ISL12, 1ST DOWN MUL (Seno M.)." newcontext="V,1,10,H12">
+    <p_ru vh="V" name="Agnello E." gain="4"></p_ru>
+    <p_tk vh="H" name="Seno M."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="ISL12" context="V,1,10,H12" playid="9,5,50" type="R"
+      text="Agnello E. rush for no gain to the ISL12 (Seno M.;Portesan R.)." newcontext="V,2,10,H12">
+    <p_ru vh="V" name="Agnello E." gain="0"></p_ru>
+    <p_tk vh="H" name="Seno M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Portesan R." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="ISL12" context="V,2,10,H12" playid="9,6,51" type="#" clock="09:46"
+      text="Timeout Muli Trieste, clock 09:46." newcontext="V,2,10,H12">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="ISL12" context="V,2,10,H12" playid="9,7,52" type="E"
+      text="Dosso J. rush for 1 yard to the ISL11 (Seno M.;Tiozzo Lia N.), PENALTY MUL personal foul (Stolfa G.) 15 yards to the ISL27, NO PLAY." newcontext="V,2,25,H27">
+    <p_pn vh="V" code="PF" type="personal foul" name="Stolfa G." result="ACCEPT" at="H12" yards="15"></p_pn>
+   </play>
+   <play hasball="MUL" down="2" togo="25" spot="ISL27" context="V,2,25,H27" playid="9,8,53" type="R"
+      text="Agnello E. rush for 10 yards to the ISL17." newcontext="V,3,15,H17">
+    <p_ru vh="V" name="Agnello E." gain="10"></p_ru>
+   </play>
+   <play hasball="MUL" down="3" togo="15" spot="ISL17" context="V,3,15,H17" playid="9,9,54" type="R"
+      text="Agnello E. rush for 3 yards to the ISL14 (Seno M.)." newcontext="V,4,12,H14">
+    <p_ru vh="V" name="Agnello E." gain="3"></p_ru>
+    <p_tk vh="H" name="Seno M."></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="12" spot="ISL14" context="V,4,12,H14" playid="9,10,55" type="E"
+      text="PENALTY MUL false start (Stolfa G.) 5 yards to the ISL19." newcontext="V,4,17,H19">
+    <p_pn vh="V" code="FS" type="false start" name="Stolfa G." result="ACCEPT" at="H14" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="4" togo="17" spot="ISL19" context="V,4,17,H19" playid="9,11,56" type="R"
+      text="Agnello E. rush for loss of 4 yards to the ISL23." newcontext="H,1,10,H23">
+    <p_ru vh="V" name="Agnello E." gain="-4"></p_ru>
+   </play>
+   <drivesum plays="6" yards="-1" top="5:07" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,H23,09:46" vh="H" spot="H23" clock="09:46" driveindex="10,56"></drivestart>
+   <play hasball="ISL" down="1" togo="10" spot="ISL23" context="H,1,10,H23" playid="10,1,57" clock="06:53"
+      text="VENEZIA A.F.T. drive start at 06:53." newcontext="H,1,10,H23">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL23" context="H,1,10,H23" playid="10,2,58" type="P"
+      text="Annibale D. pass complete to Duse F. for 8 yards to the ISL31, out-of-bounds (Dosso J.)." ob="Y" newcontext="H,2,2,H31">
+    <p_pa vh="H" qb="Annibale D." result="COMP" rcv="Duse F." gain="8"></p_pa>
+    <p_tk vh="V" name="Dosso J."></p_tk>
+   </play>
+   <play hasball="ISL" down="2" togo="2" spot="ISL31" context="H,2,2,H31" playid="10,3,59" type="E"
+      text="Annibale D. pass incomplete to Lucchi S., PENALTY ISL holding (Gazzetta L.) 10 yards to the ISL21, NO PLAY." newcontext="H,2,12,H21">
+    <p_pn vh="H" code="HO" type="holding" name="Gazzetta L." result="ACCEPT" at="H31" yards="10"></p_pn>
+   </play>
+   <play hasball="ISL" down="2" togo="12" spot="ISL21" context="H,2,12,H21" playid="10,4,60" type="P"
+      text="Annibale D. pass incomplete to Favaro S.." newcontext="H,3,12,H21">
+    <p_pa vh="H" qb="Annibale D." result="INC" rcv="Favaro S."></p_pa>
+   </play>
+   <play hasball="ISL" down="3" togo="12" spot="ISL21" context="H,3,12,H21" playid="10,5,61" type="P" first="P"
+      text="Annibale D. pass complete to Sportillo R. for 29 yards to the MUL30, 1ST DOWN ISL." newcontext="H,1,10,V30">
+    <p_pa vh="H" qb="Annibale D." result="COMP" rcv="Sportillo R." gain="29"></p_pa>
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="MUL30" context="H,1,10,V30" playid="10,6,62" type="R"
+      text="Annibale D. rush for 5 yards to the MUL25 (Stolfa G.)." newcontext="H,2,5,V25">
+    <p_ru vh="H" name="Annibale D." gain="5"></p_ru>
+    <p_tk vh="V" name="Stolfa G."></p_tk>
+   </play>
+   <play hasball="ISL" down="2" togo="5" spot="MUL25" context="H,2,5,V25" playid="10,7,63" type="R" first="R"
+      text="Cester M. rush for 7 yards to the MUL18, 1ST DOWN ISL (Sivec A.)." newcontext="H,1,10,V18">
+    <p_ru vh="H" name="Cester M." gain="7"></p_ru>
+    <p_tk vh="V" name="Sivec A."></p_tk>
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="MUL18" context="H,1,10,V18" playid="10,8,64" type="R"
+      text="Cester M. rush for loss of 2 yards to the MUL20 (Stolfa G.)." newcontext="H,2,12,V20">
+    <p_ru vh="H" name="Cester M." gain="-2"></p_ru>
+    <p_tk vh="V" name="Stolfa G." tfl="Y"></p_tk>
+   </play>
+   <play hasball="ISL" down="2" togo="12" spot="MUL20" context="H,2,12,V20" playid="10,9,65" type="P"
+      text="Annibale D. pass incomplete to Duse F.." newcontext="H,3,12,V20">
+    <p_pa vh="H" qb="Annibale D." result="INC" rcv="Duse F."></p_pa>
+   </play>
+   <play hasball="ISL" down="3" togo="12" spot="MUL20" context="H,3,12,V20" playid="10,10,66" type="P"
+      text="Annibale D. pass complete to Sportillo R. for 10 yards to the MUL10 (Kobal L.)." newcontext="H,4,2,V10">
+    <p_pa vh="H" qb="Annibale D." result="COMP" rcv="Sportillo R." gain="10"></p_pa>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <play hasball="ISL" down="4" togo="2" spot="MUL10" context="H,4,2,V10" playid="10,11,67" type="#" clock="02:00"
+      text="Timeout Venezia A.F.T., clock 02:00." newcontext="H,4,2,V10">
+    <p_to vh="H" team="Venezia A.F.T."></p_to>
+   </play>
+   <play hasball="ISL" down="4" togo="2" spot="MUL10" context="H,4,2,V10" playid="10,12,68" type="R" first="R" score="Y" clock="01:49"
+      text="Annibale D. rush for 10 yards to the MUL0, 1ST DOWN ISL, TOUCHDOWN, clock 01:49." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Annibale D." gain="10"></p_ru>
+   </play>
+   <play hasball="ISL" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="10,13,69" type="E"
+      text="PENALTY ISL delay of game 5 yards to the MUL8." newcontext="H,1,0,V08">
+    <p_pn vh="H" code="DG" type="delay of game" result="ACCEPT" at="V03" yards="5"></p_pn>
+   </play>
+   <play hasball="ISL" down="1" togo="0" spot="MUL08" context="H,1,0,V08" playid="10,14,70" type="X"
+      text="Annibale D. pass attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Annibale D." qb="Annibale D." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="12" H="6"></score>
+   <drivesum plays="9" yards="57" top="5:04" driveindex="10" complete="Y"></drivesum>
+   <play hasball="ISL" down="1" togo="0" spot="ISL30" context="H,1,0,H30" playid="10,15,71" type="K"
+      text="Favaro S. kickoff 50 yards to the MUL0, touchback." newcontext="V,1,10,V20">
+    <p_ko vh="H" name="Favaro S." gain="50" result="T"></p_ko>
+   </play>
+   <drivestart poss="V,V20,01:49" vh="V" spot="V20" clock="01:49" driveindex="11,71"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL20" context="V,1,10,V20" playid="11,1,72" clock="01:42"
+      text="MULI TRIESTE drive start at 01:42." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL20" context="V,1,10,V20" playid="11,2,73" type="R"
+      text="Dosso J. rush for 3 yards to the MUL23 (TEAM)." newcontext="V,2,7,V23">
+    <p_ru vh="V" name="Dosso J." gain="3"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="7" spot="MUL23" context="V,2,7,V23" playid="11,3,74" type="R"
+      text="Dosso J. rush for 2 yards to the MUL25 (Seno M.;Tiozzo Lia N.)." newcontext="V,3,5,V25">
+    <p_ru vh="V" name="Dosso J." gain="2"></p_ru>
+    <p_tk vh="H" name="Seno M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Tiozzo Lia N." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="5" spot="MUL25" context="V,3,5,V25" playid="11,4,75" type="R"
+      text="Savi L. rush for 4 yards to the MUL29 (Marton I.)." newcontext="V,4,1,V29">
+    <p_ru vh="V" name="Savi L." gain="4"></p_ru>
+    <p_tk vh="H" name="Marton I."></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="1" spot="MUL29" context="V,4,1,V29" playid="11,5,76" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="V,4,1,V29">
+   </play>
+   <drivesum plays="3" yards="9" top="1:42" driveindex="11" complete="Y"></drivesum>
+   <score qtr="2" V="12" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:56"></misc>
+    <rush att="9" yds="23" gain="27" loss="4" td="0" long="0"></rush>
+    <defense tackua="5" tacka="0" tot_tack="5" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ISL">
+    <firstdowns no="3" rush="2" pass="1" penalty="0"></firstdowns>
+    <penalties no="3" yds="20"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:04"></misc>
+    <rush att="4" yds="20" gain="22" loss="2" td="1" long="4"></rush>
+    <pass comp="3" att="5" int="0" yds="47" td="0" long="29" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="47" td="0" long="29"></rcv>
+    <ko no="1" yds="50" ob="0" tb="1"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="5" tacka="4" tot_tack="9" sacks="0" sackyds="0"></defense>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="MUL" down="4" togo="1" spot="MUL29" context="V,4,1,V29" playid="11,6,77" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, MUL ball on MUL30." newcontext="V,4,1,V30">
+   </play>
+   <play hasball="MUL" down="4" togo="1" spot="MUL30" context="V,4,1,V30" playid="11,7,78" type="K"
+      text="Kobal L. kickoff 50 yards to the ISL0, touchback." newcontext="H,1,10,H20">
+    <p_ko vh="V" name="Kobal L." gain="50" result="T"></p_ko>
+   </play>
+   <drivestart poss="H,H20,12:00" vh="H" spot="H20" clock="12:00" driveindex="12,78"></drivestart>
+   <play hasball="ISL" down="1" togo="10" spot="ISL20" context="H,1,10,H20" playid="12,1,79" clock="11:54"
+      text="VENEZIA A.F.T. drive start at 11:54." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL20" context="H,1,10,H20" playid="12,2,80" type="E"
+      text="Maidan D. rush for 1 yard to the ISL21, PENALTY ISL false start (Gazzetta L.) 5 yards to the ISL15, NO PLAY." newcontext="H,1,15,H15">
+    <p_pn vh="H" code="FS" type="false start" name="Gazzetta L." result="ACCEPT" at="H20" yards="5"></p_pn>
+   </play>
+   <play hasball="ISL" down="1" togo="15" spot="ISL15" context="H,1,15,H15" playid="12,3,81" type="P"
+      text="Annibale D. pass incomplete to Duse F.." newcontext="H,2,15,H15">
+    <p_pa vh="H" qb="Annibale D." result="INC" rcv="Duse F."></p_pa>
+   </play>
+   <play hasball="ISL" down="2" togo="15" spot="ISL15" context="H,2,15,H15" playid="12,4,82" type="P"
+      text="Annibale D. pass complete to Lucchi S. for 4 yards to the ISL19 (Palcich L.)." newcontext="H,3,11,H19">
+    <p_pa vh="H" qb="Annibale D." result="COMP" rcv="Lucchi S." gain="4"></p_pa>
+    <p_tk vh="V" name="Palcich L."></p_tk>
+   </play>
+   <play hasball="ISL" down="3" togo="11" spot="ISL19" context="H,3,11,H19" playid="12,5,83" type="R"
+      text="Annibale D. rush for 1 yard to the ISL20 (Gentile G.;Savi L.)." newcontext="H,4,10,H20">
+    <p_ru vh="H" name="Annibale D." gain="1"></p_ru>
+    <p_tk vh="V" name="Gentile G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Savi L." assist="Y"></p_tk>
+   </play>
+   <play hasball="ISL" down="4" togo="10" spot="ISL20" context="H,4,10,H20" playid="12,6,84" type="U"
+      text="Favaro S. punt 40 yards to the MUL20, Kobal L. return 19 yards to the MUL39, out-of-bounds." ob="Y" newcontext="V,1,10,V39">
+    <p_pu vh="H" name="Favaro S." gain="40"></p_pu>
+    <p_pr vh="V" name="Kobal L." gain="19"></p_pr>
+   </play>
+   <drivesum plays="3" yards="0" top="1:54" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V39,11:54" vh="V" spot="V39" clock="11:54" driveindex="13,84"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL39" context="V,1,10,V39" playid="13,1,85" clock="10:00"
+      text="MULI TRIESTE drive start at 10:00." newcontext="V,1,10,V39">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL39" context="V,1,10,V39" playid="13,2,86" type="R"
+      text="Savi L. rush for no gain to the MUL39 (Tescione G.;Berzaghi S.)." newcontext="V,2,10,V39">
+    <p_ru vh="V" name="Savi L." gain="0"></p_ru>
+    <p_tk vh="H" name="Tescione G." assist="Y"></p_tk>
+    <p_tk vh="H" name="Berzaghi S." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="MUL39" context="V,2,10,V39" playid="13,3,87" type="E"
+      text="PENALTY MUL false start (Savi L.) 5 yards to the MUL34." newcontext="V,2,15,V34">
+    <p_pn vh="V" code="FS" type="false start" name="Savi L." result="ACCEPT" at="V39" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="2" togo="15" spot="MUL34" context="V,2,15,V34" playid="13,4,88" type="R"
+      text="Savi L. rush for no gain to the MUL34 (Presotto A.)." newcontext="V,3,15,V34">
+    <p_ru vh="V" name="Savi L." gain="0"></p_ru>
+    <p_tk vh="H" name="Presotto A."></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="15" spot="MUL34" context="V,3,15,V34" playid="13,5,89" type="R"
+      text="Kobal L. rush for 8 yards to the ISL38 (Seno M.;Berzaghi S.)." newcontext="V,4,7,H38">
+    <p_ru vh="V" name="Kobal L." gain="8"></p_ru>
+    <p_tk vh="H" name="Seno M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Berzaghi S." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="7" spot="ISL38" context="V,4,7,H38" playid="13,6,90" type="U"
+      text="Kobal L. punt 14 yards to the ISL24." newcontext="H,1,10,H24">
+    <p_pu vh="V" name="Kobal L." gain="14"></p_pu>
+   </play>
+   <drivesum plays="3" yards="3" top="3:03" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H24,10:00" vh="H" spot="H24" clock="10:00" driveindex="14,90"></drivestart>
+   <play hasball="ISL" down="1" togo="10" spot="ISL24" context="H,1,10,H24" playid="14,1,91" clock="06:57"
+      text="VENEZIA A.F.T. drive start at 06:57." newcontext="H,1,10,H24">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL24" context="H,1,10,H24" playid="14,2,92" type="R"
+      text="Maidan D. rush for 9 yards to the ISL33 (Palcich L.)." newcontext="H,2,1,H33">
+    <p_ru vh="H" name="Maidan D." gain="9"></p_ru>
+    <p_tk vh="V" name="Palcich L."></p_tk>
+   </play>
+   <play hasball="ISL" down="2" togo="1" spot="ISL33" context="H,2,1,H33" playid="14,3,93" type="R" first="R"
+      text="Maidan D. rush for 4 yards to the ISL37, 1ST DOWN ISL, out-of-bounds." ob="Y" newcontext="H,1,10,H37">
+    <p_ru vh="H" name="Maidan D." gain="4"></p_ru>
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL37" context="H,1,10,H37" playid="14,4,94" type="P"
+      text="Annibale D. pass incomplete to Maidan D.." newcontext="H,2,10,H37">
+    <p_pa vh="H" qb="Annibale D." result="INC" rcv="Maidan D."></p_pa>
+   </play>
+   <play hasball="ISL" down="2" togo="10" spot="ISL37" context="H,2,10,H37" playid="14,5,95" type="E"
+      text="Annibale D. pass complete to Duse F. for 13 yards to the MUL30 (Kobal L.), PENALTY ISL ineligible downfield on pass (Mennone P.) 5 yards to the ISL32, NO PLAY." newcontext="H,2,15,H32">
+    <p_pn vh="H" code="ID" type="ineligible downfield on pass" name="Mennone P." result="ACCEPT" at="H37" yards="5"></p_pn>
+   </play>
+   <play hasball="ISL" down="2" togo="15" spot="ISL32" context="H,2,15,H32" playid="14,6,96" type="P"
+      text="Annibale D. pass complete to Lucchi S. for 10 yards to the MUL38 (Stolfa G.)." newcontext="H,3,5,V38">
+    <p_pa vh="H" qb="Annibale D." result="COMP" rcv="Lucchi S." gain="10"></p_pa>
+    <p_tk vh="V" name="Stolfa G."></p_tk>
+   </play>
+   <play hasball="ISL" down="3" togo="5" spot="MUL38" context="H,3,5,V38" playid="14,7,97" type="P"
+      text="Annibale D. pass incomplete to Duse F.." newcontext="H,4,5,V38">
+    <p_pa vh="H" qb="Annibale D." result="INC" rcv="Duse F."></p_pa>
+   </play>
+   <play hasball="ISL" down="4" togo="5" spot="MUL38" context="H,4,5,V38" playid="14,8,98" type="P"
+      text="Annibale D. pass incomplete to Duse F.." newcontext="V,1,10,V38">
+    <p_pa vh="H" qb="Annibale D." result="INC" rcv="Duse F."></p_pa>
+   </play>
+   <drivesum plays="6" yards="18" top="3:07" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,V38,06:57" vh="V" spot="V38" clock="06:57" driveindex="15,98"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL38" context="V,1,10,V38" playid="15,1,99" clock="03:50"
+      text="MULI TRIESTE drive start at 03:50." newcontext="V,1,10,V38">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL38" context="V,1,10,V38" playid="15,2,100" type="P"
+      text="Dosso J. sacked for loss of 3 yards to the MUL35 (Marton I.;Tescione G.)." newcontext="V,2,13,V35">
+    <p_pa vh="V" qb="Dosso J." result="SACK" gain="-3"></p_pa>
+    <p_tk vh="H" name="Marton I." sack="Y" tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="H" name="Tescione G." sack="Y" tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="13" spot="MUL35" context="V,2,13,V35" playid="15,3,101" type="P"
+      text="Dosso J. pass complete to Kobal L. for 5 yards to the 40 yardline (Mistretta M.)." newcontext="V,3,8,V40">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="5"></p_pa>
+    <p_tk vh="H" name="Mistretta M."></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="8" spot="MUL40" context="V,3,8,V40" playid="15,4,102" type="P" first="P"
+      text="Dosso J. pass complete to Sivec A. for 11 yards to the ISL29, 1ST DOWN MUL (Portesan R.)." newcontext="V,1,10,H29">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Sivec A." gain="11"></p_pa>
+    <p_tk vh="H" name="Portesan R."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="ISL29" context="V,1,10,H29" playid="15,5,103" type="P"
+      text="Dosso J. pass incomplete to Sivec A.." newcontext="V,2,10,H29">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Sivec A."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="ISL29" context="V,2,10,H29" playid="15,6,104" type="P"
+      text="Dosso J. pass complete to Stolfa G. for 5 yards to the ISL24 (Presotto A.)." newcontext="V,3,5,H24">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Stolfa G." gain="5"></p_pa>
+    <p_tk vh="H" name="Presotto A."></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="5" spot="ISL24" context="V,3,5,H24" playid="15,7,105" type="#" clock="00:02"
+      text="Timeout Muli Trieste, clock 00:02." newcontext="V,3,5,H24">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="MUL" down="3" togo="5" spot="ISL24" context="V,3,5,H24" playid="15,8,106" type="P" first="P"
+      text="Dosso J. pass complete to Stolfa G. for 14 yards to the ISL10, 1ST DOWN MUL (Presotto A.;Seno M.)." newcontext="V,1,0,H10">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Stolfa G." gain="14"></p_pa>
+    <p_tk vh="H" name="Presotto A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Seno M." assist="Y"></p_tk>
+   </play>
+   <score qtr="3" V="12" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:53"></misc>
+    <rush att="4" yds="5" gain="8" loss="3" td="0" long="0"></rush>
+    <pass comp="4" att="5" int="0" yds="35" td="0" long="3" sacks="1" sackyds="3"></pass>
+    <rcv no="4" yds="35" td="0" long="3"></rcv>
+    <punt no="1" yds="14" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="14.0"></punt>
+    <ko no="1" yds="50" ob="0" tb="1"></ko>
+    <defense tackua="3" tacka="2" tot_tack="5" sacks="0" sackyds="0"></defense>
+    <pr no="1" yds="19" td="0" long="19"></pr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ISL">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:07"></misc>
+    <rush att="3" yds="14" gain="14" loss="0" td="0" long="0"></rush>
+    <pass comp="2" att="6" int="0" yds="14" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="14" td="0" long="0"></rcv>
+    <punt no="1" yds="40" long="40" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="40.0"></punt>
+    <defense tackua="4" tacka="8" tot_tack="12" tflua="2" tfla="0" tflyds="6" sacks="1" sackyds="3"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="MUL" down="1" togo="0" spot="ISL10" context="V,1,0,H10" playid="15,9,107" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="V,1,0,H10">
+   </play>
+   <play hasball="MUL" down="1" togo="0" spot="ISL10" context="V,1,0,H10" playid="15,10,108" type="P"
+      text="Dosso J. pass complete to Stolfa G. for 3 yards to the ISL7 (Mistretta M.;Marton I.)." newcontext="V,2,0,H07">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Stolfa G." gain="3"></p_pa>
+    <p_tk vh="H" name="Mistretta M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Marton I." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="0" spot="ISL07" context="V,2,0,H07" playid="15,11,109" type="P" score="Y" clock="10:40"
+      text="Dosso J. pass complete to Stolfa G. for 7 yards to the ISL0, TOUCHDOWN, clock 10:40." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Stolfa G." gain="7"></p_pa>
+   </play>
+   <play hasball="MUL" down="1" togo="0" spot="ISL03" context="V,1,0,H03" playid="15,12,110" type="X"
+      text="Dosso J. pass attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Dosso J." qb="Dosso J." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="18" H="6"></score>
+   <drivesum plays="8" yards="42" top="5:10" driveindex="15" complete="Y"></drivesum>
+   <play hasball="MUL" down="1" togo="0" spot="MUL30" context="V,1,0,V30" playid="15,13,111" type="K"
+      text="Kobal L. kickoff 49 yards to the ISL1, Sportillo R. return 12 yards to the ISL13 (Palcich L.), PENALTY MUL face mask (Kobal L.) 15 yards to the ISL28, 1st and 10, ISL ball on ISL28." newcontext="H,1,10,H28">
+    <p_ko vh="V" name="Kobal L." gain="49"></p_ko>
+    <p_kr vh="H" name="Sportillo R." gain="12"></p_kr>
+    <p_tk vh="V" name="Palcich L."></p_tk>
+    <p_pn vh="V" code="FM" type="face mask" name="Kobal L." result="ACCEPT" at="H13" yards="15"></p_pn>
+   </play>
+   <drivestart poss="H,H28,10:40" vh="H" spot="H28" clock="10:40" driveindex="16,111"></drivestart>
+   <play hasball="ISL" down="1" togo="10" spot="ISL28" context="H,1,10,H28" playid="16,1,112" clock="10:32"
+      text="VENEZIA A.F.T. drive start at 10:32." newcontext="H,1,10,H28">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL28" context="H,1,10,H28" playid="16,2,113" type="R"
+      text="Maidan D. rush for no gain to the ISL28 (Zaccaria V.;Savi L.)." newcontext="H,2,10,H28">
+    <p_ru vh="H" name="Maidan D." gain="0"></p_ru>
+    <p_tk vh="V" name="Zaccaria V." assist="Y"></p_tk>
+    <p_tk vh="V" name="Savi L." assist="Y"></p_tk>
+   </play>
+   <play hasball="ISL" down="2" togo="10" spot="ISL28" context="H,2,10,H28" playid="16,3,114" type="R"
+      text="Maidan D. rush for loss of 4 yards to the ISL24 (Zaccaria V.)." newcontext="H,3,14,H24">
+    <p_ru vh="H" name="Maidan D." gain="-4"></p_ru>
+    <p_tk vh="V" name="Zaccaria V." tfl="Y"></p_tk>
+   </play>
+   <play hasball="ISL" down="3" togo="14" spot="ISL24" context="H,3,14,H24" playid="16,4,115" type="P" first="E"
+      text="Annibale D. pass incomplete to Lucchi S., PENALTY MUL pass interference (Gentile G.) 15 yards to the ISL39, 1ST DOWN ISL." newcontext="H,1,10,H39">
+    <p_pa vh="H" qb="Annibale D." result="INC" rcv="Lucchi S."></p_pa>
+    <p_pn vh="V" code="PI" type="pass interference" name="Gentile G." result="ACCEPT" at="H24" yards="15"></p_pn>
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL39" context="H,1,10,H39" playid="16,5,116"
+      text="1st and 10." newcontext="H,1,10,H39">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL39" context="H,1,10,H39" playid="16,6,117" type="P"
+      text="Annibale D. pass complete to Duse F. for 5 yards to the MUL36 (Palcich L.)." newcontext="H,2,5,V36">
+    <p_pa vh="H" qb="Annibale D." result="COMP" rcv="Duse F." gain="5"></p_pa>
+    <p_tk vh="V" name="Palcich L."></p_tk>
+   </play>
+   <play hasball="ISL" down="2" togo="5" spot="MUL36" context="H,2,5,V36" playid="16,7,118" type="R"
+      text="Annibale D. rush for 3 yards to the MUL33, fumble by Annibale D. recovered by ISL Maidan D. at MUL37." newcontext="H,3,6,V37">
+    <p_ru vh="H" name="Annibale D." gain="3"></p_ru>
+    <p_fumb vh="H" name="Annibale D." at="V37" frvh="H" frname="Maidan D."></p_fumb>
+   </play>
+   <play hasball="ISL" down="3" togo="6" spot="MUL37" context="H,3,6,V37" playid="16,8,119" type="R" first="R"
+      text="Annibale D. rush for 2 yards to the MUL35, Maidan D. for 11 yards to the MUL24, 1ST DOWN ISL (Bonini L.;Gentile G.)." newcontext="H,1,10,V24">
+    <p_ru vh="H" name="Annibale D." gain="2"></p_ru>
+    <p_cont vh="H" name="Maidan D." context="RUSH" at="V35" gain="11"></p_cont>
+    <p_tk vh="V" name="Bonini L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Gentile G." assist="Y"></p_tk>
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="MUL24" context="H,1,10,V24" playid="16,9,120" type="R" first="R"
+      text="Annibale D. rush for 11 yards to the MUL13, 1ST DOWN ISL." newcontext="H,1,10,V13">
+    <p_ru vh="H" name="Annibale D." gain="11"></p_ru>
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="MUL13" context="H,1,10,V13" playid="16,10,121" type="#" clock="05:29"
+      text="Timeout Muli Trieste, clock 05:29." newcontext="H,1,10,V13">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="MUL13" context="H,1,10,V13" playid="16,11,122" type="P" first="P"
+      text="Annibale D. pass complete to Cester M. for 12 yards to the MUL1, 1ST DOWN ISL (Sivec A.)." newcontext="H,1,0,V01">
+    <p_pa vh="H" qb="Annibale D." result="COMP" rcv="Cester M." gain="12"></p_pa>
+    <p_tk vh="V" name="Sivec A."></p_tk>
+   </play>
+   <play hasball="ISL" down="1" togo="0" spot="MUL01" context="H,1,0,V01" playid="16,12,123" type="R"
+      text="Maidan D. rush for loss of 3 yards to the MUL4 (Stolfa G.;Savi L.)." newcontext="H,2,0,V04">
+    <p_ru vh="H" name="Maidan D." gain="-3"></p_ru>
+    <p_tk vh="V" name="Stolfa G." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Savi L." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="ISL" down="2" togo="0" spot="MUL04" context="H,2,0,V04" playid="16,13,124" type="#" clock="04:00"
+      text="Timeout Venezia A.F.T., clock 04:00." newcontext="H,2,0,V04">
+    <p_to vh="H" team="Venezia A.F.T."></p_to>
+   </play>
+   <play hasball="ISL" down="2" togo="0" spot="MUL04" context="H,2,0,V04" playid="16,14,125" type="R"
+      text="Annibale D. rush for loss of 1 yard to the MUL5." newcontext="H,3,0,V05">
+    <p_ru vh="H" name="Annibale D." gain="-1"></p_ru>
+   </play>
+   <play hasball="ISL" down="3" togo="0" spot="MUL05" context="H,3,0,V05" playid="16,15,126" type="P"
+      text="Annibale D. pass incomplete to Duse F.." newcontext="H,4,0,V05">
+    <p_pa vh="H" qb="Annibale D." result="INC" rcv="Duse F."></p_pa>
+   </play>
+   <play hasball="ISL" down="4" togo="0" spot="MUL05" context="H,4,0,V05" playid="16,16,127" type="E"
+      text="Annibale D. rush for 4 yards to the MUL1, PENALTY ISL holding 10 yards to the MUL15, NO PLAY." newcontext="H,4,0,V15">
+    <p_pn vh="H" code="HO" type="holding" result="ACCEPT" at="V05" yards="10"></p_pn>
+   </play>
+   <play hasball="ISL" down="4" togo="0" spot="MUL15" context="H,4,0,V15" playid="16,17,128" type="P"
+      text="Annibale D. pass incomplete to Favaro S., dropped pass." newcontext="V,1,10,V15">
+    <p_pa vh="H" qb="Annibale D." result="DROP" rcv="Favaro S."></p_pa>
+   </play>
+   <drivesum plays="12" yards="37" top="7:53" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="V,V15,04:00" vh="V" spot="V15" clock="04:00" driveindex="17,128"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL15" context="V,1,10,V15" playid="17,1,129" clock="02:39"
+      text="MULI TRIESTE drive start at 02:39." newcontext="V,1,10,V15">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL15" context="V,1,10,V15" playid="17,2,130" type="R"
+      text="Dosso J. rush for 1 yard to the MUL16 (Seno M.)." newcontext="V,2,9,V16">
+    <p_ru vh="V" name="Dosso J." gain="1"></p_ru>
+    <p_tk vh="H" name="Seno M."></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="9" spot="MUL16" context="V,2,9,V16" playid="17,3,131" type="#" clock="02:22"
+      text="Timeout Venezia A.F.T., clock 02:22." newcontext="V,2,9,V16">
+    <p_to vh="H" team="Venezia A.F.T."></p_to>
+   </play>
+   <play hasball="MUL" down="2" togo="9" spot="MUL16" context="V,2,9,V16" playid="17,4,132" type="R"
+      text="Stolfa G. rush for no gain to the MUL16 (Presotto A.;Berzaghi S.)." newcontext="V,3,9,V16">
+    <p_ru vh="V" name="Stolfa G." gain="0"></p_ru>
+    <p_tk vh="H" name="Presotto A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Berzaghi S." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="9" spot="MUL16" context="V,3,9,V16" playid="17,5,133" type="R"
+      text="Dosso J. rush for 2 yards to the MUL18 (TEAM)." newcontext="V,4,7,V18">
+    <p_ru vh="V" name="Dosso J." gain="2"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="7" spot="MUL18" context="V,4,7,V18" playid="17,6,134" type="#" clock="01:48"
+      text="Timeout Venezia A.F.T., clock 01:48." newcontext="V,4,7,V18">
+    <p_to vh="H" team="Venezia A.F.T."></p_to>
+   </play>
+   <play hasball="MUL" down="4" togo="7" spot="MUL18" context="V,4,7,V18" playid="17,7,135" type="U"
+      text="Kobal L. punt 28 yards to the ISL34." newcontext="H,1,10,H34">
+    <p_pu vh="V" name="Kobal L." gain="28"></p_pu>
+   </play>
+   <drivesum plays="3" yards="3" top="1:00" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,H34,01:48" vh="H" spot="H34" clock="01:48" driveindex="18,135"></drivestart>
+   <play hasball="ISL" down="1" togo="10" spot="ISL34" context="H,1,10,H34" playid="18,1,136" clock="01:39"
+      text="VENEZIA A.F.T. drive start at 01:39." newcontext="H,1,10,H34">
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="ISL34" context="H,1,10,H34" playid="18,2,137" type="P"
+      text="Annibale D. pass incomplete to Duse F.." newcontext="H,2,10,H34">
+    <p_pa vh="H" qb="Annibale D." result="INC" rcv="Duse F."></p_pa>
+   </play>
+   <play hasball="ISL" down="2" togo="10" spot="ISL34" context="H,2,10,H34" playid="18,3,138" type="P"
+      text="Annibale D. pass incomplete to Lucchi S. (Dosso J.), PENALTY ISL holding declined." newcontext="H,3,10,H34">
+    <p_pa vh="H" qb="Annibale D." result="BRUP" rcv="Lucchi S."></p_pa>
+    <p_pn vh="H" code="HO" type="holding" name="Lucchi S." result="DECLINE"></p_pn>
+    <p_bu vh="V" name="Dosso J."></p_bu>
+   </play>
+   <play hasball="ISL" down="3" togo="10" spot="ISL34" context="H,3,10,H34" playid="18,4,139" type="P"
+      text="Annibale D. pass complete to Sportillo R. for 8 yards to the MUL38 (Stolfa G.)." newcontext="H,4,2,V38">
+    <p_pa vh="H" qb="Annibale D." result="COMP" rcv="Sportillo R." gain="8"></p_pa>
+    <p_tk vh="V" name="Stolfa G."></p_tk>
+   </play>
+   <play hasball="ISL" down="4" togo="2" spot="MUL38" context="H,4,2,V38" playid="18,5,140" type="R" first="R"
+      text="Annibale D. rush for 2 yards to the MUL36, Maidan D. for 3 yards to the MUL33, 1ST DOWN ISL (Savi L.)." newcontext="H,1,10,V33">
+    <p_ru vh="H" name="Annibale D." gain="2"></p_ru>
+    <p_cont vh="H" name="Maidan D." context="RUSH" at="V36" gain="3"></p_cont>
+    <p_tk vh="V" name="Savi L."></p_tk>
+   </play>
+   <play hasball="ISL" down="1" togo="10" spot="MUL33" context="H,1,10,V33" playid="18,6,141" type="P" first="P"
+      text="Annibale D. pass complete to Favaro S. for 28 yards to the MUL5, 1ST DOWN ISL (Kobal L.)." newcontext="H,1,0,V05">
+    <p_pa vh="H" qb="Annibale D." result="COMP" rcv="Favaro S." gain="28"></p_pa>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <play hasball="ISL" down="1" togo="0" spot="MUL05" context="H,1,0,V05" playid="18,7,142" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="H,1,0,V05">
+   </play>
+   <drivesum plays="5" yards="41" top="1:39" driveindex="18" complete="Y"></drivesum>
+   <score final="Y" V="18" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="30"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="02:20"></misc>
+    <rush att="3" yds="3" gain="3" loss="0" td="0" long="0"></rush>
+    <pass comp="2" att="2" int="0" yds="10" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="10" td="1" long="0"></rcv>
+    <punt no="1" yds="28" long="12" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="28.0"></punt>
+    <ko no="1" yds="49" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="7" tacka="6" tot_tack="13" tflua="3" tfla="0" tflyds="10" sacks="0" sackyds="0" brup="1"></defense>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="ISL">
+    <firstdowns no="6" rush="3" pass="2" penalty="1"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="09:40"></misc>
+    <rush att="8" yds="20" gain="29" loss="9" td="0" long="1"></rush>
+    <pass comp="4" att="9" int="0" yds="53" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="53" td="0" long="0"></rcv>
+    <defense tackua="2" tacka="4" tot_tack="6" sacks="1" sackyds="3"></defense>
+    <kr no="1" yds="12" td="0" long="9"></kr>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="H" id="ISL" down="1" togo="0" spot="MUL05" context="H,1,0,V05" qtr="4" clock="00:00" vtoh="2" htoh="3"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="MUL">
+  <player name="Birisic B." checkname="B.,BIRISIC" uni="61" gp="0" code="61"></player>
+  <player name="Cadenaro S." checkname="S.,CADENARO" uni="72" gp="0" code="72"></player>
+ </dnp>
+ <dnp vh="H" id="ISL">
+  <player name="Ladisa L." checkname="L.,LADISA" uni="8" gp="0" code="8"></player>
+  <player name="Ferro Pattai N." checkname="PATTAI N.,FERRO" uni="56" gp="0" code="56"></player>
+  <player name="Giunti F." checkname="F.,GIUNTI" uni="60" gp="0" code="60"></player>
+  <player name="Danesin D." checkname="D.,DANESIN" uni="64" gp="0" code="64"></player>
+  <player name="Valentini F." checkname="F.,VALENTINI" uni="73" gp="0" code="73"></player>
+  <player name="Mennone P." checkname="P.,MENNONE" uni="77" gp="0" code="77"></player>
+  <player name="Gazzetta L." checkname="L.,GAZZETTA" uni="78" gp="0" code="78"></player>
+  <player name="Mesina L." checkname="L.,MESINA" uni="92" gp="0" code="92"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

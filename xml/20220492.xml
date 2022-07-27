@@ -1,0 +1,848 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220492" visid="MUL" homeid="FAS" visname="Muli Trieste" homename="West Coast Raiders T"
+      date="6/4/2022" location="Pontedera" stadium="C.S. Stella Azzurra"
+      start="19:00" end="20:40" leaguegame="Y" nitegame="Y" postseason="Y"
+      duration="1:40" attend="50" temp="29 C" wind="No wind" weather="Sunny">
+  <officials ref="Moglia P." ump="Tognoni A." line="Conti I." lj="Pilia M." bj="Avagnina A." sc="Difesca S."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="94" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="MUL" name="Muli Trieste" record="1-4" conf-record="1-3" abb="M">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="30" totoff_yards="64" totoff_avg="2.1">
+   <firstdowns no="6" rush="2" pass="3" penalty="1"></firstdowns>
+   <penalties no="2" yds="20"></penalties>
+   <conversions thirdconv="1" thirdatt="7" fourthconv="2" fourthatt="3"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="23:15" ona="0" onm="0"></misc>
+   <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="20" yds="30" gain="39" loss="9" td="0" long="6"></rush>
+   <pass comp="5" att="10" int="1" yds="34" td="0" long="14" sacks="0" sackyds="0"></pass>
+   <rcv no="5" yds="34" td="0" long="14"></rcv>
+   <punt no="2" yds="56" long="37" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="28.0"></punt>
+   <ko no="1" yds="54" ob="0" tb="0"></ko>
+   <defense tackua="19" tacka="10" tot_tack="29" sacks="0" sackyds="0" int="2" intyds="2"></defense>
+   <kr no="2" yds="22" td="0" long="17"></kr>
+   <ir no="2" yds="2" td="0" long="2"></ir>
+  </totals>
+  <player name="Sivec A." shortname="Sivec A." checkname="A.,SIVEC" uni="18" gp="1" code="18">
+   <rcv no="3" yds="17" td="0" long="7"></rcv>
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+   <kr no="2" yds="22" td="0" long="17"></kr>
+  </player>
+  <player name="Casale S." shortname="Casale S." checkname="S.,CASALE" uni="27" gp="1" code="27">
+   <rcv no="1" yds="14" td="0" long="14"></rcv>
+   <defense tackua="5" tacka="0" tot_tack="5" int="1" intyds="2"></defense>
+   <ir no="1" yds="2" td="0" long="2"></ir>
+  </player>
+  <player name="Bonini L." shortname="Bonini L." checkname="L.,BONINI" uni="9" gp="1" code="9">
+   <rcv no="1" yds="3" td="0" long="3"></rcv>
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="Aversa M." shortname="Aversa M." checkname="M.,AVERSA" uni="15" gp="1" code="15">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="Zaccaria V." shortname="Zaccaria V." checkname="V.,ZACCARIA" uni="7" gp="1" code="7">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Gentile G." shortname="Gentile G." checkname="G.,GENTILE" uni="23" gp="1" code="23">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="Stolfa G." shortname="Stolfa G." checkname="G.,STOLFA" uni="81" gp="1" code="81">
+   <rush att="15" yds="9" gain="18" loss="9" td="0" long="5"></rush>
+   <defense tackua="1" tacka="2" tot_tack="3" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Hristov M." shortname="Hristov M." checkname="M.,HRISTOV" uni="50" gp="1" code="50"></player>
+  <player name="Birisic B." shortname="Birisic B." checkname="B.,BIRISIC" uni="61" gp="1" code="61"></player>
+  <player name="Cadenaro S." shortname="Cadenaro S." checkname="S.,CADENARO" uni="72" gp="1" code="72"></player>
+  <player name="Kobal L." shortname="Kobal L." checkname="L.,KOBAL" uni="20" gp="1" code="20">
+   <rush att="5" yds="21" gain="21" loss="0" td="0" long="6"></rush>
+   <pass comp="5" att="10" int="1" yds="34" td="0" long="14" sacks="0" sackyds="0"></pass>
+   <punt no="2" yds="56" long="37" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="28.0"></punt>
+   <ko no="1" yds="54" ob="0" tb="0"></ko>
+   <defense tackua="7" tacka="2" tot_tack="9"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="FAS" name="West Coast Raiders T" record="4-1" conf-record="3-1" abb="F">
+  <linescore prds="4" line="6,8,0,6" score="20">
+   <lineprd prd="1" score="6"></lineprd>
+   <lineprd prd="2" score="8"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals totoff_plays="34" totoff_yards="232" totoff_avg="6.8">
+   <firstdowns no="13" rush="9" pass="3" penalty="1"></firstdowns>
+   <penalties no="6" yds="50"></penalties>
+   <conversions thirdconv="5" thirdatt="6" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="1" lost="0"></fumbles>
+   <misc yds="0" top="24:45" ona="0" onm="0"></misc>
+   <redzone att="4" scores="3" points="20" tdrush="2" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="1" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="22" yds="183" gain="186" loss="3" td="2" long="33"></rush>
+   <pass comp="8" att="12" int="2" yds="49" td="1" long="12" sacks="0" sackyds="0"></pass>
+   <rcv no="8" yds="49" td="1" long="12"></rcv>
+   <punt no="1" yds="29" long="29" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="29.0"></punt>
+   <ko no="4" yds="151" ob="0" tb="0"></ko>
+   <pat rushatt="1" rushmade="0" passatt="2" passmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="12" tacka="26" tot_tack="38" tflua="1" tfla="8" tflyds="9" sacks="0" sackyds="0" brup="1" ff="1" fr="1" fryds="0" int="1" intyds="0"></defense>
+   <kr no="1" yds="4" td="0" long="4"></kr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+   <scoring td="3" patrcv="1"></scoring>
+  </totals>
+  <player name="Manfredi G." shortname="Manfredi G." checkname="G.,MANFREDI" uni="13" gp="1" code="13">
+   <rcv no="4" yds="27" td="0" long="11"></rcv>
+  </player>
+  <player name="Cardelli F." shortname="Cardelli F." checkname="F.,CARDELLI" uni="27" gp="1" code="27">
+   <rcv no="1" yds="12" td="0" long="12"></rcv>
+   <ko no="4" yds="151" ob="0" tb="0"></ko>
+  </player>
+  <player name="Formisano A." shortname="Formisano A." checkname="A.,FORMISANO" uni="20" gp="1" code="20">
+   <rcv no="1" yds="5" td="0" long="5"></rcv>
+   <kr no="1" yds="4" td="0" long="4"></kr>
+  </player>
+  <player name="Belli N." shortname="Belli N." checkname="N.,BELLI" uni="19" gp="1" code="19">
+   <rcv no="1" yds="4" td="0" long="4"></rcv>
+  </player>
+  <player name="Fogli G." shortname="Fogli G." checkname="G.,FOGLI" uni="9" gp="1" code="9">
+   <rcv no="1" yds="1" td="1" long="1"></rcv>
+   <pat rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="3" tacka="5" tot_tack="8" tflua="0" tfla="2" tflyds="1" ff="1"></defense>
+   <scoring td="1" patrcv="1"></scoring>
+  </player>
+  <player name="Fedeli G." shortname="Fedeli G." checkname="G.,FEDELI" uni="2" gp="1" code="2">
+   <rush att="3" yds="37" gain="37" loss="0" td="0" long="29"></rush>
+   <pass comp="1" att="3" int="1" yds="5" td="0" long="5" sacks="0" sackyds="0"></pass>
+   <punt no="1" yds="29" long="29" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="29.0"></punt>
+  </player>
+  <player name="Senesi R." shortname="Senesi R." checkname="R.,SENESI" uni="11" gp="1" code="11">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Giuntoni F." shortname="Giuntoni F." checkname="F.,GIUNTONI" uni="8" gp="1" code="8">
+   <rush att="9" yds="52" gain="53" loss="1" td="2" long="16"></rush>
+   <pass comp="7" att="9" int="1" yds="44" td="1" long="12" sacks="0" sackyds="0"></pass>
+   <pat passatt="2" passmade="1"></pat>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Sonna Temgou Y." shortname="Sonna Temgou Y." checkname="TEMGOU Y.,SONNA" uni="22" gp="1" code="22">
+   <defense tackua="1" tacka="4" tot_tack="5" tflua="1" tfla="1" tflyds="5"></defense>
+  </player>
+  <player name="Recce A." shortname="Recce A." checkname="A.,RECCE" uni="28" gp="1" code="28">
+   <rush att="10" yds="94" gain="96" loss="2" td="0" long="33"></rush>
+   <pat rushatt="1" rushmade="0"></pat>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Gabbrielli M." shortname="Gabbrielli M." checkname="M.,GABBRIELLI" uni="6" gp="1" code="6">
+   <defense tackua="1" tacka="2" tot_tack="3" brup="1" fr="1" fryds="0" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Mancini F." shortname="Mancini F." checkname="F.,MANCINI" uni="37" gp="1" code="37">
+   <defense tackua="0" tacka="2" tot_tack="2" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+  <player name="Greggio R." shortname="Greggio R." checkname="R.,GREGGIO" uni="50" gp="1" code="50"></player>
+  <player name="Marchi G." shortname="Marchi G." checkname="G.,MARCHI" uni="53" gp="1" code="53"></player>
+  <player name="Hopson D." shortname="Hopson D." checkname="D.,HOPSON" uni="54" gp="1" code="54">
+   <defense tackua="1" tacka="5" tot_tack="6" tflua="0" tfla="3" tflyds="3"></defense>
+  </player>
+  <player name="Tamberi F." shortname="Tamberi F." checkname="F.,TAMBERI" uni="58" gp="1" code="58"></player>
+  <player name="De Fabiis D." shortname="De Fabiis D." checkname="FABIIS D.,DE" uni="59" gp="1" code="59"></player>
+  <player name="Borelli A." shortname="Borelli A." checkname="A.,BORELLI" uni="60" gp="1" code="60"></player>
+  <player name="Bors&#242; V." shortname="Bors&#242; V." checkname="V.,BORS&#242;" uni="61" gp="1" code="61"></player>
+  <player name="Bini Verona A." shortname="Bini Verona A." checkname="VERONA A.,BINI" uni="66" gp="1" code="66">
+   <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+  <player name="Valvano C." shortname="Valvano C." checkname="C.,VALVANO" uni="72" gp="1" code="72"></player>
+  <player name="Hilliges F." shortname="Hilliges F." checkname="F.,HILLIGES" uni="84" gp="1" code="84">
+   <defense tackua="2" tacka="1" tot_tack="3"></defense>
+  </player>
+  <player name="Balestri M." shortname="Balestri M." checkname="M.,BALESTRI" uni="85" gp="1" code="85">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Bianchi M." shortname="Bianchi M." checkname="M.,BIANCHI" uni="89" gp="1" code="89"></player>
+  <player name="Pillonca A." shortname="Pillonca A." checkname="A.,PILLONCA" uni="97" gp="1" code="97">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Calvi Di Coe M." shortname="Calvi Di Coe M." checkname="DI COE M.,CALVI" uni="99" gp="1" code="99">
+   <defense tackua="0" tacka="3" tot_tack="3"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="FAS" qtr="1" clock="01:09" type="TD" how="RUSH" yds="11" scorer="Giuntoni F." patby="Recce A." pattype="RUSH" patres="FAIL" plays="4" drive="62" top="1:38" vscore="0" hscore="6" driveindex="3"></score>
+  <score vh="H" team="FAS" qtr="2" clock="02:00" type="TD" how="RUSH" yds="7" scorer="Giuntoni F." patby="Fogli G." pattype="PASS" patres="GOOD" plays="5" drive="51" top="3:34" vscore="0" hscore="14" driveindex="7"></score>
+  <score vh="H" team="FAS" qtr="4" clock="03:11" type="TD" how="PASS" yds="1" scorer="Fogli G." passer="Giuntoni F." patby="Giuntoni F." pattype="PASS" patres="FAIL" plays="8" drive="43" top="6:54" vscore="0" hscore="20" driveindex="12"></score>
+ </scores>
+ <drives>
+  <drive vh="H" team="FAS" start="KO,1,12:00,14" end="PUNT,1,09:32,20" plays="4" yards="6" top="2:28" start_how="KO" start_qtr="1" start_time="12:00" start_spot="FAS14" end_how="PUNT" end_qtr="1" end_time="09:32" end_spot="FAS20" driveindex="1"></drive>
+  <drive vh="V" team="MUL" start="PUNT,1,09:32,45" end="DOWNS,1,02:47,62" plays="8" yards="17" top="6:45" start_how="PUNT" start_qtr="1" start_time="09:32" start_spot="MUL45" end_how="DOWNS" end_qtr="1" end_time="02:47" end_spot="FAS32" driveindex="2"></drive>
+  <drive vh="H" team="FAS" start="DOWNS,1,02:47,32" end="TD,1,01:09,94" plays="4" yards="62" top="1:38" start_how="DOWNS" start_qtr="1" start_time="02:47" start_spot="FAS32" end_how="TD" end_qtr="1" end_time="01:09" end_spot="MUL00" rz="1" driveindex="3"></drive>
+  <drive vh="V" team="MUL" start="KO,1,01:00,35" end="FUMB,1,00:00,43" plays="3" yards="8" top="1:00" start_how="KO" start_qtr="1" start_time="01:00" start_spot="MUL35" end_how="FUMB" end_qtr="1" end_time="00:00" end_spot="MUL43" driveindex="4"></drive>
+  <drive vh="H" team="FAS" start="FUMB,2,12:00,51" end="INT,2,08:19,90" plays="6" yards="39" top="3:41" start_how="FUMB" start_qtr="2" start_time="12:00" start_spot="MUL43" end_how="INT" end_qtr="2" end_time="08:19" end_spot="MUL04" rz="1" driveindex="5"></drive>
+  <drive vh="V" team="MUL" start="INT,2,08:19,20" end="PUNT,2,05:34,32" plays="4" yards="12" top="2:45" start_how="INT" start_qtr="2" start_time="08:19" start_spot="MUL20" end_how="PUNT" end_qtr="2" end_time="05:34" end_spot="MUL32" driveindex="6"></drive>
+  <drive vh="H" team="FAS" start="PUNT,2,05:34,43" end="TD,2,02:00,94" plays="5" yards="51" top="3:34" start_how="PUNT" start_qtr="2" start_time="05:34" start_spot="FAS43" end_how="TD" end_qtr="2" end_time="02:00" end_spot="MUL00" rz="1" driveindex="7"></drive>
+  <drive vh="V" team="MUL" start="KO,2,01:50,40" end="HALF,2,00:00,52" plays="4" yards="12" top="1:50" start_how="KO" start_qtr="2" start_time="01:50" start_spot="MUL40" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="FAS42" driveindex="8"></drive>
+  <drive vh="V" team="MUL" start="KO,3,11:49,25" end="PUNT,3,08:12,22" plays="3" yards="-3" top="3:37" start_how="KO" start_qtr="3" start_time="11:49" start_spot="MUL25" end_how="PUNT" end_qtr="3" end_time="08:12" end_spot="MUL22" driveindex="9"></drive>
+  <drive vh="H" team="FAS" start="PUNT,3,08:12,35" end="INT,3,01:42,61" plays="7" yards="26" top="6:30" start_how="PUNT" start_qtr="3" start_time="08:12" start_spot="FAS35" end_how="INT" end_qtr="3" end_time="01:42" end_spot="MUL33" driveindex="10"></drive>
+  <drive vh="V" team="MUL" start="INT,3,01:42,20" end="INT,4,10:05,41" plays="4" yards="21" top="3:37" start_how="INT" start_qtr="3" start_time="01:42" start_spot="MUL20" end_how="INT" end_qtr="4" end_time="10:05" end_spot="MUL41" driveindex="11"></drive>
+  <drive vh="H" team="FAS" start="INT,4,10:05,51" end="TD,4,03:11,94" plays="8" yards="43" top="6:54" start_how="INT" start_qtr="4" start_time="10:05" start_spot="MUL43" end_how="TD" end_qtr="4" end_time="03:11" end_spot="MUL00" rz="1" driveindex="12"></drive>
+  <drive vh="V" team="MUL" start="KO,4,01:54,27" end="HALF,4,00:00,49" plays="4" yards="22" top="1:54" start_how="KO" start_qtr="4" start_time="01:54" start_spot="MUL27" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="FAS45" driveindex="13"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="MUL" down="1" togo="10" spot="MUL30" context="V,1,10,V30" playid="0,1,0" type="K"
+      text="Kobal L. kickoff 54 yards to the FAS10, Formisano A. return 4 yards to the FAS14 (Kobal L.)." newcontext="H,1,10,H14">
+    <p_ko vh="V" name="Kobal L." gain="54"></p_ko>
+    <p_kr vh="H" name="Formisano A." gain="4"></p_kr>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <drivestart poss="H,H14,12:00" vh="H" spot="H14" clock="12:00" driveindex="1,0"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS14" context="H,1,10,H14" playid="1,1,1" type="R"
+      text="Recce A. rush for 7 yards to the FAS21 (TEAM)." newcontext="H,2,3,H21">
+    <p_ru vh="H" name="Recce A." gain="7"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="3" spot="FAS21" context="H,2,3,H21" playid="1,2,2" type="P"
+      text="Fedeli G. pass complete to Formisano A. for 5 yards to the FAS26, out-of-bounds, PENALTY FAS holding (Manfredi G.) 10 yards to the FAS16." ob="Y" newcontext="H,2,8,H16">
+    <p_pa vh="H" qb="Fedeli G." result="COMP" rcv="Formisano A." gain="5"></p_pa>
+    <p_pn vh="H" code="HO" type="holding" name="Manfredi G." result="ACCEPT" at="H26" yards="10"></p_pn>
+   </play>
+   <play hasball="FAS" down="2" togo="8" spot="FAS16" context="H,2,8,H16" playid="1,3,3"
+      text="2nd and 8." newcontext="H,2,8,H16">
+   </play>
+   <play hasball="FAS" down="2" togo="8" spot="FAS16" context="H,2,8,H16" playid="1,4,4" type="R"
+      text="Fedeli G. rush for 4 yards to the FAS20 (Casale S.)." newcontext="H,3,4,H20">
+    <p_ru vh="H" name="Fedeli G." gain="4"></p_ru>
+    <p_tk vh="V" name="Casale S."></p_tk>
+   </play>
+   <play hasball="FAS" down="3" togo="4" spot="FAS20" context="H,3,4,H20" playid="1,5,5" type="P"
+      text="Fedeli G. pass incomplete to Formisano A.." newcontext="H,4,4,H20">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Formisano A."></p_pa>
+   </play>
+   <play hasball="FAS" down="4" togo="4" spot="FAS20" context="H,4,4,H20" playid="1,6,6" type="U"
+      text="Fedeli G. punt 29 yards to the MUL45, downed, PENALTY FAS illegal block declined." newcontext="V,1,10,V45">
+    <p_pu vh="H" name="Fedeli G." gain="29"></p_pu>
+    <p_pn vh="H" code="BL" type="illegal block" name="Formisano A." result="DECLINE"></p_pn>
+   </play>
+   <drivesum plays="4" yards="6" top="2:28" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,V45,12:00" vh="V" spot="V45" clock="12:00" driveindex="2,6"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL45" context="V,1,10,V45" playid="2,1,7" clock="09:32"
+      text="MULI TRIESTE drive start at 09:32." newcontext="V,1,10,V45">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL45" context="V,1,10,V45" playid="2,2,8" type="E"
+      text="PENALTY FAS offside (Calvi Di Coe M.) 5 yards to the FAS44." newcontext="V,1,5,H44">
+    <p_pn vh="H" code="OS" type="offside" name="Calvi Di Coe M." result="ACCEPT" at="V45" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="1" togo="5" spot="FAS44" context="V,1,5,H44" playid="2,3,9" type="R"
+      text="Stolfa G. rush for 2 yards to the FAS42 (Fogli G.)." newcontext="V,2,3,H42">
+    <p_ru vh="V" name="Stolfa G." gain="2"></p_ru>
+    <p_tk vh="H" name="Fogli G."></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="3" spot="FAS42" context="V,2,3,H42" playid="2,4,10" type="R"
+      text="Stolfa G. rush for 2 yards to the FAS40 (Gabbrielli M.;Hilliges F.)." newcontext="V,3,1,H40">
+    <p_ru vh="V" name="Stolfa G." gain="2"></p_ru>
+    <p_tk vh="H" name="Gabbrielli M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Hilliges F." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="1" spot="FAS40" context="V,3,1,H40" playid="2,5,11" type="R"
+      text="Stolfa G. rush for no gain to the FAS40 (Calvi Di Coe M.;Mancini F.)." newcontext="V,4,1,H40">
+    <p_ru vh="V" name="Stolfa G." gain="0"></p_ru>
+    <p_tk vh="H" name="Calvi Di Coe M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Mancini F." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="1" spot="FAS40" context="V,4,1,H40" playid="2,6,12" type="R" first="R"
+      text="Kobal L. rush for 2 yards to the FAS38, 1ST DOWN MUL (TEAM)." newcontext="V,1,10,H38">
+    <p_ru vh="V" name="Kobal L." gain="2"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="FAS38" context="V,1,10,H38" playid="2,7,13" type="R"
+      text="Stolfa G. rush for 5 yards to the FAS33 (Fogli G.)." newcontext="V,2,5,H33">
+    <p_ru vh="V" name="Stolfa G." gain="5"></p_ru>
+    <p_tk vh="H" name="Fogli G."></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="5" spot="FAS33" context="V,2,5,H33" playid="2,8,14" type="R"
+      text="Stolfa G. rush for 1 yard to the FAS32 (Hopson D.;Fogli G.)." newcontext="V,3,4,H32">
+    <p_ru vh="V" name="Stolfa G." gain="1"></p_ru>
+    <p_tk vh="H" name="Hopson D." assist="Y"></p_tk>
+    <p_tk vh="H" name="Fogli G." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="4" spot="FAS32" context="V,3,4,H32" playid="2,9,15" type="#" clock="03:02"
+      text="Timeout Muli Trieste, clock 03:02." newcontext="V,3,4,H32">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="MUL" down="3" togo="4" spot="FAS32" context="V,3,4,H32" playid="2,10,16" type="P"
+      text="Kobal L. pass incomplete to Casale S. (Gabbrielli M.)." newcontext="V,4,4,H32">
+    <p_pa vh="V" qb="Kobal L." result="INC" rcv="Casale S."></p_pa>
+    <p_bu vh="H" name="Gabbrielli M."></p_bu>
+   </play>
+   <play hasball="MUL" down="4" togo="4" spot="FAS32" context="V,4,4,H32" playid="2,11,17" type="P"
+      text="Kobal L. pass incomplete to Sivec A.." newcontext="H,1,10,H32">
+    <p_pa vh="V" qb="Kobal L." result="INC" rcv="Sivec A."></p_pa>
+   </play>
+   <drivesum plays="8" yards="17" top="6:45" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,H32,03:02" vh="H" spot="H32" clock="03:02" driveindex="3,17"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS32" context="H,1,10,H32" playid="3,1,18" clock="02:47"
+      text="WEST COAST RAIDERS T drive start at 02:47." newcontext="H,1,10,H32">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS32" context="H,1,10,H32" playid="3,2,19" type="R" first="R"
+      text="Fedeli G. rush for 29 yards to the MUL33, 1ST DOWN FAS, out-of-bounds (Gentile G.)." ob="Y" newcontext="H,1,10,V33">
+    <p_ru vh="H" name="Fedeli G." gain="29"></p_ru>
+    <p_tk vh="V" name="Gentile G."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL33" context="H,1,10,V33" playid="3,3,20" type="R" first="R"
+      text="Recce A. rush for 18 yards to the MUL15, 1ST DOWN FAS (Gentile G.;Kobal L.)." newcontext="H,1,10,V15">
+    <p_ru vh="H" name="Recce A." gain="18"></p_ru>
+    <p_tk vh="V" name="Gentile G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Kobal L." assist="Y"></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL15" context="H,1,10,V15" playid="3,4,21" type="R"
+      text="Fedeli G. rush for 4 yards to the MUL11, out-of-bounds (Kobal L.)." ob="Y" newcontext="H,2,6,V11">
+    <p_ru vh="H" name="Fedeli G." gain="4"></p_ru>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="6" spot="MUL11" context="H,2,6,V11" playid="3,5,22" type="R" first="R" score="Y" clock="01:09"
+      text="Giuntoni F. rush for 11 yards to the MUL0, 1ST DOWN FAS, TOUCHDOWN, clock 01:09." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Giuntoni F." gain="11"></p_ru>
+   </play>
+   <play hasball="FAS" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="3,6,23" type="X"
+      text="Recce A. rush attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Recce A." qb="Recce A." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="0" H="6"></score>
+   <drivesum plays="4" yards="62" top="1:38" driveindex="3" complete="Y"></drivesum>
+   <play hasball="FAS" down="1" togo="0" spot="FAS30" context="H,1,0,H30" playid="3,7,24" type="K"
+      text="Cardelli F. kickoff 29 yards to the MUL35, downed." newcontext="V,1,10,V35">
+    <p_ko vh="H" name="Cardelli F." gain="29"></p_ko>
+   </play>
+   <drivestart poss="V,V35,01:09" vh="V" spot="V35" clock="01:09" driveindex="4,24"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL35" context="V,1,10,V35" playid="4,1,25" clock="01:00"
+      text="MULI TRIESTE drive start at 01:00." newcontext="V,1,10,V35">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL35" context="V,1,10,V35" playid="4,2,26" type="R"
+      text="Kobal L. rush for 6 yards to the MUL41 (Hopson D.)." newcontext="V,2,4,V41">
+    <p_ru vh="V" name="Kobal L." gain="6"></p_ru>
+    <p_tk vh="H" name="Hopson D."></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="4" spot="MUL41" context="V,2,4,V41" playid="4,3,27" type="R"
+      text="Stolfa G. rush for 2 yards to the MUL43 (Gabbrielli M.)." newcontext="V,3,2,V43">
+    <p_ru vh="V" name="Stolfa G." gain="2"></p_ru>
+    <p_tk vh="H" name="Gabbrielli M."></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="2" spot="MUL43" context="V,3,2,V43" playid="4,4,28" type="R" turnover="F"
+      text="Stolfa G. rush for no gain to the MUL43, fumble forced by Fogli G., fumble by Stolfa G. recovered by FAS Gabbrielli M. at MUL43." newcontext="H,1,10,V43">
+    <p_ru vh="V" name="Stolfa G." gain="0"></p_ru>
+    <p_fumb vh="V" name="Stolfa G." at="V43" frvh="H" frname="Gabbrielli M."></p_fumb>
+    <p_tk vh="H" name="Fogli G." ff="Y"></p_tk>
+   </play>
+   <drivesum plays="3" yards="8" top="1:00" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,V43,01:00" vh="H" spot="V43" clock="01:00" driveindex="5,28"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="MUL43" context="H,1,10,V43" playid="5,1,29" clock="00:00"
+      text="WEST COAST RAIDERS T drive start at 00:00." newcontext="H,1,10,V43">
+   </play>
+   <score qtr="1" V="0" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="07:54"></misc>
+    <rush att="9" yds="20" gain="20" loss="0" td="0" long="6"></rush>
+    <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <ko no="1" yds="54" ob="0" tb="0"></ko>
+    <defense tackua="5" tacka="2" tot_tack="7" sacks="0" sackyds="0"></defense>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FAS">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:06"></misc>
+    <rush att="6" yds="73" gain="73" loss="0" td="1" long="29"></rush>
+    <pass comp="1" att="2" int="0" yds="5" td="0" long="5" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="5" td="0" long="5"></rcv>
+    <punt no="1" yds="29" long="29" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="29.0"></punt>
+    <ko no="1" yds="29" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="0"></pat>
+    <defense tackua="6" tacka="6" tot_tack="12" sacks="0" sackyds="0" brup="1" ff="1" fr="1" fryds="0"></defense>
+    <kr no="1" yds="4" td="0" long="4"></kr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="FAS" down="1" togo="10" spot="MUL43" context="H,1,10,V43" playid="5,2,30" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="H,1,10,V43">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL43" context="H,1,10,V43" playid="5,3,31" type="E" first="E"
+      text="Giuntoni F. pass complete to Manfredi G. for 1 yard to the MUL42 (Casale S.;Kobal L.), PENALTY MUL roughing passer (Stolfa G.) 15 yards to the MUL28, 1ST DOWN FAS, NO PLAY." newcontext="H,1,10,V28">
+    <p_pn vh="V" code="RP" type="roughing passer" name="Stolfa G." result="ACCEPT" at="V43" yards="15"></p_pn>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL28" context="H,1,10,V28" playid="5,4,32" type="R"
+      text="Recce A. rush for 6 yards to the MUL22 (Kobal L.)." newcontext="H,2,4,V22">
+    <p_ru vh="H" name="Recce A." gain="6"></p_ru>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="4" spot="MUL22" context="H,2,4,V22" playid="5,5,33" type="P"
+      text="Giuntoni F. pass incomplete to Manfredi G.." newcontext="H,3,4,V22">
+    <p_pa vh="H" qb="Giuntoni F." result="INC" rcv="Manfredi G."></p_pa>
+   </play>
+   <play hasball="FAS" down="3" togo="4" spot="MUL22" context="H,3,4,V22" playid="5,6,34"
+      text="3rd and 4." newcontext="H,3,4,V22">
+   </play>
+   <play hasball="FAS" down="3" togo="4" spot="MUL22" context="H,3,4,V22" playid="5,7,35" type="R" first="R"
+      text="Giuntoni F. rush for 16 yards to the MUL6, 1ST DOWN FAS, PENALTY FAS holding (Manfredi G.) 10 yards to the MUL16." newcontext="H,1,0,V16">
+    <p_ru vh="H" name="Giuntoni F." gain="16"></p_ru>
+    <p_pn vh="H" code="HO" type="holding" name="Manfredi G." result="ACCEPT" at="V06" yards="10"></p_pn>
+   </play>
+   <comment text="Azione terminata in TD, ma si applica pen dal punto del fallo (HO n13)"></comment>
+   <play hasball="FAS" down="1" togo="0" spot="MUL16" context="H,1,0,V16" playid="5,8,37"
+      text="1st and 10." newcontext="H,1,10,V16">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL16" context="H,1,10,V16" playid="5,9,38" type="P"
+      text="Giuntoni F. pass complete to Manfredi G. for 7 yards to the MUL9 (Casale S.)." newcontext="H,2,3,V09">
+    <p_pa vh="H" qb="Giuntoni F." result="COMP" rcv="Manfredi G." gain="7"></p_pa>
+    <p_tk vh="V" name="Casale S."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="3" spot="MUL09" context="H,2,3,V09" playid="5,10,39" type="P" first="P"
+      text="Giuntoni F. pass complete to Manfredi G. for 5 yards to the MUL4, 1ST DOWN FAS (Bonini L.)." newcontext="H,1,0,V04">
+    <p_pa vh="H" qb="Giuntoni F." result="COMP" rcv="Manfredi G." gain="5"></p_pa>
+    <p_tk vh="V" name="Bonini L."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="0" spot="MUL04" context="H,1,0,V04" playid="5,11,40" type="P" turnover="I"
+      text="Giuntoni F. pass intercepted by Stolfa G. at the MUL0, Stolfa G. return 0 yards to the MUL0, touchback." newcontext="V,1,10,V20">
+    <p_pa vh="H" qb="Giuntoni F." result="INT"></p_pa>
+    <p_ir vh="V" name="Stolfa G." at="V00" gain="0"></p_ir>
+   </play>
+   <drivesum plays="6" yards="39" top="3:41" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V20,12:00" vh="V" spot="V20" clock="12:00" driveindex="6,40"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL20" context="V,1,10,V20" playid="6,1,41" clock="08:19"
+      text="MULI TRIESTE drive start at 08:19." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL20" context="V,1,10,V20" playid="6,2,42" type="R"
+      text="Stolfa G. rush for loss of 1 yard to the MUL19 (Fogli G.;Mancini F.)." newcontext="V,2,11,V19">
+    <p_ru vh="V" name="Stolfa G." gain="-1"></p_ru>
+    <p_tk vh="H" name="Fogli G." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="H" name="Mancini F." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="11" spot="MUL19" context="V,2,11,V19" playid="6,3,43" type="E" first="E"
+      text="Kobal L. pass incomplete, PENALTY FAS pass interference (Hilliges F.) 15 yards to the MUL34, 1ST DOWN MUL, NO PLAY." newcontext="V,1,10,V34">
+    <p_pn vh="H" code="PI" type="pass interference" name="Hilliges F." result="ACCEPT" at="V19" yards="15"></p_pn>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL34" context="V,1,10,V34" playid="6,4,44" type="P"
+      text="Kobal L. pass incomplete to Casale S.." newcontext="V,2,10,V34">
+    <p_pa vh="V" qb="Kobal L." result="INC" rcv="Casale S."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="MUL34" context="V,2,10,V34" playid="6,5,45" type="R"
+      text="Stolfa G. rush for loss of 1 yard to the MUL33 (Hopson D.;Fogli G.)." newcontext="V,3,11,V33">
+    <p_ru vh="V" name="Stolfa G." gain="-1"></p_ru>
+    <p_tk vh="H" name="Hopson D." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="H" name="Fogli G." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="11" spot="MUL33" context="V,3,11,V33" playid="6,6,46" type="R"
+      text="Stolfa G. rush for loss of 1 yard to the MUL32 (Hopson D.;Bini Verona A.)." newcontext="V,4,12,V32">
+    <p_ru vh="V" name="Stolfa G." gain="-1"></p_ru>
+    <p_tk vh="H" name="Hopson D." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="H" name="Bini Verona A." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="12" spot="MUL32" context="V,4,12,V32" playid="6,7,47" type="U"
+      text="Kobal L. punt 19 yards to the FAS43." newcontext="H,1,10,H43">
+    <p_pu vh="V" name="Kobal L." gain="19"></p_pu>
+   </play>
+   <drivesum plays="4" yards="12" top="2:45" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H43,08:19" vh="H" spot="H43" clock="08:19" driveindex="7,47"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS43" context="H,1,10,H43" playid="7,1,48" clock="05:34"
+      text="WEST COAST RAIDERS T drive start at 05:34." newcontext="H,1,10,H43">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS43" context="H,1,10,H43" playid="7,2,49" type="E"
+      text="PENALTY MUL offside (Stolfa G.) 5 yards to the MUL46." newcontext="H,1,5,V46">
+    <p_pn vh="V" code="OS" type="offside" name="Stolfa G." result="ACCEPT" at="H43" yards="5"></p_pn>
+   </play>
+   <play hasball="FAS" down="1" togo="5" spot="MUL46" context="H,1,5,V46" playid="7,3,50" type="R"
+      text="Recce A. rush for 1 yard to the MUL45, fumble by Recce A. recovered by FAS Giuntoni F. at FAS46." newcontext="H,2,7,H46">
+    <p_ru vh="H" name="Recce A." gain="1"></p_ru>
+    <p_fumb vh="H" name="Recce A." at="H46" frvh="H" frname="Giuntoni F."></p_fumb>
+   </play>
+   <play hasball="FAS" down="2" togo="7" spot="FAS46" context="H,2,7,H46" playid="7,4,51" type="R"
+      text="Giuntoni F. rush for 4 yards to the MUL44 (Aversa M.)." newcontext="H,3,3,V44">
+    <p_ru vh="H" name="Giuntoni F." gain="4"></p_ru>
+    <p_tk vh="V" name="Aversa M."></p_tk>
+   </play>
+   <play hasball="FAS" down="3" togo="3" spot="MUL44" context="H,3,3,V44" playid="7,5,52" type="R" first="R"
+      text="Recce A. rush for 33 yards to the MUL11, 1ST DOWN FAS (Casale S.)." newcontext="H,1,10,V11">
+    <p_ru vh="H" name="Recce A." gain="33"></p_ru>
+    <p_tk vh="V" name="Casale S."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL11" context="H,1,10,V11" playid="7,6,53" type="P"
+      text="Giuntoni F. pass complete to Manfredi G. for 4 yards to the MUL7 (Kobal L.)." newcontext="H,2,6,V07">
+    <p_pa vh="H" qb="Giuntoni F." result="COMP" rcv="Manfredi G." gain="4"></p_pa>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="6" spot="MUL07" context="H,2,6,V07" playid="7,7,54" type="R" first="R" score="Y" clock="02:00"
+      text="Giuntoni F. rush for 7 yards to the MUL0, 1ST DOWN FAS, TOUCHDOWN, clock 02:00." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Giuntoni F." gain="7"></p_ru>
+   </play>
+   <play hasball="FAS" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="7,8,55" type="X" score="Y"
+      text="Giuntoni F. pass attempt to Fogli G. good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Fogli G." qb="Giuntoni F." type="P" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="14"></score>
+   <drivesum plays="5" yards="51" top="3:34" driveindex="7" complete="Y"></drivesum>
+   <play hasball="FAS" down="1" togo="0" spot="FAS30" context="H,1,0,H30" playid="7,9,56" type="K"
+      text="Cardelli F. kickoff 24 yards to the MUL40, downed." newcontext="V,1,10,V40">
+    <p_ko vh="H" name="Cardelli F." gain="24"></p_ko>
+   </play>
+   <drivestart poss="V,V40,02:00" vh="V" spot="V40" clock="02:00" driveindex="8,56"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL40" context="V,1,10,V40" playid="8,1,57" clock="01:50"
+      text="MULI TRIESTE drive start at 01:50." newcontext="V,1,10,V40">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL40" context="V,1,10,V40" playid="8,2,58" type="R"
+      text="Stolfa G. rush for 2 yards to the MUL42 (Calvi Di Coe M.;Fogli G.)." newcontext="V,2,8,V42">
+    <p_ru vh="V" name="Stolfa G." gain="2"></p_ru>
+    <p_tk vh="H" name="Calvi Di Coe M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Fogli G." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="8" spot="MUL42" context="V,2,8,V42" playid="8,3,59" type="P"
+      text="Kobal L. pass incomplete to Sivec A.." newcontext="V,3,8,V42">
+    <p_pa vh="V" qb="Kobal L." result="INC" rcv="Sivec A."></p_pa>
+   </play>
+   <play hasball="MUL" down="3" togo="8" spot="MUL42" context="V,3,8,V42" playid="8,4,60" type="R"
+      text="Kobal L. rush for 4 yards to the MUL46 (Sonna Temgou Y.;Fogli G.)." newcontext="V,4,4,V46">
+    <p_ru vh="V" name="Kobal L." gain="4"></p_ru>
+    <p_tk vh="H" name="Sonna Temgou Y." assist="Y"></p_tk>
+    <p_tk vh="H" name="Fogli G." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="4" spot="MUL46" context="V,4,4,V46" playid="8,5,61" type="R" first="R"
+      text="Kobal L. rush for 6 yards to the FAS42, 1ST DOWN MUL (TEAM)." newcontext="V,1,10,H42">
+    <p_ru vh="V" name="Kobal L." gain="6"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="FAS42" context="V,1,10,H42" playid="8,6,62" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="V,1,10,H42">
+   </play>
+   <drivesum plays="4" yards="12" top="1:50" driveindex="8" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="14"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="2" rush="1" pass="0" penalty="1"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:45"></misc>
+    <rush att="6" yds="9" gain="12" loss="3" td="0" long="0"></rush>
+    <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="1" yds="19" long="19" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="19.0"></punt>
+    <defense tackua="6" tacka="0" tot_tack="6" sacks="0" sackyds="0" int="1" intyds="0"></defense>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FAS">
+    <firstdowns no="5" rush="3" pass="1" penalty="1"></firstdowns>
+    <penalties no="2" yds="25"></penalties>
+    <conversions thirdconv="2" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="07:15"></misc>
+    <rush att="6" yds="64" gain="66" loss="2" td="1" long="4"></rush>
+    <pass comp="3" att="5" int="1" yds="16" td="0" long="2" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="16" td="0" long="2"></rcv>
+    <ko no="1" yds="24" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="1" tacka="10" tot_tack="11" tflua="6" tfla="0" tflyds="6" sacks="0" sackyds="0"></defense>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="1" patrcv="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="MUL" down="1" togo="10" spot="FAS42" context="V,1,10,H42" playid="8,7,63" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, FAS ball on FAS30." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS30" context="H,1,10,H30" playid="8,8,64" type="K"
+      text="Cardelli F. kickoff 44 yards to the MUL20, Sivec A. return 5 yards to the MUL25 (Hilliges F.)." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="Cardelli F." gain="44"></p_ko>
+    <p_kr vh="V" name="Sivec A." gain="5"></p_kr>
+    <p_tk vh="H" name="Hilliges F."></p_tk>
+   </play>
+   <drivestart poss="V,V25,12:00" vh="V" spot="V25" clock="12:00" driveindex="9,64"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL25" context="V,1,10,V25" playid="9,1,65" clock="11:49"
+      text="MULI TRIESTE drive start at 11:49." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL25" context="V,1,10,V25" playid="9,2,66" type="R"
+      text="Stolfa G. rush for loss of 2 yards to the MUL23 (Sonna Temgou Y.;Hopson D.)." newcontext="V,2,12,V23">
+    <p_ru vh="V" name="Stolfa G." gain="-2"></p_ru>
+    <p_tk vh="H" name="Sonna Temgou Y." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="H" name="Hopson D." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="12" spot="MUL23" context="V,2,12,V23" playid="9,3,67" type="R"
+      text="Kobal L. rush for 3 yards to the MUL26 (TEAM)." newcontext="V,3,9,V26">
+    <p_ru vh="V" name="Kobal L." gain="3"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="9" spot="MUL26" context="V,3,9,V26" playid="9,4,68" type="R"
+      text="Stolfa G. rush for loss of 4 yards to the MUL22 (Sonna Temgou Y.)." newcontext="V,4,13,V22">
+    <p_ru vh="V" name="Stolfa G." gain="-4"></p_ru>
+    <p_tk vh="H" name="Sonna Temgou Y." tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="13" spot="MUL22" context="V,4,13,V22" playid="9,5,69" type="U"
+      text="Kobal L. punt 37 yards to the FAS35." newcontext="H,1,10,H35">
+    <p_pu vh="V" name="Kobal L." gain="37"></p_pu>
+   </play>
+   <drivesum plays="3" yards="-3" top="3:37" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,H35,11:49" vh="H" spot="H35" clock="11:49" driveindex="10,69"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS35" context="H,1,10,H35" playid="10,1,70" clock="08:12"
+      text="WEST COAST RAIDERS T drive start at 08:12." newcontext="H,1,10,H35">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS35" context="H,1,10,H35" playid="10,2,71" type="R"
+      text="Giuntoni F. rush for 7 yards to the FAS42 (Casale S.)." newcontext="H,2,3,H42">
+    <p_ru vh="H" name="Giuntoni F." gain="7"></p_ru>
+    <p_tk vh="V" name="Casale S."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="3" spot="FAS42" context="H,2,3,H42" playid="10,3,72" type="R"
+      text="Giuntoni F. rush for no gain to the FAS42 (Sivec A.;Kobal L.)." newcontext="H,3,3,H42">
+    <p_ru vh="H" name="Giuntoni F." gain="0"></p_ru>
+    <p_tk vh="V" name="Sivec A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Kobal L." assist="Y"></p_tk>
+   </play>
+   <play hasball="FAS" down="3" togo="3" spot="FAS42" context="H,3,3,H42" playid="10,4,73" type="E"
+      text="PENALTY FAS false start (Borelli A.) 5 yards to the FAS37." newcontext="H,3,8,H37">
+    <p_pn vh="H" code="FS" type="false start" name="Borelli A." result="ACCEPT" at="H42" yards="5"></p_pn>
+   </play>
+   <play hasball="FAS" down="3" togo="8" spot="FAS37" context="H,3,8,H37" playid="10,5,74" type="P" first="P"
+      text="Giuntoni F. pass complete to Manfredi G. for 11 yards to the MUL46, 1ST DOWN FAS (Sivec A.)." newcontext="H,1,10,V46">
+    <p_pa vh="H" qb="Giuntoni F." result="COMP" rcv="Manfredi G." gain="11"></p_pa>
+    <p_tk vh="V" name="Sivec A."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL46" context="H,1,10,V46" playid="10,6,75" type="R"
+      text="Giuntoni F. rush for 3 yards to the MUL43 (Aversa M.;Zaccaria V.)." newcontext="H,2,7,V43">
+    <p_ru vh="H" name="Giuntoni F." gain="3"></p_ru>
+    <p_tk vh="V" name="Aversa M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Zaccaria V." assist="Y"></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="7" spot="MUL43" context="H,2,7,V43" playid="10,7,76" type="R"
+      text="Recce A. rush for 5 yards to the MUL38 (Stolfa G.;Aversa M.)." newcontext="H,3,2,V38">
+    <p_ru vh="H" name="Recce A." gain="5"></p_ru>
+    <p_tk vh="V" name="Stolfa G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Aversa M." assist="Y"></p_tk>
+   </play>
+   <play hasball="FAS" down="3" togo="2" spot="MUL38" context="H,3,2,V38" playid="10,8,77" type="R" first="R"
+      text="Giuntoni F. rush for 5 yards to the MUL33, 1ST DOWN FAS (Casale S.)." newcontext="H,1,10,V33">
+    <p_ru vh="H" name="Giuntoni F." gain="5"></p_ru>
+    <p_tk vh="V" name="Casale S."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL33" context="H,1,10,V33" playid="10,9,78" type="#" clock="02:32"
+      text="Timeout West Coast Raiders T, clock 02:32." newcontext="H,1,10,V33">
+    <p_to vh="H" team="West Coast Raiders T"></p_to>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL33" context="H,1,10,V33" playid="10,10,79" type="P" turnover="I"
+      text="Fedeli G. pass intercepted by Casale S. at the MUL18, Casale S. return 2 yards to the MUL20 (Recce A.)." newcontext="V,1,10,V20">
+    <p_pa vh="H" qb="Fedeli G." result="INT"></p_pa>
+    <p_ir vh="V" name="Casale S." at="V18" gain="2"></p_ir>
+    <p_tk vh="H" name="Recce A."></p_tk>
+   </play>
+   <drivesum plays="7" yards="26" top="6:30" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V20,02:32" vh="V" spot="V20" clock="02:32" driveindex="11,79"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL20" context="V,1,10,V20" playid="11,1,80" clock="01:42"
+      text="MULI TRIESTE drive start at 01:42." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL20" context="V,1,10,V20" playid="11,2,81" type="R"
+      text="Stolfa G. rush for 1 yard to the MUL21 (Sonna Temgou Y.;Calvi Di Coe M.)." newcontext="V,2,9,V21">
+    <p_ru vh="V" name="Stolfa G." gain="1"></p_ru>
+    <p_tk vh="H" name="Sonna Temgou Y." assist="Y"></p_tk>
+    <p_tk vh="H" name="Calvi Di Coe M." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="9" spot="MUL21" context="V,2,9,V21" playid="11,3,82" type="P"
+      text="Kobal L. pass complete to Sivec A. for 6 yards to the MUL27 (Hilliges F.)." newcontext="V,3,3,V27">
+    <p_pa vh="V" qb="Kobal L." result="COMP" rcv="Sivec A." gain="6"></p_pa>
+    <p_tk vh="H" name="Hilliges F."></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="3" spot="MUL27" context="V,3,3,V27" playid="11,4,83" type="#" clock="00:00"
+      text="Timeout Muli Trieste, clock 00:00." newcontext="V,3,3,V27">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <score qtr="3" V="0" H="14"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:30"></misc>
+    <rush att="4" yds="-2" gain="4" loss="6" td="0" long="0"></rush>
+    <pass comp="1" att="1" int="0" yds="6" td="0" long="6" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="6" td="0" long="6"></rcv>
+    <punt no="1" yds="37" long="18" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="37.0"></punt>
+    <defense tackua="3" tacka="6" tot_tack="9" sacks="0" sackyds="0" int="1" intyds="2"></defense>
+    <kr no="1" yds="5" td="0" long="5"></kr>
+    <ir no="1" yds="2" td="0" long="2"></ir>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FAS">
+    <firstdowns no="2" rush="1" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:30"></misc>
+    <rush att="5" yds="20" gain="20" loss="0" td="0" long="0"></rush>
+    <pass comp="1" att="2" int="1" yds="11" td="0" long="4" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="11" td="0" long="4"></rcv>
+    <ko no="1" yds="44" ob="0" tb="0"></ko>
+    <defense tackua="5" tacka="4" tot_tack="9" tflua="3" tfla="0" tflyds="8" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="MUL" down="3" togo="3" spot="MUL27" context="V,3,3,V27" playid="11,5,84" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="V,3,3,V27">
+   </play>
+   <play hasball="MUL" down="3" togo="3" spot="MUL27" context="V,3,3,V27" playid="11,6,85" type="P" first="P"
+      text="Kobal L. pass complete to Casale S. for 14 yards to the MUL41, 1ST DOWN MUL (Gabbrielli M.;Balestri M.)." newcontext="V,1,10,V41">
+    <p_pa vh="V" qb="Kobal L." result="COMP" rcv="Casale S." gain="14"></p_pa>
+    <p_tk vh="H" name="Gabbrielli M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Balestri M." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL41" context="V,1,10,V41" playid="11,7,86" type="P" turnover="I"
+      text="Kobal L. pass intercepted by Gabbrielli M. at the MUL43, Gabbrielli M. return 0 yards to the MUL43." newcontext="H,1,10,V43">
+    <p_pa vh="V" qb="Kobal L." result="INT"></p_pa>
+    <p_ir vh="H" name="Gabbrielli M." at="V43" gain="0"></p_ir>
+   </play>
+   <drivesum plays="4" yards="21" top="3:37" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,V43,12:00" vh="H" spot="V43" clock="12:00" driveindex="12,86"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="MUL43" context="H,1,10,V43" playid="12,1,87" clock="10:05"
+      text="WEST COAST RAIDERS T drive start at 10:05." newcontext="H,1,10,V43">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL43" context="H,1,10,V43" playid="12,2,88" type="R" first="R"
+      text="Recce A. rush for 16 yards to the MUL27, 1ST DOWN FAS (Gentile G.;Stolfa G.)." newcontext="H,1,10,V27">
+    <p_ru vh="H" name="Recce A." gain="16"></p_ru>
+    <p_tk vh="V" name="Gentile G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Stolfa G." assist="Y"></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL27" context="H,1,10,V27" playid="12,3,89" type="R"
+      text="Recce A. rush for no gain to the MUL27 (Bonini L.)." newcontext="H,2,10,V27">
+    <p_ru vh="H" name="Recce A." gain="0"></p_ru>
+    <p_tk vh="V" name="Bonini L."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="10" spot="MUL27" context="H,2,10,V27" playid="12,4,90" type="P" first="P"
+      text="Giuntoni F. pass complete to Cardelli F. for 12 yards to the MUL15, 1ST DOWN FAS (Stolfa G.)." newcontext="H,1,10,V15">
+    <p_pa vh="H" qb="Giuntoni F." result="COMP" rcv="Cardelli F." gain="12"></p_pa>
+    <p_tk vh="V" name="Stolfa G."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="MUL15" context="H,1,10,V15" playid="12,5,91" type="P"
+      text="Giuntoni F. pass complete to Belli N. for 4 yards to the MUL11 (Kobal L.)." newcontext="H,2,6,V11">
+    <p_pa vh="H" qb="Giuntoni F." result="COMP" rcv="Belli N." gain="4"></p_pa>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="6" spot="MUL11" context="H,2,6,V11" playid="12,6,92" type="R"
+      text="Giuntoni F. rush for loss of 1 yard to the MUL12." newcontext="H,3,7,V12">
+    <p_ru vh="H" name="Giuntoni F." gain="-1"></p_ru>
+   </play>
+   <play hasball="FAS" down="3" togo="7" spot="MUL12" context="H,3,7,V12" playid="12,7,93" type="R" first="R"
+      text="Recce A. rush for 8 yards to the MUL4, 1ST DOWN FAS (Kobal L.)." newcontext="H,1,0,V04">
+    <p_ru vh="H" name="Recce A." gain="8"></p_ru>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="0" spot="MUL04" context="H,1,0,V04" playid="12,8,94" type="R"
+      text="Recce A. rush for 3 yards to the MUL1 (Kobal L.)." newcontext="H,2,0,V01">
+    <p_ru vh="H" name="Recce A." gain="3"></p_ru>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="0" spot="MUL01" context="H,2,0,V01" playid="12,9,95" type="P" score="Y" clock="03:11"
+      text="Giuntoni F. pass complete to Fogli G. for 1 yard to the MUL0, TOUCHDOWN, clock 03:11." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Giuntoni F." result="COMP" rcv="Fogli G." gain="1"></p_pa>
+   </play>
+   <play hasball="FAS" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="12,10,96" type="X"
+      text="Giuntoni F. pass attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Giuntoni F." qb="Giuntoni F." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="0" H="20"></score>
+   <drivesum plays="8" yards="43" top="6:54" driveindex="12" complete="Y"></drivesum>
+   <play hasball="FAS" down="1" togo="0" spot="FAS30" context="H,1,0,H30" playid="12,11,97" type="K"
+      text="Cardelli F. kickoff 54 yards to the MUL10, Sivec A. return 17 yards to the MUL27." newcontext="V,1,10,V27">
+    <p_ko vh="H" name="Cardelli F." gain="54"></p_ko>
+    <p_kr vh="V" name="Sivec A." gain="17"></p_kr>
+   </play>
+   <drivestart poss="V,V27,03:11" vh="V" spot="V27" clock="03:11" driveindex="13,97"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL27" context="V,1,10,V27" playid="13,1,98" clock="01:54"
+      text="MULI TRIESTE drive start at 01:54." newcontext="V,1,10,V27">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL27" context="V,1,10,V27" playid="13,2,99" type="P"
+      text="Kobal L. pass complete to Sivec A. for 7 yards to the MUL34 (Senesi R.;Hopson D.)." newcontext="V,2,3,V34">
+    <p_pa vh="V" qb="Kobal L." result="COMP" rcv="Sivec A." gain="7"></p_pa>
+    <p_tk vh="H" name="Senesi R." assist="Y"></p_tk>
+    <p_tk vh="H" name="Hopson D." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="3" spot="MUL34" context="V,2,3,V34" playid="13,3,100" type="P" first="P"
+      text="Kobal L. pass complete to Sivec A. for 4 yards to the MUL38, 1ST DOWN MUL, out-of-bounds." ob="Y" newcontext="V,1,10,V38">
+    <p_pa vh="V" qb="Kobal L." result="COMP" rcv="Sivec A." gain="4"></p_pa>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL38" context="V,1,10,V38" playid="13,4,101" type="#" clock="00:22"
+      text="Timeout Muli Trieste, clock 00:22." newcontext="V,1,10,V38">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL38" context="V,1,10,V38" playid="13,5,102" type="R"
+      text="Stolfa G. rush for 3 yards to the MUL41 (Sonna Temgou Y.;Pillonca A.)." newcontext="V,2,7,V41">
+    <p_ru vh="V" name="Stolfa G." gain="3"></p_ru>
+    <p_tk vh="H" name="Sonna Temgou Y." assist="Y"></p_tk>
+    <p_tk vh="H" name="Pillonca A." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="7" spot="MUL41" context="V,2,7,V41" playid="13,6,103" type="#" clock="00:10"
+      text="Timeout Muli Trieste, clock 00:10." newcontext="V,2,7,V41">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="MUL" down="2" togo="7" spot="MUL41" context="V,2,7,V41" playid="13,7,104" type="E"
+      text="Kobal L. pass incomplete (Senesi R.), PENALTY FAS offside defense (Mancini F.) 5 yards to the MUL46, NO PLAY." newcontext="V,2,2,V46">
+    <p_pn vh="H" code="OD" type="offside defense" name="Mancini F." result="ACCEPT" at="V41" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="2" togo="2" spot="MUL46" context="V,2,2,V46" playid="13,8,105" type="P" first="P"
+      text="Kobal L. pass complete to Bonini L. for 3 yards to the FAS45, 1ST DOWN MUL." newcontext="V,1,10,H45">
+    <p_pa vh="V" qb="Kobal L." result="COMP" rcv="Bonini L." gain="3"></p_pa>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="FAS45" context="V,1,10,H45" playid="13,9,106" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="V,1,10,H45">
+   </play>
+   <drivesum plays="4" yards="22" top="1:54" driveindex="13" complete="Y"></drivesum>
+   <score final="Y" V="0" H="20"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="3" rush="0" pass="3" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:06"></misc>
+    <rush att="1" yds="3" gain="3" loss="0" td="0" long="0"></rush>
+    <pass comp="4" att="5" int="1" yds="28" td="0" long="8" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="28" td="0" long="8"></rcv>
+    <defense tackua="5" tacka="2" tot_tack="7" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="17" td="0" long="12"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FAS">
+    <firstdowns no="3" rush="2" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:54"></misc>
+    <rush att="5" yds="26" gain="27" loss="1" td="0" long="0"></rush>
+    <pass comp="3" att="3" int="0" yds="17" td="1" long="1" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="17" td="1" long="1"></rcv>
+    <ko no="1" yds="54" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="0" tacka="6" tot_tack="6" sacks="0" sackyds="0" int="1" intyds="0"></defense>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="MUL" down="1" togo="10" spot="FAS45" context="V,1,10,H45" qtr="4" clock="00:00" vtoh="3" htoh="1"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="MUL">
+ </dnp>
+ <dnp vh="H" id="FAS">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

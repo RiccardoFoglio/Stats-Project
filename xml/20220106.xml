@@ -1,0 +1,1297 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220106" visid="LEG" homeid="EAG" visname="Legio XIII Roma" homename="Eagles Salerno"
+      date="5/21/2022" location="Salerno" stadium="campo Vincenzo Volpe"
+      start="19.20" end="22.00" leaguegame="Y" nitegame="Y"
+      duration="2.20" attend="20" temp="23" wind="no" weather="sunny">
+  <officials sc="Viviano Monica"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="LEG" name="Legio XIII Roma" record="1-3" conf-record="1-3" abb="L">
+  <linescore prds="4" line="3,0,15,13" score="31">
+   <lineprd prd="1" score="3"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="15"></lineprd>
+   <lineprd prd="4" score="13"></lineprd>
+  </linescore>
+  <totals totoff_plays="49" totoff_yards="331" totoff_avg="6.8">
+   <firstdowns no="12" rush="5" pass="7" penalty="0"></firstdowns>
+   <penalties no="8" yds="95"></penalties>
+   <conversions thirdconv="3" thirdatt="10" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="21:18" ona="0" onm="0"></misc>
+   <redzone att="3" scores="3" points="17" tdrush="0" tdpass="2" fgmade="1" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="23" yds="135" gain="173" loss="38" td="1" long="69"></rush>
+   <pass comp="12" att="26" int="0" yds="196" td="3" long="28" sacks="0" sackyds="0"></pass>
+   <rcv no="12" yds="196" td="3" long="28"></rcv>
+   <punt no="6" yds="143" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="23.8"></punt>
+   <ko no="6" yds="140" ob="0" tb="0"></ko>
+   <fg made="1" att="1" long="20" blkd="0"></fg>
+   <pat kickatt="2" kickmade="2" passatt="2" passmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="32" tacka="8" tot_tack="40" tflua="10" tfla="0" tflyds="55" sacks="0" sackyds="0" brup="1" ff="1" fr="3" fryds="0" int="2" intyds="7"></defense>
+   <kr no="2" yds="15" td="0" long="15"></kr>
+   <ir no="2" yds="7" td="0" long="7"></ir>
+   <scoring td="4" fg="1" patkick="2" patrcv="1"></scoring>
+  </totals>
+  <player name="Cacciola F." shortname="Cacciola F." checkname="F.,CACCIOLA" uni="2" gp="1" code="2">
+   <rush att="4" yds="15" gain="15" loss="0" td="0" long="7"></rush>
+   <rcv no="4" yds="97" td="1" long="9"></rcv>
+   <kr no="1" yds="0" td="0" long="0"></kr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Esposito L." shortname="Esposito L." checkname="L.,ESPOSITO" uni="7" gp="1" code="7">
+   <rush att="2" yds="72" gain="72" loss="0" td="1" long="69"></rush>
+   <rcv no="4" yds="36" td="2" long="15"></rcv>
+   <kr no="1" yds="15" td="0" long="15"></kr>
+   <scoring td="3"></scoring>
+  </player>
+  <player name="Brienza S." shortname="Brienza S." checkname="S.,BRIENZA" uni="15" gp="1" code="15">
+   <rcv no="2" yds="43" td="0" long="28"></rcv>
+   <pat rcvatt="1" rcvmade="1"></pat>
+   <scoring patrcv="1"></scoring>
+  </player>
+  <player name="Palaia L." shortname="Palaia L." checkname="L.,PALAIA" uni="30" gp="1" code="30">
+   <rcv no="1" yds="15" td="0" long="15"></rcv>
+  </player>
+  <player name="Congestr&#236; G." shortname="Congestr&#236; G." checkname="G.,CONGESTR&#236;" uni="81" gp="1" code="81">
+   <rcv no="1" yds="5" td="0" long="5"></rcv>
+  </player>
+  <player name="Cacciola L." shortname="Cacciola L." checkname="L.,CACCIOLA" uni="22" gp="1" code="22">
+   <rush att="6" yds="-11" gain="17" loss="28" td="0" long="11"></rush>
+  </player>
+  <player name="Bedetti A." shortname="Bedetti A." checkname="A.,BEDETTI" uni="20" gp="1" code="20"></player>
+  <player name="Benvenuto N." shortname="Benvenuto N." checkname="N.,BENVENUTO" uni="10" gp="1" code="10"></player>
+  <player name="Meduri A." shortname="Meduri A." checkname="A.,MEDURI" uni="24" gp="1" code="24">
+   <defense int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Brisciani M." shortname="Brisciani M." checkname="M.,BRISCIANI" uni="25" gp="1" code="25">
+   <defense tackua="5" tacka="0" tot_tack="5" tflua="1" tfla="0" tflyds="5"></defense>
+  </player>
+  <player name="Fiorucci A." shortname="Fiorucci A." checkname="A.,FIORUCCI" uni="4" gp="1" code="4"></player>
+  <player name="De Simone G." shortname="De Simone G." checkname="SIMONE G.,DE" uni="29" gp="1" code="29">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Fronda A." shortname="Fronda A." checkname="A.,FRONDA" uni="27" gp="1" code="27">
+   <rush att="1" yds="9" gain="9" loss="0" td="0" long="9"></rush>
+  </player>
+  <player name="Ferrao D." shortname="Ferrao D." checkname="D.,FERRAO" uni="32" gp="1" code="32">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Tiraferri A." shortname="Tiraferri A." checkname="A.,TIRAFERRI" uni="35" gp="1" code="35">
+   <defense tackua="0" tacka="2" tot_tack="2"></defense>
+  </player>
+  <player name="Romanini G." shortname="Romanini G." checkname="G.,ROMANINI" uni="44" gp="1" code="44"></player>
+  <player name="Cavallo F." shortname="Cavallo F." checkname="F.,CAVALLO" uni="47" gp="1" code="47"></player>
+  <player name="Gavioli T." shortname="Gavioli T." checkname="T.,GAVIOLI" uni="51" gp="1" code="51"></player>
+  <player name="Rocchi M." shortname="Rocchi M." checkname="M.,ROCCHI" uni="57" gp="1" code="57">
+   <defense tackua="4" tacka="0" tot_tack="4"></defense>
+  </player>
+  <player name="Lattanzio G." shortname="Lattanzio G." checkname="G.,LATTANZIO" uni="60" gp="1" code="60">
+   <defense tackua="2" tacka="0" tot_tack="2" tflua="2" tfla="0" tflyds="7" ff="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Fiorito L." shortname="Fiorito L." checkname="L.,FIORITO" uni="61" gp="1" code="61">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="Vidali A." shortname="Vidali A." checkname="A.,VIDALI" uni="67" gp="1" code="67">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Bellini D." shortname="Bellini D." checkname="D.,BELLINI" uni="73" gp="1" code="73">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Bernardini P." shortname="Bernardini P." checkname="P.,BERNARDINI" uni="74" gp="1" code="74">
+   <punt no="6" yds="143" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="23.8"></punt>
+   <ko no="6" yds="140" ob="0" tb="0"></ko>
+   <fg made="1" att="1" long="20" blkd="0"></fg>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+   <scoring fg="1" patkick="2"></scoring>
+  </player>
+  <player name="Iossa T." shortname="Iossa T." checkname="T.,IOSSA" uni="77" gp="1" code="77">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Ansalone G." shortname="Ansalone G." checkname="G.,ANSALONE" uni="78" gp="1" code="78"></player>
+  <player name="Giachino E." shortname="Giachino E." checkname="E.,GIACHINO" uni="1" gp="1" code="1">
+   <rush att="10" yds="50" gain="60" loss="10" td="0" long="28"></rush>
+   <pass comp="12" att="26" int="0" yds="196" td="3" long="28" sacks="0" sackyds="0"></pass>
+   <pat passatt="2" passmade="1"></pat>
+  </player>
+  <player name="Daliana A." shortname="Daliana A." checkname="A.,DALIANA" uni="82" gp="1" code="82"></player>
+  <player name="De Dominicis N." shortname="De Dominicis N." checkname="DOMINICIS N.,DE" uni="85" gp="1" code="85">
+   <defense tackua="5" tacka="0" tot_tack="5" tflua="4" tfla="0" tflyds="37"></defense>
+  </player>
+  <player name="Peccia A." shortname="Peccia A." checkname="A.,PECCIA" uni="87" gp="1" code="87"></player>
+  <player name="Zampetti L." shortname="Zampetti L." checkname="L.,ZAMPETTI" uni="90" gp="1" code="90">
+   <defense tackua="4" tacka="0" tot_tack="4" tflua="1" tfla="0" tflyds="4" fr="1" fryds="0" int="1" intyds="7"></defense>
+   <ir no="1" yds="7" td="0" long="7"></ir>
+  </player>
+  <player name="Turano D." shortname="Turano D." checkname="D.,TURANO" uni="99" gp="1" code="99">
+   <defense tackua="3" tacka="1" tot_tack="4" brup="1"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="3" tacka="0" tot_tack="3" fr="1" fryds="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="EAG" name="Eagles Salerno" record="1-3" conf-record="1-3" abb="E">
+  <linescore prds="4" line="8,0,0,8" score="16">
+   <lineprd prd="1" score="8"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="8"></lineprd>
+  </linescore>
+  <totals totoff_plays="59" totoff_yards="111" totoff_avg="1.9">
+   <firstdowns no="13" rush="4" pass="2" penalty="7"></firstdowns>
+   <penalties no="4" yds="20"></penalties>
+   <conversions thirdconv="1" thirdatt="12" fourthconv="1" fourthatt="5"></conversions>
+   <fumbles no="3" lost="3"></fumbles>
+   <misc yds="0" top="26:42" ona="0" onm="0"></misc>
+   <redzone att="4" scores="2" points="16" tdrush="2" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="1" endfumb="1" endhalf="0" endgame="0"></redzone>
+   <rush att="32" yds="56" gain="130" loss="74" td="2" long="35"></rush>
+   <pass comp="6" att="27" int="2" yds="55" td="0" long="20" sacks="0" sackyds="0"></pass>
+   <rcv no="6" yds="55" td="0" long="20"></rcv>
+   <punt no="3" yds="101" long="40" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="33.7"></punt>
+   <ko no="3" yds="91" ob="1" tb="0"></ko>
+   <pat rushatt="1" rushmade="1" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="23" tacka="10" tot_tack="33" tflua="5" tfla="0" tflyds="38" sacks="0" sackyds="0" brup="3"></defense>
+   <kr no="6" yds="45" td="0" long="46"></kr>
+   <pr no="2" yds="3" td="0" long="3"></pr>
+   <scoring td="2" patrush="1" patrcv="1"></scoring>
+  </totals>
+  <player name="Contardi F." shortname="Contardi F." checkname="F.,CONTARDI" uni="9" gp="1" code="9">
+   <rush att="10" yds="80" gain="81" loss="1" td="0" long="35"></rush>
+   <rcv no="3" yds="23" td="0" long="9"></rcv>
+   <pat rushatt="1" rushmade="1" rcvatt="1" rcvmade="1"></pat>
+   <kr no="1" yds="-29" td="0" long="0"></kr>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring patrush="1" patrcv="1"></scoring>
+  </player>
+  <player name="Leo V." shortname="Leo V." checkname="V.,LEO" uni="3" gp="1" code="3">
+   <rush att="2" yds="-20" gain="0" loss="20" td="0" long="0"></rush>
+   <pass comp="1" att="5" int="0" yds="9" td="0" long="9" sacks="0" sackyds="0"></pass>
+   <rcv no="2" yds="25" td="0" long="20"></rcv>
+   <pat passatt="1" passmade="1"></pat>
+  </player>
+  <player name="Formisano I." shortname="Formisano I." checkname="I.,FORMISANO" uni="89" gp="1" code="89">
+   <rcv no="1" yds="7" td="0" long="7"></rcv>
+  </player>
+  <player name="Mele L." shortname="Mele L." checkname="L.,MELE" uni="6" gp="1" code="6">
+   <rush att="3" yds="-1" gain="2" loss="3" td="1" long="1"></rush>
+   <kr no="5" yds="74" td="0" long="46"></kr>
+   <pr no="1" yds="3" td="0" long="3"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Della Rocca V." shortname="Della Rocca V." checkname="ROCCA V.,DELLA" uni="40" gp="1" code="40">
+   <rush att="4" yds="-10" gain="9" loss="19" td="1" long="8"></rush>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Ronga G." shortname="Ronga G." checkname="G.,RONGA" uni="84" gp="1" code="84">
+   <rush att="7" yds="-11" gain="15" loss="26" td="0" long="11"></rush>
+   <pass comp="5" att="22" int="2" yds="46" td="0" long="20" sacks="0" sackyds="0"></pass>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Novella M." shortname="Novella M." checkname="M.,NOVELLA" uni="8" gp="1" code="8">
+   <rush att="2" yds="2" gain="6" loss="4" td="0" long="6"></rush>
+  </player>
+  <player name="Petito S." shortname="Petito S." checkname="S.,PETITO" uni="7" gp="1" code="7"></player>
+  <player name="Prosperi L." shortname="Prosperi L." checkname="L.,PROSPERI" uni="1" gp="1" code="1">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Bove A." shortname="Bove A." checkname="A.,BOVE" uni="11" gp="1" code="11">
+   <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="2" brup="1"></defense>
+  </player>
+  <player name="Mastandrea P." shortname="Mastandrea P." checkname="P.,MASTANDREA" uni="16" gp="1" code="16"></player>
+  <player name="Marra F." shortname="Marra F." checkname="F.,MARRA" uni="17" gp="1" code="17">
+   <defense tackua="3" tacka="2" tot_tack="5"></defense>
+   <pr no="1" yds="0" td="0" long="0"></pr>
+  </player>
+  <player name="Papaccio G." shortname="Papaccio G." checkname="G.,PAPACCIO" uni="22" gp="1" code="22">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Ciancone B." shortname="Ciancone B." checkname="B.,CIANCONE" uni="23" gp="1" code="23"></player>
+  <player name="Di Mauro A." shortname="Di Mauro A." checkname="MAURO A.,DI" uni="27" gp="1" code="27">
+   <defense tackua="2" tacka="1" tot_tack="3" brup="1"></defense>
+  </player>
+  <player name="Bisogni M." shortname="Bisogni M." checkname="M.,BISOGNI" uni="33" gp="1" code="33">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="De Sio M." shortname="De Sio M." checkname="SIO M.,DE" uni="34" gp="1" code="34">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="Botta L." shortname="Botta L." checkname="L.,BOTTA" uni="36" gp="1" code="36"></player>
+  <player name="Canzano P." shortname="Canzano P." checkname="P.,CANZANO" uni="4" gp="1" code="4"></player>
+  <player name="Veldorale M." shortname="Veldorale M." checkname="M.,VELDORALE" uni="46" gp="1" code="46">
+   <punt no="3" yds="101" long="40" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="33.7"></punt>
+   <ko no="3" yds="91" ob="1" tb="0"></ko>
+   <defense tackua="3" tacka="3" tot_tack="6" tflua="1" tfla="0" tflyds="7" brup="1"></defense>
+  </player>
+  <player name="Gaio A." shortname="Gaio A." checkname="A.,GAIO" uni="50" gp="1" code="50">
+   <defense tackua="5" tacka="2" tot_tack="7" tflua="1" tfla="0" tflyds="19"></defense>
+  </player>
+  <player name="Della Mura M." shortname="Della Mura M." checkname="MURA M.,DELLA" uni="66" gp="1" code="66"></player>
+  <player name="Marino G." shortname="Marino G." checkname="G.,MARINO" uni="67" gp="1" code="67">
+   <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="9"></defense>
+  </player>
+  <player name="Curcio A." shortname="Curcio A." checkname="A.,CURCIO" uni="71" gp="1" code="71"></player>
+  <player name="Langella A." shortname="Langella A." checkname="A.,LANGELLA" uni="75" gp="1" code="75"></player>
+  <player name="Conte M." shortname="Conte M." checkname="M.,CONTE" uni="76" gp="1" code="76"></player>
+  <player name="Monzani M." shortname="Monzani M." checkname="M.,MONZANI" uni="79" gp="1" code="79"></player>
+  <player name="Vietri A." shortname="Vietri A." checkname="A.,VIETRI" uni="0" gp="1" code="0"></player>
+  <player name="Annunziata G." shortname="Annunziata G." checkname="G.,ANNUNZIATA" uni="2" gp="1" code="2">
+   <rush att="4" yds="16" gain="17" loss="1" td="0" long="16"></rush>
+  </player>
+  <player name="Celestino O." shortname="Celestino O." checkname="O.,CELESTINO" uni="90" gp="1" code="90">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Vietri A." shortname="Vietri A." checkname="A.,VIETRI" uni="92" gp="1" code="92"></player>
+  <player name="Spirito F." shortname="Spirito F." checkname="F.,SPIRITO" uni="99" gp="1" code="99"></player>
+ </team>
+ <scores>
+  <score vh="H" team="EAG" qtr="1" clock="06:55" type="TD" how="RUSH" yds="1" scorer="Mele L." patby="Contardi F." pattype="RUSH" patres="GOOD" plays="4" drive="57" top="3:00" vscore="0" hscore="8" driveindex="4"></score>
+  <score vh="V" team="LEG" qtr="1" clock="00:02" type="FG" yds="20" scorer="Bernardini P." plays="8" drive="69" top="3:48" vscore="3" hscore="8" driveindex="7"></score>
+  <score vh="V" team="LEG" qtr="3" clock="08:23" type="TD" how="PASS" yds="10" scorer="Esposito L." passer="Giachino E." patby="Brienza S." pattype="PASS" patres="GOOD" plays="2" drive="11" top="0:27" vscore="11" hscore="8" driveindex="15"></score>
+  <score vh="V" team="LEG" qtr="3" clock="06:10" type="TD" how="RUSH" yds="69" scorer="Esposito L." patby="Bernardini P." pattype="KICK" patres="GOOD" plays="1" drive="69" top="0:20" vscore="18" hscore="8" driveindex="17"></score>
+  <score vh="V" team="LEG" qtr="4" clock="06:00" type="TD" how="PASS" yds="15" scorer="Esposito L." passer="Giachino E." patby="Giachino E." pattype="PASS" patres="FAIL" plays="12" drive="55" top="4:00" vscore="24" hscore="8" driveindex="21"></score>
+  <score vh="V" team="LEG" qtr="4" clock="01:58" type="TD" how="PASS" yds="60" scorer="Cacciola F." passer="Giachino E." patby="Bernardini P." pattype="KICK" patres="GOOD" plays="2" drive="63" top="0:20" vscore="31" hscore="8" driveindex="23"></score>
+  <score vh="H" team="EAG" qtr="4" clock="00:05" type="TD" how="RUSH" yds="1" scorer="Della Rocca V." patby="Contardi F." pattype="PASS" patres="GOOD" plays="7" drive="39" top="1:53" vscore="31" hscore="16" driveindex="24"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="LEG" kicker="Bernardini P." qtr="1" clock="00:02" distance="20" result="good"></fga>
+ </fgas>
+ <drives>
+  <drive vh="V" team="LEG" start="POSS,1,12:00,30" end="KO,1,12:00,30" plays="0" yards="0" top="0:00" start_how="POSS" start_qtr="1" start_time="12:00" start_spot="LEG30" end_how="KO" end_qtr="1" end_time="12:00" end_spot="LEG30" driveindex="1"></drive>
+  <drive vh="H" team="EAG" start="KO,1,12:00,33" end="PUNT,1,10:00,36" plays="3" yards="3" top="2:00" start_how="KO" start_qtr="1" start_time="12:00" start_spot="EAG33" end_how="PUNT" end_qtr="1" end_time="10:00" end_spot="EAG36" driveindex="2"></drive>
+  <drive vh="V" team="LEG" start="PUNT,1,10:00,21" end="PUNT,1,09:55,25" plays="3" yards="4" top="0:05" start_how="PUNT" start_qtr="1" start_time="10:00" start_spot="LEG21" end_how="PUNT" end_qtr="1" end_time="09:55" end_spot="LEG25" driveindex="3"></drive>
+  <drive vh="H" team="EAG" start="PUNT,1,09:55,33" end="TD,1,06:55,90" plays="4" yards="57" top="3:00" start_how="PUNT" start_qtr="1" start_time="09:55" start_spot="EAG33" end_how="TD" end_qtr="1" end_time="06:55" end_spot="LEG00" rz="1" driveindex="4"></drive>
+  <drive vh="V" team="LEG" start="KO,1,06:55,19" end="PUNT,1,04:00,19" plays="3" yards="0" top="2:55" start_how="KO" start_qtr="1" start_time="06:55" start_spot="LEG19" end_how="PUNT" end_qtr="1" end_time="04:00" end_spot="LEG19" driveindex="5"></drive>
+  <drive vh="H" team="EAG" start="PUNT,1,04:00,65" end="PUNT,1,03:50,49" plays="3" yards="-16" top="0:10" start_how="PUNT" start_qtr="1" start_time="04:00" start_spot="LEG25" end_how="PUNT" end_qtr="1" end_time="03:50" end_spot="LEG41" driveindex="6"></drive>
+  <drive vh="V" team="LEG" start="PUNT,1,03:50,1" end="FG,1,00:02,70" plays="8" yards="69" top="3:48" start_how="PUNT" start_qtr="1" start_time="03:50" start_spot="LEG01" end_how="FG" end_qtr="1" end_time="00:02" end_spot="EAG20" rz="1" driveindex="7"></drive>
+  <drive vh="H" team="EAG" start="KO,1,00:00,38" end="PUNT,2,10:00,38" plays="3" yards="0" top="2:00" start_how="KO" start_qtr="1" start_time="00:00" start_spot="EAG38" end_how="PUNT" end_qtr="2" end_time="10:00" end_spot="EAG38" driveindex="8"></drive>
+  <drive vh="V" team="LEG" start="PUNT,2,10:00,24" end="PUNT,2,08:00,23" plays="3" yards="-1" top="2:00" start_how="PUNT" start_qtr="2" start_time="10:00" start_spot="LEG24" end_how="PUNT" end_qtr="2" end_time="08:00" end_spot="LEG23" driveindex="9"></drive>
+  <drive vh="H" team="EAG" start="PUNT,2,08:00,58" end="INT,2,03:44,79" plays="7" yards="21" top="4:16" start_how="PUNT" start_qtr="2" start_time="08:00" start_spot="LEG32" end_how="INT" end_qtr="2" end_time="03:44" end_spot="LEG11" rz="1" driveindex="10"></drive>
+  <drive vh="V" team="LEG" start="INT,2,03:44,12" end="PUNT,2,00:29,37" plays="6" yards="25" top="3:15" start_how="INT" start_qtr="2" start_time="03:44" start_spot="LEG12" end_how="PUNT" end_qtr="2" end_time="00:29" end_spot="LEG37" driveindex="11"></drive>
+  <drive vh="H" team="EAG" start="PUNT,2,00:29,14" end="HALF,2,00:00,28" plays="3" yards="14" top="0:29" start_how="PUNT" start_qtr="2" start_time="00:29" start_spot="EAG14" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="EAG28" driveindex="12"></drive>
+  <drive vh="V" team="LEG" start="KO,3,12:00,25" end="PUNT,3,09:00,41" plays="5" yards="16" top="3:00" start_how="KO" start_qtr="3" start_time="12:00" start_spot="LEG25" end_how="PUNT" end_qtr="3" end_time="09:00" end_spot="LEG41" driveindex="13"></drive>
+  <drive vh="H" team="EAG" start="PUNT,3,09:00,20" end="FUMB,3,08:50,11" plays="2" yards="-9" top="0:10" start_how="PUNT" start_qtr="3" start_time="09:00" start_spot="EAG20" end_how="FUMB" end_qtr="3" end_time="08:50" end_spot="EAG11" driveindex="14"></drive>
+  <drive vh="V" team="LEG" start="FUMB,3,08:50,79" end="TD,3,08:23,90" plays="2" yards="11" top="0:27" start_how="FUMB" start_qtr="3" start_time="08:50" start_spot="EAG11" end_how="TD" end_qtr="3" end_time="08:23" end_spot="EAG00" rz="1" driveindex="15"></drive>
+  <drive vh="H" team="EAG" start="KO,3,08:20,53" end="FUMB,3,06:30,69" plays="4" yards="16" top="1:50" start_how="KO" start_qtr="3" start_time="08:20" start_spot="LEG37" end_how="FUMB" end_qtr="3" end_time="06:30" end_spot="LEG21" driveindex="16"></drive>
+  <drive vh="V" team="LEG" start="FUMB,3,06:30,21" end="TD,3,06:10,90" plays="1" yards="69" top="0:20" start_how="FUMB" start_qtr="3" start_time="06:30" start_spot="LEG21" end_how="TD" end_qtr="3" end_time="06:10" end_spot="EAG00" driveindex="17"></drive>
+  <drive vh="H" team="EAG" start="KO,3,06:10,56" end="FUMB,3,02:03,70" plays="6" yards="14" top="4:07" start_how="KO" start_qtr="3" start_time="06:10" start_spot="LEG34" end_how="FUMB" end_qtr="3" end_time="02:03" end_spot="LEG20" rz="1" driveindex="18"></drive>
+  <drive vh="V" team="LEG" start="FUMB,3,02:03,20" end="PUNT,3,01:00,25" plays="3" yards="5" top="1:03" start_how="FUMB" start_qtr="3" start_time="02:03" start_spot="LEG20" end_how="PUNT" end_qtr="3" end_time="01:00" end_spot="LEG25" driveindex="19"></drive>
+  <drive vh="H" team="EAG" start="PUNT,3,01:00,40" end="DOWNS,4,10:00,55" plays="8" yards="15" top="3:00" start_how="PUNT" start_qtr="3" start_time="01:00" start_spot="EAG40" end_how="DOWNS" end_qtr="4" end_time="10:00" end_spot="LEG35" driveindex="20"></drive>
+  <drive vh="V" team="LEG" start="DOWNS,4,10:00,35" end="TD,4,06:00,90" plays="12" yards="55" top="4:00" start_how="DOWNS" start_qtr="4" start_time="10:00" start_spot="LEG35" end_how="TD" end_qtr="4" end_time="06:00" end_spot="EAG00" rz="1" driveindex="21"></drive>
+  <drive vh="H" team="EAG" start="KO,4,05:50,34" end="INT,4,02:18,60" plays="9" yards="26" top="3:32" start_how="KO" start_qtr="4" start_time="05:50" start_spot="EAG34" end_how="INT" end_qtr="4" end_time="02:18" end_spot="LEG30" driveindex="22"></drive>
+  <drive vh="V" team="LEG" start="INT,4,02:18,27" end="TD,4,01:58,90" plays="2" yards="63" top="0:20" start_how="INT" start_qtr="4" start_time="02:18" start_spot="LEG27" end_how="TD" end_qtr="4" end_time="01:58" end_spot="EAG00" driveindex="23"></drive>
+  <drive vh="H" team="EAG" start="KO,4,01:58,51" end="TD,4,00:05,90" plays="7" yards="39" top="1:53" start_how="KO" start_qtr="4" start_time="01:58" start_spot="LEG39" end_how="TD" end_qtr="4" end_time="00:05" end_spot="LEG00" rz="1" driveindex="24"></drive>
+  <drive vh="V" team="LEG" start="KO,4,00:05,51" end="HALF,4,00:00,60" plays="1" yards="9" top="0:05" start_how="KO" start_qtr="4" start_time="00:05" start_spot="EAG39" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="EAG30" driveindex="25"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="LEG" down="1" togo="10" spot="LEG30" context="V,1,10,V30" playid="0,1,0"
+      text="legio win coin toss and elect to kick" newcontext="V,1,10,V30">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG30" context="V,1,10,V30" playid="0,2,1" type="#" clock="12:00"
+      text="Start of 1st quarter, clock 12:00, Change of possession, LEG ball on LEG30, 1st and 10." newcontext="V,1,10,V30">
+   </play>
+   <drivestart poss="V,V30,12:00" vh="V" spot="V30" clock="12:00" driveindex="1,1"></drivestart>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="1" complete="Y"></drivesum>
+   <play hasball="LEG" down="1" togo="10" spot="LEG30" context="V,1,10,V30" playid="1,1,2" type="K"
+      text="Bernardini P. kickoff 50 yards to the EAG10, Mele L. return 23 yards to the EAG33 (Iossa T.;Fiorito L.)." newcontext="H,1,10,H33">
+    <p_ko vh="V" name="Bernardini P." gain="50"></p_ko>
+    <p_kr vh="H" name="Mele L." gain="23"></p_kr>
+    <p_tk vh="V" name="Iossa T." assist="Y"></p_tk>
+    <p_tk vh="V" name="Fiorito L." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="H,H33,12:00" vh="H" spot="H33" clock="12:00" driveindex="2,2"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="EAG33" context="H,1,10,H33" playid="2,1,3" clock="12:00"
+      text="EAGLES SALERNO drive start at 12:00." newcontext="H,1,10,H33">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="EAG33" context="H,1,10,H33" playid="2,2,4" type="P"
+      text="Ronga G. pass incomplete to Formisano I.." newcontext="H,2,10,H33">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Formisano I."></p_pa>
+   </play>
+   <play hasball="EAG" down="2" togo="10" spot="EAG33" context="H,2,10,H33" playid="2,3,5" type="R"
+      text="Ronga G. rush for 4 yards to the EAG37, out-of-bounds." ob="Y" newcontext="H,3,6,H37">
+    <p_ru vh="H" name="Ronga G." gain="4"></p_ru>
+   </play>
+   <play hasball="EAG" down="3" togo="6" spot="EAG37" context="H,3,6,H37" playid="2,4,6" type="R"
+      text="Ronga G. rush for loss of 1 yard to the EAG36 (De Dominicis N.)." newcontext="H,4,7,H36">
+    <p_ru vh="H" name="Ronga G." gain="-1"></p_ru>
+    <p_tk vh="V" name="De Dominicis N." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="4" togo="7" spot="EAG36" context="H,4,7,H36" playid="2,5,7" type="U"
+      text="Veldorale M. punt 33 yards to the LEG21, out-of-bounds." ob="Y" newcontext="V,1,10,V21">
+    <p_pu vh="H" name="Veldorale M." gain="33" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="3" top="2:00" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,V21,12:00" vh="V" spot="V21" clock="12:00" driveindex="3,7"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="LEG21" context="V,1,10,V21" playid="3,1,8" clock="10:00"
+      text="LEGIO XIII ROMA drive start at 10:00." newcontext="V,1,10,V21">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG21" context="V,1,10,V21" playid="3,2,9" type="P"
+      text="Giachino E. pass incomplete to Esposito L.." newcontext="V,2,10,V21">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Esposito L."></p_pa>
+   </play>
+   <play hasball="LEG" down="2" togo="10" spot="LEG21" context="V,2,10,V21" playid="3,3,10" type="R"
+      text="Giachino E. rush for 4 yards to the LEG25, out-of-bounds." ob="Y" newcontext="V,3,6,V25">
+    <p_ru vh="V" name="Giachino E." gain="4"></p_ru>
+   </play>
+   <play hasball="LEG" down="3" togo="6" spot="LEG25" context="V,3,6,V25" playid="3,4,11" type="P"
+      text="Giachino E. pass incomplete to Esposito L. (Di Mauro A.)." newcontext="V,4,6,V25">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Esposito L."></p_pa>
+    <p_bu vh="H" name="Di Mauro A."></p_bu>
+   </play>
+   <play hasball="LEG" down="4" togo="6" spot="LEG25" context="V,4,6,V25" playid="3,5,12" type="U"
+      text="Bernardini P. punt 35 yards to the EAG30, Mele L. return 3 yards to the EAG33, out-of-bounds." ob="Y" newcontext="H,1,10,H33">
+    <p_pu vh="V" name="Bernardini P." gain="35"></p_pu>
+    <p_pr vh="H" name="Mele L." gain="3"></p_pr>
+   </play>
+   <drivesum plays="3" yards="4" top="0:05" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,H33,10:00" vh="H" spot="H33" clock="10:00" driveindex="4,12"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="EAG33" context="H,1,10,H33" playid="4,1,13" clock="09:55"
+      text="EAGLES SALERNO drive start at 09:55." newcontext="H,1,10,H33">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="EAG33" context="H,1,10,H33" playid="4,2,14" type="R"
+      text="Contardi F. rush for 1 yard to the EAG34 (Iossa T.)." newcontext="H,2,9,H34">
+    <p_ru vh="H" name="Contardi F." gain="1"></p_ru>
+    <p_tk vh="V" name="Iossa T."></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="9" spot="EAG34" context="H,2,9,H34" playid="4,3,15" type="R" first="R"
+      text="Contardi F. rush for 35 yards to the LEG21, 1ST DOWN EAG, out-of-bounds." ob="Y" newcontext="H,1,10,V21">
+    <p_ru vh="H" name="Contardi F." gain="35"></p_ru>
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG21" context="H,1,10,V21" playid="4,4,16" type="P" first="P"
+      text="Ronga G. pass complete to Leo V. for 20 yards to the LEG1, 1ST DOWN EAG (Ferrao D.)." newcontext="H,1,0,V01">
+    <p_pa vh="H" qb="Ronga G." result="COMP" rcv="Leo V." gain="20"></p_pa>
+    <p_tk vh="V" name="Ferrao D."></p_tk>
+   </play>
+   <play hasball="EAG" down="1" togo="0" spot="LEG01" context="H,1,0,V01" playid="4,5,17" type="R" score="Y" clock="06:55"
+      text="Mele L. rush for 1 yard to the LEG0, TOUCHDOWN, clock 06:55." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Mele L." gain="1"></p_ru>
+   </play>
+   <play hasball="EAG" down="1" togo="0" spot="LEG03" context="H,1,0,V03" playid="4,6,18" type="X" score="Y"
+      text="Contardi F. rush attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Contardi F." qb="Contardi F." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="8"></score>
+   <drivesum plays="4" yards="57" top="3:00" driveindex="4" complete="Y"></drivesum>
+   <play hasball="EAG" down="1" togo="0" spot="EAG30" context="H,1,0,H30" playid="4,7,19" type="K"
+      text="Veldorale M. kickoff 41 yards to the LEG19, Cacciola F. return 0 yards to the LEG19." newcontext="V,1,10,V19">
+    <p_ko vh="H" name="Veldorale M." gain="41"></p_ko>
+    <p_kr vh="V" name="Cacciola F." gain="0"></p_kr>
+   </play>
+   <drivestart poss="V,V19,06:55" vh="V" spot="V19" clock="06:55" driveindex="5,19"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="LEG19" context="V,1,10,V19" playid="5,1,20" clock="06:55"
+      text="LEGIO XIII ROMA drive start at 06:55." newcontext="V,1,10,V19">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG19" context="V,1,10,V19" playid="5,2,21" type="P"
+      text="Giachino E. pass incomplete." newcontext="V,2,10,V19">
+    <p_pa vh="V" qb="Giachino E." result="INC"></p_pa>
+   </play>
+   <play hasball="LEG" down="2" togo="10" spot="LEG19" context="V,2,10,V19" playid="5,3,22" type="P"
+      text="Giachino E. pass complete to Esposito L. for 7 yards to the LEG26 (Veldorale M.)." newcontext="V,3,3,V26">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Esposito L." gain="7"></p_pa>
+    <p_tk vh="H" name="Veldorale M."></p_tk>
+   </play>
+   <play hasball="LEG" down="3" togo="3" spot="LEG26" context="V,3,3,V26" playid="5,4,23" type="R"
+      text="Giachino E. rush for loss of 7 yards to the LEG19 (Veldorale M.)." newcontext="V,4,10,V19">
+    <p_ru vh="V" name="Giachino E." gain="-7"></p_ru>
+    <p_tk vh="H" name="Veldorale M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LEG" down="4" togo="10" spot="LEG19" context="V,4,10,V19" playid="5,5,24" type="U"
+      text="Bernardini P. punt 6 yards to the LEG25." newcontext="H,1,10,V25">
+    <p_pu vh="V" name="Bernardini P." gain="6"></p_pu>
+   </play>
+   <drivesum plays="3" yards="0" top="2:55" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,V25,06:55" vh="H" spot="V25" clock="06:55" driveindex="6,24"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="LEG25" context="H,1,10,V25" playid="6,1,25" clock="04:00"
+      text="EAGLES SALERNO drive start at 04:00." newcontext="H,1,10,V25">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG25" context="H,1,10,V25" playid="6,2,26" type="R"
+      text="Ronga G. rush for loss of 15 yards to the LEG40 (De Dominicis N.)." newcontext="H,2,25,V40">
+    <p_ru vh="H" name="Ronga G." gain="-15"></p_ru>
+    <p_tk vh="V" name="De Dominicis N." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="25" spot="LEG40" context="H,2,25,V40" playid="6,3,27" type="P"
+      text="Ronga G. pass incomplete to Formisano I.." newcontext="H,3,25,V40">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Formisano I."></p_pa>
+   </play>
+   <play hasball="EAG" down="3" togo="25" spot="LEG40" context="H,3,25,V40" playid="6,4,28" type="R"
+      text="Ronga G. rush for loss of 1 yard to the LEG41 (Bellini D.)." newcontext="H,4,26,V41">
+    <p_ru vh="H" name="Ronga G." gain="-1"></p_ru>
+    <p_tk vh="V" name="Bellini D." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="4" togo="26" spot="LEG41" context="H,4,26,V41" playid="6,5,29" type="#" clock="03:50"
+      text="Timeout Eagles Salerno, clock 03:50." newcontext="H,4,26,V41">
+    <p_to vh="H" team="Eagles Salerno"></p_to>
+   </play>
+   <play hasball="EAG" down="4" togo="26" spot="LEG41" context="H,4,26,V41" playid="6,6,30" type="U"
+      text="Veldorale M. punt 40 yards to the LEG1, out-of-bounds." ob="Y" newcontext="V,1,10,V01">
+    <p_pu vh="H" name="Veldorale M." gain="40" in20="Y" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="-16" top="0:10" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,V01,03:50" vh="V" spot="V01" clock="03:50" driveindex="7,30"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="LEG01" context="V,1,10,V01" playid="7,1,31" clock="03:50"
+      text="LEGIO XIII ROMA drive start at 03:50." newcontext="V,1,10,V01">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG01" context="V,1,10,V01" playid="7,2,32" type="R" first="R"
+      text="Cacciola L. rush for 11 yards to the LEG12, 1ST DOWN LEG (Marra F.)." newcontext="V,1,10,V12">
+    <p_ru vh="V" name="Cacciola L." gain="11"></p_ru>
+    <p_tk vh="H" name="Marra F."></p_tk>
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG12" context="V,1,10,V12" playid="7,3,33" type="P"
+      text="Giachino E. pass incomplete to Congestr&#236; G.." newcontext="V,2,10,V12">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Congestr&#236; G."></p_pa>
+   </play>
+   <play hasball="LEG" down="2" togo="10" spot="LEG12" context="V,2,10,V12" playid="7,4,34" type="P" first="P"
+      text="Giachino E. pass complete to Brienza S. for 28 yards to the LEG40, Brienza S. for 17 yards to the EAG33, 1ST DOWN LEG (Marra F.)." newcontext="V,1,10,H33">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Brienza S." gain="28"></p_pa>
+    <p_cont vh="V" name="Brienza S." context="PASS" at="V40" gain="17"></p_cont>
+    <p_tk vh="H" name="Marra F."></p_tk>
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="EAG33" context="V,1,10,H33" playid="7,5,35" type="R"
+      text="Cacciola L. rush for 4 yards to the EAG29 (Veldorale M.)." newcontext="V,2,6,H29">
+    <p_ru vh="V" name="Cacciola L." gain="4"></p_ru>
+    <p_tk vh="H" name="Veldorale M."></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="6" spot="EAG29" context="V,2,6,H29" playid="7,6,36" type="P" first="P"
+      text="Giachino E. pass complete to Cacciola F. for 9 yards to the EAG20, 1ST DOWN LEG (Papaccio G.)." newcontext="V,1,10,H20">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Cacciola F." gain="9"></p_pa>
+    <p_tk vh="H" name="Papaccio G."></p_tk>
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="EAG20" context="V,1,10,H20" playid="7,7,37" type="P"
+      text="Giachino E. pass incomplete to Brienza S. (Veldorale M.)." newcontext="V,2,10,H20">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Brienza S."></p_pa>
+    <p_bu vh="H" name="Veldorale M."></p_bu>
+   </play>
+   <play hasball="LEG" down="2" togo="10" spot="EAG20" context="V,2,10,H20" playid="7,8,38" type="#" clock="00:51"
+      text="Timeout Legio XIII Roma, clock 00:51." newcontext="V,2,10,H20">
+    <p_to vh="V" team="Legio XIII Roma"></p_to>
+   </play>
+   <play hasball="LEG" down="2" togo="10" spot="EAG20" context="V,2,10,H20" playid="7,9,39" type="R"
+      text="Cacciola L. rush for no gain to the EAG20 (Gaio A.)." newcontext="V,3,10,H20">
+    <p_ru vh="V" name="Cacciola L." gain="0"></p_ru>
+    <p_tk vh="H" name="Gaio A."></p_tk>
+   </play>
+   <play hasball="LEG" down="3" togo="10" spot="EAG20" context="V,3,10,H20" playid="7,10,40" type="P"
+      text="Giachino E. pass incomplete to Esposito L.." newcontext="V,4,10,H20">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Esposito L."></p_pa>
+   </play>
+   <play hasball="LEG" down="4" togo="10" spot="EAG20" context="V,4,10,H20" playid="7,11,41" type="F" score="Y" clock="00:02"
+      text="Bernardini P. field goal attempt from 20 GOOD, clock 00:02." newcontext="V,1,0,V30">
+    <p_fg vh="V" name="Bernardini P." distance="20" result="GOOD" score="Y"></p_fg>
+   </play>
+   <score V="3" H="8"></score>
+   <drivesum plays="8" yards="69" top="3:48" driveindex="7" complete="Y"></drivesum>
+   <play hasball="LEG" down="1" togo="0" spot="LEG30" context="V,1,0,V30" playid="7,12,42" type="K"
+      text="Bernardini P. kickoff 45 yards to the EAG15, Mele L. return 23 yards to the EAG38 (Fiorito L.)." newcontext="H,1,10,H38">
+    <p_ko vh="V" name="Bernardini P." gain="45"></p_ko>
+    <p_kr vh="H" name="Mele L." gain="23"></p_kr>
+    <p_tk vh="V" name="Fiorito L."></p_tk>
+   </play>
+   <drivestart poss="H,H38,00:02" vh="H" spot="H38" clock="00:02" driveindex="8,42"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="EAG38" context="H,1,10,H38" playid="8,1,43" clock="00:00"
+      text="EAGLES SALERNO drive start at 00:00." newcontext="H,1,10,H38">
+   </play>
+   <score qtr="1" V="3" H="8"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LEG">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:48"></misc>
+    <rush att="5" yds="12" gain="19" loss="7" td="0" long="11"></rush>
+    <pass comp="3" att="9" int="0" yds="61" td="0" long="28" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="61" td="0" long="28"></rcv>
+    <punt no="2" yds="41" long="35" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="20.5"></punt>
+    <ko no="2" yds="95" ob="0" tb="0"></ko>
+    <fg made="1" att="1" long="20" blkd="0"></fg>
+    <defense tackua="6" tacka="2" tot_tack="8" tflua="3" tfla="0" tflyds="17" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="0" td="0" long="0"></kr>
+    <scoring fg="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="EAG">
+    <firstdowns no="2" rush="1" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:12"></misc>
+    <rush att="7" yds="24" gain="41" loss="17" td="1" long="35"></rush>
+    <pass comp="1" att="3" int="0" yds="20" td="0" long="20" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="20" td="0" long="20"></rcv>
+    <punt no="2" yds="73" long="40" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="36.5"></punt>
+    <ko no="1" yds="41" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="1"></pat>
+    <defense tackua="7" tacka="0" tot_tack="7" tflua="1" tfla="0" tflyds="7" sacks="0" sackyds="0" brup="2"></defense>
+    <kr no="2" yds="46" td="0" long="23"></kr>
+    <pr no="1" yds="3" td="0" long="3"></pr>
+    <scoring td="1" patrush="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="EAG" down="1" togo="10" spot="EAG38" context="H,1,10,H38" playid="8,2,44" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="H,1,10,H38">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="EAG38" context="H,1,10,H38" playid="8,3,45" type="R"
+      text="Contardi F. rush for loss of 1 yard to the EAG37 (De Dominicis N.)." newcontext="H,2,11,H37">
+    <p_ru vh="H" name="Contardi F." gain="-1"></p_ru>
+    <p_tk vh="V" name="De Dominicis N." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="11" spot="EAG37" context="H,2,11,H37" playid="8,4,46" type="R"
+      text="Contardi F. rush for 6 yards to the EAG43 (Brisciani M.)." newcontext="H,3,5,H43">
+    <p_ru vh="H" name="Contardi F." gain="6"></p_ru>
+    <p_tk vh="V" name="Brisciani M."></p_tk>
+   </play>
+   <play hasball="EAG" down="3" togo="5" spot="EAG43" context="H,3,5,H43" playid="8,5,47" type="R"
+      text="Ronga G. rush for loss of 5 yards to the EAG38 (Brisciani M.)." newcontext="H,4,10,H38">
+    <p_ru vh="H" name="Ronga G." gain="-5"></p_ru>
+    <p_tk vh="V" name="Brisciani M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="4" togo="10" spot="EAG38" context="H,4,10,H38" playid="8,6,48" type="U"
+      text="Veldorale M. punt 28 yards to the LEG24, out-of-bounds." ob="Y" newcontext="V,1,10,V24">
+    <p_pu vh="H" name="Veldorale M." gain="28" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="0" top="2:00" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,V24,12:00" vh="V" spot="V24" clock="12:00" driveindex="9,48"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="LEG24" context="V,1,10,V24" playid="9,1,49" clock="10:00"
+      text="LEGIO XIII ROMA drive start at 10:00." newcontext="V,1,10,V24">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG24" context="V,1,10,V24" playid="9,2,50" type="R"
+      text="Cacciola F. rush for 1 yard to the LEG25 (Veldorale M.;Marino G.)." newcontext="V,2,9,V25">
+    <p_ru vh="V" name="Cacciola F." gain="1"></p_ru>
+    <p_tk vh="H" name="Veldorale M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Marino G." assist="Y"></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="9" spot="LEG25" context="V,2,9,V25" playid="9,3,51" type="P"
+      text="Giachino E. pass incomplete to Brienza S.." newcontext="V,3,9,V25">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Brienza S."></p_pa>
+   </play>
+   <play hasball="LEG" down="3" togo="9" spot="LEG25" context="V,3,9,V25" playid="9,4,52" type="P"
+      text="Giachino E. pass complete to Brienza S. for loss of 2 yards to the LEG23 (Bove A.)." newcontext="V,4,11,V23">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Brienza S." gain="-2"></p_pa>
+    <p_tk vh="H" name="Bove A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LEG" down="4" togo="11" spot="LEG23" context="V,4,11,V23" playid="9,5,53" type="U"
+      text="Bernardini P. punt 9 yards to the LEG32, out-of-bounds." ob="Y" newcontext="H,1,10,V32">
+    <p_pu vh="V" name="Bernardini P." gain="9" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="-1" top="2:00" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,V32,10:00" vh="H" spot="V32" clock="10:00" driveindex="10,53"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="LEG32" context="H,1,10,V32" playid="10,1,54" clock="08:00"
+      text="EAGLES SALERNO drive start at 08:00." newcontext="H,1,10,V32">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG32" context="H,1,10,V32" playid="10,2,55" type="R"
+      text="Novella M. rush for loss of 4 yards to the LEG36 (Zampetti L.)." newcontext="H,2,14,V36">
+    <p_ru vh="H" name="Novella M." gain="-4"></p_ru>
+    <p_tk vh="V" name="Zampetti L." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="14" spot="LEG36" context="H,2,14,V36" playid="10,3,56" type="E"
+      text="PENALTY EAG false start 5 yards to the LEG41." newcontext="H,2,19,V41">
+    <p_pn vh="H" code="FS" type="false start" result="ACCEPT" at="V36" yards="5"></p_pn>
+   </play>
+   <play hasball="EAG" down="2" togo="19" spot="LEG41" context="H,2,19,V41" playid="10,4,57" type="R"
+      text="Novella M. rush for 6 yards to the LEG35 (Zampetti L.)." newcontext="H,3,13,V35">
+    <p_ru vh="H" name="Novella M." gain="6"></p_ru>
+    <p_tk vh="V" name="Zampetti L."></p_tk>
+   </play>
+   <play hasball="EAG" down="3" togo="13" spot="LEG35" context="H,3,13,V35" playid="10,5,58" type="P"
+      text="Ronga G. pass incomplete to Formisano I.." newcontext="H,4,13,V35">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Formisano I."></p_pa>
+   </play>
+   <play hasball="EAG" down="4" togo="13" spot="LEG35" context="H,4,13,V35" playid="10,6,59" type="#" clock="05:57"
+      text="Timeout Eagles Salerno, clock 05:57." newcontext="H,4,13,V35">
+    <p_to vh="H" team="Eagles Salerno"></p_to>
+   </play>
+   <play hasball="EAG" down="4" togo="13" spot="LEG35" context="H,4,13,V35" playid="10,7,60" type="R" first="E"
+      text="Contardi F. rush for 11 yards to the LEG24 (Rocchi M.), PENALTY LEG face mask (Rocchi M.) 15 yards to the LEG9, 1ST DOWN EAG." newcontext="H,1,0,V09">
+    <p_ru vh="H" name="Contardi F." gain="11"></p_ru>
+    <p_tk vh="V" name="Rocchi M."></p_tk>
+    <p_pn vh="V" code="FM" type="face mask" name="Rocchi M." result="ACCEPT" at="V24" yards="15"></p_pn>
+   </play>
+   <play hasball="EAG" down="1" togo="0" spot="LEG09" context="H,1,0,V09" playid="10,8,61" type="R"
+      text="Mele L. rush for 1 yard to the LEG8 (De Dominicis N.)." newcontext="H,2,0,V08">
+    <p_ru vh="H" name="Mele L." gain="1"></p_ru>
+    <p_tk vh="V" name="De Dominicis N."></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="0" spot="LEG08" context="H,2,0,V08" playid="10,9,62" type="R"
+      text="Mele L. rush for loss of 3 yards to the LEG11 (Lattanzio G.)." newcontext="H,3,0,V11">
+    <p_ru vh="H" name="Mele L." gain="-3"></p_ru>
+    <p_tk vh="V" name="Lattanzio G." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="3" togo="0" spot="LEG11" context="H,3,0,V11" playid="10,10,63" type="P" turnover="I"
+      text="Ronga G. pass intercepted by Zampetti L. at the LEG5, Zampetti L. return 7 yards to the LEG12, out-of-bounds." ob="Y" newcontext="V,1,10,V12">
+    <p_pa vh="H" qb="Ronga G." result="INT"></p_pa>
+    <p_ir vh="V" name="Zampetti L." at="V05" gain="7"></p_ir>
+   </play>
+   <drivesum plays="7" yards="21" top="4:16" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V12,05:57" vh="V" spot="V12" clock="05:57" driveindex="11,63"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="LEG12" context="V,1,10,V12" playid="11,1,64" clock="03:44"
+      text="LEGIO XIII ROMA drive start at 03:44." newcontext="V,1,10,V12">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG12" context="V,1,10,V12" playid="11,2,65" type="R"
+      text="Giachino E. rush for 1 yard to the LEG13, out-of-bounds." ob="Y" newcontext="V,2,9,V13">
+    <p_ru vh="V" name="Giachino E." gain="1"></p_ru>
+   </play>
+   <play hasball="LEG" down="2" togo="9" spot="LEG13" context="V,2,9,V13" playid="11,3,66" type="P"
+      text="Giachino E. pass complete to Esposito L. for 4 yards to the LEG17 (Gaio A.)." newcontext="V,3,5,V17">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Esposito L." gain="4"></p_pa>
+    <p_tk vh="H" name="Gaio A."></p_tk>
+   </play>
+   <play hasball="LEG" down="3" togo="5" spot="LEG17" context="V,3,5,V17" playid="11,4,67" type="R" first="R"
+      text="Giachino E. rush for 11 yards to the LEG28, 1ST DOWN LEG, out-of-bounds." ob="Y" newcontext="V,1,10,V28">
+    <p_ru vh="V" name="Giachino E." gain="11"></p_ru>
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG28" context="V,1,10,V28" playid="11,5,68" type="R"
+      text="Cacciola L. rush for loss of 19 yards to the LEG9 (Gaio A.)." newcontext="V,2,29,V09">
+    <p_ru vh="V" name="Cacciola L." gain="-19"></p_ru>
+    <p_tk vh="H" name="Gaio A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="29" spot="LEG09" context="V,2,29,V09" playid="11,6,69" type="#" clock="01:47"
+      text="Timeout Legio XIII Roma, clock 01:47." newcontext="V,2,29,V09">
+    <p_to vh="V" team="Legio XIII Roma"></p_to>
+   </play>
+   <play hasball="LEG" down="2" togo="29" spot="LEG09" context="V,2,29,V09" playid="11,7,70" type="P"
+      text="Giachino E. pass incomplete to Congestr&#236; G.." newcontext="V,3,29,V09">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Congestr&#236; G."></p_pa>
+   </play>
+   <play hasball="LEG" down="3" togo="29" spot="LEG09" context="V,3,29,V09" playid="11,8,71" type="R"
+      text="Giachino E. rush for 28 yards to the LEG37 (Gaio A.;Veldorale M.)." newcontext="V,4,1,V37">
+    <p_ru vh="V" name="Giachino E." gain="28"></p_ru>
+    <p_tk vh="H" name="Gaio A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Veldorale M." assist="Y"></p_tk>
+   </play>
+   <play hasball="LEG" down="4" togo="1" spot="LEG37" context="V,4,1,V37" playid="11,9,72" type="U"
+      text="Bernardini P. punt 39 yards to the EAG14, Marra F. return 0 yards to the EAG14." newcontext="H,1,10,H14">
+    <p_pu vh="V" name="Bernardini P." gain="39" in20="Y"></p_pu>
+    <p_pr vh="H" name="Marra F." gain="0"></p_pr>
+   </play>
+   <drivesum plays="6" yards="25" top="3:15" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,H14,01:47" vh="H" spot="H14" clock="01:47" driveindex="12,72"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="EAG14" context="H,1,10,H14" playid="12,1,73" clock="00:29"
+      text="EAGLES SALERNO drive start at 00:29." newcontext="H,1,10,H14">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="EAG14" context="H,1,10,H14" playid="12,2,74" type="P"
+      text="Ronga G. pass incomplete to Formisano I.." newcontext="H,2,10,H14">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Formisano I."></p_pa>
+   </play>
+   <play hasball="EAG" down="2" togo="10" spot="EAG14" context="H,2,10,H14" playid="12,3,75" type="P"
+      text="Ronga G. pass complete to Contardi F. for 6 yards to the EAG20 (Rocchi M.)." newcontext="H,3,4,H20">
+    <p_pa vh="H" qb="Ronga G." result="COMP" rcv="Contardi F." gain="6"></p_pa>
+    <p_tk vh="V" name="Rocchi M."></p_tk>
+   </play>
+   <play hasball="EAG" down="3" togo="4" spot="EAG20" context="H,3,4,H20" playid="12,4,76" type="#" clock="00:10"
+      text="Timeout Eagles Salerno, clock 00:10." newcontext="H,3,4,H20">
+    <p_to vh="H" team="Eagles Salerno"></p_to>
+   </play>
+   <play hasball="EAG" down="3" togo="4" spot="EAG20" context="H,3,4,H20" playid="12,5,77" type="P" first="P"
+      text="Ronga G. pass complete to Contardi F. for loss of 5 yards to the EAG15, Contardi F. for 13 yards to the EAG28, 1ST DOWN EAG, out-of-bounds." ob="Y" newcontext="H,1,10,H28">
+    <p_pa vh="H" qb="Ronga G." result="COMP" rcv="Contardi F." gain="-5"></p_pa>
+    <p_cont vh="H" name="Contardi F." context="PASS" at="H15" gain="13"></p_cont>
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="EAG28" context="H,1,10,H28" playid="12,6,78" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="H,1,10,H28">
+   </play>
+   <drivesum plays="3" yards="14" top="0:29" driveindex="12" complete="Y"></drivesum>
+   <score qtr="2" V="3" H="8"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LEG">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:15"></misc>
+    <rush att="5" yds="22" gain="41" loss="19" td="0" long="17"></rush>
+    <pass comp="2" att="4" int="0" yds="2" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="2" td="0" long="0"></rcv>
+    <punt no="2" yds="48" long="4" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="24.0"></punt>
+    <defense tackua="9" tacka="0" tot_tack="9" tflua="4" tfla="0" tflyds="13" sacks="0" sackyds="0" int="1" intyds="7"></defense>
+    <ir no="1" yds="7" td="0" long="7"></ir>
+   </qtrsummary>
+   <qtrsummary vh="H" id="EAG">
+    <firstdowns no="2" rush="0" pass="1" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:45"></misc>
+    <rush att="8" yds="11" gain="24" loss="13" td="0" long="0"></rush>
+    <pass comp="2" att="5" int="1" yds="14" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="14" td="0" long="0"></rcv>
+    <punt no="1" yds="28" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="28.0"></punt>
+    <defense tackua="3" tacka="4" tot_tack="7" tflua="2" tfla="0" tflyds="21" sacks="0" sackyds="0"></defense>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="EAG" down="1" togo="10" spot="EAG28" context="H,1,10,H28" playid="12,7,79" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, EAG ball on EAG30." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="EAG30" context="H,1,10,H30" playid="12,8,80" type="K"
+      text="Veldorale M. kickoff 50 yards to the LEG10, Esposito L. return 15 yards to the LEG25 (Prosperi L.)." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="Veldorale M." gain="50"></p_ko>
+    <p_kr vh="V" name="Esposito L." gain="15"></p_kr>
+    <p_tk vh="H" name="Prosperi L."></p_tk>
+   </play>
+   <drivestart poss="V,V25,12:00" vh="V" spot="V25" clock="12:00" driveindex="13,80"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="LEG25" context="V,1,10,V25" playid="13,1,81" clock="12:00"
+      text="LEGIO XIII ROMA drive start at 12:00." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG25" context="V,1,10,V25" playid="13,2,82" type="R"
+      text="Cacciola F. rush for 6 yards to the LEG31 (Gaio A.)." newcontext="V,2,4,V31">
+    <p_ru vh="V" name="Cacciola F." gain="6"></p_ru>
+    <p_tk vh="H" name="Gaio A."></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="4" spot="LEG31" context="V,2,4,V31" playid="13,3,83" type="P" first="P"
+      text="Giachino E. pass complete to Cacciola F. for 4 yards to the LEG35, Cacciola F. for 15 yards to the EAG40, 1ST DOWN LEG (Veldorale M.;Bove A.)." newcontext="V,1,10,H40">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Cacciola F." gain="4"></p_pa>
+    <p_cont vh="V" name="Cacciola F." context="PASS" at="V35" gain="15"></p_cont>
+    <p_tk vh="H" name="Veldorale M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Bove A." assist="Y"></p_tk>
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="EAG40" context="V,1,10,H40" playid="13,4,84" type="R"
+      text="Cacciola L. rush for loss of 9 yards to the LEG41 (Marino G.)." newcontext="V,2,19,V41">
+    <p_ru vh="V" name="Cacciola L." gain="-9"></p_ru>
+    <p_tk vh="H" name="Marino G." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="19" spot="LEG41" context="V,2,19,V41" playid="13,5,85" type="P"
+      text="Giachino E. pass incomplete to Esposito L. (Bove A.)." newcontext="V,3,19,V41">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Esposito L."></p_pa>
+    <p_bu vh="H" name="Bove A."></p_bu>
+   </play>
+   <play hasball="LEG" down="3" togo="19" spot="LEG41" context="V,3,19,V41" playid="13,6,86" type="P"
+      text="Giachino E. pass incomplete to Esposito L.." newcontext="V,4,19,V41">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Esposito L."></p_pa>
+   </play>
+   <play hasball="LEG" down="4" togo="19" spot="LEG41" context="V,4,19,V41" playid="13,7,87" type="U"
+      text="Bernardini P. punt 29 yards to the EAG20, out-of-bounds." ob="Y" newcontext="H,1,10,H20">
+    <p_pu vh="V" name="Bernardini P." gain="29" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="5" yards="16" top="3:00" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H20,12:00" vh="H" spot="H20" clock="12:00" driveindex="14,87"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="EAG20" context="H,1,10,H20" playid="14,1,88" clock="09:00"
+      text="EAGLES SALERNO drive start at 09:00." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="EAG20" context="H,1,10,H20" playid="14,2,89" type="R"
+      text="Contardi F. rush for no gain to the EAG20 (Rocchi M.), PENALTY EAG illegal formation 5 yards to the EAG15." newcontext="H,1,15,H15">
+    <p_ru vh="H" name="Contardi F." gain="0"></p_ru>
+    <p_tk vh="V" name="Rocchi M."></p_tk>
+    <p_pn vh="H" code="FO" type="illegal formation" result="ACCEPT" at="H20" yards="5"></p_pn>
+   </play>
+   <play hasball="EAG" down="1" togo="15" spot="EAG15" context="H,1,15,H15" playid="14,3,90"
+      text="1st and 15." newcontext="H,1,15,H15">
+   </play>
+   <play hasball="EAG" down="1" togo="15" spot="EAG15" context="H,1,15,H15" playid="14,4,91" type="R" turnover="F"
+      text="Ronga G. rush for loss of 4 yards to the EAG11, fumble forced by Lattanzio G., fumble by Ronga G. recovered by LEG Lattanzio G. at EAG11." newcontext="V,1,10,H11">
+    <p_ru vh="H" name="Ronga G." gain="-4"></p_ru>
+    <p_fumb vh="H" name="Ronga G." at="H11" frvh="V" frname="Lattanzio G."></p_fumb>
+    <p_tk vh="V" name="Lattanzio G." ff="Y"></p_tk>
+   </play>
+   <drivesum plays="2" yards="-9" top="0:10" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,H11,09:00" vh="V" spot="H11" clock="09:00" driveindex="15,91"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="EAG11" context="V,1,10,H11" playid="15,1,92" clock="08:50"
+      text="LEGIO XIII ROMA drive start at 08:50." newcontext="V,1,10,H11">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="EAG11" context="V,1,10,H11" playid="15,2,93" type="R"
+      text="Giachino E. rush for 1 yard to the EAG10, out-of-bounds." ob="Y" newcontext="V,2,9,H10">
+    <p_ru vh="V" name="Giachino E." gain="1"></p_ru>
+   </play>
+   <play hasball="LEG" down="2" togo="9" spot="EAG10" context="V,2,9,H10" playid="15,3,94" type="P" first="P" score="Y" clock="08:23"
+      text="Giachino E. pass complete to Esposito L. for 10 yards to the EAG0, 1ST DOWN LEG, TOUCHDOWN, clock 08:23." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Esposito L." gain="10"></p_pa>
+   </play>
+   <play hasball="LEG" down="1" togo="0" spot="EAG03" context="V,1,0,H03" playid="15,4,95" type="X" score="Y"
+      text="Giachino E. pass attempt to Brienza S. good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Brienza S." qb="Giachino E." type="P" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="11" H="8"></score>
+   <drivesum plays="2" yards="11" top="0:27" driveindex="15" complete="Y"></drivesum>
+   <play hasball="LEG" down="1" togo="0" spot="LEG30" context="V,1,0,V30" playid="15,5,96" type="K"
+      text="Bernardini P. kickoff 40 yards to the EAG20, Mele L. return 33 yards to the LEG37 (Ferrao D.;Fiorito L.)." newcontext="H,1,10,V37">
+    <p_ko vh="V" name="Bernardini P." gain="40"></p_ko>
+    <p_kr vh="H" name="Mele L." gain="33"></p_kr>
+    <p_tk vh="V" name="Ferrao D." assist="Y"></p_tk>
+    <p_tk vh="V" name="Fiorito L." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="H,V37,08:23" vh="H" spot="V37" clock="08:23" driveindex="16,96"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="LEG37" context="H,1,10,V37" playid="16,1,97" clock="08:20"
+      text="EAGLES SALERNO drive start at 08:20." newcontext="H,1,10,V37">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG37" context="H,1,10,V37" playid="16,2,98" type="P"
+      text="Ronga G. pass incomplete to Mastandrea P.." newcontext="H,2,10,V37">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Mastandrea P."></p_pa>
+   </play>
+   <play hasball="EAG" down="2" togo="10" spot="LEG37" context="H,2,10,V37" playid="16,3,99" type="P"
+      text="Ronga G. pass incomplete to Leo V.." newcontext="H,3,10,V37">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Leo V."></p_pa>
+   </play>
+   <play hasball="EAG" down="3" togo="10" spot="LEG37" context="H,3,10,V37" playid="16,4,100" type="P"
+      text="Ronga G. pass complete to Formisano I. for 7 yards to the LEG30 (Turano D.)." newcontext="H,4,3,V30">
+    <p_pa vh="H" qb="Ronga G." result="COMP" rcv="Formisano I." gain="7"></p_pa>
+    <p_tk vh="V" name="Turano D."></p_tk>
+   </play>
+   <play hasball="EAG" down="4" togo="3" spot="LEG30" context="H,4,3,V30" playid="16,5,101" type="#" clock="06:51"
+      text="Timeout Eagles Salerno, clock 06:51." newcontext="H,4,3,V30">
+    <p_to vh="H" team="Eagles Salerno"></p_to>
+   </play>
+   <play hasball="EAG" down="4" togo="3" spot="LEG30" context="H,4,3,V30" playid="16,6,102" type="R" turnover="F"
+      text="Contardi F. rush for 9 yards to the LEG21 (Zampetti L.), fumble by Contardi F. recovered by LEG Zampetti L. at LEG21." newcontext="V,1,10,V21">
+    <p_ru vh="H" name="Contardi F." gain="9"></p_ru>
+    <p_fumb vh="H" name="Contardi F." at="V21" frvh="V" frname="Zampetti L."></p_fumb>
+    <p_tk vh="V" name="Zampetti L."></p_tk>
+   </play>
+   <drivesum plays="4" yards="16" top="1:50" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="V,V21,06:51" vh="V" spot="V21" clock="06:51" driveindex="17,102"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="LEG21" context="V,1,10,V21" playid="17,1,103" clock="06:30"
+      text="LEGIO XIII ROMA drive start at 06:30." newcontext="V,1,10,V21">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG21" context="V,1,10,V21" playid="17,2,104" type="R" first="R" score="Y" clock="06:10"
+      text="Esposito L. rush for 69 yards to the EAG0, 1ST DOWN LEG, TOUCHDOWN, clock 06:10." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Esposito L." gain="69"></p_ru>
+   </play>
+   <play hasball="LEG" down="1" togo="0" spot="EAG03" context="V,1,0,H03" playid="17,3,105" type="X" score="Y"
+      text="Bernardini P. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Bernardini P." qb="Bernardini P." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="18" H="8"></score>
+   <drivesum plays="1" yards="69" top="0:20" driveindex="17" complete="Y"></drivesum>
+   <play hasball="LEG" down="1" togo="0" spot="LEG30" context="V,1,0,V30" playid="17,4,106" type="K"
+      text="Bernardini P. kickoff 50 yards to the EAG10, Mele L. return 46 yards to the LEG34 (Bernardini P.)." newcontext="H,1,10,V34">
+    <p_ko vh="V" name="Bernardini P." gain="50"></p_ko>
+    <p_kr vh="H" name="Mele L." gain="46"></p_kr>
+    <p_tk vh="V" name="Bernardini P."></p_tk>
+   </play>
+   <drivestart poss="H,V34,06:10" vh="H" spot="V34" clock="06:10" driveindex="18,106"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="LEG34" context="H,1,10,V34" playid="18,1,107" clock="06:10"
+      text="EAGLES SALERNO drive start at 06:10." newcontext="H,1,10,V34">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG34" context="H,1,10,V34" playid="18,2,108" type="R"
+      text="Contardi F. rush for 9 yards to the LEG25 (Brisciani M.)." newcontext="H,2,1,V25">
+    <p_ru vh="H" name="Contardi F." gain="9"></p_ru>
+    <p_tk vh="V" name="Brisciani M."></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="1" spot="LEG25" context="H,2,1,V25" playid="18,3,109" type="R" first="R"
+      text="Contardi F. rush for 6 yards to the LEG19, 1ST DOWN EAG (Zampetti L.)." newcontext="H,1,10,V19">
+    <p_ru vh="H" name="Contardi F." gain="6"></p_ru>
+    <p_tk vh="V" name="Zampetti L."></p_tk>
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG19" context="H,1,10,V19" playid="18,4,110" type="E"
+      text="PENALTY EAG false start 5 yards to the LEG24." newcontext="H,1,15,V24">
+    <p_pn vh="H" code="FS" type="false start" result="ACCEPT" at="V19" yards="5"></p_pn>
+   </play>
+   <play hasball="EAG" down="1" togo="15" spot="LEG24" context="H,1,15,V24" playid="18,5,111" type="P" first="E"
+      text="Ronga G. pass incomplete to Mastandrea P., PENALTY LEG pass interference 15 yards to the LEG9, 1ST DOWN EAG." newcontext="H,1,0,V09">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Mastandrea P."></p_pa>
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="V24" yards="15"></p_pn>
+   </play>
+   <play hasball="EAG" down="1" togo="0" spot="LEG09" context="H,1,0,V09" playid="18,6,112"
+      text="1st and 9." newcontext="H,1,0,V09">
+   </play>
+   <play hasball="EAG" down="1" togo="0" spot="LEG09" context="H,1,0,V09" playid="18,7,113" type="R"
+      text="Della Rocca V. rush for 8 yards to the LEG1 (Turano D.)." newcontext="H,2,0,V01">
+    <p_ru vh="H" name="Della Rocca V." gain="8"></p_ru>
+    <p_tk vh="V" name="Turano D."></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="0" spot="LEG01" context="H,2,0,V01" playid="18,8,114" type="R"
+      text="Della Rocca V. rush for no gain to the LEG1 (TEAM)." newcontext="H,3,0,V01">
+    <p_ru vh="H" name="Della Rocca V." gain="0"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="EAG" down="3" togo="0" spot="LEG01" context="H,3,0,V01" playid="18,9,115" type="R" turnover="F"
+      text="Della Rocca V. rush for no gain to the LEG1, fumble by Della Rocca V. recovered by LEG TEAM at LEG20." newcontext="V,1,10,V20">
+    <p_ru vh="H" name="Della Rocca V." gain="0"></p_ru>
+    <p_fumb vh="H" name="Della Rocca V." at="V20" frvh="V" frname="TEAM"></p_fumb>
+   </play>
+   <drivesum plays="6" yards="14" top="4:07" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="V,V20,06:10" vh="V" spot="V20" clock="06:10" driveindex="19,115"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="LEG20" context="V,1,10,V20" playid="19,1,116" clock="02:03"
+      text="LEGIO XIII ROMA drive start at 02:03." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG20" context="V,1,10,V20" playid="19,2,117" type="P"
+      text="Giachino E. pass complete to Congestr&#236; G. for 5 yards to the LEG25 (Marra F.;Di Mauro A.)." newcontext="V,2,5,V25">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Congestr&#236; G." gain="5"></p_pa>
+    <p_tk vh="H" name="Marra F." assist="Y"></p_tk>
+    <p_tk vh="H" name="Di Mauro A." assist="Y"></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="5" spot="LEG25" context="V,2,5,V25" playid="19,3,118" type="P"
+      text="Giachino E. pass incomplete to Esposito L.." newcontext="V,3,5,V25">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Esposito L."></p_pa>
+   </play>
+   <play hasball="LEG" down="3" togo="5" spot="LEG25" context="V,3,5,V25" playid="19,4,119" type="P"
+      text="Giachino E. pass incomplete." newcontext="V,4,5,V25">
+    <p_pa vh="V" qb="Giachino E." result="INC"></p_pa>
+   </play>
+   <play hasball="LEG" down="4" togo="5" spot="LEG25" context="V,4,5,V25" playid="19,5,120" type="U"
+      text="Bernardini P. punt 25 yards to the EAG40, out-of-bounds." ob="Y" newcontext="H,1,10,H40">
+    <p_pu vh="V" name="Bernardini P." gain="25" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="5" top="1:03" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,H40,02:03" vh="H" spot="H40" clock="02:03" driveindex="20,120"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="EAG40" context="H,1,10,H40" playid="20,1,121" clock="01:00"
+      text="EAGLES SALERNO drive start at 01:00." newcontext="H,1,10,H40">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="EAG40" context="H,1,10,H40" playid="20,2,122" type="R"
+      text="Annunziata G. rush for 1 yard to the EAG41 (TEAM)." newcontext="H,2,9,H41">
+    <p_ru vh="H" name="Annunziata G." gain="1"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="9" spot="EAG41" context="H,2,9,H41" playid="20,3,123" type="R"
+      text="Contardi F. rush for 4 yards to the 45 yardline (Rocchi M.)." newcontext="H,3,5,H45">
+    <p_ru vh="H" name="Contardi F." gain="4"></p_ru>
+    <p_tk vh="V" name="Rocchi M."></p_tk>
+   </play>
+   <play hasball="EAG" down="3" togo="5" spot="EAG45" context="H,3,5,H45" playid="20,4,124" type="P"
+      text="Ronga G. pass incomplete to Mele L.." newcontext="H,4,5,H45">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Mele L."></p_pa>
+   </play>
+   <play hasball="EAG" down="4" togo="5" spot="EAG45" context="H,4,5,H45" playid="20,5,125" type="R" first="R"
+      text="Annunziata G. rush for 16 yards to the LEG29, 1ST DOWN EAG (De Simone G.;Tiraferri A.)." newcontext="H,1,10,V29">
+    <p_ru vh="H" name="Annunziata G." gain="16"></p_ru>
+    <p_tk vh="V" name="De Simone G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Tiraferri A." assist="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG29" context="H,1,10,V29" playid="20,6,126" type="#" clock="00:01"
+      text="Timeout Legio XIII Roma, clock 00:01." newcontext="H,1,10,V29">
+    <p_to vh="V" team="Legio XIII Roma"></p_to>
+   </play>
+   <score qtr="3" V="18" H="8"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LEG">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:50"></misc>
+    <rush att="4" yds="67" gain="76" loss="9" td="1" long="41"></rush>
+    <pass comp="3" att="7" int="0" yds="34" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="34" td="1" long="0"></rcv>
+    <punt no="2" yds="54" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="27.0"></punt>
+    <ko no="2" yds="90" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="11" tacka="4" tot_tack="15" tflua="1" tfla="0" tflyds="4" sacks="0" sackyds="0" ff="1" fr="3" fryds="0"></defense>
+    <kr no="1" yds="15" td="0" long="15"></kr>
+    <scoring td="2" patkick="1" patrcv="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="EAG">
+    <firstdowns no="3" rush="2" pass="0" penalty="1"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="3" lost="3"></fumbles>
+    <misc yds="0" top="07:10"></misc>
+    <rush att="11" yds="30" gain="53" loss="23" td="0" long="0"></rush>
+    <pass comp="1" att="5" int="0" yds="7" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="7" td="0" long="0"></rcv>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <defense tackua="3" tacka="4" tot_tack="7" tflua="1" tfla="0" tflyds="9" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="2" yds="79" td="0" long="23"></kr>
+    <fumbles no="3" lost="3"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="EAG" down="1" togo="10" spot="LEG29" context="H,1,10,V29" playid="20,7,127" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="H,1,10,V29">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG29" context="H,1,10,V29" playid="20,8,128" type="R"
+      text="Annunziata G. rush for loss of 1 yard to the LEG30 (Vidali A.)." newcontext="H,2,11,V30">
+    <p_ru vh="H" name="Annunziata G." gain="-1"></p_ru>
+    <p_tk vh="V" name="Vidali A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="11" spot="LEG30" context="H,2,11,V30" playid="20,9,129" type="P"
+      text="Ronga G. pass incomplete to Mele L.." newcontext="H,3,11,V30">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Mele L."></p_pa>
+   </play>
+   <play hasball="EAG" down="3" togo="11" spot="LEG30" context="H,3,11,V30" playid="20,10,130" type="R"
+      text="Annunziata G. rush for no gain to the LEG30 (Brisciani M.)." newcontext="H,4,11,V30">
+    <p_ru vh="H" name="Annunziata G." gain="0"></p_ru>
+    <p_tk vh="V" name="Brisciani M."></p_tk>
+   </play>
+   <play hasball="EAG" down="4" togo="11" spot="LEG30" context="H,4,11,V30" playid="20,11,131" type="E"
+      text="PENALTY EAG offside (Monzani M.) 5 yards to the LEG35." newcontext="H,4,16,V35">
+    <p_pn vh="H" code="OS" type="offside" name="Monzani M." result="ACCEPT" at="V30" yards="5"></p_pn>
+   </play>
+   <play hasball="EAG" down="4" togo="16" spot="LEG35" context="H,4,16,V35" playid="20,12,132" type="P"
+      text="Ronga G. pass incomplete to Formisano I. (Turano D.)." newcontext="V,1,10,V35">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Formisano I."></p_pa>
+    <p_bu vh="V" name="Turano D."></p_bu>
+   </play>
+   <drivesum plays="8" yards="15" top="3:00" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="V,V35,12:00" vh="V" spot="V35" clock="12:00" driveindex="21,132"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="LEG35" context="V,1,10,V35" playid="21,1,133" clock="10:00"
+      text="LEGIO XIII ROMA drive start at 10:00." newcontext="V,1,10,V35">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG35" context="V,1,10,V35" playid="21,2,134" type="P" first="P"
+      text="Giachino E. pass complete to Palaia L. for 15 yards to the EAG40, 1ST DOWN LEG (Bove A.)." newcontext="V,1,10,H40">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Palaia L." gain="15"></p_pa>
+    <p_tk vh="H" name="Bove A."></p_tk>
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="EAG40" context="V,1,10,H40" playid="21,3,135" type="R"
+      text="Esposito L. rush for 3 yards to the EAG37 (Marino G.)." newcontext="V,2,7,H37">
+    <p_ru vh="V" name="Esposito L." gain="3"></p_ru>
+    <p_tk vh="H" name="Marino G."></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="7" spot="EAG37" context="V,2,7,H37" playid="21,4,136" type="P" first="P"
+      text="Giachino E. pass complete to Cacciola F. for 8 yards to the EAG29, 1ST DOWN LEG (Marra F.;Gaio A.)." newcontext="V,1,10,H29">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Cacciola F." gain="8"></p_pa>
+    <p_tk vh="H" name="Marra F." assist="Y"></p_tk>
+    <p_tk vh="H" name="Gaio A." assist="Y"></p_tk>
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="EAG29" context="V,1,10,H29" playid="21,5,137" type="P"
+      text="Giachino E. pass incomplete to Brienza S.." newcontext="V,2,10,H29">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Brienza S."></p_pa>
+   </play>
+   <play hasball="LEG" down="2" togo="10" spot="EAG29" context="V,2,10,H29" playid="21,6,138" type="P"
+      text="Giachino E. pass incomplete to Brienza S.." newcontext="V,3,10,H29">
+    <p_pa vh="V" qb="Giachino E." result="INC" rcv="Brienza S."></p_pa>
+   </play>
+   <play hasball="LEG" down="3" togo="10" spot="EAG29" context="V,3,10,H29" playid="21,7,139" type="R" first="R"
+      text="Giachino E. rush for 11 yards to the EAG18, 1ST DOWN LEG (Marra F.)." newcontext="V,1,10,H18">
+    <p_ru vh="V" name="Giachino E." gain="11"></p_ru>
+    <p_tk vh="H" name="Marra F."></p_tk>
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="EAG18" context="V,1,10,H18" playid="21,8,140" type="R"
+      text="Giachino E. rush for 4 yards to the EAG14 (De Sio M.)." newcontext="V,2,6,H14">
+    <p_ru vh="V" name="Giachino E." gain="4"></p_ru>
+    <p_tk vh="H" name="De Sio M."></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="6" spot="EAG14" context="V,2,6,H14" playid="21,9,141" type="R" first="R"
+      text="Cacciola F. rush for 7 yards to the EAG7, 1ST DOWN LEG (Di Mauro A.)." newcontext="V,1,0,H07">
+    <p_ru vh="V" name="Cacciola F." gain="7"></p_ru>
+    <p_tk vh="H" name="Di Mauro A."></p_tk>
+   </play>
+   <play hasball="LEG" down="1" togo="0" spot="EAG07" context="V,1,0,H07" playid="21,10,142" type="R"
+      text="Cacciola F. rush for 1 yard to the EAG6 (Gaio A.)." newcontext="V,2,0,H06">
+    <p_ru vh="V" name="Cacciola F." gain="1"></p_ru>
+    <p_tk vh="H" name="Gaio A."></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="0" spot="EAG06" context="V,2,0,H06" playid="21,11,143" type="R"
+      text="Giachino E. rush for loss of 2 yards to the EAG8, out-of-bounds." ob="Y" newcontext="V,3,0,H08">
+    <p_ru vh="V" name="Giachino E." gain="-2"></p_ru>
+   </play>
+   <play hasball="LEG" down="3" togo="0" spot="EAG08" context="V,3,0,H08" playid="21,12,144" type="R"
+      text="Giachino E. rush for loss of 1 yard to the EAG9 (Celestino O.), PENALTY LEG holding 6 yards to the EAG15." newcontext="V,3,0,H15">
+    <p_ru vh="V" name="Giachino E." gain="-1"></p_ru>
+    <p_tk vh="H" name="Celestino O." tfl="Y"></p_tk>
+    <p_pn vh="V" code="HO" type="holding" result="ACCEPT" at="H09" yards="6"></p_pn>
+   </play>
+   <play hasball="LEG" down="3" togo="0" spot="EAG15" context="V,3,0,H15" playid="21,13,145"
+      text="3rd and 15." newcontext="V,3,0,H15">
+   </play>
+   <play hasball="LEG" down="3" togo="0" spot="EAG15" context="V,3,0,H15" playid="21,14,146" type="P" score="Y" clock="06:00"
+      text="Giachino E. pass complete to Esposito L. for 15 yards to the EAG0, TOUCHDOWN, clock 06:00." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Esposito L." gain="15"></p_pa>
+   </play>
+   <play hasball="LEG" down="1" togo="0" spot="EAG03" context="V,1,0,H03" playid="21,15,147" type="X"
+      text="Giachino E. pass attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Giachino E." qb="Giachino E." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="24" H="8"></score>
+   <drivesum plays="12" yards="55" top="4:00" driveindex="21" complete="Y"></drivesum>
+   <play hasball="LEG" down="1" togo="0" spot="LEG30" context="V,1,0,V30" playid="21,16,148" type="K"
+      text="Bernardini P. kickoff -25 yards to the LEG5, Mele L. return -51 yards to the EAG34 (Turano D.)." newcontext="H,1,10,H34">
+    <p_ko vh="V" name="Bernardini P." gain="-25"></p_ko>
+    <p_kr vh="H" name="Mele L." gain="-51"></p_kr>
+    <p_tk vh="V" name="Turano D."></p_tk>
+   </play>
+   <drivestart poss="H,H34,06:00" vh="H" spot="H34" clock="06:00" driveindex="22,148"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="EAG34" context="H,1,10,H34" playid="22,1,149" clock="05:50"
+      text="EAGLES SALERNO drive start at 05:50." newcontext="H,1,10,H34">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="EAG34" context="H,1,10,H34" playid="22,2,150" type="P"
+      text="Ronga G. pass incomplete to Contardi F.." newcontext="H,2,10,H34">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Contardi F."></p_pa>
+   </play>
+   <play hasball="EAG" down="2" togo="10" spot="EAG34" context="H,2,10,H34" playid="22,3,151" type="R" first="R"
+      text="Ronga G. rush for 11 yards to the 45 yardline, 1ST DOWN EAG, out-of-bounds." ob="Y" newcontext="H,1,10,H45">
+    <p_ru vh="H" name="Ronga G." gain="11"></p_ru>
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="EAG45" context="H,1,10,H45" playid="22,4,152" type="P"
+      text="Ronga G. pass incomplete to Formisano I.." newcontext="H,2,10,H45">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Formisano I."></p_pa>
+   </play>
+   <play hasball="EAG" down="2" togo="10" spot="EAG45" context="H,2,10,H45" playid="22,5,153" type="P"
+      text="Ronga G. pass complete to Leo V. for 5 yards to the LEG40 (Brisciani M.)." newcontext="H,3,5,V40">
+    <p_pa vh="H" qb="Ronga G." result="COMP" rcv="Leo V." gain="5"></p_pa>
+    <p_tk vh="V" name="Brisciani M."></p_tk>
+   </play>
+   <play hasball="EAG" down="3" togo="5" spot="LEG40" context="H,3,5,V40" playid="22,6,154" type="E" first="E"
+      text="PENALTY LEG unsportsmanlike conduct (Ferrao D.) 10 yards to the LEG30, 1ST DOWN EAG." newcontext="H,1,10,V30">
+    <p_pn vh="V" code="UC" type="unsportsmanlike conduct" name="Ferrao D." result="ACCEPT" at="V40" yards="10"></p_pn>
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG30" context="H,1,10,V30" playid="22,7,155" type="#" clock="04:51"
+      text="Timeout Legio XIII Roma, clock 04:51." newcontext="H,1,10,V30">
+    <p_to vh="V" team="Legio XIII Roma"></p_to>
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG30" context="H,1,10,V30" playid="22,8,156" type="R"
+      text="Leo V. rush for loss of 20 yards to the EAG40 (De Dominicis N.)." newcontext="H,2,30,H40">
+    <p_ru vh="H" name="Leo V." gain="-20"></p_ru>
+    <p_tk vh="V" name="De Dominicis N." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="30" spot="EAG40" context="H,2,30,H40" playid="22,9,157" type="P"
+      text="Ronga G. pass incomplete to Formisano I.." newcontext="H,3,30,H40">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Formisano I."></p_pa>
+   </play>
+   <play hasball="EAG" down="3" togo="30" spot="EAG40" context="H,3,30,H40" playid="22,10,158" type="P"
+      text="Ronga G. pass incomplete to Formisano I.." newcontext="H,4,30,H40">
+    <p_pa vh="H" qb="Ronga G." result="INC" rcv="Formisano I."></p_pa>
+   </play>
+   <play hasball="EAG" down="4" togo="30" spot="EAG40" context="H,4,30,H40" playid="22,11,159" type="P" first="E"
+      text="Ronga G. pass incomplete, PENALTY LEG roughing passer 20 yards to the LEG30, 1ST DOWN EAG." newcontext="H,1,10,V30">
+    <p_pa vh="H" qb="Ronga G." result="INC"></p_pa>
+    <p_pn vh="V" code="RP" type="roughing passer" result="ACCEPT" at="H40" yards="20"></p_pn>
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG30" context="H,1,10,V30" playid="22,12,160"
+      text="1st and 10." newcontext="H,1,10,V30">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG30" context="H,1,10,V30" playid="22,13,161" type="P" turnover="I"
+      text="Ronga G. pass intercepted by Meduri A. at the LEG27, Meduri A. return 0 yards to the LEG27 (Bisogni M.)." newcontext="V,1,10,V27">
+    <p_pa vh="H" qb="Ronga G." result="INT"></p_pa>
+    <p_ir vh="V" name="Meduri A." at="V27" gain="0"></p_ir>
+    <p_tk vh="H" name="Bisogni M."></p_tk>
+   </play>
+   <drivesum plays="9" yards="26" top="3:32" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="V,V27,04:51" vh="V" spot="V27" clock="04:51" driveindex="23,161"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="LEG27" context="V,1,10,V27" playid="23,1,162" clock="02:18"
+      text="LEGIO XIII ROMA drive start at 02:18." newcontext="V,1,10,V27">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="LEG27" context="V,1,10,V27" playid="23,2,163" type="R"
+      text="Cacciola L. rush for 2 yards to the LEG29 (De Sio M.)." newcontext="V,2,8,V29">
+    <p_ru vh="V" name="Cacciola L." gain="2"></p_ru>
+    <p_tk vh="H" name="De Sio M."></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="8" spot="LEG29" context="V,2,8,V29" playid="23,3,164" type="P" first="P" score="Y" clock="01:58"
+      text="Giachino E. pass complete to Cacciola F. for 1 yard to the LEG30, Cacciola F. for 60 yards to the EAG0, 1ST DOWN LEG, TOUCHDOWN, clock 01:58." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Giachino E." result="COMP" rcv="Cacciola F." gain="1"></p_pa>
+    <p_cont vh="V" name="Cacciola F." context="PASS" at="V30" gain="60"></p_cont>
+   </play>
+   <play hasball="LEG" down="1" togo="0" spot="EAG03" context="V,1,0,H03" playid="23,4,165" type="X" score="Y"
+      text="Bernardini P. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Bernardini P." qb="Bernardini P." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="31" H="8"></score>
+   <drivesum plays="2" yards="63" top="0:20" driveindex="23" complete="Y"></drivesum>
+   <play hasball="LEG" down="1" togo="0" spot="LEG30" context="V,1,0,V30" playid="23,5,166" type="K"
+      text="Bernardini P. kickoff -20 yards to the LEG10, Contardi F. return -29 yards to the LEG39, out-of-bounds." ob="Y" newcontext="H,1,10,V39">
+    <p_ko vh="V" name="Bernardini P." gain="-20"></p_ko>
+    <p_kr vh="H" name="Contardi F." gain="-29"></p_kr>
+   </play>
+   <drivestart poss="H,V39,01:58" vh="H" spot="V39" clock="01:58" driveindex="24,166"></drivestart>
+   <play hasball="EAG" down="1" togo="10" spot="LEG39" context="H,1,10,V39" playid="24,1,167" clock="01:58"
+      text="EAGLES SALERNO drive start at 01:58." newcontext="H,1,10,V39">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG39" context="H,1,10,V39" playid="24,2,168" type="P"
+      text="Leo V. pass complete to Contardi F. for 9 yards to the LEG30 (Turano D.;Tiraferri A.)." newcontext="H,2,1,V30">
+    <p_pa vh="H" qb="Leo V." result="COMP" rcv="Contardi F." gain="9"></p_pa>
+    <p_tk vh="V" name="Turano D." assist="Y"></p_tk>
+    <p_tk vh="V" name="Tiraferri A." assist="Y"></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="1" spot="LEG30" context="H,2,1,V30" playid="24,3,169" type="P"
+      text="Leo V. pass incomplete to Mastandrea P.." newcontext="H,3,1,V30">
+    <p_pa vh="H" qb="Leo V." result="INC" rcv="Mastandrea P."></p_pa>
+   </play>
+   <play hasball="EAG" down="3" togo="1" spot="LEG30" context="H,3,1,V30" playid="24,4,170" type="P" first="E"
+      text="Leo V. pass incomplete to Mele L., PENALTY LEG pass interference 15 yards to the LEG15, 1ST DOWN EAG." newcontext="H,1,10,V15">
+    <p_pa vh="H" qb="Leo V." result="INC" rcv="Mele L."></p_pa>
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="V30" yards="15"></p_pn>
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG15" context="H,1,10,V15" playid="24,5,171"
+      text="1st and 10." newcontext="H,1,10,V15">
+   </play>
+   <play hasball="EAG" down="1" togo="10" spot="LEG15" context="H,1,10,V15" playid="24,6,172" type="P" first="E"
+      text="Leo V. pass incomplete to Bisogni M., PENALTY LEG pass interference 13 yards to the LEG2, 1ST DOWN EAG." newcontext="H,1,0,V02">
+    <p_pa vh="H" qb="Leo V." result="INC" rcv="Bisogni M."></p_pa>
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="V15" yards="13"></p_pn>
+   </play>
+   <play hasball="EAG" down="1" togo="0" spot="LEG02" context="H,1,0,V02" playid="24,7,173"
+      text="1st and 2." newcontext="H,1,0,V02">
+   </play>
+   <play hasball="EAG" down="1" togo="0" spot="LEG02" context="H,1,0,V02" playid="24,8,174" type="#" clock="00:51"
+      text="Timeout Legio XIII Roma, clock 00:51." newcontext="H,1,0,V02">
+    <p_to vh="V" team="Legio XIII Roma"></p_to>
+   </play>
+   <play hasball="EAG" down="1" togo="0" spot="LEG02" context="H,1,0,V02" playid="24,9,175" type="P"
+      text="Leo V. pass incomplete to Contardi F.." newcontext="H,2,0,V02">
+    <p_pa vh="H" qb="Leo V." result="INC" rcv="Contardi F."></p_pa>
+   </play>
+   <play hasball="EAG" down="2" togo="0" spot="LEG02" context="H,2,0,V02" playid="24,10,176" type="E" first="E"
+      text="Leo V. pass incomplete to Contardi F., PENALTY LEG pass interference 1 yards to the LEG1, 1ST DOWN EAG, NO PLAY." newcontext="H,1,0,V01">
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="V02" yards="1"></p_pn>
+   </play>
+   <play hasball="EAG" down="1" togo="0" spot="LEG01" context="H,1,0,V01" playid="24,11,177" type="R"
+      text="Leo V. rush for no gain to the LEG1 (TEAM)." newcontext="H,2,0,V01">
+    <p_ru vh="H" name="Leo V." gain="0"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="EAG" down="2" togo="0" spot="LEG01" context="H,2,0,V01" playid="24,12,178" type="#" clock="00:11"
+      text="Timeout Eagles Salerno, clock 00:11." newcontext="H,2,0,V01">
+    <p_to vh="H" team="Eagles Salerno"></p_to>
+   </play>
+   <play hasball="EAG" down="2" togo="0" spot="LEG01" context="H,2,0,V01" playid="24,13,179" type="R" score="Y" clock="00:05"
+      text="Della Rocca V. rush for 1 yard to the LEG0, TOUCHDOWN, clock 00:05." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Della Rocca V." gain="1"></p_ru>
+   </play>
+   <play hasball="EAG" down="1" togo="0" spot="LEG03" context="H,1,0,V03" playid="24,14,180" type="X" score="Y"
+      text="Leo V. pass attempt to Contardi F. good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Contardi F." qb="Leo V." type="P" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="31" H="16"></score>
+   <drivesum plays="7" yards="39" top="1:53" driveindex="24" complete="Y"></drivesum>
+   <play hasball="EAG" down="1" togo="0" spot="EAG30" context="H,1,0,H30" playid="24,15,181" type="K"
+      text="Veldorale M. kickoff 0 yards to the EAG30, out-of-bounds, LEG ball on EAG39." ob="Y" newcontext="V,1,10,H39">
+    <p_ko vh="H" name="Veldorale M." gain="0" result="O"></p_ko>
+   </play>
+   <drivestart poss="V,H39,00:05" vh="V" spot="H39" clock="00:05" driveindex="25,181"></drivestart>
+   <play hasball="LEG" down="1" togo="10" spot="EAG39" context="V,1,10,H39" playid="25,1,182" clock="00:05"
+      text="LEGIO XIII ROMA drive start at 00:05." newcontext="V,1,10,H39">
+   </play>
+   <play hasball="LEG" down="1" togo="10" spot="EAG39" context="V,1,10,H39" playid="25,2,183" type="R"
+      text="Fronda A. rush for 9 yards to the EAG30 (Di Mauro A.)." newcontext="V,2,1,H30">
+    <p_ru vh="V" name="Fronda A." gain="9"></p_ru>
+    <p_tk vh="H" name="Di Mauro A."></p_tk>
+   </play>
+   <play hasball="LEG" down="2" togo="1" spot="EAG30" context="V,2,1,H30" playid="25,3,184" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="V,2,1,H30">
+   </play>
+   <drivesum plays="1" yards="9" top="0:05" driveindex="25" complete="Y"></drivesum>
+   <score final="Y" V="31" H="16"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LEG">
+    <firstdowns no="5" rush="2" pass="3" penalty="0"></firstdowns>
+    <penalties no="6" yds="65"></penalties>
+    <conversions thirdconv="2" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:25"></misc>
+    <rush att="9" yds="34" gain="37" loss="3" td="0" long="0"></rush>
+    <pass comp="4" att="6" int="0" yds="99" td="2" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="99" td="2" long="0"></rcv>
+    <ko no="2" yds="-45" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1" passatt="1" passmade="0"></pat>
+    <defense tackua="6" tacka="2" tot_tack="8" tflua="2" tfla="0" tflyds="21" sacks="0" sackyds="0" brup="1" int="1" intyds="0"></defense>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <scoring td="2" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="EAG">
+    <firstdowns no="6" rush="1" pass="0" penalty="5"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="4" fourthconv="1" fourthatt="3"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:35"></misc>
+    <rush att="6" yds="-9" gain="12" loss="21" td="1" long="0"></rush>
+    <pass comp="2" att="14" int="1" yds="14" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="14" td="0" long="0"></rcv>
+    <ko no="1" yds="0" ob="1" tb="0"></ko>
+    <pat passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="10" tacka="2" tot_tack="12" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="-80" td="0" long="0"></kr>
+    <scoring td="1" patrcv="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="LEG" down="2" togo="1" spot="EAG30" context="V,2,1,H30" qtr="4" clock="00:00" vtoh="3" htoh="2"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="LEG">
+ </dnp>
+ <dnp vh="H" id="EAG">
+  <player name="Villari N." checkname="N.,VILLARI" uni="0" gp="0" code="0"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

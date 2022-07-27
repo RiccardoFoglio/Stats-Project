@@ -1,0 +1,1441 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220170" visid="NEP" homeid="HBD" visname="Braves Bologna" homename="Honey Badgers Formig"
+      date="5/21/2022" location="MODENA" stadium="C.S. FORMIGINE"
+      start="17:00" end="20:20" leaguegame="Y"
+      duration="03:20" attend="40" temp="27" wind="NO WIND" weather="SUNNY">
+  <officials ref="CAMOSSA C." ump="BERTORELLI K." line="VITALE D." lj="BORELLI A." bj="BERNINI S." sc="GIBELLINI S."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="82" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="NEP" name="Braves Bologna" record="1-3" conf-record="1-3" abb="V">
+  <linescore prds="4" line="6,3,14,6" score="29">
+   <lineprd prd="1" score="6"></lineprd>
+   <lineprd prd="2" score="3"></lineprd>
+   <lineprd prd="3" score="14"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals totoff_plays="59" totoff_yards="259" totoff_avg="4.4">
+   <firstdowns no="12" rush="6" pass="6" penalty="0"></firstdowns>
+   <penalties no="12" yds="104"></penalties>
+   <conversions thirdconv="5" thirdatt="15" fourthconv="2" fourthatt="4"></conversions>
+   <fumbles no="3" lost="2"></fumbles>
+   <misc yds="0" top="19:01" ona="0" onm="0"></misc>
+   <redzone att="2" scores="1" points="3" tdrush="0" tdpass="0" fgmade="1" endfga="0" enddowns="0" endint="0" endfumb="1" endhalf="0" endgame="0"></redzone>
+   <rush att="29" yds="82" gain="126" loss="44" td="2" long="39"></rush>
+   <pass comp="12" att="30" int="1" yds="177" td="1" long="38" sacks="4" sackyds="23"></pass>
+   <rcv no="12" yds="177" td="1" long="38"></rcv>
+   <punt no="3" yds="93" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="2" avg="31.0"></punt>
+   <ko no="6" yds="243" ob="0" tb="1"></ko>
+   <fg made="1" att="1" long="17" blkd="0"></fg>
+   <pat kickatt="1" kickmade="0" rushatt="1" rushmade="0" passatt="2" passmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="41" tacka="10" tot_tack="51" tflua="5" tfla="0" tflyds="17" sacks="2" sackyds="7"></defense>
+   <kr no="6" yds="136" td="1" long="67"></kr>
+   <pr no="2" yds="31" td="0" long="17"></pr>
+   <scoring td="4" fg="1" patrcv="1"></scoring>
+  </totals>
+  <player name="Ferri S." shortname="Ferri S." checkname="S.,FERRI" uni="15" gp="1" code="15">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <rcv no="6" yds="64" td="0" long="32"></rcv>
+   <punt no="1" yds="38" long="38" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="38.0"></punt>
+   <ko no="3" yds="105" ob="0" tb="0"></ko>
+   <pat rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+   <scoring patrcv="1"></scoring>
+  </player>
+  <player name="Luccarini L." shortname="Luccarini L." checkname="L.,LUCCARINI" uni="7" gp="1" code="7">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <rcv no="2" yds="70" td="1" long="38"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Montanari U." shortname="Montanari U." checkname="U.,MONTANARI" uni="18" gp="1" code="18">
+   <rush att="14" yds="82" gain="85" loss="3" td="1" long="39"></rush>
+   <rcv no="2" yds="17" td="0" long="10"></rcv>
+   <pat rushatt="1" rushmade="0"></pat>
+   <pr no="1" yds="17" td="0" long="17"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Toccaceli F." shortname="Toccaceli F." checkname="F.,TOCCACELI" uni="88" gp="1" code="88">
+   <rcv no="1" yds="22" td="0" long="22"></rcv>
+  </player>
+  <player name="Sanzani D." shortname="Sanzani D." checkname="D.,SANZANI" uni="22" gp="1" code="22">
+   <rush att="4" yds="36" gain="38" loss="2" td="1" long="28"></rush>
+   <rcv no="1" yds="4" td="0" long="4"></rcv>
+   <kr no="4" yds="133" td="1" long="67"></kr>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Mazzei A." shortname="Mazzei A." checkname="A.,MAZZEI" uni="55" gp="1" code="55">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+  </player>
+  <player name="Ritucci S." shortname="Ritucci S." checkname="S.,RITUCCI" uni="58" gp="1" code="58">
+   <rush att="1" yds="-3" gain="0" loss="3" td="0" long="0"></rush>
+  </player>
+  <player name="Lazzarin I." shortname="Lazzarin I." checkname="I.,LAZZARIN" uni="8" gp="1" code="8">
+   <rush att="6" yds="-36" gain="0" loss="36" td="0" long="0"></rush>
+   <pass comp="12" att="30" int="1" yds="177" td="1" long="38" sacks="4" sackyds="23"></pass>
+   <pat passatt="2" passmade="1"></pat>
+   <fumbles no="3" lost="2"></fumbles>
+  </player>
+  <player name="Barry A." shortname="Barry A." checkname="A.,BARRY" uni="16" gp="1" code="16"></player>
+  <player name="Blasco D." shortname="Blasco D." checkname="D.,BLASCO" uni="12" gp="1" code="12">
+   <defense tackua="4" tacka="0" tot_tack="4" tflua="3" tfla="0" tflyds="11" sackua="2" sacka="0" sackyds="7"></defense>
+  </player>
+  <player name="Pedretti A." shortname="Pedretti A." checkname="A.,PEDRETTI" uni="20" gp="1" code="20">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+  <player name="Lucchi S." shortname="Lucchi S." checkname="S.,LUCCHI" uni="11" gp="1" code="11">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="Amewoyi P." shortname="Amewoyi P." checkname="P.,AMEWOYI" uni="25" gp="1" code="25"></player>
+  <player name="Pederzoli M." shortname="Pederzoli M." checkname="M.,PEDERZOLI" uni="10" gp="1" code="10">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+  <player name="Ginelli I." shortname="Ginelli I." checkname="I.,GINELLI" uni="41" gp="1" code="41"></player>
+  <player name="Torre F." shortname="Torre F." checkname="F.,TORRE" uni="44" gp="1" code="44">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Vertuan M." shortname="Vertuan M." checkname="M.,VERTUAN" uni="48" gp="1" code="48">
+   <defense tackua="7" tacka="2" tot_tack="9" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Galli V." shortname="Galli V." checkname="V.,GALLI" uni="50" gp="1" code="50">
+   <defense tackua="5" tacka="0" tot_tack="5"></defense>
+   <pr no="1" yds="14" td="0" long="14"></pr>
+  </player>
+  <player name="Tomasi D." shortname="Tomasi D." checkname="D.,TOMASI" uni="56" gp="1" code="56">
+   <kr no="2" yds="3" td="0" long="3"></kr>
+  </player>
+  <player name="Mileti I." shortname="Mileti I." checkname="I.,MILETI" uni="6" gp="1" code="6"></player>
+  <player name="Assaoui E." shortname="Assaoui E." checkname="E.,ASSAOUI" uni="60" gp="1" code="60">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Cassanelli M." shortname="Cassanelli M." checkname="M.,CASSANELLI" uni="70" gp="1" code="70">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Agnoli D." shortname="Agnoli D." checkname="D.,AGNOLI" uni="71" gp="1" code="71"></player>
+  <player name="Miftah I." shortname="Miftah I." checkname="I.,MIFTAH" uni="73" gp="1" code="73">
+   <punt no="2" yds="55" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="27.5"></punt>
+   <ko no="3" yds="138" ob="0" tb="1"></ko>
+   <fg made="1" att="1" long="17" blkd="0"></fg>
+   <pat kickatt="1" kickmade="0"></pat>
+   <defense tackua="2" tacka="2" tot_tack="4"></defense>
+   <scoring fg="1"></scoring>
+  </player>
+  <player name="Iacob A." shortname="Iacob A." checkname="A.,IACOB" uni="77" gp="1" code="77">
+   <defense tackua="4" tacka="0" tot_tack="4" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Montedoro V." shortname="Montedoro V." checkname="V.,MONTEDORO" uni="80" gp="1" code="80">
+   <defense tackua="2" tacka="2" tot_tack="4"></defense>
+  </player>
+  <player name="Schina S." shortname="Schina S." checkname="S.,SCHINA" uni="81" gp="1" code="81"></player>
+  <player name="Sanogo M." shortname="Sanogo M." checkname="M.,SANOGO" uni="30" gp="1" code="30">
+   <rush att="1" yds="3" gain="3" loss="0" td="0" long="3"></rush>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="7" tacka="0" tot_tack="7"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="HBD" name="Honey Badgers Formig" record="1-3" conf-record="1-3" abb="H">
+  <linescore prds="4" line="6,6,14,6" score="32">
+   <lineprd prd="1" score="6"></lineprd>
+   <lineprd prd="2" score="6"></lineprd>
+   <lineprd prd="3" score="14"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals totoff_plays="60" totoff_yards="267" totoff_avg="4.5">
+   <firstdowns no="17" rush="11" pass="2" penalty="4"></firstdowns>
+   <penalties no="6" yds="40"></penalties>
+   <conversions thirdconv="1" thirdatt="10" fourthconv="2" fourthatt="4"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="28:59" ona="0" onm="0"></misc>
+   <redzone att="3" scores="3" points="18" tdrush="2" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="45" yds="200" gain="214" loss="14" td="2" long="17"></rush>
+   <pass comp="4" att="15" int="0" yds="67" td="2" long="36" sacks="2" sackyds="7"></pass>
+   <rcv no="4" yds="67" td="2" long="36"></rcv>
+   <punt no="5" yds="111" long="28" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="22.2"></punt>
+   <ko no="6" yds="192" ob="0" tb="0"></ko>
+   <pat kickatt="2" kickmade="0" passatt="3" passmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="31" tacka="16" tot_tack="47" tflua="9" tfla="0" tflyds="37" sacks="4" sackyds="23" brup="6" ff="2" fr="2" fryds="15" int="1" intyds="0"></defense>
+   <kr no="5" yds="89" td="0" long="27"></kr>
+   <pr no="2" yds="14" td="0" long="14"></pr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+   <fr no="1" yds="15" td="1" long="15"></fr>
+   <scoring td="5" patrcv="1"></scoring>
+  </totals>
+  <player name="Zucchini A." shortname="Zucchini A." checkname="A.,ZUCCHINI" uni="10" gp="1" code="10">
+   <rcv no="2" yds="10" td="1" long="13"></rcv>
+   <pr no="2" yds="14" td="0" long="14"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Franco Herre E." shortname="Franco Herre E." checkname="HERRE E.,FRANCO" uni="82" gp="1" code="82">
+   <rcv no="1" yds="36" td="1" long="36"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Ghirri M." shortname="Ghirri M." checkname="M.,GHIRRI" uni="26" gp="1" code="26">
+   <rush att="18" yds="72" gain="79" loss="7" td="0" long="17"></rush>
+   <rcv no="1" yds="21" td="0" long="21"></rcv>
+   <pat rcvatt="1" rcvmade="1"></pat>
+   <kr no="2" yds="38" td="0" long="21"></kr>
+   <scoring patrcv="1"></scoring>
+  </player>
+  <player name="Barile U." shortname="Barile U." checkname="U.,BARILE" uni="33" gp="1" code="33">
+   <rush att="3" yds="-6" gain="1" loss="7" td="0" long="1"></rush>
+   <pass comp="4" att="15" int="0" yds="67" td="2" long="36" sacks="2" sackyds="7"></pass>
+   <pat passatt="3" passmade="1"></pat>
+  </player>
+  <player name="Migliori M." shortname="Migliori M." checkname="M.,MIGLIORI" uni="7" gp="1" code="7">
+   <defense tackua="4" tacka="3" tot_tack="7" tflua="1" tfla="0" tflyds="1" brup="2"></defense>
+  </player>
+  <player name="Ferrari M." shortname="Ferrari M." checkname="M.,FERRARI" uni="45" gp="1" code="45">
+   <rush att="2" yds="12" gain="12" loss="0" td="0" long="12"></rush>
+  </player>
+  <player name="Caldarone B." shortname="Caldarone B." checkname="B.,CALDARONE" uni="11" gp="1" code="11"></player>
+  <player name="Saetti E." shortname="Saetti E." checkname="E.,SAETTI" uni="12" gp="1" code="12">
+   <defense tackua="2" tacka="3" tot_tack="5"></defense>
+  </player>
+  <player name="Pettenati Be S." shortname="Pettenati Be S." checkname="BE S.,PETTENATI" uni="14" gp="1" code="14">
+   <defense tackua="1" tacka="1" tot_tack="2" tflua="1" tfla="0" tflyds="7" sackua="1" sacka="0" sackyds="7"></defense>
+  </player>
+  <player name="Baroni E." shortname="Baroni E." checkname="E.,BARONI" uni="21" gp="1" code="21">
+   <defense tackua="1" tacka="0" tot_tack="1" brup="3" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Perrotta L." shortname="Perrotta L." checkname="L.,PERROTTA" uni="22" gp="1" code="22"></player>
+  <player name="Lugli E." shortname="Lugli E." checkname="E.,LUGLI" uni="24" gp="1" code="24"></player>
+  <player name="Archilli M." shortname="Archilli M." checkname="M.,ARCHILLI" uni="4" gp="1" code="4">
+   <defense tackua="4" tacka="3" tot_tack="7" tflua="1" tfla="0" tflyds="6" brup="1" ff="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Cosimo O." shortname="Cosimo O." checkname="O.,COSIMO" uni="3" gp="1" code="3">
+   <defense tackua="2" tacka="1" tot_tack="3"></defense>
+  </player>
+  <player name="Emmolo L." shortname="Emmolo L." checkname="L.,EMMOLO" uni="28" gp="1" code="28"></player>
+  <player name="Caligiuri F." shortname="Caligiuri F." checkname="F.,CALIGIURI" uni="1" gp="1" code="1">
+   <defense tackua="4" tacka="0" tot_tack="4"></defense>
+  </player>
+  <player name="Roberto G." shortname="Roberto G." checkname="G.,ROBERTO" uni="35" gp="1" code="35"></player>
+  <player name="Botti M." shortname="Botti M." checkname="M.,BOTTI" uni="2" gp="1" code="2">
+   <punt no="5" yds="111" long="28" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="22.2"></punt>
+   <ko no="3" yds="78" ob="0" tb="0"></ko>
+   <pat kickatt="2" kickmade="0"></pat>
+  </player>
+  <player name="Bommicino I." shortname="Bommicino I." checkname="I.,BOMMICINO" uni="50" gp="1" code="50"></player>
+  <player name="Bufi E." shortname="Bufi E." checkname="E.,BUFI" uni="52" gp="1" code="52"></player>
+  <player name="Bommicino M." shortname="Bommicino M." checkname="M.,BOMMICINO" uni="58" gp="1" code="58">
+   <defense tackua="4" tacka="1" tot_tack="5" tflua="4" tfla="0" tflyds="19" sackua="3" sacka="0" sackyds="16" ff="1"></defense>
+  </player>
+  <player name="Kowacz K." shortname="Kowacz K." checkname="K.,KOWACZ" uni="60" gp="1" code="60">
+   <kr no="1" yds="4" td="0" long="4"></kr>
+  </player>
+  <player name="Govoni E." shortname="Govoni E." checkname="E.,GOVONI" uni="71" gp="1" code="71"></player>
+  <player name="Bandiera R." shortname="Bandiera R." checkname="R.,BANDIERA" uni="75" gp="1" code="75">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Aldrovandi L." shortname="Aldrovandi L." checkname="L.,ALDROVANDI" uni="77" gp="1" code="77">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Trenti M." shortname="Trenti M." checkname="M.,TRENTI" uni="27" gp="1" code="27">
+   <rush att="22" yds="122" gain="122" loss="0" td="2" long="14"></rush>
+   <ko no="3" yds="114" ob="0" tb="0"></ko>
+   <kr no="2" yds="47" td="0" long="27"></kr>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Bertin L." shortname="Bertin L." checkname="L.,BERTIN" uni="84" gp="1" code="84">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Quartieri G." shortname="Quartieri G." checkname="G.,QUARTIERI" uni="85" gp="1" code="85">
+   <defense tackua="6" tacka="4" tot_tack="10" tflua="1" tfla="0" tflyds="2" fr="1" fryds="15"></defense>
+   <fr no="1" yds="15" td="1" long="15"></fr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198"></player>
+ </team>
+ <scores>
+  <score vh="H" team="HBD" qtr="1" clock="06:05" type="TD" how="PASS" yds="13" scorer="Zucchini A." passer="Barile U." patby="Botti M." pattype="KICK" patres="FAIL" plays="14" drive="61" top="5:55" vscore="0" hscore="6" driveindex="1"></score>
+  <score vh="V" team="NEP" qtr="1" clock="05:27" type="TD" how="RUSH" yds="39" scorer="Montanari U." patby="Miftah I." pattype="KICK" patres="FAIL" plays="2" drive="54" top="0:38" vscore="6" hscore="6" driveindex="2"></score>
+  <score vh="V" team="NEP" qtr="2" clock="04:03" type="FG" yds="17" scorer="Miftah I." plays="8" drive="38" top="2:23" vscore="9" hscore="6" driveindex="8"></score>
+  <score vh="H" team="HBD" qtr="2" clock="01:27" type="TD" how="RUSH" yds="2" scorer="Trenti M." patby="Botti M." pattype="KICK" patres="FAIL" plays="5" drive="48" top="2:33" vscore="9" hscore="12" driveindex="9"></score>
+  <score vh="V" team="NEP" qtr="3" clock="09:15" type="TD" how="RUSH" yds="28" scorer="Sanzani D." patby="Ferri S." pattype="PASS" patres="GOOD" plays="1" drive="28" top="0:07" vscore="17" hscore="12" driveindex="14"></score>
+  <score vh="H" team="HBD" qtr="3" clock="05:11" type="TD" how="PASS" yds="36" scorer="Franco Herre E." passer="Barile U." patby="Ghirri M." pattype="PASS" patres="GOOD" plays="2" drive="37" top="1:13" vscore="17" hscore="20" driveindex="17"></score>
+  <score vh="V" team="NEP" qtr="3" clock="04:56" type="TD" how="KO" yds="67" scorer="Sanzani D." patby="Montanari U." pattype="RUSH" patres="FAIL" vscore="23" hscore="20" driveindex="18"></score>
+  <score vh="H" team="HBD" qtr="3" clock="01:07" type="TD" how="FUMB" yds="15" scorer="Quartieri G." patby="Barile U." pattype="PASS" patres="FAIL" vscore="23" hscore="26" driveindex="21"></score>
+  <score vh="H" team="HBD" qtr="4" clock="04:22" type="TD" how="RUSH" yds="4" scorer="Trenti M." patby="Barile U." pattype="PASS" patres="FAIL" plays="11" drive="72" top="5:37" vscore="23" hscore="32" driveindex="23"></score>
+  <score vh="V" team="NEP" qtr="4" clock="02:06" type="TD" how="PASS" yds="32" scorer="Luccarini L." passer="Lazzarin I." patby="Lazzarin I." pattype="PASS" patres="FAIL" plays="7" drive="45" top="2:10" vscore="29" hscore="32" driveindex="24"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="NEP" kicker="Miftah I." qtr="2" clock="04:03" distance="17" result="good"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="HBD" start="KO,1,12:00,21" end="TD,1,06:05,82" plays="14" yards="61" top="5:55" start_how="KO" start_qtr="1" start_time="12:00" start_spot="HBD21" end_how="TD" end_qtr="1" end_time="06:05" end_spot="NEP00" rz="1" driveindex="1"></drive>
+  <drive vh="V" team="NEP" start="KO,1,06:05,28" end="TD,1,05:27,82" plays="2" yards="54" top="0:38" start_how="KO" start_qtr="1" start_time="06:05" start_spot="NEP28" end_how="TD" end_qtr="1" end_time="05:27" end_spot="HBD00" driveindex="2"></drive>
+  <drive vh="H" team="HBD" start="KO,1,05:24,20" end="PUNT,1,03:04,24" plays="3" yards="4" top="2:20" start_how="KO" start_qtr="1" start_time="05:24" start_spot="HBD20" end_how="PUNT" end_qtr="1" end_time="03:04" end_spot="HBD24" driveindex="3"></drive>
+  <drive vh="V" team="NEP" start="PUNT,1,03:04,46" end="DOWNS,1,02:27,46" plays="4" yards="0" top="0:37" start_how="PUNT" start_qtr="1" start_time="03:04" start_spot="HBD36" end_how="DOWNS" end_qtr="1" end_time="02:27" end_spot="HBD36" driveindex="4"></drive>
+  <drive vh="H" team="HBD" start="DOWNS,1,02:27,36" end="PUNT,1,00:00,41" plays="3" yards="5" top="2:27" start_how="DOWNS" start_qtr="1" start_time="02:27" start_spot="HBD36" end_how="PUNT" end_qtr="1" end_time="00:00" end_spot="HBD41" driveindex="5"></drive>
+  <drive vh="V" team="NEP" start="PUNT,2,12:00,24" end="PUNT,2,09:12,46" plays="6" yards="22" top="2:48" start_how="PUNT" start_qtr="2" start_time="12:00" start_spot="NEP24" end_how="PUNT" end_qtr="2" end_time="09:12" end_spot="HBD36" driveindex="6"></drive>
+  <drive vh="H" team="HBD" start="PUNT,2,09:12,20" end="PUNT,2,06:26,35" plays="5" yards="15" top="2:46" start_how="PUNT" start_qtr="2" start_time="09:12" start_spot="HBD20" end_how="PUNT" end_qtr="2" end_time="06:26" end_spot="HBD35" driveindex="7"></drive>
+  <drive vh="V" team="NEP" start="PUNT,2,06:26,34" end="FG,2,04:03,72" plays="8" yards="38" top="2:23" start_how="PUNT" start_qtr="2" start_time="06:26" start_spot="NEP34" end_how="FG" end_qtr="2" end_time="04:03" end_spot="HBD10" rz="1" driveindex="8"></drive>
+  <drive vh="H" team="HBD" start="KO,2,04:00,34" end="TD,2,01:27,82" plays="5" yards="48" top="2:33" start_how="KO" start_qtr="2" start_time="04:00" start_spot="HBD34" end_how="TD" end_qtr="2" end_time="01:27" end_spot="NEP00" rz="1" driveindex="9"></drive>
+  <drive vh="V" team="NEP" start="KO,2,01:22,39" end="DOWNS,2,00:03,42" plays="4" yards="3" top="1:19" start_how="KO" start_qtr="2" start_time="01:22" start_spot="NEP39" end_how="DOWNS" end_qtr="2" end_time="00:03" end_spot="HBD40" driveindex="10"></drive>
+  <drive vh="H" team="HBD" start="DOWNS,2,00:03,40" end="KO,3,12:00,40" plays="1" yards="0" top="0:03" start_how="DOWNS" start_qtr="2" start_time="00:03" start_spot="HBD40" end_how="KO" end_qtr="3" end_time="12:00" end_spot="HBD40" driveindex="11"></drive>
+  <drive vh="V" team="NEP" start="KO,3,11:55,41" end="PUNT,3,10:54,40" plays="3" yards="-1" top="1:01" start_how="KO" start_qtr="3" start_time="11:55" start_spot="NEP41" end_how="PUNT" end_qtr="3" end_time="10:54" end_spot="NEP40" driveindex="12"></drive>
+  <drive vh="H" team="HBD" start="PUNT,3,10:54,17" end="PUNT,3,09:22,17" plays="3" yards="0" top="1:32" start_how="PUNT" start_qtr="3" start_time="10:54" start_spot="HBD17" end_how="PUNT" end_qtr="3" end_time="09:22" end_spot="HBD17" driveindex="13"></drive>
+  <drive vh="V" team="NEP" start="PUNT,3,09:22,54" end="TD,3,09:15,82" plays="1" yards="28" top="0:07" start_how="PUNT" start_qtr="3" start_time="09:22" start_spot="HBD28" end_how="TD" end_qtr="3" end_time="09:15" end_spot="HBD00" driveindex="14"></drive>
+  <drive vh="H" team="HBD" start="KO,3,08:56,37" end="DOWNS,3,07:42,53" plays="5" yards="16" top="1:14" start_how="KO" start_qtr="3" start_time="08:56" start_spot="HBD37" end_how="DOWNS" end_qtr="3" end_time="07:42" end_spot="NEP29" driveindex="15"></drive>
+  <drive vh="V" team="NEP" start="DOWNS,3,07:42,29" end="FUMB,3,06:24,37" plays="4" yards="8" top="1:18" start_how="DOWNS" start_qtr="3" start_time="07:42" start_spot="NEP29" end_how="FUMB" end_qtr="3" end_time="06:24" end_spot="NEP37" rz="1" driveindex="16"></drive>
+  <drive vh="H" team="HBD" start="FUMB,3,06:24,45" end="TD,3,05:11,82" plays="2" yards="37" top="1:13" start_how="FUMB" start_qtr="3" start_time="06:24" start_spot="NEP37" end_how="TD" end_qtr="3" end_time="05:11" end_spot="NEP00" driveindex="17"></drive>
+  <drive vh="V" team="NEP" start="KO,3,04:56,82" end="TD,3,04:56,82" plays="0" yards="0" top="0:00" start_how="KO" start_qtr="3" start_time="04:56" start_spot="HBD00" end_how="TD" end_qtr="3" end_time="04:56" end_spot="HBD00" driveindex="18"></drive>
+  <drive vh="H" team="HBD" start="KO,3,04:48,24" end="PUNT,3,03:27,41" plays="3" yards="17" top="1:21" start_how="KO" start_qtr="3" start_time="04:48" start_spot="HBD24" end_how="PUNT" end_qtr="3" end_time="03:27" end_spot="HBD41" driveindex="19"></drive>
+  <drive vh="V" team="NEP" start="PUNT,3,03:27,14" end="FUMB,3,01:07,15" plays="5" yards="1" top="2:20" start_how="PUNT" start_qtr="3" start_time="03:27" start_spot="NEP14" end_how="FUMB" end_qtr="3" end_time="01:07" end_spot="NEP15" driveindex="20"></drive>
+  <drive vh="H" team="HBD" start="FUMB,3,01:07,67" end="TD,3,01:07,67" plays="0" yards="0" top="0:00" start_how="FUMB" start_qtr="3" start_time="01:07" start_spot="NEP15" end_how="TD" end_qtr="3" end_time="01:07" end_spot="NEP15" driveindex="21"></drive>
+  <drive vh="V" team="NEP" start="KO,3,00:54,34" end="PUNT,4,09:59,34" plays="10" yards="0" top="2:55" start_how="KO" start_qtr="3" start_time="00:54" start_spot="NEP34" end_how="PUNT" end_qtr="4" end_time="09:59" end_spot="NEP34" driveindex="22"></drive>
+  <drive vh="H" team="HBD" start="PUNT,4,09:59,10" end="TD,4,04:22,82" plays="11" yards="72" top="5:37" start_how="PUNT" start_qtr="4" start_time="09:59" start_spot="HBD10" end_how="TD" end_qtr="4" end_time="04:22" end_spot="NEP00" rz="1" driveindex="23"></drive>
+  <drive vh="V" team="NEP" start="KO,4,04:16,37" end="TD,4,02:06,82" plays="7" yards="45" top="2:10" start_how="KO" start_qtr="4" start_time="04:16" start_spot="NEP37" end_how="TD" end_qtr="4" end_time="02:06" end_spot="HBD00" driveindex="24"></drive>
+  <drive vh="H" team="HBD" start="KO,4,02:03,47" end="DOWNS,4,00:47,53" plays="4" yards="6" top="1:16" start_how="KO" start_qtr="4" start_time="02:03" start_spot="NEP35" end_how="DOWNS" end_qtr="4" end_time="00:47" end_spot="NEP29" driveindex="25"></drive>
+  <drive vh="V" team="NEP" start="DOWNS,4,00:47,29" end="INT,4,00:06,41" plays="5" yards="12" top="0:41" start_how="DOWNS" start_qtr="4" start_time="00:47" start_spot="NEP29" end_how="INT" end_qtr="4" end_time="00:06" end_spot="NEP41" driveindex="26"></drive>
+  <drive vh="H" team="HBD" start="INT,4,00:06,30" end="HALF,4,00:00,31" plays="1" yards="1" top="0:06" start_how="INT" start_qtr="4" start_time="00:06" start_spot="HBD30" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="HBD31" driveindex="27"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="NEP" down="1" togo="10" spot="NEP30" context="V,1,10,V30" playid="0,1,0"
+      text="HONEY BADGERS WIN THE COIN TOSS, ELECT TO RECEIVE" newcontext="V,1,10,V30">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP30" context="V,1,10,V30" playid="0,2,1"
+      text="NEP ball on NEP30." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP30" context="V,1,10,V30" playid="0,3,2" type="K"
+      text="Miftah I. kickoff 48 yards to the HBD4, Ghirri M. return 17 yards to the HBD21 (Torre F.;Miftah I.)." newcontext="H,1,10,H21">
+    <p_ko vh="V" name="Miftah I." gain="48"></p_ko>
+    <p_kr vh="H" name="Ghirri M." gain="17"></p_kr>
+    <p_tk vh="V" name="Torre F." assist="Y"></p_tk>
+    <p_tk vh="V" name="Miftah I." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="H,H21,12:00" vh="H" spot="H21" clock="12:00" driveindex="1,2"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD21" context="H,1,10,H21" playid="1,1,3" type="R"
+      text="Ghirri M. rush for 1 yard to the HBD22." newcontext="H,2,9,H22">
+    <p_ru vh="H" name="Ghirri M." gain="1"></p_ru>
+   </play>
+   <play hasball="HBD" down="2" togo="9" spot="HBD22" context="H,2,9,H22" playid="1,2,4" type="R"
+      text="Trenti M. rush for 8 yards to the HBD30 (Galli V.)." newcontext="H,3,1,H30">
+    <p_ru vh="H" name="Trenti M." gain="8"></p_ru>
+    <p_tk vh="V" name="Galli V."></p_tk>
+   </play>
+   <play hasball="HBD" down="3" togo="1" spot="HBD30" context="H,3,1,H30" playid="1,3,5" type="R" first="R"
+      text="Ghirri M. rush for 3 yards to the HBD33, 1ST DOWN HBD (Pederzoli M.)." newcontext="H,1,10,H33">
+    <p_ru vh="H" name="Ghirri M." gain="3"></p_ru>
+    <p_tk vh="V" name="Pederzoli M."></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD33" context="H,1,10,H33" playid="1,4,6" type="P"
+      text="Barile U. pass incomplete to Zucchini A.." newcontext="H,2,10,H33">
+    <p_pa vh="H" qb="Barile U." result="INC" rcv="Zucchini A."></p_pa>
+   </play>
+   <play hasball="HBD" down="2" togo="10" spot="HBD33" context="H,2,10,H33" playid="1,5,7" type="R"
+      text="Ghirri M. rush for no gain to the HBD33 (Cassanelli M.)." newcontext="H,3,10,H33">
+    <p_ru vh="H" name="Ghirri M." gain="0"></p_ru>
+    <p_tk vh="V" name="Cassanelli M."></p_tk>
+   </play>
+   <play hasball="HBD" down="3" togo="10" spot="HBD33" context="H,3,10,H33" playid="1,6,8" type="E" first="E"
+      text="PENALTY NEP face mask (Cassanelli M.) 15 yards to the NEP34, 1ST DOWN HBD." newcontext="H,1,10,V34">
+    <p_pn vh="V" code="FM" type="face mask" name="Cassanelli M." result="ACCEPT" at="H33" yards="15"></p_pn>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP34" context="H,1,10,V34" playid="1,7,9" type="P"
+      text="Barile U. pass incomplete to Zucchini A.." newcontext="H,2,10,V34">
+    <p_pa vh="H" qb="Barile U." result="INC" rcv="Zucchini A."></p_pa>
+   </play>
+   <play hasball="HBD" down="2" togo="10" spot="NEP34" context="H,2,10,V34" playid="1,8,10" type="P"
+      text="Barile U. pass incomplete to Franco Herre E.." newcontext="H,3,10,V34">
+    <p_pa vh="H" qb="Barile U." result="INC" rcv="Franco Herre E."></p_pa>
+   </play>
+   <play hasball="HBD" down="3" togo="10" spot="NEP34" context="H,3,10,V34" playid="1,9,11" type="E" first="E"
+      text="PENALTY NEP pass interference (Montedoro V.) 15 yards to the NEP19, 1ST DOWN HBD." newcontext="H,1,10,V19">
+    <p_pn vh="V" code="PI" type="pass interference" name="Montedoro V." result="ACCEPT" at="V34" yards="15"></p_pn>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP19" context="H,1,10,V19" playid="1,10,12" type="E" first="E"
+      text="PENALTY HBD unsportsmanlike conduct (Barile U.) 15 yards to the NEP34, 1ST DOWN HBD." newcontext="H,1,10,V34">
+    <p_pn vh="H" code="UC" type="unsportsmanlike conduct" name="Barile U." result="ACCEPT" at="V19" yards="15"></p_pn>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP34" context="H,1,10,V34" playid="1,11,13" type="R"
+      text="Ghirri M. rush for loss of 3 yards to the NEP37 (Iacob A.)." newcontext="H,2,13,V37">
+    <p_ru vh="H" name="Ghirri M." gain="-3"></p_ru>
+    <p_tk vh="V" name="Iacob A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="13" spot="NEP37" context="H,2,13,V37" playid="1,12,14" type="R"
+      text="Ferrari M. rush for 12 yards to the NEP25 (Galli V.)." newcontext="H,3,1,V25">
+    <p_ru vh="H" name="Ferrari M." gain="12"></p_ru>
+    <p_tk vh="V" name="Galli V."></p_tk>
+   </play>
+   <play hasball="HBD" down="3" togo="1" spot="NEP25" context="H,3,1,V25" playid="1,13,15" type="P"
+      text="Barile U. pass incomplete to Franco Herre E.." newcontext="H,4,1,V25">
+    <p_pa vh="H" qb="Barile U." result="INC" rcv="Franco Herre E."></p_pa>
+   </play>
+   <play hasball="HBD" down="4" togo="1" spot="NEP25" context="H,4,1,V25" playid="1,14,16" type="#" clock="07:59"
+      text="Timeout Honey Badgers Formig, clock 07:59." newcontext="H,4,1,V25">
+    <p_to vh="H" team="Honey Badgers Formig"></p_to>
+   </play>
+   <play hasball="HBD" down="4" togo="1" spot="NEP25" context="H,4,1,V25" playid="1,15,17" type="R" first="R"
+      text="Trenti M. rush for 4 yards to the NEP21, 1ST DOWN HBD (TEAM)." newcontext="H,1,10,V21">
+    <p_ru vh="H" name="Trenti M." gain="4"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP21" context="H,1,10,V21" playid="1,16,18" type="R" first="R"
+      text="Trenti M. rush for 12 yards to the NEP9, 1ST DOWN HBD (Iacob A.)." newcontext="H,1,0,V09">
+    <p_ru vh="H" name="Trenti M." gain="12"></p_ru>
+    <p_tk vh="V" name="Iacob A."></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="0" spot="NEP09" context="H,1,0,V09" playid="1,17,19" type="R"
+      text="Ghirri M. rush for loss of 4 yards to the NEP13 (Blasco D.)." newcontext="H,2,0,V13">
+    <p_ru vh="H" name="Ghirri M." gain="-4"></p_ru>
+    <p_tk vh="V" name="Blasco D." tfl="Y"></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="0" spot="NEP13" context="H,2,0,V13" playid="1,18,20" type="P" score="Y" clock="06:05"
+      text="Barile U. pass complete to Zucchini A. for 13 yards to the NEP0, TOUCHDOWN, clock 06:05." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Barile U." result="COMP" rcv="Zucchini A." gain="13"></p_pa>
+   </play>
+   <play hasball="HBD" down="1" togo="0" spot="NEP03" context="H,1,0,V03" playid="1,19,21" type="#" clock="06:05"
+      text="Timeout Honey Badgers Formig, clock 06:05." newcontext="H,1,0,V03">
+    <p_to vh="H" team="Honey Badgers Formig"></p_to>
+   </play>
+   <play hasball="HBD" down="1" togo="0" spot="NEP03" context="H,1,0,V03" playid="1,20,22" type="X"
+      text="Botti M. kick attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Botti M." qb="Botti M." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="0" H="6"></score>
+   <drivesum plays="14" yards="61" top="5:55" driveindex="1" complete="Y"></drivesum>
+   <play hasball="HBD" down="1" togo="0" spot="HBD30" context="H,1,0,H30" playid="1,21,23" type="K"
+      text="Trenti M. kickoff 38 yards to the NEP14, Sanzani D. return 14 yards to the NEP28 (Saetti E.)." newcontext="V,1,10,V28">
+    <p_ko vh="H" name="Trenti M." gain="38"></p_ko>
+    <p_kr vh="V" name="Sanzani D." gain="14"></p_kr>
+    <p_tk vh="H" name="Saetti E."></p_tk>
+   </play>
+   <drivestart poss="V,V28,06:05" vh="V" spot="V28" clock="06:05" driveindex="2,23"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="NEP28" context="V,1,10,V28" playid="2,1,24" clock="06:05"
+      text="BRAVES BOLOGNA drive start at 06:05." newcontext="V,1,10,V28">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP28" context="V,1,10,V28" playid="2,2,25" type="R" first="R"
+      text="Montanari U. rush for 15 yards to the HBD39, 1ST DOWN NEP (Quartieri G.)." newcontext="V,1,10,H39">
+    <p_ru vh="V" name="Montanari U." gain="15"></p_ru>
+    <p_tk vh="H" name="Quartieri G."></p_tk>
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="HBD39" context="V,1,10,H39" playid="2,3,26" type="R" first="R" score="Y" clock="05:27"
+      text="Montanari U. rush for 39 yards to the HBD0, 1ST DOWN NEP, TOUCHDOWN, clock 05:27." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Montanari U." gain="39"></p_ru>
+   </play>
+   <play hasball="NEP" down="1" togo="0" spot="HBD03" context="V,1,0,H03" playid="2,4,27" type="#" clock="05:27"
+      text="Timeout Braves Bologna, clock 05:27." newcontext="V,1,0,H03">
+    <p_to vh="V" team="Braves Bologna"></p_to>
+   </play>
+   <play hasball="NEP" down="1" togo="0" spot="HBD03" context="V,1,0,H03" playid="2,5,28" type="X"
+      text="Miftah I. kick attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Miftah I." qb="Miftah I." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="6" H="6"></score>
+   <drivesum plays="2" yards="54" top="0:38" driveindex="2" complete="Y"></drivesum>
+   <play hasball="NEP" down="1" togo="0" spot="NEP30" context="V,1,0,V30" playid="2,6,29" type="K"
+      text="Miftah I. kickoff 52 yards to the HBD0, touchback." newcontext="H,1,10,H20">
+    <p_ko vh="V" name="Miftah I." gain="52" result="T"></p_ko>
+   </play>
+   <drivestart poss="H,H20,05:27" vh="H" spot="H20" clock="05:27" driveindex="3,29"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD20" context="H,1,10,H20" playid="3,1,30" clock="05:24"
+      text="HONEY BADGERS FORMIG drive start at 05:24." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD20" context="H,1,10,H20" playid="3,2,31" type="R"
+      text="Trenti M. rush for 9 yards to the HBD29 (Vertuan M.)." newcontext="H,2,1,H29">
+    <p_ru vh="H" name="Trenti M." gain="9"></p_ru>
+    <p_tk vh="V" name="Vertuan M."></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="1" spot="HBD29" context="H,2,1,H29" playid="3,3,32" type="P"
+      text="Barile U. sacked for loss of 5 yards to the HBD24 (Blasco D.)." newcontext="H,3,6,H24">
+    <p_pa vh="H" qb="Barile U." result="SACK" gain="-5"></p_pa>
+    <p_tk vh="V" name="Blasco D." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="HBD" down="3" togo="6" spot="HBD24" context="H,3,6,H24" playid="3,4,33" type="R"
+      text="Ghirri M. rush for no gain to the HBD24 (Vertuan M.)." newcontext="H,4,6,H24">
+    <p_ru vh="H" name="Ghirri M." gain="0"></p_ru>
+    <p_tk vh="V" name="Vertuan M."></p_tk>
+   </play>
+   <play hasball="HBD" down="4" togo="6" spot="HBD24" context="H,4,6,H24" playid="3,5,34" type="U"
+      text="Botti M. punt 12 yards to the HBD36, out-of-bounds." ob="Y" newcontext="V,1,10,H36">
+    <p_pu vh="H" name="Botti M." gain="12" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="4" top="2:20" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="V,H36,05:24" vh="V" spot="H36" clock="05:24" driveindex="4,34"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="HBD36" context="V,1,10,H36" playid="4,1,35" clock="03:04"
+      text="BRAVES BOLOGNA drive start at 03:04." newcontext="V,1,10,H36">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="HBD36" context="V,1,10,H36" playid="4,2,36" type="R"
+      text="Montanari U. rush for no gain to the HBD36 (Quartieri G.)." newcontext="V,2,10,H36">
+    <p_ru vh="V" name="Montanari U." gain="0"></p_ru>
+    <p_tk vh="H" name="Quartieri G."></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="10" spot="HBD36" context="V,2,10,H36" playid="4,3,37" type="P"
+      text="Lazzarin I. pass incomplete to Montanari U.." newcontext="V,3,10,H36">
+    <p_pa vh="V" qb="Lazzarin I." result="INC" rcv="Montanari U."></p_pa>
+   </play>
+   <play hasball="NEP" down="3" togo="10" spot="HBD36" context="V,3,10,H36" playid="4,4,38" type="P"
+      text="Lazzarin I. pass incomplete to Ferri S.." newcontext="V,4,10,H36">
+    <p_pa vh="V" qb="Lazzarin I." result="INC" rcv="Ferri S."></p_pa>
+   </play>
+   <play hasball="NEP" down="4" togo="10" spot="HBD36" context="V,4,10,H36" playid="4,5,39" type="P"
+      text="Lazzarin I. pass incomplete to Ferri S., dropped pass." newcontext="H,1,10,H36">
+    <p_pa vh="V" qb="Lazzarin I." result="DROP" rcv="Ferri S."></p_pa>
+   </play>
+   <drivesum plays="4" yards="0" top="0:37" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,H36,03:04" vh="H" spot="H36" clock="03:04" driveindex="5,39"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD36" context="H,1,10,H36" playid="5,1,40" clock="02:27"
+      text="HONEY BADGERS FORMIG drive start at 02:27." newcontext="H,1,10,H36">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD36" context="H,1,10,H36" playid="5,2,41" type="R"
+      text="Trenti M. rush for 5 yards to the 41 yardline (Vertuan M.;Lucchi S.)." newcontext="H,2,5,H41">
+    <p_ru vh="H" name="Trenti M." gain="5"></p_ru>
+    <p_tk vh="V" name="Vertuan M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Lucchi S." assist="Y"></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="5" spot="HBD41" context="H,2,5,H41" playid="5,3,42" type="P"
+      text="Barile U. sacked for loss of 2 yards to the HBD39 (Blasco D.)." newcontext="H,3,7,H39">
+    <p_pa vh="H" qb="Barile U." result="SACK" gain="-2"></p_pa>
+    <p_tk vh="V" name="Blasco D." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="HBD" down="3" togo="7" spot="HBD39" context="H,3,7,H39" playid="5,4,43" type="R"
+      text="Trenti M. rush for 2 yards to the 41 yardline (Miftah I.)." newcontext="H,4,5,H41">
+    <p_ru vh="H" name="Trenti M." gain="2"></p_ru>
+    <p_tk vh="V" name="Miftah I."></p_tk>
+   </play>
+   <play hasball="HBD" down="4" togo="5" spot="HBD41" context="H,4,5,H41" playid="5,5,44" type="U"
+      text="Botti M. punt 17 yards to the NEP24." newcontext="V,1,10,V24">
+    <p_pu vh="H" name="Botti M." gain="17"></p_pu>
+   </play>
+   <drivesum plays="3" yards="5" top="2:27" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V24,02:27" vh="V" spot="V24" clock="02:27" driveindex="6,44"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="NEP24" context="V,1,10,V24" playid="6,1,45" clock="00:00"
+      text="BRAVES BOLOGNA drive start at 00:00." newcontext="V,1,10,V24">
+   </play>
+   <score qtr="1" V="6" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="NEP">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="30"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="01:15"></misc>
+    <rush att="3" yds="54" gain="54" loss="0" td="1" long="39"></rush>
+    <pass comp="0" att="3" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <ko no="2" yds="100" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="13" tacka="4" tot_tack="17" tflua="4" tfla="0" tflyds="14" sacks="2" sackyds="7"></defense>
+    <kr no="1" yds="14" td="0" long="14"></kr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="HBD">
+    <firstdowns no="6" rush="3" pass="0" penalty="3"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="10:45"></misc>
+    <rush att="15" yds="42" gain="56" loss="14" td="0" long="12"></rush>
+    <pass comp="1" att="5" int="0" yds="13" td="1" long="13" sacks="2" sackyds="7"></pass>
+    <rcv no="1" yds="13" td="1" long="13"></rcv>
+    <punt no="2" yds="29" long="17" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="14.5"></punt>
+    <ko no="1" yds="38" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="3" tacka="0" tot_tack="3" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="17" td="0" long="17"></kr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="NEP" down="1" togo="10" spot="NEP24" context="V,1,10,V24" playid="6,2,46" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="V,1,10,V24">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP24" context="V,1,10,V24" playid="6,3,47" type="P"
+      text="Lazzarin I. pass complete to Ferri S. for 6 yards to the NEP30 (Migliori M.;Saetti E.)." newcontext="V,2,4,V30">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Ferri S." gain="6"></p_pa>
+    <p_tk vh="H" name="Migliori M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Saetti E." assist="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="4" spot="NEP30" context="V,2,4,V30" playid="6,4,48" type="E"
+      text="PENALTY NEP offside 5 yards to the NEP25." newcontext="V,2,9,V25">
+    <p_pn vh="V" code="OS" type="offside" result="ACCEPT" at="V30" yards="5"></p_pn>
+   </play>
+   <play hasball="NEP" down="2" togo="9" spot="NEP25" context="V,2,9,V25" playid="6,5,49" type="P"
+      text="Lazzarin I. pass incomplete." newcontext="V,3,9,V25">
+    <p_pa vh="V" qb="Lazzarin I." result="INC"></p_pa>
+   </play>
+   <play hasball="NEP" down="3" togo="9" spot="NEP25" context="V,3,9,V25" playid="6,6,50" type="P" first="P"
+      text="Lazzarin I. pass complete to Toccaceli F. for 22 yards to the HBD35, 1ST DOWN NEP (Caligiuri F.)." newcontext="V,1,10,H35">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Toccaceli F." gain="22"></p_pa>
+    <p_tk vh="H" name="Caligiuri F."></p_tk>
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="HBD35" context="V,1,10,H35" playid="6,7,51" type="P"
+      text="Lazzarin I. pass incomplete (Archilli M.)." newcontext="V,2,10,H35">
+    <p_pa vh="V" qb="Lazzarin I." result="INC"></p_pa>
+    <p_bu vh="H" name="Archilli M."></p_bu>
+   </play>
+   <play hasball="NEP" down="2" togo="10" spot="HBD35" context="V,2,10,H35" playid="6,8,52" type="R"
+      text="Sanzani D. rush for 5 yards to the HBD30 (Migliori M.)." newcontext="V,3,5,H30">
+    <p_ru vh="V" name="Sanzani D." gain="5"></p_ru>
+    <p_tk vh="H" name="Migliori M."></p_tk>
+   </play>
+   <play hasball="NEP" down="3" togo="5" spot="HBD30" context="V,3,5,H30" playid="6,9,53" type="R"
+      text="Montanari U. rush for loss of 1 yard to the HBD31 (Migliori M.)." newcontext="V,4,6,H31">
+    <p_ru vh="V" name="Montanari U." gain="-1"></p_ru>
+    <p_tk vh="H" name="Migliori M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="4" togo="6" spot="HBD31" context="V,4,6,H31" playid="6,10,54" type="E"
+      text="PENALTY NEP delay of game 5 yards to the HBD36." newcontext="V,4,11,H36">
+    <p_pn vh="V" code="DG" type="delay of game" result="ACCEPT" at="H31" yards="5"></p_pn>
+   </play>
+   <play hasball="NEP" down="4" togo="11" spot="HBD36" context="V,4,11,H36" playid="6,11,55" type="#" clock="09:27"
+      text="Timeout Honey Badgers Formig, clock 09:27." newcontext="V,4,11,H36">
+    <p_to vh="H" team="Honey Badgers Formig"></p_to>
+   </play>
+   <play hasball="NEP" down="4" togo="11" spot="HBD36" context="V,4,11,H36" playid="6,12,56" type="U"
+      text="Miftah I. punt 16 yards to the HBD20, out-of-bounds." ob="Y" newcontext="H,1,10,H20">
+    <p_pu vh="V" name="Miftah I." gain="16" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="6" yards="22" top="2:48" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H20,09:27" vh="H" spot="H20" clock="09:27" driveindex="7,56"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD20" context="H,1,10,H20" playid="7,1,57" clock="09:12"
+      text="HONEY BADGERS FORMIG drive start at 09:12." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD20" context="H,1,10,H20" playid="7,2,58" type="R"
+      text="Ghirri M. rush for 9 yards to the HBD29, out-of-bounds (Galli V.)." ob="Y" newcontext="H,2,1,H29">
+    <p_ru vh="H" name="Ghirri M." gain="9"></p_ru>
+    <p_tk vh="V" name="Galli V."></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="1" spot="HBD29" context="H,2,1,H29" playid="7,3,59" type="R" first="R"
+      text="Trenti M. rush for 6 yards to the HBD35, 1ST DOWN HBD (Vertuan M.)." newcontext="H,1,10,H35">
+    <p_ru vh="H" name="Trenti M." gain="6"></p_ru>
+    <p_tk vh="V" name="Vertuan M."></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD35" context="H,1,10,H35" playid="7,4,60" type="R"
+      text="Ghirri M. rush for 3 yards to the HBD38, out-of-bounds (Montedoro V.)." ob="Y" newcontext="H,2,7,H38">
+    <p_ru vh="H" name="Ghirri M." gain="3"></p_ru>
+    <p_tk vh="V" name="Montedoro V."></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="7" spot="HBD38" context="H,2,7,H38" playid="7,5,61" type="P"
+      text="Barile U. pass complete to Zucchini A. for loss of 3 yards to the HBD35 (Vertuan M.)." newcontext="H,3,10,H35">
+    <p_pa vh="H" qb="Barile U." result="COMP" rcv="Zucchini A." gain="-3"></p_pa>
+    <p_tk vh="V" name="Vertuan M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="HBD" down="3" togo="10" spot="HBD35" context="H,3,10,H35" playid="7,6,62" type="P"
+      text="Barile U. pass incomplete to Franco Herre E.." newcontext="H,4,10,H35">
+    <p_pa vh="H" qb="Barile U." result="INC" rcv="Franco Herre E."></p_pa>
+   </play>
+   <play hasball="HBD" down="4" togo="10" spot="HBD35" context="H,4,10,H35" playid="7,7,63" type="U"
+      text="Botti M. punt 27 yards to the NEP20, Galli V. return 14 yards to the NEP34 (Archilli M.)." newcontext="V,1,10,V34">
+    <p_pu vh="H" name="Botti M." gain="27"></p_pu>
+    <p_pr vh="V" name="Galli V." gain="14"></p_pr>
+    <p_tk vh="H" name="Archilli M."></p_tk>
+   </play>
+   <drivesum plays="5" yards="15" top="2:46" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,V34,09:12" vh="V" spot="V34" clock="09:12" driveindex="8,63"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="NEP34" context="V,1,10,V34" playid="8,1,64" clock="06:26"
+      text="BRAVES BOLOGNA drive start at 06:26." newcontext="V,1,10,V34">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP34" context="V,1,10,V34" playid="8,2,65" type="P"
+      text="Lazzarin I. pass complete to Ferri S. for 5 yards to the NEP39 (Saetti E.)." newcontext="V,2,5,V39">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Ferri S." gain="5"></p_pa>
+    <p_tk vh="H" name="Saetti E."></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="5" spot="NEP39" context="V,2,5,V39" playid="8,3,66" type="P"
+      text="Lazzarin I. pass incomplete to Ferri S.." newcontext="V,3,5,V39">
+    <p_pa vh="V" qb="Lazzarin I." result="INC" rcv="Ferri S."></p_pa>
+   </play>
+   <play hasball="NEP" down="3" togo="5" spot="NEP39" context="V,3,5,V39" playid="8,4,67" type="R"
+      text="Luccarini L. rush for no gain to the NEP39, out-of-bounds (Quartieri G.)." ob="Y" newcontext="V,4,5,V39">
+    <p_ru vh="V" name="Luccarini L." gain="0"></p_ru>
+    <p_tk vh="H" name="Quartieri G."></p_tk>
+   </play>
+   <play hasball="NEP" down="4" togo="5" spot="NEP39" context="V,4,5,V39" playid="8,5,68" type="E"
+      text="PENALTY NEP offside 5 yards to the NEP34." newcontext="V,4,10,V34">
+    <p_pn vh="V" code="OS" type="offside" result="ACCEPT" at="V39" yards="5"></p_pn>
+   </play>
+   <play hasball="NEP" down="4" togo="10" spot="NEP34" context="V,4,10,V34" playid="8,6,69" type="P" first="P"
+      text="Lazzarin I. pass complete to Ferri S. for 32 yards to the HBD16, 1ST DOWN NEP." newcontext="V,1,10,H16">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Ferri S." gain="32"></p_pa>
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="HBD16" context="V,1,10,H16" playid="8,7,70" type="P"
+      text="Lazzarin I. pass incomplete to Toccaceli F., dropped pass." newcontext="V,2,10,H16">
+    <p_pa vh="V" qb="Lazzarin I." result="DROP" rcv="Toccaceli F."></p_pa>
+   </play>
+   <play hasball="NEP" down="2" togo="10" spot="HBD16" context="V,2,10,H16" playid="8,8,71" type="#" clock="05:00"
+      text="Timeout Braves Bologna, clock 05:00." newcontext="V,2,10,H16">
+    <p_to vh="V" team="Braves Bologna"></p_to>
+   </play>
+   <play hasball="NEP" down="2" togo="10" spot="HBD16" context="V,2,10,H16" playid="8,9,72" type="R"
+      text="Montanari U. rush for 1 yard to the HBD15 (Cosimo O.)." newcontext="V,3,9,H15">
+    <p_ru vh="V" name="Montanari U." gain="1"></p_ru>
+    <p_tk vh="H" name="Cosimo O."></p_tk>
+   </play>
+   <play hasball="NEP" down="3" togo="9" spot="HBD15" context="V,3,9,H15" playid="8,10,73" type="R"
+      text="Montanari U. rush for no gain to the HBD15 (Cosimo O.;Saetti E.), PENALTY HBD offside defense 5 yards to the HBD10." newcontext="V,3,4,H10">
+    <p_ru vh="V" name="Montanari U." gain="0"></p_ru>
+    <p_tk vh="H" name="Cosimo O." assist="Y"></p_tk>
+    <p_tk vh="H" name="Saetti E." assist="Y"></p_tk>
+    <p_pn vh="H" code="OD" type="offside defense" result="ACCEPT" at="H15" yards="5"></p_pn>
+   </play>
+   <play hasball="NEP" down="3" togo="4" spot="HBD10" context="V,3,4,H10" playid="8,11,74"
+      text="3rd and 4." newcontext="V,3,4,H10">
+   </play>
+   <play hasball="NEP" down="3" togo="4" spot="HBD10" context="V,3,4,H10" playid="8,12,75" type="P"
+      text="Lazzarin I. pass incomplete to Ferri S. (Baroni E.)." newcontext="V,4,4,H10">
+    <p_pa vh="V" qb="Lazzarin I." result="INC" rcv="Ferri S."></p_pa>
+    <p_bu vh="H" name="Baroni E."></p_bu>
+   </play>
+   <play hasball="NEP" down="4" togo="4" spot="HBD10" context="V,4,4,H10" playid="8,13,76" type="F" score="Y" clock="04:03"
+      text="Miftah I. field goal attempt from 17 GOOD, clock 04:03." newcontext="V,1,0,V30">
+    <p_fg vh="V" name="Miftah I." distance="17" result="GOOD" score="Y"></p_fg>
+   </play>
+   <score V="9" H="6"></score>
+   <drivesum plays="8" yards="38" top="2:23" driveindex="8" complete="Y"></drivesum>
+   <play hasball="NEP" down="1" togo="0" spot="NEP30" context="V,1,0,V30" playid="8,14,77" type="K"
+      text="Miftah I. kickoff 38 yards to the HBD14, Trenti M. return 20 yards to the HBD34 (TEAM)." newcontext="H,1,10,H34">
+    <p_ko vh="V" name="Miftah I." gain="38"></p_ko>
+    <p_kr vh="H" name="Trenti M." gain="20"></p_kr>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <drivestart poss="H,H34,04:03" vh="H" spot="H34" clock="04:03" driveindex="9,77"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD34" context="H,1,10,H34" playid="9,1,78" clock="04:00"
+      text="HONEY BADGERS FORMIG drive start at 04:00." newcontext="H,1,10,H34">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD34" context="H,1,10,H34" playid="9,2,79" type="R"
+      text="Trenti M. rush for no gain to the HBD34 (TEAM)." newcontext="H,2,10,H34">
+    <p_ru vh="H" name="Trenti M." gain="0"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="10" spot="HBD34" context="H,2,10,H34" playid="9,3,80" type="P" first="P"
+      text="Barile U. pass complete to Ghirri M. for 21 yards to the NEP27, 1ST DOWN HBD, out-of-bounds (Lucchi S.)." ob="Y" newcontext="H,1,10,V27">
+    <p_pa vh="H" qb="Barile U." result="COMP" rcv="Ghirri M." gain="21"></p_pa>
+    <p_tk vh="V" name="Lucchi S."></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP27" context="H,1,10,V27" playid="9,4,81" type="R" first="R"
+      text="Trenti M. rush for 12 yards to the NEP15, 1ST DOWN HBD (Lucchi S.;Montedoro V.)." newcontext="H,1,10,V15">
+    <p_ru vh="H" name="Trenti M." gain="12"></p_ru>
+    <p_tk vh="V" name="Lucchi S." assist="Y"></p_tk>
+    <p_tk vh="V" name="Montedoro V." assist="Y"></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP15" context="H,1,10,V15" playid="9,5,82" type="R" first="R"
+      text="Trenti M. rush for 13 yards to the NEP2, 1ST DOWN HBD (Pederzoli M.)." newcontext="H,1,0,V02">
+    <p_ru vh="H" name="Trenti M." gain="13"></p_ru>
+    <p_tk vh="V" name="Pederzoli M."></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="0" spot="NEP02" context="H,1,0,V02" playid="9,6,83" type="R" score="Y" clock="01:27"
+      text="Trenti M. rush for 2 yards to the NEP0, TOUCHDOWN, clock 01:27." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Trenti M." gain="2"></p_ru>
+   </play>
+   <play hasball="HBD" down="1" togo="0" spot="NEP03" context="H,1,0,V03" playid="9,7,84" type="X"
+      text="Botti M. kick attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Botti M." qb="Botti M." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="9" H="12"></score>
+   <drivesum plays="5" yards="48" top="2:33" driveindex="9" complete="Y"></drivesum>
+   <play hasball="HBD" down="1" togo="0" spot="HBD30" context="H,1,0,H30" playid="9,8,85" type="K"
+      text="Trenti M. kickoff 44 yards to the NEP8, Sanzani D. return 31 yards to the NEP39 (Bertin L.)." newcontext="V,1,10,V39">
+    <p_ko vh="H" name="Trenti M." gain="44"></p_ko>
+    <p_kr vh="V" name="Sanzani D." gain="31"></p_kr>
+    <p_tk vh="H" name="Bertin L."></p_tk>
+   </play>
+   <drivestart poss="V,V39,01:27" vh="V" spot="V39" clock="01:27" driveindex="10,85"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="NEP39" context="V,1,10,V39" playid="10,1,86" clock="01:22"
+      text="BRAVES BOLOGNA drive start at 01:22." newcontext="V,1,10,V39">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP39" context="V,1,10,V39" playid="10,2,87" type="P"
+      text="Lazzarin I. pass complete to Ferri S. for 3 yards to the HBD40 (Saetti E.;Migliori M.)." newcontext="V,2,7,H40">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Ferri S." gain="3"></p_pa>
+    <p_tk vh="H" name="Saetti E." assist="Y"></p_tk>
+    <p_tk vh="H" name="Migliori M." assist="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="7" spot="HBD40" context="V,2,7,H40" playid="10,3,88" type="P"
+      text="Lazzarin I. sacked for loss of 6 yards to the NEP36 (Bommicino M.)." newcontext="V,3,13,V36">
+    <p_pa vh="V" qb="Lazzarin I." result="SACK" gain="-6"></p_pa>
+    <p_tk vh="H" name="Bommicino M." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="3" togo="13" spot="NEP36" context="V,3,13,V36" playid="10,4,89" type="P"
+      text="Lazzarin I. pass incomplete to Toccaceli F., dropped pass." newcontext="V,4,13,V36">
+    <p_pa vh="V" qb="Lazzarin I." result="DROP" rcv="Toccaceli F."></p_pa>
+   </play>
+   <play hasball="NEP" down="4" togo="13" spot="NEP36" context="V,4,13,V36" playid="10,5,90" type="#" clock="00:16"
+      text="Timeout Braves Bologna, clock 00:16." newcontext="V,4,13,V36">
+    <p_to vh="V" team="Braves Bologna"></p_to>
+   </play>
+   <play hasball="NEP" down="4" togo="13" spot="NEP36" context="V,4,13,V36" playid="10,6,91" type="P"
+      text="Lazzarin I. pass complete to Ferri S. for 6 yards to the HBD40 (Quartieri G.)." newcontext="H,1,10,H40">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Ferri S." gain="6"></p_pa>
+    <p_tk vh="H" name="Quartieri G."></p_tk>
+   </play>
+   <drivesum plays="4" yards="3" top="1:19" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="H,H40,00:16" vh="H" spot="H40" clock="00:16" driveindex="11,91"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD40" context="H,1,10,H40" playid="11,1,92" clock="00:03"
+      text="HONEY BADGERS FORMIG drive start at 00:03." newcontext="H,1,10,H40">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD40" context="H,1,10,H40" playid="11,2,93" type="P"
+      text="Barile U. pass incomplete to Franco Herre E.." newcontext="H,2,10,H40">
+    <p_pa vh="H" qb="Barile U." result="INC" rcv="Franco Herre E."></p_pa>
+   </play>
+   <score qtr="2" V="9" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="NEP">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="3" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="5" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:35"></misc>
+    <rush att="6" yds="-1" gain="6" loss="7" td="0" long="0"></rush>
+    <pass comp="6" att="12" int="0" yds="74" td="0" long="32" sacks="1" sackyds="6"></pass>
+    <rcv no="6" yds="74" td="0" long="32"></rcv>
+    <punt no="1" yds="16" long="16" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="16.0"></punt>
+    <ko no="1" yds="38" ob="0" tb="0"></ko>
+    <fg made="1" att="1" long="17" blkd="0"></fg>
+    <defense tackua="8" tacka="2" tot_tack="10" tflua="1" tfla="0" tflyds="3" sacks="2" sackyds="7"></defense>
+    <kr no="1" yds="31" td="0" long="17"></kr>
+    <pr no="1" yds="14" td="0" long="14"></pr>
+    <scoring fg="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="HBD">
+    <firstdowns no="4" rush="3" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:25"></misc>
+    <rush att="7" yds="45" gain="45" loss="0" td="1" long="1"></rush>
+    <pass comp="2" att="4" int="0" yds="18" td="0" long="8" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="18" td="0" long="8"></rcv>
+    <punt no="1" yds="27" long="10" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="27.0"></punt>
+    <ko no="1" yds="44" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="10" tacka="6" tot_tack="16" tflua="2" tfla="0" tflyds="7" sacks="1" sackyds="6" brup="2"></defense>
+    <kr no="1" yds="20" td="0" long="3"></kr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="HBD" down="2" togo="10" spot="HBD40" context="H,2,10,H40" playid="11,3,94" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, HBD ball on HBD30." newcontext="H,2,10,H30">
+   </play>
+   <drivesum plays="1" yards="0" top="0:03" driveindex="11" complete="Y"></drivesum>
+   <play hasball="HBD" down="2" togo="10" spot="HBD30" context="H,2,10,H30" playid="11,4,95" type="K"
+      text="Trenti M. kickoff 32 yards to the NEP20, Sanzani D. return 21 yards to the 41 yardline, out-of-bounds." ob="Y" newcontext="V,1,10,V41">
+    <p_ko vh="H" name="Trenti M." gain="32"></p_ko>
+    <p_kr vh="V" name="Sanzani D." gain="21"></p_kr>
+   </play>
+   <drivestart poss="V,V41,12:00" vh="V" spot="V41" clock="12:00" driveindex="12,95"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="NEP41" context="V,1,10,V41" playid="12,1,96" clock="11:55"
+      text="BRAVES BOLOGNA drive start at 11:55." newcontext="V,1,10,V41">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP41" context="V,1,10,V41" playid="12,2,97" type="R"
+      text="Montanari U. rush for 1 yard to the HBD40 (Quartieri G.;Archilli M.)." newcontext="V,2,9,H40">
+    <p_ru vh="V" name="Montanari U." gain="1"></p_ru>
+    <p_tk vh="H" name="Quartieri G." assist="Y"></p_tk>
+    <p_tk vh="H" name="Archilli M." assist="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="9" spot="HBD40" context="V,2,9,H40" playid="12,3,98" type="R"
+      text="Montanari U. rush for loss of 2 yards to the NEP40 (Quartieri G.)." newcontext="V,3,11,V40">
+    <p_ru vh="V" name="Montanari U." gain="-2"></p_ru>
+    <p_tk vh="H" name="Quartieri G." tfl="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="3" togo="11" spot="NEP40" context="V,3,11,V40" playid="12,4,99" type="P"
+      text="Lazzarin I. pass incomplete to Sanzani D.." newcontext="V,4,11,V40">
+    <p_pa vh="V" qb="Lazzarin I." result="INC" rcv="Sanzani D."></p_pa>
+   </play>
+   <play hasball="NEP" down="4" togo="11" spot="NEP40" context="V,4,11,V40" playid="12,5,100" type="U"
+      text="Miftah I. punt 39 yards to the HBD3, Zucchini A. return 14 yards to the HBD17 (TEAM)." newcontext="H,1,10,H17">
+    <p_pu vh="V" name="Miftah I." gain="39" in20="Y"></p_pu>
+    <p_pr vh="H" name="Zucchini A." gain="14"></p_pr>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <drivesum plays="3" yards="-1" top="1:01" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="H,H17,11:55" vh="H" spot="H17" clock="11:55" driveindex="13,100"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD17" context="H,1,10,H17" playid="13,1,101" clock="10:54"
+      text="HONEY BADGERS FORMIG drive start at 10:54." newcontext="H,1,10,H17">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD17" context="H,1,10,H17" playid="13,2,102" type="R"
+      text="Ghirri M. rush for no gain to the HBD17 (Pedretti A.)." newcontext="H,2,10,H17">
+    <p_ru vh="H" name="Ghirri M." gain="0"></p_ru>
+    <p_tk vh="V" name="Pedretti A."></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="10" spot="HBD17" context="H,2,10,H17" playid="13,3,103" type="R"
+      text="Ghirri M. rush for no gain to the HBD17 (Vertuan M.)." newcontext="H,3,10,H17">
+    <p_ru vh="H" name="Ghirri M." gain="0"></p_ru>
+    <p_tk vh="V" name="Vertuan M."></p_tk>
+   </play>
+   <play hasball="HBD" down="3" togo="10" spot="HBD17" context="H,3,10,H17" playid="13,4,104" type="P"
+      text="Barile U. pass incomplete to Ferrari M.." newcontext="H,4,10,H17">
+    <p_pa vh="H" qb="Barile U." result="INC" rcv="Ferrari M."></p_pa>
+   </play>
+   <play hasball="HBD" down="4" togo="10" spot="HBD17" context="H,4,10,H17" playid="13,5,105" type="U"
+      text="Botti M. punt 28 yards to the NEP37, Montanari U. return 17 yards to the HBD28 (Archilli M.)." newcontext="V,1,10,H28">
+    <p_pu vh="H" name="Botti M." gain="28"></p_pu>
+    <p_pr vh="V" name="Montanari U." gain="17"></p_pr>
+    <p_tk vh="H" name="Archilli M."></p_tk>
+   </play>
+   <drivesum plays="3" yards="0" top="1:32" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="V,H28,10:54" vh="V" spot="H28" clock="10:54" driveindex="14,105"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="HBD28" context="V,1,10,H28" playid="14,1,106" clock="09:22"
+      text="BRAVES BOLOGNA drive start at 09:22." newcontext="V,1,10,H28">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="HBD28" context="V,1,10,H28" playid="14,2,107" type="R" first="R" score="Y" clock="09:15"
+      text="Sanzani D. rush for 28 yards to the HBD0, 1ST DOWN NEP, TOUCHDOWN, clock 09:15." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Sanzani D." gain="28"></p_ru>
+   </play>
+   <play hasball="NEP" down="1" togo="0" spot="HBD03" context="V,1,0,H03" playid="14,3,108" type="X" score="Y"
+      text="Lazzarin I. pass attempt to Ferri S. good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Ferri S." qb="Lazzarin I." type="P" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="17" H="12"></score>
+   <play hasball="NEP" down="1" togo="0" spot="NEP30" context="V,1,0,V30" playid="14,4,109" type="E"
+      text="PENALTY NEP illegal kicking (Ferri S.) 5 yards to the NEP25." newcontext="V,1,0,V25">
+    <p_pn vh="V" code="KK" type="illegal kicking" name="Ferri S." result="ACCEPT" at="V30" yards="5"></p_pn>
+   </play>
+   <drivesum plays="1" yards="28" top="0:07" driveindex="14" complete="Y"></drivesum>
+   <play hasball="NEP" down="1" togo="0" spot="NEP25" context="V,1,0,V25" playid="14,5,110" type="K"
+      text="Ferri S. kickoff 47 yards to the HBD10, Trenti M. return 27 yards to the HBD37 (Ferri S.)." newcontext="H,1,10,H37">
+    <p_ko vh="V" name="Ferri S." gain="47"></p_ko>
+    <p_kr vh="H" name="Trenti M." gain="27"></p_kr>
+    <p_tk vh="V" name="Ferri S."></p_tk>
+   </play>
+   <drivestart poss="H,H37,09:15" vh="H" spot="H37" clock="09:15" driveindex="15,110"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD37" context="H,1,10,H37" playid="15,1,111" clock="08:56"
+      text="HONEY BADGERS FORMIG drive start at 08:56." newcontext="H,1,10,H37">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD37" context="H,1,10,H37" playid="15,2,112" type="R" first="R"
+      text="Trenti M. rush for 10 yards to the NEP35, 1ST DOWN HBD (Vertuan M.;Assaoui E.)." newcontext="H,1,10,V35">
+    <p_ru vh="H" name="Trenti M." gain="10"></p_ru>
+    <p_tk vh="V" name="Vertuan M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Assaoui E." assist="Y"></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP35" context="H,1,10,V35" playid="15,3,113" type="P"
+      text="Barile U. pass incomplete to Zucchini A.." newcontext="H,2,10,V35">
+    <p_pa vh="H" qb="Barile U." result="INC" rcv="Zucchini A."></p_pa>
+   </play>
+   <play hasball="HBD" down="2" togo="10" spot="NEP35" context="H,2,10,V35" playid="15,4,114" type="R"
+      text="Ghirri M. rush for 6 yards to the NEP29, out-of-bounds." ob="Y" newcontext="H,3,4,V29">
+    <p_ru vh="H" name="Ghirri M." gain="6"></p_ru>
+   </play>
+   <play hasball="HBD" down="3" togo="4" spot="NEP29" context="H,3,4,V29" playid="15,5,115" type="P"
+      text="Barile U. pass incomplete to Franco Herre E.." newcontext="H,4,4,V29">
+    <p_pa vh="H" qb="Barile U." result="INC" rcv="Franco Herre E."></p_pa>
+   </play>
+   <play hasball="HBD" down="4" togo="4" spot="NEP29" context="H,4,4,V29" playid="15,6,116" type="R"
+      text="Trenti M. rush for no gain to the NEP29 (Assaoui E.)." newcontext="V,1,10,V29">
+    <p_ru vh="H" name="Trenti M." gain="0"></p_ru>
+    <p_tk vh="V" name="Assaoui E."></p_tk>
+   </play>
+   <drivesum plays="5" yards="16" top="1:14" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V29,08:56" vh="V" spot="V29" clock="08:56" driveindex="16,116"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="NEP29" context="V,1,10,V29" playid="16,1,117" clock="07:42"
+      text="BRAVES BOLOGNA drive start at 07:42." newcontext="V,1,10,V29">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP29" context="V,1,10,V29" playid="16,2,118" type="E"
+      text="PENALTY NEP offside (Schina S.) 5 yards to the NEP24." newcontext="V,1,15,V24">
+    <p_pn vh="V" code="OS" type="offside" name="Schina S." result="ACCEPT" at="V29" yards="5"></p_pn>
+   </play>
+   <play hasball="NEP" down="1" togo="15" spot="NEP24" context="V,1,15,V24" playid="16,3,119" type="P" first="P"
+      text="Lazzarin I. pass complete to Luccarini L. for 38 yards to the HBD20, 1ST DOWN NEP (Migliori M.)." newcontext="V,1,10,H20">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Luccarini L." gain="38"></p_pa>
+    <p_tk vh="H" name="Migliori M."></p_tk>
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="HBD20" context="V,1,10,H20" playid="16,4,120" type="R"
+      text="Lazzarin I. rush for loss of 7 yards to the HBD27, fumble by Lazzarin I. recovered by NEP Lazzarin I. at HBD27." newcontext="V,2,17,H27">
+    <p_ru vh="V" name="Lazzarin I." gain="-7"></p_ru>
+    <p_fumb vh="V" name="Lazzarin I." at="H27" frvh="V" frname="Lazzarin I."></p_fumb>
+   </play>
+   <play hasball="NEP" down="2" togo="17" spot="HBD27" context="V,2,17,H27" playid="16,5,121" type="R"
+      text="Montanari U. rush for 2 yards to the HBD25, out-of-bounds." ob="Y" newcontext="V,3,15,H25">
+    <p_ru vh="V" name="Montanari U." gain="2"></p_ru>
+   </play>
+   <play hasball="NEP" down="3" togo="15" spot="HBD25" context="V,3,15,H25" playid="16,6,122" type="E"
+      text="PENALTY NEP clipping (Amewoyi P.) 15 yards to the HBD40." newcontext="V,3,30,H40">
+    <p_pn vh="V" code="CL" type="clipping" name="Amewoyi P." result="ACCEPT" at="H25" yards="15"></p_pn>
+   </play>
+   <play hasball="NEP" down="3" togo="30" spot="HBD40" context="V,3,30,H40" playid="16,7,123" type="E"
+      text="PENALTY NEP player disqualification (Amewoyi P.) 0 yards to the HBD40." newcontext="V,3,30,H40">
+    <p_pn vh="V" code="PD" type="player disqualification" name="Amewoyi P." result="ACCEPT"></p_pn>
+   </play>
+   <play hasball="NEP" down="3" togo="30" spot="HBD40" context="V,3,30,H40" playid="16,8,124" type="E"
+      text="PENALTY HBD player disqualification (Bufi E.) 0 yards to the HBD40." newcontext="V,3,30,H40">
+    <p_pn vh="H" code="PD" type="player disqualification" name="Bufi E." result="ACCEPT"></p_pn>
+   </play>
+   <play hasball="NEP" down="3" togo="30" spot="HBD40" context="V,3,30,H40" playid="16,9,125" type="P" turnover="F"
+      text="Lazzarin I. sacked for loss of 5 yards to the NEP37 (Bommicino M.), fumble by Lazzarin I. recovered by HBD Archilli M. at NEP37." newcontext="H,1,10,V37">
+    <p_pa vh="V" qb="Lazzarin I." result="FUMB" gain="-5"></p_pa>
+    <p_fumb vh="V" name="Lazzarin I." at="V37" frvh="H" frname="Archilli M."></p_fumb>
+    <p_tk vh="H" name="Bommicino M." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <drivesum plays="4" yards="8" top="1:18" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="H,V37,07:42" vh="H" spot="V37" clock="07:42" driveindex="17,125"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="NEP37" context="H,1,10,V37" playid="17,1,126" clock="06:24"
+      text="HONEY BADGERS FORMIG drive start at 06:24." newcontext="H,1,10,V37">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP37" context="H,1,10,V37" playid="17,2,127" type="R"
+      text="Trenti M. rush for 6 yards to the NEP31 (Pedretti A.)." newcontext="H,2,4,V31">
+    <p_ru vh="H" name="Trenti M." gain="6"></p_ru>
+    <p_tk vh="V" name="Pedretti A."></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="4" spot="NEP31" context="H,2,4,V31" playid="17,3,128" type="E"
+      text="PENALTY HBD offside 5 yards to the NEP36." newcontext="H,2,9,V36">
+    <p_pn vh="H" code="OS" type="offside" result="ACCEPT" at="V31" yards="5"></p_pn>
+   </play>
+   <play hasball="HBD" down="2" togo="9" spot="NEP36" context="H,2,9,V36" playid="17,4,129" type="P" first="P" score="Y" clock="05:11"
+      text="Barile U. pass complete to Franco Herre E. for 36 yards to the NEP0, 1ST DOWN HBD, TOUCHDOWN, clock 05:11." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Barile U." result="COMP" rcv="Franco Herre E." gain="36"></p_pa>
+   </play>
+   <play hasball="HBD" down="1" togo="0" spot="NEP03" context="H,1,0,V03" playid="17,5,130" type="X" score="Y"
+      text="Barile U. pass attempt to Ghirri M. good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Ghirri M." qb="Barile U." type="P" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="17" H="20"></score>
+   <drivesum plays="2" yards="37" top="1:13" driveindex="17" complete="Y"></drivesum>
+   <play hasball="HBD" down="1" togo="0" spot="HBD30" context="H,1,0,H30" playid="17,6,131" type="K" score="Y" clock="04:56"
+      text="Botti M. kickoff 37 yards to the NEP15, Sanzani D. return 67 yards to the HBD0, TOUCHDOWN, clock 04:56." newcontext="V,1,0,H03">
+    <p_ko vh="H" name="Botti M." gain="37"></p_ko>
+    <p_kr vh="V" name="Sanzani D." gain="67"></p_kr>
+   </play>
+   <drivestart poss="V,H03,04:56" vh="V" spot="H03" clock="04:56" driveindex="18,131"></drivestart>
+   <play hasball="NEP" down="1" togo="0" spot="HBD03" context="V,1,0,H03" playid="18,1,132" type="#" clock="04:56"
+      text="Timeout Honey Badgers Formig, clock 04:56." newcontext="V,1,0,H03">
+    <p_to vh="H" team="Honey Badgers Formig"></p_to>
+   </play>
+   <play hasball="NEP" down="1" togo="0" spot="HBD03" context="V,1,0,H03" playid="18,2,133" type="X"
+      text="Montanari U. rush attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Montanari U." qb="Montanari U." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="23" H="20"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="18" complete="Y"></drivesum>
+   <play hasball="NEP" down="1" togo="0" spot="NEP30" context="V,1,0,V30" playid="18,3,134" type="K"
+      text="Ferri S. kickoff 49 yards to the HBD3, Ghirri M. return 21 yards to the HBD24, out-of-bounds." ob="Y" newcontext="H,1,10,H24">
+    <p_ko vh="V" name="Ferri S." gain="49"></p_ko>
+    <p_kr vh="H" name="Ghirri M." gain="21"></p_kr>
+   </play>
+   <drivestart poss="H,H24,04:56" vh="H" spot="H24" clock="04:56" driveindex="19,134"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD24" context="H,1,10,H24" playid="19,1,135" clock="04:48"
+      text="HONEY BADGERS FORMIG drive start at 04:48." newcontext="H,1,10,H24">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD24" context="H,1,10,H24" playid="19,2,136" type="E" first="E"
+      text="PENALTY NEP unsportsmanlike conduct (Mazzei A.) 15 yards to the HBD39, 1ST DOWN HBD." newcontext="H,1,10,H39">
+    <p_pn vh="V" code="UC" type="unsportsmanlike conduct" name="Mazzei A." result="ACCEPT" at="H24" yards="15"></p_pn>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD39" context="H,1,10,H39" playid="19,3,137" type="R"
+      text="Trenti M. rush for 2 yards to the 41 yardline (TEAM)." newcontext="H,2,8,H41">
+    <p_ru vh="H" name="Trenti M." gain="2"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="8" spot="HBD41" context="H,2,8,H41" playid="19,4,138" type="P"
+      text="Barile U. pass incomplete to Ghirri M.." newcontext="H,3,8,H41">
+    <p_pa vh="H" qb="Barile U." result="INC" rcv="Ghirri M."></p_pa>
+   </play>
+   <play hasball="HBD" down="3" togo="8" spot="HBD41" context="H,3,8,H41" playid="19,5,139" type="P"
+      text="Barile U. pass incomplete to Franco Herre E., dropped pass." newcontext="H,4,8,H41">
+    <p_pa vh="H" qb="Barile U." result="DROP" rcv="Franco Herre E."></p_pa>
+   </play>
+   <play hasball="HBD" down="4" togo="8" spot="HBD41" context="H,4,8,H41" playid="19,6,140" type="U"
+      text="Botti M. punt 27 yards to the NEP14, out-of-bounds." ob="Y" newcontext="V,1,10,V14">
+    <p_pu vh="H" name="Botti M." gain="27" in20="Y" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="17" top="1:21" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="V,V14,04:48" vh="V" spot="V14" clock="04:48" driveindex="20,140"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="NEP14" context="V,1,10,V14" playid="20,1,141" clock="03:27"
+      text="BRAVES BOLOGNA drive start at 03:27." newcontext="V,1,10,V14">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP14" context="V,1,10,V14" playid="20,2,142" type="R"
+      text="Montanari U. rush for 5 yards to the NEP19 (Caligiuri F.)." newcontext="V,2,5,V19">
+    <p_ru vh="V" name="Montanari U." gain="5"></p_ru>
+    <p_tk vh="H" name="Caligiuri F."></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="5" spot="NEP19" context="V,2,5,V19" playid="20,3,143" type="R" first="R"
+      text="Montanari U. rush for 6 yards to the NEP25, 1ST DOWN NEP (Archilli M.;Quartieri G.)." newcontext="V,1,10,V25">
+    <p_ru vh="V" name="Montanari U." gain="6"></p_ru>
+    <p_tk vh="H" name="Archilli M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Quartieri G." assist="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP25" context="V,1,10,V25" playid="20,4,144" type="R"
+      text="Sanogo M. rush for 3 yards to the NEP28 (Bandiera R.)." newcontext="V,2,7,V28">
+    <p_ru vh="V" name="Sanogo M." gain="3"></p_ru>
+    <p_tk vh="H" name="Bandiera R."></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="7" spot="NEP28" context="V,2,7,V28" playid="20,5,145" type="P"
+      text="Lazzarin I. sacked for loss of 7 yards to the NEP21 (Pettenati Be S.)." newcontext="V,3,14,V21">
+    <p_pa vh="V" qb="Lazzarin I." result="SACK" gain="-7"></p_pa>
+    <p_tk vh="H" name="Pettenati Be S." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="3" togo="14" spot="NEP21" context="V,3,14,V21" playid="20,6,146" type="R" score="Y" turnover="F" clock="01:07"
+      text="Lazzarin I. rush for loss of 6 yards to the NEP15, fumble forced by Archilli M., fumble by Lazzarin I. recovered by HBD Quartieri G. at NEP15, Quartieri G. for 15 yards to the NEP0, TOUCHDOWN, clock 01:07." newcontext="H,1,0,V03">
+    <p_ru vh="V" name="Lazzarin I." gain="-6"></p_ru>
+    <p_fr vh="H" name="Quartieri G." gain="15"></p_fr>
+    <p_fumb vh="V" name="Lazzarin I." at="V15" frvh="H" frname="Quartieri G."></p_fumb>
+    <p_tk vh="H" name="Archilli M." ff="Y"></p_tk>
+   </play>
+   <drivesum plays="5" yards="1" top="2:20" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="H,V03,01:07" vh="H" spot="V03" clock="01:07" driveindex="21,146"></drivestart>
+   <play hasball="HBD" down="1" togo="0" spot="NEP03" context="H,1,0,V03" playid="21,1,147" type="X"
+      text="Barile U. pass attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Barile U." qb="Barile U." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="23" H="26"></score>
+   <play hasball="HBD" down="1" togo="0" spot="HBD30" context="H,1,0,H30" playid="21,2,148" type="E"
+      text="Botti M. kickoff 32 yards to the NEP20, out-of-bounds, PENALTY HBD illegal kicking (Botti M.) 5 yards to the HBD25, NO PLAY." ob="Y" newcontext="H,1,0,H25">
+    <p_pn vh="H" code="KK" type="illegal kicking" name="Botti M." result="ACCEPT" at="H30" yards="5"></p_pn>
+   </play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="21" complete="Y"></drivesum>
+   <play hasball="HBD" down="1" togo="0" spot="HBD25" context="H,1,0,H25" playid="21,3,149" type="K"
+      text="Botti M. kickoff 23 yards to the NEP34, Tomasi D. return 0 yards to the NEP34." newcontext="V,1,10,V34">
+    <p_ko vh="H" name="Botti M." gain="23"></p_ko>
+    <p_kr vh="V" name="Tomasi D." gain="0"></p_kr>
+   </play>
+   <drivestart poss="V,V34,01:07" vh="V" spot="V34" clock="01:07" driveindex="22,149"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="NEP34" context="V,1,10,V34" playid="22,1,150" clock="00:54"
+      text="BRAVES BOLOGNA drive start at 00:54." newcontext="V,1,10,V34">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP34" context="V,1,10,V34" playid="22,2,151" type="R"
+      text="Montanari U. rush for 4 yards to the NEP38 (Bommicino M.;Quartieri G.)." newcontext="V,2,6,V38">
+    <p_ru vh="V" name="Montanari U." gain="4"></p_ru>
+    <p_tk vh="H" name="Bommicino M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Quartieri G." assist="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="6" spot="NEP38" context="V,2,6,V38" playid="22,3,152" type="R"
+      text="Mazzei A. rush for no gain to the NEP38 (Archilli M.;Pettenati Be S.)." newcontext="V,3,6,V38">
+    <p_ru vh="V" name="Mazzei A." gain="0"></p_ru>
+    <p_tk vh="H" name="Archilli M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Pettenati Be S." assist="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="3" togo="6" spot="NEP38" context="V,3,6,V38" playid="22,4,153" type="R" first="R"
+      text="Montanari U. rush for 6 yards to the HBD38, 1ST DOWN NEP, out-of-bounds (Caligiuri F.)." ob="Y" newcontext="V,1,10,H38">
+    <p_ru vh="V" name="Montanari U." gain="6"></p_ru>
+    <p_tk vh="H" name="Caligiuri F."></p_tk>
+   </play>
+   <score qtr="3" V="23" H="26"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="NEP">
+    <firstdowns no="4" rush="3" pass="1" penalty="0"></firstdowns>
+    <penalties no="5" yds="40"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="3" lost="2"></fumbles>
+    <misc yds="0" top="06:13"></misc>
+    <rush att="14" yds="28" gain="55" loss="27" td="1" long="0"></rush>
+    <pass comp="1" att="2" int="0" yds="38" td="0" long="6" sacks="2" sackyds="12"></pass>
+    <rcv no="1" yds="38" td="0" long="6"></rcv>
+    <punt no="1" yds="39" long="23" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="39.0"></punt>
+    <ko no="2" yds="96" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="0" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="7" tacka="2" tot_tack="9" sacks="2" sackyds="7"></defense>
+    <kr no="3" yds="88" td="1" long="36"></kr>
+    <pr no="1" yds="17" td="0" long="3"></pr>
+    <fumbles no="3" lost="2"></fumbles>
+    <scoring td="2" patrcv="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="HBD">
+    <firstdowns no="3" rush="1" pass="1" penalty="1"></firstdowns>
+    <penalties no="3" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:47"></misc>
+    <rush att="7" yds="24" gain="24" loss="0" td="0" long="0"></rush>
+    <pass comp="1" att="6" int="0" yds="36" td="1" long="15" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="36" td="1" long="15"></rcv>
+    <punt no="2" yds="55" long="1" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="27.5"></punt>
+    <ko no="3" yds="92" ob="0" tb="0"></ko>
+    <pat passatt="2" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="9" tacka="8" tot_tack="17" tflua="4" tfla="0" tflyds="20" sacks="3" sackyds="18" ff="2" fr="2" fryds="15"></defense>
+    <kr no="2" yds="48" td="0" long="7"></kr>
+    <pr no="1" yds="14" td="0" long="14"></pr>
+    <fr no="1" yds="15" td="1" long="15"></fr>
+    <scoring td="2" patrcv="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="NEP" down="1" togo="10" spot="HBD38" context="V,1,10,H38" playid="22,5,154" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="V,1,10,H38">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="HBD38" context="V,1,10,H38" playid="22,6,155" type="R"
+      text="Ferri S. rush for no gain to the HBD38 (Caligiuri F.)." newcontext="V,2,10,H38">
+    <p_ru vh="V" name="Ferri S." gain="0"></p_ru>
+    <p_tk vh="H" name="Caligiuri F."></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="10" spot="HBD38" context="V,2,10,H38" playid="22,7,156" type="P"
+      text="Lazzarin I. pass incomplete to Schina S. (Baroni E.)." newcontext="V,3,10,H38">
+    <p_pa vh="V" qb="Lazzarin I." result="BRUP" rcv="Schina S."></p_pa>
+    <p_bu vh="H" name="Baroni E."></p_bu>
+   </play>
+   <play hasball="NEP" down="3" togo="10" spot="HBD38" context="V,3,10,H38" playid="22,8,157" type="P" first="P"
+      text="Lazzarin I. pass complete to Ferri S. for 12 yards to the HBD26, 1ST DOWN NEP, out-of-bounds (Migliori M.)." ob="Y" newcontext="V,1,10,H26">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Ferri S." gain="12"></p_pa>
+    <p_tk vh="H" name="Migliori M."></p_tk>
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="HBD26" context="V,1,10,H26" playid="22,9,158" type="P"
+      text="Lazzarin I. pass incomplete to Luccarini L., PENALTY NEP holding (Agnoli D.) 10 yards to the HBD36." newcontext="V,1,20,H36">
+    <p_pa vh="V" qb="Lazzarin I." result="INC" rcv="Luccarini L."></p_pa>
+    <p_pn vh="V" code="HO" type="holding" name="Agnoli D." result="ACCEPT" at="H26" yards="10"></p_pn>
+   </play>
+   <play hasball="NEP" down="1" togo="20" spot="HBD36" context="V,1,20,H36" playid="22,10,159"
+      text="1st and 20." newcontext="V,1,20,H36">
+   </play>
+   <play hasball="NEP" down="1" togo="20" spot="HBD36" context="V,1,20,H36" playid="22,11,160" type="R"
+      text="Ritucci S. rush for loss of 3 yards to the HBD39 (Bommicino M.)." newcontext="V,2,23,H39">
+    <p_ru vh="V" name="Ritucci S." gain="-3"></p_ru>
+    <p_tk vh="H" name="Bommicino M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="23" spot="HBD39" context="V,2,23,H39" playid="22,12,161" type="P"
+      text="Lazzarin I. pass incomplete to Toccaceli F., dropped pass." newcontext="V,3,23,H39">
+    <p_pa vh="V" qb="Lazzarin I." result="DROP" rcv="Toccaceli F."></p_pa>
+   </play>
+   <play hasball="NEP" down="3" togo="23" spot="HBD39" context="V,3,23,H39" playid="22,13,162" type="P"
+      text="Lazzarin I. pass incomplete to Luccarini L., dropped pass (Migliori M.)." newcontext="V,4,23,H39">
+    <p_pa vh="V" qb="Lazzarin I." result="DROP" rcv="Luccarini L."></p_pa>
+    <p_bu vh="H" name="Migliori M."></p_bu>
+   </play>
+   <play hasball="NEP" down="4" togo="23" spot="HBD39" context="V,4,23,H39" playid="22,14,163" type="E"
+      text="PENALTY NEP delay of game 9 yards to the NEP34." newcontext="V,4,32,V34">
+    <p_pn vh="V" code="DG" type="delay of game" result="ACCEPT" at="H39" yards="9"></p_pn>
+   </play>
+   <play hasball="NEP" down="4" togo="32" spot="NEP34" context="V,4,32,V34" playid="22,15,164" type="U"
+      text="Ferri S. punt 38 yards to the HBD10, Zucchini A. return 0 yards to the HBD10." newcontext="H,1,10,H10">
+    <p_pu vh="V" name="Ferri S." gain="38" in20="Y"></p_pu>
+    <p_pr vh="H" name="Zucchini A." gain="0"></p_pr>
+   </play>
+   <drivesum plays="10" yards="0" top="2:55" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="H,H10,12:00" vh="H" spot="H10" clock="12:00" driveindex="23,164"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD10" context="H,1,10,H10" playid="23,1,165" clock="09:59"
+      text="HONEY BADGERS FORMIG drive start at 09:59." newcontext="H,1,10,H10">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD10" context="H,1,10,H10" playid="23,2,166" type="R"
+      text="Trenti M. rush for 4 yards to the HBD14 (Galli V.)." newcontext="H,2,6,H14">
+    <p_ru vh="H" name="Trenti M." gain="4"></p_ru>
+    <p_tk vh="V" name="Galli V."></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="6" spot="HBD14" context="H,2,6,H14" playid="23,3,167" type="R"
+      text="Trenti M. rush for 4 yards to the HBD18 (Miftah I.)." newcontext="H,3,2,H18">
+    <p_ru vh="H" name="Trenti M." gain="4"></p_ru>
+    <p_tk vh="V" name="Miftah I."></p_tk>
+   </play>
+   <play hasball="HBD" down="3" togo="2" spot="HBD18" context="H,3,2,H18" playid="23,4,168" type="R"
+      text="Trenti M. rush for 1 yard to the HBD19 (Galli V.)." newcontext="H,4,1,H19">
+    <p_ru vh="H" name="Trenti M." gain="1"></p_ru>
+    <p_tk vh="V" name="Galli V."></p_tk>
+   </play>
+   <play hasball="HBD" down="4" togo="1" spot="HBD19" context="H,4,1,H19" playid="23,5,169" type="#" clock="08:28"
+      text="Timeout Honey Badgers Formig, clock 08:28." newcontext="H,4,1,H19">
+    <p_to vh="H" team="Honey Badgers Formig"></p_to>
+   </play>
+   <play hasball="HBD" down="4" togo="1" spot="HBD19" context="H,4,1,H19" playid="23,6,170" type="R" first="R"
+      text="Trenti M. rush for 2 yards to the HBD21, 1ST DOWN HBD (Pedretti A.)." newcontext="H,1,10,H21">
+    <p_ru vh="H" name="Trenti M." gain="2"></p_ru>
+    <p_tk vh="V" name="Pedretti A."></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD21" context="H,1,10,H21" playid="23,7,171" type="R"
+      text="Ghirri M. rush for 6 yards to the HBD27 (TEAM)." newcontext="H,2,4,H27">
+    <p_ru vh="H" name="Ghirri M." gain="6"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="4" spot="HBD27" context="H,2,4,H27" playid="23,8,172" type="R" first="R"
+      text="Ghirri M. rush for 17 yards to the NEP38, 1ST DOWN HBD (Pederzoli M.)." newcontext="H,1,10,V38">
+    <p_ru vh="H" name="Ghirri M." gain="17"></p_ru>
+    <p_tk vh="V" name="Pederzoli M."></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP38" context="H,1,10,V38" playid="23,9,173" type="R" first="R"
+      text="Ghirri M. rush for 14 yards to the NEP24, 1ST DOWN HBD (Blasco D.)." newcontext="H,1,10,V24">
+    <p_ru vh="H" name="Ghirri M." gain="14"></p_ru>
+    <p_tk vh="V" name="Blasco D."></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP24" context="H,1,10,V24" playid="23,10,174" type="R"
+      text="Ghirri M. rush for 5 yards to the NEP19 (Vertuan M.)." newcontext="H,2,5,V19">
+    <p_ru vh="H" name="Ghirri M." gain="5"></p_ru>
+    <p_tk vh="V" name="Vertuan M."></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="5" spot="NEP19" context="H,2,5,V19" playid="23,11,175" type="R" first="R"
+      text="Trenti M. rush for 14 yards to the NEP5, 1ST DOWN HBD (Vertuan M.)." newcontext="H,1,0,V05">
+    <p_ru vh="H" name="Trenti M." gain="14"></p_ru>
+    <p_tk vh="V" name="Vertuan M."></p_tk>
+   </play>
+   <play hasball="HBD" down="1" togo="0" spot="NEP05" context="H,1,0,V05" playid="23,12,176" type="R"
+      text="Ghirri M. rush for 1 yard to the NEP4 (Iacob A.)." newcontext="H,2,0,V04">
+    <p_ru vh="H" name="Ghirri M." gain="1"></p_ru>
+    <p_tk vh="V" name="Iacob A."></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="0" spot="NEP04" context="H,2,0,V04" playid="23,13,177" type="R" score="Y" clock="04:22"
+      text="Trenti M. rush for 4 yards to the NEP0, TOUCHDOWN, clock 04:22." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Trenti M." gain="4"></p_ru>
+   </play>
+   <play hasball="HBD" down="1" togo="0" spot="NEP03" context="H,1,0,V03" playid="23,14,178" type="X"
+      text="Barile U. pass attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Barile U." qb="Barile U." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="23" H="32"></score>
+   <drivesum plays="11" yards="72" top="5:37" driveindex="23" complete="Y"></drivesum>
+   <play hasball="HBD" down="1" togo="0" spot="HBD30" context="H,1,0,H30" playid="23,15,179" type="K"
+      text="Botti M. kickoff 18 yards to the NEP34, Tomasi D. return 3 yards to the NEP37." newcontext="V,1,10,V37">
+    <p_ko vh="H" name="Botti M." gain="18"></p_ko>
+    <p_kr vh="V" name="Tomasi D." gain="3"></p_kr>
+   </play>
+   <drivestart poss="V,V37,04:22" vh="V" spot="V37" clock="04:22" driveindex="24,179"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="NEP37" context="V,1,10,V37" playid="24,1,180" clock="04:16"
+      text="BRAVES BOLOGNA drive start at 04:16." newcontext="V,1,10,V37">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP37" context="V,1,10,V37" playid="24,2,181" type="P"
+      text="Lazzarin I. pass incomplete to Ferri S.." newcontext="V,2,10,V37">
+    <p_pa vh="V" qb="Lazzarin I." result="INC" rcv="Ferri S."></p_pa>
+   </play>
+   <play hasball="NEP" down="2" togo="10" spot="NEP37" context="V,2,10,V37" playid="24,3,182" type="P"
+      text="Lazzarin I. pass complete to Sanzani D. for 4 yards to the 41 yardline (Cosimo O.)." newcontext="V,3,6,V41">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Sanzani D." gain="4"></p_pa>
+    <p_tk vh="H" name="Cosimo O."></p_tk>
+   </play>
+   <play hasball="NEP" down="3" togo="6" spot="NEP41" context="V,3,6,V41" playid="24,4,183" type="R" first="R"
+      text="Montanari U. rush for 6 yards to the HBD35, 1ST DOWN NEP, out-of-bounds (Baroni E.)." ob="Y" newcontext="V,1,10,H35">
+    <p_ru vh="V" name="Montanari U." gain="6"></p_ru>
+    <p_tk vh="H" name="Baroni E."></p_tk>
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="HBD35" context="V,1,10,H35" playid="24,5,184" type="P"
+      text="Lazzarin I. pass incomplete to Luccarini L. (Baroni E.)." newcontext="V,2,10,H35">
+    <p_pa vh="V" qb="Lazzarin I." result="BRUP" rcv="Luccarini L."></p_pa>
+    <p_bu vh="H" name="Baroni E."></p_bu>
+   </play>
+   <play hasball="NEP" down="2" togo="10" spot="HBD35" context="V,2,10,H35" playid="24,6,185" type="R"
+      text="Sanzani D. rush for 5 yards to the HBD30 (Archilli M.)." newcontext="V,3,5,H30">
+    <p_ru vh="V" name="Sanzani D." gain="5"></p_ru>
+    <p_tk vh="H" name="Archilli M."></p_tk>
+   </play>
+   <play hasball="NEP" down="3" togo="5" spot="HBD30" context="V,3,5,H30" playid="24,7,186" type="R"
+      text="Sanzani D. rush for loss of 2 yards to the HBD32 (Aldrovandi L.)." newcontext="V,4,7,H32">
+    <p_ru vh="V" name="Sanzani D." gain="-2"></p_ru>
+    <p_tk vh="H" name="Aldrovandi L." tfl="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="4" togo="7" spot="HBD32" context="V,4,7,H32" playid="24,8,187" type="P" first="P" score="Y" clock="02:06"
+      text="Lazzarin I. pass complete to Luccarini L. for 32 yards to the HBD0, 1ST DOWN NEP, TOUCHDOWN, clock 02:06." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Luccarini L." gain="32"></p_pa>
+   </play>
+   <play hasball="NEP" down="1" togo="0" spot="HBD03" context="V,1,0,H03" playid="24,9,188" type="X"
+      text="Lazzarin I. pass attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Lazzarin I." qb="Lazzarin I." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="29" H="32"></score>
+   <drivesum plays="7" yards="45" top="2:10" driveindex="24" complete="Y"></drivesum>
+   <play hasball="NEP" down="1" togo="0" spot="NEP30" context="V,1,0,V30" playid="24,10,189" type="K"
+      text="Ferri S. kickoff 9 yards to the NEP39, Kowacz K. return 4 yards to the NEP35." newcontext="H,1,10,V35">
+    <p_ko vh="V" name="Ferri S." gain="9"></p_ko>
+    <p_kr vh="H" name="Kowacz K." gain="4"></p_kr>
+   </play>
+   <drivestart poss="H,V35,02:06" vh="H" spot="V35" clock="02:06" driveindex="25,189"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="NEP35" context="H,1,10,V35" playid="25,1,190" clock="02:03"
+      text="HONEY BADGERS FORMIG drive start at 02:03." newcontext="H,1,10,V35">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="NEP35" context="H,1,10,V35" playid="25,2,191" type="R"
+      text="Trenti M. rush for 2 yards to the NEP33 (Iacob A.)." newcontext="H,2,8,V33">
+    <p_ru vh="H" name="Trenti M." gain="2"></p_ru>
+    <p_tk vh="V" name="Iacob A."></p_tk>
+   </play>
+   <play hasball="HBD" down="2" togo="8" spot="NEP33" context="H,2,8,V33" playid="25,3,192" type="R"
+      text="Ghirri M. rush for 6 yards to the NEP27 (Miftah I.;Montedoro V.)." newcontext="H,3,2,V27">
+    <p_ru vh="H" name="Ghirri M." gain="6"></p_ru>
+    <p_tk vh="V" name="Miftah I." assist="Y"></p_tk>
+    <p_tk vh="V" name="Montedoro V." assist="Y"></p_tk>
+   </play>
+   <play hasball="HBD" down="3" togo="2" spot="NEP27" context="H,3,2,V27" playid="25,4,193" type="E"
+      text="Ghirri M. rush for no gain to the NEP27 (Vertuan M.;Pederzoli M.), PENALTY HBD holding (Ferrari M.) 10 yards to the NEP37, NO PLAY." newcontext="H,3,12,V37">
+    <p_pn vh="H" code="HO" type="holding" name="Ferrari M." result="ACCEPT" at="V27" yards="10"></p_pn>
+   </play>
+   <play hasball="HBD" down="3" togo="12" spot="NEP37" context="H,3,12,V37" playid="25,5,194" type="R"
+      text="Ghirri M. rush for 8 yards to the NEP29 (Montedoro V.)." newcontext="H,4,4,V29">
+    <p_ru vh="H" name="Ghirri M." gain="8"></p_ru>
+    <p_tk vh="V" name="Montedoro V."></p_tk>
+   </play>
+   <play hasball="HBD" down="4" togo="4" spot="NEP29" context="H,4,4,V29" playid="25,6,195" type="#" clock="00:56"
+      text="Timeout Braves Bologna, clock 00:56." newcontext="H,4,4,V29">
+    <p_to vh="V" team="Braves Bologna"></p_to>
+   </play>
+   <play hasball="HBD" down="4" togo="4" spot="NEP29" context="H,4,4,V29" playid="25,7,196" type="R"
+      text="Ferrari M. rush for no gain to the NEP29 (TEAM)." newcontext="V,1,10,V29">
+    <p_ru vh="H" name="Ferrari M." gain="0"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <drivesum plays="4" yards="6" top="1:16" driveindex="25" complete="Y"></drivesum>
+   <drivestart poss="V,V29,00:56" vh="V" spot="V29" clock="00:56" driveindex="26,196"></drivestart>
+   <play hasball="NEP" down="1" togo="10" spot="NEP29" context="V,1,10,V29" playid="26,1,197" clock="00:47"
+      text="BRAVES BOLOGNA drive start at 00:47." newcontext="V,1,10,V29">
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP29" context="V,1,10,V29" playid="26,2,198" type="P"
+      text="Lazzarin I. pass complete to Montanari U. for 7 yards to the NEP36, out-of-bounds (Quartieri G.)." ob="Y" newcontext="V,2,3,V36">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Montanari U." gain="7"></p_pa>
+    <p_tk vh="H" name="Quartieri G."></p_tk>
+   </play>
+   <play hasball="NEP" down="2" togo="3" spot="NEP36" context="V,2,3,V36" playid="26,3,199" type="P"
+      text="Lazzarin I. sacked for loss of 5 yards to the NEP31 (Bommicino M.)." newcontext="V,3,8,V31">
+    <p_pa vh="V" qb="Lazzarin I." result="SACK" gain="-5"></p_pa>
+    <p_tk vh="H" name="Bommicino M." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="3" togo="8" spot="NEP31" context="V,3,8,V31" playid="26,4,200" type="#" clock="00:34"
+      text="Timeout Braves Bologna, clock 00:34." newcontext="V,3,8,V31">
+    <p_to vh="V" team="Braves Bologna"></p_to>
+   </play>
+   <play hasball="NEP" down="3" togo="8" spot="NEP31" context="V,3,8,V31" playid="26,5,201" type="P" first="P"
+      text="Lazzarin I. pass complete to Montanari U. for 10 yards to the 41 yardline, 1ST DOWN NEP (Quartieri G.;Migliori M.)." newcontext="V,1,10,V41">
+    <p_pa vh="V" qb="Lazzarin I." result="COMP" rcv="Montanari U." gain="10"></p_pa>
+    <p_tk vh="H" name="Quartieri G." assist="Y"></p_tk>
+    <p_tk vh="H" name="Migliori M." assist="Y"></p_tk>
+   </play>
+   <play hasball="NEP" down="1" togo="10" spot="NEP41" context="V,1,10,V41" playid="26,6,202" type="P"
+      text="Lazzarin I. pass incomplete (Migliori M.)." newcontext="V,2,10,V41">
+    <p_pa vh="V" qb="Lazzarin I." result="BRUP"></p_pa>
+    <p_bu vh="H" name="Migliori M."></p_bu>
+   </play>
+   <play hasball="NEP" down="2" togo="10" spot="NEP41" context="V,2,10,V41" playid="26,7,203" type="P" turnover="I"
+      text="Lazzarin I. pass intercepted by Baroni E. at the HBD30, Baroni E. return 0 yards to the HBD30." newcontext="H,1,10,H30">
+    <p_pa vh="V" qb="Lazzarin I." result="INT"></p_pa>
+    <p_ir vh="H" name="Baroni E." at="H30" gain="0"></p_ir>
+   </play>
+   <drivesum plays="5" yards="12" top="0:41" driveindex="26" complete="Y"></drivesum>
+   <drivestart poss="H,H30,00:34" vh="H" spot="H30" clock="00:34" driveindex="27,203"></drivestart>
+   <play hasball="HBD" down="1" togo="10" spot="HBD30" context="H,1,10,H30" playid="27,1,204" clock="00:06"
+      text="HONEY BADGERS FORMIG drive start at 00:06." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="HBD" down="1" togo="10" spot="HBD30" context="H,1,10,H30" playid="27,2,205" type="R"
+      text="Barile U. rush for 1 yard to the HBD31." newcontext="H,2,9,H31">
+    <p_ru vh="H" name="Barile U." gain="1"></p_ru>
+   </play>
+   <play hasball="HBD" down="2" togo="9" spot="HBD31" context="H,2,9,H31" playid="27,3,206" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="H,2,9,H31">
+   </play>
+   <drivesum plays="1" yards="1" top="0:06" driveindex="27" complete="Y"></drivesum>
+   <score final="Y" V="29" H="32"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="NEP">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="2" yds="19"></penalties>
+    <conversions thirdconv="4" thirdatt="6" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:58"></misc>
+    <rush att="6" yds="1" gain="11" loss="10" td="0" long="0"></rush>
+    <pass comp="5" att="13" int="1" yds="65" td="1" long="0" sacks="1" sackyds="5"></pass>
+    <rcv no="5" yds="65" td="1" long="0"></rcv>
+    <punt no="1" yds="38" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="38.0"></punt>
+    <ko no="1" yds="9" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="13" tacka="2" tot_tack="15" sacks="2" sackyds="7"></defense>
+    <kr no="1" yds="3" td="0" long="0"></kr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="HBD">
+    <firstdowns no="4" rush="4" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:02"></misc>
+    <rush att="16" yds="89" gain="89" loss="0" td="1" long="4"></rush>
+    <ko no="1" yds="18" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="9" tacka="2" tot_tack="11" tflua="3" tfla="0" tflyds="10" sacks="4" sackyds="23" brup="4" int="1" intyds="0"></defense>
+    <kr no="1" yds="4" td="0" long="0"></kr>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="H" id="HBD" down="2" togo="9" spot="HBD31" context="H,2,9,H31" qtr="4" clock="00:00" vtoh="2" htoh="2"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="NEP">
+  <player name="Tubertini L." checkname="L.,TUBERTINI" uni="9" gp="0" code="9"></player>
+ </dnp>
+ <dnp vh="H" id="HBD">
+  <player name="Barbieri S." checkname="S.,BARBIERI" uni="8" gp="0" code="8"></player>
+  <player name="Lanzo P." checkname="P.,LANZO" uni="32" gp="0" code="32"></player>
+  <player name="Pradelli M." checkname="M.,PRADELLI" uni="56" gp="0" code="56"></player>
+  <player name="Troiano G." checkname="G.,TROIANO" uni="69" gp="0" code="69"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

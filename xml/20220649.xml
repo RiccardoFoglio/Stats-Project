@@ -1,0 +1,1318 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220649" visid="BEN" homeid="CAV" visname="Bengals Brescia" homename="Cavaliers Castelfran"
+      date="7/2/2022" location="Castelfranco Veneto" stadium="Cavaliers Arena"
+      start="20:30" end="23:00" leaguegame="Y" nitegame="Y" postseason="Y"
+      duration="2:30" attend="90" temp="30" wind="No Wind" weather="Sunny">
+  <officials ref="Sanfelice G." ump="Tognon F." line="Tognoni A." lj="Minasso A." bj="Cassiani M." sc="Favretto M."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="30" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="BEN" name="Bengals Brescia" record="8-0" conf-record="4-0" abb="B">
+  <linescore prds="4" line="7,10,0,14" score="31">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="10"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="14"></lineprd>
+  </linescore>
+  <totals totoff_plays="63" totoff_yards="422" totoff_avg="6.7">
+   <firstdowns no="21" rush="18" pass="3" penalty="0"></firstdowns>
+   <penalties no="7" yds="52"></penalties>
+   <conversions thirdconv="8" thirdatt="14" fourthconv="0" fourthatt="1"></conversions>
+   <fumbles no="2" lost="0"></fumbles>
+   <misc yds="0" top="28:43" ona="0" onm="0"></misc>
+   <redzone att="4" scores="3" points="21" tdrush="3" tdpass="0" fgmade="0" endfga="1" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="44" yds="302" gain="317" loss="15" td="3" long="28"></rush>
+   <pass comp="8" att="19" int="0" yds="120" td="1" long="55" sacks="1" sackyds="8"></pass>
+   <rcv no="8" yds="120" td="1" long="55"></rcv>
+   <punt no="3" yds="92" long="49" blkd="0" tb="0" fc="0" plus50="0" inside20="2" avg="30.7"></punt>
+   <ko no="6" yds="269" ob="1" tb="0"></ko>
+   <fg made="1" att="2" long="40" blkd="0"></fg>
+   <pat kickatt="4" kickmade="4"></pat>
+   <defense tackua="21" tacka="20" tot_tack="41" tflua="2" tfla="0" tflyds="7" sacks="0" sackyds="0" int="1" intyds="25"></defense>
+   <kr no="4" yds="74" td="0" long="29"></kr>
+   <pr no="1" yds="0" td="0" long="0"></pr>
+   <ir no="1" yds="25" td="0" long="25"></ir>
+   <scoring td="4" fg="1" patkick="4"></scoring>
+  </totals>
+  <player name="Grespan R." shortname="Grespan R." checkname="R.,GRESPAN" uni="4" gp="1" code="4">
+   <rcv no="5" yds="47" td="0" long="18"></rcv>
+  </player>
+  <player name="Gaggiotti M." shortname="Gaggiotti M." checkname="M.,GAGGIOTTI" uni="5" gp="1" code="5">
+   <rcv no="1" yds="55" td="1" long="55"></rcv>
+   <kr no="3" yds="67" td="0" long="29"></kr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Magnanini M." shortname="Magnanini M." checkname="M.,MAGNANINI" uni="80" gp="1" code="80">
+   <rcv no="1" yds="12" td="0" long="12"></rcv>
+   <kr no="1" yds="7" td="0" long="7"></kr>
+  </player>
+  <player name="Orizio N." shortname="Orizio N." checkname="N.,ORIZIO" uni="26" gp="1" code="26">
+   <rcv no="1" yds="6" td="0" long="6"></rcv>
+   <pr no="1" yds="0" td="0" long="0"></pr>
+  </player>
+  <player name="Dainesi A." shortname="Dainesi A." checkname="A.,DAINESI" uni="8" gp="1" code="8">
+   <defense tackua="1" tacka="6" tot_tack="7"></defense>
+  </player>
+  <player name="Bassani L." shortname="Bassani L." checkname="L.,BASSANI" uni="15" gp="1" code="15">
+   <defense tackua="5" tacka="1" tot_tack="6"></defense>
+  </player>
+  <player name="Bertoglio G." shortname="Bertoglio G." checkname="G.,BERTOGLIO" uni="17" gp="1" code="17">
+   <punt no="3" yds="92" long="49" blkd="0" tb="0" fc="0" plus50="0" inside20="2" avg="30.7"></punt>
+   <ko no="6" yds="269" ob="1" tb="0"></ko>
+  </player>
+  <player name="Canetta A." shortname="Canetta A." checkname="A.,CANETTA" uni="23" gp="1" code="23">
+   <defense tackua="7" tacka="2" tot_tack="9" int="1" intyds="25"></defense>
+   <ir no="1" yds="25" td="0" long="25"></ir>
+  </player>
+  <player name="Bianchini M." shortname="Bianchini M." checkname="M.,BIANCHINI" uni="30" gp="1" code="30">
+   <fg made="1" att="2" long="40" blkd="0"></fg>
+   <pat kickatt="4" kickmade="4"></pat>
+   <scoring fg="1" patkick="4"></scoring>
+  </player>
+  <player name="Putelli S." shortname="Putelli S." checkname="S.,PUTELLI" uni="32" gp="1" code="32">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Favero M." shortname="Favero M." checkname="M.,FAVERO" uni="40" gp="1" code="40">
+   <defense tackua="0" tacka="4" tot_tack="4"></defense>
+  </player>
+  <player name="De Marco F." shortname="De Marco F." checkname="MARCO F.,DE" uni="43" gp="1" code="43">
+   <defense tackua="2" tacka="2" tot_tack="4"></defense>
+  </player>
+  <player name="Ferrari G." shortname="Ferrari G." checkname="G.,FERRARI" uni="44" gp="1" code="44">
+   <defense tackua="1" tacka="1" tot_tack="2" tflua="1" tfla="0" tflyds="5"></defense>
+  </player>
+  <player name="Tinti G." shortname="Tinti G." checkname="G.,TINTI" uni="10" gp="1" code="10">
+   <rush att="22" yds="108" gain="122" loss="14" td="0" long="24"></rush>
+   <pass comp="8" att="19" int="0" yds="120" td="1" long="55" sacks="1" sackyds="8"></pass>
+  </player>
+  <player name="Rota R." shortname="Rota R." checkname="R.,ROTA" uni="50" gp="1" code="50">
+   <defense tackua="4" tacka="1" tot_tack="5" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Gottardo S." shortname="Gottardo S." checkname="S.,GOTTARDO" uni="53" gp="1" code="53">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Maiolini M." shortname="Maiolini M." checkname="M.,MAIOLINI" uni="59" gp="1" code="59">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Calabrese F." shortname="Calabrese F." checkname="F.,CALABRESE" uni="65" gp="1" code="65">
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Barbolla R." shortname="Barbolla R." checkname="R.,BARBOLLA" uni="49" gp="1" code="49">
+   <rush att="22" yds="194" gain="195" loss="1" td="3" long="28"></rush>
+   <scoring td="3"></scoring>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198"></player>
+ </team>
+ <team vh="H" code="" id="CAV" name="Cavaliers Castelfran" record="6-1" conf-record="4-0" abb="C">
+  <linescore prds="4" line="12,0,0,12" score="24">
+   <lineprd prd="1" score="12"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="12"></lineprd>
+  </linescore>
+  <totals totoff_plays="53" totoff_yards="387" totoff_avg="7.3">
+   <firstdowns no="15" rush="7" pass="8" penalty="0"></firstdowns>
+   <penalties no="8" yds="49"></penalties>
+   <conversions thirdconv="3" thirdatt="11" fourthconv="2" fourthatt="5"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="19:17" ona="0" onm="0"></misc>
+   <redzone att="3" scores="2" points="12" tdrush="1" tdpass="1" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="23" yds="153" gain="160" loss="7" td="1" long="40"></rush>
+   <pass comp="13" att="30" int="1" yds="234" td="3" long="45" sacks="0" sackyds="0"></pass>
+   <rcv no="13" yds="234" td="3" long="45"></rcv>
+   <punt no="2" yds="64" long="36" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="32.0"></punt>
+   <ko no="5" yds="232" ob="1" tb="0"></ko>
+   <pat rushatt="1" rushmade="0" passatt="3" passmade="0"></pat>
+   <defense tackua="43" tacka="14" tot_tack="57" tflua="5" tfla="2" tflyds="15" sacks="1" sackyds="8"></defense>
+   <kr no="5" yds="101" td="0" long="24"></kr>
+   <scoring td="4"></scoring>
+  </totals>
+  <player name="Dall'agnol P." shortname="Dall'agnol P." checkname="P.,DALL'AGNOL" uni="85" gp="1" code="85">
+   <rcv no="3" yds="99" td="2" long="45"></rcv>
+   <kr no="1" yds="15" td="0" long="15"></kr>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Miglioranza M." shortname="Miglioranza M." checkname="M.,MIGLIORANZA" uni="15" gp="1" code="15">
+   <rcv no="3" yds="51" td="0" long="39"></rcv>
+   <punt no="2" yds="64" long="36" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="32.0"></punt>
+   <kr no="4" yds="86" td="0" long="24"></kr>
+  </player>
+  <player name="Pettenon M." shortname="Pettenon M." checkname="M.,PETTENON" uni="80" gp="1" code="80">
+   <rcv no="3" yds="37" td="1" long="14"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Santi M." shortname="Santi M." checkname="M.,SANTI" uni="83" gp="1" code="83">
+   <rcv no="1" yds="32" td="0" long="32"></rcv>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Macchion A." shortname="Macchion A." checkname="A.,MACCHION" uni="90" gp="1" code="90">
+   <rcv no="1" yds="11" td="0" long="11"></rcv>
+  </player>
+  <player name="Galeotafiore R." shortname="Galeotafiore R." checkname="R.,GALEOTAFIORE" uni="12" gp="1" code="12">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="Vedoato A." shortname="Vedoato A." checkname="A.,VEDOATO" uni="89" gp="1" code="89">
+   <rcv no="1" yds="-4" td="0" long="0"></rcv>
+  </player>
+  <player name="De Caro M." shortname="De Caro M." checkname="CARO M.,DE" uni="26" gp="1" code="26">
+   <defense tackua="5" tacka="4" tot_tack="9" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Pilotto L." shortname="Pilotto L." checkname="L.,PILOTTO" uni="25" gp="1" code="25">
+   <defense tackua="3" tacka="1" tot_tack="4"></defense>
+  </player>
+  <player name="Lago D." shortname="Lago D." checkname="D.,LAGO" uni="29" gp="1" code="29">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Zanin L." shortname="Zanin L." checkname="L.,ZANIN" uni="38" gp="1" code="38">
+   <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Tiatto L." shortname="Tiatto L." checkname="L.,TIATTO" uni="49" gp="1" code="49">
+   <pat passatt="1" passmade="0"></pat>
+   <defense tackua="11" tacka="3" tot_tack="14"></defense>
+  </player>
+  <player name="Sabbadin C." shortname="Sabbadin C." checkname="C.,SABBADIN" uni="50" gp="1" code="50">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Baldassa A." shortname="Baldassa A." checkname="A.,BALDASSA" uni="51" gp="1" code="51">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Tonin L." shortname="Tonin L." checkname="L.,TONIN" uni="54" gp="1" code="54">
+   <ko no="5" yds="232" ob="1" tb="0"></ko>
+   <defense tackua="3" tacka="1" tot_tack="4" tflua="1" tfla="1" tflyds="4"></defense>
+  </player>
+  <player name="Reffo A." shortname="Reffo A." checkname="A.,REFFO" uni="74" gp="1" code="74">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Vedovato N." shortname="Vedovato N." checkname="N.,VEDOVATO" uni="75" gp="1" code="75">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Lago M." shortname="Lago M." checkname="M.,LAGO" uni="79" gp="1" code="79">
+   <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+  <player name="Makokha B." shortname="Makokha B." checkname="B.,MAKOKHA" uni="5" gp="1" code="5">
+   <rush att="1" yds="3" gain="3" loss="0" td="0" long="3"></rush>
+   <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="8" sackua="1" sacka="0" sackyds="8"></defense>
+  </player>
+  <player name="Jimenez Rami J." shortname="Jimenez Rami J." checkname="RAMI J.,JIMENEZ" uni="27" gp="1" code="27">
+   <rush att="7" yds="21" gain="23" loss="2" td="0" long="10"></rush>
+  </player>
+  <player name="Diaw B." shortname="Diaw B." checkname="B.,DIAW" uni="16" gp="1" code="16">
+   <rush att="4" yds="29" gain="29" loss="0" td="0" long="9"></rush>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Piva L." shortname="Piva L." checkname="L.,PIVA" uni="10" gp="1" code="10">
+   <rush att="11" yds="100" gain="105" loss="5" td="1" long="40"></rush>
+   <pass comp="13" att="30" int="1" yds="234" td="3" long="45" sacks="0" sackyds="0"></pass>
+   <pat rushatt="1" rushmade="0" passatt="2" passmade="0"></pat>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Santinello R." shortname="Santinello R." checkname="R.,SANTINELLO" uni="94" gp="1" code="94">
+   <defense tackua="5" tacka="2" tot_tack="7"></defense>
+  </player>
+  <player name="Rigo A." shortname="Rigo A." checkname="A.,RIGO" uni="99" gp="1" code="99">
+   <defense tackua="3" tacka="1" tot_tack="4"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="CAV" qtr="1" clock="09:56" type="TD" how="PASS" yds="30" scorer="Dall'agnol P." passer="Piva L." patby="Tiatto L." pattype="PASS" patres="FAIL" plays="5" drive="60" top="2:04" vscore="0" hscore="6" driveindex="1"></score>
+  <score vh="V" team="BEN" qtr="1" clock="05:47" type="TD" how="RUSH" yds="11" scorer="Barbolla R." patby="Bianchini M." pattype="KICK" patres="GOOD" plays="9" drive="59" top="4:09" vscore="7" hscore="6" driveindex="2"></score>
+  <score vh="H" team="CAV" qtr="1" clock="03:30" type="TD" how="RUSH" yds="1" scorer="Piva L." patby="Piva L." pattype="PASS" patres="FAIL" plays="6" drive="65" top="2:17" vscore="7" hscore="12" driveindex="3"></score>
+  <score vh="V" team="BEN" qtr="2" clock="05:13" type="TD" how="PASS" yds="55" scorer="Gaggiotti M." passer="Tinti G." patby="Bianchini M." pattype="KICK" patres="GOOD" plays="1" drive="55" top="0:07" vscore="14" hscore="12" driveindex="8"></score>
+  <score vh="V" team="BEN" qtr="2" clock="00:10" type="FG" yds="40" scorer="Bianchini M." plays="6" drive="34" top="1:03" vscore="17" hscore="12" driveindex="12"></score>
+  <score vh="V" team="BEN" qtr="4" clock="07:30" type="TD" how="RUSH" yds="11" scorer="Barbolla R." patby="Bianchini M." pattype="KICK" patres="GOOD" plays="8" drive="72" top="3:43" vscore="24" hscore="12" driveindex="18"></score>
+  <score vh="H" team="CAV" qtr="4" clock="06:30" type="TD" how="PASS" yds="24" scorer="Dall'agnol P." passer="Piva L." patby="Piva L." pattype="RUSH" patres="FAIL" plays="4" drive="56" top="1:00" vscore="24" hscore="18" driveindex="19"></score>
+  <score vh="V" team="BEN" qtr="4" clock="02:45" type="TD" how="RUSH" yds="5" scorer="Barbolla R." patby="Bianchini M." pattype="KICK" patres="GOOD" plays="7" drive="54" top="3:45" vscore="31" hscore="18" driveindex="20"></score>
+  <score vh="H" team="CAV" qtr="4" clock="01:35" type="TD" how="PASS" yds="14" scorer="Pettenon M." passer="Piva L." patby="Piva L." pattype="PASS" patres="FAIL" plays="6" drive="59" top="1:10" vscore="31" hscore="24" driveindex="21"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="BEN" kicker="Bianchini M." qtr="2" clock="00:10" distance="40" result="good"></fga>
+  <fga vh="V" team="BEN" kicker="Bianchini M." qtr="3" clock="03:25" distance="47" result="missed"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="CAV" start="KO,1,12:00,30" end="TD,1,09:56,90" plays="5" yards="60" top="2:04" start_how="KO" start_qtr="1" start_time="12:00" start_spot="CAV30" end_how="TD" end_qtr="1" end_time="09:56" end_spot="BEN00" driveindex="1"></drive>
+  <drive vh="V" team="BEN" start="KO,1,09:56,31" end="TD,1,05:47,90" plays="9" yards="59" top="4:09" start_how="KO" start_qtr="1" start_time="09:56" start_spot="BEN31" end_how="TD" end_qtr="1" end_time="05:47" end_spot="CAV00" rz="1" driveindex="2"></drive>
+  <drive vh="H" team="CAV" start="KO,1,05:47,25" end="TD,1,03:30,90" plays="6" yards="65" top="2:17" start_how="KO" start_qtr="1" start_time="05:47" start_spot="CAV25" end_how="TD" end_qtr="1" end_time="03:30" end_spot="BEN00" rz="1" driveindex="3"></drive>
+  <drive vh="V" team="BEN" start="KO,1,03:30,32" end="DOWNS,1,00:20,62" plays="6" yards="30" top="3:10" start_how="KO" start_qtr="1" start_time="03:30" start_spot="BEN32" end_how="DOWNS" end_qtr="1" end_time="00:20" end_spot="CAV28" driveindex="4"></drive>
+  <drive vh="H" team="CAV" start="DOWNS,1,00:20,28" end="PUNT,2,10:02,47" plays="6" yards="19" top="2:18" start_how="DOWNS" start_qtr="1" start_time="00:20" start_spot="CAV28" end_how="PUNT" end_qtr="2" end_time="10:02" end_spot="BEN43" driveindex="5"></drive>
+  <drive vh="V" team="BEN" start="PUNT,2,10:02,15" end="PUNT,2,07:31,28" plays="5" yards="13" top="2:31" start_how="PUNT" start_qtr="2" start_time="10:02" start_spot="BEN15" end_how="PUNT" end_qtr="2" end_time="07:31" end_spot="BEN28" driveindex="6"></drive>
+  <drive vh="H" team="CAV" start="PUNT,2,07:31,13" end="DOWNS,2,05:20,55" plays="6" yards="42" top="2:11" start_how="PUNT" start_qtr="2" start_time="07:31" start_spot="CAV13" end_how="DOWNS" end_qtr="2" end_time="05:20" end_spot="BEN35" driveindex="7"></drive>
+  <drive vh="V" team="BEN" start="DOWNS,2,05:20,35" end="TD,2,05:13,90" plays="1" yards="55" top="0:07" start_how="DOWNS" start_qtr="2" start_time="05:20" start_spot="BEN35" end_how="TD" end_qtr="2" end_time="05:13" end_spot="CAV00" driveindex="8"></drive>
+  <drive vh="H" team="CAV" start="KO,2,05:13,37" end="DOWNS,2,02:45,45" plays="4" yards="8" top="2:28" start_how="KO" start_qtr="2" start_time="05:13" start_spot="CAV37" end_how="DOWNS" end_qtr="2" end_time="02:45" end_spot="CAV45" driveindex="9"></drive>
+  <drive vh="V" team="BEN" start="DOWNS,2,02:45,45" end="PUNT,2,01:40,44" plays="3" yards="-1" top="1:05" start_how="DOWNS" start_qtr="2" start_time="02:45" start_spot="BEN45" end_how="PUNT" end_qtr="2" end_time="01:40" end_spot="BEN44" driveindex="10"></drive>
+  <drive vh="H" team="CAV" start="PUNT,2,01:40,18" end="PUNT,2,01:13,21" plays="3" yards="3" top="0:27" start_how="PUNT" start_qtr="2" start_time="01:40" start_spot="CAV18" end_how="PUNT" end_qtr="2" end_time="01:13" end_spot="CAV21" driveindex="11"></drive>
+  <drive vh="V" team="BEN" start="PUNT,2,01:13,33" end="FG,2,00:10,67" plays="6" yards="34" top="1:03" start_how="PUNT" start_qtr="2" start_time="01:13" start_spot="BEN33" end_how="FG" end_qtr="2" end_time="00:10" end_spot="CAV23" driveindex="12"></drive>
+  <drive vh="H" team="CAV" start="KO,2,00:10,30" end="HALF,2,00:00,35" plays="1" yards="5" top="0:10" start_how="KO" start_qtr="2" start_time="00:10" start_spot="CAV30" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="CAV35" driveindex="13"></drive>
+  <drive vh="V" team="BEN" start="KO,3,12:00,12" end="PUNT,3,08:00,12" plays="6" yards="0" top="4:00" start_how="KO" start_qtr="3" start_time="12:00" start_spot="BEN12" end_how="PUNT" end_qtr="3" end_time="08:00" end_spot="BEN12" driveindex="14"></drive>
+  <drive vh="H" team="CAV" start="PUNT,3,08:00,63" end="INT,3,07:00,59" plays="2" yards="-4" top="1:00" start_how="PUNT" start_qtr="3" start_time="08:00" start_spot="BEN27" end_how="INT" end_qtr="3" end_time="07:00" end_spot="BEN31" driveindex="15"></drive>
+  <drive vh="V" team="BEN" start="INT,3,07:00,40" end="FGA,3,03:25,64" plays="8" yards="24" top="3:35" start_how="INT" start_qtr="3" start_time="07:00" start_spot="BEN40" end_how="FGA" end_qtr="3" end_time="03:25" end_spot="CAV26" rz="1" driveindex="16"></drive>
+  <drive vh="H" team="CAV" start="FGA,3,03:25,26" end="DOWNS,4,11:13,72" plays="10" yards="46" top="4:12" start_how="FGA" start_qtr="3" start_time="03:25" start_spot="CAV26" end_how="DOWNS" end_qtr="4" end_time="11:13" end_spot="BEN18" rz="1" driveindex="17"></drive>
+  <drive vh="V" team="BEN" start="DOWNS,4,11:13,18" end="TD,4,07:30,90" plays="8" yards="72" top="3:43" start_how="DOWNS" start_qtr="4" start_time="11:13" start_spot="BEN18" end_how="TD" end_qtr="4" end_time="07:30" end_spot="CAV00" rz="1" driveindex="18"></drive>
+  <drive vh="H" team="CAV" start="KO,4,07:30,34" end="TD,4,06:30,90" plays="4" yards="56" top="1:00" start_how="KO" start_qtr="4" start_time="07:30" start_spot="CAV34" end_how="TD" end_qtr="4" end_time="06:30" end_spot="BEN00" driveindex="19"></drive>
+  <drive vh="V" team="BEN" start="KO,4,06:30,36" end="TD,4,02:45,90" plays="7" yards="54" top="3:45" start_how="KO" start_qtr="4" start_time="06:30" start_spot="BEN36" end_how="TD" end_qtr="4" end_time="02:45" end_spot="CAV00" rz="1" driveindex="20"></drive>
+  <drive vh="H" team="CAV" start="KO,4,02:45,31" end="TD,4,01:35,90" plays="6" yards="59" top="1:10" start_how="KO" start_qtr="4" start_time="02:45" start_spot="CAV31" end_how="TD" end_qtr="4" end_time="01:35" end_spot="BEN00" rz="1" driveindex="21"></drive>
+  <drive vh="V" team="BEN" start="KO,4,01:35,28" end="HALF,4,00:00,63" plays="4" yards="35" top="1:35" start_how="KO" start_qtr="4" start_time="01:35" start_spot="BEN28" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="CAV27" driveindex="22"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="BEN" down="1" togo="10" spot="BEN30" context="V,1,10,V30" playid="0,1,0"
+      text="CAV ball on CAV30." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV30" context="H,1,10,H30" playid="0,2,1"
+      text="BEN ball on BEN30." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN30" context="V,1,10,V30" playid="0,3,2" type="K"
+      text="Bertoglio G. kickoff 50 yards to the CAV10, Miglioranza M. return 20 yards to the CAV30 (Canetta A.)." newcontext="H,1,10,H30">
+    <p_ko vh="V" name="Bertoglio G." gain="50"></p_ko>
+    <p_kr vh="H" name="Miglioranza M." gain="20"></p_kr>
+    <p_tk vh="V" name="Canetta A."></p_tk>
+   </play>
+   <drivestart poss="H,H30,12:00" vh="H" spot="H30" clock="12:00" driveindex="1,2"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV30" context="H,1,10,H30" playid="1,1,3" type="P"
+      text="Piva L. pass incomplete to Dall'agnol P.." newcontext="H,2,10,H30">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Dall'agnol P."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="CAV30" context="H,2,10,H30" playid="1,2,4" type="R" first="R"
+      text="Piva L. rush for 20 yards to the BEN40, 1ST DOWN CAV, out-of-bounds (Canetta A.)." ob="Y" newcontext="H,1,10,V40">
+    <p_ru vh="H" name="Piva L." gain="20"></p_ru>
+    <p_tk vh="V" name="Canetta A."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="BEN40" context="H,1,10,V40" playid="1,3,5" type="E"
+      text="PENALTY BEN offside defense (Favero M.) 5 yards to the BEN35." newcontext="H,1,5,V35">
+    <p_pn vh="V" code="OD" type="offside defense" name="Favero M." result="ACCEPT" at="V40" yards="5"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="5" spot="BEN35" context="H,1,5,V35" playid="1,4,6" type="P" first="P"
+      text="Piva L. pass complete to Miglioranza M. for 9 yards to the BEN26, 1ST DOWN CAV, out-of-bounds (Putelli S.)." ob="Y" newcontext="H,1,10,V26">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Miglioranza M." gain="9"></p_pa>
+    <p_tk vh="V" name="Putelli S."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="BEN26" context="H,1,10,V26" playid="1,5,7" type="P"
+      text="Piva L. pass complete to Vedoato A. for loss of 4 yards to the BEN30." newcontext="H,2,14,V30">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Vedoato A." gain="-4"></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="14" spot="BEN30" context="H,2,14,V30" playid="1,6,8" type="P" first="P" score="Y" clock="09:56"
+      text="Piva L. pass complete to Dall'agnol P. for 30 yards to the BEN0, 1ST DOWN CAV, TOUCHDOWN, clock 09:56." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Dall'agnol P." gain="30"></p_pa>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="BEN03" context="H,1,0,V03" playid="1,7,9" type="X"
+      text="Tiatto L. pass attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Tiatto L." qb="Tiatto L." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="0" H="6"></score>
+   <drivesum plays="5" yards="60" top="2:04" driveindex="1" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="1,8,10" type="K"
+      text="Tonin L. kickoff 58 yards to the BEN2, Gaggiotti M. return 29 yards to the BEN31 (Santi M.)." newcontext="V,1,10,V31">
+    <p_ko vh="H" name="Tonin L." gain="58"></p_ko>
+    <p_kr vh="V" name="Gaggiotti M." gain="29"></p_kr>
+    <p_tk vh="H" name="Santi M."></p_tk>
+   </play>
+   <drivestart poss="V,V31,09:56" vh="V" spot="V31" clock="09:56" driveindex="2,10"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN31" context="V,1,10,V31" playid="2,1,11" clock="09:56"
+      text="BENGALS BRESCIA drive start at 09:56." newcontext="V,1,10,V31">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN31" context="V,1,10,V31" playid="2,2,12" type="R" first="R"
+      text="Tinti G. rush for 13 yards to the BEN44, 1ST DOWN BEN (De Caro M.)." newcontext="V,1,10,V44">
+    <p_ru vh="V" name="Tinti G." gain="13"></p_ru>
+    <p_tk vh="H" name="De Caro M."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN44" context="V,1,10,V44" playid="2,3,13" type="R"
+      text="Barbolla R. rush for 6 yards to the CAV40 (De Caro M.;Rigo A.)." newcontext="V,2,4,H40">
+    <p_ru vh="V" name="Barbolla R." gain="6"></p_ru>
+    <p_tk vh="H" name="De Caro M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Rigo A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="4" spot="CAV40" context="V,2,4,H40" playid="2,4,14" type="R" first="R"
+      text="Tinti G. rush for 4 yards to the CAV36, 1ST DOWN BEN (Santinello R.)." newcontext="V,1,10,H36">
+    <p_ru vh="V" name="Tinti G." gain="4"></p_ru>
+    <p_tk vh="H" name="Santinello R."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV36" context="V,1,10,H36" playid="2,5,15" type="P"
+      text="Tinti G. pass incomplete to Gaggiotti M.." newcontext="V,2,10,H36">
+    <p_pa vh="V" qb="Tinti G." result="INC" rcv="Gaggiotti M."></p_pa>
+   </play>
+   <play hasball="BEN" down="2" togo="10" spot="CAV36" context="V,2,10,H36" playid="2,6,16" type="R"
+      text="Tinti G. rush for 7 yards to the CAV29 (De Caro M.)." newcontext="V,3,3,H29">
+    <p_ru vh="V" name="Tinti G." gain="7"></p_ru>
+    <p_tk vh="H" name="De Caro M."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="3" spot="CAV29" context="V,3,3,H29" playid="2,7,17" type="R" first="R"
+      text="Barbolla R. rush for 14 yards to the CAV15, 1ST DOWN BEN (Tiatto L.)." newcontext="V,1,10,H15">
+    <p_ru vh="V" name="Barbolla R." gain="14"></p_ru>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV15" context="V,1,10,H15" playid="2,8,18" type="P"
+      text="Tinti G. pass complete to Grespan R. for 5 yards to the CAV10 (Pilotto L.)." newcontext="V,2,5,H10">
+    <p_pa vh="V" qb="Tinti G." result="COMP" rcv="Grespan R." gain="5"></p_pa>
+    <p_tk vh="H" name="Pilotto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="5" spot="CAV10" context="V,2,5,H10" playid="2,9,19" type="R"
+      text="Tinti G. rush for loss of 1 yard to the CAV11 (De Caro M.)." newcontext="V,3,6,H11">
+    <p_ru vh="V" name="Tinti G." gain="-1"></p_ru>
+    <p_tk vh="H" name="De Caro M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="6" spot="CAV11" context="V,3,6,H11" playid="2,10,20" type="R" first="R" score="Y" clock="05:47"
+      text="Barbolla R. rush for 11 yards to the CAV0, 1ST DOWN BEN, TOUCHDOWN, clock 05:47." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Barbolla R." gain="11"></p_ru>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="CAV03" context="V,1,0,H03" playid="2,11,21" type="X" score="Y"
+      text="Bianchini M. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Bianchini M." qb="Bianchini M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="6"></score>
+   <drivesum plays="9" yards="59" top="4:09" driveindex="2" complete="Y"></drivesum>
+   <play hasball="BEN" down="1" togo="0" spot="BEN30" context="V,1,0,V30" playid="2,12,22" type="K"
+      text="Bertoglio G. kickoff 59 yards to the CAV1, Miglioranza M. return 24 yards to the CAV25 (Bassani L.)." newcontext="H,1,10,H25">
+    <p_ko vh="V" name="Bertoglio G." gain="59"></p_ko>
+    <p_kr vh="H" name="Miglioranza M." gain="24"></p_kr>
+    <p_tk vh="V" name="Bassani L."></p_tk>
+   </play>
+   <drivestart poss="H,H25,05:47" vh="H" spot="H25" clock="05:47" driveindex="3,22"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV25" context="H,1,10,H25" playid="3,1,23" clock="05:47"
+      text="CAVALIERS CASTELFRAN drive start at 05:47." newcontext="H,1,10,H25">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV25" context="H,1,10,H25" playid="3,2,24" type="R" first="R"
+      text="Jimenez Rami J. rush for 10 yards to the CAV35, 1ST DOWN CAV (Canetta A.)." newcontext="H,1,10,H35">
+    <p_ru vh="H" name="Jimenez Rami J." gain="10"></p_ru>
+    <p_tk vh="V" name="Canetta A."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV35" context="H,1,10,H35" playid="3,3,25" type="R"
+      text="Makokha B. rush for 3 yards to the CAV38 (Favero M.;Maiolini M.)." newcontext="H,2,7,H38">
+    <p_ru vh="H" name="Makokha B." gain="3"></p_ru>
+    <p_tk vh="V" name="Favero M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Maiolini M." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="7" spot="CAV38" context="H,2,7,H38" playid="3,4,26" type="R" first="R"
+      text="Piva L. rush for 40 yards to the BEN12, 1ST DOWN CAV, out-of-bounds (Rota R.), PENALTY BEN personal foul (Rota R.) 6 yards to the BEN6." ob="Y" newcontext="H,1,4,V06">
+    <p_ru vh="H" name="Piva L." gain="40"></p_ru>
+    <p_tk vh="V" name="Rota R."></p_tk>
+    <p_pn vh="V" code="PF" type="personal foul" name="Rota R." result="ACCEPT" at="V12" yards="6"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="4" spot="BEN06" context="H,1,4,V06" playid="3,5,27"
+      text="1st and 6." newcontext="H,1,0,V06">
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="BEN06" context="H,1,0,V06" playid="3,6,28" type="E"
+      text="PENALTY CAV false start (Macchion A.) 5 yards to the BEN11." newcontext="H,1,0,V11">
+    <p_pn vh="H" code="FS" type="false start" name="Macchion A." result="ACCEPT" at="V06" yards="5"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="BEN11" context="H,1,0,V11" playid="3,7,29" type="P"
+      text="Piva L. pass incomplete to Macchion A., dropped pass." newcontext="H,2,0,V11">
+    <p_pa vh="H" qb="Piva L." result="DROP" rcv="Macchion A."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="0" spot="BEN11" context="H,2,0,V11" playid="3,8,30" type="R"
+      text="Piva L. rush for 10 yards to the BEN1, out-of-bounds (Rota R.)." ob="Y" newcontext="H,3,0,V01">
+    <p_ru vh="H" name="Piva L." gain="10"></p_ru>
+    <p_tk vh="V" name="Rota R."></p_tk>
+   </play>
+   <play hasball="CAV" down="3" togo="0" spot="BEN01" context="H,3,0,V01" playid="3,9,31" type="R" score="Y" clock="03:30"
+      text="Piva L. rush for 1 yard to the BEN0, TOUCHDOWN, clock 03:30." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Piva L." gain="1"></p_ru>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="BEN03" context="H,1,0,V03" playid="3,10,32" type="E"
+      text="Piva L. pass attempt failed, PENALTY BEN holding (Rota R.) 2 yards to the BEN1, NO PLAY." newcontext="H,1,0,V01">
+    <p_pn vh="V" code="HO" type="holding" name="Rota R." result="ACCEPT" at="V03" yards="2"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="BEN01" context="H,1,0,V01" playid="3,11,33" type="E"
+      text="PENALTY CAV false start (Santi M.) 5 yards to the BEN6." newcontext="H,1,0,V06">
+    <p_pn vh="H" code="FS" type="false start" name="Santi M." result="ACCEPT" at="V01" yards="5"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="BEN06" context="H,1,0,V06" playid="3,12,34" type="X"
+      text="Piva L. pass attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Piva L." qb="Piva L." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="7" H="12"></score>
+   <drivesum plays="6" yards="65" top="2:17" driveindex="3" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="3,13,35" type="K"
+      text="Tonin L. kickoff 35 yards to the BEN25, Magnanini M. return 7 yards to the BEN32 (Makokha B.)." newcontext="V,1,10,V32">
+    <p_ko vh="H" name="Tonin L." gain="35"></p_ko>
+    <p_kr vh="V" name="Magnanini M." gain="7"></p_kr>
+    <p_tk vh="H" name="Makokha B."></p_tk>
+   </play>
+   <drivestart poss="V,V32,03:30" vh="V" spot="V32" clock="03:30" driveindex="4,35"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN32" context="V,1,10,V32" playid="4,1,36" clock="03:30"
+      text="BENGALS BRESCIA drive start at 03:30." newcontext="V,1,10,V32">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN32" context="V,1,10,V32" playid="4,2,37" type="P"
+      text="Tinti G. pass complete to Grespan R. for 9 yards to the BEN41." newcontext="V,2,1,V41">
+    <p_pa vh="V" qb="Tinti G." result="COMP" rcv="Grespan R." gain="9"></p_pa>
+   </play>
+   <play hasball="BEN" down="2" togo="1" spot="BEN41" context="V,2,1,V41" playid="4,3,38" type="R" first="R"
+      text="Barbolla R. rush for 13 yards to the CAV36, 1ST DOWN BEN (Tiatto L.)." newcontext="V,1,10,H36">
+    <p_ru vh="V" name="Barbolla R." gain="13"></p_ru>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV36" context="V,1,10,H36" playid="4,4,39" type="R"
+      text="Barbolla R. rush for loss of 1 yard to the CAV37 (Sabbadin C.)." newcontext="V,2,11,H37">
+    <p_ru vh="V" name="Barbolla R." gain="-1"></p_ru>
+    <p_tk vh="H" name="Sabbadin C." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="11" spot="CAV37" context="V,2,11,H37" playid="4,5,40" type="R"
+      text="Tinti G. rush for loss of 3 yards to the CAV40 (Tonin L.)." newcontext="V,3,14,H40">
+    <p_ru vh="V" name="Tinti G." gain="-3"></p_ru>
+    <p_tk vh="H" name="Tonin L." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="14" spot="CAV40" context="V,3,14,H40" playid="4,6,41" type="P"
+      text="Tinti G. pass complete to Magnanini M. for 12 yards to the CAV28 (Tiatto L.)." newcontext="V,4,2,H28">
+    <p_pa vh="V" qb="Tinti G." result="COMP" rcv="Magnanini M." gain="12"></p_pa>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="4" togo="2" spot="CAV28" context="V,4,2,H28" playid="4,7,42" type="R"
+      text="Tinti G. rush for no gain to the CAV28 (TEAM)." newcontext="H,1,10,H28">
+    <p_ru vh="V" name="Tinti G." gain="0"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <drivesum plays="6" yards="30" top="3:10" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,H28,03:30" vh="H" spot="H28" clock="03:30" driveindex="5,42"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV28" context="H,1,10,H28" playid="5,1,43" clock="00:20"
+      text="CAVALIERS CASTELFRAN drive start at 00:20." newcontext="H,1,10,H28">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV28" context="H,1,10,H28" playid="5,2,44" type="R"
+      text="Jimenez Rami J. rush for 1 yard to the CAV29 (Dainesi A.;De Marco F.)." newcontext="H,2,9,H29">
+    <p_ru vh="H" name="Jimenez Rami J." gain="1"></p_ru>
+    <p_tk vh="V" name="Dainesi A." assist="Y"></p_tk>
+    <p_tk vh="V" name="De Marco F." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="9" spot="CAV29" context="H,2,9,H29" playid="5,3,45" type="P"
+      text="Piva L. pass complete to Galeotafiore R. for 8 yards to the CAV37, out-of-bounds." ob="Y" newcontext="H,3,1,H37">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Galeotafiore R." gain="8"></p_pa>
+   </play>
+   <score qtr="1" V="7" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BEN">
+    <firstdowns no="5" rush="5" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="13"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:19"></misc>
+    <rush att="11" yds="63" gain="68" loss="5" td="1" long="14"></rush>
+    <pass comp="3" att="4" int="0" yds="26" td="0" long="12" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="26" td="0" long="12"></rcv>
+    <ko no="2" yds="109" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="7" tacka="4" tot_tack="11" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="36" td="0" long="29"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CAV">
+    <firstdowns no="5" rush="3" pass="2" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:41"></misc>
+    <rush att="7" yds="85" gain="85" loss="0" td="1" long="40"></rush>
+    <pass comp="4" att="6" int="0" yds="43" td="1" long="30" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="43" td="1" long="30"></rcv>
+    <ko no="2" yds="93" ob="0" tb="0"></ko>
+    <pat passatt="2" passmade="0"></pat>
+    <defense tackua="13" tacka="2" tot_tack="15" tflua="3" tfla="0" tflyds="5" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="44" td="0" long="24"></kr>
+    <scoring td="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="CAV" down="3" togo="1" spot="CAV37" context="H,3,1,H37" playid="5,4,46" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="H,3,1,H37">
+   </play>
+   <play hasball="CAV" down="3" togo="1" spot="CAV37" context="H,3,1,H37" playid="5,5,47" type="R" first="R"
+      text="Piva L. rush for 8 yards to the 45 yardline, 1ST DOWN CAV, out-of-bounds." ob="Y" newcontext="H,1,10,H45">
+    <p_ru vh="H" name="Piva L." gain="8"></p_ru>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV45" context="H,1,10,H45" playid="5,6,48" type="R"
+      text="Jimenez Rami J. rush for 2 yards to the BEN43 (Dainesi A.)." newcontext="H,2,8,V43">
+    <p_ru vh="H" name="Jimenez Rami J." gain="2"></p_ru>
+    <p_tk vh="V" name="Dainesi A."></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="8" spot="BEN43" context="H,2,8,V43" playid="5,7,49" type="P"
+      text="Piva L. pass incomplete to Macchion A., dropped pass." newcontext="H,3,8,V43">
+    <p_pa vh="H" qb="Piva L." result="DROP" rcv="Macchion A."></p_pa>
+   </play>
+   <play hasball="CAV" down="3" togo="8" spot="BEN43" context="H,3,8,V43" playid="5,8,50" type="P"
+      text="Piva L. pass incomplete to Dall'agnol P.." newcontext="H,4,8,V43">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Dall'agnol P."></p_pa>
+   </play>
+   <play hasball="CAV" down="4" togo="8" spot="BEN43" context="H,4,8,V43" playid="5,9,51" type="U"
+      text="Miglioranza M. punt 28 yards to the BEN15, out-of-bounds." ob="Y" newcontext="V,1,10,V15">
+    <p_pu vh="H" name="Miglioranza M." gain="28" in20="Y" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="6" yards="19" top="2:18" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V15,12:00" vh="V" spot="V15" clock="12:00" driveindex="6,51"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN15" context="V,1,10,V15" playid="6,1,52" clock="10:02"
+      text="BENGALS BRESCIA drive start at 10:02." newcontext="V,1,10,V15">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN15" context="V,1,10,V15" playid="6,2,53" type="R"
+      text="Tinti G. rush for 8 yards to the BEN23 (Tiatto L.;De Caro M.)." newcontext="V,2,2,V23">
+    <p_ru vh="V" name="Tinti G." gain="8"></p_ru>
+    <p_tk vh="H" name="Tiatto L." assist="Y"></p_tk>
+    <p_tk vh="H" name="De Caro M." assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="2" spot="BEN23" context="V,2,2,V23" playid="6,3,54" type="R" first="R"
+      text="Tinti G. rush for 15 yards to the BEN38, 1ST DOWN BEN (Tiatto L.)." newcontext="V,1,10,V38">
+    <p_ru vh="V" name="Tinti G." gain="15"></p_ru>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN38" context="V,1,10,V38" playid="6,4,55" type="R"
+      text="Tinti G. rush for 2 yards to the BEN40 (Tonin L.)." newcontext="V,2,8,V40">
+    <p_ru vh="V" name="Tinti G." gain="2"></p_ru>
+    <p_tk vh="H" name="Tonin L."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="8" spot="BEN40" context="V,2,8,V40" playid="6,5,56" type="P"
+      text="Tinti G. pass incomplete to Bergomi L.." newcontext="V,3,8,V40">
+    <p_pa vh="V" qb="Tinti G." result="INC" rcv="Bergomi L."></p_pa>
+   </play>
+   <play hasball="BEN" down="3" togo="8" spot="BEN40" context="V,3,8,V40" playid="6,6,57" type="E"
+      text="Tinti G. rush for 1 yard to the BEN41 (Makokha B.), PENALTY BEN personal foul (Gaggiotti M.) 12 yards to the BEN28, NO PLAY." newcontext="V,3,20,V28">
+    <p_pn vh="V" code="PF" type="personal foul" name="Gaggiotti M." result="ACCEPT" at="V40" yards="12"></p_pn>
+   </play>
+   <play hasball="BEN" down="3" togo="20" spot="BEN28" context="V,3,20,V28" playid="6,7,58" type="P"
+      text="Tinti G. pass incomplete to Bertoglio G., dropped pass." newcontext="V,4,20,V28">
+    <p_pa vh="V" qb="Tinti G." result="DROP" rcv="Bertoglio G."></p_pa>
+   </play>
+   <play hasball="BEN" down="4" togo="20" spot="BEN28" context="V,4,20,V28" playid="6,8,59" type="U"
+      text="Bertoglio G. punt 49 yards to the CAV13." newcontext="H,1,10,H13">
+    <p_pu vh="V" name="Bertoglio G." gain="49" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="5" yards="13" top="2:31" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H13,10:02" vh="H" spot="H13" clock="10:02" driveindex="7,59"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV13" context="H,1,10,H13" playid="7,1,60" clock="07:31"
+      text="CAVALIERS CASTELFRAN drive start at 07:31." newcontext="H,1,10,H13">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV13" context="H,1,10,H13" playid="7,2,61" type="P" first="P"
+      text="Piva L. pass complete to Miglioranza M. for 39 yards to the BEN38, 1ST DOWN CAV, out-of-bounds (Bassani L.)." ob="Y" newcontext="H,1,10,V38">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Miglioranza M." gain="39"></p_pa>
+    <p_tk vh="V" name="Bassani L."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="BEN38" context="H,1,10,V38" playid="7,3,62" type="P" first="P"
+      text="Piva L. pass complete to Pettenon M. for 12 yards to the BEN26, 1ST DOWN CAV (Putelli S.;Canetta A.)." newcontext="H,1,10,V26">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Pettenon M." gain="12"></p_pa>
+    <p_tk vh="V" name="Putelli S." assist="Y"></p_tk>
+    <p_tk vh="V" name="Canetta A." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="BEN26" context="H,1,10,V26" playid="7,4,63" type="E"
+      text="Piva L. pass incomplete to Miglioranza M., PENALTY CAV illegal block (Jimenez Rami J.) 15 yards to the BEN41, NO PLAY." newcontext="H,1,25,V41">
+    <p_pn vh="H" code="BL" type="illegal block" name="Jimenez Rami J." result="ACCEPT" at="V26" yards="15"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="25" spot="BEN41" context="H,1,25,V41" playid="7,5,64" type="P"
+      text="Piva L. pass incomplete to Vedoato A.." newcontext="H,2,25,V41">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Vedoato A."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="25" spot="BEN41" context="H,2,25,V41" playid="7,6,65" type="P"
+      text="Piva L. pass complete to Pettenon M. for 11 yards to the BEN30 (Canetta A.)." newcontext="H,3,14,V30">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Pettenon M." gain="11"></p_pa>
+    <p_tk vh="V" name="Canetta A."></p_tk>
+   </play>
+   <play hasball="CAV" down="3" togo="14" spot="BEN30" context="H,3,14,V30" playid="7,7,66" type="E"
+      text="PENALTY CAV delay of game 5 yards to the BEN35." newcontext="H,3,19,V35">
+    <p_pn vh="H" code="DG" type="delay of game" result="ACCEPT" at="V30" yards="5"></p_pn>
+   </play>
+   <play hasball="CAV" down="3" togo="19" spot="BEN35" context="H,3,19,V35" playid="7,8,67" type="P"
+      text="Piva L. pass incomplete to Miglioranza M.." newcontext="H,4,19,V35">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Miglioranza M."></p_pa>
+   </play>
+   <play hasball="CAV" down="4" togo="19" spot="BEN35" context="H,4,19,V35" playid="7,9,68" type="P"
+      text="Piva L. pass incomplete to Santi M.." newcontext="V,1,10,V35">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Santi M."></p_pa>
+   </play>
+   <drivesum plays="6" yards="42" top="2:11" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,V35,07:31" vh="V" spot="V35" clock="07:31" driveindex="8,68"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN35" context="V,1,10,V35" playid="8,1,69" clock="05:20"
+      text="BENGALS BRESCIA drive start at 05:20." newcontext="V,1,10,V35">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN35" context="V,1,10,V35" playid="8,2,70" type="P" first="P" score="Y" clock="05:13"
+      text="Tinti G. pass complete to Gaggiotti M. for 55 yards to the CAV0, 1ST DOWN BEN, TOUCHDOWN, clock 05:13." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Tinti G." result="COMP" rcv="Gaggiotti M." gain="55"></p_pa>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="CAV03" context="V,1,0,H03" playid="8,3,71" type="X" score="Y"
+      text="Bianchini M. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Bianchini M." qb="Bianchini M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="14" H="12"></score>
+   <drivesum plays="1" yards="55" top="0:07" driveindex="8" complete="Y"></drivesum>
+   <play hasball="BEN" down="1" togo="0" spot="BEN30" context="V,1,0,V30" playid="8,4,72" type="K"
+      text="Bertoglio G. kickoff 18 yards to the CAV42, out-of-bounds, CAV ball on CAV37." ob="Y" newcontext="H,1,10,H37">
+    <p_ko vh="V" name="Bertoglio G." gain="18" result="O"></p_ko>
+   </play>
+   <drivestart poss="H,H37,05:13" vh="H" spot="H37" clock="05:13" driveindex="9,72"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV37" context="H,1,10,H37" playid="9,1,73" clock="05:13"
+      text="CAVALIERS CASTELFRAN drive start at 05:13." newcontext="H,1,10,H37">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV37" context="H,1,10,H37" playid="9,2,74" type="R"
+      text="Jimenez Rami J. rush for loss of 2 yards to the CAV35 (Rota R.)." newcontext="H,2,12,H35">
+    <p_ru vh="H" name="Jimenez Rami J." gain="-2"></p_ru>
+    <p_tk vh="V" name="Rota R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="12" spot="CAV35" context="H,2,12,H35" playid="9,3,75" type="E"
+      text="PENALTY CAV false start (Sartore F.) 5 yards to the CAV30." newcontext="H,2,17,H30">
+    <p_pn vh="H" code="FS" type="false start" name="Sartore F." result="ACCEPT" at="H35" yards="5"></p_pn>
+   </play>
+   <play hasball="CAV" down="2" togo="17" spot="CAV30" context="H,2,17,H30" playid="9,4,76" type="P"
+      text="Piva L. pass complete to Macchion A. for 11 yards to the CAV41 (Rota R.)." newcontext="H,3,6,H41">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Macchion A." gain="11"></p_pa>
+    <p_tk vh="V" name="Rota R."></p_tk>
+   </play>
+   <play hasball="CAV" down="3" togo="6" spot="CAV41" context="H,3,6,H41" playid="9,5,77" type="R"
+      text="Jimenez Rami J. rush for no gain to the CAV41 (Ferrari G.;Dainesi A.)." newcontext="H,4,6,H41">
+    <p_ru vh="H" name="Jimenez Rami J." gain="0"></p_ru>
+    <p_tk vh="V" name="Ferrari G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dainesi A." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="4" togo="6" spot="CAV41" context="H,4,6,H41" playid="9,6,78" type="R"
+      text="Piva L. rush for 4 yards to the 45 yardline, out-of-bounds (Canetta A.)." ob="Y" newcontext="V,1,10,V45">
+    <p_ru vh="H" name="Piva L." gain="4"></p_ru>
+    <p_tk vh="V" name="Canetta A."></p_tk>
+   </play>
+   <drivesum plays="4" yards="8" top="2:28" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="V,V45,05:13" vh="V" spot="V45" clock="05:13" driveindex="10,78"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN45" context="V,1,10,V45" playid="10,1,79" clock="02:45"
+      text="BENGALS BRESCIA drive start at 02:45." newcontext="V,1,10,V45">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN45" context="V,1,10,V45" playid="10,2,80" type="R"
+      text="Tinti G. rush for loss of 1 yard to the BEN44 (Tonin L.;Lago M.)." newcontext="V,2,11,V44">
+    <p_ru vh="V" name="Tinti G." gain="-1"></p_ru>
+    <p_tk vh="H" name="Tonin L." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="H" name="Lago M." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="11" spot="BEN44" context="V,2,11,V44" playid="10,3,81" type="P"
+      text="Tinti G. pass incomplete to Grespan R.." newcontext="V,3,11,V44">
+    <p_pa vh="V" qb="Tinti G." result="INC" rcv="Grespan R."></p_pa>
+   </play>
+   <play hasball="BEN" down="3" togo="11" spot="BEN44" context="V,3,11,V44" playid="10,4,82" type="P"
+      text="Tinti G. pass incomplete to Bergomi L.." newcontext="V,4,11,V44">
+    <p_pa vh="V" qb="Tinti G." result="INC" rcv="Bergomi L."></p_pa>
+   </play>
+   <play hasball="BEN" down="4" togo="11" spot="BEN44" context="V,4,11,V44" playid="10,5,83" type="U"
+      text="Bertoglio G. punt 28 yards to the CAV18." newcontext="H,1,10,H18">
+    <p_pu vh="V" name="Bertoglio G." gain="28" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="-1" top="1:05" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="H,H18,02:45" vh="H" spot="H18" clock="02:45" driveindex="11,83"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV18" context="H,1,10,H18" playid="11,1,84" clock="01:40"
+      text="CAVALIERS CASTELFRAN drive start at 01:40." newcontext="H,1,10,H18">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV18" context="H,1,10,H18" playid="11,2,85" type="P"
+      text="Piva L. pass incomplete to Miglioranza M.." newcontext="H,2,10,H18">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Miglioranza M."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="CAV18" context="H,2,10,H18" playid="11,3,86" type="P"
+      text="Piva L. pass complete to Miglioranza M. for 3 yards to the CAV21, out-of-bounds." ob="Y" newcontext="H,3,7,H21">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Miglioranza M." gain="3"></p_pa>
+   </play>
+   <play hasball="CAV" down="3" togo="7" spot="CAV21" context="H,3,7,H21" playid="11,4,87" type="P"
+      text="Piva L. pass incomplete to Dall'agnol P.." newcontext="H,4,7,H21">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Dall'agnol P."></p_pa>
+   </play>
+   <play hasball="CAV" down="4" togo="7" spot="CAV21" context="H,4,7,H21" playid="11,5,88" type="U"
+      text="Miglioranza M. punt 36 yards to the BEN33, Orizio N. return 0 yards to the BEN33 (Diaw B.)." newcontext="V,1,10,V33">
+    <p_pu vh="H" name="Miglioranza M." gain="36"></p_pu>
+    <p_pr vh="V" name="Orizio N." gain="0"></p_pr>
+    <p_tk vh="H" name="Diaw B."></p_tk>
+   </play>
+   <drivesum plays="3" yards="3" top="0:27" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="V,V33,01:40" vh="V" spot="V33" clock="01:40" driveindex="12,88"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN33" context="V,1,10,V33" playid="12,1,89" clock="01:13"
+      text="BENGALS BRESCIA drive start at 01:13." newcontext="V,1,10,V33">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN33" context="V,1,10,V33" playid="12,2,90" type="P"
+      text="Tinti G. pass incomplete to Gaggiotti M.." newcontext="V,2,10,V33">
+    <p_pa vh="V" qb="Tinti G." result="INC" rcv="Gaggiotti M."></p_pa>
+   </play>
+   <play hasball="BEN" down="2" togo="10" spot="BEN33" context="V,2,10,V33" playid="12,3,91" type="#" clock="01:10"
+      text="Timeout Cavaliers Castelfran, clock 01:10." newcontext="V,2,10,V33">
+    <p_to vh="H" team="Cavaliers Castelfran"></p_to>
+   </play>
+   <play hasball="BEN" down="2" togo="10" spot="BEN33" context="V,2,10,V33" playid="12,4,92" type="P"
+      text="Tinti G. pass complete to Grespan R. for 9 yards to the BEN42 (Pilotto L.)." newcontext="V,3,1,V42">
+    <p_pa vh="V" qb="Tinti G." result="COMP" rcv="Grespan R." gain="9"></p_pa>
+    <p_tk vh="H" name="Pilotto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="1" spot="BEN42" context="V,3,1,V42" playid="12,5,93" type="P" first="P"
+      text="Tinti G. pass complete to Grespan R. for 18 yards to the CAV30, 1ST DOWN BEN (Tiatto L.)." newcontext="V,1,10,H30">
+    <p_pa vh="V" qb="Tinti G." result="COMP" rcv="Grespan R." gain="18"></p_pa>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV30" context="V,1,10,H30" playid="12,6,94" type="#" clock="00:38"
+      text="Timeout Bengals Brescia, clock 00:38." newcontext="V,1,10,H30">
+    <p_to vh="V" team="Bengals Brescia"></p_to>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV30" context="V,1,10,H30" playid="12,7,95" type="P"
+      text="Tinti G. pass incomplete to Gaggiotti M.." newcontext="V,2,10,H30">
+    <p_pa vh="V" qb="Tinti G." result="INC" rcv="Gaggiotti M."></p_pa>
+   </play>
+   <play hasball="BEN" down="2" togo="10" spot="CAV30" context="V,2,10,H30" playid="12,8,96" type="R"
+      text="Tinti G. rush for 7 yards to the CAV23, out-of-bounds (Tonin L.)." ob="Y" newcontext="V,3,3,H23">
+    <p_ru vh="V" name="Tinti G." gain="7"></p_ru>
+    <p_tk vh="H" name="Tonin L."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="3" spot="CAV23" context="V,3,3,H23" playid="12,9,97" type="P"
+      text="Tinti G. pass incomplete to Orizio N.." newcontext="V,4,3,H23">
+    <p_pa vh="V" qb="Tinti G." result="INC" rcv="Orizio N."></p_pa>
+   </play>
+   <play hasball="BEN" down="4" togo="3" spot="CAV23" context="V,4,3,H23" playid="12,10,98" type="#" clock="00:15"
+      text="Timeout Bengals Brescia, clock 00:15." newcontext="V,4,3,H23">
+    <p_to vh="V" team="Bengals Brescia"></p_to>
+   </play>
+   <play hasball="BEN" down="4" togo="3" spot="CAV23" context="V,4,3,H23" playid="12,11,99" type="F" score="Y" clock="00:10"
+      text="Bianchini M. field goal attempt from 40 GOOD, clock 00:10." newcontext="V,1,0,V30">
+    <p_fg vh="V" name="Bianchini M." distance="40" result="GOOD" score="Y"></p_fg>
+   </play>
+   <score V="17" H="12"></score>
+   <drivesum plays="6" yards="34" top="1:03" driveindex="12" complete="Y"></drivesum>
+   <play hasball="BEN" down="1" togo="0" spot="BEN30" context="V,1,0,V30" playid="12,12,100" type="K"
+      text="Bertoglio G. kickoff 45 yards to the CAV15, Dall'agnol P. return 15 yards to the CAV30 (Bassani L.)." newcontext="H,1,10,H30">
+    <p_ko vh="V" name="Bertoglio G." gain="45"></p_ko>
+    <p_kr vh="H" name="Dall'agnol P." gain="15"></p_kr>
+    <p_tk vh="V" name="Bassani L."></p_tk>
+   </play>
+   <drivestart poss="H,H30,00:10" vh="H" spot="H30" clock="00:10" driveindex="13,100"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV30" context="H,1,10,H30" playid="13,1,101" clock="00:10"
+      text="CAVALIERS CASTELFRAN drive start at 00:10." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV30" context="H,1,10,H30" playid="13,2,102" type="R"
+      text="Piva L. rush for 5 yards to the CAV35." newcontext="H,2,5,H35">
+    <p_ru vh="H" name="Piva L." gain="5"></p_ru>
+   </play>
+   <play hasball="CAV" down="2" togo="5" spot="CAV35" context="H,2,5,H35" playid="13,3,103" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="H,2,5,H35">
+   </play>
+   <drivesum plays="1" yards="5" top="0:10" driveindex="13" complete="Y"></drivesum>
+   <score qtr="2" V="17" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BEN">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="12"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:46"></misc>
+    <rush att="5" yds="31" gain="32" loss="1" td="0" long="1"></rush>
+    <pass comp="3" att="10" int="0" yds="82" td="1" long="43" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="82" td="1" long="43"></rcv>
+    <punt no="2" yds="77" long="49" blkd="0" tb="0" fc="0" plus50="0" inside20="2" avg="38.5"></punt>
+    <ko no="2" yds="63" ob="1" tb="0"></ko>
+    <fg made="1" att="1" long="40" blkd="0"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="7" tacka="4" tot_tack="11" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+    <scoring td="1" fg="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CAV">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="3" yds="25"></penalties>
+    <conversions thirdconv="1" thirdatt="5" fourthconv="0" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:14"></misc>
+    <rush att="6" yds="17" gain="19" loss="2" td="0" long="0"></rush>
+    <pass comp="5" att="12" int="0" yds="76" td="0" long="9" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="76" td="0" long="9"></rcv>
+    <punt no="2" yds="64" long="36" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="32.0"></punt>
+    <defense tackua="6" tacka="4" tot_tack="10" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="15" td="0" long="0"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="CAV" down="2" togo="5" spot="CAV35" context="H,2,5,H35" playid="13,4,104" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, CAV ball on CAV30." newcontext="H,2,5,H30">
+   </play>
+   <play hasball="CAV" down="2" togo="5" spot="CAV30" context="H,2,5,H30" playid="13,5,105" type="K"
+      text="Tonin L. kickoff 51 yards to the BEN9, Gaggiotti M. return 11 yards to the BEN20 (Makokha B.), PENALTY BEN illegal block 2 yards to the BEN22, 1st and 10, BEN ball on BEN12." newcontext="V,1,10,V12">
+    <p_ko vh="H" name="Tonin L." gain="51"></p_ko>
+    <p_kr vh="V" name="Gaggiotti M." gain="11"></p_kr>
+    <p_tk vh="H" name="Makokha B."></p_tk>
+    <p_pn vh="V" code="BL" type="illegal block" result="ACCEPT" at="V20" yards="2"></p_pn>
+   </play>
+   <drivestart poss="V,V12,12:00" vh="V" spot="V12" clock="12:00" driveindex="14,105"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN12" context="V,1,10,V12" playid="14,1,106" clock="12:00"
+      text="BENGALS BRESCIA drive start at 12:00." newcontext="V,1,10,V12">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN12" context="V,1,10,V12" playid="14,2,107" type="R"
+      text="Tinti G. rush for 2 yards to the BEN14 (Zanin L.)." newcontext="V,2,8,V14">
+    <p_ru vh="V" name="Tinti G." gain="2"></p_ru>
+    <p_tk vh="H" name="Zanin L."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="8" spot="BEN14" context="V,2,8,V14" playid="14,3,108" type="R"
+      text="Barbolla R. rush for 6 yards to the BEN20 (Santinello R.)." newcontext="V,3,2,V20">
+    <p_ru vh="V" name="Barbolla R." gain="6"></p_ru>
+    <p_tk vh="H" name="Santinello R."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="2" spot="BEN20" context="V,3,2,V20" playid="14,4,109" type="R" first="R"
+      text="Tinti G. rush for 12 yards to the BEN32, 1ST DOWN BEN (Pilotto L.)." newcontext="V,1,10,V32">
+    <p_ru vh="V" name="Tinti G." gain="12"></p_ru>
+    <p_tk vh="H" name="Pilotto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN32" context="V,1,10,V32" playid="14,5,110" type="R" first="R"
+      text="Barbolla R. rush for 13 yards to the 45 yardline, 1ST DOWN BEN (De Caro M.;Tiatto L.)." newcontext="V,1,10,V45">
+    <p_ru vh="V" name="Barbolla R." gain="13"></p_ru>
+    <p_tk vh="H" name="De Caro M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Tiatto L." assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN45" context="V,1,10,V45" playid="14,6,111" type="E"
+      text="Tinti G. pass incomplete to Grespan R., PENALTY BEN pass interference (Grespan R.) 15 yards to the BEN30, NO PLAY." newcontext="V,2,25,V30">
+    <p_pn vh="V" code="PI" type="pass interference" name="Grespan R." result="ACCEPT" at="V45" yards="15"></p_pn>
+   </play>
+   <play hasball="BEN" down="2" togo="25" spot="BEN30" context="V,2,25,V30" playid="14,7,112"
+      text="Fumble by Calabrese F., fumble by recovered by BEN Tinti G. at BEN20." newcontext="V,2,35,V20">
+    <p_fumb vh="V" name="" at="V20" frvh="V" frname="Tinti G."></p_fumb>
+   </play>
+   <play hasball="BEN" down="2" togo="35" spot="BEN20" context="V,2,35,V20" playid="14,8,113" type="P"
+      text="Tinti G. pass incomplete to Orizio N.." newcontext="V,3,35,V20">
+    <p_pa vh="V" qb="Tinti G." result="INC" rcv="Orizio N."></p_pa>
+   </play>
+   <play hasball="BEN" down="3" togo="35" spot="BEN20" context="V,3,35,V20" playid="14,9,114" type="P"
+      text="Tinti G. sacked for loss of 8 yards to the BEN12 (Makokha B.)." newcontext="V,4,43,V12">
+    <p_pa vh="V" qb="Tinti G." result="SACK" gain="-8"></p_pa>
+    <p_tk vh="H" name="Makokha B." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="4" togo="43" spot="BEN12" context="V,4,43,V12" playid="14,10,115" type="U"
+      text="Bertoglio G. punt 15 yards to the BEN27." newcontext="H,1,10,V27">
+    <p_pu vh="V" name="Bertoglio G." gain="15"></p_pu>
+   </play>
+   <drivesum plays="6" yards="0" top="4:00" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="H,V27,12:00" vh="H" spot="V27" clock="12:00" driveindex="15,115"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="BEN27" context="H,1,10,V27" playid="15,1,116" clock="08:00"
+      text="CAVALIERS CASTELFRAN drive start at 08:00." newcontext="H,1,10,V27">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="BEN27" context="H,1,10,V27" playid="15,2,117" type="E"
+      text="Jimenez Rami J. rush for 7 yards to the BEN20 (Canetta A.), PENALTY CAV personal foul (Reffo A.) 9 yards to the BEN36, NO PLAY." newcontext="H,2,19,V36">
+    <p_pn vh="H" code="PF" type="personal foul" name="Reffo A." result="ACCEPT" at="V27" yards="9"></p_pn>
+   </play>
+   <play hasball="CAV" down="2" togo="19" spot="BEN36" context="H,2,19,V36" playid="15,3,118" type="R"
+      text="Jimenez Rami J. rush for 5 yards to the BEN31 (Canetta A.)." newcontext="H,3,14,V31">
+    <p_ru vh="H" name="Jimenez Rami J." gain="5"></p_ru>
+    <p_tk vh="V" name="Canetta A."></p_tk>
+   </play>
+   <play hasball="CAV" down="3" togo="14" spot="BEN31" context="H,3,14,V31" playid="15,4,119" type="P" turnover="I"
+      text="Piva L. pass intercepted by Canetta A. at the BEN15, Canetta A. return 25 yards to the BEN40, out-of-bounds (Reffo A.)." ob="Y" newcontext="V,1,10,V40">
+    <p_pa vh="H" qb="Piva L." result="INT"></p_pa>
+    <p_ir vh="V" name="Canetta A." at="V15" gain="25"></p_ir>
+    <p_tk vh="H" name="Reffo A."></p_tk>
+   </play>
+   <drivesum plays="2" yards="-4" top="1:00" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V40,08:00" vh="V" spot="V40" clock="08:00" driveindex="16,119"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN40" context="V,1,10,V40" playid="16,1,120" clock="07:00"
+      text="BENGALS BRESCIA drive start at 07:00." newcontext="V,1,10,V40">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN40" context="V,1,10,V40" playid="16,2,121" type="R"
+      text="Tinti G. rush for loss of 1 yard to the BEN39 (Zanin L.)." newcontext="V,2,11,V39">
+    <p_ru vh="V" name="Tinti G." gain="-1"></p_ru>
+    <p_tk vh="H" name="Zanin L." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="11" spot="BEN39" context="V,2,11,V39" playid="16,3,122" type="R"
+      text="Barbolla R. rush for 8 yards to the CAV43, out-of-bounds (De Caro M.;Santinello R.)." ob="Y" newcontext="V,3,3,H43">
+    <p_ru vh="V" name="Barbolla R." gain="8"></p_ru>
+    <p_tk vh="H" name="De Caro M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Santinello R." assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="3" spot="CAV43" context="V,3,3,H43" playid="16,4,123" type="R" first="R"
+      text="Tinti G. rush for 14 yards to the CAV29, 1ST DOWN BEN (Tiatto L.)." newcontext="V,1,10,H29">
+    <p_ru vh="V" name="Tinti G." gain="14"></p_ru>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV29" context="V,1,10,H29" playid="16,5,124" type="R"
+      text="Barbolla R. rush for 4 yards to the CAV25 (Santinello R.)." newcontext="V,2,6,H25">
+    <p_ru vh="V" name="Barbolla R." gain="4"></p_ru>
+    <p_tk vh="H" name="Santinello R."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="6" spot="CAV25" context="V,2,6,H25" playid="16,6,125" type="#" clock="05:55"
+      text="Timeout Cavaliers Castelfran, clock 05:55." newcontext="V,2,6,H25">
+    <p_to vh="H" team="Cavaliers Castelfran"></p_to>
+   </play>
+   <play hasball="BEN" down="2" togo="6" spot="CAV25" context="V,2,6,H25" playid="16,7,126" type="R" first="R"
+      text="Barbolla R. rush for 9 yards to the CAV16, 1ST DOWN BEN (Tiatto L.)." newcontext="V,1,10,H16">
+    <p_ru vh="V" name="Barbolla R." gain="9"></p_ru>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV16" context="V,1,10,H16" playid="16,8,127" type="P"
+      text="Tinti G. pass incomplete to Gaggiotti M.." newcontext="V,2,10,H16">
+    <p_pa vh="V" qb="Tinti G." result="INC" rcv="Gaggiotti M."></p_pa>
+   </play>
+   <play hasball="BEN" down="2" togo="10" spot="CAV16" context="V,2,10,H16" playid="16,9,128" type="E"
+      text="Tinti G. rush for 5 yards to the CAV11 (De Caro M.), PENALTY BEN holding (Ragnoli L.) 10 yards to the CAV26, NO PLAY." newcontext="V,2,20,H26">
+    <p_pn vh="V" code="HO" type="holding" name="Ragnoli L." result="ACCEPT" at="H16" yards="10"></p_pn>
+   </play>
+   <play hasball="BEN" down="2" togo="20" spot="CAV26" context="V,2,20,H26" playid="16,10,129" type="R"
+      text="Tinti G. rush for no gain to the CAV26 (De Caro M.)." newcontext="V,3,20,H26">
+    <p_ru vh="V" name="Tinti G." gain="0"></p_ru>
+    <p_tk vh="H" name="De Caro M."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="20" spot="CAV26" context="V,3,20,H26" playid="16,11,130" type="P"
+      text="Tinti G. pass incomplete to Grespan R.." newcontext="V,4,20,H26">
+    <p_pa vh="V" qb="Tinti G." result="INC" rcv="Grespan R."></p_pa>
+   </play>
+   <play hasball="BEN" down="4" togo="20" spot="CAV26" context="V,4,20,H26" playid="16,12,131" type="F" clock="03:25"
+      text="Bianchini M. field goal attempt from 47 MISSED - short, spot at CAV26, clock 03:25." newcontext="H,1,10,H26">
+    <p_fg vh="V" name="Bianchini M." distance="47" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="8" yards="24" top="3:35" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="H,H26,03:25" vh="H" spot="H26" clock="03:25" driveindex="17,131"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV26" context="H,1,10,H26" playid="17,1,132" type="R"
+      text="Jimenez Rami J. rush for 5 yards to the CAV31 (Canetta A.;Dainesi A.)." newcontext="H,2,5,H31">
+    <p_ru vh="H" name="Jimenez Rami J." gain="5"></p_ru>
+    <p_tk vh="V" name="Canetta A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dainesi A." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="5" spot="CAV31" context="H,2,5,H31" playid="17,2,133" type="R" first="R"
+      text="Diaw B. rush for 9 yards to the CAV40, 1ST DOWN CAV (Favero M.;Dainesi A.)." newcontext="H,1,10,H40">
+    <p_ru vh="H" name="Diaw B." gain="9"></p_ru>
+    <p_tk vh="V" name="Favero M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dainesi A." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV40" context="H,1,10,H40" playid="17,3,134" type="R"
+      text="Piva L. rush for no gain to the CAV40, out-of-bounds (De Marco F.)." ob="Y" newcontext="H,2,10,H40">
+    <p_ru vh="H" name="Piva L." gain="0"></p_ru>
+    <p_tk vh="V" name="De Marco F."></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="CAV40" context="H,2,10,H40" playid="17,4,135" type="R"
+      text="Diaw B. rush for 5 yards to the 45 yardline (De Marco F.;Dainesi A.)." newcontext="H,3,5,H45">
+    <p_ru vh="H" name="Diaw B." gain="5"></p_ru>
+    <p_tk vh="V" name="De Marco F." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dainesi A." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="3" togo="5" spot="CAV45" context="H,3,5,H45" playid="17,5,136" type="R" first="R"
+      text="Diaw B. rush for 6 yards to the BEN39, 1ST DOWN CAV (Favero M.;Dainesi A.)." newcontext="H,1,10,V39">
+    <p_ru vh="H" name="Diaw B." gain="6"></p_ru>
+    <p_tk vh="V" name="Favero M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dainesi A." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="BEN39" context="H,1,10,V39" playid="17,6,137" type="R" first="R"
+      text="Piva L. rush for 12 yards to the BEN27, 1ST DOWN CAV, out-of-bounds (Bassani L.)." ob="Y" newcontext="H,1,10,V27">
+    <p_ru vh="H" name="Piva L." gain="12"></p_ru>
+    <p_tk vh="V" name="Bassani L."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="BEN27" context="H,1,10,V27" playid="17,7,138" type="P"
+      text="Piva L. pass incomplete to Dall'agnol P.." newcontext="H,2,10,V27">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Dall'agnol P."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="BEN27" context="H,2,10,V27" playid="17,8,139" type="R"
+      text="Diaw B. rush for 9 yards to the BEN18 (Gottardo S.;Bassani L.)." newcontext="H,3,1,V18">
+    <p_ru vh="H" name="Diaw B." gain="9"></p_ru>
+    <p_tk vh="V" name="Gottardo S." assist="Y"></p_tk>
+    <p_tk vh="V" name="Bassani L." assist="Y"></p_tk>
+   </play>
+   <score qtr="3" V="17" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BEN">
+    <firstdowns no="4" rush="4" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="27"></penalties>
+    <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="2" lost="0"></fumbles>
+    <misc yds="0" top="07:35"></misc>
+    <rush att="11" yds="59" gain="68" loss="9" td="0" long="0"></rush>
+    <pass comp="0" att="3" int="0" yds="0" td="0" long="0" sacks="1" sackyds="8"></pass>
+    <punt no="1" yds="15" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="15.0"></punt>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <defense tackua="3" tacka="10" tot_tack="13" sacks="0" sackyds="0" fr="0" fryds="-10" int="1" intyds="25"></defense>
+    <kr no="1" yds="11" td="0" long="0"></kr>
+    <ir no="1" yds="25" td="0" long="25"></ir>
+    <fr no="0" yds="-10" td="0" long="0"></fr>
+    <fumbles no="2" lost="0"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CAV">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="9"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:25"></misc>
+    <rush att="8" yds="51" gain="51" loss="0" td="0" long="0"></rush>
+    <pass comp="0" att="2" int="1" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <ko no="1" yds="51" ob="0" tb="0"></ko>
+    <defense tackua="11" tacka="4" tot_tack="15" tflua="2" tfla="0" tflyds="9" sacks="1" sackyds="8"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="CAV" down="3" togo="1" spot="BEN18" context="H,3,1,V18" playid="17,9,140" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="H,3,1,V18">
+   </play>
+   <play hasball="CAV" down="3" togo="1" spot="BEN18" context="H,3,1,V18" playid="17,10,141" type="R"
+      text="Piva L. rush for loss of 5 yards to the BEN23 (Ferrari G.)." newcontext="H,4,6,V23">
+    <p_ru vh="H" name="Piva L." gain="-5"></p_ru>
+    <p_tk vh="V" name="Ferrari G." tfl="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="4" togo="6" spot="BEN23" context="H,4,6,V23" playid="17,11,142" type="R"
+      text="Piva L. rush for 5 yards to the BEN18, out-of-bounds." ob="Y" newcontext="V,1,10,V18">
+    <p_ru vh="H" name="Piva L." gain="5"></p_ru>
+   </play>
+   <drivesum plays="10" yards="46" top="4:12" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="V,V18,12:00" vh="V" spot="V18" clock="12:00" driveindex="18,142"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN18" context="V,1,10,V18" playid="18,1,143" clock="11:13"
+      text="BENGALS BRESCIA drive start at 11:13." newcontext="V,1,10,V18">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN18" context="V,1,10,V18" playid="18,2,144" type="R"
+      text="Barbolla R. rush for 6 yards to the BEN24 (Santinello R.)." newcontext="V,2,4,V24">
+    <p_ru vh="V" name="Barbolla R." gain="6"></p_ru>
+    <p_tk vh="H" name="Santinello R."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="4" spot="BEN24" context="V,2,4,V24" playid="18,3,145" type="R" first="R"
+      text="Barbolla R. rush for 28 yards to the CAV38, 1ST DOWN BEN (Santinello R.;Tiatto L.)." newcontext="V,1,10,H38">
+    <p_ru vh="V" name="Barbolla R." gain="28"></p_ru>
+    <p_tk vh="H" name="Santinello R." assist="Y"></p_tk>
+    <p_tk vh="H" name="Tiatto L." assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV38" context="V,1,10,H38" playid="18,4,146" type="R"
+      text="Tinti G. rush for 5 yards to the CAV33, out-of-bounds (Santinello R.)." ob="Y" newcontext="V,2,5,H33">
+    <p_ru vh="V" name="Tinti G." gain="5"></p_ru>
+    <p_tk vh="H" name="Santinello R."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="5" spot="CAV33" context="V,2,5,H33" playid="18,5,147" type="R"
+      text="Tinti G. rush for 4 yards to the CAV29 (Vedovato N.)." newcontext="V,3,1,H29">
+    <p_ru vh="V" name="Tinti G." gain="4"></p_ru>
+    <p_tk vh="H" name="Vedovato N."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="1" spot="CAV29" context="V,3,1,H29" playid="18,6,148" type="R" first="R"
+      text="Barbolla R. rush for 6 yards to the CAV23, 1ST DOWN BEN (Zanin L.)." newcontext="V,1,10,H23">
+    <p_ru vh="V" name="Barbolla R." gain="6"></p_ru>
+    <p_tk vh="H" name="Zanin L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV23" context="V,1,10,H23" playid="18,7,149" type="P"
+      text="Tinti G. pass complete to Orizio N. for 6 yards to the CAV17." newcontext="V,2,4,H17">
+    <p_pa vh="V" qb="Tinti G." result="COMP" rcv="Orizio N." gain="6"></p_pa>
+   </play>
+   <play hasball="BEN" down="2" togo="4" spot="CAV17" context="V,2,4,H17" playid="18,8,150" type="P" first="P"
+      text="Tinti G. pass complete to Grespan R. for 6 yards to the CAV11, 1ST DOWN BEN (Lago D.)." newcontext="V,1,10,H11">
+    <p_pa vh="V" qb="Tinti G." result="COMP" rcv="Grespan R." gain="6"></p_pa>
+    <p_tk vh="H" name="Lago D."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV11" context="V,1,10,H11" playid="18,9,151" type="R" first="R" score="Y" clock="07:30"
+      text="Barbolla R. rush for 11 yards to the CAV0, 1ST DOWN BEN, TOUCHDOWN, clock 07:30." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Barbolla R." gain="11"></p_ru>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="CAV03" context="V,1,0,H03" playid="18,10,152" type="X" score="Y"
+      text="Bianchini M. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Bianchini M." qb="Bianchini M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="24" H="12"></score>
+   <drivesum plays="8" yards="72" top="3:43" driveindex="18" complete="Y"></drivesum>
+   <play hasball="BEN" down="1" togo="0" spot="BEN30" context="V,1,0,V30" playid="18,11,153" type="K"
+      text="Bertoglio G. kickoff 49 yards to the CAV11, Miglioranza M. return 23 yards to the CAV34, out-of-bounds (Bassani L.)." ob="Y" newcontext="H,1,10,H34">
+    <p_ko vh="V" name="Bertoglio G." gain="49"></p_ko>
+    <p_kr vh="H" name="Miglioranza M." gain="23"></p_kr>
+    <p_tk vh="V" name="Bassani L."></p_tk>
+   </play>
+   <drivestart poss="H,H34,07:30" vh="H" spot="H34" clock="07:30" driveindex="19,153"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV34" context="H,1,10,H34" playid="19,1,154" clock="07:30"
+      text="CAVALIERS CASTELFRAN drive start at 07:30." newcontext="H,1,10,H34">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV34" context="H,1,10,H34" playid="19,2,155" type="P" first="P"
+      text="Piva L. pass complete to Santi M. for 32 yards to the BEN24, 1ST DOWN CAV, out-of-bounds (De Marco F.)." ob="Y" newcontext="H,1,10,V24">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Santi M." gain="32"></p_pa>
+    <p_tk vh="V" name="De Marco F."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="BEN24" context="H,1,10,V24" playid="19,3,156" type="E"
+      text="Piva L. pass incomplete to Pettenon M., PENALTY CAV ineligible downfield on pass (Sartore F.) 0 yards to the BEN24, NO PLAY." newcontext="H,2,10,V24">
+    <p_pn vh="H" code="ID" type="ineligible downfield on pass" name="Sartore F." result="ACCEPT"></p_pn>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="BEN24" context="H,2,10,V24" playid="19,4,157" type="P"
+      text="Piva L. pass incomplete to Santi M.." newcontext="H,3,10,V24">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Santi M."></p_pa>
+   </play>
+   <play hasball="CAV" down="3" togo="10" spot="BEN24" context="H,3,10,V24" playid="19,5,158" type="P"
+      text="Piva L. pass incomplete to Pettenon M.." newcontext="H,4,10,V24">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Pettenon M."></p_pa>
+   </play>
+   <play hasball="CAV" down="4" togo="10" spot="BEN24" context="H,4,10,V24" playid="19,6,159" type="P" first="P" score="Y" clock="06:30"
+      text="Piva L. pass complete to Dall'agnol P. for 24 yards to the BEN0, 1ST DOWN CAV, TOUCHDOWN, clock 06:30." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Dall'agnol P." gain="24"></p_pa>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="BEN03" context="H,1,0,V03" playid="19,7,160" type="E"
+      text="PENALTY CAV delay of game 5 yards to the BEN8." newcontext="H,1,0,V08">
+    <p_pn vh="H" code="DG" type="delay of game" result="ACCEPT" at="V03" yards="5"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="BEN08" context="H,1,0,V08" playid="19,8,161" type="X"
+      text="Piva L. rush attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Piva L." qb="Piva L." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="24" H="18"></score>
+   <drivesum plays="4" yards="56" top="1:00" driveindex="19" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="19,9,162" type="K"
+      text="Tonin L. kickoff 51 yards to the BEN9, Gaggiotti M. return 27 yards to the BEN36, out-of-bounds (Rigo A.)." ob="Y" newcontext="V,1,10,V36">
+    <p_ko vh="H" name="Tonin L." gain="51"></p_ko>
+    <p_kr vh="V" name="Gaggiotti M." gain="27"></p_kr>
+    <p_tk vh="H" name="Rigo A."></p_tk>
+   </play>
+   <drivestart poss="V,V36,06:30" vh="V" spot="V36" clock="06:30" driveindex="20,162"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN36" context="V,1,10,V36" playid="20,1,163" clock="06:30"
+      text="BENGALS BRESCIA drive start at 06:30." newcontext="V,1,10,V36">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN36" context="V,1,10,V36" playid="20,2,164" type="R" first="R"
+      text="Barbolla R. rush for 14 yards to the CAV40, 1ST DOWN BEN (Tiatto L.)." newcontext="V,1,10,H40">
+    <p_ru vh="V" name="Barbolla R." gain="14"></p_ru>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV40" context="V,1,10,H40" playid="20,3,165" type="R"
+      text="Barbolla R. rush for 3 yards to the CAV37." newcontext="V,2,7,H37">
+    <p_ru vh="V" name="Barbolla R." gain="3"></p_ru>
+   </play>
+   <play hasball="BEN" down="2" togo="7" spot="CAV37" context="V,2,7,H37" playid="20,4,166" type="R"
+      text="Barbolla R. rush for 1 yard to the CAV36 (Rigo A.)." newcontext="V,3,6,H36">
+    <p_ru vh="V" name="Barbolla R." gain="1"></p_ru>
+    <p_tk vh="H" name="Rigo A."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="6" spot="CAV36" context="V,3,6,H36" playid="20,5,167" type="R" first="R"
+      text="Tinti G. rush for 24 yards to the CAV12, 1ST DOWN BEN (Tiatto L.)." newcontext="V,1,10,H12">
+    <p_ru vh="V" name="Tinti G." gain="24"></p_ru>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV12" context="V,1,10,H12" playid="20,6,168" type="R"
+      text="Barbolla R. rush for 2 yards to the CAV10 (Rigo A.)." newcontext="V,2,8,H10">
+    <p_ru vh="V" name="Barbolla R." gain="2"></p_ru>
+    <p_tk vh="H" name="Rigo A."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="8" spot="CAV10" context="V,2,8,H10" playid="20,7,169" type="R"
+      text="Tinti G. rush for 5 yards to the CAV5 (De Caro M.)." newcontext="V,3,3,H05">
+    <p_ru vh="V" name="Tinti G." gain="5"></p_ru>
+    <p_tk vh="H" name="De Caro M."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="3" spot="CAV05" context="V,3,3,H05" playid="20,8,170" type="R" first="R" score="Y" clock="02:45"
+      text="Barbolla R. rush for 5 yards to the CAV0, 1ST DOWN BEN, TOUCHDOWN, clock 02:45." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Barbolla R." gain="5"></p_ru>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="CAV03" context="V,1,0,H03" playid="20,9,171" type="X" score="Y"
+      text="Bianchini M. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Bianchini M." qb="Bianchini M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="31" H="18"></score>
+   <drivesum plays="7" yards="54" top="3:45" driveindex="20" complete="Y"></drivesum>
+   <play hasball="BEN" down="1" togo="0" spot="BEN30" context="V,1,0,V30" playid="20,10,172" type="K"
+      text="Bertoglio G. kickoff 48 yards to the CAV12, Miglioranza M. return 19 yards to the CAV31 (Favero M.;Rota R.)." newcontext="H,1,10,H31">
+    <p_ko vh="V" name="Bertoglio G." gain="48"></p_ko>
+    <p_kr vh="H" name="Miglioranza M." gain="19"></p_kr>
+    <p_tk vh="V" name="Favero M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Rota R." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="H,H31,02:45" vh="H" spot="H31" clock="02:45" driveindex="21,172"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV31" context="H,1,10,H31" playid="21,1,173" clock="02:45"
+      text="CAVALIERS CASTELFRAN drive start at 02:45." newcontext="H,1,10,H31">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV31" context="H,1,10,H31" playid="21,2,174" type="P"
+      text="Piva L. pass incomplete to Santi M.." newcontext="H,2,10,H31">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Santi M."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="CAV31" context="H,2,10,H31" playid="21,3,175" type="#" clock="02:07"
+      text="Timeout Cavaliers Castelfran, clock 02:07." newcontext="H,2,10,H31">
+    <p_to vh="H" team="Cavaliers Castelfran"></p_to>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="CAV31" context="H,2,10,H31" playid="21,4,176" type="P" first="P"
+      text="Piva L. pass complete to Dall'agnol P. for 45 yards to the BEN14, 1ST DOWN CAV (Canetta A.)." newcontext="H,1,10,V14">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Dall'agnol P." gain="45"></p_pa>
+    <p_tk vh="V" name="Canetta A."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="BEN14" context="H,1,10,V14" playid="21,5,177" type="P"
+      text="Piva L. pass incomplete to Dall'agnol P.." newcontext="H,2,10,V14">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Dall'agnol P."></p_pa>
+   </play>
+   <comment text="TO 2 MINS Warning"></comment>
+   <play hasball="CAV" down="2" togo="10" spot="BEN14" context="H,2,10,V14" playid="21,6,179" type="P"
+      text="Piva L. pass incomplete to Macchion A.." newcontext="H,3,10,V14">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Macchion A."></p_pa>
+   </play>
+   <play hasball="CAV" down="3" togo="10" spot="BEN14" context="H,3,10,V14" playid="21,7,180" type="P"
+      text="Piva L. pass incomplete to Pettenon M.." newcontext="H,4,10,V14">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Pettenon M."></p_pa>
+   </play>
+   <play hasball="CAV" down="4" togo="10" spot="BEN14" context="H,4,10,V14" playid="21,8,181" type="P" first="P" score="Y" clock="01:35"
+      text="Piva L. pass complete to Pettenon M. for 14 yards to the BEN0, 1ST DOWN CAV, TOUCHDOWN, clock 01:35." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Pettenon M." gain="14"></p_pa>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="BEN03" context="H,1,0,V03" playid="21,9,182" type="X"
+      text="Piva L. pass attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Piva L." qb="Piva L." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="31" H="24"></score>
+   <drivesum plays="6" yards="59" top="1:10" driveindex="21" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="21,10,183" type="K"
+      text="Tonin L. kickoff 37 yards to the BEN23, out-of-bounds, BEN ball on BEN28." ob="Y" newcontext="V,1,10,V28">
+    <p_ko vh="H" name="Tonin L." gain="37" result="O"></p_ko>
+   </play>
+   <drivestart poss="V,V28,01:35" vh="V" spot="V28" clock="01:35" driveindex="22,183"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN28" context="V,1,10,V28" playid="22,1,184" clock="01:35"
+      text="BENGALS BRESCIA drive start at 01:35." newcontext="V,1,10,V28">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN28" context="V,1,10,V28" playid="22,2,185" type="R" first="R"
+      text="Barbolla R. rush for 18 yards to the CAV44, 1ST DOWN BEN (Pilotto L.;Baldassa A.)." newcontext="V,1,10,H44">
+    <p_ru vh="V" name="Barbolla R." gain="18"></p_ru>
+    <p_tk vh="H" name="Pilotto L." assist="Y"></p_tk>
+    <p_tk vh="H" name="Baldassa A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV44" context="V,1,10,H44" playid="22,3,186" type="R"
+      text="Barbolla R. rush for 7 yards to the CAV37 (Tiatto L.)." newcontext="V,2,3,H37">
+    <p_ru vh="V" name="Barbolla R." gain="7"></p_ru>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="3" spot="CAV37" context="V,2,3,H37" playid="22,4,187" type="R" first="R"
+      text="Barbolla R. rush for 10 yards to the CAV27, 1ST DOWN BEN (Tiatto L.)." newcontext="V,1,10,H27">
+    <p_ru vh="V" name="Barbolla R." gain="10"></p_ru>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV27" context="V,1,10,H27" playid="22,5,188" type="#" clock="00:17"
+      text="Timeout Cavaliers Castelfran, clock 00:17." newcontext="V,1,10,H27">
+    <p_to vh="H" team="Cavaliers Castelfran"></p_to>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="CAV27" context="V,1,10,H27" playid="22,6,189" type="R"
+      text="Tinti G. rush for no gain to the CAV27." newcontext="V,2,10,H27">
+    <p_ru vh="V" name="Tinti G." gain="0"></p_ru>
+   </play>
+   <play hasball="BEN" down="2" togo="10" spot="CAV27" context="V,2,10,H27" playid="22,7,190" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="V,2,10,H27">
+   </play>
+   <drivesum plays="4" yards="35" top="1:35" driveindex="22" complete="Y"></drivesum>
+   <score final="Y" V="31" H="24"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="BEN">
+    <firstdowns no="9" rush="8" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="3" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:03"></misc>
+    <rush att="17" yds="149" gain="149" loss="0" td="2" long="13"></rush>
+    <pass comp="2" att="2" int="0" yds="12" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="12" td="0" long="0"></rcv>
+    <ko no="2" yds="97" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="4" tacka="2" tot_tack="6" tflua="1" tfla="0" tflyds="5" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="27" td="0" long="0"></kr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CAV">
+    <firstdowns no="4" rush="0" pass="4" penalty="0"></firstdowns>
+    <penalties no="2" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="2" fourthatt="3"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="02:57"></misc>
+    <rush att="2" yds="0" gain="5" loss="5" td="0" long="0"></rush>
+    <pass comp="4" att="10" int="0" yds="115" td="2" long="6" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="115" td="2" long="6"></rcv>
+    <ko no="2" yds="88" ob="1" tb="0"></ko>
+    <pat rushatt="1" rushmade="0" passatt="1" passmade="0"></pat>
+    <defense tackua="13" tacka="4" tot_tack="17" sacks="1" sackyds="8"></defense>
+    <kr no="2" yds="42" td="0" long="0"></kr>
+    <scoring td="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="BEN" down="2" togo="10" spot="CAV27" context="V,2,10,H27" qtr="4" clock="00:00" vtoh="0" htoh="3"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="BEN">
+  <player name="Ragnoli L." checkname="L.,RAGNOLI" uni="6" gp="0" code="6"></player>
+  <player name="Marini G." checkname="G.,MARINI" uni="21" gp="0" code="21"></player>
+  <player name="Sbaraini A." checkname="A.,SBARAINI" uni="7" gp="0" code="7"></player>
+  <player name="Di Tusa I." checkname="TUSA I.,DI" uni="27" gp="0" code="27"></player>
+  <player name="Leoni S." checkname="S.,LEONI" uni="37" gp="0" code="37"></player>
+  <player name="Longhi L." checkname="L.,LONGHI" uni="41" gp="0" code="41"></player>
+  <player name="Rossi M." checkname="M.,ROSSI" uni="47" gp="0" code="47"></player>
+  <player name="Zanotti F." checkname="F.,ZANOTTI" uni="55" gp="0" code="55"></player>
+  <player name="Merli A." checkname="A.,MERLI" uni="66" gp="0" code="66"></player>
+  <player name="Tessadrelli P." checkname="P.,TESSADRELLI" uni="73" gp="0" code="73"></player>
+  <player name="Bergomi L." checkname="L.,BERGOMI" uni="86" gp="0" code="86"></player>
+  <player name="Viviani M." checkname="M.,VIVIANI" uni="88" gp="0" code="88"></player>
+  <player name="Trami N." checkname="N.,TRAMI" uni="90" gp="0" code="90"></player>
+  <player name="Lucchese F." checkname="F.,LUCCHESE" uni="99" gp="0" code="99"></player>
+ </dnp>
+ <dnp vh="H" id="CAV">
+  <player name="Zanchetta S." checkname="S.,ZANCHETTA" uni="43" gp="0" code="43"></player>
+  <player name="Brunoro R." checkname="R.,BRUNORO" uni="48" gp="0" code="48"></player>
+  <player name="Celeghin L." checkname="L.,CELEGHIN" uni="52" gp="0" code="52"></player>
+  <player name="Scantamburlo O." checkname="O.,SCANTAMBURLO" uni="71" gp="0" code="71"></player>
+  <player name="Sartore F." checkname="F.,SARTORE" uni="76" gp="0" code="76"></player>
+  <player name="Mazzonetto D." checkname="D.,MAZZONETTO" uni="22" gp="0" code="22"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

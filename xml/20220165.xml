@@ -1,0 +1,1166 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220165" visid="THU" homeid="GIA" visname="Thunders Trento" homename="Giants Bolzano"
+      date="5/22/2022" location="Bolzano" stadium="Europa"
+      start="15:00" end="18:00" leaguegame="Y"
+      duration="3:00" attend="64" temp="33 C" wind="no wind" weather="sunny">
+  <officials ref="G. Virone" ump="F. Tognon" line="L. Cian" lj="G. Greco" sc="L. Boscia"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="35" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="THU" name="Thunders Trento" record="3-1" conf-record="3-1" abb="T">
+  <linescore prds="4" line="0,7,7,15" score="29">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="15"></lineprd>
+  </linescore>
+  <totals totoff_plays="55" totoff_yards="315" totoff_avg="5.7">
+   <firstdowns no="14" rush="5" pass="8" penalty="1"></firstdowns>
+   <penalties no="8" yds="77"></penalties>
+   <conversions thirdconv="2" thirdatt="10" fourthconv="2" fourthatt="5"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="19:32" ona="0" onm="0"></misc>
+   <redzone att="5" scores="3" points="22" tdrush="2" tdpass="1" fgmade="0" endfga="1" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="22" yds="116" gain="142" loss="26" td="2" long="39"></rush>
+   <pass comp="14" att="33" int="0" yds="199" td="2" long="31" sacks="1" sackyds="11"></pass>
+   <rcv no="14" yds="199" td="2" long="31"></rcv>
+   <punt no="2" yds="99" long="51" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="49.5"></punt>
+   <ko no="5" yds="265" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <pat kickatt="3" kickmade="3" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="26" tacka="22" tot_tack="48" tflua="3" tfla="2" tflyds="47" sacks="3" sackyds="46" brup="3" int="3" intyds="34"></defense>
+   <kr no="3" yds="98" td="0" long="61"></kr>
+   <pr no="1" yds="14" td="0" long="14"></pr>
+   <ir no="3" yds="34" td="0" long="24"></ir>
+   <scoring td="4" patkick="3" patrcv="1"></scoring>
+  </totals>
+  <player name="Boscia B." shortname="Boscia B." checkname="B.,BOSCIA" uni="82" gp="1" code="82">
+   <rush att="4" yds="67" gain="67" loss="0" td="0" long="38"></rush>
+   <rcv no="4" yds="61" td="1" long="31"></rcv>
+   <pat passatt="1" passmade="1"></pat>
+   <pr no="1" yds="14" td="0" long="14"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Vezzoli D." shortname="Vezzoli D." checkname="D.,VEZZOLI" uni="85" gp="1" code="85">
+   <rcv no="2" yds="53" td="1" long="29"></rcv>
+   <pat rcvatt="1" rcvmade="1"></pat>
+   <scoring td="1" patrcv="1"></scoring>
+  </player>
+  <player name="Girelli T." shortname="Girelli T." checkname="T.,GIRELLI" uni="34" gp="1" code="34">
+   <rush att="8" yds="49" gain="52" loss="3" td="0" long="39"></rush>
+   <rcv no="2" yds="32" td="0" long="19"></rcv>
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+   <kr no="2" yds="83" td="0" long="61"></kr>
+  </player>
+  <player name="Paolazzi A." shortname="Paolazzi A." checkname="A.,PAOLAZZI" uni="87" gp="1" code="87">
+   <rcv no="2" yds="17" td="0" long="14"></rcv>
+   <punt no="2" yds="99" long="51" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="49.5"></punt>
+   <ko no="1" yds="55" ob="0" tb="0"></ko>
+   <pat kickatt="3" kickmade="3"></pat>
+   <scoring patkick="3"></scoring>
+  </player>
+  <player name="Scardia R." shortname="Scardia R." checkname="R.,SCARDIA" uni="89" gp="1" code="89">
+   <rcv no="1" yds="25" td="0" long="25"></rcv>
+  </player>
+  <player name="Solai C." shortname="Solai C." checkname="C.,SOLAI" uni="11" gp="1" code="11">
+   <rcv no="1" yds="11" td="0" long="11"></rcv>
+   <kr no="1" yds="15" td="0" long="15"></kr>
+  </player>
+  <player name="Romanel N." shortname="Romanel N." checkname="N.,ROMANEL" uni="83" gp="1" code="83">
+   <rcv no="1" yds="2" td="0" long="2"></rcv>
+  </player>
+  <player name="Boscia D." shortname="Boscia D." checkname="D.,BOSCIA" uni="20" gp="1" code="20">
+   <rush att="1" yds="-2" gain="0" loss="2" td="0" long="0"></rush>
+   <rcv no="1" yds="-2" td="0" long="0"></rcv>
+  </player>
+  <player name="Giuliani M." shortname="Giuliani M." checkname="M.,GIULIANI" uni="30" gp="1" code="30">
+   <defense tackua="2" tacka="4" tot_tack="6" brup="1"></defense>
+  </player>
+  <player name="Cristofolett S." shortname="Cristofolett S." checkname="S.,CRISTOFOLETT" uni="33" gp="1" code="33">
+   <defense tackua="1" tacka="1" tot_tack="2" brup="1" int="1" intyds="9"></defense>
+   <ir no="1" yds="9" td="0" long="9"></ir>
+  </player>
+  <player name="Granello M." shortname="Granello M." checkname="M.,GRANELLO" uni="7" gp="1" code="7">
+   <defense tackua="3" tacka="3" tot_tack="6" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Perri F." shortname="Perri F." checkname="F.,PERRI" uni="22" gp="1" code="22">
+   <defense tackua="5" tacka="1" tot_tack="6" int="1" intyds="24"></defense>
+   <ir no="1" yds="24" td="0" long="24"></ir>
+  </player>
+  <player name="Micheli M." shortname="Micheli M." checkname="M.,MICHELI" uni="57" gp="1" code="57">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Detone M." shortname="Detone M." checkname="M.,DETONE" uni="69" gp="1" code="69">
+   <defense tackua="2" tacka="0" tot_tack="2" tflua="2" tfla="0" tflyds="36" sackua="2" sacka="0" sackyds="36" int="1" intyds="1"></defense>
+   <ir no="1" yds="1" td="0" long="1"></ir>
+  </player>
+  <player name="Cattoi L." shortname="Cattoi L." checkname="L.,CATTOI" uni="8" gp="1" code="8">
+   <defense tackua="6" tacka="7" tot_tack="13" brup="1"></defense>
+  </player>
+  <player name="Pratola Send M." shortname="Pratola Send M." checkname="SEND M.,PRATOLA" uni="84" gp="1" code="84">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Mosaner M." shortname="Mosaner M." checkname="M.,MOSANER" uni="17" gp="1" code="17">
+   <rush att="2" yds="-10" gain="0" loss="10" td="0" long="0"></rush>
+  </player>
+  <player name="Battisti M." shortname="Battisti M." checkname="M.,BATTISTI" uni="10" gp="1" code="10">
+   <rush att="5" yds="6" gain="17" loss="11" td="1" long="8"></rush>
+   <pass comp="14" att="33" int="0" yds="199" td="2" long="31" sacks="1" sackyds="11"></pass>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Falai D." shortname="Falai D." checkname="D.,FALAI" uni="35" gp="1" code="35">
+   <rush att="2" yds="6" gain="6" loss="0" td="1" long="5"></rush>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Galliani V." shortname="Galliani V." checkname="V.,GALLIANI" uni="92" gp="1" code="92">
+   <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="10" sackua="1" sacka="0" sackyds="10"></defense>
+  </player>
+  <player name="Caicedo Vive K." shortname="Caicedo Vive K." checkname="VIVE K.,CAICEDO" uni="98" gp="1" code="98">
+   <ko no="4" yds="210" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Frioli M." shortname="Frioli M." checkname="M.,FRIOLI" uni="99" gp="1" code="99">
+   <defense tackua="1" tacka="2" tot_tack="3" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="GIA" name="Giants Bolzano" record="2-2" conf-record="2-2" abb="G">
+  <linescore prds="4" line="0,13,0,0" score="13">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="13"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="55" totoff_yards="284" totoff_avg="5.2">
+   <firstdowns no="20" rush="9" pass="9" penalty="2"></firstdowns>
+   <penalties no="10" yds="60"></penalties>
+   <conversions thirdconv="1" thirdatt="7" fourthconv="2" fourthatt="2"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="28:28" ona="0" onm="0"></misc>
+   <redzone att="4" scores="2" points="13" tdrush="2" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="1" endfumb="0" endhalf="1" endgame="0"></redzone>
+   <rush att="24" yds="94" gain="141" loss="47" td="2" long="14"></rush>
+   <pass comp="14" att="31" int="3" yds="190" td="0" long="30" sacks="3" sackyds="46"></pass>
+   <rcv no="14" yds="190" td="0" long="30"></rcv>
+   <punt no="4" yds="132" long="50" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="33.0"></punt>
+   <ko no="3" yds="135" ob="0" tb="0"></ko>
+   <pat kickatt="1" kickmade="1" passatt="1" passmade="0"></pat>
+   <defense tackua="27" tacka="14" tot_tack="41" tflua="5" tfla="2" tflyds="28" sacks="1" sackyds="11" brup="4"></defense>
+   <kr no="5" yds="70" td="0" long="24"></kr>
+   <scoring td="2" patkick="1"></scoring>
+  </totals>
+  <player name="Diene P." shortname="Diene P." checkname="P.,DIENE" uni="84" gp="1" code="84">
+   <rcv no="10" yds="140" td="0" long="30"></rcv>
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Cano Ruiz Joe." shortname="Cano Ruiz Joe." checkname="RUIZ JOE.,CANO" uni="6" gp="1" code="6">
+   <rush att="3" yds="-33" gain="3" loss="36" td="0" long="3"></rush>
+   <pass comp="1" att="3" int="0" yds="14" td="0" long="14" sacks="2" sackyds="36"></pass>
+   <rcv no="2" yds="37" td="0" long="22"></rcv>
+   <ko no="3" yds="135" ob="0" tb="0"></ko>
+   <pat kickatt="1" kickmade="1" passatt="1" passmade="0"></pat>
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+   <scoring patkick="1"></scoring>
+  </player>
+  <player name="Plattner W." shortname="Plattner W." checkname="W.,PLATTNER" uni="30" gp="1" code="30">
+   <rush att="3" yds="26" gain="26" loss="0" td="0" long="10"></rush>
+   <rcv no="2" yds="13" td="0" long="8"></rcv>
+   <defense tackua="0" tacka="3" tot_tack="3"></defense>
+  </player>
+  <player name="Bilcari O." shortname="Bilcari O." checkname="O.,BILCARI" uni="19" gp="1" code="19">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Cano Ruiz Jor." shortname="Cano Ruiz Jor." checkname="RUIZ JOR.,CANO" uni="3" gp="1" code="3">
+   <punt no="1" yds="19" long="19" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="19.0"></punt>
+   <defense tackua="6" tacka="2" tot_tack="8" tflua="1" tfla="0" tflyds="2" brup="2"></defense>
+   <kr no="4" yds="56" td="0" long="24"></kr>
+  </player>
+  <player name="Brija O." shortname="Brija O." checkname="O.,BRIJA" uni="40" gp="1" code="40">
+   <defense tackua="3" tacka="2" tot_tack="5" tflua="2" tfla="1" tflyds="16" sackua="1" sacka="0" sackyds="11"></defense>
+  </player>
+  <player name="Idris D." shortname="Idris D." checkname="D.,IDRIS" uni="51" gp="1" code="51">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Vitale D." shortname="Vitale D." checkname="D.,VITALE" uni="60" gp="1" code="60">
+   <defense tackua="2" tacka="1" tot_tack="3"></defense>
+  </player>
+  <player name="Storari S." shortname="Storari S." checkname="S.,STORARI" uni="65" gp="1" code="65">
+   <defense tackua="3" tacka="2" tot_tack="5"></defense>
+  </player>
+  <player name="Catizone D." shortname="Catizone D." checkname="D.,CATIZONE" uni="81" gp="1" code="81">
+   <defense tackua="4" tacka="1" tot_tack="5" tflua="0" tfla="1" tflyds="3"></defense>
+  </player>
+  <player name="Plattner A." shortname="Plattner A." checkname="A.,PLATTNER" uni="11" gp="1" code="11">
+   <rush att="18" yds="101" gain="112" loss="11" td="2" long="14"></rush>
+   <pass comp="13" att="28" int="3" yds="176" td="0" long="30" sacks="1" sackyds="10"></pass>
+   <punt no="3" yds="113" long="50" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="37.7"></punt>
+   <defense tackua="3" tacka="1" tot_tack="4" brup="2"></defense>
+   <kr no="1" yds="14" td="0" long="14"></kr>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="2" tacka="0" tot_tack="2" tflua="1" tfla="0" tflyds="4"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="GIA" qtr="2" clock="04:47" type="TD" how="RUSH" yds="5" scorer="Plattner A." patby="Cano Ruiz Joe." pattype="KICK" patres="GOOD" plays="11" drive="80" top="6:24" vscore="0" hscore="7" driveindex="7"></score>
+  <score vh="V" team="THU" qtr="2" clock="04:25" type="TD" how="PASS" yds="29" scorer="Vezzoli D." passer="Battisti M." patby="Paolazzi A." pattype="KICK" patres="GOOD" plays="1" drive="29" top="0:00" vscore="7" hscore="7" driveindex="8"></score>
+  <score vh="H" team="GIA" qtr="2" clock="01:40" type="TD" how="RUSH" yds="2" scorer="Plattner A." patby="Cano Ruiz Joe." pattype="PASS" patres="FAIL" plays="6" drive="61" top="2:30" vscore="7" hscore="13" driveindex="9"></score>
+  <score vh="V" team="THU" qtr="3" clock="04:24" type="TD" how="RUSH" yds="2" scorer="Battisti M." patby="Paolazzi A." pattype="KICK" patres="GOOD" plays="9" drive="41" top="2:48" vscore="14" hscore="13" driveindex="14"></score>
+  <score vh="V" team="THU" qtr="4" clock="03:41" type="TD" how="PASS" yds="21" scorer="Boscia B." passer="Battisti M." patby="Vezzoli D." pattype="PASS" patres="GOOD" plays="9" drive="66" top="3:49" vscore="22" hscore="13" driveindex="18"></score>
+  <score vh="V" team="THU" qtr="4" clock="01:04" type="TD" how="RUSH" yds="1" scorer="Falai D." patby="Paolazzi A." pattype="KICK" patres="GOOD" plays="3" drive="31" top="0:54" vscore="29" hscore="13" driveindex="20"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="THU" kicker="Caicedo Vive K." qtr="2" clock="11:11" distance="30" result="missed"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="GIA" start="KO,1,12:00,25" end="INT,1,11:02,25" plays="1" yards="0" top="0:58" start_how="KO" start_qtr="1" start_time="12:00" start_spot="GIA25" end_how="INT" end_qtr="1" end_time="11:02" end_spot="GIA25" driveindex="1"></drive>
+  <drive vh="V" team="THU" start="INT,1,11:02,71" end="DOWNS,1,10:11,61" plays="4" yards="-10" top="0:51" start_how="INT" start_qtr="1" start_time="11:02" start_spot="GIA29" end_how="DOWNS" end_qtr="1" end_time="10:11" end_spot="GIA39" driveindex="2"></drive>
+  <drive vh="H" team="GIA" start="DOWNS,1,10:11,34" end="PUNT,1,09:47,34" plays="3" yards="0" top="0:24" start_how="DOWNS" start_qtr="1" start_time="10:11" start_spot="GIA34" end_how="PUNT" end_qtr="1" end_time="09:47" end_spot="GIA34" driveindex="3"></drive>
+  <drive vh="V" team="THU" start="PUNT,1,09:47,44" end="PUNT,1,08:53,44" plays="3" yards="0" top="0:54" start_how="PUNT" start_qtr="1" start_time="09:47" start_spot="THU44" end_how="PUNT" end_qtr="1" end_time="08:53" end_spot="THU44" driveindex="4"></drive>
+  <drive vh="H" team="GIA" start="PUNT,1,08:53,5" end="PUNT,1,03:28,46" plays="9" yards="41" top="5:25" start_how="PUNT" start_qtr="1" start_time="08:53" start_spot="GIA05" end_how="PUNT" end_qtr="1" end_time="03:28" end_spot="GIA46" driveindex="5"></drive>
+  <drive vh="V" team="THU" start="PUNT,1,03:28,2" end="FGA,2,11:11,88" plays="8" yards="86" top="4:17" start_how="PUNT" start_qtr="1" start_time="03:28" start_spot="THU02" end_how="FGA" end_qtr="2" end_time="11:11" end_spot="GIA12" rz="1" driveindex="6"></drive>
+  <drive vh="H" team="GIA" start="FGA,2,11:11,20" end="TD,2,04:47,100" plays="11" yards="80" top="6:24" start_how="FGA" start_qtr="2" start_time="11:11" start_spot="GIA20" end_how="TD" end_qtr="2" end_time="04:47" end_spot="THU00" rz="1" driveindex="7"></drive>
+  <drive vh="V" team="THU" start="KO,2,04:25,71" end="TD,2,04:25,100" plays="1" yards="29" top="0:00" start_how="KO" start_qtr="2" start_time="04:25" start_spot="GIA29" end_how="TD" end_qtr="2" end_time="04:25" end_spot="GIA00" driveindex="8"></drive>
+  <drive vh="H" team="GIA" start="KO,2,04:10,39" end="TD,2,01:40,100" plays="6" yards="61" top="2:30" start_how="KO" start_qtr="2" start_time="04:10" start_spot="GIA39" end_how="TD" end_qtr="2" end_time="01:40" end_spot="THU00" rz="1" driveindex="9"></drive>
+  <drive vh="V" team="THU" start="KO,2,01:30,50" end="DOWNS,2,00:48,54" plays="4" yards="4" top="0:42" start_how="KO" start_qtr="2" start_time="01:30" start_spot="THU50" end_how="DOWNS" end_qtr="2" end_time="00:48" end_spot="GIA46" driveindex="10"></drive>
+  <drive vh="H" team="GIA" start="DOWNS,2,00:48,46" end="HALF,2,00:00,86" plays="6" yards="40" top="0:48" start_how="DOWNS" start_qtr="2" start_time="00:48" start_spot="GIA46" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="THU14" rz="1" driveindex="11"></drive>
+  <drive vh="V" team="THU" start="KO,3,11:48,37" end="DOWNS,3,08:15,93" plays="11" yards="56" top="3:33" start_how="KO" start_qtr="3" start_time="11:48" start_spot="THU37" end_how="DOWNS" end_qtr="3" end_time="08:15" end_spot="GIA07" rz="1" driveindex="12"></drive>
+  <drive vh="H" team="GIA" start="DOWNS,3,08:15,7" end="PUNT,3,07:12,14" plays="3" yards="7" top="1:03" start_how="DOWNS" start_qtr="3" start_time="08:15" start_spot="GIA07" end_how="PUNT" end_qtr="3" end_time="07:12" end_spot="GIA14" driveindex="13"></drive>
+  <drive vh="V" team="THU" start="PUNT,3,07:12,59" end="TD,3,04:24,100" plays="9" yards="41" top="2:48" start_how="PUNT" start_qtr="3" start_time="07:12" start_spot="GIA41" end_how="TD" end_qtr="3" end_time="04:24" end_spot="GIA00" rz="1" driveindex="14"></drive>
+  <drive vh="H" team="GIA" start="KO,3,04:17,29" end="INT,3,00:43,80" plays="5" yards="51" top="3:34" start_how="KO" start_qtr="3" start_time="04:17" start_spot="GIA29" end_how="INT" end_qtr="3" end_time="00:43" end_spot="THU20" rz="1" driveindex="15"></drive>
+  <drive vh="V" team="THU" start="INT,3,00:43,10" end="PUNT,4,11:43,11" plays="3" yards="1" top="1:00" start_how="INT" start_qtr="3" start_time="00:43" start_spot="THU10" end_how="PUNT" end_qtr="4" end_time="11:43" end_spot="THU11" driveindex="16"></drive>
+  <drive vh="H" team="GIA" start="PUNT,4,11:43,41" end="INT,4,07:30,73" plays="6" yards="32" top="4:13" start_how="PUNT" start_qtr="4" start_time="11:43" start_spot="GIA41" end_how="INT" end_qtr="4" end_time="07:30" end_spot="THU27" driveindex="17"></drive>
+  <drive vh="V" team="THU" start="INT,4,07:30,34" end="TD,4,03:41,100" plays="9" yards="66" top="3:49" start_how="INT" start_qtr="4" start_time="07:30" start_spot="THU34" end_how="TD" end_qtr="4" end_time="03:41" end_spot="GIA00" rz="1" driveindex="18"></drive>
+  <drive vh="H" team="GIA" start="KO,4,03:29,25" end="PUNT,4,01:58,12" plays="4" yards="-13" top="1:31" start_how="KO" start_qtr="4" start_time="03:29" start_spot="GIA25" end_how="PUNT" end_qtr="4" end_time="01:58" end_spot="GIA12" driveindex="19"></drive>
+  <drive vh="V" team="THU" start="PUNT,4,01:58,69" end="TD,4,01:04,100" plays="3" yards="31" top="0:54" start_how="PUNT" start_qtr="4" start_time="01:58" start_spot="GIA31" end_how="TD" end_qtr="4" end_time="01:04" end_spot="GIA00" rz="1" driveindex="20"></drive>
+  <drive vh="H" team="GIA" start="KO,4,00:55,17" end="HALF,4,00:00,7" plays="1" yards="-10" top="0:55" start_how="KO" start_qtr="4" start_time="00:55" start_spot="GIA17" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="GIA07" driveindex="21"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="THU" down="1" togo="10" spot="THU35" context="V,1,10,V35" playid="0,1,0" type="K"
+      text="Caicedo Vive K. kickoff 57 yards to the GIA8, Cano Ruiz Jor. return 17 yards to the GIA25 (Giuliani M.;Galliani V.)." newcontext="H,1,10,H25">
+    <p_ko vh="V" name="Caicedo Vive K." gain="57"></p_ko>
+    <p_kr vh="H" name="Cano Ruiz Jor." gain="17"></p_kr>
+    <p_tk vh="V" name="Giuliani M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Galliani V." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="H,H25,12:00" vh="H" spot="H25" clock="12:00" driveindex="1,0"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA25" context="H,1,10,H25" playid="1,1,1" type="P" turnover="I"
+      text="Plattner A. pass intercepted by Detone M. at the GIA30, Detone M. return 1 yards to the GIA29 (Diene P.;Plattner W.)." newcontext="V,1,10,H29">
+    <p_pa vh="H" qb="Plattner A." result="INT"></p_pa>
+    <p_ir vh="V" name="Detone M." at="H30" gain="1"></p_ir>
+    <p_tk vh="H" name="Diene P." assist="Y"></p_tk>
+    <p_tk vh="H" name="Plattner W." assist="Y"></p_tk>
+   </play>
+   <drivesum plays="1" yards="0" top="0:58" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,H29,12:00" vh="V" spot="H29" clock="12:00" driveindex="2,1"></drivestart>
+   <play hasball="THU" down="1" togo="10" spot="GIA29" context="V,1,10,H29" playid="2,1,2" clock="11:02"
+      text="THUNDERS TRENTO drive start at 11:02." newcontext="V,1,10,H29">
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA29" context="V,1,10,H29" playid="2,2,3" type="R"
+      text="Boscia D. rush for loss of 2 yards to the GIA31 (Brija O.)." newcontext="V,2,12,H31">
+    <p_ru vh="V" name="Boscia D." gain="-2"></p_ru>
+    <p_tk vh="H" name="Brija O." tfl="Y"></p_tk>
+   </play>
+   <play hasball="THU" down="2" togo="12" spot="GIA31" context="V,2,12,H31" playid="2,3,4" type="P"
+      text="Battisti M. pass complete to Boscia B. for 3 yards to the GIA28 (Storari S.)." newcontext="V,3,9,H28">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Boscia B." gain="3"></p_pa>
+    <p_tk vh="H" name="Storari S."></p_tk>
+   </play>
+   <play hasball="THU" down="3" togo="9" spot="GIA28" context="V,3,9,H28" playid="2,4,5" type="P"
+      text="Battisti M. pass incomplete to Boscia B.." newcontext="V,4,9,H28">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Boscia B."></p_pa>
+   </play>
+   <play hasball="THU" down="4" togo="9" spot="GIA28" context="V,4,9,H28" playid="2,5,6" type="P"
+      text="Battisti M. sacked for loss of 11 yards to the GIA39 (Brija O.)." newcontext="H,1,10,H39">
+    <p_pa vh="V" qb="Battisti M." result="SACK" gain="-11"></p_pa>
+    <p_tk vh="H" name="Brija O." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <drivesum plays="4" yards="-10" top="0:51" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,H39,11:02" vh="H" spot="H39" clock="11:02" driveindex="3,6"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA39" context="H,1,10,H39" playid="3,1,7" type="E"
+      text="GIANTS BOLZANO drive start at 10:11, PENALTY GIA offside (Rederleckner T.) 5 yards to the GIA34, NO PLAY." newcontext="H,1,15,H34">
+    <p_pn vh="H" code="OS" type="offside" name="Rederleckner T." result="ACCEPT" at="H39" yards="5"></p_pn>
+   </play>
+   <play hasball="GIA" down="1" togo="15" spot="GIA34" context="H,1,15,H34" playid="3,2,8" type="P" clock="10:11"
+      text="GIANTS BOLZANO drive start at 10:11, GIA ball on GIA34, Plattner A. pass incomplete to Cano Ruiz Joe., dropped pass." newcontext="H,2,15,H34">
+    <p_pa vh="H" qb="Plattner A." result="DROP" rcv="Cano Ruiz Joe."></p_pa>
+   </play>
+   <play hasball="GIA" down="2" togo="15" spot="GIA34" context="H,2,15,H34" playid="3,3,9" type="P"
+      text="Plattner A. pass incomplete to Cano Ruiz Joe.." newcontext="H,3,15,H34">
+    <p_pa vh="H" qb="Plattner A." result="INC" rcv="Cano Ruiz Joe."></p_pa>
+   </play>
+   <play hasball="GIA" down="3" togo="15" spot="GIA34" context="H,3,15,H34" playid="3,4,10" type="P"
+      text="Plattner A. pass incomplete to Diene P.." newcontext="H,4,15,H34">
+    <p_pa vh="H" qb="Plattner A." result="INC" rcv="Diene P."></p_pa>
+   </play>
+   <play hasball="GIA" down="4" togo="15" spot="GIA34" context="H,4,15,H34" playid="3,5,11" type="U"
+      text="Plattner A. punt 36 yards to the THU30, Boscia B. return 14 yards to the THU44 (TEAM)." newcontext="V,1,10,V44">
+    <p_pu vh="H" name="Plattner A." gain="36"></p_pu>
+    <p_pr vh="V" name="Boscia B." gain="14"></p_pr>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <drivesum plays="3" yards="0" top="0:24" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="V,V44,10:11" vh="V" spot="V44" clock="10:11" driveindex="4,11"></drivestart>
+   <play hasball="THU" down="1" togo="10" spot="THU44" context="V,1,10,V44" playid="4,1,12" type="P" clock="09:47"
+      text="THUNDERS TRENTO drive start at 09:47, Mosaner M. rush for loss of 4 yards to the THU40 (TEAM), Battisti M. pass incomplete to Boscia D. (Cano Ruiz Jor.)." newcontext="V,3,14,V44">
+    <p_ru vh="V" name="Mosaner M." gain="-4"></p_ru>
+    <p_pa vh="V" qb="Battisti M." result="BRUP" rcv="Boscia D."></p_pa>
+    <p_tk vh="H" name="TEAM" tfl="Y"></p_tk>
+    <p_bu vh="H" name="Cano Ruiz Jor."></p_bu>
+   </play>
+   <play hasball="THU" down="3" togo="14" spot="THU44" context="V,3,14,V44" playid="4,2,13" type="P"
+      text="Battisti M. pass incomplete to Mosaner M., dropped pass." newcontext="V,4,14,V44">
+    <p_pa vh="V" qb="Battisti M." result="DROP" rcv="Mosaner M."></p_pa>
+   </play>
+   <play hasball="THU" down="4" togo="14" spot="THU44" context="V,4,14,V44" playid="4,3,14" type="U"
+      text="Paolazzi A. punt 51 yards to the GIA5." newcontext="H,1,10,H05">
+    <p_pu vh="V" name="Paolazzi A." gain="51" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="-4" top="0:54" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,H05,09:47" vh="H" spot="H05" clock="09:47" driveindex="5,14"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA05" context="H,1,10,H05" playid="5,1,15" type="R" first="R" clock="08:53"
+      text="GIANTS BOLZANO drive start at 08:53, Plattner W. rush for 10 yards to the GIA15, 1ST DOWN GIA, out-of-bounds." ob="Y" newcontext="H,1,10,H15">
+    <p_ru vh="H" name="Plattner W." gain="10"></p_ru>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA15" context="H,1,10,H15" playid="5,2,16" type="R"
+      text="Plattner A. rush for 5 yards to the GIA20 (Cattoi L.)." newcontext="H,2,5,H20">
+    <p_ru vh="H" name="Plattner A." gain="5"></p_ru>
+    <p_tk vh="V" name="Cattoi L."></p_tk>
+   </play>
+   <play hasball="GIA" down="2" togo="5" spot="GIA20" context="H,2,5,H20" playid="5,3,17" type="R" first="R"
+      text="Plattner A. rush for 13 yards to the GIA33, 1ST DOWN GIA (Cattoi L.;Caicedo Vive K.)." newcontext="H,1,10,H33">
+    <p_ru vh="H" name="Plattner A." gain="13"></p_ru>
+    <p_tk vh="V" name="Cattoi L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Caicedo Vive K." assist="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA33" context="H,1,10,H33" playid="5,4,18" type="E"
+      text="PENALTY GIA holding (Idris D.) 5 yards to the GIA28." newcontext="H,1,15,H28">
+    <p_pn vh="H" code="HO" type="holding" name="Idris D." result="ACCEPT" at="H33" yards="5"></p_pn>
+   </play>
+   <play hasball="GIA" down="1" togo="15" spot="GIA28" context="H,1,15,H28" playid="5,5,19" type="E"
+      text="PENALTY THU pass interference (Cristofolett S.) 10 yards to the GIA38." newcontext="H,1,5,H38">
+    <p_pn vh="V" code="PI" type="pass interference" name="Cristofolett S." result="ACCEPT" at="H28" yards="10"></p_pn>
+   </play>
+   <play hasball="GIA" down="1" togo="5" spot="GIA38" context="H,1,5,H38" playid="5,6,20" type="R" first="R"
+      text="Plattner A. rush for 8 yards to the GIA46, 1ST DOWN GIA (Granello M.)." newcontext="H,1,10,H46">
+    <p_ru vh="H" name="Plattner A." gain="8"></p_ru>
+    <p_tk vh="V" name="Granello M."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA46" context="H,1,10,H46" playid="5,7,21" type="P"
+      text="Plattner A. pass incomplete to Diene P.." newcontext="H,2,10,H46">
+    <p_pa vh="H" qb="Plattner A." result="INC" rcv="Diene P."></p_pa>
+   </play>
+   <play hasball="GIA" down="2" togo="10" spot="GIA46" context="H,2,10,H46" playid="5,8,22" type="P"
+      text="Plattner A. pass complete to Plattner W. for 8 yards to the THU46 (Perri F.)." newcontext="H,3,2,V46">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Plattner W." gain="8"></p_pa>
+    <p_tk vh="V" name="Perri F."></p_tk>
+   </play>
+   <play hasball="GIA" down="3" togo="2" spot="THU46" context="H,3,2,V46" playid="5,9,23" type="R" first="R"
+      text="Plattner A. rush for 2 yards to the THU44, 1ST DOWN GIA (Granello M.;Frioli M.)." newcontext="H,1,10,V44">
+    <p_ru vh="H" name="Plattner A." gain="2"></p_ru>
+    <p_tk vh="V" name="Granello M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Frioli M." assist="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU44" context="H,1,10,V44" playid="5,10,24" type="P"
+      text="PENALTY GIA offside (Cano Ruiz Jor.) 5 yards to the THU49, Cano Ruiz Joe. pass incomplete to Diene P., Plattner A. pass incomplete to Diene P.." newcontext="H,3,15,V44">
+    <p_pa vh="H" qb="Plattner A." result="INC" rcv="Diene P."></p_pa>
+    <p_pn vh="H" code="OS" type="offside" name="Cano Ruiz Jor." result="ACCEPT" at="V44" yards="5"></p_pn>
+   </play>
+   <play hasball="GIA" down="3" togo="15" spot="THU44" context="H,3,15,V44" playid="5,11,25" type="U"
+      text="PENALTY GIA illegal formation 10 yards to the GIA46, Plattner A. punt 50 yards to the THU4." newcontext="V,1,10,V04">
+    <p_pu vh="H" name="Plattner A." gain="50" in20="Y"></p_pu>
+    <p_pn vh="H" code="FO" type="illegal formation" result="ACCEPT" at="V44" yards="10"></p_pn>
+   </play>
+   <drivesum plays="9" yards="36" top="5:25" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V04,08:53" vh="V" spot="V04" clock="08:53" driveindex="6,25"></drivestart>
+   <play hasball="THU" down="1" togo="10" spot="THU04" context="V,1,10,V04" playid="6,1,26" type="E"
+      text="THUNDERS TRENTO drive start at 03:28, PENALTY THU pass interference (Solai C.) 2 yards to the THU2, NO PLAY." newcontext="V,1,12,V02">
+    <p_pn vh="V" code="PI" type="pass interference" name="Solai C." result="ACCEPT" at="V04" yards="2"></p_pn>
+   </play>
+   <play hasball="THU" down="1" togo="12" spot="THU02" context="V,1,12,V02" playid="6,2,27" type="R" clock="03:28"
+      text="THUNDERS TRENTO drive start at 03:28, THU ball on THU2, Girelli T. rush for no gain to the THU2 (Catizone D.)." newcontext="V,2,12,V02">
+    <p_ru vh="V" name="Girelli T." gain="0"></p_ru>
+    <p_tk vh="H" name="Catizone D."></p_tk>
+   </play>
+   <play hasball="THU" down="2" togo="12" spot="THU02" context="V,2,12,V02" playid="6,3,28" type="P"
+      text="Battisti M. pass complete to Boscia B. for 6 yards to the THU8 (Storari S.;Cano Ruiz Jor.)." newcontext="V,3,6,V08">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Boscia B." gain="6"></p_pa>
+    <p_tk vh="H" name="Storari S." assist="Y"></p_tk>
+    <p_tk vh="H" name="Cano Ruiz Jor." assist="Y"></p_tk>
+   </play>
+   <play hasball="THU" down="3" togo="6" spot="THU08" context="V,3,6,V08" playid="6,4,29" type="R" first="R"
+      text="Battisti M. pass incomplete to Vezzoli D., Girelli T. rush for 39 yards to the THU47, 1ST DOWN THU (Cano Ruiz Joe.)." newcontext="V,1,10,V47">
+    <p_ru vh="V" name="Girelli T." gain="39"></p_ru>
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Vezzoli D."></p_pa>
+    <p_tk vh="H" name="Cano Ruiz Joe."></p_tk>
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="THU47" context="V,1,10,V47" playid="6,5,30" type="R" first="R"
+      text="Boscia B. rush for 38 yards to the GIA15, 1ST DOWN THU (Cano Ruiz Jor.)." newcontext="V,1,10,H15">
+    <p_ru vh="V" name="Boscia B." gain="38"></p_ru>
+    <p_tk vh="H" name="Cano Ruiz Jor."></p_tk>
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA15" context="V,1,10,H15" playid="6,6,31" type="R"
+      text="Girelli T. rush for no gain to the GIA15 (Plattner W.;Vitale D.)." newcontext="V,2,10,H15">
+    <p_ru vh="V" name="Girelli T." gain="0"></p_ru>
+    <p_tk vh="H" name="Plattner W." assist="Y"></p_tk>
+    <p_tk vh="H" name="Vitale D." assist="Y"></p_tk>
+   </play>
+   <play hasball="THU" down="2" togo="10" spot="GIA15" context="V,2,10,H15" playid="6,7,32" type="P"
+      text="Battisti M. pass complete to Romanel N. for 2 yards to the GIA13 (Storari S.)." newcontext="V,3,8,H13">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Romanel N." gain="2"></p_pa>
+    <p_tk vh="H" name="Storari S."></p_tk>
+   </play>
+   <score qtr="1" V="0" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="THU">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="12"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:13"></misc>
+    <rush att="8" yds="61" gain="78" loss="17" td="0" long="39"></rush>
+    <pass comp="3" att="7" int="0" yds="11" td="0" long="6" sacks="1" sackyds="11"></pass>
+    <rcv no="3" yds="11" td="0" long="6"></rcv>
+    <punt no="1" yds="51" long="51" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="51.0"></punt>
+    <ko no="1" yds="57" ob="0" tb="0"></ko>
+    <defense tackua="3" tacka="6" tot_tack="9" sacks="0" sackyds="0" int="1" intyds="1"></defense>
+    <pr no="1" yds="14" td="0" long="14"></pr>
+    <ir no="1" yds="1" td="0" long="1"></ir>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIA">
+    <firstdowns no="4" rush="4" pass="0" penalty="0"></firstdowns>
+    <penalties no="4" yds="25"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:47"></misc>
+    <rush att="5" yds="38" gain="38" loss="0" td="0" long="13"></rush>
+    <pass comp="1" att="8" int="1" yds="8" td="0" long="8" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="8" td="0" long="8"></rcv>
+    <punt no="2" yds="86" long="50" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="43.0"></punt>
+    <defense tackua="10" tacka="6" tot_tack="16" tflua="3" tfla="0" tflyds="17" sacks="1" sackyds="11" brup="1"></defense>
+    <kr no="1" yds="17" td="0" long="17"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="THU" down="3" togo="8" spot="GIA13" context="V,3,8,H13" playid="6,8,33" type="R" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00, Girelli T. rush for 1 yard to the GIA12 (Catizone D.)." newcontext="V,4,7,H12">
+    <p_ru vh="V" name="Girelli T." gain="1"></p_ru>
+    <p_tk vh="H" name="Catizone D."></p_tk>
+   </play>
+   <play hasball="THU" down="4" togo="7" spot="GIA12" context="V,4,7,H12" playid="6,9,34" type="F" clock="11:11"
+      text="Caicedo Vive K. field goal attempt from 30 MISSED - short, spot at GIA20, clock 11:11." newcontext="H,1,10,H20">
+    <p_fg vh="V" name="Caicedo Vive K." distance="30" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="8" yards="86" top="4:17" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H20,11:11" vh="H" spot="H20" clock="11:11" driveindex="7,34"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA20" context="H,1,10,H20" playid="7,1,35" type="P" clock="11:11"
+      text="GIANTS BOLZANO drive start at 11:11, Plattner A. pass complete to Diene P. for 2 yards to the GIA22 (Granello M.)." newcontext="H,2,8,H22">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Diene P." gain="2"></p_pa>
+    <p_tk vh="V" name="Granello M."></p_tk>
+   </play>
+   <play hasball="GIA" down="2" togo="8" spot="GIA22" context="H,2,8,H22" playid="7,2,36" type="P" first="P"
+      text="Plattner A. pass complete to Diene P. for 21 yards to the GIA43, 1ST DOWN GIA (Micheli M.)." newcontext="H,1,10,H43">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Diene P." gain="21"></p_pa>
+    <p_tk vh="V" name="Micheli M."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA43" context="H,1,10,H43" playid="7,3,37" type="P"
+      text="Plattner A. pass complete to Diene P. for 4 yards to the GIA47 (Cattoi L.)." newcontext="H,2,6,H47">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Diene P." gain="4"></p_pa>
+    <p_tk vh="V" name="Cattoi L."></p_tk>
+   </play>
+   <play hasball="GIA" down="2" togo="6" spot="GIA47" context="H,2,6,H47" playid="7,4,38" type="P" first="P"
+      text="Plattner A. pass complete to Diene P. for 10 yards to the THU43, 1ST DOWN GIA (Pratola Send M.)." newcontext="H,1,10,V43">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Diene P." gain="10"></p_pa>
+    <p_tk vh="V" name="Pratola Send M."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU43" context="H,1,10,V43" playid="7,5,39" type="R" first="R"
+      text="Plattner A. rush for 10 yards to the THU33, 1ST DOWN GIA (Giuliani M.)." newcontext="H,1,10,V33">
+    <p_ru vh="H" name="Plattner A." gain="10"></p_ru>
+    <p_tk vh="V" name="Giuliani M."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU33" context="H,1,10,V33" playid="7,6,40" type="P" first="P"
+      text="Plattner A. pass complete to Cano Ruiz Joe. for 15 yards to the THU18, 1ST DOWN GIA (Cattoi L.;Giuliani M.)." newcontext="H,1,10,V18">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Cano Ruiz Joe." gain="15"></p_pa>
+    <p_tk vh="V" name="Cattoi L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Giuliani M." assist="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU18" context="H,1,10,V18" playid="7,7,41" type="P"
+      text="Plattner A. pass incomplete to Diene P. (Cristofolett S.)." newcontext="H,2,10,V18">
+    <p_pa vh="H" qb="Plattner A." result="BRUP" rcv="Diene P."></p_pa>
+    <p_bu vh="V" name="Cristofolett S."></p_bu>
+   </play>
+   <play hasball="GIA" down="2" togo="10" spot="THU18" context="H,2,10,V18" playid="7,8,42" type="R"
+      text="Plattner A. rush for loss of 1 yard to the THU19 (Granello M.;Frioli M.)." newcontext="H,3,11,V19">
+    <p_ru vh="H" name="Plattner A." gain="-1"></p_ru>
+    <p_tk vh="V" name="Granello M." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Frioli M." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="3" togo="11" spot="THU19" context="H,3,11,V19" playid="7,9,43" type="E"
+      text="PENALTY GIA illegal motion (Diene P.) 5 yards to the THU24." newcontext="H,3,16,V24">
+    <p_pn vh="H" code="MO" type="illegal motion" name="Diene P." result="ACCEPT" at="V19" yards="5"></p_pn>
+   </play>
+   <play hasball="GIA" down="3" togo="16" spot="THU24" context="H,3,16,V24" playid="7,10,44" type="P"
+      text="Plattner A. pass complete to Diene P. for 14 yards to the THU10 (Cristofolett S.;Giuliani M.)." newcontext="H,4,2,V10">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Diene P." gain="14"></p_pa>
+    <p_tk vh="V" name="Cristofolett S." assist="Y"></p_tk>
+    <p_tk vh="V" name="Giuliani M." assist="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="4" togo="2" spot="THU10" context="H,4,2,V10" playid="7,11,45" type="P" first="P"
+      text="Plattner A. pass complete to Plattner W. for 5 yards to the THU5, 1ST DOWN GIA (Perri F.)." newcontext="H,1,0,V05">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Plattner W." gain="5"></p_pa>
+    <p_tk vh="V" name="Perri F."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="0" spot="THU05" context="H,1,0,V05" playid="7,12,46" type="X" score="Y" clock="04:47"
+      text="Plattner A. rush for 5 yards to the THU0, TOUCHDOWN, clock 04:47, Cano Ruiz Joe. kick attempt good." newcontext="H,1,0,H35">
+    <p_ru vh="H" name="Plattner A." gain="5"></p_ru>
+    <p_pat vh="H" name="Cano Ruiz Joe." qb="Cano Ruiz Joe." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="7"></score>
+   <drivesum plays="11" yards="80" top="6:24" driveindex="7" complete="Y"></drivesum>
+   <play hasball="GIA" down="1" togo="0" spot="GIA35" context="H,1,0,H35" playid="7,13,47" type="K"
+      text="Cano Ruiz Joe. kickoff 55 yards to the THU10, Girelli T. return 61 yards to the GIA29 (Cano Ruiz Jor.)." newcontext="V,1,10,H29">
+    <p_ko vh="H" name="Cano Ruiz Joe." gain="55"></p_ko>
+    <p_kr vh="V" name="Girelli T." gain="61"></p_kr>
+    <p_tk vh="H" name="Cano Ruiz Jor."></p_tk>
+   </play>
+   <drivestart poss="V,H29,04:47" vh="V" spot="H29" clock="04:47" driveindex="8,47"></drivestart>
+   <play hasball="THU" down="1" togo="10" spot="GIA29" context="V,1,10,H29" playid="8,1,48" type="X" first="P" score="Y" clock="04:25"
+      text="Battisti M. pass complete to Vezzoli D. for 29 yards to the GIA0, 1ST DOWN THU, TOUCHDOWN, clock 04:25, Paolazzi A. kick attempt good." newcontext="V,1,0,V35">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Vezzoli D." gain="29"></p_pa>
+    <p_pat vh="V" name="Paolazzi A." qb="Paolazzi A." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="7"></score>
+   <play hasball="THU" down="1" togo="0" spot="THU35" context="V,1,0,V35" playid="8,2,49" type="E"
+      text="Paolazzi A. kickoff 50 yards to the GIA15, out-of-bounds, PENALTY THU OB (Paolazzi A.) 5 yards to the THU30, NO PLAY." ob="Y" newcontext="V,1,0,V30">
+    <p_pn vh="V" code="OB" type="OB" name="Paolazzi A." result="ACCEPT" at="V35" yards="5"></p_pn>
+   </play>
+   <drivesum plays="1" yards="29" top="0:00" driveindex="8" complete="Y"></drivesum>
+   <play hasball="THU" down="1" togo="0" spot="THU30" context="V,1,0,V30" playid="8,3,50" type="K"
+      text="Paolazzi A. kickoff 55 yards to the GIA15, Cano Ruiz Jor. return 24 yards to the GIA39 (Giuliani M.)." newcontext="H,1,10,H39">
+    <p_ko vh="V" name="Paolazzi A." gain="55"></p_ko>
+    <p_kr vh="H" name="Cano Ruiz Jor." gain="24"></p_kr>
+    <p_tk vh="V" name="Giuliani M."></p_tk>
+   </play>
+   <drivestart poss="H,H39,04:25" vh="H" spot="H39" clock="04:25" driveindex="9,50"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA39" context="H,1,10,H39" playid="9,1,51" clock="04:10"
+      text="GIANTS BOLZANO drive start at 04:10." newcontext="H,1,10,H39">
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA39" context="H,1,10,H39" playid="9,2,52" type="R"
+      text="Plattner W. rush for 9 yards to the GIA48 (Cattoi L.;Granello M.)." newcontext="H,2,1,H48">
+    <p_ru vh="H" name="Plattner W." gain="9"></p_ru>
+    <p_tk vh="V" name="Cattoi L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Granello M." assist="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="2" togo="1" spot="GIA48" context="H,2,1,H48" playid="9,3,53" type="R" first="R"
+      text="Plattner W. rush for 7 yards to the THU45, 1ST DOWN GIA (Cattoi L.)." newcontext="H,1,10,V45">
+    <p_ru vh="H" name="Plattner W." gain="7"></p_ru>
+    <p_tk vh="V" name="Cattoi L."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU45" context="H,1,10,V45" playid="9,4,54" type="P"
+      text="Plattner A. pass complete to Diene P. for 6 yards to the THU39 (Perri F.)." newcontext="H,2,4,V39">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Diene P." gain="6"></p_pa>
+    <p_tk vh="V" name="Perri F."></p_tk>
+   </play>
+   <play hasball="GIA" down="2" togo="4" spot="THU39" context="H,2,4,V39" playid="9,5,55" type="R" first="R"
+      text="Plattner A. rush for 7 yards to the THU32, 1ST DOWN GIA (Galliani V.)." newcontext="H,1,10,V32">
+    <p_ru vh="H" name="Plattner A." gain="7"></p_ru>
+    <p_tk vh="V" name="Galliani V."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU32" context="H,1,10,V32" playid="9,6,56" type="P" first="P"
+      text="Plattner A. pass complete to Diene P. for 30 yards to the THU2, 1ST DOWN GIA (Cristofolett S.)." newcontext="H,1,0,V02">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Diene P." gain="30"></p_pa>
+    <p_tk vh="V" name="Cristofolett S."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="0" spot="THU02" context="H,1,0,V02" playid="9,7,57" type="X" score="Y" clock="01:40"
+      text="Plattner A. rush for 2 yards to the THU0, TOUCHDOWN, clock 01:40, Cano Ruiz Joe. pass attempt failed." newcontext="H,1,0,H35">
+    <p_ru vh="H" name="Plattner A." gain="2"></p_ru>
+    <p_pat vh="H" name="Cano Ruiz Joe." qb="Cano Ruiz Joe." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="7" H="13"></score>
+   <drivesum plays="6" yards="61" top="2:30" driveindex="9" complete="Y"></drivesum>
+   <play hasball="GIA" down="1" togo="0" spot="GIA35" context="H,1,0,H35" playid="9,8,58" type="K"
+      text="Cano Ruiz Joe. kickoff 30 yards to the THU35, Solai C. return 15 yards to the 50 yardline, out-of-bounds." ob="Y" newcontext="V,1,10,V50">
+    <p_ko vh="H" name="Cano Ruiz Joe." gain="30"></p_ko>
+    <p_kr vh="V" name="Solai C." gain="15"></p_kr>
+   </play>
+   <drivestart poss="V,V50,01:40" vh="V" spot="V50" clock="01:40" driveindex="10,58"></drivestart>
+   <play hasball="THU" down="1" togo="10" spot="THU50" context="V,1,10,V50" playid="10,1,59" type="P" clock="01:30"
+      text="THUNDERS TRENTO drive start at 01:30, Battisti M. pass incomplete to Romanel N.." newcontext="V,2,10,V50">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Romanel N."></p_pa>
+   </play>
+   <play hasball="THU" down="2" togo="10" spot="THU50" context="V,2,10,V50" playid="10,2,60" type="E"
+      text="PENALTY THU holding (Margoni S.) 10 yards to the THU40." newcontext="V,2,20,V40">
+    <p_pn vh="V" code="HO" type="holding" name="Margoni S." result="ACCEPT" at="V50" yards="10"></p_pn>
+   </play>
+   <play hasball="THU" down="2" togo="20" spot="THU40" context="V,2,20,V40" playid="10,3,61" type="P"
+      text="Battisti M. pass incomplete." newcontext="V,3,20,V40">
+    <p_pa vh="V" qb="Battisti M." result="INC"></p_pa>
+   </play>
+   <play hasball="THU" down="3" togo="20" spot="THU40" context="V,3,20,V40" playid="10,4,62" type="R"
+      text="Boscia B. rush for 14 yards to the GIA46 (Cano Ruiz Joe.)." newcontext="V,4,6,H46">
+    <p_ru vh="V" name="Boscia B." gain="14"></p_ru>
+    <p_tk vh="H" name="Cano Ruiz Joe."></p_tk>
+   </play>
+   <play hasball="THU" down="4" togo="6" spot="GIA46" context="V,4,6,H46" playid="10,5,63" type="P"
+      text="Battisti M. pass incomplete." newcontext="H,1,10,H46">
+    <p_pa vh="V" qb="Battisti M." result="INC"></p_pa>
+   </play>
+   <drivesum plays="4" yards="4" top="0:42" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="H,H46,01:30" vh="H" spot="H46" clock="01:30" driveindex="11,63"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA46" context="H,1,10,H46" playid="11,1,64" clock="00:48"
+      text="GIANTS BOLZANO drive start at 00:48." newcontext="H,1,10,H46">
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA46" context="H,1,10,H46" playid="11,2,65" type="E"
+      text="PENALTY GIA false start (87) 5 yards to the GIA41." newcontext="H,1,15,H41">
+    <p_pn vh="H" code="FS" type="false start" name="87" result="ACCEPT" at="H46" yards="5"></p_pn>
+   </play>
+   <play hasball="GIA" down="1" togo="15" spot="GIA41" context="H,1,15,H41" playid="11,3,66" type="R"
+      text="Plattner A. rush for 14 yards to the THU45, out-of-bounds." ob="Y" newcontext="H,2,1,V45">
+    <p_ru vh="H" name="Plattner A." gain="14"></p_ru>
+   </play>
+   <play hasball="GIA" down="2" togo="1" spot="THU45" context="H,2,1,V45" playid="11,4,67" type="R" first="R"
+      text="Plattner A. rush for 2 yards to the THU43, 1ST DOWN GIA (Frioli M.)." newcontext="H,1,10,V43">
+    <p_ru vh="H" name="Plattner A." gain="2"></p_ru>
+    <p_tk vh="V" name="Frioli M."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU43" context="H,1,10,V43" playid="11,5,68" type="R" first="R"
+      text="Plattner A. rush for 10 yards to the THU33, 1ST DOWN GIA, out-of-bounds." ob="Y" newcontext="H,1,10,V33">
+    <p_ru vh="H" name="Plattner A." gain="10"></p_ru>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU33" context="H,1,10,V33" playid="11,6,69" type="E" first="E"
+      text="PENALTY THU pass interference (Cattoi L.) 15 yards to the THU18, 1ST DOWN GIA." newcontext="H,1,10,V18">
+    <p_pn vh="V" code="PI" type="pass interference" name="Cattoi L." result="ACCEPT" at="V33" yards="15"></p_pn>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU18" context="H,1,10,V18" playid="11,7,70" type="P"
+      text="Plattner A. pass incomplete to Diene P. (Cattoi L.)." newcontext="H,2,10,V18">
+    <p_pa vh="H" qb="Plattner A." result="BRUP" rcv="Diene P."></p_pa>
+    <p_bu vh="V" name="Cattoi L."></p_bu>
+   </play>
+   <play hasball="GIA" down="2" togo="10" spot="THU18" context="H,2,10,V18" playid="11,8,71" type="R"
+      text="Plattner A. rush for 4 yards to the THU14, out-of-bounds." ob="Y" newcontext="H,3,6,V14">
+    <p_ru vh="H" name="Plattner A." gain="4"></p_ru>
+   </play>
+   <play hasball="GIA" down="3" togo="6" spot="THU14" context="H,3,6,V14" playid="11,9,72" type="P"
+      text="Plattner A. pass incomplete to Plattner W. (Giuliani M.)." newcontext="H,4,6,V14">
+    <p_pa vh="H" qb="Plattner A." result="BRUP" rcv="Plattner W."></p_pa>
+    <p_bu vh="V" name="Giuliani M."></p_bu>
+   </play>
+   <score qtr="2" V="7" H="13"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="THU">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="3" yds="30"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="02:03"></misc>
+    <rush att="1" yds="14" gain="14" loss="0" td="0" long="0"></rush>
+    <pass comp="1" att="4" int="0" yds="29" td="1" long="23" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="29" td="1" long="23"></rcv>
+    <ko no="1" yds="55" ob="0" tb="0"></ko>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="12" tacka="8" tot_tack="20" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0" brup="3"></defense>
+    <kr no="2" yds="76" td="0" long="61"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIA">
+    <firstdowns no="11" rush="5" pass="5" penalty="1"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:57"></misc>
+    <rush att="11" yds="69" gain="70" loss="1" td="2" long="1"></rush>
+    <pass comp="9" att="12" int="0" yds="107" td="0" long="22" sacks="0" sackyds="0"></pass>
+    <rcv no="9" yds="107" td="0" long="22"></rcv>
+    <ko no="2" yds="85" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1" passatt="1" passmade="0"></pat>
+    <defense tackua="2" tacka="0" tot_tack="2" sacks="1" sackyds="11"></defense>
+    <kr no="1" yds="24" td="0" long="7"></kr>
+    <scoring td="2" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="GIA" down="4" togo="6" spot="THU14" context="H,4,6,V14" playid="11,10,73" type="#" clock="12:00"
+      text="End of half, clock 00:00, start of 3rd quarter, clock 12:00, GIA ball on GIA35." newcontext="H,4,6,H35">
+   </play>
+   <drivesum plays="6" yards="40" top="0:48" driveindex="11" complete="Y"></drivesum>
+   <play hasball="GIA" down="4" togo="6" spot="GIA35" context="H,4,6,H35" playid="11,11,74" type="K"
+      text="Cano Ruiz Joe. kickoff 50 yards to the THU15, Girelli T. return 22 yards to the THU37 (Cano Ruiz Jor.)." newcontext="V,1,10,V37">
+    <p_ko vh="H" name="Cano Ruiz Joe." gain="50"></p_ko>
+    <p_kr vh="V" name="Girelli T." gain="22"></p_kr>
+    <p_tk vh="H" name="Cano Ruiz Jor."></p_tk>
+   </play>
+   <drivestart poss="V,V37,12:00" vh="V" spot="V37" clock="12:00" driveindex="12,74"></drivestart>
+   <play hasball="THU" down="1" togo="10" spot="THU37" context="V,1,10,V37" playid="12,1,75" clock="11:48"
+      text="THUNDERS TRENTO drive start at 11:48." newcontext="V,1,10,V37">
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="THU37" context="V,1,10,V37" playid="12,2,76" type="R"
+      text="Girelli T. rush for loss of 3 yards to the THU34 (Idris D.)." newcontext="V,2,13,V34">
+    <p_ru vh="V" name="Girelli T." gain="-3"></p_ru>
+    <p_tk vh="H" name="Idris D." tfl="Y"></p_tk>
+   </play>
+   <play hasball="THU" down="2" togo="13" spot="THU34" context="V,2,13,V34" playid="12,3,77" type="P"
+      text="Battisti M. pass incomplete to Paolazzi A. (Plattner A.)." newcontext="V,3,13,V34">
+    <p_pa vh="V" qb="Battisti M." result="BRUP" rcv="Paolazzi A."></p_pa>
+    <p_bu vh="H" name="Plattner A."></p_bu>
+   </play>
+   <play hasball="THU" down="3" togo="13" spot="THU34" context="V,3,13,V34" playid="12,4,78" type="E" first="E"
+      text="PENALTY GIA holding (Cano Ruiz Jor.) 10 yards to the THU44, 1ST DOWN THU." newcontext="V,1,10,V44">
+    <p_pn vh="H" code="HO" type="holding" name="Cano Ruiz Jor." result="ACCEPT" at="V34" yards="10"></p_pn>
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="THU44" context="V,1,10,V44" playid="12,5,79" type="P"
+      text="Battisti M. pass incomplete to Vezzoli D. (Cano Ruiz Jor.)." newcontext="V,2,10,V44">
+    <p_pa vh="V" qb="Battisti M." result="BRUP" rcv="Vezzoli D."></p_pa>
+    <p_bu vh="H" name="Cano Ruiz Jor."></p_bu>
+   </play>
+   <play hasball="THU" down="2" togo="10" spot="THU44" context="V,2,10,V44" playid="12,6,80" type="P" first="P"
+      text="Battisti M. pass complete to Paolazzi A. for 14 yards to the GIA42, 1ST DOWN THU, out-of-bounds (Brija O.)." ob="Y" newcontext="V,1,10,H42">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Paolazzi A." gain="14"></p_pa>
+    <p_tk vh="H" name="Brija O."></p_tk>
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA42" context="V,1,10,H42" playid="12,7,81" type="P"
+      text="Battisti M. pass incomplete to Paolazzi A.." newcontext="V,2,10,H42">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Paolazzi A."></p_pa>
+   </play>
+   <play hasball="THU" down="2" togo="10" spot="GIA42" context="V,2,10,H42" playid="12,8,82" type="P"
+      text="Battisti M. pass incomplete to Vezzoli D.." newcontext="V,3,10,H42">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Vezzoli D."></p_pa>
+   </play>
+   <play hasball="THU" down="3" togo="10" spot="GIA42" context="V,3,10,H42" playid="12,9,83" type="P" first="P"
+      text="Battisti M. pass complete to Boscia B. for 31 yards to the GIA11, 1ST DOWN THU (Cano Ruiz Jor.)." newcontext="V,1,10,H11">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Boscia B." gain="31"></p_pa>
+    <p_tk vh="H" name="Cano Ruiz Jor."></p_tk>
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA11" context="V,1,10,H11" playid="12,10,84" type="P"
+      text="Battisti M. pass incomplete to Paolazzi A. (Plattner A.)." newcontext="V,2,10,H11">
+    <p_pa vh="V" qb="Battisti M." result="BRUP" rcv="Paolazzi A."></p_pa>
+    <p_bu vh="H" name="Plattner A."></p_bu>
+   </play>
+   <play hasball="THU" down="2" togo="10" spot="GIA11" context="V,2,10,H11" playid="12,11,85" type="R"
+      text="Girelli T. rush for 6 yards to the GIA5 (Vitale D.)." newcontext="V,3,4,H05">
+    <p_ru vh="V" name="Girelli T." gain="6"></p_ru>
+    <p_tk vh="H" name="Vitale D."></p_tk>
+   </play>
+   <play hasball="THU" down="3" togo="4" spot="GIA05" context="V,3,4,H05" playid="12,12,86" type="E"
+      text="PENALTY THU illegal block (Girelli T.) 15 yards to the GIA20." newcontext="V,3,19,H20">
+    <p_pn vh="V" code="BL" type="illegal block" name="Girelli T." result="ACCEPT" at="H05" yards="15"></p_pn>
+   </play>
+   <play hasball="THU" down="3" togo="19" spot="GIA20" context="V,3,19,H20" playid="12,13,87" type="P"
+      text="Battisti M. pass incomplete to Boscia B.." newcontext="V,4,19,H20">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Boscia B."></p_pa>
+   </play>
+   <play hasball="THU" down="4" togo="19" spot="GIA20" context="V,4,19,H20" playid="12,14,88" type="P"
+      text="Battisti M. pass complete to Girelli T. for 13 yards to the GIA7 (Plattner A.)." newcontext="H,1,10,H07">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Girelli T." gain="13"></p_pa>
+    <p_tk vh="H" name="Plattner A."></p_tk>
+   </play>
+   <drivesum plays="11" yards="56" top="3:33" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="H,H07,11:48" vh="H" spot="H07" clock="11:48" driveindex="13,88"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA07" context="H,1,10,H07" playid="13,1,89" clock="08:15"
+      text="GIANTS BOLZANO drive start at 08:15." newcontext="H,1,10,H07">
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA07" context="H,1,10,H07" playid="13,2,90" type="R"
+      text="Plattner A. pass incomplete, Plattner A. rush for 7 yards to the GIA14 (Cattoi L.;Micheli M.)." newcontext="H,3,3,H14">
+    <p_ru vh="H" name="Plattner A." gain="7"></p_ru>
+    <p_pa vh="H" qb="Plattner A." result="INC"></p_pa>
+    <p_tk vh="V" name="Cattoi L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Micheli M." assist="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="3" togo="3" spot="GIA14" context="H,3,3,H14" playid="13,3,91" type="P"
+      text="Plattner A. pass incomplete." newcontext="H,4,3,H14">
+    <p_pa vh="H" qb="Plattner A." result="INC"></p_pa>
+   </play>
+   <play hasball="GIA" down="4" togo="3" spot="GIA14" context="H,4,3,H14" playid="13,4,92" type="U"
+      text="Plattner A. punt 27 yards to the GIA41." newcontext="V,1,10,H41">
+    <p_pu vh="H" name="Plattner A." gain="27"></p_pu>
+   </play>
+   <drivesum plays="3" yards="7" top="1:03" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="V,H41,08:15" vh="V" spot="H41" clock="08:15" driveindex="14,92"></drivestart>
+   <play hasball="THU" down="1" togo="10" spot="GIA41" context="V,1,10,H41" playid="14,1,93" clock="07:12"
+      text="THUNDERS TRENTO drive start at 07:12." newcontext="V,1,10,H41">
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA41" context="V,1,10,H41" playid="14,2,94" type="R"
+      text="PENALTY GIA offside defense (Brija O.) 5 yards to the GIA36, Girelli T. rush for 4 yards to the GIA32 (Storari S.)." newcontext="V,2,1,H32">
+    <p_ru vh="V" name="Girelli T." gain="4"></p_ru>
+    <p_tk vh="H" name="Storari S."></p_tk>
+    <p_pn vh="H" code="OD" type="offside defense" name="Brija O." result="ACCEPT" at="H41" yards="5"></p_pn>
+   </play>
+   <play hasball="THU" down="2" togo="1" spot="GIA32" context="V,2,1,H32" playid="14,3,95" type="R" first="R"
+      text="Battisti M. rush for 6 yards to the GIA26, 1ST DOWN THU, out-of-bounds." ob="Y" newcontext="V,1,10,H26">
+    <p_ru vh="V" name="Battisti M." gain="6"></p_ru>
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA26" context="V,1,10,H26" playid="14,4,96" type="P"
+      text="Battisti M. pass incomplete to Vezzoli D.." newcontext="V,2,10,H26">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Vezzoli D."></p_pa>
+   </play>
+   <play hasball="THU" down="2" togo="10" spot="GIA26" context="V,2,10,H26" playid="14,5,97" type="P" first="P"
+      text="Battisti M. pass complete to Solai C. for 11 yards to the GIA15, 1ST DOWN THU (Vitale D.)." newcontext="V,1,10,H15">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Solai C." gain="11"></p_pa>
+    <p_tk vh="H" name="Vitale D."></p_tk>
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA15" context="V,1,10,H15" playid="14,6,98" type="R"
+      text="Battisti M. rush for 8 yards to the GIA7, out-of-bounds." ob="Y" newcontext="V,2,2,H07">
+    <p_ru vh="V" name="Battisti M." gain="8"></p_ru>
+   </play>
+   <play hasball="THU" down="2" togo="2" spot="GIA07" context="V,2,2,H07" playid="14,7,99" type="P"
+      text="Battisti M. pass incomplete to Girelli T.." newcontext="V,3,2,H07">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Girelli T."></p_pa>
+   </play>
+   <play hasball="THU" down="3" togo="2" spot="GIA07" context="V,3,2,H07" playid="14,8,100" type="P"
+      text="Battisti M. pass incomplete to Paolazzi A.." newcontext="V,4,2,H07">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Paolazzi A."></p_pa>
+   </play>
+   <play hasball="THU" down="4" togo="2" spot="GIA07" context="V,4,2,H07" playid="14,9,101" type="R" first="R"
+      text="Boscia B. rush for 5 yards to the GIA2, 1ST DOWN THU (Cano Ruiz Jor.)." newcontext="V,1,0,H02">
+    <p_ru vh="V" name="Boscia B." gain="5"></p_ru>
+    <p_tk vh="H" name="Cano Ruiz Jor."></p_tk>
+   </play>
+   <play hasball="THU" down="1" togo="0" spot="GIA02" context="V,1,0,H02" playid="14,10,102" type="R" score="Y" clock="04:24"
+      text="Battisti M. rush for 2 yards to the GIA0, TOUCHDOWN, clock 04:24." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Battisti M." gain="2"></p_ru>
+   </play>
+   <play hasball="THU" down="1" togo="0" spot="GIA03" context="V,1,0,H03" playid="14,11,103" type="X" score="Y"
+      text="Paolazzi A. kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Paolazzi A." qb="Paolazzi A." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="14" H="13"></score>
+   <drivesum plays="9" yards="41" top="2:48" driveindex="14" complete="Y"></drivesum>
+   <play hasball="THU" down="1" togo="0" spot="THU35" context="V,1,0,V35" playid="14,12,104" type="K"
+      text="Caicedo Vive K. kickoff 50 yards to the GIA15, Plattner A. return 14 yards to the GIA29 (Falai D.)." newcontext="H,1,10,H29">
+    <p_ko vh="V" name="Caicedo Vive K." gain="50"></p_ko>
+    <p_kr vh="H" name="Plattner A." gain="14"></p_kr>
+    <p_tk vh="V" name="Falai D."></p_tk>
+   </play>
+   <drivestart poss="H,H29,04:24" vh="H" spot="H29" clock="04:24" driveindex="15,104"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA29" context="H,1,10,H29" playid="15,1,105" clock="04:17"
+      text="GIANTS BOLZANO drive start at 04:17." newcontext="H,1,10,H29">
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA29" context="H,1,10,H29" playid="15,2,106" type="P" first="P"
+      text="Plattner A. pass complete to Cano Ruiz Joe. for 22 yards to the THU49, 1ST DOWN GIA (Cattoi L.;Perri F.)." newcontext="H,1,10,V49">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Cano Ruiz Joe." gain="22"></p_pa>
+    <p_tk vh="V" name="Cattoi L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Perri F." assist="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU49" context="H,1,10,V49" playid="15,3,107" type="E"
+      text="PENALTY GIA false start (Diene P.) 5 yards to the GIA46." newcontext="H,1,15,H46">
+    <p_pn vh="H" code="FS" type="false start" name="Diene P." result="ACCEPT" at="V49" yards="5"></p_pn>
+   </play>
+   <play hasball="GIA" down="1" togo="15" spot="GIA46" context="H,1,15,H46" playid="15,4,108" type="R"
+      text="Plattner A. rush for 13 yards to the THU41 (Cattoi L.;Giuliani M.)." newcontext="H,2,2,V41">
+    <p_ru vh="H" name="Plattner A." gain="13"></p_ru>
+    <p_tk vh="V" name="Cattoi L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Giuliani M." assist="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="2" togo="2" spot="THU41" context="H,2,2,V41" playid="15,5,109" type="P" first="P"
+      text="Plattner A. pass complete to Diene P. for 20 yards to the THU21, 1ST DOWN GIA (Perri F.)." newcontext="H,1,10,V21">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Diene P." gain="20"></p_pa>
+    <p_tk vh="V" name="Perri F."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU21" context="H,1,10,V21" playid="15,6,110" type="R"
+      text="Plattner A. rush for 1 yard to the THU20 (Granello M.)." newcontext="H,2,9,V20">
+    <p_ru vh="H" name="Plattner A." gain="1"></p_ru>
+    <p_tk vh="V" name="Granello M."></p_tk>
+   </play>
+   <play hasball="GIA" down="2" togo="9" spot="THU20" context="H,2,9,V20" playid="15,7,111" type="P" turnover="I"
+      text="Plattner A. pass intercepted by Cristofolett S. at the THU1, Cristofolett S. return 9 yards to the THU10 (Catizone D.)." newcontext="V,1,10,V10">
+    <p_pa vh="H" qb="Plattner A." result="INT"></p_pa>
+    <p_ir vh="V" name="Cristofolett S." at="V01" gain="9"></p_ir>
+    <p_tk vh="H" name="Catizone D."></p_tk>
+   </play>
+   <drivesum plays="5" yards="51" top="3:34" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V10,04:17" vh="V" spot="V10" clock="04:17" driveindex="16,111"></drivestart>
+   <play hasball="THU" down="1" togo="10" spot="THU10" context="V,1,10,V10" playid="16,1,112" clock="00:43"
+      text="THUNDERS TRENTO drive start at 00:43." newcontext="V,1,10,V10">
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="THU10" context="V,1,10,V10" playid="16,2,113" type="P"
+      text="Battisti M. pass complete to Paolazzi A. for 3 yards to the THU13 (Plattner A.)." newcontext="V,2,7,V13">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Paolazzi A." gain="3"></p_pa>
+    <p_tk vh="H" name="Plattner A."></p_tk>
+   </play>
+   <play hasball="THU" down="2" togo="7" spot="THU13" context="V,2,7,V13" playid="16,3,114" type="P"
+      text="Battisti M. pass complete to Boscia D. for loss of 2 yards to the THU11 (Cano Ruiz Jor.)." newcontext="V,3,9,V11">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Boscia D." gain="-2"></p_pa>
+    <p_tk vh="H" name="Cano Ruiz Jor." tfl="Y"></p_tk>
+   </play>
+   <play hasball="THU" down="3" togo="9" spot="THU11" context="V,3,9,V11" playid="16,4,115" type="P"
+      text="Battisti M. pass incomplete to Boscia B.." newcontext="V,4,9,V11">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Boscia B."></p_pa>
+   </play>
+   <score qtr="3" V="14" H="13"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="THU">
+    <firstdowns no="6" rush="2" pass="3" penalty="1"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:16"></misc>
+    <rush att="7" yds="28" gain="31" loss="3" td="1" long="0"></rush>
+    <pass comp="6" att="16" int="0" yds="70" td="0" long="2" sacks="0" sackyds="0"></pass>
+    <rcv no="6" yds="70" td="0" long="2"></rcv>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="3" tacka="6" tot_tack="9" sacks="0" sackyds="0" int="1" intyds="9"></defense>
+    <kr no="1" yds="22" td="0" long="0"></kr>
+    <ir no="1" yds="9" td="0" long="8"></ir>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIA">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="3" yds="20"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:44"></misc>
+    <rush att="3" yds="21" gain="21" loss="0" td="0" long="0"></rush>
+    <pass comp="2" att="5" int="1" yds="42" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="42" td="0" long="0"></rcv>
+    <punt no="1" yds="27" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="27.0"></punt>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <defense tackua="12" tacka="0" tot_tack="12" tflua="2" tfla="0" tflyds="5" sacks="1" sackyds="11" brup="3"></defense>
+    <kr no="1" yds="14" td="0" long="0"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="THU" down="4" togo="9" spot="THU11" context="V,4,9,V11" playid="16,5,116" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="V,4,9,V11">
+   </play>
+   <play hasball="THU" down="4" togo="9" spot="THU11" context="V,4,9,V11" playid="16,6,117" type="U"
+      text="Paolazzi A. punt 48 yards to the GIA41." newcontext="H,1,10,H41">
+    <p_pu vh="V" name="Paolazzi A." gain="48"></p_pu>
+   </play>
+   <drivesum plays="3" yards="1" top="1:00" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="H,H41,12:00" vh="H" spot="H41" clock="12:00" driveindex="17,117"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA41" context="H,1,10,H41" playid="17,1,118" clock="11:43"
+      text="GIANTS BOLZANO drive start at 11:43." newcontext="H,1,10,H41">
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA41" context="H,1,10,H41" playid="17,2,119" type="E" first="E"
+      text="PENALTY THU pass interference (Micheli M.) 15 yards to the THU44, 1ST DOWN GIA." newcontext="H,1,10,V44">
+    <p_pn vh="V" code="PI" type="pass interference" name="Micheli M." result="ACCEPT" at="H41" yards="15"></p_pn>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU44" context="H,1,10,V44" playid="17,3,120" type="P"
+      text="Plattner A. pass incomplete." newcontext="H,2,10,V44">
+    <p_pa vh="H" qb="Plattner A." result="INC"></p_pa>
+   </play>
+   <play hasball="GIA" down="2" togo="10" spot="THU44" context="H,2,10,V44" playid="17,4,121" type="R"
+      text="Plattner A. rush for 9 yards to the THU35 (Cattoi L.)." newcontext="H,3,1,V35">
+    <p_ru vh="H" name="Plattner A." gain="9"></p_ru>
+    <p_tk vh="V" name="Cattoi L."></p_tk>
+   </play>
+   <play hasball="GIA" down="3" togo="1" spot="THU35" context="H,3,1,V35" playid="17,5,122" type="E"
+      text="PENALTY GIA illegal shift 5 yards to the THU40." newcontext="H,3,6,V40">
+    <p_pn vh="H" code="SH" type="illegal shift" result="ACCEPT" at="V35" yards="5"></p_pn>
+   </play>
+   <play hasball="GIA" down="3" togo="6" spot="THU40" context="H,3,6,V40" playid="17,6,123" type="P"
+      text="Cano Ruiz Joe. sacked for loss of 6 yards to the THU46 (Detone M.)." newcontext="H,4,12,V46">
+    <p_pa vh="H" qb="Cano Ruiz Joe." result="SACK" gain="-6"></p_pa>
+    <p_tk vh="V" name="Detone M." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="4" togo="12" spot="THU46" context="H,4,12,V46" playid="17,7,124" type="P" first="P"
+      text="Plattner A. pass complete to Diene P. for 19 yards to the THU27, 1ST DOWN GIA (Cattoi L.)." newcontext="H,1,10,V27">
+    <p_pa vh="H" qb="Plattner A." result="COMP" rcv="Diene P." gain="19"></p_pa>
+    <p_tk vh="V" name="Cattoi L."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="THU27" context="H,1,10,V27" playid="17,8,125" type="P"
+      text="Plattner A. pass incomplete." newcontext="H,2,10,V27">
+    <p_pa vh="H" qb="Plattner A." result="INC"></p_pa>
+   </play>
+   <play hasball="GIA" down="2" togo="10" spot="THU27" context="H,2,10,V27" playid="17,9,126" type="P" turnover="I"
+      text="Plattner A. pass intercepted by Perri F. at the THU10, Perri F. return 24 yards to the THU34, out-of-bounds." ob="Y" newcontext="V,1,10,V34">
+    <p_pa vh="H" qb="Plattner A." result="INT"></p_pa>
+    <p_ir vh="V" name="Perri F." at="V10" gain="24"></p_ir>
+   </play>
+   <drivesum plays="6" yards="32" top="4:13" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="V,V34,11:43" vh="V" spot="V34" clock="11:43" driveindex="18,126"></drivestart>
+   <play hasball="THU" down="1" togo="10" spot="THU34" context="V,1,10,V34" playid="18,1,127" clock="07:30"
+      text="THUNDERS TRENTO drive start at 07:30." newcontext="V,1,10,V34">
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="THU34" context="V,1,10,V34" playid="18,2,128" type="R"
+      text="Mosaner M. rush for loss of 6 yards to the THU28 (Brija O.;Catizone D.)." newcontext="V,2,16,V28">
+    <p_ru vh="V" name="Mosaner M." gain="-6"></p_ru>
+    <p_tk vh="H" name="Brija O." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="H" name="Catizone D." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="THU" down="2" togo="16" spot="THU28" context="V,2,16,V28" playid="18,3,129" type="P" first="P"
+      text="Battisti M. pass complete to Vezzoli D. for 24 yards to the GIA48, 1ST DOWN THU (Plattner A.;Plattner W.)." newcontext="V,1,10,H48">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Vezzoli D." gain="24"></p_pa>
+    <p_tk vh="H" name="Plattner A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Plattner W." assist="Y"></p_tk>
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA48" context="V,1,10,H48" playid="18,4,130" type="P" first="P"
+      text="Battisti M. pass complete to Girelli T. for 19 yards to the GIA29, 1ST DOWN THU (Bilcari O.;Brija O.)." newcontext="V,1,10,H29">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Girelli T." gain="19"></p_pa>
+    <p_tk vh="H" name="Bilcari O." assist="Y"></p_tk>
+    <p_tk vh="H" name="Brija O." assist="Y"></p_tk>
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA29" context="V,1,10,H29" playid="18,5,131" type="R"
+      text="Battisti M. rush for 1 yard to the GIA28, out-of-bounds." ob="Y" newcontext="V,2,9,H28">
+    <p_ru vh="V" name="Battisti M." gain="1"></p_ru>
+   </play>
+   <play hasball="THU" down="2" togo="9" spot="GIA28" context="V,2,9,H28" playid="18,6,132" type="R" first="R"
+      text="Boscia B. rush for 10 yards to the GIA18, 1ST DOWN THU (Cano Ruiz Jor.;Storari S.)." newcontext="V,1,10,H18">
+    <p_ru vh="V" name="Boscia B." gain="10"></p_ru>
+    <p_tk vh="H" name="Cano Ruiz Jor." assist="Y"></p_tk>
+    <p_tk vh="H" name="Storari S." assist="Y"></p_tk>
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA18" context="V,1,10,H18" playid="18,7,133" type="P"
+      text="Battisti M. pass incomplete to Solai C.." newcontext="V,2,10,H18">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Solai C."></p_pa>
+   </play>
+   <play hasball="THU" down="2" togo="10" spot="GIA18" context="V,2,10,H18" playid="18,8,134" type="R"
+      text="Girelli T. rush for 2 yards to the GIA16 (Catizone D.)." newcontext="V,3,8,H16">
+    <p_ru vh="V" name="Girelli T." gain="2"></p_ru>
+    <p_tk vh="H" name="Catizone D."></p_tk>
+   </play>
+   <play hasball="THU" down="3" togo="8" spot="GIA16" context="V,3,8,H16" playid="18,9,135" type="E"
+      text="PENALTY THU offside (Romanel N.) 5 yards to the GIA21." newcontext="V,3,13,H21">
+    <p_pn vh="V" code="OS" type="offside" name="Romanel N." result="ACCEPT" at="H16" yards="5"></p_pn>
+   </play>
+   <play hasball="THU" down="3" togo="13" spot="GIA21" context="V,3,13,H21" playid="18,10,136" type="P"
+      text="Battisti M. pass incomplete to Solai C.." newcontext="V,4,13,H21">
+    <p_pa vh="V" qb="Battisti M." result="INC" rcv="Solai C."></p_pa>
+   </play>
+   <play hasball="THU" down="4" togo="13" spot="GIA21" context="V,4,13,H21" playid="18,11,137" type="P" first="P" score="Y" clock="03:41"
+      text="Battisti M. pass complete to Boscia B. for 21 yards to the GIA0, 1ST DOWN THU, TOUCHDOWN, clock 03:41." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Boscia B." gain="21"></p_pa>
+   </play>
+   <play hasball="THU" down="1" togo="0" spot="GIA03" context="V,1,0,H03" playid="18,12,138" type="X" score="Y"
+      text="Boscia B. pass attempt to Vezzoli D. good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Vezzoli D." qb="Boscia B." type="P" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="22" H="13"></score>
+   <drivesum plays="9" yards="66" top="3:49" driveindex="18" complete="Y"></drivesum>
+   <play hasball="THU" down="1" togo="0" spot="THU35" context="V,1,0,V35" playid="18,13,139" type="K"
+      text="Caicedo Vive K. kickoff 50 yards to the GIA15, Cano Ruiz Jor. return 10 yards to the GIA25 (Cattoi L.;Girelli T.)." newcontext="H,1,10,H25">
+    <p_ko vh="V" name="Caicedo Vive K." gain="50"></p_ko>
+    <p_kr vh="H" name="Cano Ruiz Jor." gain="10"></p_kr>
+    <p_tk vh="V" name="Cattoi L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Girelli T." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="H,H25,03:41" vh="H" spot="H25" clock="03:41" driveindex="19,139"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA25" context="H,1,10,H25" playid="19,1,140" clock="03:29"
+      text="GIANTS BOLZANO drive start at 03:29." newcontext="H,1,10,H25">
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA25" context="H,1,10,H25" playid="19,2,141" type="P" first="P"
+      text="Cano Ruiz Joe. pass complete to Diene P. for 14 yards to the GIA39, 1ST DOWN GIA (Cattoi L.)." newcontext="H,1,10,H39">
+    <p_pa vh="H" qb="Cano Ruiz Joe." result="COMP" rcv="Diene P." gain="14"></p_pa>
+    <p_tk vh="V" name="Cattoi L."></p_tk>
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA39" context="H,1,10,H39" playid="19,3,142" type="P"
+      text="Cano Ruiz Joe. sacked for loss of 30 yards to the GIA9 (Detone M.)." newcontext="H,2,40,H09">
+    <p_pa vh="H" qb="Cano Ruiz Joe." result="SACK" gain="-30"></p_pa>
+    <p_tk vh="V" name="Detone M." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="2" togo="40" spot="GIA09" context="H,2,40,H09" playid="19,4,143" type="P"
+      text="Cano Ruiz Joe. pass incomplete to Diene P., dropped pass." newcontext="H,3,40,H09">
+    <p_pa vh="H" qb="Cano Ruiz Joe." result="DROP" rcv="Diene P."></p_pa>
+   </play>
+   <play hasball="GIA" down="3" togo="40" spot="GIA09" context="H,3,40,H09" playid="19,5,144" type="R"
+      text="Cano Ruiz Joe. rush for 3 yards to the GIA12, out-of-bounds (Perri F.)." ob="Y" newcontext="H,4,37,H12">
+    <p_ru vh="H" name="Cano Ruiz Joe." gain="3"></p_ru>
+    <p_tk vh="V" name="Perri F."></p_tk>
+   </play>
+   <play hasball="GIA" down="4" togo="37" spot="GIA12" context="H,4,37,H12" playid="19,6,145" type="U"
+      text="Cano Ruiz Jor. punt 19 yards to the GIA31." newcontext="V,1,10,H31">
+    <p_pu vh="H" name="Cano Ruiz Jor." gain="19"></p_pu>
+   </play>
+   <drivesum plays="4" yards="-13" top="1:31" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="V,H31,03:29" vh="V" spot="H31" clock="03:29" driveindex="20,145"></drivestart>
+   <play hasball="THU" down="1" togo="10" spot="GIA31" context="V,1,10,H31" playid="20,1,146" clock="01:58"
+      text="THUNDERS TRENTO drive start at 01:58." newcontext="V,1,10,H31">
+   </play>
+   <play hasball="THU" down="1" togo="10" spot="GIA31" context="V,1,10,H31" playid="20,2,147" type="P" first="P"
+      text="Battisti M. pass complete to Scardia R. for 25 yards to the GIA6, 1ST DOWN THU (Bilcari O.)." newcontext="V,1,0,H06">
+    <p_pa vh="V" qb="Battisti M." result="COMP" rcv="Scardia R." gain="25"></p_pa>
+    <p_tk vh="H" name="Bilcari O."></p_tk>
+   </play>
+   <play hasball="THU" down="1" togo="0" spot="GIA06" context="V,1,0,H06" playid="20,3,148" type="R"
+      text="Falai D. rush for 5 yards to the GIA1 (Plattner A.)." newcontext="V,2,0,H01">
+    <p_ru vh="V" name="Falai D." gain="5"></p_ru>
+    <p_tk vh="H" name="Plattner A."></p_tk>
+   </play>
+   <play hasball="THU" down="2" togo="0" spot="GIA01" context="V,2,0,H01" playid="20,4,149" type="R" score="Y" clock="01:04"
+      text="Falai D. rush for 1 yard to the GIA0, TOUCHDOWN, clock 01:04." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Falai D." gain="1"></p_ru>
+   </play>
+   <play hasball="THU" down="1" togo="0" spot="GIA03" context="V,1,0,H03" playid="20,5,150" type="X" score="Y"
+      text="Paolazzi A. kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Paolazzi A." qb="Paolazzi A." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="29" H="13"></score>
+   <drivesum plays="3" yards="31" top="0:54" driveindex="20" complete="Y"></drivesum>
+   <play hasball="THU" down="1" togo="0" spot="THU35" context="V,1,0,V35" playid="20,6,151" type="K"
+      text="Caicedo Vive K. kickoff 53 yards to the GIA12, Cano Ruiz Jor. return 5 yards to the GIA17 (Girelli T.)." newcontext="H,1,10,H17">
+    <p_ko vh="V" name="Caicedo Vive K." gain="53"></p_ko>
+    <p_kr vh="H" name="Cano Ruiz Jor." gain="5"></p_kr>
+    <p_tk vh="V" name="Girelli T."></p_tk>
+   </play>
+   <drivestart poss="H,H17,01:04" vh="H" spot="H17" clock="01:04" driveindex="21,151"></drivestart>
+   <play hasball="GIA" down="1" togo="10" spot="GIA17" context="H,1,10,H17" playid="21,1,152" clock="00:55"
+      text="GIANTS BOLZANO drive start at 00:55." newcontext="H,1,10,H17">
+   </play>
+   <play hasball="GIA" down="1" togo="10" spot="GIA17" context="H,1,10,H17" playid="21,2,153" type="P"
+      text="Plattner A. sacked for loss of 10 yards to the GIA7 (Galliani V.)." newcontext="H,2,20,H07">
+    <p_pa vh="H" qb="Plattner A." result="SACK" gain="-10"></p_pa>
+    <p_tk vh="V" name="Galliani V." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="GIA" down="2" togo="20" spot="GIA07" context="H,2,20,H07" playid="21,3,154" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="H,2,20,H07">
+   </play>
+   <drivesum plays="1" yards="-10" top="0:55" driveindex="21" complete="Y"></drivesum>
+   <score final="Y" V="29" H="13"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="THU">
+    <firstdowns no="5" rush="1" pass="4" penalty="0"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:00"></misc>
+    <rush att="6" yds="13" gain="19" loss="6" td="1" long="0"></rush>
+    <pass comp="4" att="6" int="0" yds="89" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="89" td="1" long="0"></rcv>
+    <punt no="1" yds="48" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="48.0"></punt>
+    <ko no="2" yds="103" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="8" tacka="2" tot_tack="10" tflua="3" tfla="0" tflyds="46" sacks="3" sackyds="46" int="1" intyds="24"></defense>
+    <ir no="1" yds="24" td="0" long="15"></ir>
+    <scoring td="2" patkick="1" patrcv="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIA">
+    <firstdowns no="3" rush="0" pass="2" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:00"></misc>
+    <rush att="5" yds="-34" gain="12" loss="46" td="0" long="0"></rush>
+    <pass comp="2" att="6" int="1" yds="33" td="0" long="0" sacks="3" sackyds="46"></pass>
+    <rcv no="2" yds="33" td="0" long="0"></rcv>
+    <punt no="1" yds="19" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="19.0"></punt>
+    <defense tackua="3" tacka="8" tot_tack="11" tflua="2" tfla="0" tflyds="12" sacks="1" sackyds="11"></defense>
+    <kr no="2" yds="15" td="0" long="0"></kr>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="H" id="GIA" down="2" togo="20" spot="GIA07" context="H,2,20,H07" qtr="4" clock="00:00" vtoh="0" htoh="0"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="THU">
+  <player name="Bernardi F." checkname="F.,BERNARDI" uni="23" gp="0" code="23"></player>
+  <player name="Confalone F." checkname="F.,CONFALONE" uni="54" gp="0" code="54"></player>
+  <player name="Margoni S." checkname="S.,MARGONI" uni="63" gp="0" code="63"></player>
+  <player name="Paternoster D." checkname="D.,PATERNOSTER" uni="73" gp="0" code="73"></player>
+  <player name="Grotto L." checkname="L.,GROTTO" uni="81" gp="0" code="81"></player>
+  <player name="Ghisio F." checkname="F.,GHISIO" uni="21" gp="0" code="21"></player>
+  <player name="Ress P." checkname="P.,RESS" uni="88" gp="0" code="88"></player>
+  <player name="Lissandrini D." checkname="D.,LISSANDRINI" uni="90" gp="0" code="90"></player>
+ </dnp>
+ <dnp vh="H" id="GIA">
+  <player name="Rederleckner T." checkname="T.,REDERLECKNER" uni="39" gp="0" code="39"></player>
+  <player name="Brunner L." checkname="L.,BRUNNER" uni="42" gp="0" code="42"></player>
+  <player name="Vera Paitan R." checkname="PAITAN R.,VERA" uni="55" gp="0" code="55"></player>
+  <player name="Plattner S." checkname="S.,PLATTNER" uni="69" gp="0" code="69"></player>
+  <player name="Neulichedl N." checkname="N.,NEULICHEDL" uni="83" gp="0" code="83"></player>
+  <player name="87" checkname="" uni="87" gp="0" code="87"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

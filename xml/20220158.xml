@@ -1,0 +1,1243 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220158" visid="TRA" homeid="FAS" visname="Trappers Cecina" homename="West Coast Raiders T"
+      date="5/14/2022" location="Pisa" stadium="C.S. Porta a mare"
+      start="17:30" end="20:09" leaguegame="Y"
+      duration="2:39" attend="70" temp="24 C" wind="No wind" weather="Sunny">
+  <officials ref="Conti A." ump="Napoli D." line="Conti I." lj="Costa S." bj="Vitale D." sc="Difesca S."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="TRA" name="Trappers Cecina" record="2-2" conf-record="2-2" abb="T">
+  <linescore prds="4" line="18,8,6,6" score="38">
+   <lineprd prd="1" score="18"></lineprd>
+   <lineprd prd="2" score="8"></lineprd>
+   <lineprd prd="3" score="6"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals totoff_plays="55" totoff_yards="255" totoff_avg="4.6">
+   <firstdowns no="16" rush="7" pass="8" penalty="1"></firstdowns>
+   <penalties no="6" yds="40"></penalties>
+   <conversions thirdconv="3" thirdatt="9" fourthconv="2" fourthatt="4"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="28:49" ona="0" onm="0"></misc>
+   <redzone att="5" scores="4" points="26" tdrush="4" tdpass="0" fgmade="0" endfga="1" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="33" yds="129" gain="141" loss="12" td="4" long="18"></rush>
+   <pass comp="10" att="22" int="0" yds="126" td="0" long="33" sacks="0" sackyds="0"></pass>
+   <rcv no="10" yds="126" td="0" long="33"></rcv>
+   <punt no="1" yds="31" long="31" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="31.0"></punt>
+   <ko no="7" yds="312" ob="0" tb="2"></ko>
+   <fg made="0" att="2" long="0" blkd="0"></fg>
+   <pat kickatt="1" kickmade="0" rushatt="1" rushmade="0" passatt="4" passmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="16" tacka="8" tot_tack="24" tflua="1" tfla="2" tflyds="6" sacks="0" sackyds="0" brup="1" int="1" intyds="10"></defense>
+   <kr no="5" yds="184" td="2" long="57"></kr>
+   <pr no="2" yds="22" td="0" long="13"></pr>
+   <ir no="1" yds="10" td="0" long="10"></ir>
+   <scoring td="6" patrcv="1"></scoring>
+  </totals>
+  <player name="Setti R." shortname="Setti R." checkname="R.,SETTI" uni="11" gp="1" code="11">
+   <rcv no="5" yds="73" td="0" long="33"></rcv>
+   <kr no="3" yds="90" td="0" long="44"></kr>
+   <pr no="2" yds="22" td="0" long="13"></pr>
+  </player>
+  <player name="Setti S." shortname="Setti S." checkname="S.,SETTI" uni="4" gp="1" code="4">
+   <rush att="2" yds="9" gain="9" loss="0" td="0" long="5"></rush>
+   <rcv no="2" yds="24" td="0" long="13"></rcv>
+  </player>
+  <player name="Diagne L." shortname="Diagne L." checkname="L.,DIAGNE" uni="1" gp="1" code="1">
+   <rcv no="2" yds="16" td="0" long="10"></rcv>
+  </player>
+  <player name="Tesi E." shortname="Tesi E." checkname="E.,TESI" uni="88" gp="1" code="88">
+   <rcv no="1" yds="13" td="0" long="13"></rcv>
+   <pat rcvatt="1" rcvmade="1"></pat>
+   <kr no="1" yds="62" td="1" long="57"></kr>
+   <scoring td="1" patrcv="1"></scoring>
+  </player>
+  <player name="Sabbatini A." shortname="Sabbatini A." checkname="A.,SABBATINI" uni="44" gp="1" code="44">
+   <rush att="2" yds="5" gain="5" loss="0" td="1" long="4"></rush>
+   <defense tackua="2" tacka="1" tot_tack="3"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="De Cunzolo A." shortname="De Cunzolo A." checkname="CUNZOLO A.,DE" uni="23" gp="1" code="23">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Nicosia D." shortname="Nicosia D." checkname="D.,NICOSIA" uni="24" gp="1" code="24">
+   <defense tackua="0" tacka="2" tot_tack="2" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Giovannini L." shortname="Giovannini L." checkname="L.,GIOVANNINI" uni="25" gp="1" code="25">
+   <defense tackua="0" tacka="2" tot_tack="2" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Cencetti L." shortname="Cencetti L." checkname="L.,CENCETTI" uni="27" gp="1" code="27">
+   <defense tackua="2" tacka="0" tot_tack="2" int="1" intyds="10"></defense>
+   <ir no="1" yds="10" td="0" long="10"></ir>
+  </player>
+  <player name="Mancini A." shortname="Mancini A." checkname="A.,MANCINI" uni="31" gp="1" code="31">
+  </player>
+  <player name="Tarroni E." shortname="Tarroni E." checkname="E.,TARRONI" uni="8" gp="1" code="8">
+   <rush att="13" yds="32" gain="37" loss="5" td="2" long="10"></rush>
+   <pass comp="10" att="22" int="0" yds="126" td="0" long="33" sacks="0" sackyds="0"></pass>
+   <pat passatt="4" passmade="1"></pat>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Malloggi G." shortname="Malloggi G." checkname="G.,MALLOGGI" uni="42" gp="1" code="42">
+   <punt no="1" yds="31" long="31" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="31.0"></punt>
+   <ko no="7" yds="312" ob="0" tb="2"></ko>
+   <fg made="0" att="2" long="0" blkd="0"></fg>
+   <pat kickatt="1" kickmade="0"></pat>
+   <defense tackua="4" tacka="1" tot_tack="5"></defense>
+  </player>
+  <player name="Paperini J." shortname="Paperini J." checkname="J.,PAPERINI" uni="46" gp="1" code="46">
+   <kr no="1" yds="32" td="1" long="32"></kr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Galvagno A." shortname="Galvagno A." checkname="A.,GALVAGNO" uni="53" gp="1" code="53">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="Sabam Toure D." shortname="Sabam Toure D." checkname="TOURE D.,SABAM" uni="59" gp="1" code="59">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Faenza C." shortname="Faenza C." checkname="C.,FAENZA" uni="62" gp="1" code="62">
+   <defense tackua="2" tacka="0" tot_tack="2" brup="1"></defense>
+  </player>
+  <player name="Garbarino C." shortname="Garbarino C." checkname="C.,GARBARINO" uni="33" gp="1" code="33">
+   <rush att="16" yds="83" gain="90" loss="7" td="1" long="18"></rush>
+   <pat rushatt="1" rushmade="0"></pat>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Dixon T." shortname="Dixon T." checkname="T.,DIXON" uni="99" gp="1" code="99">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="FAS" name="West Coast Raiders T" record="3-1" conf-record="3-1" abb="F">
+  <linescore prds="4" line="12,0,8,8" score="28">
+   <lineprd prd="1" score="12"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="8"></lineprd>
+   <lineprd prd="4" score="8"></lineprd>
+  </linescore>
+  <totals totoff_plays="43" totoff_yards="293" totoff_avg="6.8">
+   <firstdowns no="13" rush="6" pass="5" penalty="2"></firstdowns>
+   <penalties no="5" yds="40"></penalties>
+   <conversions thirdconv="1" thirdatt="9" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="1" lost="0"></fumbles>
+   <misc yds="0" top="19:11" ona="1" onm="0"></misc>
+   <redzone att="1" scores="1" points="8" tdrush="1" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="18" yds="123" gain="136" loss="13" td="1" long="19"></rush>
+   <pass comp="8" att="25" int="1" yds="170" td="3" long="62" sacks="0" sackyds="0"></pass>
+   <rcv no="8" yds="170" td="3" long="62"></rcv>
+   <punt no="5" yds="155" long="50" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="31.0"></punt>
+   <ko no="4" yds="155" ob="0" tb="0"></ko>
+   <pat rushatt="4" rushmade="2" retkatt="1" retkmade="0"></pat>
+   <defense tackua="27" tacka="26" tot_tack="53" tflua="3" tfla="2" tflyds="10" sacks="0" sackyds="0" brup="1" blkd="2"></defense>
+   <kr no="5" yds="30" td="0" long="23"></kr>
+   <scoring td="4" patrush="2"></scoring>
+  </totals>
+  <player name="Giuntoni F." shortname="Giuntoni F." checkname="F.,GIUNTONI" uni="8" gp="1" code="8">
+   <rcv no="3" yds="52" td="1" long="27"></rcv>
+   <ko no="1" yds="41" ob="0" tb="0"></ko>
+   <defense tackua="5" tacka="0" tot_tack="5" brup="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Formisano A." shortname="Formisano A." checkname="A.,FORMISANO" uni="20" gp="1" code="20">
+   <rush att="1" yds="-7" gain="0" loss="7" td="0" long="0"></rush>
+   <rcv no="3" yds="44" td="1" long="28"></rcv>
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+   <kr no="2" yds="32" td="0" long="23"></kr>
+   <fumbles no="1" lost="0"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Mibelli G." shortname="Mibelli G." checkname="G.,MIBELLI" uni="1" gp="1" code="1">
+   <rcv no="1" yds="62" td="1" long="62"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Manfredi G." shortname="Manfredi G." checkname="G.,MANFREDI" uni="13" gp="1" code="13">
+   <rcv no="1" yds="12" td="0" long="12"></rcv>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Fogli G." shortname="Fogli G." checkname="G.,FOGLI" uni="9" gp="1" code="9">
+   <defense tackua="3" tacka="7" tot_tack="10" tflua="0" tfla="1" tflyds="2" blkd="2"></defense>
+  </player>
+  <player name="Fedeli G." shortname="Fedeli G." checkname="G.,FEDELI" uni="2" gp="1" code="2">
+   <rush att="6" yds="37" gain="39" loss="2" td="0" long="19"></rush>
+   <pass comp="8" att="25" int="1" yds="170" td="3" long="62" sacks="0" sackyds="0"></pass>
+   <punt no="5" yds="155" long="50" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="31.0"></punt>
+   <pat rushatt="2" rushmade="1"></pat>
+   <scoring patrush="1"></scoring>
+  </player>
+  <player name="Senesi R." shortname="Senesi R." checkname="R.,SENESI" uni="14" gp="1" code="14">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Gabbrielli M." shortname="Gabbrielli M." checkname="M.,GABBRIELLI" uni="6" gp="1" code="6">
+   <defense tackua="3" tacka="2" tot_tack="5"></defense>
+  </player>
+  <player name="Sonna Temgou Y." shortname="Sonna Temgou Y." checkname="TEMGOU Y.,SONNA" uni="22" gp="1" code="22">
+   <defense tackua="3" tacka="2" tot_tack="5"></defense>
+  </player>
+  <player name="Cardelli F." shortname="Cardelli F." checkname="F.,CARDELLI" uni="27" gp="1" code="27">
+   <ko no="3" yds="114" ob="0" tb="0"></ko>
+   <pat rushatt="1" rushmade="0"></pat>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Recce A." shortname="Recce A." checkname="A.,RECCE" uni="28" gp="1" code="28">
+   <rush att="11" yds="93" gain="97" loss="4" td="1" long="19"></rush>
+   <pat rushatt="1" rushmade="1"></pat>
+   <defense tackua="1" tacka="3" tot_tack="4"></defense>
+   <scoring td="1" patrush="1"></scoring>
+  </player>
+  <player name="Magni M." shortname="Magni M." checkname="M.,MAGNI" uni="52" gp="1" code="52">
+   <defense tackua="1" tacka="4" tot_tack="5" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Hopson D." shortname="Hopson D." checkname="D.,HOPSON" uni="54" gp="1" code="54">
+   <defense tackua="3" tacka="2" tot_tack="5"></defense>
+  </player>
+  <player name="Borelli A." shortname="Borelli A." checkname="A.,BORELLI" uni="60" gp="1" code="60">
+   <kr no="3" yds="-2" td="0" long="0"></kr>
+  </player>
+  <player name="Casetta E." shortname="Casetta E." checkname="E.,CASETTA" uni="63" gp="1" code="63">
+   <defense tackua="1" tacka="2" tot_tack="3" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Calvi Di Coe M." shortname="Calvi Di Coe M." checkname="DI COE M.,CALVI" uni="99" gp="1" code="99">
+   <pat retkatt="1" retkmade="0"></pat>
+   <defense tackua="1" tacka="2" tot_tack="3" tflua="1" tfla="0" tflyds="4"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="FAS" qtr="1" clock="05:10" type="TD" how="PASS" yds="28" scorer="Formisano A." passer="Fedeli G." patby="Cardelli F." pattype="RUSH" patres="FAIL" plays="2" drive="40" top="0:49" vscore="0" hscore="6" driveindex="3"></score>
+  <score vh="V" team="TRA" qtr="1" clock="05:10" type="TD" how="KO" yds="32" scorer="Paperini J." patby="Malloggi G." pattype="KICK" patres="BLKD" vscore="6" hscore="6" driveindex="4"></score>
+  <score vh="H" team="FAS" qtr="1" clock="04:28" type="TD" how="PASS" yds="62" scorer="Mibelli G." passer="Fedeli G." patby="Fedeli G." pattype="RUSH" patres="FUMB" plays="1" drive="57" top="0:31" vscore="6" hscore="12" driveindex="5"></score>
+  <score vh="V" team="TRA" qtr="1" clock="04:13" type="TD" how="KO" yds="57" scorer="Tesi E." patby="Tarroni E." pattype="PASS" patres="INT" vscore="12" hscore="12" driveindex="6"></score>
+  <score vh="V" team="TRA" qtr="1" clock="00:00" type="TD" how="RUSH" yds="1" scorer="Sabbatini A." patby="Garbarino C." pattype="RUSH" patres="FAIL" plays="4" drive="50" top="1:24" vscore="18" hscore="12" driveindex="8"></score>
+  <score vh="V" team="TRA" qtr="2" clock="06:00" type="TD" how="RUSH" yds="1" scorer="Tarroni E." patby="Tesi E." pattype="PASS" patres="GOOD" plays="8" drive="36" top="4:48" vscore="26" hscore="12" driveindex="10"></score>
+  <score vh="H" team="FAS" qtr="3" clock="04:34" type="TD" how="RUSH" yds="18" scorer="Recce A." patby="Recce A." pattype="RUSH" patres="GOOD" plays="8" drive="70" top="3:58" vscore="26" hscore="20" driveindex="17"></score>
+  <score vh="V" team="TRA" qtr="3" clock="00:44" type="TD" how="RUSH" yds="10" scorer="Garbarino C." patby="Tarroni E." pattype="PASS" patres="FAIL" plays="6" drive="30" top="3:42" vscore="32" hscore="20" driveindex="18"></score>
+  <score vh="H" team="FAS" qtr="4" clock="11:45" type="TD" how="PASS" yds="27" scorer="Giuntoni F." passer="Fedeli G." patby="Fedeli G." pattype="RUSH" patres="GOOD" plays="3" drive="51" top="0:52" vscore="32" hscore="28" driveindex="19"></score>
+  <score vh="V" team="TRA" qtr="4" clock="02:52" type="TD" how="RUSH" yds="4" scorer="Tarroni E." patby="Tarroni E." pattype="PASS" patres="FAIL" plays="8" drive="57" top="4:55" vscore="38" hscore="28" driveindex="22"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="TRA" kicker="Malloggi G." qtr="2" clock="00:00" distance="48" result="missed"></fga>
+  <fga vh="V" team="TRA" kicker="Malloggi G." qtr="3" clock="08:32" distance="34" result="missed"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="FAS" start="KO,1,12:00,33" end="PUNT,1,09:25,39" plays="3" yards="6" top="2:35" start_how="KO" start_qtr="1" start_time="12:00" start_spot="FAS33" end_how="PUNT" end_qtr="1" end_time="09:25" end_spot="FAS39" driveindex="1"></drive>
+  <drive vh="V" team="TRA" start="PUNT,1,09:25,1" end="PUNT,1,05:59,9" plays="6" yards="8" top="3:26" start_how="PUNT" start_qtr="1" start_time="09:25" start_spot="TRA01" end_how="PUNT" end_qtr="1" end_time="05:59" end_spot="TRA09" driveindex="2"></drive>
+  <drive vh="H" team="FAS" start="PUNT,1,05:59,50" end="TD,1,05:10,90" plays="2" yards="40" top="0:49" start_how="PUNT" start_qtr="1" start_time="05:59" start_spot="TRA40" end_how="TD" end_qtr="1" end_time="05:10" end_spot="TRA00" driveindex="3"></drive>
+  <drive vh="V" team="TRA" start="KO,1,05:10,90" end="TD,1,05:10,90" plays="0" yards="0" top="0:00" start_how="KO" start_qtr="1" start_time="05:10" start_spot="FAS00" end_how="TD" end_qtr="1" end_time="05:10" end_spot="FAS00" driveindex="4"></drive>
+  <drive vh="H" team="FAS" start="KO,1,04:59,33" end="TD,1,04:28,90" plays="1" yards="57" top="0:31" start_how="KO" start_qtr="1" start_time="04:59" start_spot="FAS33" end_how="TD" end_qtr="1" end_time="04:28" end_spot="TRA00" driveindex="5"></drive>
+  <drive vh="V" team="TRA" start="KO,1,04:13,90" end="TD,1,04:13,90" plays="0" yards="0" top="0:00" start_how="KO" start_qtr="1" start_time="04:13" start_spot="FAS00" end_how="TD" end_qtr="1" end_time="04:13" end_spot="FAS00" driveindex="6"></drive>
+  <drive vh="H" team="FAS" start="KO,1,04:05,20" end="PUNT,1,01:24,39" plays="4" yards="19" top="2:41" start_how="KO" start_qtr="1" start_time="04:05" start_spot="FAS20" end_how="PUNT" end_qtr="1" end_time="01:24" end_spot="FAS39" driveindex="7"></drive>
+  <drive vh="V" team="TRA" start="PUNT,1,01:24,40" end="TD,1,00:00,90" plays="4" yards="50" top="1:24" start_how="PUNT" start_qtr="1" start_time="01:24" start_spot="TRA40" end_how="TD" end_qtr="1" end_time="00:00" end_spot="FAS00" rz="1" driveindex="8"></drive>
+  <drive vh="H" team="FAS" start="KO,2,11:55,20" end="PUNT,2,10:48,18" plays="3" yards="-2" top="1:07" start_how="KO" start_qtr="2" start_time="11:55" start_spot="FAS20" end_how="PUNT" end_qtr="2" end_time="10:48" end_spot="FAS18" driveindex="9"></drive>
+  <drive vh="V" team="TRA" start="PUNT,2,10:48,54" end="TD,2,06:00,90" plays="8" yards="36" top="4:48" start_how="PUNT" start_qtr="2" start_time="10:48" start_spot="FAS36" end_how="TD" end_qtr="2" end_time="06:00" end_spot="FAS00" rz="1" driveindex="10"></drive>
+  <drive vh="H" team="FAS" start="KO,2,05:50,16" end="PUNT,2,04:18,17" plays="3" yards="1" top="1:32" start_how="KO" start_qtr="2" start_time="05:50" start_spot="FAS16" end_how="PUNT" end_qtr="2" end_time="04:18" end_spot="FAS17" driveindex="11"></drive>
+  <drive vh="V" team="TRA" start="PUNT,2,04:18,44" end="DOWNS,2,01:41,66" plays="6" yards="22" top="2:37" start_how="PUNT" start_qtr="2" start_time="04:18" start_spot="TRA44" end_how="DOWNS" end_qtr="2" end_time="01:41" end_spot="FAS24" driveindex="12"></drive>
+  <drive vh="H" team="FAS" start="DOWNS,2,01:41,24" end="DOWNS,2,00:29,44" plays="5" yards="20" top="1:12" start_how="DOWNS" start_qtr="2" start_time="01:41" start_spot="FAS24" end_how="DOWNS" end_qtr="2" end_time="00:29" end_spot="FAS44" driveindex="13"></drive>
+  <drive vh="V" team="TRA" start="DOWNS,2,00:29,46" end="FGA,2,00:00,59" plays="4" yards="13" top="0:29" start_how="DOWNS" start_qtr="2" start_time="00:29" start_spot="FAS44" end_how="FGA" end_qtr="2" end_time="00:00" end_spot="FAS31" driveindex="14"></drive>
+  <drive vh="H" team="FAS" start="FGA,2,00:00,31" end="HALF,2,00:00,31" plays="0" yards="0" top="0:00" start_how="FGA" start_qtr="2" start_time="00:00" start_spot="FAS31" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="FAS31" driveindex="15"></drive>
+  <drive vh="V" team="TRA" start="KO,3,11:52,62" end="FGA,3,08:32,73" plays="5" yards="11" top="3:20" start_how="KO" start_qtr="3" start_time="11:52" start_spot="FAS28" end_how="FGA" end_qtr="3" end_time="08:32" end_spot="FAS17" rz="1" driveindex="16"></drive>
+  <drive vh="H" team="FAS" start="FGA,3,08:32,20" end="TD,3,04:34,90" plays="8" yards="70" top="3:58" start_how="FGA" start_qtr="3" start_time="08:32" start_spot="FAS20" end_how="TD" end_qtr="3" end_time="04:34" end_spot="TRA00" rz="1" driveindex="17"></drive>
+  <drive vh="V" team="TRA" start="KO,3,04:26,60" end="TD,3,00:44,90" plays="6" yards="30" top="3:42" start_how="KO" start_qtr="3" start_time="04:26" start_spot="FAS30" end_how="TD" end_qtr="3" end_time="00:44" end_spot="FAS00" rz="1" driveindex="18"></drive>
+  <drive vh="H" team="FAS" start="KO,3,00:37,39" end="TD,4,11:45,90" plays="3" yards="51" top="0:52" start_how="KO" start_qtr="3" start_time="00:37" start_spot="FAS39" end_how="TD" end_qtr="4" end_time="11:45" end_spot="TRA00" driveindex="19"></drive>
+  <drive vh="V" team="TRA" start="KO,4,11:32,30" end="DOWNS,4,09:20,59" plays="5" yards="29" top="2:12" start_how="KO" start_qtr="4" start_time="11:32" start_spot="TRA30" end_how="DOWNS" end_qtr="4" end_time="09:20" end_spot="FAS31" driveindex="20"></drive>
+  <drive vh="H" team="FAS" start="DOWNS,4,09:20,31" end="PUNT,4,07:47,32" plays="3" yards="1" top="1:33" start_how="DOWNS" start_qtr="4" start_time="09:20" start_spot="FAS31" end_how="PUNT" end_qtr="4" end_time="07:47" end_spot="FAS32" driveindex="21"></drive>
+  <drive vh="V" team="TRA" start="PUNT,4,07:47,33" end="TD,4,02:52,90" plays="8" yards="57" top="4:55" start_how="PUNT" start_qtr="4" start_time="07:47" start_spot="TRA33" end_how="TD" end_qtr="4" end_time="02:52" end_spot="FAS00" rz="1" driveindex="22"></drive>
+  <drive vh="H" team="FAS" start="KO,4,02:43,27" end="INT,4,01:12,67" plays="8" yards="40" top="1:31" start_how="KO" start_qtr="4" start_time="02:43" start_spot="FAS27" end_how="INT" end_qtr="4" end_time="01:12" end_spot="TRA23" driveindex="23"></drive>
+  <drive vh="V" team="TRA" start="INT,4,01:12,13" end="HALF,4,00:00,27" plays="3" yards="14" top="1:12" start_how="INT" start_qtr="4" start_time="01:12" start_spot="TRA13" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="TRA27" driveindex="24"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="TRA" down="1" togo="10" spot="TRA30" context="V,1,10,V30" playid="0,1,0"
+      text="West Coast Raiders Toscana win the coin toss, elect to receive" newcontext="V,1,10,V30">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="TRA30" context="V,1,10,V30" playid="0,2,1" type="#" clock="12:00"
+      text="Start of 1st quarter, clock 12:00." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="TRA30" context="V,1,10,V30" playid="0,3,2" type="K"
+      text="Malloggi G. kickoff 27 yards to the FAS33, Borelli A. return 0 yards to the FAS33." newcontext="H,1,10,H33">
+    <p_ko vh="V" name="Malloggi G." gain="27"></p_ko>
+    <p_kr vh="H" name="Borelli A." gain="0"></p_kr>
+   </play>
+   <drivestart poss="H,H33,12:00" vh="H" spot="H33" clock="12:00" driveindex="1,2"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS33" context="H,1,10,H33" playid="1,1,3" type="R"
+      text="Recce A. rush for 4 yards to the FAS37 (Giovannini L.;Dixon T.)." newcontext="H,2,6,H37">
+    <p_ru vh="H" name="Recce A." gain="4"></p_ru>
+    <p_tk vh="V" name="Giovannini L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dixon T." assist="Y"></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="6" spot="FAS37" context="H,2,6,H37" playid="1,2,4" type="E"
+      text="PENALTY FAS false start (Cardelli F.) 5 yards to the FAS32." newcontext="H,2,11,H32">
+    <p_pn vh="H" code="FS" type="false start" name="Cardelli F." result="ACCEPT" at="H37" yards="5"></p_pn>
+   </play>
+   <play hasball="FAS" down="2" togo="11" spot="FAS32" context="H,2,11,H32" playid="1,3,5" type="P"
+      text="Fedeli G. pass complete to Formisano A. for 7 yards to the FAS39 (Galvagno A.)." newcontext="H,3,4,H39">
+    <p_pa vh="H" qb="Fedeli G." result="COMP" rcv="Formisano A." gain="7"></p_pa>
+    <p_tk vh="V" name="Galvagno A."></p_tk>
+   </play>
+   <play hasball="FAS" down="3" togo="4" spot="FAS39" context="H,3,4,H39" playid="1,4,6" type="P"
+      text="Fedeli G. pass incomplete to Mibelli G.." newcontext="H,4,4,H39">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Mibelli G."></p_pa>
+   </play>
+   <play hasball="FAS" down="4" togo="4" spot="FAS39" context="H,4,4,H39" playid="1,5,7" type="U"
+      text="Fedeli G. punt 50 yards to the TRA1, downed." newcontext="V,1,10,V01">
+    <p_pu vh="H" name="Fedeli G." gain="50" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="6" top="2:35" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,V01,12:00" vh="V" spot="V01" clock="12:00" driveindex="2,7"></drivestart>
+   <play hasball="TRA" down="1" togo="10" spot="TRA01" context="V,1,10,V01" playid="2,1,8" clock="09:25"
+      text="TRAPPERS CECINA drive start at 09:25." newcontext="V,1,10,V01">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="TRA01" context="V,1,10,V01" playid="2,2,9" type="R"
+      text="Setti S. rush for 4 yards to the TRA5 (Fogli G.)." newcontext="V,2,6,V05">
+    <p_ru vh="V" name="Setti S." gain="4"></p_ru>
+    <p_tk vh="H" name="Fogli G."></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="6" spot="TRA05" context="V,2,6,V05" playid="2,3,10" type="E"
+      text="Setti S. rush for no gain to the TRA5 (TEAM), PENALTY FAS offside defense 5 yards to the TRA10, NO PLAY." newcontext="V,2,1,V10">
+    <p_pn vh="H" code="OD" type="offside defense" result="ACCEPT" at="V05" yards="5"></p_pn>
+   </play>
+   <play hasball="TRA" down="2" togo="1" spot="TRA10" context="V,2,1,V10" playid="2,4,11" type="R"
+      text="Garbarino C. rush for no gain to the TRA10 (Hopson D.)." newcontext="V,3,1,V10">
+    <p_ru vh="V" name="Garbarino C." gain="0"></p_ru>
+    <p_tk vh="H" name="Hopson D."></p_tk>
+   </play>
+   <play hasball="TRA" down="3" togo="1" spot="TRA10" context="V,3,1,V10" playid="2,5,12" type="R" first="R"
+      text="Tarroni E. rush for 3 yards to the TRA13, 1ST DOWN TRA (Hopson D.)." newcontext="V,1,10,V13">
+    <p_ru vh="V" name="Tarroni E." gain="3"></p_ru>
+    <p_tk vh="H" name="Hopson D."></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="TRA13" context="V,1,10,V13" playid="2,6,13" type="P"
+      text="Tarroni E. pass incomplete to Setti R.." newcontext="V,2,10,V13">
+    <p_pa vh="V" qb="Tarroni E." result="INC" rcv="Setti R."></p_pa>
+   </play>
+   <play hasball="TRA" down="2" togo="10" spot="TRA13" context="V,2,10,V13" playid="2,7,14" type="R"
+      text="Garbarino C. rush for loss of 4 yards to the TRA9 (Calvi Di Coe M.)." newcontext="V,3,14,V09">
+    <p_ru vh="V" name="Garbarino C." gain="-4"></p_ru>
+    <p_tk vh="H" name="Calvi Di Coe M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="3" togo="14" spot="TRA09" context="V,3,14,V09" playid="2,8,15" type="P"
+      text="Tarroni E. pass incomplete to Diagne L. (Giuntoni F.)." newcontext="V,4,14,V09">
+    <p_pa vh="V" qb="Tarroni E." result="INC" rcv="Diagne L."></p_pa>
+    <p_bu vh="H" name="Giuntoni F."></p_bu>
+   </play>
+   <play hasball="TRA" down="4" togo="14" spot="TRA09" context="V,4,14,V09" playid="2,9,16" type="U"
+      text="Malloggi G. punt 31 yards to the TRA40, downed." newcontext="H,1,10,V40">
+    <p_pu vh="V" name="Malloggi G." gain="31"></p_pu>
+   </play>
+   <drivesum plays="6" yards="8" top="3:26" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,V40,09:25" vh="H" spot="V40" clock="09:25" driveindex="3,16"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="TRA40" context="H,1,10,V40" playid="3,1,17" clock="05:59"
+      text="WEST COAST RAIDERS T drive start at 05:59." newcontext="H,1,10,V40">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="TRA40" context="H,1,10,V40" playid="3,2,18" type="R" first="R"
+      text="Fedeli G. rush for 12 yards to the TRA28, 1ST DOWN FAS, out-of-bounds." ob="Y" newcontext="H,1,10,V28">
+    <p_ru vh="H" name="Fedeli G." gain="12"></p_ru>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="TRA28" context="H,1,10,V28" playid="3,3,19" type="P" first="P" score="Y" clock="05:10"
+      text="Fedeli G. pass complete to Formisano A. for 28 yards to the TRA0, 1ST DOWN FAS, TOUCHDOWN, clock 05:10." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Fedeli G." result="COMP" rcv="Formisano A." gain="28"></p_pa>
+   </play>
+   <play hasball="FAS" down="1" togo="0" spot="TRA03" context="H,1,0,V03" playid="3,4,20" type="X"
+      text="Cardelli F. rush attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Cardelli F." qb="Cardelli F." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="0" H="6"></score>
+   <drivesum plays="2" yards="40" top="0:49" driveindex="3" complete="Y"></drivesum>
+   <play hasball="FAS" down="1" togo="0" spot="FAS30" context="H,1,0,H30" playid="3,5,21" type="K" score="Y" clock="05:10"
+      text="Giuntoni F. kickoff 2 yards to the FAS32, on-side kick, recovered by TRA on FAS32, Paperini J. return 32 yards to the FAS0, TOUCHDOWN, clock 05:10." newcontext="V,1,0,H03">
+    <p_ko vh="H" name="Giuntoni F." gain="2" result="N"></p_ko>
+    <p_kr vh="V" name="Paperini J." gain="32"></p_kr>
+   </play>
+   <drivestart poss="V,H03,05:10" vh="V" spot="H03" clock="05:10" driveindex="4,21"></drivestart>
+   <play hasball="TRA" down="1" togo="0" spot="FAS03" context="V,1,0,H03" playid="4,1,22" type="X"
+      text="Malloggi G. kick attempt failed (blocked), returned by Calvi Di Coe M. - no score (blocked by Fogli G.)." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Malloggi G." qb="Malloggi G." type="K" result="BLOCKED"></p_pat>
+   </play>
+   <score V="6" H="6"></score>
+   <play hasball="TRA" down="1" togo="0" spot="TRA30" context="V,1,0,V30" playid="4,2,23" type="E"
+      text="Malloggi G. kickoff 35 yards to the FAS25, out-of-bounds, PENALTY TRA OB (Malloggi G.) 5 yards to the TRA25, NO PLAY." ob="Y" newcontext="V,1,0,V25">
+    <p_pn vh="V" code="OB" type="OB" name="Malloggi G." result="ACCEPT" at="V30" yards="5"></p_pn>
+   </play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="4" complete="Y"></drivesum>
+   <play hasball="TRA" down="1" togo="0" spot="TRA25" context="V,1,0,V25" playid="4,3,24" type="K"
+      text="Malloggi G. kickoff 30 yards to the FAS35, Borelli A. return -2 yards to the FAS33." newcontext="H,1,10,H33">
+    <p_ko vh="V" name="Malloggi G." gain="30"></p_ko>
+    <p_kr vh="H" name="Borelli A." gain="-2"></p_kr>
+   </play>
+   <drivestart poss="H,H33,05:10" vh="H" spot="H33" clock="05:10" driveindex="5,24"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS33" context="H,1,10,H33" playid="5,1,25" clock="04:59"
+      text="WEST COAST RAIDERS T drive start at 04:59." newcontext="H,1,10,H33">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS33" context="H,1,10,H33" playid="5,2,26" type="E"
+      text="PENALTY FAS false start (De Fabiis D.) 5 yards to the FAS28." newcontext="H,1,15,H28">
+    <p_pn vh="H" code="FS" type="false start" name="De Fabiis D." result="ACCEPT" at="H33" yards="5"></p_pn>
+   </play>
+   <play hasball="FAS" down="1" togo="15" spot="FAS28" context="H,1,15,H28" playid="5,3,27" type="P" first="P" score="Y" clock="04:28"
+      text="Fedeli G. pass complete to Mibelli G. for 62 yards to the TRA0, 1ST DOWN FAS, TOUCHDOWN, clock 04:28." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Fedeli G." result="COMP" rcv="Mibelli G." gain="62"></p_pa>
+   </play>
+   <play hasball="FAS" down="1" togo="0" spot="TRA03" context="H,1,0,V03" playid="5,4,28" type="X"
+      text="Fedeli G. rush attempt failed (fumbled), PENALTY FAS tripping 10 yards to the FAS20." newcontext="H,1,0,H20">
+    <p_pat vh="H" name="Fedeli G." qb="Fedeli G." type="R" result="FUMBLED"></p_pat>
+    <p_pn vh="H" code="TR" type="tripping" result="ACCEPT" at="H30" yards="10"></p_pn>
+   </play>
+   <score V="6" H="12"></score>
+   <drivesum plays="1" yards="57" top="0:31" driveindex="5" complete="Y"></drivesum>
+   <play hasball="FAS" down="1" togo="0" spot="FAS20" context="H,1,0,H20" playid="5,5,29" type="K" score="Y" clock="04:13"
+      text="Cardelli F. kickoff 37 yards to the TRA33, Tesi E. return 57 yards to the FAS0, TOUCHDOWN, clock 04:13." newcontext="V,1,0,H03">
+    <p_ko vh="H" name="Cardelli F." gain="37"></p_ko>
+    <p_kr vh="V" name="Tesi E." gain="57"></p_kr>
+   </play>
+   <drivestart poss="V,H03,04:13" vh="V" spot="H03" clock="04:13" driveindex="6,29"></drivestart>
+   <play hasball="TRA" down="1" togo="0" spot="FAS03" context="V,1,0,H03" playid="6,1,30" type="X"
+      text="Tarroni E. pass attempt failed (blocked) (blocked by Fogli G.)." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Tarroni E." qb="Tarroni E." type="P" result="BLOCKED"></p_pat>
+   </play>
+   <score V="12" H="12"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="6" complete="Y"></drivesum>
+   <play hasball="TRA" down="1" togo="0" spot="TRA30" context="V,1,0,V30" playid="6,2,31" type="K"
+      text="Malloggi G. kickoff 60 yards to the FAS0, touchback." newcontext="H,1,10,H20">
+    <p_ko vh="V" name="Malloggi G." gain="60" result="T"></p_ko>
+   </play>
+   <drivestart poss="H,H20,04:13" vh="H" spot="H20" clock="04:13" driveindex="7,31"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS20" context="H,1,10,H20" playid="7,1,32" clock="04:05"
+      text="WEST COAST RAIDERS T drive start at 04:05." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS20" context="H,1,10,H20" playid="7,2,33" type="P" first="P"
+      text="Fedeli G. pass complete to Giuntoni F. for 12 yards to the FAS32, 1ST DOWN FAS." newcontext="H,1,10,H32">
+    <p_pa vh="H" qb="Fedeli G." result="COMP" rcv="Giuntoni F." gain="12"></p_pa>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS32" context="H,1,10,H32" playid="7,3,34" type="R"
+      text="Fedeli G. rush for 4 yards to the FAS36 (Sabbatini A.;Nicosia D.)." newcontext="H,2,6,H36">
+    <p_ru vh="H" name="Fedeli G." gain="4"></p_ru>
+    <p_tk vh="V" name="Sabbatini A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Nicosia D." assist="Y"></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="6" spot="FAS36" context="H,2,6,H36" playid="7,4,35" type="R"
+      text="Fedeli G. rush for 3 yards to the FAS39 (Faenza C.)." newcontext="H,3,3,H39">
+    <p_ru vh="H" name="Fedeli G." gain="3"></p_ru>
+    <p_tk vh="V" name="Faenza C."></p_tk>
+   </play>
+   <play hasball="FAS" down="3" togo="3" spot="FAS39" context="H,3,3,H39" playid="7,5,36" type="P"
+      text="Fedeli G. pass incomplete to Giuntoni F.." newcontext="H,4,3,H39">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Giuntoni F."></p_pa>
+   </play>
+   <play hasball="FAS" down="4" togo="3" spot="FAS39" context="H,4,3,H39" playid="7,6,37" type="U"
+      text="Fedeli G. punt 24 yards to the TRA27, Setti R. return 13 yards to the TRA40 (Formisano A.)." newcontext="V,1,10,V40">
+    <p_pu vh="H" name="Fedeli G." gain="24"></p_pu>
+    <p_pr vh="V" name="Setti R." gain="13"></p_pr>
+    <p_tk vh="H" name="Formisano A."></p_tk>
+   </play>
+   <drivesum plays="4" yards="19" top="2:41" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,V40,04:05" vh="V" spot="V40" clock="04:05" driveindex="8,37"></drivestart>
+   <play hasball="TRA" down="1" togo="10" spot="TRA40" context="V,1,10,V40" playid="8,1,38" clock="01:24"
+      text="TRAPPERS CECINA drive start at 01:24." newcontext="V,1,10,V40">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="TRA40" context="V,1,10,V40" playid="8,2,39" type="P"
+      text="Tarroni E. pass complete to Setti R. for 9 yards to the FAS41 (Giuntoni F.)." newcontext="V,2,1,H41">
+    <p_pa vh="V" qb="Tarroni E." result="COMP" rcv="Setti R." gain="9"></p_pa>
+    <p_tk vh="H" name="Giuntoni F."></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="1" spot="FAS41" context="V,2,1,H41" playid="8,3,40" type="P" first="P"
+      text="Tarroni E. pass complete to Setti R. for 7 yards to the FAS34, 1ST DOWN TRA, out-of-bounds (Giuntoni F.)." ob="Y" newcontext="V,1,10,H34">
+    <p_pa vh="V" qb="Tarroni E." result="COMP" rcv="Setti R." gain="7"></p_pa>
+    <p_tk vh="H" name="Giuntoni F."></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS34" context="V,1,10,H34" playid="8,4,41" type="P" first="P"
+      text="Tarroni E. pass complete to Setti R. for 33 yards to the FAS1, 1ST DOWN TRA, out-of-bounds (Giuntoni F.)." ob="Y" newcontext="V,1,0,H01">
+    <p_pa vh="V" qb="Tarroni E." result="COMP" rcv="Setti R." gain="33"></p_pa>
+    <p_tk vh="H" name="Giuntoni F."></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="0" spot="FAS01" context="V,1,0,H01" playid="8,5,42" type="R" score="Y" clock="00:00"
+      text="Sabbatini A. rush for 1 yard to the FAS0, TOUCHDOWN, clock 00:00." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Sabbatini A." gain="1"></p_ru>
+   </play>
+   <play hasball="TRA" down="1" togo="0" spot="FAS03" context="V,1,0,H03" playid="8,6,43" type="X"
+      text="Garbarino C. rush attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Garbarino C." qb="Garbarino C." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="18" H="12"></score>
+   <score qtr="1" V="18" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="TRA">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:05"></misc>
+    <rush att="5" yds="4" gain="8" loss="4" td="1" long="4"></rush>
+    <pass comp="3" att="5" int="0" yds="49" td="0" long="33" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="49" td="0" long="33"></rcv>
+    <punt no="1" yds="31" long="31" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="31.0"></punt>
+    <ko no="3" yds="117" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="0" rushatt="1" rushmade="0" passatt="1" passmade="0"></pat>
+    <defense tackua="2" tacka="4" tot_tack="6" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="89" td="2" long="57"></kr>
+    <pr no="1" yds="13" td="0" long="13"></pr>
+    <scoring td="3"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FAS">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="4" yds="25"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:55"></misc>
+    <rush att="4" yds="23" gain="23" loss="0" td="0" long="12"></rush>
+    <pass comp="4" att="6" int="0" yds="109" td="2" long="62" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="109" td="2" long="62"></rcv>
+    <punt no="2" yds="74" long="50" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="37.0"></punt>
+    <ko no="1" yds="37" ob="0" tb="0"></ko>
+    <pat rushatt="2" rushmade="0" retkatt="1" retkmade="0"></pat>
+    <defense tackua="8" tacka="0" tot_tack="8" tflua="1" tfla="0" tflyds="4" sacks="0" sackyds="0" brup="1" blkd="2"></defense>
+    <kr no="2" yds="-2" td="0" long="0"></kr>
+    <scoring td="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="TRA" down="1" togo="0" spot="TRA30" context="V,1,0,V30" playid="8,7,44" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="V,1,0,V30">
+   </play>
+   <drivesum plays="4" yards="50" top="1:24" driveindex="8" complete="Y"></drivesum>
+   <play hasball="TRA" down="1" togo="0" spot="TRA30" context="V,1,0,V30" playid="8,8,45" type="K"
+      text="Malloggi G. kickoff 60 yards to the FAS0, touchback." newcontext="H,1,10,H20">
+    <p_ko vh="V" name="Malloggi G." gain="60" result="T"></p_ko>
+   </play>
+   <drivestart poss="H,H20,12:00" vh="H" spot="H20" clock="12:00" driveindex="9,45"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS20" context="H,1,10,H20" playid="9,1,46" clock="11:55"
+      text="WEST COAST RAIDERS T drive start at 11:55." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS20" context="H,1,10,H20" playid="9,2,47" type="R"
+      text="Fedeli G. rush for loss of 2 yards to the FAS18 (Sabam Toure D.)." newcontext="H,2,12,H18">
+    <p_ru vh="H" name="Fedeli G." gain="-2"></p_ru>
+    <p_tk vh="V" name="Sabam Toure D." tfl="Y"></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="12" spot="FAS18" context="H,2,12,H18" playid="9,3,48" type="P"
+      text="Fedeli G. pass incomplete to Giuntoni F.." newcontext="H,3,12,H18">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Giuntoni F."></p_pa>
+   </play>
+   <play hasball="FAS" down="3" togo="12" spot="FAS18" context="H,3,12,H18" playid="9,4,49" type="P"
+      text="Fedeli G. pass incomplete to Recce A. (Faenza C.)." newcontext="H,4,12,H18">
+    <p_pa vh="H" qb="Fedeli G." result="BRUP" rcv="Recce A."></p_pa>
+    <p_bu vh="V" name="Faenza C."></p_bu>
+   </play>
+   <play hasball="FAS" down="4" togo="12" spot="FAS18" context="H,4,12,H18" playid="9,5,50" type="U"
+      text="Fedeli G. punt 27 yards to the 45 yardline, Setti R. return 9 yards to the FAS36 (Manfredi G.)." newcontext="V,1,10,H36">
+    <p_pu vh="H" name="Fedeli G." gain="27"></p_pu>
+    <p_pr vh="V" name="Setti R." gain="9"></p_pr>
+    <p_tk vh="H" name="Manfredi G."></p_tk>
+   </play>
+   <drivesum plays="3" yards="-2" top="1:07" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="V,H36,11:55" vh="V" spot="H36" clock="11:55" driveindex="10,50"></drivestart>
+   <play hasball="TRA" down="1" togo="10" spot="FAS36" context="V,1,10,H36" playid="10,1,51" clock="10:48"
+      text="TRAPPERS CECINA drive start at 10:48." newcontext="V,1,10,H36">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS36" context="V,1,10,H36" playid="10,2,52" type="R"
+      text="Garbarino C. rush for 3 yards to the FAS33 (Fogli G.;Calvi Di Coe M.)." newcontext="V,2,7,H33">
+    <p_ru vh="V" name="Garbarino C." gain="3"></p_ru>
+    <p_tk vh="H" name="Fogli G." assist="Y"></p_tk>
+    <p_tk vh="H" name="Calvi Di Coe M." assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="7" spot="FAS33" context="V,2,7,H33" playid="10,3,53" type="P"
+      text="Tarroni E. pass incomplete to Setti R., dropped pass." newcontext="V,3,7,H33">
+    <p_pa vh="V" qb="Tarroni E." result="DROP" rcv="Setti R."></p_pa>
+   </play>
+   <play hasball="TRA" down="3" togo="7" spot="FAS33" context="V,3,7,H33" playid="10,4,54" type="P"
+      text="Tarroni E. pass complete to Diagne L. for 6 yards to the FAS27 (Recce A.;Senesi R.)." newcontext="V,4,1,H27">
+    <p_pa vh="V" qb="Tarroni E." result="COMP" rcv="Diagne L." gain="6"></p_pa>
+    <p_tk vh="H" name="Recce A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Senesi R." assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="4" togo="1" spot="FAS27" context="V,4,1,H27" playid="10,5,55" type="E"
+      text="PENALTY TRA false start (Di Maggio M.) 5 yards to the FAS32." newcontext="V,4,6,H32">
+    <p_pn vh="V" code="FS" type="false start" name="Di Maggio M." result="ACCEPT" at="H27" yards="5"></p_pn>
+   </play>
+   <play hasball="TRA" down="4" togo="6" spot="FAS32" context="V,4,6,H32" playid="10,6,56" type="P" first="P"
+      text="Tarroni E. pass complete to Setti R. for 15 yards to the FAS17, 1ST DOWN TRA (Fogli G.;Gabbrielli M.)." newcontext="V,1,10,H17">
+    <p_pa vh="V" qb="Tarroni E." result="COMP" rcv="Setti R." gain="15"></p_pa>
+    <p_tk vh="H" name="Fogli G." assist="Y"></p_tk>
+    <p_tk vh="H" name="Gabbrielli M." assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS17" context="V,1,10,H17" playid="10,7,57" type="R"
+      text="Tarroni E. rush for 6 yards to the FAS11 (Fogli G.)." newcontext="V,2,4,H11">
+    <p_ru vh="V" name="Tarroni E." gain="6"></p_ru>
+    <p_tk vh="H" name="Fogli G."></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="4" spot="FAS11" context="V,2,4,H11" playid="10,8,58" type="R" first="R"
+      text="Garbarino C. rush for 6 yards to the FAS5, 1ST DOWN TRA (Hopson D.)." newcontext="V,1,0,H05">
+    <p_ru vh="V" name="Garbarino C." gain="6"></p_ru>
+    <p_tk vh="H" name="Hopson D."></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="0" spot="FAS05" context="V,1,0,H05" playid="10,9,59" type="#" clock="07:04"
+      text="Timeout West Coast Raiders T, clock 07:04." newcontext="V,1,0,H05">
+    <p_to vh="H" team="West Coast Raiders T"></p_to>
+   </play>
+   <play hasball="TRA" down="1" togo="0" spot="FAS05" context="V,1,0,H05" playid="10,10,60" type="R"
+      text="Garbarino C. rush for 4 yards to the FAS1 (Casetta E.;Fogli G.)." newcontext="V,2,0,H01">
+    <p_ru vh="V" name="Garbarino C." gain="4"></p_ru>
+    <p_tk vh="H" name="Casetta E." assist="Y"></p_tk>
+    <p_tk vh="H" name="Fogli G." assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="0" spot="FAS01" context="V,2,0,H01" playid="10,11,61" type="R" score="Y" clock="06:00"
+      text="Tarroni E. rush for 1 yard to the FAS0, TOUCHDOWN, clock 06:00." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Tarroni E." gain="1"></p_ru>
+   </play>
+   <play hasball="TRA" down="1" togo="0" spot="FAS03" context="V,1,0,H03" playid="10,12,62" type="X" score="Y"
+      text="Tarroni E. pass attempt to Tesi E. good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Tesi E." qb="Tarroni E." type="P" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="26" H="12"></score>
+   <drivesum plays="8" yards="36" top="4:48" driveindex="10" complete="Y"></drivesum>
+   <play hasball="TRA" down="1" togo="0" spot="TRA30" context="V,1,0,V30" playid="10,13,63" type="K"
+      text="Malloggi G. kickoff 53 yards to the FAS7, Formisano A. return 9 yards to the FAS16 (Sabbatini A.)." newcontext="H,1,10,H16">
+    <p_ko vh="V" name="Malloggi G." gain="53"></p_ko>
+    <p_kr vh="H" name="Formisano A." gain="9"></p_kr>
+    <p_tk vh="V" name="Sabbatini A."></p_tk>
+   </play>
+   <drivestart poss="H,H16,06:00" vh="H" spot="H16" clock="06:00" driveindex="11,63"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS16" context="H,1,10,H16" playid="11,1,64" clock="05:50"
+      text="WEST COAST RAIDERS T drive start at 05:50." newcontext="H,1,10,H16">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS16" context="H,1,10,H16" playid="11,2,65" type="R"
+      text="Recce A. rush for 1 yard to the FAS17 (TEAM)." newcontext="H,2,9,H17">
+    <p_ru vh="H" name="Recce A." gain="1"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="9" spot="FAS17" context="H,2,9,H17" playid="11,3,66" type="P"
+      text="Fedeli G. pass incomplete to Giuntoni F.." newcontext="H,3,9,H17">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Giuntoni F."></p_pa>
+   </play>
+   <play hasball="FAS" down="3" togo="9" spot="FAS17" context="H,3,9,H17" playid="11,4,67" type="P"
+      text="Fedeli G. pass incomplete to Formisano A.." newcontext="H,4,9,H17">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Formisano A."></p_pa>
+   </play>
+   <play hasball="FAS" down="4" togo="9" spot="FAS17" context="H,4,9,H17" playid="11,5,68" type="U"
+      text="Fedeli G. punt 29 yards to the TRA44, out-of-bounds." ob="Y" newcontext="V,1,10,V44">
+    <p_pu vh="H" name="Fedeli G." gain="29" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="1" top="1:32" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="V,V44,05:50" vh="V" spot="V44" clock="05:50" driveindex="12,68"></drivestart>
+   <play hasball="TRA" down="1" togo="10" spot="TRA44" context="V,1,10,V44" playid="12,1,69" clock="04:18"
+      text="TRAPPERS CECINA drive start at 04:18." newcontext="V,1,10,V44">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="TRA44" context="V,1,10,V44" playid="12,2,70" type="R"
+      text="Tarroni E. rush for 5 yards to the FAS41 (Hopson D.;Magni M.)." newcontext="V,2,5,H41">
+    <p_ru vh="V" name="Tarroni E." gain="5"></p_ru>
+    <p_tk vh="H" name="Hopson D." assist="Y"></p_tk>
+    <p_tk vh="H" name="Magni M." assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="5" spot="FAS41" context="V,2,5,H41" playid="12,3,71" type="P" first="P"
+      text="Tarroni E. pass complete to Setti S. for 13 yards to the FAS28, 1ST DOWN TRA (Hopson D.;Gabbrielli M.)." newcontext="V,1,10,H28">
+    <p_pa vh="V" qb="Tarroni E." result="COMP" rcv="Setti S." gain="13"></p_pa>
+    <p_tk vh="H" name="Hopson D." assist="Y"></p_tk>
+    <p_tk vh="H" name="Gabbrielli M." assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS28" context="V,1,10,H28" playid="12,4,72" type="R"
+      text="Garbarino C. rush for 4 yards to the FAS24 (Sonna Temgou Y.)." newcontext="V,2,6,H24">
+    <p_ru vh="V" name="Garbarino C." gain="4"></p_ru>
+    <p_tk vh="H" name="Sonna Temgou Y."></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="6" spot="FAS24" context="V,2,6,H24" playid="12,5,73" type="P"
+      text="Tarroni E. pass incomplete." newcontext="V,3,6,H24">
+    <p_pa vh="V" qb="Tarroni E." result="INC"></p_pa>
+   </play>
+   <play hasball="TRA" down="3" togo="6" spot="FAS24" context="V,3,6,H24" playid="12,6,74" type="P"
+      text="Tarroni E. pass incomplete to Diagne L.." newcontext="V,4,6,H24">
+    <p_pa vh="V" qb="Tarroni E." result="INC" rcv="Diagne L."></p_pa>
+   </play>
+   <play hasball="TRA" down="4" togo="6" spot="FAS24" context="V,4,6,H24" playid="12,7,75" type="P"
+      text="Tarroni E. pass incomplete to Setti R., dropped pass." newcontext="H,1,10,H24">
+    <p_pa vh="V" qb="Tarroni E." result="DROP" rcv="Setti R."></p_pa>
+   </play>
+   <drivesum plays="6" yards="22" top="2:37" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="H,H24,04:18" vh="H" spot="H24" clock="04:18" driveindex="13,75"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS24" context="H,1,10,H24" playid="13,1,76" clock="01:41"
+      text="WEST COAST RAIDERS T drive start at 01:41." newcontext="H,1,10,H24">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS24" context="H,1,10,H24" playid="13,2,77" type="R" first="R"
+      text="Recce A. rush for 19 yards to the FAS43, 1ST DOWN FAS (Cencetti L.)." newcontext="H,1,10,H43">
+    <p_ru vh="H" name="Recce A." gain="19"></p_ru>
+    <p_tk vh="V" name="Cencetti L."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS43" context="H,1,10,H43" playid="13,3,78" type="R"
+      text="Recce A. rush for loss of 4 yards to the FAS39 (Nicosia D.;Giovannini L.)." newcontext="H,2,14,H39">
+    <p_ru vh="H" name="Recce A." gain="-4"></p_ru>
+    <p_tk vh="V" name="Nicosia D." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Giovannini L." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="14" spot="FAS39" context="H,2,14,H39" playid="13,4,79" type="P"
+      text="Fedeli G. pass incomplete." newcontext="H,3,14,H39">
+    <p_pa vh="H" qb="Fedeli G." result="INC"></p_pa>
+   </play>
+   <play hasball="FAS" down="3" togo="14" spot="FAS39" context="H,3,14,H39" playid="13,5,80" type="P"
+      text="Fedeli G. pass complete to Manfredi G. for 12 yards to the TRA39, out-of-bounds (Cencetti L.)." ob="Y" newcontext="H,4,2,V39">
+    <p_pa vh="H" qb="Fedeli G." result="COMP" rcv="Manfredi G." gain="12"></p_pa>
+    <p_tk vh="V" name="Cencetti L."></p_tk>
+   </play>
+   <play hasball="FAS" down="4" togo="2" spot="TRA39" context="H,4,2,V39" playid="13,6,81" type="#" clock="00:43"
+      text="Timeout West Coast Raiders T, clock 00:43." newcontext="H,4,2,V39">
+    <p_to vh="H" team="West Coast Raiders T"></p_to>
+   </play>
+   <play hasball="FAS" down="4" togo="2" spot="TRA39" context="H,4,2,V39" playid="13,7,82" type="R"
+      text="Formisano A. rush for loss of 7 yards to the FAS44, fumble by Formisano A. recovered by FAS Formisano A. at FAS44." newcontext="V,1,10,H44">
+    <p_ru vh="H" name="Formisano A." gain="-7"></p_ru>
+    <p_fumb vh="H" name="Formisano A." at="H44" frvh="H" frname="Formisano A."></p_fumb>
+   </play>
+   <drivesum plays="5" yards="20" top="1:12" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="V,H44,00:43" vh="V" spot="H44" clock="00:43" driveindex="14,82"></drivestart>
+   <play hasball="TRA" down="1" togo="10" spot="FAS44" context="V,1,10,H44" playid="14,1,83" clock="00:29"
+      text="TRAPPERS CECINA drive start at 00:29." newcontext="V,1,10,H44">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS44" context="V,1,10,H44" playid="14,2,84" type="P"
+      text="Tarroni E. pass incomplete to Setti R., dropped pass." newcontext="V,2,10,H44">
+    <p_pa vh="V" qb="Tarroni E." result="DROP" rcv="Setti R."></p_pa>
+   </play>
+   <play hasball="TRA" down="2" togo="10" spot="FAS44" context="V,2,10,H44" playid="14,3,85" type="P"
+      text="Tarroni E. pass incomplete to Tesi E.." newcontext="V,3,10,H44">
+    <p_pa vh="V" qb="Tarroni E." result="INC" rcv="Tesi E."></p_pa>
+   </play>
+   <play hasball="TRA" down="3" togo="10" spot="FAS44" context="V,3,10,H44" playid="14,4,86" type="P" first="P"
+      text="Tarroni E. pass complete to Tesi E. for 13 yards to the FAS31, 1ST DOWN TRA, out-of-bounds." ob="Y" newcontext="V,1,10,H31">
+    <p_pa vh="V" qb="Tarroni E." result="COMP" rcv="Tesi E." gain="13"></p_pa>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS31" context="V,1,10,H31" playid="14,5,87" type="P"
+      text="Tarroni E. pass incomplete to Diagne L.." newcontext="V,2,10,H31">
+    <p_pa vh="V" qb="Tarroni E." result="INC" rcv="Diagne L."></p_pa>
+   </play>
+   <play hasball="TRA" down="2" togo="10" spot="FAS31" context="V,2,10,H31" playid="14,6,88" type="F" clock="00:00"
+      text="Malloggi G. field goal attempt from 48 MISSED - wide left, spot at FAS31, clock 00:00." newcontext="H,1,10,H31">
+    <p_fg vh="V" name="Malloggi G." distance="48" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="4" yards="13" top="0:29" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="H,H31,00:00" vh="H" spot="H31" clock="00:00" driveindex="15,88"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS31" context="H,1,10,H31" playid="15,1,89" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="H,1,10,H31">
+   </play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="15" complete="Y"></drivesum>
+   <score qtr="2" V="26" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="TRA">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:54"></misc>
+    <rush att="7" yds="29" gain="29" loss="0" td="1" long="2"></rush>
+    <pass comp="4" att="11" int="0" yds="47" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="47" td="0" long="0"></rcv>
+    <ko no="2" yds="113" ob="0" tb="1"></ko>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <pat passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="5" tacka="2" tot_tack="7" tflua="3" tfla="0" tflyds="10" sacks="0" sackyds="0" brup="1"></defense>
+    <pr no="1" yds="9" td="0" long="0"></pr>
+    <scoring td="1" patrcv="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FAS">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="04:06"></misc>
+    <rush att="5" yds="7" gain="20" loss="13" td="0" long="7"></rush>
+    <pass comp="1" att="6" int="0" yds="12" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="12" td="0" long="0"></rcv>
+    <punt no="2" yds="56" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="28.0"></punt>
+    <defense tackua="4" tacka="12" tot_tack="16" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="9" td="0" long="9"></kr>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="FAS" down="1" togo="10" spot="FAS31" context="H,1,10,H31" playid="15,2,90" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, FAS ball on FAS30." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS30" context="H,1,10,H30" playid="15,3,91" type="K"
+      text="Cardelli F. kickoff 42 yards to the TRA18, Setti R. return 44 yards to the FAS28 (Cardelli F.)." newcontext="V,1,10,H28">
+    <p_ko vh="H" name="Cardelli F." gain="42"></p_ko>
+    <p_kr vh="V" name="Setti R." gain="44"></p_kr>
+    <p_tk vh="H" name="Cardelli F."></p_tk>
+   </play>
+   <drivestart poss="V,H28,12:00" vh="V" spot="H28" clock="12:00" driveindex="16,91"></drivestart>
+   <play hasball="TRA" down="1" togo="10" spot="FAS28" context="V,1,10,H28" playid="16,1,92" clock="11:52"
+      text="TRAPPERS CECINA drive start at 11:52." newcontext="V,1,10,H28">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS28" context="V,1,10,H28" playid="16,2,93" type="R"
+      text="Garbarino C. rush for 2 yards to the FAS26 (Recce A.)." newcontext="V,2,8,H26">
+    <p_ru vh="V" name="Garbarino C." gain="2"></p_ru>
+    <p_tk vh="H" name="Recce A."></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="8" spot="FAS26" context="V,2,8,H26" playid="16,3,94" type="P" first="P"
+      text="Tarroni E. pass complete to Diagne L. for 10 yards to the FAS16, 1ST DOWN TRA (Sonna Temgou Y.)." newcontext="V,1,10,H16">
+    <p_pa vh="V" qb="Tarroni E." result="COMP" rcv="Diagne L." gain="10"></p_pa>
+    <p_tk vh="H" name="Sonna Temgou Y."></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS16" context="V,1,10,H16" playid="16,4,95" type="R"
+      text="Tarroni E. rush for 2 yards to the FAS14, out-of-bounds." ob="Y" newcontext="V,2,8,H14">
+    <p_ru vh="V" name="Tarroni E." gain="2"></p_ru>
+   </play>
+   <play hasball="TRA" down="2" togo="8" spot="FAS14" context="V,2,8,H14" playid="16,5,96" type="R"
+      text="Garbarino C. rush for loss of 3 yards to the FAS17 (Fogli G.;Casetta E.)." newcontext="V,3,11,H17">
+    <p_ru vh="V" name="Garbarino C." gain="-3"></p_ru>
+    <p_tk vh="H" name="Fogli G." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="H" name="Casetta E." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="3" togo="11" spot="FAS17" context="V,3,11,H17" playid="16,6,97" type="P"
+      text="Tarroni E. pass incomplete to Mancini A., dropped pass." newcontext="V,4,11,H17">
+    <p_pa vh="V" qb="Tarroni E." result="DROP" rcv="Mancini A."></p_pa>
+   </play>
+   <play hasball="TRA" down="4" togo="11" spot="FAS17" context="V,4,11,H17" playid="16,7,98" type="F" clock="08:32"
+      text="Malloggi G. field goal attempt from 34 MISSED - short, spot at FAS20, clock 08:32." newcontext="H,1,10,H20">
+    <p_fg vh="V" name="Malloggi G." distance="34" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="5" yards="11" top="3:20" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="H,H20,08:32" vh="H" spot="H20" clock="08:32" driveindex="17,98"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS20" context="H,1,10,H20" playid="17,1,99" clock="08:32"
+      text="WEST COAST RAIDERS T drive start at 08:32." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS20" context="H,1,10,H20" playid="17,2,100" type="R" first="R"
+      text="Recce A. rush for 11 yards to the FAS31, 1ST DOWN FAS, out-of-bounds (Malloggi G.)." ob="Y" newcontext="H,1,10,H31">
+    <p_ru vh="H" name="Recce A." gain="11"></p_ru>
+    <p_tk vh="V" name="Malloggi G."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS31" context="H,1,10,H31" playid="17,3,101" type="P"
+      text="Fedeli G. pass complete to Formisano A. for 9 yards to the FAS40 (Malloggi G.;De Cunzolo A.), PENALTY TRA offside defense declined." newcontext="H,2,1,H40">
+    <p_pa vh="H" qb="Fedeli G." result="COMP" rcv="Formisano A." gain="9"></p_pa>
+    <p_tk vh="V" name="Malloggi G." assist="Y"></p_tk>
+    <p_tk vh="V" name="De Cunzolo A." assist="Y"></p_tk>
+    <p_pn vh="V" code="OD" type="offside defense" name="De Cunzolo A." result="DECLINE"></p_pn>
+   </play>
+   <play hasball="FAS" down="2" togo="1" spot="FAS40" context="H,2,1,H40" playid="17,4,102" type="P"
+      text="Fedeli G. pass incomplete to Formisano A.." newcontext="H,3,1,H40">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Formisano A."></p_pa>
+   </play>
+   <play hasball="FAS" down="3" togo="1" spot="FAS40" context="H,3,1,H40" playid="17,5,103" type="E" first="E"
+      text="Fedeli G. rush for 2 yards to the FAS42 (Sabbatini A.), PENALTY TRA offside defense 5 yards to the 45 yardline, 1ST DOWN FAS, NO PLAY." newcontext="H,1,10,H45">
+    <p_pn vh="V" code="OD" type="offside defense" result="ACCEPT" at="H40" yards="5"></p_pn>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS45" context="H,1,10,H45" playid="17,6,104" type="R"
+      text="Recce A. rush for 6 yards to the TRA39 (Faenza C.)." newcontext="H,2,4,V39">
+    <p_ru vh="H" name="Recce A." gain="6"></p_ru>
+    <p_tk vh="V" name="Faenza C."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="4" spot="TRA39" context="H,2,4,V39" playid="17,7,105" type="R"
+      text="Recce A. rush for 2 yards to the TRA37 (Galvagno A.)." newcontext="H,3,2,V37">
+    <p_ru vh="H" name="Recce A." gain="2"></p_ru>
+    <p_tk vh="V" name="Galvagno A."></p_tk>
+   </play>
+   <play hasball="FAS" down="3" togo="2" spot="TRA37" context="H,3,2,V37" playid="17,8,106" type="P"
+      text="Fedeli G. pass incomplete to Giuntoni F.." newcontext="H,4,2,V37">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Giuntoni F."></p_pa>
+   </play>
+   <play hasball="FAS" down="4" togo="2" spot="TRA37" context="H,4,2,V37" playid="17,9,107" type="#" clock="05:16"
+      text="Timeout West Coast Raiders T, clock 05:16." newcontext="H,4,2,V37">
+    <p_to vh="H" team="West Coast Raiders T"></p_to>
+   </play>
+   <play hasball="FAS" down="4" togo="2" spot="TRA37" context="H,4,2,V37" playid="17,10,108" type="R" first="R"
+      text="Fedeli G. rush for 19 yards to the TRA18, 1ST DOWN FAS (Malloggi G.)." newcontext="H,1,10,V18">
+    <p_ru vh="H" name="Fedeli G." gain="19"></p_ru>
+    <p_tk vh="V" name="Malloggi G."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="TRA18" context="H,1,10,V18" playid="17,11,109" type="R" first="R" score="Y" clock="04:34"
+      text="Recce A. rush for 18 yards to the TRA0, 1ST DOWN FAS, TOUCHDOWN, clock 04:34." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Recce A." gain="18"></p_ru>
+   </play>
+   <play hasball="FAS" down="1" togo="0" spot="TRA03" context="H,1,0,V03" playid="17,12,110" type="X" score="Y"
+      text="Recce A. rush attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Recce A." qb="Recce A." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="26" H="20"></score>
+   <drivesum plays="8" yards="70" top="3:58" driveindex="17" complete="Y"></drivesum>
+   <play hasball="FAS" down="1" togo="0" spot="FAS30" context="H,1,0,H30" playid="17,13,111" type="K"
+      text="Giuntoni F. kickoff 41 yards to the TRA19, Setti R. return 41 yards to the FAS30 (Sonna Temgou Y.;Formisano A.)." newcontext="V,1,10,H30">
+    <p_ko vh="H" name="Giuntoni F." gain="41"></p_ko>
+    <p_kr vh="V" name="Setti R." gain="41"></p_kr>
+    <p_tk vh="H" name="Sonna Temgou Y." assist="Y"></p_tk>
+    <p_tk vh="H" name="Formisano A." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="V,H30,04:34" vh="V" spot="H30" clock="04:34" driveindex="18,111"></drivestart>
+   <play hasball="TRA" down="1" togo="10" spot="FAS30" context="V,1,10,H30" playid="18,1,112" clock="04:26"
+      text="TRAPPERS CECINA drive start at 04:26." newcontext="V,1,10,H30">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS30" context="V,1,10,H30" playid="18,2,113" type="R"
+      text="Garbarino C. rush for 3 yards to the FAS27 (Magni M.;Fogli G.)." newcontext="V,2,7,H27">
+    <p_ru vh="V" name="Garbarino C." gain="3"></p_ru>
+    <p_tk vh="H" name="Magni M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Fogli G." assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="7" spot="FAS27" context="V,2,7,H27" playid="18,3,114" type="R"
+      text="Garbarino C. rush for 1 yard to the FAS26 (Calvi Di Coe M.;Fogli G.)." newcontext="V,3,6,H26">
+    <p_ru vh="V" name="Garbarino C." gain="1"></p_ru>
+    <p_tk vh="H" name="Calvi Di Coe M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Fogli G." assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="3" togo="6" spot="FAS26" context="V,3,6,H26" playid="18,4,115" type="R"
+      text="Tarroni E. rush for 4 yards to the FAS22 (Giuntoni F.)." newcontext="V,4,2,H22">
+    <p_ru vh="V" name="Tarroni E." gain="4"></p_ru>
+    <p_tk vh="H" name="Giuntoni F."></p_tk>
+   </play>
+   <play hasball="TRA" down="4" togo="2" spot="FAS22" context="V,4,2,H22" playid="18,5,116" type="#" clock="02:16"
+      text="Timeout Trappers Cecina, clock 02:16." newcontext="V,4,2,H22">
+    <p_to vh="V" team="Trappers Cecina"></p_to>
+   </play>
+   <play hasball="TRA" down="4" togo="2" spot="FAS22" context="V,4,2,H22" playid="18,6,117" type="R" first="R"
+      text="Tarroni E. rush for 10 yards to the FAS12, 1ST DOWN TRA, out-of-bounds (Sonna Temgou Y.)." ob="Y" newcontext="V,1,10,H12">
+    <p_ru vh="V" name="Tarroni E." gain="10"></p_ru>
+    <p_tk vh="H" name="Sonna Temgou Y."></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS12" context="V,1,10,H12" playid="18,7,118" type="R"
+      text="Tarroni E. rush for 2 yards to the FAS10 (Magni M.;Fogli G.)." newcontext="V,2,8,H10">
+    <p_ru vh="V" name="Tarroni E." gain="2"></p_ru>
+    <p_tk vh="H" name="Magni M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Fogli G." assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="8" spot="FAS10" context="V,2,8,H10" playid="18,8,119" type="R" first="R" score="Y" clock="00:44"
+      text="Garbarino C. rush for 10 yards to the FAS0, 1ST DOWN TRA, TOUCHDOWN, clock 00:44." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Garbarino C." gain="10"></p_ru>
+   </play>
+   <play hasball="TRA" down="1" togo="0" spot="FAS03" context="V,1,0,H03" playid="18,9,120" type="X"
+      text="Tarroni E. pass attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Tarroni E." qb="Tarroni E." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="32" H="20"></score>
+   <play hasball="TRA" down="1" togo="0" spot="TRA30" context="V,1,0,V30" playid="18,10,121" type="E"
+      text="Malloggi G. kickoff 50 yards to the FAS10, out-of-bounds, PENALTY TRA illegal procedure (Malloggi G.) 5 yards to the TRA25, NO PLAY." ob="Y" newcontext="V,1,0,V25">
+    <p_pn vh="V" code="PR" type="illegal procedure" name="Malloggi G." result="ACCEPT" at="V30" yards="5"></p_pn>
+   </play>
+   <drivesum plays="6" yards="30" top="3:42" driveindex="18" complete="Y"></drivesum>
+   <play hasball="TRA" down="1" togo="0" spot="TRA25" context="V,1,0,V25" playid="18,11,122" type="K"
+      text="Malloggi G. kickoff 26 yards to the FAS39, Borelli A. return 0 yards to the FAS39." newcontext="H,1,10,H39">
+    <p_ko vh="V" name="Malloggi G." gain="26"></p_ko>
+    <p_kr vh="H" name="Borelli A." gain="0"></p_kr>
+   </play>
+   <drivestart poss="H,H39,00:44" vh="H" spot="H39" clock="00:44" driveindex="19,122"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS39" context="H,1,10,H39" playid="19,1,123" clock="00:37"
+      text="WEST COAST RAIDERS T drive start at 00:37." newcontext="H,1,10,H39">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS39" context="H,1,10,H39" playid="19,2,124" type="R"
+      text="Recce A. rush for 9 yards to the TRA42 (TEAM)." newcontext="H,2,1,V42">
+    <p_ru vh="H" name="Recce A." gain="9"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="1" spot="TRA42" context="H,2,1,V42" playid="19,3,125" type="P" first="E"
+      text="Fedeli G. pass incomplete to Formisano A., PENALTY TRA pass interference (Cencetti L.) 15 yards to the TRA27, 1ST DOWN FAS." newcontext="H,1,10,V27">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Formisano A."></p_pa>
+    <p_pn vh="V" code="PI" type="pass interference" name="Cencetti L." result="ACCEPT" at="V42" yards="15"></p_pn>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="TRA27" context="H,1,10,V27" playid="19,4,126"
+      text="1st and 10." newcontext="H,1,10,V27">
+   </play>
+   <score qtr="3" V="32" H="20"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="TRA">
+    <firstdowns no="3" rush="2" pass="1" penalty="0"></firstdowns>
+    <penalties no="3" yds="25"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:18"></misc>
+    <rush att="9" yds="31" gain="34" loss="3" td="1" long="4"></rush>
+    <pass comp="1" att="2" int="0" yds="10" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="10" td="0" long="0"></rcv>
+    <ko no="1" yds="26" ob="0" tb="0"></ko>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="5" tacka="2" tot_tack="7" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="85" td="0" long="0"></kr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FAS">
+    <firstdowns no="5" rush="3" pass="0" penalty="2"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:42"></misc>
+    <rush att="6" yds="65" gain="65" loss="0" td="1" long="0"></rush>
+    <pass comp="1" att="4" int="0" yds="9" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="9" td="0" long="0"></rcv>
+    <ko no="2" yds="83" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="1"></pat>
+    <defense tackua="5" tacka="10" tot_tack="15" tflua="2" tfla="0" tflyds="6" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="0" td="0" long="0"></kr>
+    <scoring td="1" patrush="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="FAS" down="1" togo="10" spot="TRA27" context="H,1,10,V27" playid="19,5,127" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="H,1,10,V27">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="TRA27" context="H,1,10,V27" playid="19,6,128" type="P" first="P" score="Y" clock="11:45"
+      text="Fedeli G. pass complete to Giuntoni F. for 27 yards to the TRA0, 1ST DOWN FAS, TOUCHDOWN, clock 11:45." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Fedeli G." result="COMP" rcv="Giuntoni F." gain="27"></p_pa>
+   </play>
+   <play hasball="FAS" down="1" togo="0" spot="TRA03" context="H,1,0,V03" playid="19,7,129" type="X" score="Y"
+      text="Fedeli G. rush attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Fedeli G." qb="Fedeli G." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="32" H="28"></score>
+   <drivesum plays="3" yards="51" top="0:52" driveindex="19" complete="Y"></drivesum>
+   <play hasball="FAS" down="1" togo="0" spot="FAS30" context="H,1,0,H30" playid="19,8,130" type="K"
+      text="Cardelli F. kickoff 35 yards to the TRA25, Setti R. return 5 yards to the TRA30, Tesi E. for 5 yards to the TRA35, out-of-bounds (TEAM)." ob="Y" newcontext="V,1,10,V35">
+    <p_ko vh="H" name="Cardelli F." gain="35"></p_ko>
+    <p_kr vh="V" name="Setti R." gain="5"></p_kr>
+    <p_cont vh="V" name="Tesi E." context="KO" at="V30" gain="5"></p_cont>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <drivestart poss="V,V35,11:45" vh="V" spot="V35" clock="11:45" driveindex="20,130"></drivestart>
+   <play hasball="TRA" down="1" togo="10" spot="TRA35" context="V,1,10,V35" playid="20,1,131" clock="11:32"
+      text="TRAPPERS CECINA drive start at 11:32, TRA ball on TRA35." newcontext="V,1,10,V35">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="TRA35" context="V,1,10,V35" playid="20,2,132" type="R" first="R"
+      text="Garbarino C. rush for 18 yards to the FAS37, 1ST DOWN TRA (Fogli G.)." newcontext="V,1,10,H37">
+    <p_ru vh="V" name="Garbarino C." gain="18"></p_ru>
+    <p_tk vh="H" name="Fogli G."></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS37" context="V,1,10,H37" playid="20,3,133" type="R"
+      text="Garbarino C. rush for 8 yards to the FAS29, out-of-bounds (Gabbrielli M.)." ob="Y" newcontext="V,2,2,H29">
+    <p_ru vh="V" name="Garbarino C." gain="8"></p_ru>
+    <p_tk vh="H" name="Gabbrielli M."></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="2" spot="FAS29" context="V,2,2,H29" playid="20,4,134" type="R"
+      text="Tarroni E. rush for loss of 2 yards to the FAS31, out-of-bounds (Magni M.)." ob="Y" newcontext="V,3,4,H31">
+    <p_ru vh="V" name="Tarroni E." gain="-2"></p_ru>
+    <p_tk vh="H" name="Magni M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="3" togo="4" spot="FAS31" context="V,3,4,H31" playid="20,5,135" type="P"
+      text="Tarroni E. pass incomplete to Setti R., dropped pass." newcontext="V,4,4,H31">
+    <p_pa vh="V" qb="Tarroni E." result="DROP" rcv="Setti R."></p_pa>
+   </play>
+   <play hasball="TRA" down="4" togo="4" spot="FAS31" context="V,4,4,H31" playid="20,6,136" type="P"
+      text="Tarroni E. pass incomplete." newcontext="H,1,10,H31">
+    <p_pa vh="V" qb="Tarroni E." result="INC"></p_pa>
+   </play>
+   <drivesum plays="5" yards="24" top="2:12" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="H,H31,11:32" vh="H" spot="H31" clock="11:32" driveindex="21,136"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS31" context="H,1,10,H31" playid="21,1,137" clock="09:20"
+      text="WEST COAST RAIDERS T drive start at 09:20." newcontext="H,1,10,H31">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS31" context="H,1,10,H31" playid="21,2,138" type="#" clock="09:20"
+      text="Timeout Trappers Cecina, clock 09:20." newcontext="H,1,10,H31">
+    <p_to vh="V" team="Trappers Cecina"></p_to>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS31" context="H,1,10,H31" playid="21,3,139" type="R"
+      text="Fedeli G. rush for 1 yard to the FAS32, out-of-bounds (De Cunzolo A.)." ob="Y" newcontext="H,2,9,H32">
+    <p_ru vh="H" name="Fedeli G." gain="1"></p_ru>
+    <p_tk vh="V" name="De Cunzolo A."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="9" spot="FAS32" context="H,2,9,H32" playid="21,4,140" type="P"
+      text="Fedeli G. pass incomplete to Formisano A.." newcontext="H,3,9,H32">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Formisano A."></p_pa>
+   </play>
+   <play hasball="FAS" down="3" togo="9" spot="FAS32" context="H,3,9,H32" playid="21,5,141" type="P"
+      text="Fedeli G. pass incomplete to Giuntoni F.." newcontext="H,4,9,H32">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Giuntoni F."></p_pa>
+   </play>
+   <play hasball="FAS" down="4" togo="9" spot="FAS32" context="H,4,9,H32" playid="21,6,142" type="#" clock="08:45"
+      text="Timeout West Coast Raiders T, clock 08:45." newcontext="H,4,9,H32">
+    <p_to vh="H" team="West Coast Raiders T"></p_to>
+   </play>
+   <play hasball="FAS" down="4" togo="9" spot="FAS32" context="H,4,9,H32" playid="21,7,143" type="U"
+      text="Fedeli G. punt 25 yards to the TRA33, out-of-bounds." ob="Y" newcontext="V,1,10,V33">
+    <p_pu vh="H" name="Fedeli G." gain="25" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="1" top="1:33" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="V,V33,08:45" vh="V" spot="V33" clock="08:45" driveindex="22,143"></drivestart>
+   <play hasball="TRA" down="1" togo="10" spot="TRA33" context="V,1,10,V33" playid="22,1,144" clock="07:47"
+      text="TRAPPERS CECINA drive start at 07:47." newcontext="V,1,10,V33">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="TRA33" context="V,1,10,V33" playid="22,2,145" type="R" first="E"
+      text="Garbarino C. rush for 4 yards to the TRA37 (Magni M.;Recce A.), PENALTY FAS face mask (Recce A.) 15 yards to the FAS38, 1ST DOWN TRA." newcontext="V,1,10,H38">
+    <p_ru vh="V" name="Garbarino C." gain="4"></p_ru>
+    <p_tk vh="H" name="Magni M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Recce A." assist="Y"></p_tk>
+    <p_pn vh="H" code="FM" type="face mask" name="Recce A." result="ACCEPT" at="V37" yards="15"></p_pn>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS38" context="V,1,10,H38" playid="22,3,146"
+      text="1st and 10." newcontext="V,1,10,H38">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS38" context="V,1,10,H38" playid="22,4,147" type="R"
+      text="Sabbatini A. rush for 4 yards to the FAS34 (Casetta E.)." newcontext="V,2,6,H34">
+    <p_ru vh="V" name="Sabbatini A." gain="4"></p_ru>
+    <p_tk vh="H" name="Casetta E."></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="6" spot="FAS34" context="V,2,6,H34" playid="22,5,148" type="R"
+      text="Tarroni E. rush for loss of 1 yard to the FAS35 (TEAM)." newcontext="V,3,7,H35">
+    <p_ru vh="V" name="Tarroni E." gain="-1"></p_ru>
+    <p_tk vh="H" name="TEAM" tfl="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="3" togo="7" spot="FAS35" context="V,3,7,H35" playid="22,6,149" type="P" first="P"
+      text="Tarroni E. pass complete to Setti R. for 9 yards to the FAS26, 1ST DOWN TRA (Giuntoni F.)." newcontext="V,1,10,H26">
+    <p_pa vh="V" qb="Tarroni E." result="COMP" rcv="Setti R." gain="9"></p_pa>
+    <p_tk vh="H" name="Giuntoni F."></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS26" context="V,1,10,H26" playid="22,7,150" type="R" first="R"
+      text="Garbarino C. rush for 11 yards to the FAS15, 1ST DOWN TRA (Gabbrielli M.)." newcontext="V,1,10,H15">
+    <p_ru vh="V" name="Garbarino C." gain="11"></p_ru>
+    <p_tk vh="H" name="Gabbrielli M."></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="FAS15" context="V,1,10,H15" playid="22,8,151" type="R"
+      text="Setti S. rush for 5 yards to the FAS10 (TEAM)." newcontext="V,2,5,H10">
+    <p_ru vh="V" name="Setti S." gain="5"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="TRA" down="2" togo="5" spot="FAS10" context="V,2,5,H10" playid="22,9,152" type="E"
+      text="PENALTY TRA false start (Morra N.) 5 yards to the FAS15." newcontext="V,2,10,H15">
+    <p_pn vh="V" code="FS" type="false start" name="Morra N." result="ACCEPT" at="H10" yards="5"></p_pn>
+   </play>
+   <play hasball="TRA" down="2" togo="10" spot="FAS15" context="V,2,10,H15" playid="22,10,153" type="P" first="P"
+      text="Tarroni E. pass complete to Setti S. for 11 yards to the FAS4, 1ST DOWN TRA (Recce A.;Sonna Temgou Y.)." newcontext="V,1,0,H04">
+    <p_pa vh="V" qb="Tarroni E." result="COMP" rcv="Setti S." gain="11"></p_pa>
+    <p_tk vh="H" name="Recce A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Sonna Temgou Y." assist="Y"></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="0" spot="FAS04" context="V,1,0,H04" playid="22,11,154" type="R" score="Y" clock="02:52"
+      text="Tarroni E. rush for 4 yards to the FAS0, TOUCHDOWN, clock 02:52." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Tarroni E." gain="4"></p_ru>
+   </play>
+   <play hasball="TRA" down="1" togo="0" spot="FAS03" context="V,1,0,H03" playid="22,12,155" type="X"
+      text="Tarroni E. pass attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Tarroni E." qb="Tarroni E." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="38" H="28"></score>
+   <drivesum plays="8" yards="57" top="4:55" driveindex="22" complete="Y"></drivesum>
+   <play hasball="TRA" down="1" togo="0" spot="TRA30" context="V,1,0,V30" playid="22,13,156" type="K"
+      text="Malloggi G. kickoff 56 yards to the FAS4, Formisano A. return 23 yards to the FAS27 (Sabbatini A.)." newcontext="H,1,10,H27">
+    <p_ko vh="V" name="Malloggi G." gain="56"></p_ko>
+    <p_kr vh="H" name="Formisano A." gain="23"></p_kr>
+    <p_tk vh="V" name="Sabbatini A."></p_tk>
+   </play>
+   <drivestart poss="H,H27,02:52" vh="H" spot="H27" clock="02:52" driveindex="23,156"></drivestart>
+   <play hasball="FAS" down="1" togo="10" spot="FAS27" context="H,1,10,H27" playid="23,1,157" clock="02:43"
+      text="WEST COAST RAIDERS T drive start at 02:43." newcontext="H,1,10,H27">
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS27" context="H,1,10,H27" playid="23,2,158" type="P"
+      text="Fedeli G. pass incomplete to Formisano A.." newcontext="H,2,10,H27">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Formisano A."></p_pa>
+   </play>
+   <play hasball="FAS" down="2" togo="10" spot="FAS27" context="H,2,10,H27" playid="23,3,159" type="P"
+      text="Fedeli G. pass incomplete to Giuntoni F.." newcontext="H,3,10,H27">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Giuntoni F."></p_pa>
+   </play>
+   <play hasball="FAS" down="3" togo="10" spot="FAS27" context="H,3,10,H27" playid="23,4,160" type="P" first="P"
+      text="Fedeli G. pass complete to Giuntoni F. for 13 yards to the FAS40, 1ST DOWN FAS." newcontext="H,1,10,H40">
+    <p_pa vh="H" qb="Fedeli G." result="COMP" rcv="Giuntoni F." gain="13"></p_pa>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS40" context="H,1,10,H40" playid="23,5,161" type="#" clock="02:11"
+      text="Timeout West Coast Raiders T, clock 02:11." newcontext="H,1,10,H40">
+    <p_to vh="H" team="West Coast Raiders T"></p_to>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="FAS40" context="H,1,10,H40" playid="23,6,162" type="R"
+      text="Recce A. rush for 9 yards to the TRA41 (Malloggi G.)." newcontext="H,2,1,V41">
+    <p_ru vh="H" name="Recce A." gain="9"></p_ru>
+    <p_tk vh="V" name="Malloggi G."></p_tk>
+   </play>
+   <play hasball="FAS" down="2" togo="1" spot="TRA41" context="H,2,1,V41" playid="23,7,163" type="R" first="R"
+      text="Recce A. rush for 18 yards to the TRA23, 1ST DOWN FAS, out-of-bounds (Malloggi G.)." ob="Y" newcontext="H,1,10,V23">
+    <p_ru vh="H" name="Recce A." gain="18"></p_ru>
+    <p_tk vh="V" name="Malloggi G."></p_tk>
+   </play>
+   <play hasball="FAS" down="1" togo="10" spot="TRA23" context="H,1,10,V23" playid="23,8,164" type="P"
+      text="Fedeli G. pass incomplete to Giuntoni F.." newcontext="H,2,10,V23">
+    <p_pa vh="H" qb="Fedeli G." result="INC" rcv="Giuntoni F."></p_pa>
+   </play>
+   <play hasball="FAS" down="2" togo="10" spot="TRA23" context="H,2,10,V23" playid="23,9,165" type="P"
+      text="Fedeli G. pass incomplete to Manfredi G., dropped pass." newcontext="H,3,10,V23">
+    <p_pa vh="H" qb="Fedeli G." result="DROP" rcv="Manfredi G."></p_pa>
+   </play>
+   <play hasball="FAS" down="3" togo="10" spot="TRA23" context="H,3,10,V23" playid="23,10,166" type="P" turnover="I"
+      text="Fedeli G. pass intercepted by Cencetti L. at the TRA3, Cencetti L. return 10 yards to the TRA13, out-of-bounds." ob="Y" newcontext="V,1,10,V13">
+    <p_pa vh="H" qb="Fedeli G." result="INT"></p_pa>
+    <p_ir vh="V" name="Cencetti L." at="V03" gain="10"></p_ir>
+   </play>
+   <drivesum plays="8" yards="40" top="1:31" driveindex="23" complete="Y"></drivesum>
+   <drivestart poss="V,V13,02:11" vh="V" spot="V13" clock="02:11" driveindex="24,166"></drivestart>
+   <play hasball="TRA" down="1" togo="10" spot="TRA13" context="V,1,10,V13" playid="24,1,167" clock="01:12"
+      text="TRAPPERS CECINA drive start at 01:12." newcontext="V,1,10,V13">
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="TRA13" context="V,1,10,V13" playid="24,2,168" type="R" first="R"
+      text="Garbarino C. rush for 16 yards to the TRA29, 1ST DOWN TRA, out-of-bounds (Gabbrielli M.)." ob="Y" newcontext="V,1,10,V29">
+    <p_ru vh="V" name="Garbarino C." gain="16"></p_ru>
+    <p_tk vh="H" name="Gabbrielli M."></p_tk>
+   </play>
+   <play hasball="TRA" down="1" togo="10" spot="TRA29" context="V,1,10,V29" playid="24,3,169" type="R"
+      text="Tarroni E. rush for loss of 1 yard to the TRA28." newcontext="V,2,11,V28">
+    <p_ru vh="V" name="Tarroni E." gain="-1"></p_ru>
+   </play>
+   <play hasball="TRA" down="2" togo="11" spot="TRA28" context="V,2,11,V28" playid="24,4,170" type="R"
+      text="Tarroni E. rush for loss of 1 yard to the TRA27." newcontext="V,3,12,V27">
+    <p_ru vh="V" name="Tarroni E." gain="-1"></p_ru>
+   </play>
+   <play hasball="TRA" down="3" togo="12" spot="TRA27" context="V,3,12,V27" playid="24,5,171" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="V,3,12,V27">
+   </play>
+   <drivesum plays="3" yards="14" top="1:12" driveindex="24" complete="Y"></drivesum>
+   <score final="Y" V="38" H="28"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="TRA">
+    <firstdowns no="6" rush="3" pass="2" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:32"></misc>
+    <rush att="12" yds="65" gain="70" loss="5" td="1" long="8"></rush>
+    <pass comp="2" att="4" int="0" yds="20" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="20" td="0" long="0"></rcv>
+    <ko no="1" yds="56" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="4" tacka="0" tot_tack="4" sacks="0" sackyds="0" int="1" intyds="10"></defense>
+    <kr no="1" yds="10" td="0" long="0"></kr>
+    <ir no="1" yds="10" td="0" long="10"></ir>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FAS">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:28"></misc>
+    <rush att="3" yds="28" gain="28" loss="0" td="0" long="0"></rush>
+    <pass comp="2" att="9" int="1" yds="40" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="40" td="1" long="0"></rcv>
+    <punt no="1" yds="25" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="25.0"></punt>
+    <ko no="1" yds="35" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="1"></pat>
+    <defense tackua="10" tacka="4" tot_tack="14" tflua="2" tfla="0" tflyds="3" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="23" td="0" long="14"></kr>
+    <scoring td="1" patrush="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="TRA" down="3" togo="12" spot="TRA27" context="V,3,12,V27" qtr="4" clock="00:00" vtoh="2" htoh="3"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="TRA">
+  <player name="Giustarini S." checkname="S.,GIUSTARINI" uni="19" gp="0" code="19"></player>
+  <player name="Amato G." checkname="G.,AMATO" uni="20" gp="0" code="20"></player>
+  <player name="Tommasi A." checkname="A.,TOMMASI" uni="7" gp="0" code="7"></player>
+  <player name="Quarticelli L." checkname="L.,QUARTICELLI" uni="51" gp="0" code="51"></player>
+  <player name="Colonna N." checkname="N.,COLONNA" uni="52" gp="0" code="52"></player>
+  <player name="Vagli B." checkname="B.,VAGLI" uni="55" gp="0" code="55"></player>
+  <player name="Di Maggio M." checkname="MAGGIO M.,DI" uni="64" gp="0" code="64"></player>
+  <player name="Morra N." checkname="N.,MORRA" uni="65" gp="0" code="65"></player>
+  <player name="Marullo F." checkname="F.,MARULLO" uni="67" gp="0" code="67"></player>
+  <player name="Petrillo M." checkname="M.,PETRILLO" uni="75" gp="0" code="75"></player>
+  <player name="Seu E." checkname="E.,SEU" uni="77" gp="0" code="77"></player>
+  <player name="Ballantini M." checkname="M.,BALLANTINI" uni="90" gp="0" code="90"></player>
+  <player name="Mazzi R." checkname="R.,MAZZI" uni="97" gp="0" code="97"></player>
+ </dnp>
+ <dnp vh="H" id="FAS">
+  <player name="Belli N." checkname="N.,BELLI" uni="19" gp="0" code="19"></player>
+  <player name="Lisco V." checkname="V.,LISCO" uni="24" gp="0" code="24"></player>
+  <player name="Fiordi J." checkname="J.,FIORDI" uni="29" gp="0" code="29"></player>
+  <player name="Mancini F." checkname="F.,MANCINI" uni="37" gp="0" code="37"></player>
+  <player name="Greggio R." checkname="R.,GREGGIO" uni="50" gp="0" code="50"></player>
+  <player name="Marchi G." checkname="G.,MARCHI" uni="53" gp="0" code="53"></player>
+  <player name="Tamberi F." checkname="F.,TAMBERI" uni="58" gp="0" code="58"></player>
+  <player name="De Fabiis D." checkname="FABIIS D.,DE" uni="59" gp="0" code="59"></player>
+  <player name="Bors&#242; V." checkname="V.,BORS&#242;" uni="61" gp="0" code="61"></player>
+  <player name="Bini Verona A." checkname="VERONA A.,BINI" uni="66" gp="0" code="66"></player>
+  <player name="Bianchi M." checkname="M.,BIANCHI" uni="89" gp="0" code="89"></player>
+  <player name="Pillonca A." checkname="A.,PILLONCA" uni="97" gp="0" code="97"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

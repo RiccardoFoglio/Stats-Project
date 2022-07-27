@@ -1,0 +1,1279 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220636" visid="HUR" homeid="BEN" visname="Hurricanes Vicenza" homename="Bengals Brescia"
+      date="6/18/2022" location="Brescia" stadium="Enrico Chico Nova"
+      start="20:30" end="23:15" leaguegame="Y" nitegame="Y" postseason="Y"
+      duration="2:45" attend="110" temp="29 C" wind="no wind" weather="sunny">
+  <officials ref="Rizzello G." ump="Breglia M." line="Greco G." lj="Cassiani M." bj="Pagani A." sc="Filippini L."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="35" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="HUR" name="Hurricanes Vicenza" record="4-2" conf-record="3-1" abb="V">
+  <linescore prds="4" line="14,0,0,6" score="20">
+   <lineprd prd="1" score="14"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals totoff_plays="70" totoff_yards="323" totoff_avg="4.6">
+   <firstdowns no="15" rush="7" pass="7" penalty="1"></firstdowns>
+   <penalties no="4" yds="42"></penalties>
+   <conversions thirdconv="3" thirdatt="15" fourthconv="4" fourthatt="8"></conversions>
+   <fumbles no="2" lost="2"></fumbles>
+   <misc yds="0" top="25:36" ona="0" onm="0"></misc>
+   <redzone att="3" scores="3" points="20" tdrush="2" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="30" yds="110" gain="127" loss="17" td="2" long="14"></rush>
+   <pass comp="11" att="40" int="1" yds="213" td="1" long="39" sacks="0" sackyds="0"></pass>
+   <rcv no="11" yds="213" td="1" long="39"></rcv>
+   <punt no="1" yds="34" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="34.0"></punt>
+   <ko no="4" yds="223" ob="0" tb="2"></ko>
+   <pat kickatt="2" kickmade="2" rushatt="1" rushmade="0"></pat>
+   <defense tackua="32" tacka="14" tot_tack="46" tflua="4" tfla="4" tflyds="7" sacks="0" sackyds="0" brup="1" ff="1" fr="1" fryds="0"></defense>
+   <kr no="5" yds="65" td="0" long="18"></kr>
+   <scoring td="3" patkick="2"></scoring>
+  </totals>
+  <player name="Camagna T." shortname="Camagna T." checkname="T.,CAMAGNA" uni="21" gp="1" code="21">
+   <rcv no="5" yds="94" td="0" long="33"></rcv>
+   <pat rushatt="1" rushmade="0"></pat>
+   <kr no="2" yds="30" td="0" long="18"></kr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Cazzola F." shortname="Cazzola F." checkname="F.,CAZZOLA" uni="86" gp="1" code="86">
+   <rcv no="4" yds="94" td="0" long="39"></rcv>
+   <punt no="1" yds="34" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="34.0"></punt>
+   <ko no="4" yds="223" ob="0" tb="2"></ko>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+   <scoring patkick="2"></scoring>
+  </player>
+  <player name="Bolcato M." shortname="Bolcato M." checkname="M.,BOLCATO" uni="88" gp="1" code="88">
+   <rcv no="2" yds="25" td="1" long="24"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Dorfmann A." shortname="Dorfmann A." checkname="A.,DORFMANN" uni="9" gp="1" code="9">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="Ferraro G." shortname="Ferraro G." checkname="G.,FERRARO" uni="12" gp="1" code="12">
+  </player>
+  <player name="Vicariotto F." shortname="Vicariotto F." checkname="F.,VICARIOTTO" uni="6" gp="1" code="6">
+   <defense tackua="3" tacka="1" tot_tack="4"></defense>
+  </player>
+  <player name="Gaspari R." shortname="Gaspari R." checkname="R.,GASPARI" uni="7" gp="1" code="7">
+   <defense tackua="5" tacka="1" tot_tack="6" tflua="2" tfla="1" tflyds="3"></defense>
+  </player>
+  <player name="Azzimelli B." shortname="Azzimelli B." checkname="B.,AZZIMELLI" uni="20" gp="1" code="20">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Trenti D." shortname="Trenti D." checkname="D.,TRENTI" uni="8" gp="1" code="8">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Spasov L." shortname="Spasov L." checkname="L.,SPASOV" uni="23" gp="1" code="23">
+   <kr no="1" yds="7" td="0" long="7"></kr>
+  </player>
+  <player name="Boraso F." shortname="Boraso F." checkname="F.,BORASO" uni="37" gp="1" code="37">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+   <kr no="2" yds="28" td="0" long="18"></kr>
+  </player>
+  <player name="Casarotto A." shortname="Casarotto A." checkname="A.,CASAROTTO" uni="52" gp="1" code="52">
+   <defense tackua="2" tacka="5" tot_tack="7" tflua="0" tfla="2" tflyds="1"></defense>
+  </player>
+  <player name="Farina G." shortname="Farina G." checkname="G.,FARINA" uni="55" gp="1" code="55">
+   <defense tackua="6" tacka="2" tot_tack="8"></defense>
+  </player>
+  <player name="Scapin G." shortname="Scapin G." checkname="G.,SCAPIN" uni="56" gp="1" code="56">
+   <defense tackua="5" tacka="3" tot_tack="8" tflua="0" tfla="1" tflyds="1" brup="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Baldinazzo D." shortname="Baldinazzo D." checkname="D.,BALDINAZZO" uni="65" gp="1" code="65">
+   <defense tackua="3" tacka="0" tot_tack="3" tflua="2" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Melchiorre P." shortname="Melchiorre P." checkname="P.,MELCHIORRE" uni="19" gp="1" code="19">
+   <rush att="10" yds="28" gain="30" loss="2" td="0" long="11"></rush>
+  </player>
+  <player name="Muraro G." shortname="Muraro G." checkname="G.,MURARO" uni="15" gp="1" code="15">
+   <rush att="20" yds="82" gain="97" loss="15" td="2" long="14"></rush>
+   <pass comp="11" att="40" int="1" yds="213" td="1" long="39" sacks="0" sackyds="0"></pass>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0" tot_tack="1" ff="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="BEN" name="Bengals Brescia" record="6-0" conf-record="4-0" abb="B">
+  <linescore prds="4" line="12,16,7,0" score="35">
+   <lineprd prd="1" score="12"></lineprd>
+   <lineprd prd="2" score="16"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="50" totoff_yards="388" totoff_avg="7.8">
+   <firstdowns no="13" rush="10" pass="3" penalty="0"></firstdowns>
+   <penalties no="8" yds="85"></penalties>
+   <conversions thirdconv="3" thirdatt="8" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="22:24" ona="0" onm="0"></misc>
+   <redzone att="6" scores="4" points="29" tdrush="3" tdpass="1" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="1" endgame="0"></redzone>
+   <rush att="36" yds="295" gain="301" loss="6" td="4" long="80"></rush>
+   <pass comp="7" att="14" int="0" yds="93" td="1" long="40" sacks="0" sackyds="0"></pass>
+   <rcv no="7" yds="93" td="1" long="40"></rcv>
+   <punt no="2" yds="64" long="49" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="32.0"></punt>
+   <ko no="6" yds="295" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <pat kickatt="2" kickmade="1" rushatt="3" rushmade="2"></pat>
+   <defense tackua="32" tacka="14" tot_tack="46" tflua="3" tfla="0" tflyds="12" sacks="0" sackyds="0" brup="6" ff="1" fr="2" fryds="16" int="1" intyds="0"></defense>
+   <kr no="2" yds="64" td="0" long="38"></kr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+   <fr no="1" yds="16" td="0" long="16"></fr>
+   <scoring td="5" patkick="1" patrush="2"></scoring>
+  </totals>
+  <player name="Gaggiotti M." shortname="Gaggiotti M." checkname="M.,GAGGIOTTI" uni="5" gp="1" code="5">
+   <rcv no="3" yds="22" td="0" long="21"></rcv>
+   <kr no="2" yds="64" td="0" long="38"></kr>
+  </player>
+  <player name="Bergomi L." shortname="Bergomi L." checkname="L.,BERGOMI" uni="86" gp="1" code="86">
+   <rcv no="2" yds="47" td="0" long="40"></rcv>
+  </player>
+  <player name="Orizio N." shortname="Orizio N." checkname="N.,ORIZIO" uni="26" gp="1" code="26">
+   <rcv no="2" yds="24" td="1" long="14"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Tinti G." shortname="Tinti G." checkname="G.,TINTI" uni="10" gp="1" code="10">
+   <rush att="7" yds="31" gain="31" loss="0" td="0" long="15"></rush>
+   <pass comp="7" att="14" int="0" yds="93" td="1" long="40" sacks="0" sackyds="0"></pass>
+   <pat rushatt="1" rushmade="1"></pat>
+   <scoring patrush="1"></scoring>
+  </player>
+  <player name="Di Tusa I." shortname="Di Tusa I." checkname="TUSA I.,DI" uni="27" gp="1" code="27">
+   <rush att="2" yds="5" gain="5" loss="0" td="0" long="4"></rush>
+  </player>
+  <player name="Bassani L." shortname="Bassani L." checkname="L.,BASSANI" uni="15" gp="1" code="15">
+   <defense tackua="4" tacka="1" tot_tack="5" brup="1"></defense>
+  </player>
+  <player name="Bertoglio G." shortname="Bertoglio G." checkname="G.,BERTOGLIO" uni="17" gp="1" code="17">
+   <punt no="2" yds="64" long="49" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="32.0"></punt>
+   <ko no="6" yds="295" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <pat kickatt="2" kickmade="1"></pat>
+   <scoring patkick="1"></scoring>
+  </player>
+  <player name="Canetta A." shortname="Canetta A." checkname="A.,CANETTA" uni="23" gp="1" code="23">
+   <defense tackua="6" tacka="0" tot_tack="6" brup="4" ff="1"></defense>
+  </player>
+  <player name="Sbaraini A." shortname="Sbaraini A." checkname="A.,SBARAINI" uni="7" gp="1" code="7">
+   <rush att="7" yds="41" gain="42" loss="1" td="0" long="14"></rush>
+  </player>
+  <player name="Trami N." shortname="Trami N." checkname="N.,TRAMI" uni="90" gp="1" code="90">
+   <rush att="3" yds="58" gain="61" loss="3" td="0" long="61"></rush>
+   <pat rushatt="1" rushmade="0"></pat>
+  </player>
+  <player name="Favero M." shortname="Favero M." checkname="M.,FAVERO" uni="40" gp="1" code="40">
+   <defense tackua="5" tacka="1" tot_tack="6"></defense>
+  </player>
+  <player name="De Marco F." shortname="De Marco F." checkname="MARCO F.,DE" uni="43" gp="1" code="43">
+   <defense tackua="1" tacka="1" tot_tack="2" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Ferrari G." shortname="Ferrari G." checkname="G.,FERRARI" uni="44" gp="1" code="44">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Rossi M." shortname="Rossi M." checkname="M.,ROSSI" uni="47" gp="1" code="47">
+   <defense tackua="2" tacka="3" tot_tack="5"></defense>
+  </player>
+  <player name="Dainesi A." shortname="Dainesi A." checkname="A.,DAINESI" uni="8" gp="1" code="8">
+   <defense tackua="6" tacka="3" tot_tack="9" tflua="2" tfla="0" tflyds="7"></defense>
+  </player>
+  <player name="Rota R." shortname="Rota R." checkname="R.,ROTA" uni="50" gp="1" code="50">
+   <defense tackua="5" tacka="2" tot_tack="7" tflua="1" tfla="0" tflyds="5" fr="1" fryds="16"></defense>
+   <fr no="1" yds="16" td="0" long="16"></fr>
+  </player>
+  <player name="Maiolini M." shortname="Maiolini M." checkname="M.,MAIOLINI" uni="59" gp="1" code="59">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Barbolla R." shortname="Barbolla R." checkname="R.,BARBOLLA" uni="49" gp="1" code="49">
+   <rush att="17" yds="160" gain="162" loss="2" td="4" long="80"></rush>
+   <pat rushatt="1" rushmade="1"></pat>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="4" patrush="1"></scoring>
+  </player>
+  <player name="Viviani M." shortname="Viviani M." checkname="M.,VIVIANI" uni="88" gp="1" code="88">
+   <defense tackua="3" tacka="1" tot_tack="4" brup="1" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="HUR" qtr="1" clock="10:02" type="TD" how="RUSH" yds="2" scorer="Muraro G." patby="Cazzola F." pattype="KICK" patres="GOOD" plays="6" drive="75" top="1:58" vscore="7" hscore="0" driveindex="1"></score>
+  <score vh="H" team="BEN" qtr="1" clock="05:29" type="TD" how="RUSH" yds="2" scorer="Barbolla R." patby="Bertoglio G." pattype="KICK" patres="FAIL" plays="5" drive="52" top="2:18" vscore="7" hscore="6" driveindex="4"></score>
+  <score vh="V" team="HUR" qtr="1" clock="00:56" type="TD" how="RUSH" yds="12" scorer="Muraro G." patby="Cazzola F." pattype="KICK" patres="GOOD" plays="12" drive="70" top="4:29" vscore="14" hscore="6" driveindex="5"></score>
+  <score vh="H" team="BEN" qtr="1" clock="00:39" type="TD" how="RUSH" yds="80" scorer="Barbolla R." patby="Trami N." pattype="RUSH" patres="FAIL" plays="1" drive="80" top="0:17" vscore="14" hscore="12" driveindex="6"></score>
+  <score vh="H" team="BEN" qtr="2" clock="10:11" type="TD" how="PASS" yds="14" scorer="Orizio N." passer="Tinti G." patby="Barbolla R." pattype="RUSH" patres="GOOD" plays="3" drive="50" top="1:06" vscore="14" hscore="20" driveindex="8"></score>
+  <score vh="H" team="BEN" qtr="2" clock="01:17" type="TD" how="RUSH" yds="5" scorer="Barbolla R." patby="Tinti G." pattype="RUSH" patres="GOOD" plays="4" drive="9" top="1:05" vscore="14" hscore="28" driveindex="12"></score>
+  <score vh="H" team="BEN" qtr="3" clock="05:43" type="TD" how="RUSH" yds="7" scorer="Barbolla R." patby="Bertoglio G." pattype="KICK" patres="GOOD" plays="6" drive="29" top="3:23" vscore="14" hscore="35" driveindex="17"></score>
+  <score vh="V" team="HUR" qtr="4" clock="00:48" type="TD" how="PASS" yds="1" scorer="Bolcato M." passer="Muraro G." patby="Camagna T." pattype="RUSH" patres="FAIL" plays="17" drive="69" top="6:43" vscore="20" hscore="35" driveindex="22"></score>
+ </scores>
+ <fgas>
+  <fga vh="H" team="BEN" kicker="Bertoglio G." qtr="3" clock="00:35" distance="37" result="missed"></fga>
+ </fgas>
+ <drives>
+  <drive vh="V" team="HUR" start="KO,1,12:00,25" end="TD,1,10:02,100" plays="6" yards="75" top="1:58" start_how="KO" start_qtr="1" start_time="12:00" start_spot="HUR25" end_how="TD" end_qtr="1" end_time="10:02" end_spot="BEN00" rz="1" driveindex="1"></drive>
+  <drive vh="H" team="BEN" start="KO,1,09:56,40" end="FUMB,1,09:35,50" plays="2" yards="10" top="0:21" start_how="KO" start_qtr="1" start_time="09:56" start_spot="BEN40" end_how="FUMB" end_qtr="1" end_time="09:35" end_spot="BEN50" driveindex="2"></drive>
+  <drive vh="V" team="HUR" start="FUMB,1,09:35,50" end="DOWNS,1,07:47,52" plays="4" yards="2" top="1:48" start_how="FUMB" start_qtr="1" start_time="09:35" start_spot="HUR50" end_how="DOWNS" end_qtr="1" end_time="07:47" end_spot="BEN48" driveindex="3"></drive>
+  <drive vh="H" team="BEN" start="DOWNS,1,07:47,48" end="TD,1,05:29,100" plays="5" yards="52" top="2:18" start_how="DOWNS" start_qtr="1" start_time="07:47" start_spot="BEN48" end_how="TD" end_qtr="1" end_time="05:29" end_spot="HUR00" rz="1" driveindex="4"></drive>
+  <drive vh="V" team="HUR" start="KO,1,05:25,30" end="TD,1,00:56,100" plays="12" yards="70" top="4:29" start_how="KO" start_qtr="1" start_time="05:25" start_spot="HUR30" end_how="TD" end_qtr="1" end_time="00:56" end_spot="BEN00" rz="1" driveindex="5"></drive>
+  <drive vh="H" team="BEN" start="KO,1,00:56,20" end="TD,1,00:39,100" plays="1" yards="80" top="0:17" start_how="KO" start_qtr="1" start_time="00:56" start_spot="BEN20" end_how="TD" end_qtr="1" end_time="00:39" end_spot="HUR00" driveindex="6"></drive>
+  <drive vh="V" team="HUR" start="KO,1,00:21,11" end="PUNT,2,11:17,16" plays="3" yards="5" top="1:04" start_how="KO" start_qtr="1" start_time="00:21" start_spot="HUR11" end_how="PUNT" end_qtr="2" end_time="11:17" end_spot="HUR16" driveindex="7"></drive>
+  <drive vh="H" team="BEN" start="PUNT,2,11:17,50" end="TD,2,10:11,100" plays="3" yards="50" top="1:06" start_how="PUNT" start_qtr="2" start_time="11:17" start_spot="BEN50" end_how="TD" end_qtr="2" end_time="10:11" end_spot="HUR00" rz="1" driveindex="8"></drive>
+  <drive vh="V" team="HUR" start="KO,2,10:06,21" end="DOWNS,2,07:53,46" plays="5" yards="25" top="2:13" start_how="KO" start_qtr="2" start_time="10:06" start_spot="HUR21" end_how="DOWNS" end_qtr="2" end_time="07:53" end_spot="HUR46" driveindex="9"></drive>
+  <drive vh="H" team="BEN" start="DOWNS,2,07:53,54" end="DOWNS,2,03:11,88" plays="9" yards="34" top="4:42" start_how="DOWNS" start_qtr="2" start_time="07:53" start_spot="HUR46" end_how="DOWNS" end_qtr="2" end_time="03:11" end_spot="HUR12" rz="1" driveindex="10"></drive>
+  <drive vh="V" team="HUR" start="DOWNS,2,03:11,12" end="FUMB,2,02:22,9" plays="3" yards="-3" top="0:49" start_how="DOWNS" start_qtr="2" start_time="03:11" start_spot="HUR12" end_how="FUMB" end_qtr="2" end_time="02:22" end_spot="HUR09" driveindex="11"></drive>
+  <drive vh="H" team="BEN" start="FUMB,2,02:22,91" end="TD,2,01:17,100" plays="4" yards="9" top="1:05" start_how="FUMB" start_qtr="2" start_time="02:22" start_spot="HUR09" end_how="TD" end_qtr="2" end_time="01:17" end_spot="HUR00" rz="1" driveindex="12"></drive>
+  <drive vh="V" team="HUR" start="KO,2,01:17,42" end="DOWNS,2,00:36,53" plays="6" yards="11" top="0:41" start_how="KO" start_qtr="2" start_time="01:17" start_spot="HUR42" end_how="DOWNS" end_qtr="2" end_time="00:36" end_spot="BEN47" driveindex="13"></drive>
+  <drive vh="H" team="BEN" start="DOWNS,2,00:36,47" end="KO,3,12:00,48" plays="2" yards="1" top="0:36" start_how="DOWNS" start_qtr="2" start_time="00:36" start_spot="BEN47" end_how="KO" end_qtr="3" end_time="12:00" end_spot="BEN48" driveindex="14"></drive>
+  <drive vh="H" team="BEN" start="KO,3,11:52,41" end="PUNT,3,10:14,45" plays="3" yards="4" top="1:38" start_how="KO" start_qtr="3" start_time="11:52" start_spot="BEN41" end_how="PUNT" end_qtr="3" end_time="10:14" end_spot="BEN45" driveindex="15"></drive>
+  <drive vh="V" team="HUR" start="PUNT,3,10:14,6" end="INT,3,09:06,8" plays="3" yards="2" top="1:08" start_how="PUNT" start_qtr="3" start_time="10:14" start_spot="HUR06" end_how="INT" end_qtr="3" end_time="09:06" end_spot="HUR08" driveindex="16"></drive>
+  <drive vh="H" team="BEN" start="INT,3,09:06,71" end="TD,3,05:43,100" plays="6" yards="29" top="3:23" start_how="INT" start_qtr="3" start_time="09:06" start_spot="HUR29" end_how="TD" end_qtr="3" end_time="05:43" end_spot="HUR00" rz="1" driveindex="17"></drive>
+  <drive vh="V" team="HUR" start="KO,3,05:37,21" end="FUMB,3,03:21,72" plays="5" yards="51" top="2:16" start_how="KO" start_qtr="3" start_time="05:37" start_spot="HUR21" end_how="FUMB" end_qtr="3" end_time="03:21" end_spot="BEN28" driveindex="18"></drive>
+  <drive vh="H" team="BEN" start="FUMB,3,03:21,59" end="FGA,3,00:35,80" plays="6" yards="21" top="2:46" start_how="FUMB" start_qtr="3" start_time="03:21" start_spot="HUR41" end_how="FGA" end_qtr="3" end_time="00:35" end_spot="HUR20" driveindex="19"></drive>
+  <drive vh="V" team="HUR" start="FGA,3,00:35,20" end="DOWNS,4,10:41,51" plays="6" yards="31" top="1:54" start_how="FGA" start_qtr="3" start_time="00:35" start_spot="HUR20" end_how="DOWNS" end_qtr="4" end_time="10:41" end_spot="BEN49" driveindex="20"></drive>
+  <drive vh="H" team="BEN" start="DOWNS,4,10:41,49" end="PUNT,4,07:31,54" plays="7" yards="5" top="3:10" start_how="DOWNS" start_qtr="4" start_time="10:41" start_spot="BEN49" end_how="PUNT" end_qtr="4" end_time="07:31" end_spot="HUR46" driveindex="21"></drive>
+  <drive vh="V" team="HUR" start="PUNT,4,07:31,31" end="TD,4,00:48,100" plays="17" yards="69" top="6:43" start_how="PUNT" start_qtr="4" start_time="07:31" start_spot="HUR31" end_how="TD" end_qtr="4" end_time="00:48" end_spot="BEN00" rz="1" driveindex="22"></drive>
+  <drive vh="H" team="BEN" start="KO,4,00:48,20" end="HALF,4,00:00,80" plays="2" yards="60" top="0:48" start_how="KO" start_qtr="4" start_time="00:48" start_spot="BEN20" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="HUR20" rz="1" driveindex="23"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="HUR" down="1" togo="10" spot="HUR35" context="V,1,10,V35" playid="0,1,0"
+      text="bengals win the coin toss, defer to the second half" newcontext="V,1,10,V35">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR35" context="V,1,10,V35" playid="0,2,1"
+      text="BEN ball on BEN35." newcontext="H,1,10,H35">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN35" context="H,1,10,H35" playid="0,3,2" type="K"
+      text="Bertoglio G. kickoff 47 yards to the HUR18, Spasov L. return 7 yards to the HUR25, out-of-bounds (Bassani L.)." ob="Y" newcontext="V,1,10,V25">
+    <p_ko vh="H" name="Bertoglio G." gain="47"></p_ko>
+    <p_kr vh="V" name="Spasov L." gain="7"></p_kr>
+    <p_tk vh="H" name="Bassani L."></p_tk>
+   </play>
+   <drivestart poss="V,V25,12:00" vh="V" spot="V25" clock="12:00" driveindex="1,2"></drivestart>
+   <play hasball="HUR" down="1" togo="10" spot="HUR25" context="V,1,10,V25" playid="1,1,3" type="R"
+      text="Melchiorre P. rush for 1 yard to the HUR26 (Dainesi A.;Maiolini M.)." newcontext="V,2,9,V26">
+    <p_ru vh="V" name="Melchiorre P." gain="1"></p_ru>
+    <p_tk vh="H" name="Dainesi A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Maiolini M." assist="Y"></p_tk>
+   </play>
+   <play hasball="HUR" down="2" togo="9" spot="HUR26" context="V,2,9,V26" playid="1,2,4" type="P" first="P"
+      text="Muraro G. pass complete to Camagna T. for 33 yards to the BEN41, 1ST DOWN HUR (Bassani L.)." newcontext="V,1,10,H41">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Camagna T." gain="33"></p_pa>
+    <p_tk vh="H" name="Bassani L."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="BEN41" context="V,1,10,H41" playid="1,3,5" type="P"
+      text="Muraro G. pass incomplete to Camagna T. (Canetta A.)." newcontext="V,2,10,H41">
+    <p_pa vh="V" qb="Muraro G." result="BRUP" rcv="Camagna T."></p_pa>
+    <p_bu vh="H" name="Canetta A."></p_bu>
+   </play>
+   <play hasball="HUR" down="2" togo="10" spot="BEN41" context="V,2,10,H41" playid="1,4,6" type="P"
+      text="Muraro G. pass incomplete to Ferraro G., dropped pass." newcontext="V,3,10,H41">
+    <p_pa vh="V" qb="Muraro G." result="DROP" rcv="Ferraro G."></p_pa>
+   </play>
+   <play hasball="HUR" down="3" togo="10" spot="BEN41" context="V,3,10,H41" playid="1,5,7" type="P" first="P"
+      text="Muraro G. pass complete to Cazzola F. for 39 yards to the BEN2, 1ST DOWN HUR (Bassani L.)." newcontext="V,1,0,H02">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Cazzola F." gain="39"></p_pa>
+    <p_tk vh="H" name="Bassani L."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="0" spot="BEN02" context="V,1,0,H02" playid="1,6,8" type="R" score="Y" clock="10:02"
+      text="Muraro G. rush for 2 yards to the BEN0, TOUCHDOWN, clock 10:02." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Muraro G." gain="2"></p_ru>
+   </play>
+   <play hasball="HUR" down="1" togo="0" spot="BEN03" context="V,1,0,H03" playid="1,7,9" type="X" score="Y"
+      text="Cazzola F. kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Cazzola F." qb="Cazzola F." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="0"></score>
+   <drivesum plays="6" yards="75" top="1:58" driveindex="1" complete="Y"></drivesum>
+   <play hasball="HUR" down="1" togo="0" spot="HUR35" context="V,1,0,V35" playid="1,8,10" type="K"
+      text="Cazzola F. kickoff 53 yards to the BEN12, Gaggiotti M. return 38 yards to the 50 yardline, out-of-bounds (Cazzola F.), PENALTY BEN holding (Gottardo S.) 10 yards to the BEN40, 1st and 10, BEN ball on BEN40." ob="Y" newcontext="H,1,10,H40">
+    <p_ko vh="V" name="Cazzola F." gain="53"></p_ko>
+    <p_kr vh="H" name="Gaggiotti M." gain="38"></p_kr>
+    <p_tk vh="V" name="Cazzola F."></p_tk>
+    <p_pn vh="H" code="HO" type="holding" name="Gottardo S." result="ACCEPT" at="H50" yards="10"></p_pn>
+   </play>
+   <drivestart poss="H,H40,10:02" vh="H" spot="H40" clock="10:02" driveindex="2,10"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN40" context="H,1,10,H40" playid="2,1,11" clock="09:56"
+      text="BENGALS BRESCIA drive start at 09:56." newcontext="H,1,10,H40">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN40" context="H,1,10,H40" playid="2,2,12" type="P"
+      text="Tinti G. pass incomplete." newcontext="H,2,10,H40">
+    <p_pa vh="H" qb="Tinti G." result="INC"></p_pa>
+   </play>
+   <play hasball="BEN" down="2" togo="10" spot="BEN40" context="H,2,10,H40" playid="2,3,13" type="R" turnover="F"
+      text="Barbolla R. rush for 10 yards to the 50 yardline, fumble forced by TEAM, fumble by Barbolla R. recovered by HUR Scapin G. at 50 yardline." newcontext="V,1,10,V50">
+    <p_ru vh="H" name="Barbolla R." gain="10"></p_ru>
+    <p_fumb vh="H" name="Barbolla R." at="V50" frvh="V" frname="Scapin G."></p_fumb>
+    <p_tk vh="V" name="TEAM" ff="Y"></p_tk>
+   </play>
+   <drivesum plays="2" yards="10" top="0:21" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,V50,09:56" vh="V" spot="V50" clock="09:56" driveindex="3,13"></drivestart>
+   <play hasball="HUR" down="1" togo="10" spot="HUR50" context="V,1,10,V50" playid="3,1,14" clock="09:35"
+      text="HURRICANES VICENZA drive start at 09:35." newcontext="V,1,10,V50">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR50" context="V,1,10,V50" playid="3,2,15" type="R"
+      text="Muraro G. rush for 7 yards to the BEN43 (Dainesi A.)." newcontext="V,2,3,H43">
+    <p_ru vh="V" name="Muraro G." gain="7"></p_ru>
+    <p_tk vh="H" name="Dainesi A."></p_tk>
+   </play>
+   <play hasball="HUR" down="2" togo="3" spot="BEN43" context="V,2,3,H43" playid="3,3,16" type="P"
+      text="Muraro G. pass incomplete to Camagna T., dropped pass." newcontext="V,3,3,H43">
+    <p_pa vh="V" qb="Muraro G." result="DROP" rcv="Camagna T."></p_pa>
+   </play>
+   <play hasball="HUR" down="3" togo="3" spot="BEN43" context="V,3,3,H43" playid="3,4,17" type="R"
+      text="Muraro G. rush for loss of 5 yards to the BEN48, out-of-bounds (Dainesi A.)." ob="Y" newcontext="V,4,8,H48">
+    <p_ru vh="V" name="Muraro G." gain="-5"></p_ru>
+    <p_tk vh="H" name="Dainesi A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="HUR" down="4" togo="8" spot="BEN48" context="V,4,8,H48" playid="3,5,18" type="P"
+      text="Muraro G. pass incomplete to Camagna T.." newcontext="H,1,10,H48">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Camagna T."></p_pa>
+   </play>
+   <drivesum plays="4" yards="2" top="1:48" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,H48,09:35" vh="H" spot="H48" clock="09:35" driveindex="4,18"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN48" context="H,1,10,H48" playid="4,1,19" clock="07:47"
+      text="BENGALS BRESCIA drive start at 07:47." newcontext="H,1,10,H48">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN48" context="H,1,10,H48" playid="4,2,20" type="R"
+      text="Barbolla R. rush for 7 yards to the HUR45 (Scapin G.)." newcontext="H,2,3,V45">
+    <p_ru vh="H" name="Barbolla R." gain="7"></p_ru>
+    <p_tk vh="V" name="Scapin G."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="3" spot="HUR45" context="H,2,3,V45" playid="4,3,21" type="R" first="R"
+      text="Barbolla R. rush for 4 yards to the HUR41, 1ST DOWN BEN (Scapin G.)." newcontext="H,1,10,V41">
+    <p_ru vh="H" name="Barbolla R." gain="4"></p_ru>
+    <p_tk vh="V" name="Scapin G."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR41" context="H,1,10,V41" playid="4,4,22" type="P" first="P"
+      text="Tinti G. pass complete to Bergomi L. for 40 yards to the HUR1, 1ST DOWN BEN (Boraso F.)." newcontext="H,1,0,V01">
+    <p_pa vh="H" qb="Tinti G." result="COMP" rcv="Bergomi L." gain="40"></p_pa>
+    <p_tk vh="V" name="Boraso F."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="HUR01" context="H,1,0,V01" playid="4,5,23" type="R"
+      text="Barbolla R. rush for loss of 1 yard to the HUR2 (Gaspari R.)." newcontext="H,2,0,V02">
+    <p_ru vh="H" name="Barbolla R." gain="-1"></p_ru>
+    <p_tk vh="V" name="Gaspari R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="0" spot="HUR02" context="H,2,0,V02" playid="4,6,24" type="R" score="Y" clock="05:29"
+      text="Barbolla R. rush for 2 yards to the HUR0, TOUCHDOWN, clock 05:29." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Barbolla R." gain="2"></p_ru>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="HUR03" context="H,1,0,V03" playid="4,7,25" type="X"
+      text="Bertoglio G. kick attempt failed." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Bertoglio G." qb="Bertoglio G." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="7" H="6"></score>
+   <drivesum plays="5" yards="52" top="2:18" driveindex="4" complete="Y"></drivesum>
+   <play hasball="BEN" down="1" togo="0" spot="BEN35" context="H,1,0,H35" playid="4,8,26" type="K"
+      text="Bertoglio G. kickoff 47 yards to the HUR18, Camagna T. return 12 yards to the HUR30 (Favero M.)." newcontext="V,1,10,V30">
+    <p_ko vh="H" name="Bertoglio G." gain="47"></p_ko>
+    <p_kr vh="V" name="Camagna T." gain="12"></p_kr>
+    <p_tk vh="H" name="Favero M."></p_tk>
+   </play>
+   <drivestart poss="V,V30,05:29" vh="V" spot="V30" clock="05:29" driveindex="5,26"></drivestart>
+   <play hasball="HUR" down="1" togo="10" spot="HUR30" context="V,1,10,V30" playid="5,1,27" clock="05:25"
+      text="HURRICANES VICENZA drive start at 05:25." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR30" context="V,1,10,V30" playid="5,2,28" type="P"
+      text="Muraro G. pass incomplete to Camagna T.." newcontext="V,2,10,V30">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Camagna T."></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="10" spot="HUR30" context="V,2,10,V30" playid="5,3,29" type="P"
+      text="Muraro G. pass incomplete to Cazzola F. (Bassani L.)." newcontext="V,3,10,V30">
+    <p_pa vh="V" qb="Muraro G." result="BRUP" rcv="Cazzola F."></p_pa>
+    <p_bu vh="H" name="Bassani L."></p_bu>
+   </play>
+   <play hasball="HUR" down="3" togo="10" spot="HUR30" context="V,3,10,V30" playid="5,4,30" type="R" first="R"
+      text="Muraro G. rush for 14 yards to the HUR44, 1ST DOWN HUR, out-of-bounds (Canetta A.)." ob="Y" newcontext="V,1,10,V44">
+    <p_ru vh="V" name="Muraro G." gain="14"></p_ru>
+    <p_tk vh="H" name="Canetta A."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR44" context="V,1,10,V44" playid="5,5,31" type="P"
+      text="Muraro G. pass incomplete to Camagna T.." newcontext="V,2,10,V44">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Camagna T."></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="10" spot="HUR44" context="V,2,10,V44" playid="5,6,32" type="R"
+      text="Muraro G. rush for 9 yards to the BEN47 (Canetta A.)." newcontext="V,3,1,H47">
+    <p_ru vh="V" name="Muraro G." gain="9"></p_ru>
+    <p_tk vh="H" name="Canetta A."></p_tk>
+   </play>
+   <play hasball="HUR" down="3" togo="1" spot="BEN47" context="V,3,1,H47" playid="5,7,33" type="R" first="R"
+      text="Melchiorre P. rush for 6 yards to the BEN41, 1ST DOWN HUR (Rota R.)." newcontext="V,1,10,H41">
+    <p_ru vh="V" name="Melchiorre P." gain="6"></p_ru>
+    <p_tk vh="H" name="Rota R."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="BEN41" context="V,1,10,H41" playid="5,8,34" type="P"
+      text="Muraro G. pass incomplete to Zancan C.." newcontext="V,2,10,H41">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Zancan C."></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="10" spot="BEN41" context="V,2,10,H41" playid="5,9,35" type="R"
+      text="Muraro G. rush for 5 yards to the BEN36 (Favero M.)." newcontext="V,3,5,H36">
+    <p_ru vh="V" name="Muraro G." gain="5"></p_ru>
+    <p_tk vh="H" name="Favero M."></p_tk>
+   </play>
+   <play hasball="HUR" down="3" togo="5" spot="BEN36" context="V,3,5,H36" playid="5,10,36" type="R"
+      text="Muraro G. rush for 3 yards to the BEN33 (Rossi M.)." newcontext="V,4,2,H33">
+    <p_ru vh="V" name="Muraro G." gain="3"></p_ru>
+    <p_tk vh="H" name="Rossi M."></p_tk>
+   </play>
+   <play hasball="HUR" down="4" togo="2" spot="BEN33" context="V,4,2,H33" playid="5,11,37" type="P" first="P"
+      text="Muraro G. pass complete to Cazzola F. for 19 yards to the BEN14, 1ST DOWN HUR (Canetta A.)." newcontext="V,1,10,H14">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Cazzola F." gain="19"></p_pa>
+    <p_tk vh="H" name="Canetta A."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="BEN14" context="V,1,10,H14" playid="5,12,38" type="R"
+      text="Melchiorre P. rush for 2 yards to the BEN12 (Rota R.)." newcontext="V,2,8,H12">
+    <p_ru vh="V" name="Melchiorre P." gain="2"></p_ru>
+    <p_tk vh="H" name="Rota R."></p_tk>
+   </play>
+   <play hasball="HUR" down="2" togo="8" spot="BEN12" context="V,2,8,H12" playid="5,13,39" type="R" first="R" score="Y" clock="00:56"
+      text="Muraro G. rush for 12 yards to the BEN0, 1ST DOWN HUR, TOUCHDOWN, clock 00:56." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Muraro G." gain="12"></p_ru>
+   </play>
+   <play hasball="HUR" down="1" togo="0" spot="BEN03" context="V,1,0,H03" playid="5,14,40" type="X" score="Y"
+      text="Cazzola F. kick attempt good, PENALTY BEN personal foul 15 yards to the 50 yardline." newcontext="V,1,0,V50">
+    <p_pat vh="V" name="Cazzola F." qb="Cazzola F." type="K" result="GOOD" score="Y"></p_pat>
+    <p_pn vh="H" code="PF" type="personal foul" result="ACCEPT" at="V35" yards="15"></p_pn>
+   </play>
+   <score V="14" H="6"></score>
+   <play hasball="HUR" down="1" togo="0" spot="HUR50" context="V,1,0,V50" playid="5,15,41"
+      text="HUR ball on 50 yardline." newcontext="V,1,0,V50">
+   </play>
+   <play hasball="HUR" down="1" togo="0" spot="HUR50" context="V,1,0,V50" playid="5,16,42" type="E"
+      text="Cazzola F. kickoff 50 yards to the BEN0, downed, PENALTY HUR illegal procedure (Cazzola F.) 5 yards to the HUR45, NO PLAY." newcontext="V,1,0,V45">
+    <p_pn vh="V" code="PR" type="illegal procedure" name="Cazzola F." result="ACCEPT" at="V50" yards="5"></p_pn>
+   </play>
+   <drivesum plays="12" yards="70" top="4:29" driveindex="5" complete="Y"></drivesum>
+   <play hasball="HUR" down="1" togo="0" spot="HUR45" context="V,1,0,V45" playid="5,17,43" type="K"
+      text="Cazzola F. kickoff 55 yards to the BEN0, touchback." newcontext="H,1,10,H20">
+    <p_ko vh="V" name="Cazzola F." gain="55" result="T"></p_ko>
+   </play>
+   <drivestart poss="H,H20,00:56" vh="H" spot="H20" clock="00:56" driveindex="6,43"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN20" context="H,1,10,H20" playid="6,1,44" clock="00:56"
+      text="BENGALS BRESCIA drive start at 00:56." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN20" context="H,1,10,H20" playid="6,2,45" type="R" first="R" score="Y" clock="00:39"
+      text="Barbolla R. rush for 80 yards to the HUR0, 1ST DOWN BEN, TOUCHDOWN, clock 00:39." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Barbolla R." gain="80"></p_ru>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="HUR03" context="H,1,0,V03" playid="6,3,46" type="X"
+      text="Trami N. rush attempt failed." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Trami N." qb="Trami N." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="14" H="12"></score>
+   <drivesum plays="1" yards="80" top="0:17" driveindex="6" complete="Y"></drivesum>
+   <play hasball="BEN" down="1" togo="0" spot="BEN35" context="H,1,0,H35" playid="6,4,47" type="K"
+      text="Bertoglio G. kickoff 57 yards to the HUR8, Boraso F. return 18 yards to the HUR26 (Viviani M.), PENALTY HUR personal foul (Baldinazzo D.) 15 yards to the HUR11, 1st and 10, HUR ball on HUR11." newcontext="V,1,10,V11">
+    <p_ko vh="H" name="Bertoglio G." gain="57"></p_ko>
+    <p_kr vh="V" name="Boraso F." gain="18"></p_kr>
+    <p_tk vh="H" name="Viviani M."></p_tk>
+    <p_pn vh="V" code="PF" type="personal foul" name="Baldinazzo D." result="ACCEPT" at="V26" yards="15"></p_pn>
+   </play>
+   <drivestart poss="V,V11,00:39" vh="V" spot="V11" clock="00:39" driveindex="7,47"></drivestart>
+   <play hasball="HUR" down="1" togo="10" spot="HUR11" context="V,1,10,V11" playid="7,1,48" clock="00:21"
+      text="HURRICANES VICENZA drive start at 00:21." newcontext="V,1,10,V11">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR11" context="V,1,10,V11" playid="7,2,49" type="R"
+      text="Melchiorre P. rush for 2 yards to the HUR13 (Favero M.)." newcontext="V,2,8,V13">
+    <p_ru vh="V" name="Melchiorre P." gain="2"></p_ru>
+    <p_tk vh="H" name="Favero M."></p_tk>
+   </play>
+   <play hasball="HUR" down="2" togo="8" spot="HUR13" context="V,2,8,V13" playid="7,3,50" type="P"
+      text="Muraro G. pass incomplete (Viviani M.)." newcontext="V,3,8,V13">
+    <p_pa vh="V" qb="Muraro G." result="BRUP"></p_pa>
+    <p_bu vh="H" name="Viviani M."></p_bu>
+   </play>
+   <score qtr="1" V="14" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="HUR">
+    <firstdowns no="6" rush="3" pass="3" penalty="0"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="3" thirdatt="5" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:58"></misc>
+    <rush att="12" yds="58" gain="63" loss="5" td="2" long="14"></rush>
+    <pass comp="3" att="12" int="0" yds="91" td="0" long="39" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="91" td="0" long="39"></rcv>
+    <ko no="2" yds="108" ob="0" tb="1"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="6" tacka="0" tot_tack="6" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0" ff="1" fr="1" fryds="0"></defense>
+    <kr no="3" yds="37" td="0" long="18"></kr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BEN">
+    <firstdowns no="3" rush="2" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="25"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="03:02"></misc>
+    <rush att="6" yds="102" gain="103" loss="1" td="2" long="80"></rush>
+    <pass comp="1" att="2" int="0" yds="40" td="0" long="40" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="40" td="0" long="40"></rcv>
+    <ko no="3" yds="151" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0" rushatt="1" rushmade="0"></pat>
+    <defense tackua="15" tacka="2" tot_tack="17" tflua="1" tfla="0" tflyds="5" sacks="0" sackyds="0" brup="3"></defense>
+    <kr no="1" yds="38" td="0" long="38"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="HUR" down="3" togo="8" spot="HUR13" context="V,3,8,V13" playid="7,4,51" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="V,3,8,V13">
+   </play>
+   <play hasball="HUR" down="3" togo="8" spot="HUR13" context="V,3,8,V13" playid="7,5,52" type="R"
+      text="Muraro G. rush for 3 yards to the HUR16, out-of-bounds (De Marco F.)." ob="Y" newcontext="V,4,5,V16">
+    <p_ru vh="V" name="Muraro G." gain="3"></p_ru>
+    <p_tk vh="H" name="De Marco F."></p_tk>
+   </play>
+   <play hasball="HUR" down="4" togo="5" spot="HUR16" context="V,4,5,V16" playid="7,6,53" type="U"
+      text="Cazzola F. punt 34 yards to the 50 yardline." newcontext="H,1,10,H50">
+    <p_pu vh="V" name="Cazzola F." gain="34"></p_pu>
+   </play>
+   <drivesum plays="3" yards="5" top="1:04" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H50,12:00" vh="H" spot="H50" clock="12:00" driveindex="8,53"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN50" context="H,1,10,H50" playid="8,1,54" clock="11:17"
+      text="BENGALS BRESCIA drive start at 11:17." newcontext="H,1,10,H50">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN50" context="H,1,10,H50" playid="8,2,55" type="P" first="P"
+      text="Tinti G. pass complete to Gaggiotti M. for 21 yards to the HUR29, 1ST DOWN BEN, out-of-bounds (Gaspari R.)." ob="Y" newcontext="H,1,10,V29">
+    <p_pa vh="H" qb="Tinti G." result="COMP" rcv="Gaggiotti M." gain="21"></p_pa>
+    <p_tk vh="V" name="Gaspari R."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR29" context="H,1,10,V29" playid="8,3,56" type="R" first="R"
+      text="Barbolla R. rush for 15 yards to the HUR14, 1ST DOWN BEN (Dorfmann A.)." newcontext="H,1,10,V14">
+    <p_ru vh="H" name="Barbolla R." gain="15"></p_ru>
+    <p_tk vh="V" name="Dorfmann A."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR14" context="H,1,10,V14" playid="8,4,57" type="P" first="P" score="Y" clock="10:11"
+      text="Tinti G. pass complete to Orizio N. for 14 yards to the HUR0, 1ST DOWN BEN, TOUCHDOWN, clock 10:11." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Tinti G." result="COMP" rcv="Orizio N." gain="14"></p_pa>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="HUR03" context="H,1,0,V03" playid="8,5,58" type="X" score="Y"
+      text="Barbolla R. rush attempt good." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Barbolla R." qb="Barbolla R." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="14" H="20"></score>
+   <play hasball="BEN" down="1" togo="0" spot="BEN35" context="H,1,0,H35" playid="8,6,59" type="E"
+      text="Bertoglio G. kickoff 34 yards to the HUR31, downed, PENALTY BEN illegal procedure (Bertoglio G.) 5 yards to the BEN30, NO PLAY." newcontext="H,1,0,H30">
+    <p_pn vh="H" code="PR" type="illegal procedure" name="Bertoglio G." result="ACCEPT" at="H35" yards="5"></p_pn>
+   </play>
+   <drivesum plays="3" yards="50" top="1:06" driveindex="8" complete="Y"></drivesum>
+   <play hasball="BEN" down="1" togo="0" spot="BEN30" context="H,1,0,H30" playid="8,7,60" type="K"
+      text="Bertoglio G. kickoff 59 yards to the HUR11, Boraso F. return 10 yards to the HUR21 (Dainesi A.)." newcontext="V,1,10,V21">
+    <p_ko vh="H" name="Bertoglio G." gain="59"></p_ko>
+    <p_kr vh="V" name="Boraso F." gain="10"></p_kr>
+    <p_tk vh="H" name="Dainesi A."></p_tk>
+   </play>
+   <drivestart poss="V,V21,10:11" vh="V" spot="V21" clock="10:11" driveindex="9,60"></drivestart>
+   <play hasball="HUR" down="1" togo="10" spot="HUR21" context="V,1,10,V21" playid="9,1,61" clock="10:06"
+      text="HURRICANES VICENZA drive start at 10:06." newcontext="V,1,10,V21">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR21" context="V,1,10,V21" playid="9,2,62" type="P" first="P"
+      text="Muraro G. pass complete to Cazzola F. for 25 yards to the HUR46, 1ST DOWN HUR (Bassani L.)." newcontext="V,1,10,V46">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Cazzola F." gain="25"></p_pa>
+    <p_tk vh="H" name="Bassani L."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR46" context="V,1,10,V46" playid="9,3,63" type="R"
+      text="Melchiorre P. rush for 1 yard to the HUR47 (Favero M.)." newcontext="V,2,9,V47">
+    <p_ru vh="V" name="Melchiorre P." gain="1"></p_ru>
+    <p_tk vh="H" name="Favero M."></p_tk>
+   </play>
+   <play hasball="HUR" down="2" togo="9" spot="HUR47" context="V,2,9,V47" playid="9,4,64" type="P"
+      text="Muraro G. pass incomplete to Zancan C.." newcontext="V,3,9,V47">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Zancan C."></p_pa>
+   </play>
+   <play hasball="HUR" down="3" togo="9" spot="HUR47" context="V,3,9,V47" playid="9,5,65" type="R"
+      text="Muraro G. rush for 4 yards to the BEN49 (Dainesi A.;Viviani M.)." newcontext="V,4,5,H49">
+    <p_ru vh="V" name="Muraro G." gain="4"></p_ru>
+    <p_tk vh="H" name="Dainesi A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Viviani M." assist="Y"></p_tk>
+   </play>
+   <play hasball="HUR" down="4" togo="5" spot="BEN49" context="V,4,5,H49" playid="9,6,66" type="R"
+      text="Muraro G. rush for loss of 5 yards to the HUR46 (Rota R.)." newcontext="H,1,10,V46">
+    <p_ru vh="V" name="Muraro G." gain="-5"></p_ru>
+    <p_tk vh="H" name="Rota R." tfl="Y"></p_tk>
+   </play>
+   <drivesum plays="5" yards="25" top="2:13" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,V46,10:06" vh="H" spot="V46" clock="10:06" driveindex="10,66"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="HUR46" context="H,1,10,V46" playid="10,1,67" clock="07:53"
+      text="BENGALS BRESCIA drive start at 07:53." newcontext="H,1,10,V46">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR46" context="H,1,10,V46" playid="10,2,68" type="R" first="R"
+      text="Tinti G. rush for 15 yards to the HUR31, 1ST DOWN BEN (Farina G.)." newcontext="H,1,10,V31">
+    <p_ru vh="H" name="Tinti G." gain="15"></p_ru>
+    <p_tk vh="V" name="Farina G."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR31" context="H,1,10,V31" playid="10,3,69" type="R"
+      text="Sbaraini A. rush for 4 yards to the HUR27 (Casarotto A.;Scapin G.)." newcontext="H,2,6,V27">
+    <p_ru vh="H" name="Sbaraini A." gain="4"></p_ru>
+    <p_tk vh="V" name="Casarotto A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Scapin G." assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="6" spot="HUR27" context="H,2,6,V27" playid="10,4,70" type="P"
+      text="Tinti G. pass incomplete to Bergomi L.." newcontext="H,3,6,V27">
+    <p_pa vh="H" qb="Tinti G." result="INC" rcv="Bergomi L."></p_pa>
+   </play>
+   <play hasball="BEN" down="3" togo="6" spot="HUR27" context="H,3,6,V27" playid="10,5,71" type="#" clock="06:36"
+      text="Timeout Bengals Brescia, clock 06:36." newcontext="H,3,6,V27">
+    <p_to vh="H" team="Bengals Brescia"></p_to>
+   </play>
+   <play hasball="BEN" down="3" togo="6" spot="HUR27" context="H,3,6,V27" playid="10,6,72" type="R"
+      text="Tinti G. rush for no gain to the HUR27 (Farina G.)." newcontext="H,4,6,V27">
+    <p_ru vh="H" name="Tinti G." gain="0"></p_ru>
+    <p_tk vh="V" name="Farina G."></p_tk>
+   </play>
+   <play hasball="BEN" down="4" togo="6" spot="HUR27" context="H,4,6,V27" playid="10,7,73" type="R" first="R"
+      text="Barbolla R. rush for 7 yards to the HUR20, 1ST DOWN BEN (Vicariotto F.)." newcontext="H,1,10,V20">
+    <p_ru vh="H" name="Barbolla R." gain="7"></p_ru>
+    <p_tk vh="V" name="Vicariotto F."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR20" context="H,1,10,V20" playid="10,8,74" type="P"
+      text="Tinti G. pass complete to Gaggiotti M. for loss of 1 yard to the HUR21 (Gaspari R.)." newcontext="H,2,11,V21">
+    <p_pa vh="H" qb="Tinti G." result="COMP" rcv="Gaggiotti M." gain="-1"></p_pa>
+    <p_tk vh="V" name="Gaspari R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="11" spot="HUR21" context="H,2,11,V21" playid="10,9,75" type="R"
+      text="Sbaraini A. rush for 10 yards to the HUR11 (Scapin G.)." newcontext="H,3,1,V11">
+    <p_ru vh="H" name="Sbaraini A." gain="10"></p_ru>
+    <p_tk vh="V" name="Scapin G."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="1" spot="HUR11" context="H,3,1,V11" playid="10,10,76" type="R"
+      text="Barbolla R. rush for loss of 1 yard to the HUR12 (Baldinazzo D.)." newcontext="H,4,2,V12">
+    <p_ru vh="H" name="Barbolla R." gain="-1"></p_ru>
+    <p_tk vh="V" name="Baldinazzo D." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="4" togo="2" spot="HUR12" context="H,4,2,V12" playid="10,11,77" type="R"
+      text="Tinti G. rush for no gain to the HUR12 (Farina G.)." newcontext="V,1,10,V12">
+    <p_ru vh="H" name="Tinti G." gain="0"></p_ru>
+    <p_tk vh="V" name="Farina G."></p_tk>
+   </play>
+   <drivesum plays="9" yards="34" top="4:42" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V12,06:36" vh="V" spot="V12" clock="06:36" driveindex="11,77"></drivestart>
+   <play hasball="HUR" down="1" togo="10" spot="HUR12" context="V,1,10,V12" playid="11,1,78" clock="03:11"
+      text="HURRICANES VICENZA drive start at 03:11." newcontext="V,1,10,V12">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR12" context="V,1,10,V12" playid="11,2,79" type="R"
+      text="Melchiorre P. rush for loss of 2 yards to the HUR10 (Dainesi A.)." newcontext="V,2,12,V10">
+    <p_ru vh="V" name="Melchiorre P." gain="-2"></p_ru>
+    <p_tk vh="H" name="Dainesi A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="HUR" down="2" togo="12" spot="HUR10" context="V,2,12,V10" playid="11,3,80" type="P"
+      text="Muraro G. pass incomplete to Ferraro G.." newcontext="V,3,12,V10">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Ferraro G."></p_pa>
+   </play>
+   <play hasball="HUR" down="3" togo="12" spot="HUR10" context="V,3,12,V10" playid="11,4,81" type="R" turnover="F"
+      text="Muraro G. rush for loss of 1 yard to the HUR9, fumble by Muraro G. recovered by BEN De Marco F. at HUR9." newcontext="H,1,0,V09">
+    <p_ru vh="V" name="Muraro G." gain="-1"></p_ru>
+    <p_fumb vh="V" name="Muraro G." at="V09" frvh="H" frname="De Marco F."></p_fumb>
+   </play>
+   <drivesum plays="3" yards="-3" top="0:49" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,V09,03:11" vh="H" spot="V09" clock="03:11" driveindex="12,81"></drivestart>
+   <play hasball="BEN" down="1" togo="0" spot="HUR09" context="H,1,0,V09" playid="12,1,82" clock="02:22"
+      text="BENGALS BRESCIA drive start at 02:22." newcontext="H,1,0,V09">
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="HUR09" context="H,1,0,V09" playid="12,2,83" type="R"
+      text="Barbolla R. rush for no gain to the HUR9, PENALTY BEN holding (Gottardo S.) 10 yards to the HUR19." newcontext="H,1,0,V19">
+    <p_ru vh="H" name="Barbolla R." gain="0"></p_ru>
+    <p_pn vh="H" code="HO" type="holding" name="Gottardo S." result="ACCEPT" at="V09" yards="10"></p_pn>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="HUR19" context="H,1,0,V19" playid="12,3,84"
+      text="1st and 19." newcontext="H,1,0,V19">
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="HUR19" context="H,1,0,V19" playid="12,4,85" type="R"
+      text="Barbolla R. rush for 4 yards to the HUR15 (Farina G.)." newcontext="H,2,0,V15">
+    <p_ru vh="H" name="Barbolla R." gain="4"></p_ru>
+    <p_tk vh="V" name="Farina G."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="0" spot="HUR15" context="H,2,0,V15" playid="12,5,86" type="P"
+      text="Tinti G. pass complete to Orizio N. for 10 yards to the HUR5." newcontext="H,3,0,V05">
+    <p_pa vh="H" qb="Tinti G." result="COMP" rcv="Orizio N." gain="10"></p_pa>
+   </play>
+   <play hasball="BEN" down="3" togo="0" spot="HUR05" context="H,3,0,V05" playid="12,6,87" type="R" score="Y" clock="01:17"
+      text="Barbolla R. rush for 5 yards to the HUR0, TOUCHDOWN, clock 01:17." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Barbolla R." gain="5"></p_ru>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="HUR03" context="H,1,0,V03" playid="12,7,88" type="X" score="Y"
+      text="Tinti G. rush attempt good." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Tinti G." qb="Tinti G." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="14" H="28"></score>
+   <drivesum plays="4" yards="9" top="1:05" driveindex="12" complete="Y"></drivesum>
+   <play hasball="BEN" down="1" togo="0" spot="BEN35" context="H,1,0,H35" playid="12,8,89" type="K"
+      text="Bertoglio G. kickoff 23 yards to the HUR42, downed." newcontext="V,1,10,V42">
+    <p_ko vh="H" name="Bertoglio G." gain="23"></p_ko>
+   </play>
+   <drivestart poss="V,V42,01:17" vh="V" spot="V42" clock="01:17" driveindex="13,89"></drivestart>
+   <play hasball="HUR" down="1" togo="10" spot="HUR42" context="V,1,10,V42" playid="13,1,90" clock="01:17"
+      text="HURRICANES VICENZA drive start at 01:17." newcontext="V,1,10,V42">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR42" context="V,1,10,V42" playid="13,2,91" type="P"
+      text="Muraro G. pass incomplete to Camagna T., dropped pass." newcontext="V,2,10,V42">
+    <p_pa vh="V" qb="Muraro G." result="DROP" rcv="Camagna T."></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="10" spot="HUR42" context="V,2,10,V42" playid="13,3,92" type="P" first="P"
+      text="Muraro G. pass complete to Cazzola F. for 11 yards to the BEN47, 1ST DOWN HUR (Canetta A.)." newcontext="V,1,10,H47">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Cazzola F." gain="11"></p_pa>
+    <p_tk vh="H" name="Canetta A."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="BEN47" context="V,1,10,H47" playid="13,4,93" type="#" clock="01:06"
+      text="Timeout Hurricanes Vicenza, clock 01:06." newcontext="V,1,10,H47">
+    <p_to vh="V" team="Hurricanes Vicenza"></p_to>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="BEN47" context="V,1,10,H47" playid="13,5,94" type="P"
+      text="Muraro G. pass incomplete to Camagna T.." newcontext="V,2,10,H47">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Camagna T."></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="10" spot="BEN47" context="V,2,10,H47" playid="13,6,95" type="P"
+      text="Muraro G. pass incomplete to Cazzola F., dropped pass." newcontext="V,3,10,H47">
+    <p_pa vh="V" qb="Muraro G." result="DROP" rcv="Cazzola F."></p_pa>
+   </play>
+   <play hasball="HUR" down="3" togo="10" spot="BEN47" context="V,3,10,H47" playid="13,7,96" type="P"
+      text="Muraro G. pass incomplete to Camagna T. (Canetta A.)." newcontext="V,4,10,H47">
+    <p_pa vh="V" qb="Muraro G." result="BRUP" rcv="Camagna T."></p_pa>
+    <p_bu vh="H" name="Canetta A."></p_bu>
+   </play>
+   <play hasball="HUR" down="4" togo="10" spot="BEN47" context="V,4,10,H47" playid="13,8,97" type="P"
+      text="Muraro G. pass incomplete to Cazzola F. (Canetta A.)." newcontext="H,1,10,H47">
+    <p_pa vh="V" qb="Muraro G." result="BRUP" rcv="Cazzola F."></p_pa>
+    <p_bu vh="H" name="Canetta A."></p_bu>
+   </play>
+   <drivesum plays="6" yards="11" top="0:41" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H47,01:06" vh="H" spot="H47" clock="01:06" driveindex="14,97"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN47" context="H,1,10,H47" playid="14,1,98" clock="00:36"
+      text="BENGALS BRESCIA drive start at 00:36." newcontext="H,1,10,H47">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN47" context="H,1,10,H47" playid="14,2,99" type="P"
+      text="Tinti G. pass incomplete to Gaggiotti M., dropped pass." newcontext="H,2,10,H47">
+    <p_pa vh="H" qb="Tinti G." result="DROP" rcv="Gaggiotti M."></p_pa>
+   </play>
+   <play hasball="BEN" down="2" togo="10" spot="BEN47" context="H,2,10,H47" playid="14,3,100" type="R"
+      text="Tinti G. rush for 1 yard to the BEN48 (Baldinazzo D.)." newcontext="H,3,9,H48">
+    <p_ru vh="H" name="Tinti G." gain="1"></p_ru>
+    <p_tk vh="V" name="Baldinazzo D."></p_tk>
+   </play>
+   <score qtr="2" V="14" H="28"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="HUR">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="4" fourthconv="0" fourthatt="2"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="04:31"></misc>
+    <rush att="6" yds="0" gain="8" loss="8" td="0" long="0"></rush>
+    <pass comp="2" att="9" int="0" yds="36" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="36" td="0" long="0"></rcv>
+    <punt no="1" yds="34" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="34.0"></punt>
+    <defense tackua="11" tacka="2" tot_tack="13" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="10" td="0" long="0"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BEN">
+    <firstdowns no="5" rush="3" pass="2" penalty="0"></firstdowns>
+    <penalties no="2" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:29"></misc>
+    <rush att="12" yds="60" gain="61" loss="1" td="1" long="0"></rush>
+    <pass comp="4" att="6" int="0" yds="44" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="44" td="1" long="0"></rcv>
+    <ko no="2" yds="82" ob="0" tb="0"></ko>
+    <pat rushatt="2" rushmade="2"></pat>
+    <defense tackua="7" tacka="2" tot_tack="9" tflua="2" tfla="0" tflyds="7" sacks="0" sackyds="0" brup="2" fr="1" fryds="0"></defense>
+    <scoring td="2" patrush="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="BEN" down="3" togo="9" spot="BEN48" context="H,3,9,H48" playid="14,4,101" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00." newcontext="H,3,9,H48">
+   </play>
+   <play hasball="BEN" down="3" togo="9" spot="BEN48" context="H,3,9,H48" playid="14,5,102"
+      text="HUR ball on HUR35." newcontext="V,3,9,V35">
+   </play>
+   <play hasball="HUR" down="3" togo="9" spot="HUR35" context="V,3,9,V35" playid="14,6,103"
+      text="1st and 10." newcontext="V,1,10,V35">
+   </play>
+   <drivesum plays="2" yards="1" top="0:36" driveindex="14" complete="Y"></drivesum>
+   <play hasball="HUR" down="1" togo="10" spot="HUR35" context="V,1,10,V35" playid="14,7,104" type="K"
+      text="Cazzola F. kickoff 50 yards to the BEN15, Gaggiotti M. return 26 yards to the BEN41 (Farina G.)." newcontext="H,1,10,H41">
+    <p_ko vh="V" name="Cazzola F." gain="50"></p_ko>
+    <p_kr vh="H" name="Gaggiotti M." gain="26"></p_kr>
+    <p_tk vh="V" name="Farina G."></p_tk>
+   </play>
+   <drivestart poss="H,H41,12:00" vh="H" spot="H41" clock="12:00" driveindex="15,104"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN41" context="H,1,10,H41" playid="15,1,105"
+      text="BEN ball on BEN41." newcontext="H,1,10,H41">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN41" context="H,1,10,H41" playid="15,2,106" clock="11:52"
+      text="BENGALS BRESCIA drive start at 11:52." newcontext="H,1,10,H41">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN41" context="H,1,10,H41" playid="15,3,107" type="R"
+      text="Sbaraini A. rush for 1 yard to the BEN42 (Vicariotto F.)." newcontext="H,2,9,H42">
+    <p_ru vh="H" name="Sbaraini A." gain="1"></p_ru>
+    <p_tk vh="V" name="Vicariotto F."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="9" spot="BEN42" context="H,2,9,H42" playid="15,4,108" type="P"
+      text="Tinti G. pass incomplete to Gaggiotti M.." newcontext="H,3,9,H42">
+    <p_pa vh="H" qb="Tinti G." result="INC" rcv="Gaggiotti M."></p_pa>
+   </play>
+   <play hasball="BEN" down="3" togo="9" spot="BEN42" context="H,3,9,H42" playid="15,5,109" type="R"
+      text="Tinti G. rush for 3 yards to the BEN45 (Casarotto A.;Farina G.)." newcontext="H,4,6,H45">
+    <p_ru vh="H" name="Tinti G." gain="3"></p_ru>
+    <p_tk vh="V" name="Casarotto A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Farina G." assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="4" togo="6" spot="BEN45" context="H,4,6,H45" playid="15,6,110" type="U"
+      text="Bertoglio G. punt 49 yards to the HUR6." newcontext="V,1,10,V06">
+    <p_pu vh="H" name="Bertoglio G." gain="49" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="4" top="1:38" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V06,11:52" vh="V" spot="V06" clock="11:52" driveindex="16,110"></drivestart>
+   <play hasball="HUR" down="1" togo="10" spot="HUR06" context="V,1,10,V06" playid="16,1,111" clock="10:14"
+      text="HURRICANES VICENZA drive start at 10:14." newcontext="V,1,10,V06">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR06" context="V,1,10,V06" playid="16,2,112" type="P"
+      text="Muraro G. pass incomplete." newcontext="V,2,10,V06">
+    <p_pa vh="V" qb="Muraro G." result="INC"></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="10" spot="HUR06" context="V,2,10,V06" playid="16,3,113" type="R"
+      text="Melchiorre P. rush for 2 yards to the HUR8 (Dainesi A.)." newcontext="V,3,8,V08">
+    <p_ru vh="V" name="Melchiorre P." gain="2"></p_ru>
+    <p_tk vh="H" name="Dainesi A."></p_tk>
+   </play>
+   <play hasball="HUR" down="3" togo="8" spot="HUR08" context="V,3,8,V08" playid="16,4,114" type="P" turnover="I"
+      text="Muraro G. pass intercepted by Viviani M. at the HUR29, Viviani M. return 0 yards to the HUR29." newcontext="H,1,10,V29">
+    <p_pa vh="V" qb="Muraro G." result="INT"></p_pa>
+    <p_ir vh="H" name="Viviani M." at="V29" gain="0"></p_ir>
+   </play>
+   <drivesum plays="3" yards="2" top="1:08" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="H,V29,10:14" vh="H" spot="V29" clock="10:14" driveindex="17,114"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="HUR29" context="H,1,10,V29" playid="17,1,115" clock="09:06"
+      text="BENGALS BRESCIA drive start at 09:06." newcontext="H,1,10,V29">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR29" context="H,1,10,V29" playid="17,2,116" type="R"
+      text="Sbaraini A. rush for 6 yards to the HUR23 (Casarotto A.)." newcontext="H,2,4,V23">
+    <p_ru vh="H" name="Sbaraini A." gain="6"></p_ru>
+    <p_tk vh="V" name="Casarotto A."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="4" spot="HUR23" context="H,2,4,V23" playid="17,3,117" type="R"
+      text="Di Tusa I. rush for 1 yard to the HUR22 (Scapin G.)." newcontext="H,3,3,V22">
+    <p_ru vh="H" name="Di Tusa I." gain="1"></p_ru>
+    <p_tk vh="V" name="Scapin G."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="3" spot="HUR22" context="H,3,3,V22" playid="17,4,118" type="R" first="R"
+      text="Di Tusa I. rush for 4 yards to the HUR18, 1ST DOWN BEN (Dorfmann A.;Casarotto A.), PENALTY HUR face mask (Dorfmann A.) 7 yards to the HUR11." newcontext="H,1,3,V11">
+    <p_ru vh="H" name="Di Tusa I." gain="4"></p_ru>
+    <p_tk vh="V" name="Dorfmann A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Casarotto A." assist="Y"></p_tk>
+    <p_pn vh="V" code="FM" type="face mask" name="Dorfmann A." result="ACCEPT" at="V18" yards="7"></p_pn>
+   </play>
+   <play hasball="BEN" down="1" togo="3" spot="HUR11" context="H,1,3,V11" playid="17,5,119"
+      text="1st and 10." newcontext="H,1,10,V11">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR11" context="H,1,10,V11" playid="17,6,120" type="R"
+      text="Tinti G. rush for 6 yards to the HUR5 (Scapin G.)." newcontext="H,2,4,V05">
+    <p_ru vh="H" name="Tinti G." gain="6"></p_ru>
+    <p_tk vh="V" name="Scapin G."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="4" spot="HUR05" context="H,2,4,V05" playid="17,7,121" type="R"
+      text="Trami N. rush for loss of 2 yards to the HUR7 (Gaspari R.;Casarotto A.)." newcontext="H,3,6,V07">
+    <p_ru vh="H" name="Trami N." gain="-2"></p_ru>
+    <p_tk vh="V" name="Gaspari R." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Casarotto A." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="6" spot="HUR07" context="H,3,6,V07" playid="17,8,122" type="R" first="R" score="Y" clock="05:43"
+      text="Barbolla R. rush for 7 yards to the HUR0, 1ST DOWN BEN, TOUCHDOWN, clock 05:43." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Barbolla R." gain="7"></p_ru>
+   </play>
+   <play hasball="BEN" down="1" togo="0" spot="HUR03" context="H,1,0,V03" playid="17,9,123" type="X" score="Y"
+      text="Bertoglio G. kick attempt good." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="Bertoglio G." qb="Bertoglio G." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="14" H="35"></score>
+   <drivesum plays="6" yards="29" top="3:23" driveindex="17" complete="Y"></drivesum>
+   <play hasball="BEN" down="1" togo="0" spot="BEN35" context="H,1,0,H35" playid="17,10,124" type="K"
+      text="Bertoglio G. kickoff 62 yards to the HUR3, Camagna T. return 18 yards to the HUR21, out-of-bounds (Rota R.;Bassani L.)." ob="Y" newcontext="V,1,10,V21">
+    <p_ko vh="H" name="Bertoglio G." gain="62"></p_ko>
+    <p_kr vh="V" name="Camagna T." gain="18"></p_kr>
+    <p_tk vh="H" name="Rota R." assist="Y"></p_tk>
+    <p_tk vh="H" name="Bassani L." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="V,V21,05:43" vh="V" spot="V21" clock="05:43" driveindex="18,124"></drivestart>
+   <play hasball="HUR" down="1" togo="10" spot="HUR21" context="V,1,10,V21" playid="18,1,125" clock="05:37"
+      text="HURRICANES VICENZA drive start at 05:37." newcontext="V,1,10,V21">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR21" context="V,1,10,V21" playid="18,2,126" type="P"
+      text="Muraro G. pass complete to Camagna T. for 8 yards to the HUR29 (Viviani M.)." newcontext="V,2,2,V29">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Camagna T." gain="8"></p_pa>
+    <p_tk vh="H" name="Viviani M."></p_tk>
+   </play>
+   <play hasball="HUR" down="2" togo="2" spot="HUR29" context="V,2,2,V29" playid="18,3,127" type="R" first="R"
+      text="Muraro G. rush for 12 yards to the HUR41, 1ST DOWN HUR, out-of-bounds (Dainesi A.)." ob="Y" newcontext="V,1,10,V41">
+    <p_ru vh="V" name="Muraro G." gain="12"></p_ru>
+    <p_tk vh="H" name="Dainesi A."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR41" context="V,1,10,V41" playid="18,4,128" type="P"
+      text="Muraro G. pass incomplete to Camagna T.." newcontext="V,2,10,V41">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Camagna T."></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="10" spot="HUR41" context="V,2,10,V41" playid="18,5,129" type="R"
+      text="Melchiorre P. rush for 3 yards to the HUR44 (Favero M.)." newcontext="V,3,7,V44">
+    <p_ru vh="V" name="Melchiorre P." gain="3"></p_ru>
+    <p_tk vh="H" name="Favero M."></p_tk>
+   </play>
+   <play hasball="HUR" down="3" togo="7" spot="HUR44" context="V,3,7,V44" playid="18,6,130" type="P" turnover="F"
+      text="Muraro G. pass complete to Camagna T. for 28 yards to the BEN28, fumble forced by Canetta A., fumble by Camagna T. recovered by BEN Rota R. at BEN28, Rota R. for 16 yards to the BEN44 (Cazzola F.), PENALTY HUR personal foul (Ferraro G.) 15 yards to the HUR41, 1st and 10, BEN ball on HUR41." newcontext="H,1,10,V41">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Camagna T." gain="28"></p_pa>
+    <p_fr vh="H" name="Rota R." gain="16"></p_fr>
+    <p_fumb vh="V" name="Camagna T." at="H28" frvh="H" frname="Rota R."></p_fumb>
+    <p_tk vh="H" name="Canetta A." ff="Y"></p_tk>
+    <p_tk vh="V" name="Cazzola F."></p_tk>
+    <p_pn vh="V" code="PF" type="personal foul" name="Ferraro G." result="ACCEPT" at="H44" yards="15"></p_pn>
+   </play>
+   <drivesum plays="5" yards="51" top="2:16" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="H,V41,05:37" vh="H" spot="V41" clock="05:37" driveindex="19,130"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="HUR41" context="H,1,10,V41" playid="19,1,131" clock="03:21"
+      text="BENGALS BRESCIA drive start at 03:21." newcontext="H,1,10,V41">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR41" context="H,1,10,V41" playid="19,2,132" type="P"
+      text="Tinti G. pass complete to Bergomi L. for 7 yards to the HUR34 (Boraso F.)." newcontext="H,2,3,V34">
+    <p_pa vh="H" qb="Tinti G." result="COMP" rcv="Bergomi L." gain="7"></p_pa>
+    <p_tk vh="V" name="Boraso F."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="3" spot="HUR34" context="H,2,3,V34" playid="19,3,133" type="R" first="R"
+      text="Tinti G. rush for 6 yards to the HUR28, 1ST DOWN BEN (Farina G.;Dorfmann A.)." newcontext="H,1,10,V28">
+    <p_ru vh="H" name="Tinti G." gain="6"></p_ru>
+    <p_tk vh="V" name="Farina G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dorfmann A." assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR28" context="H,1,10,V28" playid="19,4,134" type="R"
+      text="Sbaraini A. rush for 14 yards to the HUR14 (Trenti D.), PENALTY BEN holding (Bergomi L.) 10 yards to the HUR24." newcontext="H,1,6,V24">
+    <p_ru vh="H" name="Sbaraini A." gain="14"></p_ru>
+    <p_tk vh="V" name="Trenti D."></p_tk>
+    <p_pn vh="H" code="HO" type="holding" name="Bergomi L." result="ACCEPT" at="V14" yards="10"></p_pn>
+   </play>
+   <play hasball="BEN" down="1" togo="6" spot="HUR24" context="H,1,6,V24" playid="19,5,135"
+      text="1st and 10." newcontext="H,1,10,V24">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR24" context="H,1,10,V24" playid="19,6,136" type="P"
+      text="Tinti G. pass incomplete to Bergomi L., dropped pass." newcontext="H,2,10,V24">
+    <p_pa vh="H" qb="Tinti G." result="DROP" rcv="Bergomi L."></p_pa>
+   </play>
+   <play hasball="BEN" down="2" togo="10" spot="HUR24" context="H,2,10,V24" playid="19,7,137" type="R"
+      text="Barbolla R. rush for 3 yards to the HUR21 (Casarotto A.)." newcontext="H,3,7,V21">
+    <p_ru vh="H" name="Barbolla R." gain="3"></p_ru>
+    <p_tk vh="V" name="Casarotto A."></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="7" spot="HUR21" context="H,3,7,V21" playid="19,8,138" type="R"
+      text="Barbolla R. rush for 1 yard to the HUR20 (Gaspari R.)." newcontext="H,4,6,V20">
+    <p_ru vh="H" name="Barbolla R." gain="1"></p_ru>
+    <p_tk vh="V" name="Gaspari R."></p_tk>
+   </play>
+   <play hasball="BEN" down="4" togo="6" spot="HUR20" context="H,4,6,V20" playid="19,9,139" type="F" clock="00:35"
+      text="Bertoglio G. field goal attempt from 37 MISSED - wide left, spot at HUR20, clock 00:35." newcontext="V,1,10,V20">
+    <p_fg vh="H" name="Bertoglio G." distance="37" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="6" yards="21" top="2:46" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="V,V20,00:35" vh="V" spot="V20" clock="00:35" driveindex="20,139"></drivestart>
+   <score qtr="3" V="14" H="35"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="HUR">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="22"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="04:05"></misc>
+    <rush att="4" yds="19" gain="19" loss="0" td="0" long="0"></rush>
+    <pass comp="2" att="5" int="1" yds="36" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="36" td="0" long="0"></rcv>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <defense tackua="10" tacka="8" tot_tack="18" tflua="2" tfla="0" tflyds="4" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="18" td="0" long="0"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BEN">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:55"></misc>
+    <rush att="12" yds="50" gain="52" loss="2" td="1" long="0"></rush>
+    <pass comp="1" att="3" int="0" yds="7" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="7" td="0" long="0"></rcv>
+    <punt no="1" yds="49" long="49" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="49.0"></punt>
+    <ko no="1" yds="62" ob="0" tb="0"></ko>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="6" tacka="2" tot_tack="8" sacks="0" sackyds="0" ff="1" fr="1" fryds="16" int="1" intyds="0"></defense>
+    <kr no="1" yds="26" td="0" long="0"></kr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <fr no="1" yds="16" td="0" long="16"></fr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="HUR" down="1" togo="10" spot="HUR20" context="V,1,10,V20" playid="20,1,140" type="R" clock="12:00"
+      text="Melchiorre P. rush for 2 yards to the HUR22 (Viviani M.), start of 4th quarter, clock 12:00." newcontext="V,2,8,V22">
+    <p_ru vh="V" name="Melchiorre P." gain="2"></p_ru>
+    <p_tk vh="H" name="Viviani M."></p_tk>
+   </play>
+   <play hasball="HUR" down="2" togo="8" spot="HUR22" context="V,2,8,V22" playid="20,2,141" type="P" first="P"
+      text="Muraro G. pass complete to Bolcato M. for 24 yards to the HUR46, 1ST DOWN HUR." newcontext="V,1,10,V46">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Bolcato M." gain="24"></p_pa>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR46" context="V,1,10,V46" playid="20,3,142" type="P"
+      text="Muraro G. pass incomplete to Camagna T.." newcontext="V,2,10,V46">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Camagna T."></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="10" spot="HUR46" context="V,2,10,V46" playid="20,4,143" type="P"
+      text="Muraro G. pass incomplete to Camagna T. (Canetta A.)." newcontext="V,3,10,V46">
+    <p_pa vh="V" qb="Muraro G." result="BRUP" rcv="Camagna T."></p_pa>
+    <p_bu vh="H" name="Canetta A."></p_bu>
+   </play>
+   <play hasball="HUR" down="3" togo="10" spot="HUR46" context="V,3,10,V46" playid="20,5,144" type="P"
+      text="Muraro G. pass incomplete to Cazzola F.." newcontext="V,4,10,V46">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Cazzola F."></p_pa>
+   </play>
+   <play hasball="HUR" down="4" togo="10" spot="HUR46" context="V,4,10,V46" playid="20,6,145" type="R"
+      text="Muraro G. rush for 5 yards to the BEN49 (Rota R.;Rossi M.)." newcontext="H,1,10,H49">
+    <p_ru vh="V" name="Muraro G." gain="5"></p_ru>
+    <p_tk vh="H" name="Rota R." assist="Y"></p_tk>
+    <p_tk vh="H" name="Rossi M." assist="Y"></p_tk>
+   </play>
+   <drivesum plays="6" yards="31" top="1:54" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="H,H49,12:00" vh="H" spot="H49" clock="12:00" driveindex="21,145"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN49" context="H,1,10,H49" playid="21,1,146" clock="10:41"
+      text="BENGALS BRESCIA drive start at 10:41." newcontext="H,1,10,H49">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN49" context="H,1,10,H49" playid="21,2,147" type="R"
+      text="Barbolla R. rush for 8 yards to the HUR43 (Gaspari R.)." newcontext="H,2,2,V43">
+    <p_ru vh="H" name="Barbolla R." gain="8"></p_ru>
+    <p_tk vh="V" name="Gaspari R."></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="2" spot="HUR43" context="H,2,2,V43" playid="21,3,148" type="R" first="R"
+      text="Barbolla R. rush for 9 yards to the HUR34, 1ST DOWN BEN (Vicariotto F.;Scapin G.)." newcontext="H,1,10,V34">
+    <p_ru vh="H" name="Barbolla R." gain="9"></p_ru>
+    <p_tk vh="V" name="Vicariotto F." assist="Y"></p_tk>
+    <p_tk vh="V" name="Scapin G." assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR34" context="H,1,10,V34" playid="21,4,149" type="P"
+      text="Tinti G. pass incomplete (Scapin G.)." newcontext="H,2,10,V34">
+    <p_pa vh="H" qb="Tinti G." result="BRUP"></p_pa>
+    <p_bu vh="V" name="Scapin G."></p_bu>
+   </play>
+   <play hasball="BEN" down="2" togo="10" spot="HUR34" context="H,2,10,V34" playid="21,5,150" type="R"
+      text="Sbaraini A. rush for 7 yards to the HUR27 (Vicariotto F.), PENALTY BEN holding (Calabrese F.) 10 yards to the HUR37." newcontext="H,2,13,V37">
+    <p_ru vh="H" name="Sbaraini A." gain="7"></p_ru>
+    <p_tk vh="V" name="Vicariotto F."></p_tk>
+    <p_pn vh="H" code="HO" type="holding" name="Calabrese F." result="ACCEPT" at="V27" yards="10"></p_pn>
+   </play>
+   <play hasball="BEN" down="2" togo="13" spot="HUR37" context="H,2,13,V37" playid="21,6,151"
+      text="2nd and 13." newcontext="H,2,13,V37">
+   </play>
+   <play hasball="BEN" down="2" togo="13" spot="HUR37" context="H,2,13,V37" playid="21,7,152" type="R"
+      text="Trami N. rush for loss of 1 yard to the HUR38 (Baldinazzo D.)." newcontext="H,3,14,V38">
+    <p_ru vh="H" name="Trami N." gain="-1"></p_ru>
+    <p_tk vh="V" name="Baldinazzo D." tfl="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="3" togo="14" spot="HUR38" context="H,3,14,V38" playid="21,8,153" type="P"
+      text="Tinti G. pass complete to Gaggiotti M. for 2 yards to the HUR36 (Farina G.), PENALTY BEN holding (Orizio N.) 10 yards to the HUR46." newcontext="H,3,22,V46">
+    <p_pa vh="H" qb="Tinti G." result="COMP" rcv="Gaggiotti M." gain="2"></p_pa>
+    <p_tk vh="V" name="Farina G."></p_tk>
+    <p_pn vh="H" code="HO" type="holding" name="Orizio N." result="ACCEPT" at="V36" yards="10"></p_pn>
+   </play>
+   <play hasball="BEN" down="3" togo="22" spot="HUR46" context="H,3,22,V46" playid="21,9,154"
+      text="3rd and 22." newcontext="H,3,22,V46">
+   </play>
+   <play hasball="BEN" down="3" togo="22" spot="HUR46" context="H,3,22,V46" playid="21,10,155" type="P"
+      text="Tinti G. pass incomplete to Bertoglio G.." newcontext="H,4,22,V46">
+    <p_pa vh="H" qb="Tinti G." result="INC" rcv="Bertoglio G."></p_pa>
+   </play>
+   <play hasball="BEN" down="4" togo="22" spot="HUR46" context="H,4,22,V46" playid="21,11,156" type="U"
+      text="Bertoglio G. punt 15 yards to the HUR31." newcontext="V,1,10,V31">
+    <p_pu vh="H" name="Bertoglio G." gain="15"></p_pu>
+   </play>
+   <drivesum plays="7" yards="5" top="3:10" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="V,V31,10:41" vh="V" spot="V31" clock="10:41" driveindex="22,156"></drivestart>
+   <play hasball="HUR" down="1" togo="10" spot="HUR31" context="V,1,10,V31" playid="22,1,157" clock="07:31"
+      text="HURRICANES VICENZA drive start at 07:31." newcontext="V,1,10,V31">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR31" context="V,1,10,V31" playid="22,2,158" type="R" first="R"
+      text="Melchiorre P. rush for 11 yards to the HUR42, 1ST DOWN HUR (De Marco F.;Rossi M.)." newcontext="V,1,10,V42">
+    <p_ru vh="V" name="Melchiorre P." gain="11"></p_ru>
+    <p_tk vh="H" name="De Marco F." assist="Y"></p_tk>
+    <p_tk vh="H" name="Rossi M." assist="Y"></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="HUR42" context="V,1,10,V42" playid="22,3,159" type="R"
+      text="Muraro G. rush for 2 yards to the HUR44 (Dainesi A.;Favero M.)." newcontext="V,2,8,V44">
+    <p_ru vh="V" name="Muraro G." gain="2"></p_ru>
+    <p_tk vh="H" name="Dainesi A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Favero M." assist="Y"></p_tk>
+   </play>
+   <play hasball="HUR" down="2" togo="8" spot="HUR44" context="V,2,8,V44" playid="22,4,160" type="P" first="E"
+      text="Muraro G. pass incomplete to Cazzola F., PENALTY BEN pass interference (Bassani L.) 15 yards to the BEN41, 1ST DOWN HUR." newcontext="V,1,10,H41">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Cazzola F."></p_pa>
+    <p_pn vh="H" code="PI" type="pass interference" name="Bassani L." result="ACCEPT" at="V44" yards="15"></p_pn>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="BEN41" context="V,1,10,H41" playid="22,5,161"
+      text="1st and 10." newcontext="V,1,10,H41">
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="BEN41" context="V,1,10,H41" playid="22,6,162" type="P"
+      text="Muraro G. pass incomplete to Bolcato M., dropped pass." newcontext="V,2,10,H41">
+    <p_pa vh="V" qb="Muraro G." result="DROP" rcv="Bolcato M."></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="10" spot="BEN41" context="V,2,10,H41" playid="22,7,163" type="P"
+      text="Muraro G. pass incomplete to Ferraro G.." newcontext="V,3,10,H41">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Ferraro G."></p_pa>
+   </play>
+   <play hasball="HUR" down="3" togo="10" spot="BEN41" context="V,3,10,H41" playid="22,8,164" type="P"
+      text="Muraro G. pass incomplete to Bolcato M.." newcontext="V,4,10,H41">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Bolcato M."></p_pa>
+   </play>
+   <play hasball="HUR" down="4" togo="10" spot="BEN41" context="V,4,10,H41" playid="22,9,165" type="R" first="R"
+      text="Muraro G. rush for 10 yards to the BEN31, 1ST DOWN HUR, out-of-bounds (Rota R.)." ob="Y" newcontext="V,1,10,H31">
+    <p_ru vh="V" name="Muraro G." gain="10"></p_ru>
+    <p_tk vh="H" name="Rota R."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="BEN31" context="V,1,10,H31" playid="22,10,166" type="P"
+      text="Muraro G. pass complete to Camagna T. for 9 yards to the BEN22." newcontext="V,2,1,H22">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Camagna T." gain="9"></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="1" spot="BEN22" context="V,2,1,H22" playid="22,11,167" type="#" clock="04:48"
+      text="Timeout Bengals Brescia, clock 04:48." newcontext="V,2,1,H22">
+    <p_to vh="H" team="Bengals Brescia"></p_to>
+   </play>
+   <play hasball="HUR" down="2" togo="1" spot="BEN22" context="V,2,1,H22" playid="22,12,168" type="R" first="R"
+      text="Muraro G. rush for 5 yards to the BEN17, 1ST DOWN HUR, out-of-bounds (Rota R.)." ob="Y" newcontext="V,1,10,H17">
+    <p_ru vh="V" name="Muraro G." gain="5"></p_ru>
+    <p_tk vh="H" name="Rota R."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="10" spot="BEN17" context="V,1,10,H17" playid="22,13,169" type="R"
+      text="Muraro G. rush for 2 yards to the BEN15 (Rossi M.)." newcontext="V,2,8,H15">
+    <p_ru vh="V" name="Muraro G." gain="2"></p_ru>
+    <p_tk vh="H" name="Rossi M."></p_tk>
+   </play>
+   <play hasball="HUR" down="2" togo="8" spot="BEN15" context="V,2,8,H15" playid="22,14,170" type="R"
+      text="Muraro G. rush for loss of 4 yards to the BEN19." newcontext="V,3,12,H19">
+    <p_ru vh="V" name="Muraro G." gain="-4"></p_ru>
+   </play>
+   <play hasball="HUR" down="3" togo="12" spot="BEN19" context="V,3,12,H19" playid="22,15,171" type="P"
+      text="Muraro G. pass incomplete to Camagna T., dropped pass." newcontext="V,4,12,H19">
+    <p_pa vh="V" qb="Muraro G." result="DROP" rcv="Camagna T."></p_pa>
+   </play>
+   <play hasball="HUR" down="4" togo="12" spot="BEN19" context="V,4,12,H19" playid="22,16,172" type="#" clock="02:34"
+      text="Timeout Hurricanes Vicenza, clock 02:34." newcontext="V,4,12,H19">
+    <p_to vh="V" team="Hurricanes Vicenza"></p_to>
+   </play>
+   <play hasball="HUR" down="4" togo="12" spot="BEN19" context="V,4,12,H19" playid="22,17,173" type="P" first="P"
+      text="Muraro G. pass complete to Camagna T. for 16 yards to the BEN3, 1ST DOWN HUR (Canetta A.)." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Camagna T." gain="16"></p_pa>
+    <p_tk vh="H" name="Canetta A."></p_tk>
+   </play>
+   <play hasball="HUR" down="1" togo="0" spot="BEN03" context="V,1,0,H03" playid="22,18,174" type="P"
+      text="Muraro G. pass incomplete." newcontext="V,2,0,H03">
+    <p_pa vh="V" qb="Muraro G." result="INC"></p_pa>
+   </play>
+   <play hasball="HUR" down="2" togo="0" spot="BEN03" context="V,2,0,H03" playid="22,19,175" type="R"
+      text="Muraro G. rush for 2 yards to the BEN1 (Rossi M.;Ferrari G.)." newcontext="V,3,0,H01">
+    <p_ru vh="V" name="Muraro G." gain="2"></p_ru>
+    <p_tk vh="H" name="Rossi M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Ferrari G." assist="Y"></p_tk>
+   </play>
+   <play hasball="HUR" down="3" togo="0" spot="BEN01" context="V,3,0,H01" playid="22,20,176" type="P"
+      text="Muraro G. pass incomplete to Zancan C.." newcontext="V,4,0,H01">
+    <p_pa vh="V" qb="Muraro G." result="INC" rcv="Zancan C."></p_pa>
+   </play>
+   <play hasball="HUR" down="4" togo="0" spot="BEN01" context="V,4,0,H01" playid="22,21,177" type="P" score="Y" clock="00:48"
+      text="Muraro G. pass complete to Bolcato M. for 1 yard to the BEN0, TOUCHDOWN, clock 00:48." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Muraro G." result="COMP" rcv="Bolcato M." gain="1"></p_pa>
+   </play>
+   <play hasball="HUR" down="1" togo="0" spot="BEN03" context="V,1,0,H03" playid="22,22,178" type="X"
+      text="Camagna T. rush attempt failed." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="Camagna T." qb="Camagna T." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="20" H="35"></score>
+   <drivesum plays="17" yards="69" top="6:43" driveindex="22" complete="Y"></drivesum>
+   <play hasball="HUR" down="1" togo="0" spot="HUR35" context="V,1,0,V35" playid="22,23,179" type="K"
+      text="Cazzola F. kickoff 65 yards to the BEN0, touchback." newcontext="H,1,10,H20">
+    <p_ko vh="V" name="Cazzola F." gain="65" result="T"></p_ko>
+   </play>
+   <drivestart poss="H,H20,00:48" vh="H" spot="H20" clock="00:48" driveindex="23,179"></drivestart>
+   <play hasball="BEN" down="1" togo="10" spot="BEN20" context="H,1,10,H20" playid="23,1,180" clock="00:48"
+      text="BENGALS BRESCIA drive start at 00:48." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="BEN20" context="H,1,10,H20" playid="23,2,181" type="R" first="R"
+      text="Trami N. rush for 61 yards to the HUR19, 1ST DOWN BEN (Azzimelli B.)." newcontext="H,1,10,V19">
+    <p_ru vh="H" name="Trami N." gain="61"></p_ru>
+    <p_tk vh="V" name="Azzimelli B."></p_tk>
+   </play>
+   <play hasball="BEN" down="1" togo="10" spot="HUR19" context="H,1,10,V19" playid="23,3,182" type="R"
+      text="Sbaraini A. rush for loss of 1 yard to the HUR20 (Scapin G.;Casarotto A.)." newcontext="H,2,11,V20">
+    <p_ru vh="H" name="Sbaraini A." gain="-1"></p_ru>
+    <p_tk vh="V" name="Scapin G." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Casarotto A." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="BEN" down="2" togo="11" spot="HUR20" context="H,2,11,V20" playid="23,4,183" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="H,2,11,V20">
+   </play>
+   <drivesum plays="2" yards="60" top="0:48" driveindex="23" complete="Y"></drivesum>
+   <score final="Y" V="20" H="35"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="HUR">
+    <firstdowns no="6" rush="3" pass="2" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="4" fourthconv="3" fourthatt="4"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:02"></misc>
+    <rush att="8" yds="33" gain="37" loss="4" td="0" long="0"></rush>
+    <pass comp="4" att="14" int="0" yds="50" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="50" td="1" long="0"></rcv>
+    <ko no="1" yds="65" ob="0" tb="1"></ko>
+    <pat rushatt="1" rushmade="0"></pat>
+    <defense tackua="5" tacka="4" tot_tack="9" tflua="3" tfla="0" tflyds="3" sacks="0" sackyds="0" brup="1"></defense>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BEN">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="35"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:58"></misc>
+    <rush att="6" yds="83" gain="85" loss="2" td="0" long="0"></rush>
+    <pass comp="1" att="3" int="0" yds="2" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="2" td="0" long="0"></rcv>
+    <punt no="1" yds="15" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="15.0"></punt>
+    <defense tackua="4" tacka="8" tot_tack="12" sacks="0" sackyds="0" brup="1"></defense>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="H" id="BEN" down="2" togo="11" spot="HUR20" context="H,2,11,V20" qtr="4" clock="00:00" vtoh="1" htoh="1"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="HUR">
+  <player name="Sauro R." checkname="R.,SAURO" uni="10" gp="0" code="10"></player>
+  <player name="Falsarella J." checkname="J.,FALSARELLA" uni="17" gp="0" code="17"></player>
+  <player name="Rigoni G." checkname="G.,RIGONI" uni="51" gp="0" code="51"></player>
+  <player name="Nicol&#239; M." checkname="M.,NICOL&#239;" uni="73" gp="0" code="73"></player>
+  <player name="Benetti J." checkname="J.,BENETTI" uni="77" gp="0" code="77"></player>
+  <player name="Zancan C." checkname="C.,ZANCAN" uni="82" gp="0" code="82"></player>
+  <player name="Galati F." checkname="F.,GALATI" uni="87" gp="0" code="87"></player>
+  <player name="Conte F." checkname="F.,CONTE" uni="93" gp="0" code="93"></player>
+  <player name="Bressan F." checkname="F.,BRESSAN" uni="99" gp="0" code="99"></player>
+ </dnp>
+ <dnp vh="H" id="BEN">
+  <player name="Marini G." checkname="G.,MARINI" uni="21" gp="0" code="21"></player>
+  <player name="Putelli S." checkname="S.,PUTELLI" uni="32" gp="0" code="32"></player>
+  <player name="Leoni S." checkname="S.,LEONI" uni="37" gp="0" code="37"></player>
+  <player name="Longhi L." checkname="L.,LONGHI" uni="41" gp="0" code="41"></player>
+  <player name="Gottardo S." checkname="S.,GOTTARDO" uni="53" gp="0" code="53"></player>
+  <player name="Calabrese F." checkname="F.,CALABRESE" uni="65" gp="0" code="65"></player>
+  <player name="Merli A." checkname="A.,MERLI" uni="66" gp="0" code="66"></player>
+  <player name="Tessadrelli P." checkname="P.,TESSADRELLI" uni="73" gp="0" code="73"></player>
+  <player name="Magnanini M." checkname="M.,MAGNANINI" uni="80" gp="0" code="80"></player>
+  <player name="Ragnoli L." checkname="L.,RAGNOLI" uni="6" gp="0" code="6"></player>
+  <player name="Lucchese F." checkname="F.,LUCCHESE" uni="99" gp="0" code="99"></player>
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="H" id="BEN" yds="80" play="RUSH" players="Barbolla R." td="Y"></longplay>
+ </longplays>
+</fbgame>

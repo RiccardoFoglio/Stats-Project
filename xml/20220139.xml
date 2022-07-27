@@ -1,0 +1,1140 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220139" visid="LEB" homeid="CAV" visname="Leoni Basiliano" homename="Cavaliers Castelfran"
+      date="4/24/2022" location="Castelfranco Veneto" stadium="Cavaliers Arena"
+      start="15:00" end="17:00" leaguegame="Y"
+      duration="2:00" attend="40" temp="18" wind="" weather="sunny">
+  <officials ref="Sartini A." ump="Gaias P." line="Scivales L." lj="Buran R." bj="Pilia M." sc="Favretto M."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="LEB" name="Leoni Basiliano" record="2-1" conf-record="2-1" abb="L">
+  <linescore prds="4" line="7,0,0,0" score="7">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="44" totoff_yards="192" totoff_avg="4.4">
+   <firstdowns no="11" rush="5" pass="6" penalty="0"></firstdowns>
+   <penalties no="5" yds="21"></penalties>
+   <conversions thirdconv="2" thirdatt="8" fourthconv="1" fourthatt="4"></conversions>
+   <fumbles no="3" lost="3"></fumbles>
+   <misc yds="0" top="23:57" ona="0" onm="0"></misc>
+   <redzone att="3" scores="1" points="7" tdrush="0" tdpass="1" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="1" endgame="0"></redzone>
+   <rush att="21" yds="84" gain="116" loss="32" td="0" long="34"></rush>
+   <pass comp="14" att="23" int="0" yds="108" td="1" long="26" sacks="1" sackyds="1"></pass>
+   <rcv no="14" yds="108" td="1" long="26"></rcv>
+   <punt no="2" yds="49" long="34" blkd="0" tb="1" fc="0" plus50="0" inside20="0" avg="24.5"></punt>
+   <ko no="2" yds="110" ob="0" tb="1"></ko>
+   <pat kickatt="1" kickmade="1"></pat>
+   <defense tackua="24" tacka="10" tot_tack="34" tflua="3" tfla="2" tflyds="17" sacks="1" sackyds="2" brup="1" blkd="1"></defense>
+   <kr no="7" yds="98" td="0" long="30"></kr>
+   <pr no="1" yds="12" td="0" long="12"></pr>
+   <scoring td="1" patkick="1"></scoring>
+  </totals>
+  <player name="La Rocca G." shortname="La Rocca G." checkname="ROCCA G.,LA" uni="24" gp="1" code="24">
+   <rush att="6" yds="44" gain="46" loss="2" td="0" long="34"></rush>
+   <rcv no="5" yds="36" td="1" long="18"></rcv>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Scarpolini L." shortname="Scarpolini L." checkname="L.,SCARPOLINI" uni="80" gp="1" code="80">
+   <rcv no="3" yds="23" td="0" long="21"></rcv>
+   <punt no="2" yds="49" long="34" blkd="0" tb="1" fc="0" plus50="0" inside20="0" avg="24.5"></punt>
+  </player>
+  <player name="Vidoz F." shortname="Vidoz F." checkname="F.,VIDOZ" uni="30" gp="1" code="30">
+   <rcv no="2" yds="31" td="0" long="26"></rcv>
+  </player>
+  <player name="Fronda G." shortname="Fronda G." checkname="G.,FRONDA" uni="89" gp="1" code="89">
+   <rcv no="2" yds="12" td="0" long="8"></rcv>
+  </player>
+  <player name="Degano S." shortname="Degano S." checkname="S.,DEGANO" uni="18" gp="1" code="18">
+   <rcv no="2" yds="6" td="0" long="6"></rcv>
+  </player>
+  <player name="Turus D." shortname="Turus D." checkname="D.,TURUS" uni="11" gp="1" code="11">
+   <kr no="2" yds="33" td="0" long="30"></kr>
+  </player>
+  <player name="Muzzolini A." shortname="Muzzolini A." checkname="A.,MUZZOLINI" uni="13" gp="1" code="13">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Iop E." shortname="Iop E." checkname="E.,IOP" uni="8" gp="1" code="8">
+   <rush att="1" yds="2" gain="2" loss="0" td="0" long="2"></rush>
+   <kr no="5" yds="65" td="0" long="26"></kr>
+   <pr no="1" yds="12" td="0" long="12"></pr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="22" shortname="" checkname="" uni="22" gp="1" code="22">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="9"></defense>
+  </player>
+  <player name="Gueye M." shortname="Gueye M." checkname="M.,GUEYE" uni="23" gp="1" code="23">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Dione M." shortname="Dione M." checkname="M.,DIONE" uni="1" gp="1" code="1">
+   <ko no="2" yds="110" ob="0" tb="1"></ko>
+   <pat kickatt="1" kickmade="1"></pat>
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+   <scoring patkick="1"></scoring>
+  </player>
+  <player name="Mattiussi M." shortname="Mattiussi M." checkname="M.,MATTIUSSI" uni="27" gp="1" code="27">
+   <rush att="3" yds="6" gain="7" loss="1" td="0" long="6"></rush>
+   <pass comp="3" att="6" int="0" yds="29" td="0" long="21" sacks="1" sackyds="1"></pass>
+   <defense tackua="3" tacka="1" tot_tack="4"></defense>
+  </player>
+  <player name="Fagnini M." shortname="Fagnini M." checkname="M.,FAGNINI" uni="32" gp="1" code="32">
+   <defense tackua="7" tacka="1" tot_tack="8"></defense>
+  </player>
+  <player name="Venuti A." shortname="Venuti A." checkname="A.,VENUTI" uni="6" gp="1" code="6">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Esposito G." shortname="Esposito G." checkname="G.,ESPOSITO" uni="46" gp="1" code="46">
+   <defense tackua="1" tacka="1" tot_tack="2" brup="1"></defense>
+  </player>
+  <player name="Grion M." shortname="Grion M." checkname="M.,GRION" uni="47" gp="1" code="47">
+   <defense tackua="1" tacka="1" tot_tack="2" tflua="0" tfla="1" tflyds="1" sackua="0" sacka="1" sackyds="1"></defense>
+  </player>
+  <player name="Zaramella N." shortname="Zaramella N." checkname="N.,ZARAMELLA" uni="48" gp="1" code="48"></player>
+  <player name="Montanari M." shortname="Montanari M." checkname="M.,MONTANARI" uni="51" gp="1" code="51">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Tavano M." shortname="Tavano M." checkname="M.,TAVANO" uni="52" gp="1" code="52">
+   <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="1" sackua="0" sacka="1" sackyds="1" blkd="1"></defense>
+  </player>
+  <player name="Bonat F." shortname="Bonat F." checkname="F.,BONAT" uni="54" gp="1" code="54">
+   <defense tackua="6" tacka="2" tot_tack="8" tflua="2" tfla="0" tflyds="6"></defense>
+  </player>
+  <player name="Di Giusto M." shortname="Di Giusto M." checkname="GIUSTO M.,DI" uni="66" gp="1" code="66"></player>
+  <player name="Giombini S." shortname="Giombini S." checkname="S.,GIOMBINI" uni="72" gp="1" code="72"></player>
+  <player name="Lorenzon D." shortname="Lorenzon D." checkname="D.,LORENZON" uni="40" gp="1" code="40">
+   <rush att="1" yds="7" gain="7" loss="0" td="0" long="7"></rush>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Stiefel A." shortname="Stiefel A." checkname="A.,STIEFEL" uni="81" gp="1" code="81"></player>
+  <player name="Dodorico F." shortname="Dodorico F." checkname="F.,DODORICO" uni="88" gp="1" code="88">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="Corrado C." shortname="Corrado C." checkname="C.,CORRADO" uni="7" gp="1" code="7">
+   <rush att="10" yds="25" gain="54" loss="29" td="0" long="16"></rush>
+   <pass comp="11" att="17" int="0" yds="79" td="1" long="26" sacks="0" sackyds="0"></pass>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198"></player>
+ </team>
+ <team vh="H" code="" id="CAV" name="Cavaliers Castelfran" record="3-0" conf-record="3-0" abb="C">
+  <linescore prds="4" line="13,29,0,6" score="48">
+   <lineprd prd="1" score="13"></lineprd>
+   <lineprd prd="2" score="29"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals totoff_plays="48" totoff_yards="291" totoff_avg="6.1">
+   <firstdowns no="17" rush="4" pass="12" penalty="1"></firstdowns>
+   <penalties no="2" yds="15"></penalties>
+   <conversions thirdconv="7" thirdatt="10" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="1" lost="0"></fumbles>
+   <misc yds="0" top="24:03" ona="0" onm="0"></misc>
+   <redzone att="4" scores="4" points="28" tdrush="3" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="22" yds="124" gain="141" loss="17" td="5" long="53"></rush>
+   <pass comp="15" att="26" int="0" yds="167" td="2" long="32" sacks="1" sackyds="2"></pass>
+   <rcv no="15" yds="167" td="2" long="32"></rcv>
+   <punt no="3" yds="81" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="27.0"></punt>
+   <ko no="8" yds="378" ob="0" tb="1"></ko>
+   <pat kickatt="5" kickmade="4" rushatt="2" rushmade="1"></pat>
+   <defense tackua="29" tacka="12" tot_tack="41" tflua="7" tfla="0" tflyds="34" sacks="1" sackyds="1" brup="1" ff="3" fr="3" fryds="0"></defense>
+   <kr no="1" yds="15" td="0" long="15"></kr>
+   <scoring td="7" patkick="4" patrush="1"></scoring>
+  </totals>
+  <player name="Mazzonetto D." shortname="Mazzonetto D." checkname="D.,MAZZONETTO" uni="22" gp="1" code="22">
+   <rcv no="5" yds="42" td="0" long="21"></rcv>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Vedoato A." shortname="Vedoato A." checkname="A.,VEDOATO" uni="89" gp="1" code="89">
+   <rcv no="4" yds="34" td="0" long="11"></rcv>
+   <punt no="3" yds="81" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="27.0"></punt>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Macchion A." shortname="Macchion A." checkname="A.,MACCHION" uni="90" gp="1" code="90">
+   <rcv no="2" yds="23" td="0" long="14"></rcv>
+  </player>
+  <player name="Miglioranza M." shortname="Miglioranza M." checkname="M.,MIGLIORANZA" uni="15" gp="1" code="15">
+   <rcv no="1" yds="32" td="1" long="32"></rcv>
+   <defense tackua="2" tacka="0" tot_tack="2" ff="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Santi M." shortname="Santi M." checkname="M.,SANTI" uni="83" gp="1" code="83">
+   <rcv no="1" yds="16" td="0" long="16"></rcv>
+   <kr no="1" yds="15" td="0" long="15"></kr>
+  </player>
+  <player name="Pettenon M." shortname="Pettenon M." checkname="M.,PETTENON" uni="80" gp="1" code="80">
+   <rcv no="1" yds="14" td="0" long="14"></rcv>
+  </player>
+  <player name="Galeotafiore R." shortname="Galeotafiore R." checkname="R.,GALEOTAFIORE" uni="12" gp="1" code="12">
+   <rcv no="1" yds="6" td="1" long="6"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="De Caro M." shortname="De Caro M." checkname="CARO M.,DE" uni="26" gp="1" code="26">
+   <defense tackua="6" tacka="0" tot_tack="6" brup="1"></defense>
+  </player>
+  <player name="Pilotto L." shortname="Pilotto L." checkname="L.,PILOTTO" uni="25" gp="1" code="25">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Lago D." shortname="Lago D." checkname="D.,LAGO" uni="29" gp="1" code="29">
+   <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Zanin L." shortname="Zanin L." checkname="L.,ZANIN" uni="38" gp="1" code="38">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="Zanchetta S." shortname="Zanchetta S." checkname="S.,ZANCHETTA" uni="43" gp="1" code="43">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Diaw B." shortname="Diaw B." checkname="B.,DIAW" uni="16" gp="1" code="16">
+   <rush att="1" yds="2" gain="2" loss="0" td="0" long="2"></rush>
+  </player>
+  <player name="Tiatto L." shortname="Tiatto L." checkname="L.,TIATTO" uni="49" gp="1" code="49">
+   <defense tackua="3" tacka="2" tot_tack="5"></defense>
+  </player>
+  <player name="Sabbadin C." shortname="Sabbadin C." checkname="C.,SABBADIN" uni="50" gp="1" code="50">
+   <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="5" fr="2" fryds="0"></defense>
+  </player>
+  <player name="Baldassa A." shortname="Baldassa A." checkname="A.,BALDASSA" uni="51" gp="1" code="51">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Celeghin L." shortname="Celeghin L." checkname="L.,CELEGHIN" uni="52" gp="1" code="52">
+   <pat kickatt="4" kickmade="3"></pat>
+   <scoring patkick="3"></scoring>
+  </player>
+  <player name="Tonin L." shortname="Tonin L." checkname="L.,TONIN" uni="54" gp="1" code="54">
+   <ko no="8" yds="378" ob="0" tb="1"></ko>
+   <pat kickatt="1" kickmade="1"></pat>
+   <defense tackua="3" tacka="1" tot_tack="4" tflua="2" tfla="0" tflyds="13" ff="1"></defense>
+   <scoring patkick="1"></scoring>
+  </player>
+  <player name="Brunoro R." shortname="Brunoro R." checkname="R.,BRUNORO" uni="48" gp="1" code="48">
+   <rush att="1" yds="2" gain="2" loss="0" td="0" long="2"></rush>
+  </player>
+  <player name="Piva L." shortname="Piva L." checkname="L.,PIVA" uni="10" gp="1" code="10">
+   <rush att="9" yds="11" gain="28" loss="17" td="4" long="11"></rush>
+   <pass comp="15" att="26" int="0" yds="167" td="2" long="32" sacks="1" sackyds="2"></pass>
+   <pat rushatt="1" rushmade="0"></pat>
+   <scoring td="4"></scoring>
+  </player>
+  <player name="Makokha B." shortname="Makokha B." checkname="B.,MAKOKHA" uni="5" gp="1" code="5">
+   <rush att="6" yds="17" gain="17" loss="0" td="0" long="7"></rush>
+   <defense tackua="2" tacka="2" tot_tack="4" tflua="2" tfla="0" tflyds="3" sackua="1" sacka="0" sackyds="1" ff="1"></defense>
+  </player>
+  <player name="Jimenez Rami J." shortname="Jimenez Rami J." checkname="RAMI J.,JIMENEZ" uni="27" gp="1" code="27">
+   <rush att="5" yds="92" gain="92" loss="0" td="1" long="53"></rush>
+   <pat rushatt="1" rushmade="1"></pat>
+   <scoring td="1" patrush="1"></scoring>
+  </player>
+  <player name="Santinello R." shortname="Santinello R." checkname="R.,SANTINELLO" uni="94" gp="1" code="94">
+   <defense tackua="3" tacka="3" tot_tack="6"></defense>
+  </player>
+  <player name="Rigo A." shortname="Rigo A." checkname="A.,RIGO" uni="99" gp="1" code="99">
+   <defense tackua="2" tacka="0" tot_tack="2" tflua="1" tfla="0" tflyds="11" fr="1" fryds="0"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="CAV" qtr="1" clock="08:24" type="TD" how="PASS" yds="32" scorer="Miglioranza M." passer="Piva L." patby="Celeghin L." pattype="KICK" patres="FAIL" plays="6" drive="65" top="3:55" vscore="0" hscore="6" driveindex="1"></score>
+  <score vh="H" team="CAV" qtr="1" clock="08:05" type="TD" how="RUSH" yds="11" scorer="Piva L." patby="Celeghin L." pattype="KICK" patres="GOOD" plays="1" drive="11" top="0:00" vscore="0" hscore="13" driveindex="3"></score>
+  <score vh="V" team="LEB" qtr="1" clock="06:00" type="TD" how="PASS" yds="10" scorer="La Rocca G." passer="Corrado C." patby="Dione M." pattype="KICK" patres="GOOD" plays="5" drive="64" top="1:54" vscore="7" hscore="13" driveindex="4"></score>
+  <score vh="H" team="CAV" qtr="2" clock="08:22" type="TD" how="RUSH" yds="1" scorer="Piva L." patby="Jimenez Rami J." pattype="RUSH" patres="GOOD" plays="11" drive="59" top="4:28" vscore="7" hscore="21" driveindex="7"></score>
+  <score vh="H" team="CAV" qtr="2" clock="05:11" type="TD" how="RUSH" yds="7" scorer="Piva L." patby="Celeghin L." pattype="KICK" patres="GOOD" plays="5" drive="33" top="1:49" vscore="7" hscore="28" driveindex="9"></score>
+  <score vh="H" team="CAV" qtr="2" clock="02:17" type="TD" how="FUMB" yds="0" scorer="Galeotafiore R." patby="Tonin L." pattype="KICK" patres="GOOD" plays="5" drive="30" top="1:48" vscore="7" hscore="35" driveindex="11"></score>
+  <score vh="H" team="CAV" qtr="2" clock="01:02" type="TD" how="RUSH" yds="53" scorer="Jimenez Rami J." patby="Celeghin L." pattype="KICK" patres="GOOD" plays="3" drive="59" top="0:33" vscore="7" hscore="42" driveindex="13"></score>
+  <score vh="H" team="CAV" qtr="4" clock="03:30" type="TD" how="RUSH" yds="4" scorer="Piva L." patby="Piva L." pattype="RUSH" patres="FUMB" plays="6" drive="40" top="5:00" vscore="7" hscore="48" driveindex="20"></score>
+ </scores>
+ <drives>
+  <drive vh="H" team="CAV" start="KO,1,12:00,25" end="TD,1,08:05,90" plays="6" yards="65" top="3:55" start_how="KO" start_qtr="1" start_time="12:00" start_spot="CAV25" end_how="TD" end_qtr="1" end_time="08:05" end_spot="LEB00" driveindex="1"></drive>
+  <drive vh="V" team="LEB" start="KO,1,08:24,16" end="FUMB,1,08:05,11" plays="0" yards="-5" top="0:19" start_how="KO" start_qtr="1" start_time="08:24" start_spot="LEB16" end_how="FUMB" end_qtr="1" end_time="08:05" end_spot="LEB11" driveindex="2"></drive>
+  <drive vh="H" team="CAV" start="FUMB,1,08:05,79" end="TD,1,08:05,90" plays="1" yards="11" top="0:00" start_how="FUMB" start_qtr="1" start_time="08:05" start_spot="LEB11" end_how="TD" end_qtr="1" end_time="08:05" end_spot="LEB00" rz="1" driveindex="3"></drive>
+  <drive vh="V" team="LEB" start="KO,1,07:54,26" end="TD,1,06:00,90" plays="5" yards="64" top="1:54" start_how="KO" start_qtr="1" start_time="07:54" start_spot="LEB26" end_how="TD" end_qtr="1" end_time="06:00" end_spot="CAV00" rz="1" driveindex="4"></drive>
+  <drive vh="H" team="CAV" start="KO,1,06:00,20" end="PUNT,1,03:35,19" plays="5" yards="-1" top="2:25" start_how="KO" start_qtr="1" start_time="06:00" start_spot="CAV20" end_how="PUNT" end_qtr="1" end_time="03:35" end_spot="CAV19" driveindex="5"></drive>
+  <drive vh="V" team="LEB" start="PUNT,1,03:35,50" end="DOWNS,1,00:50,59" plays="6" yards="9" top="2:45" start_how="PUNT" start_qtr="1" start_time="03:35" start_spot="CAV40" end_how="DOWNS" end_qtr="1" end_time="00:50" end_spot="CAV31" driveindex="6"></drive>
+  <drive vh="H" team="CAV" start="DOWNS,1,00:50,31" end="TD,2,08:22,90" plays="11" yards="59" top="4:28" start_how="DOWNS" start_qtr="1" start_time="00:50" start_spot="CAV31" end_how="TD" end_qtr="2" end_time="08:22" end_spot="LEB00" rz="1" driveindex="7"></drive>
+  <drive vh="V" team="LEB" start="KO,2,08:22,33" end="DOWNS,2,07:00,33" plays="4" yards="0" top="1:22" start_how="KO" start_qtr="2" start_time="08:22" start_spot="LEB33" end_how="DOWNS" end_qtr="2" end_time="07:00" end_spot="LEB33" driveindex="8"></drive>
+  <drive vh="H" team="CAV" start="DOWNS,2,07:00,57" end="TD,2,05:11,90" plays="5" yards="33" top="1:49" start_how="DOWNS" start_qtr="2" start_time="07:00" start_spot="LEB33" end_how="TD" end_qtr="2" end_time="05:11" end_spot="LEB00" rz="1" driveindex="9"></drive>
+  <drive vh="V" team="LEB" start="KO,2,05:11,20" end="FUMB,2,04:05,30" plays="3" yards="10" top="1:06" start_how="KO" start_qtr="2" start_time="05:11" start_spot="LEB20" end_how="FUMB" end_qtr="2" end_time="04:05" end_spot="LEB30" driveindex="10"></drive>
+  <drive vh="H" team="CAV" start="FUMB,2,04:05,60" end="TD,2,02:17,90" plays="5" yards="30" top="1:48" start_how="FUMB" start_qtr="2" start_time="04:05" start_spot="LEB30" end_how="TD" end_qtr="2" end_time="02:17" end_spot="LEB00" rz="1" driveindex="11"></drive>
+  <drive vh="V" team="LEB" start="KO,2,02:17,27" end="FUMB,2,01:35,59" plays="3" yards="32" top="0:42" start_how="KO" start_qtr="2" start_time="02:17" start_spot="LEB27" end_how="FUMB" end_qtr="2" end_time="01:35" end_spot="CAV31" driveindex="12"></drive>
+  <drive vh="H" team="CAV" start="FUMB,2,01:35,31" end="TD,2,01:02,90" plays="3" yards="59" top="0:33" start_how="FUMB" start_qtr="2" start_time="01:35" start_spot="CAV31" end_how="TD" end_qtr="2" end_time="01:02" end_spot="LEB00" driveindex="13"></drive>
+  <drive vh="V" team="LEB" start="KO,3,12:00,18" end="KO,3,12:00,32" plays="1" yards="14" top="0:00" start_how="KO" start_qtr="3" start_time="12:00" start_spot="LEB18" end_how="KO" end_qtr="3" end_time="12:00" end_spot="LEB32" driveindex="14"></drive>
+  <drive vh="V" team="LEB" start="KO,3,12:00,38" end="PUNT,3,05:00,56" plays="9" yards="18" top="7:00" start_how="KO" start_qtr="3" start_time="12:00" start_spot="LEB38" end_how="PUNT" end_qtr="3" end_time="05:00" end_spot="CAV34" rz="1" driveindex="15"></drive>
+  <drive vh="H" team="CAV" start="PUNT,3,05:00,20" end="PUNT,3,02:05,24" plays="3" yards="4" top="2:55" start_how="PUNT" start_qtr="3" start_time="05:00" start_spot="CAV20" end_how="PUNT" end_qtr="3" end_time="02:05" end_spot="CAV24" driveindex="16"></drive>
+  <drive vh="V" team="LEB" start="PUNT,3,02:05,52" end="DOWNS,3,01:00,60" plays="4" yards="8" top="1:05" start_how="PUNT" start_qtr="3" start_time="02:05" start_spot="CAV38" end_how="DOWNS" end_qtr="3" end_time="01:00" end_spot="CAV30" driveindex="17"></drive>
+  <drive vh="H" team="CAV" start="DOWNS,3,01:00,30" end="PUNT,4,11:50,32" plays="3" yards="2" top="1:10" start_how="DOWNS" start_qtr="3" start_time="01:00" start_spot="CAV30" end_how="PUNT" end_qtr="4" end_time="11:50" end_spot="CAV32" driveindex="18"></drive>
+  <drive vh="V" team="LEB" start="PUNT,4,11:50,24" end="PUNT,4,08:30,25" plays="3" yards="1" top="3:20" start_how="PUNT" start_qtr="4" start_time="11:50" start_spot="LEB24" end_how="PUNT" end_qtr="4" end_time="08:30" end_spot="LEB25" driveindex="19"></drive>
+  <drive vh="H" team="CAV" start="PUNT,4,08:30,50" end="TD,4,03:30,90" plays="6" yards="40" top="5:00" start_how="PUNT" start_qtr="4" start_time="08:30" start_spot="LEB40" end_how="TD" end_qtr="4" end_time="03:30" end_spot="LEB00" rz="1" driveindex="20"></drive>
+  <drive vh="V" team="LEB" start="KO,4,02:00,52" end="HALF,4,00:00,88" plays="6" yards="36" top="2:00" start_how="KO" start_qtr="4" start_time="02:00" start_spot="CAV38" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="CAV02" rz="1" driveindex="21"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="LEB" down="1" togo="10" spot="LEB30" context="V,1,10,V30" playid="0,1,0"
+      text="LEB ball on LEB30." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB30" context="V,1,10,V30" playid="0,2,1" type="K"
+      text="Dione M. kickoff 50 yards to the CAV10, Santi M. return 15 yards to the CAV25 (Lorenzon D.)." newcontext="H,1,10,H25">
+    <p_ko vh="V" name="Dione M." gain="50"></p_ko>
+    <p_kr vh="H" name="Santi M." gain="15"></p_kr>
+    <p_tk vh="V" name="Lorenzon D."></p_tk>
+   </play>
+   <drivestart poss="H,H25,12:00" vh="H" spot="H25" clock="12:00" driveindex="1,1"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV25" context="H,1,10,H25" playid="1,1,2" type="R"
+      text="Piva L. rush for 5 yards to the CAV30 (Venuti A.)." newcontext="H,2,5,H30">
+    <p_ru vh="H" name="Piva L." gain="5"></p_ru>
+    <p_tk vh="V" name="Venuti A."></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="5" spot="CAV30" context="H,2,5,H30" playid="1,2,3" type="E" first="E"
+      text="PENALTY LEB offside defense (Bonat F.) 5 yards to the CAV35, 1ST DOWN CAV." newcontext="H,1,10,H35">
+    <p_pn vh="V" code="OD" type="offside defense" name="Bonat F." result="ACCEPT" at="H30" yards="5"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV35" context="H,1,10,H35" playid="1,3,4" type="P" first="P"
+      text="Piva L. pass complete to Pettenon M. for 14 yards to the LEB41, 1ST DOWN CAV (Muzzolini A.;Mattiussi M.)." newcontext="H,1,10,V41">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Pettenon M." gain="14"></p_pa>
+    <p_tk vh="V" name="Muzzolini A." assist="Y"></p_tk>
+    <p_tk vh="V" name="Mattiussi M." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB41" context="H,1,10,V41" playid="1,4,5" type="R"
+      text="Makokha B. rush for 4 yards to the LEB37 (Mattiussi M.)." newcontext="H,2,6,V37">
+    <p_ru vh="H" name="Makokha B." gain="4"></p_ru>
+    <p_tk vh="V" name="Mattiussi M."></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="6" spot="LEB37" context="H,2,6,V37" playid="1,5,6" type="E"
+      text="PENALTY LEB offside defense (Grion M.) 5 yards to the LEB32." newcontext="H,2,1,V32">
+    <p_pn vh="V" code="OD" type="offside defense" name="Grion M." result="ACCEPT" at="V37" yards="5"></p_pn>
+   </play>
+   <play hasball="CAV" down="2" togo="1" spot="LEB32" context="H,2,1,V32" playid="1,6,7" type="P" first="P"
+      text="Piva L. pass complete to Mazzonetto D. for 5 yards to the LEB27, 1ST DOWN CAV (Fagnini M.)." newcontext="H,1,10,V27">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Mazzonetto D." gain="5"></p_pa>
+    <p_tk vh="V" name="Fagnini M."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB27" context="H,1,10,V27" playid="1,7,8" type="E"
+      text="PENALTY LEB offside defense (Grion M.) 5 yards to the LEB22." newcontext="H,1,5,V22">
+    <p_pn vh="V" code="OD" type="offside defense" name="Grion M." result="ACCEPT" at="V27" yards="5"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="5" spot="LEB22" context="H,1,5,V22" playid="1,8,9" type="E"
+      text="PENALTY CAV holding (Diaw B.) 10 yards to the LEB32." newcontext="H,1,15,V32">
+    <p_pn vh="H" code="HO" type="holding" name="Diaw B." result="ACCEPT" at="V22" yards="10"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="15" spot="LEB32" context="H,1,15,V32" playid="1,9,10" type="P"
+      text="Piva L. pass incomplete to Mazzonetto D.." newcontext="H,2,15,V32">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Mazzonetto D."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="15" spot="LEB32" context="H,2,15,V32" playid="1,10,11" type="P" first="P" score="Y" clock="08:24"
+      text="Piva L. pass complete to Miglioranza M. for 32 yards to the LEB0, 1ST DOWN CAV, TOUCHDOWN, clock 08:24." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Miglioranza M." gain="32"></p_pa>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB03" context="H,1,0,V03" playid="1,11,12" type="X"
+      text="Celeghin L. kick attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Celeghin L." qb="Celeghin L." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="0" H="6"></score>
+   <drivesum plays="6" yards="65" top="3:55" driveindex="1" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="1,12,13" type="K" turnover="F"
+      text="Tonin L. kickoff 50 yards to the LEB10, Iop E. return 6 yards to the LEB16, fumble forced by Miglioranza M., fumble by Iop E. recovered by CAV Sabbadin C. at LEB11." newcontext="H,1,10,V11">
+    <p_ko vh="H" name="Tonin L." gain="50"></p_ko>
+    <p_kr vh="V" name="Iop E." gain="6"></p_kr>
+    <p_fumb vh="V" name="Iop E." at="V11" frvh="H" frname="Sabbadin C."></p_fumb>
+    <p_tk vh="H" name="Miglioranza M." ff="Y"></p_tk>
+   </play>
+   <drivestart poss="H,V11,08:24" vh="H" spot="V11" clock="08:24" driveindex="3,13"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="LEB11" context="H,1,10,V11" playid="3,1,14" clock="08:05"
+      text="CAVALIERS CASTELFRAN drive start at 08:05." newcontext="H,1,10,V11">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB11" context="H,1,10,V11" playid="3,2,15" type="R" first="R" score="Y" clock="08:05"
+      text="Piva L. rush for 11 yards to the LEB0, 1ST DOWN CAV, TOUCHDOWN, clock 08:05." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Piva L." gain="11"></p_ru>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB03" context="H,1,0,V03" playid="3,3,16" type="X" score="Y"
+      text="Celeghin L. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Celeghin L." qb="Celeghin L." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="13"></score>
+   <drivesum plays="1" yards="11" top="0:00" driveindex="3" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="3,4,17" type="K"
+      text="Tonin L. kickoff 48 yards to the LEB12, Iop E. return 14 yards to the LEB26 (Makokha B.;Sabbadin C.)." newcontext="V,1,10,V26">
+    <p_ko vh="H" name="Tonin L." gain="48"></p_ko>
+    <p_kr vh="V" name="Iop E." gain="14"></p_kr>
+    <p_tk vh="H" name="Makokha B." assist="Y"></p_tk>
+    <p_tk vh="H" name="Sabbadin C." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="V,V26,08:05" vh="V" spot="V26" clock="08:05" driveindex="4,17"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB26" context="V,1,10,V26" playid="4,1,18" clock="07:54"
+      text="LEONI BASILIANO drive start at 07:54." newcontext="V,1,10,V26">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB26" context="V,1,10,V26" playid="4,2,19" type="P"
+      text="Corrado C. pass complete to Degano S. for 6 yards to the LEB32." newcontext="V,2,4,V32">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="Degano S." gain="6"></p_pa>
+   </play>
+   <play hasball="LEB" down="2" togo="4" spot="LEB32" context="V,2,4,V32" playid="4,3,20" type="P" first="P"
+      text="Corrado C. pass complete to Scarpolini L. for 4 yards to the LEB36, 1ST DOWN LEB (Lago D.)." newcontext="V,1,10,V36">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="Scarpolini L." gain="4"></p_pa>
+    <p_tk vh="H" name="Lago D."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB36" context="V,1,10,V36" playid="4,4,21" type="P" first="P"
+      text="Corrado C. pass complete to La Rocca G. for 18 yards to the CAV36, 1ST DOWN LEB, out-of-bounds (Zanin L.)." ob="Y" newcontext="V,1,10,H36">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="La Rocca G." gain="18"></p_pa>
+    <p_tk vh="H" name="Zanin L."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="CAV36" context="V,1,10,H36" playid="4,5,22" type="P" first="P"
+      text="Corrado C. pass complete to Vidoz F. for 26 yards to the CAV10, 1ST DOWN LEB (Tiatto L.)." newcontext="V,1,0,H10">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="Vidoz F." gain="26"></p_pa>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="CAV10" context="V,1,0,H10" playid="4,6,23" type="P" score="Y" clock="06:00"
+      text="Corrado C. pass complete to La Rocca G. for 10 yards to the CAV0, TOUCHDOWN, clock 06:00." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="La Rocca G." gain="10"></p_pa>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="CAV03" context="V,1,0,H03" playid="4,7,24" type="X" score="Y"
+      text="Dione M. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Dione M." qb="Dione M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="13"></score>
+   <drivesum plays="5" yards="64" top="1:54" driveindex="4" complete="Y"></drivesum>
+   <play hasball="LEB" down="1" togo="0" spot="LEB30" context="V,1,0,V30" playid="4,8,25" type="K"
+      text="Dione M. kickoff 60 yards to the CAV0, touchback." newcontext="H,1,10,H20">
+    <p_ko vh="V" name="Dione M." gain="60" result="T"></p_ko>
+   </play>
+   <drivestart poss="H,H20,06:00" vh="H" spot="H20" clock="06:00" driveindex="5,25"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV20" context="H,1,10,H20" playid="5,1,26" clock="06:00"
+      text="CAVALIERS CASTELFRAN drive start at 06:00." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV20" context="H,1,10,H20" playid="5,2,27" type="R"
+      text="Jimenez Rami J. rush for 2 yards to the CAV22 (Bonat F.;Fagnini M.)." newcontext="H,2,8,H22">
+    <p_ru vh="H" name="Jimenez Rami J." gain="2"></p_ru>
+    <p_tk vh="V" name="Bonat F." assist="Y"></p_tk>
+    <p_tk vh="V" name="Fagnini M." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="8" spot="CAV22" context="H,2,8,H22" playid="5,3,28" type="P" first="P"
+      text="Piva L. pass complete to Macchion A. for 9 yards to the CAV31, 1ST DOWN CAV (Esposito G.)." newcontext="H,1,10,H31">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Macchion A." gain="9"></p_pa>
+    <p_tk vh="V" name="Esposito G."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV31" context="H,1,10,H31" playid="5,4,29" type="P"
+      text="Piva L. pass incomplete to Mazzonetto D.." newcontext="H,2,10,H31">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Mazzonetto D."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="CAV31" context="H,2,10,H31" playid="5,5,30" type="R"
+      text="Piva L. rush for loss of 9 yards to the CAV22 (22)." newcontext="H,3,19,H22">
+    <p_ru vh="H" name="Piva L." gain="-9"></p_ru>
+    <p_tk vh="V" name="22" tfl="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="3" togo="19" spot="CAV22" context="H,3,19,H22" playid="5,6,31" type="R"
+      text="Piva L. rush for loss of 3 yards to the CAV19 (Bonat F.)." newcontext="H,4,22,H19">
+    <p_ru vh="H" name="Piva L." gain="-3"></p_ru>
+    <p_tk vh="V" name="Bonat F." tfl="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="4" togo="22" spot="CAV19" context="H,4,22,H19" playid="5,7,32" type="U"
+      text="Vedoato A. punt 21 yards to the CAV40." newcontext="V,1,10,H40">
+    <p_pu vh="H" name="Vedoato A." gain="21"></p_pu>
+   </play>
+   <drivesum plays="5" yards="-1" top="2:25" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,H40,06:00" vh="V" spot="H40" clock="06:00" driveindex="6,32"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="CAV40" context="V,1,10,H40" playid="6,1,33" clock="03:35"
+      text="LEONI BASILIANO drive start at 03:35." newcontext="V,1,10,H40">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="CAV40" context="V,1,10,H40" playid="6,2,34" type="P"
+      text="Corrado C. pass complete to Vidoz F. for 5 yards to the CAV35 (Santinello R.;Tiatto L.)." newcontext="V,2,5,H35">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="Vidoz F." gain="5"></p_pa>
+    <p_tk vh="H" name="Santinello R." assist="Y"></p_tk>
+    <p_tk vh="H" name="Tiatto L." assist="Y"></p_tk>
+   </play>
+   <play hasball="LEB" down="2" togo="5" spot="CAV35" context="V,2,5,H35" playid="6,3,35" type="P" first="P"
+      text="Corrado C. pass complete to La Rocca G. for 6 yards to the CAV29, 1ST DOWN LEB (Pilotto L.;Santinello R.)." newcontext="V,1,10,H29">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="La Rocca G." gain="6"></p_pa>
+    <p_tk vh="H" name="Pilotto L." assist="Y"></p_tk>
+    <p_tk vh="H" name="Santinello R." assist="Y"></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="CAV29" context="V,1,10,H29" playid="6,4,36" type="R"
+      text="Corrado C. rush for loss of 2 yards to the CAV31." newcontext="V,2,12,H31">
+    <p_ru vh="V" name="Corrado C." gain="-2"></p_ru>
+   </play>
+   <play hasball="LEB" down="2" togo="12" spot="CAV31" context="V,2,12,H31" playid="6,5,37" type="P"
+      text="Corrado C. pass incomplete to Fronda G.." newcontext="V,3,12,H31">
+    <p_pa vh="V" qb="Corrado C." result="INC" rcv="Fronda G."></p_pa>
+   </play>
+   <play hasball="LEB" down="3" togo="12" spot="CAV31" context="V,3,12,H31" playid="6,6,38" type="P"
+      text="Corrado C. pass incomplete to Scarpolini L.." newcontext="V,4,12,H31">
+    <p_pa vh="V" qb="Corrado C." result="INC" rcv="Scarpolini L."></p_pa>
+   </play>
+   <play hasball="LEB" down="4" togo="12" spot="CAV31" context="V,4,12,H31" playid="6,7,39" type="P"
+      text="Corrado C. pass incomplete to Scarpolini L. (De Caro M.)." newcontext="H,1,10,H31">
+    <p_pa vh="V" qb="Corrado C." result="INC" rcv="Scarpolini L."></p_pa>
+    <p_bu vh="H" name="De Caro M."></p_bu>
+   </play>
+   <drivesum plays="6" yards="9" top="2:45" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H31,03:35" vh="H" spot="H31" clock="03:35" driveindex="7,39"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV31" context="H,1,10,H31" playid="7,1,40" clock="00:50"
+      text="CAVALIERS CASTELFRAN drive start at 00:50." newcontext="H,1,10,H31">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV31" context="H,1,10,H31" playid="7,2,41" type="P"
+      text="Piva L. pass incomplete to Mazzonetto D.." newcontext="H,2,10,H31">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Mazzonetto D."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="CAV31" context="H,2,10,H31" playid="7,3,42" type="P"
+      text="Piva L. pass complete to Vedoato A. for 8 yards to the CAV39 (Mattiussi M.)." newcontext="H,3,2,H39">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Vedoato A." gain="8"></p_pa>
+    <p_tk vh="V" name="Mattiussi M."></p_tk>
+   </play>
+   <play hasball="CAV" down="3" togo="2" spot="CAV39" context="H,3,2,H39" playid="7,4,43" type="P" first="P"
+      text="Piva L. pass complete to Mazzonetto D. for 5 yards to the CAV44, 1ST DOWN CAV (Fagnini M.)." newcontext="H,1,10,H44">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Mazzonetto D." gain="5"></p_pa>
+    <p_tk vh="V" name="Fagnini M."></p_tk>
+   </play>
+   <score qtr="1" V="7" H="13"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LEB">
+    <firstdowns no="4" rush="0" pass="4" penalty="0"></firstdowns>
+    <penalties no="3" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="04:50"></misc>
+    <rush att="1" yds="-2" gain="0" loss="2" td="0" long="0"></rush>
+    <pass comp="7" att="10" int="0" yds="75" td="1" long="26" sacks="0" sackyds="0"></pass>
+    <rcv no="7" yds="75" td="1" long="26"></rcv>
+    <ko no="2" yds="110" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="9" tacka="4" tot_tack="13" tflua="2" tfla="0" tflyds="12" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="15" td="0" long="14"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CAV">
+    <firstdowns no="7" rush="1" pass="5" penalty="1"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:10"></misc>
+    <rush att="6" yds="10" gain="22" loss="12" td="1" long="11"></rush>
+    <pass comp="6" att="9" int="0" yds="73" td="1" long="32" sacks="0" sackyds="0"></pass>
+    <rcv no="6" yds="73" td="1" long="32"></rcv>
+    <punt no="1" yds="21" long="21" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="21.0"></punt>
+    <ko no="2" yds="98" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="1"></pat>
+    <defense tackua="4" tacka="6" tot_tack="10" sacks="0" sackyds="0" brup="1" ff="1" fr="1" fryds="0"></defense>
+    <kr no="1" yds="15" td="0" long="15"></kr>
+    <scoring td="2" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="CAV" down="1" togo="10" spot="CAV44" context="H,1,10,H44" playid="7,5,44" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="H,1,10,H44">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV44" context="H,1,10,H44" playid="7,6,45" type="P" first="P"
+      text="Piva L. pass complete to Mazzonetto D. for 21 yards to the LEB25, 1ST DOWN CAV (Fagnini M.)." newcontext="H,1,10,V25">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Mazzonetto D." gain="21"></p_pa>
+    <p_tk vh="V" name="Fagnini M."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB25" context="H,1,10,V25" playid="7,7,46" type="P"
+      text="Piva L. pass incomplete to Mazzonetto D.." newcontext="H,2,10,V25">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Mazzonetto D."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="LEB25" context="H,2,10,V25" playid="7,8,47" type="R"
+      text="Makokha B. rush for 7 yards to the LEB18 (Bonat F.)." newcontext="H,3,3,V18">
+    <p_ru vh="H" name="Makokha B." gain="7"></p_ru>
+    <p_tk vh="V" name="Bonat F."></p_tk>
+   </play>
+   <play hasball="CAV" down="3" togo="3" spot="LEB18" context="H,3,3,V18" playid="7,9,48" type="P" first="P"
+      text="Piva L. pass complete to Galeotafiore R. for 6 yards to the LEB12, 1ST DOWN CAV." newcontext="H,1,10,V12">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Galeotafiore R." gain="6"></p_pa>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB12" context="H,1,10,V12" playid="7,10,49" type="R"
+      text="Makokha B. rush for 2 yards to the LEB10 (Bonat F.)." newcontext="H,2,8,V10">
+    <p_ru vh="H" name="Makokha B." gain="2"></p_ru>
+    <p_tk vh="V" name="Bonat F."></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="8" spot="LEB10" context="H,2,8,V10" playid="7,11,50" type="R"
+      text="Jimenez Rami J. rush for 4 yards to the LEB6 (Bonat F.)." newcontext="H,3,4,V06">
+    <p_ru vh="H" name="Jimenez Rami J." gain="4"></p_ru>
+    <p_tk vh="V" name="Bonat F."></p_tk>
+   </play>
+   <play hasball="CAV" down="3" togo="4" spot="LEB06" context="H,3,4,V06" playid="7,12,51" type="P" first="P"
+      text="Piva L. pass complete to Vedoato A. for 4 yards to the LEB2, 1ST DOWN CAV (Mattiussi M.)." newcontext="H,1,0,V02">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Vedoato A." gain="4"></p_pa>
+    <p_tk vh="V" name="Mattiussi M."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB02" context="H,1,0,V02" playid="7,13,52" type="E"
+      text="PENALTY LEB offside defense (Dodorico F.) 1 yards to the LEB1." newcontext="H,1,0,V01">
+    <p_pn vh="V" code="OD" type="offside defense" name="Dodorico F." result="ACCEPT" at="V02" yards="1"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB01" context="H,1,0,V01" playid="7,14,53" type="R" score="Y" clock="08:22"
+      text="Piva L. rush for 1 yard to the LEB0, TOUCHDOWN, clock 08:22." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Piva L." gain="1"></p_ru>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB03" context="H,1,0,V03" playid="7,15,54" type="X" score="Y"
+      text="Jimenez Rami J. rush attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Jimenez Rami J." qb="Jimenez Rami J." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="21"></score>
+   <drivesum plays="11" yards="59" top="4:28" driveindex="7" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="7,16,55" type="K"
+      text="Tonin L. kickoff 30 yards to the LEB30, Turus D. return 3 yards to the LEB33." newcontext="V,1,10,V33">
+    <p_ko vh="H" name="Tonin L." gain="30"></p_ko>
+    <p_kr vh="V" name="Turus D." gain="3"></p_kr>
+   </play>
+   <drivestart poss="V,V33,08:22" vh="V" spot="V33" clock="08:22" driveindex="8,55"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB33" context="V,1,10,V33" playid="8,1,56" clock="08:22"
+      text="LEONI BASILIANO drive start at 08:22." newcontext="V,1,10,V33">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB33" context="V,1,10,V33" playid="8,2,57" type="R"
+      text="La Rocca G. rush for 4 yards to the LEB37 (De Caro M.)." newcontext="V,2,6,V37">
+    <p_ru vh="V" name="La Rocca G." gain="4"></p_ru>
+    <p_tk vh="H" name="De Caro M."></p_tk>
+   </play>
+   <play hasball="LEB" down="2" togo="6" spot="LEB37" context="V,2,6,V37" playid="8,3,58" type="P"
+      text="Corrado C. pass complete to La Rocca G. for 2 yards to the LEB39 (Santinello R.)." newcontext="V,3,4,V39">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="La Rocca G." gain="2"></p_pa>
+    <p_tk vh="H" name="Santinello R."></p_tk>
+   </play>
+   <play hasball="LEB" down="3" togo="4" spot="LEB39" context="V,3,4,V39" playid="8,4,59" type="P"
+      text="Corrado C. pass incomplete to Scarpolini L.." newcontext="V,4,4,V39">
+    <p_pa vh="V" qb="Corrado C." result="INC" rcv="Scarpolini L."></p_pa>
+   </play>
+   <play hasball="LEB" down="4" togo="4" spot="LEB39" context="V,4,4,V39" playid="8,5,60" type="#" clock="07:14"
+      text="Timeout Cavaliers Castelfran, clock 07:14." newcontext="V,4,4,V39">
+    <p_to vh="H" team="Cavaliers Castelfran"></p_to>
+   </play>
+   <play hasball="LEB" down="4" togo="4" spot="LEB39" context="V,4,4,V39" playid="8,6,61" type="#" clock="07:14"
+      text="Timeout Leoni Basiliano, clock 07:14." newcontext="V,4,4,V39">
+    <p_to vh="V" team="Leoni Basiliano"></p_to>
+   </play>
+   <play hasball="LEB" down="4" togo="4" spot="LEB39" context="V,4,4,V39" playid="8,7,62" type="R"
+      text="Corrado C. rush for loss of 6 yards to the LEB33 (Tonin L.)." newcontext="H,1,10,V33">
+    <p_ru vh="V" name="Corrado C." gain="-6"></p_ru>
+    <p_tk vh="H" name="Tonin L." tfl="Y"></p_tk>
+   </play>
+   <drivesum plays="4" yards="0" top="1:22" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="H,V33,07:14" vh="H" spot="V33" clock="07:14" driveindex="9,62"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="LEB33" context="H,1,10,V33" playid="9,1,63" clock="07:00"
+      text="CAVALIERS CASTELFRAN drive start at 07:00." newcontext="H,1,10,V33">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB33" context="H,1,10,V33" playid="9,2,64" type="R"
+      text="Piva L. rush for loss of 3 yards to the LEB36 (Bonat F.)." newcontext="H,2,13,V36">
+    <p_ru vh="H" name="Piva L." gain="-3"></p_ru>
+    <p_tk vh="V" name="Bonat F." tfl="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="13" spot="LEB36" context="H,2,13,V36" playid="9,3,65" type="P"
+      text="Piva L. pass incomplete to Galeotafiore R. (Esposito G.)." newcontext="H,3,13,V36">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Galeotafiore R."></p_pa>
+    <p_bu vh="V" name="Esposito G."></p_bu>
+   </play>
+   <play hasball="CAV" down="3" togo="13" spot="LEB36" context="H,3,13,V36" playid="9,4,66" type="R" first="R"
+      text="Jimenez Rami J. rush for 18 yards to the LEB18, 1ST DOWN CAV (Fagnini M.)." newcontext="H,1,10,V18">
+    <p_ru vh="H" name="Jimenez Rami J." gain="18"></p_ru>
+    <p_tk vh="V" name="Fagnini M."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB18" context="H,1,10,V18" playid="9,5,67" type="P" first="P"
+      text="Piva L. pass complete to Vedoato A. for 11 yards to the LEB7, 1ST DOWN CAV (Fagnini M.)." newcontext="H,1,0,V07">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Vedoato A." gain="11"></p_pa>
+    <p_tk vh="V" name="Fagnini M."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB07" context="H,1,0,V07" playid="9,6,68" type="R" score="Y" clock="05:11"
+      text="Piva L. rush for 7 yards to the LEB0, TOUCHDOWN, clock 05:11." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Piva L." gain="7"></p_ru>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB03" context="H,1,0,V03" playid="9,7,69" type="X" score="Y"
+      text="Celeghin L. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Celeghin L." qb="Celeghin L." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="28"></score>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="9,8,70" type="E"
+      text="PENALTY CAV IP 5 yards to the CAV25." newcontext="H,1,0,H25">
+    <p_pn vh="H" code="IP" type="IP" result="ACCEPT" at="H30" yards="5"></p_pn>
+   </play>
+   <drivesum plays="5" yards="33" top="1:49" driveindex="9" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV25" context="H,1,0,H25" playid="9,9,71" type="K"
+      text="Tonin L. kickoff 65 yards to the LEB0, touchback." newcontext="V,1,10,V20">
+    <p_ko vh="H" name="Tonin L." gain="65" result="T"></p_ko>
+   </play>
+   <drivestart poss="V,V20,05:11" vh="V" spot="V20" clock="05:11" driveindex="10,71"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB20" context="V,1,10,V20" playid="10,1,72" clock="05:11"
+      text="LEONI BASILIANO drive start at 05:11." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB20" context="V,1,10,V20" playid="10,2,73" type="R" first="R"
+      text="Corrado C. rush for 15 yards to the LEB35, 1ST DOWN LEB (De Caro M.)." newcontext="V,1,10,V35">
+    <p_ru vh="V" name="Corrado C." gain="15"></p_ru>
+    <p_tk vh="H" name="De Caro M."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB35" context="V,1,10,V35" playid="10,3,74" type="P"
+      text="Corrado C. pass complete to La Rocca G. for no gain to the LEB35." newcontext="V,2,10,V35">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="La Rocca G." gain="0"></p_pa>
+   </play>
+   <play hasball="LEB" down="2" togo="10" spot="LEB35" context="V,2,10,V35" playid="10,4,75" type="R" turnover="F"
+      text="Corrado C. rush for loss of 7 yards to the LEB28, fumble forced by Tonin L., fumble by Corrado C. recovered by CAV Sabbadin C. at LEB30." newcontext="H,1,10,V30">
+    <p_ru vh="V" name="Corrado C." gain="-7"></p_ru>
+    <p_fumb vh="V" name="Corrado C." at="V30" frvh="H" frname="Sabbadin C."></p_fumb>
+    <p_tk vh="H" name="Tonin L." ff="Y"></p_tk>
+   </play>
+   <drivesum plays="3" yards="10" top="1:06" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="H,V30,05:11" vh="H" spot="V30" clock="05:11" driveindex="11,75"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="LEB30" context="H,1,10,V30" playid="11,1,76" clock="04:05"
+      text="CAVALIERS CASTELFRAN drive start at 04:05." newcontext="H,1,10,V30">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB30" context="H,1,10,V30" playid="11,2,77" type="P"
+      text="Piva L. pass incomplete to Galeotafiore R.." newcontext="H,2,10,V30">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Galeotafiore R."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="10" spot="LEB30" context="H,2,10,V30" playid="11,3,78" type="P"
+      text="Piva L. pass incomplete to Vedoato A.." newcontext="H,3,10,V30">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Vedoato A."></p_pa>
+   </play>
+   <play hasball="CAV" down="3" togo="10" spot="LEB30" context="H,3,10,V30" playid="11,4,79" type="P" first="P"
+      text="Piva L. pass complete to Macchion A. for 14 yards to the LEB16, 1ST DOWN CAV (Fagnini M.)." newcontext="H,1,10,V16">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Macchion A." gain="14"></p_pa>
+    <p_tk vh="V" name="Fagnini M."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB16" context="H,1,10,V16" playid="11,5,80" type="P"
+      text="Piva L. pass complete to Mazzonetto D. for 5 yards to the LEB11 (Dodorico F.)." newcontext="H,2,5,V11">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Mazzonetto D." gain="5"></p_pa>
+    <p_tk vh="V" name="Dodorico F."></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="5" spot="LEB11" context="H,2,5,V11" playid="11,6,81" type="P" first="P" score="Y" clock="02:17"
+      text="Piva L. pass complete to Vedoato A. for 10 yards to the LEB1, fumble by Vedoato A. recovered by CAV Galeotafiore R. at LEB0, 1ST DOWN CAV, TOUCHDOWN, clock 02:17." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Vedoato A." gain="10"></p_pa>
+    <p_fumb vh="H" name="Vedoato A." at="V00" frvh="H" frname="Galeotafiore R."></p_fumb>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB03" context="H,1,0,V03" playid="11,7,82" type="X" score="Y"
+      text="Tonin L. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Tonin L." qb="Tonin L." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="35"></score>
+   <drivesum plays="5" yards="30" top="1:48" driveindex="11" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="11,8,83" type="K"
+      text="Tonin L. kickoff 50 yards to the LEB10, Iop E. return 17 yards to the LEB27 (Miglioranza M.)." newcontext="V,1,10,V27">
+    <p_ko vh="H" name="Tonin L." gain="50"></p_ko>
+    <p_kr vh="V" name="Iop E." gain="17"></p_kr>
+    <p_tk vh="H" name="Miglioranza M."></p_tk>
+   </play>
+   <drivestart poss="V,V27,02:17" vh="V" spot="V27" clock="02:17" driveindex="12,83"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB27" context="V,1,10,V27" playid="12,1,84" clock="02:17"
+      text="LEONI BASILIANO drive start at 02:17." newcontext="V,1,10,V27">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB27" context="V,1,10,V27" playid="12,2,85" type="R" first="R"
+      text="La Rocca G. rush for 34 yards to the CAV29, 1ST DOWN LEB (Makokha B.;Tiatto L.)." newcontext="V,1,10,H29">
+    <p_ru vh="V" name="La Rocca G." gain="34"></p_ru>
+    <p_tk vh="H" name="Makokha B." assist="Y"></p_tk>
+    <p_tk vh="H" name="Tiatto L." assist="Y"></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="CAV29" context="V,1,10,H29" playid="12,3,86" type="P"
+      text="Corrado C. pass incomplete to Degano S.." newcontext="V,2,10,H29">
+    <p_pa vh="V" qb="Corrado C." result="INC" rcv="Degano S."></p_pa>
+   </play>
+   <play hasball="LEB" down="2" togo="10" spot="CAV29" context="V,2,10,H29" playid="12,4,87" type="#" clock="02:00"
+      text="Clock 02:00." newcontext="V,2,10,H29">
+   </play>
+   <play hasball="LEB" down="2" togo="10" spot="CAV29" context="V,2,10,H29" playid="12,5,88" type="R" turnover="F"
+      text="La Rocca G. rush for loss of 2 yards to the CAV31, fumble forced by Makokha B., fumble by La Rocca G. recovered by CAV Rigo A. at CAV31." newcontext="H,1,10,H31">
+    <p_ru vh="V" name="La Rocca G." gain="-2"></p_ru>
+    <p_fumb vh="V" name="La Rocca G." at="H31" frvh="H" frname="Rigo A."></p_fumb>
+    <p_tk vh="H" name="Makokha B." ff="Y"></p_tk>
+   </play>
+   <drivesum plays="3" yards="32" top="0:42" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="H,H31,02:00" vh="H" spot="H31" clock="02:00" driveindex="13,88"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV31" context="H,1,10,H31" playid="13,1,89" clock="01:35"
+      text="CAVALIERS CASTELFRAN drive start at 01:35." newcontext="H,1,10,H31">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV31" context="H,1,10,H31" playid="13,2,90" type="P"
+      text="Piva L. pass complete to Mazzonetto D. for 6 yards to the CAV37 (Dodorico F.)." newcontext="H,2,4,H37">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Mazzonetto D." gain="6"></p_pa>
+    <p_tk vh="V" name="Dodorico F."></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="4" spot="CAV37" context="H,2,4,H37" playid="13,3,91" type="P"
+      text="Piva L. pass incomplete to Galeotafiore R.." newcontext="H,3,4,H37">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Galeotafiore R."></p_pa>
+   </play>
+   <play hasball="CAV" down="3" togo="4" spot="CAV37" context="H,3,4,H37" playid="13,4,92" type="#" clock="01:18"
+      text="Timeout Cavaliers Castelfran, clock 01:18." newcontext="H,3,4,H37">
+    <p_to vh="H" team="Cavaliers Castelfran"></p_to>
+   </play>
+   <play hasball="CAV" down="3" togo="4" spot="CAV37" context="H,3,4,H37" playid="13,5,93" type="R" first="R" score="Y" clock="01:02"
+      text="Jimenez Rami J. rush for 53 yards to the LEB0, 1ST DOWN CAV, TOUCHDOWN, clock 01:02." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Jimenez Rami J." gain="53"></p_ru>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB03" context="H,1,0,V03" playid="13,6,94" type="X" score="Y"
+      text="Celeghin L. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Celeghin L." qb="Celeghin L." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="42"></score>
+   <drivesum plays="3" yards="59" top="0:33" driveindex="13" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="13,7,95" type="K"
+      text="Tonin L. kickoff 49 yards to the LEB11, Iop E. return 7 yards to the LEB18 (De Caro M.)." newcontext="V,1,10,V18">
+    <p_ko vh="H" name="Tonin L." gain="49"></p_ko>
+    <p_kr vh="V" name="Iop E." gain="7"></p_kr>
+    <p_tk vh="H" name="De Caro M."></p_tk>
+   </play>
+   <drivestart poss="V,V18,01:02" vh="V" spot="V18" clock="01:02" driveindex="14,95"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB18" context="V,1,10,V18" playid="14,1,96" type="R" first="R"
+      text="Corrado C. rush for 14 yards to the LEB32, 1ST DOWN LEB (Tiatto L.)." newcontext="V,1,10,V32">
+    <p_ru vh="V" name="Corrado C." gain="14"></p_ru>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <score qtr="2" V="7" H="42"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LEB">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="1"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="2" lost="2"></fumbles>
+    <misc yds="0" top="04:12"></misc>
+    <rush att="7" yds="54" gain="67" loss="13" td="0" long="34"></rush>
+    <pass comp="2" att="4" int="0" yds="2" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="2" td="0" long="0"></rcv>
+    <defense tackua="11" tacka="0" tot_tack="11" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="3" yds="27" td="0" long="3"></kr>
+    <fumbles no="2" lost="2"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CAV">
+    <firstdowns no="8" rush="2" pass="6" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="6" thirdatt="6" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="07:48"></misc>
+    <rush att="8" yds="89" gain="92" loss="3" td="3" long="42"></rush>
+    <pass comp="8" att="13" int="0" yds="78" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="8" yds="78" td="1" long="0"></rcv>
+    <ko no="4" yds="194" ob="0" tb="1"></ko>
+    <pat kickatt="3" kickmade="3" rushatt="1" rushmade="1"></pat>
+    <defense tackua="9" tacka="2" tot_tack="11" tflua="3" tfla="0" tflyds="15" sacks="0" sackyds="0" ff="2" fr="2" fryds="0"></defense>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="4" patkick="3" patrush="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="LEB" down="1" togo="10" spot="LEB32" context="V,1,10,V32" playid="14,2,97" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, CAV ball on CAV30." newcontext="H,1,10,H30">
+   </play>
+   <drivesum plays="1" yards="14" top="0:00" driveindex="14" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="10" spot="CAV30" context="H,1,10,H30" playid="14,3,98" type="K"
+      text="Tonin L. kickoff 48 yards to the LEB12, Iop E. return 26 yards to the LEB38 (Tonin L.)." newcontext="V,1,10,V38">
+    <p_ko vh="H" name="Tonin L." gain="48"></p_ko>
+    <p_kr vh="V" name="Iop E." gain="26"></p_kr>
+    <p_tk vh="H" name="Tonin L."></p_tk>
+   </play>
+   <drivestart poss="V,V38,12:00" vh="V" spot="V38" clock="12:00" driveindex="15,98"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB38" context="V,1,10,V38" playid="15,1,99" clock="12:00"
+      text="LEONI BASILIANO drive start at 12:00." newcontext="V,1,10,V38">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB38" context="V,1,10,V38" playid="15,2,100" type="P"
+      text="Corrado C. pass incomplete to Scarpolini L., dropped pass." newcontext="V,2,10,V38">
+    <p_pa vh="V" qb="Corrado C." result="DROP" rcv="Scarpolini L."></p_pa>
+   </play>
+   <play hasball="LEB" down="2" togo="10" spot="LEB38" context="V,2,10,V38" playid="15,3,101" type="R"
+      text="Corrado C. rush for 6 yards to the LEB44, out-of-bounds." ob="Y" newcontext="V,3,4,V44">
+    <p_ru vh="V" name="Corrado C." gain="6"></p_ru>
+   </play>
+   <play hasball="LEB" down="3" togo="4" spot="LEB44" context="V,3,4,V44" playid="15,4,102" type="R" first="R"
+      text="Lorenzon D. rush for 7 yards to the CAV39, 1ST DOWN LEB (Santinello R.)." newcontext="V,1,10,H39">
+    <p_ru vh="V" name="Lorenzon D." gain="7"></p_ru>
+    <p_tk vh="H" name="Santinello R."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="CAV39" context="V,1,10,H39" playid="15,5,103" type="P"
+      text="Corrado C. pass complete to Fronda G. for 4 yards to the CAV35." newcontext="V,2,6,H35">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="Fronda G." gain="4"></p_pa>
+   </play>
+   <play hasball="LEB" down="2" togo="6" spot="CAV35" context="V,2,6,H35" playid="15,6,104" type="R"
+      text="Corrado C. rush for 3 yards to the CAV32 (De Caro M.)." newcontext="V,3,3,H32">
+    <p_ru vh="V" name="Corrado C." gain="3"></p_ru>
+    <p_tk vh="H" name="De Caro M."></p_tk>
+   </play>
+   <play hasball="LEB" down="3" togo="3" spot="CAV32" context="V,3,3,H32" playid="15,7,105" type="R" first="R"
+      text="Corrado C. rush for 16 yards to the CAV16, 1ST DOWN LEB (Santinello R.)." newcontext="V,1,10,H16">
+    <p_ru vh="V" name="Corrado C." gain="16"></p_ru>
+    <p_tk vh="H" name="Santinello R."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="CAV16" context="V,1,10,H16" playid="15,8,106" type="P"
+      text="Corrado C. pass complete to Scarpolini L. for loss of 2 yards to the CAV18 (Lago D.)." newcontext="V,2,12,H18">
+    <p_pa vh="V" qb="Corrado C." result="COMP" rcv="Scarpolini L." gain="-2"></p_pa>
+    <p_tk vh="H" name="Lago D." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LEB" down="2" togo="12" spot="CAV18" context="V,2,12,H18" playid="15,9,107" type="R"
+      text="Corrado C. rush for loss of 11 yards to the CAV29 (Rigo A.)." newcontext="V,3,23,H29">
+    <p_ru vh="V" name="Corrado C." gain="-11"></p_ru>
+    <p_tk vh="H" name="Rigo A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LEB" down="3" togo="23" spot="CAV29" context="V,3,23,H29" playid="15,10,108" type="R"
+      text="Corrado C. rush for loss of 5 yards to the CAV34 (Sabbadin C.)." newcontext="V,4,28,H34">
+    <p_ru vh="V" name="Corrado C." gain="-5"></p_ru>
+    <p_tk vh="H" name="Sabbadin C." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LEB" down="4" togo="28" spot="CAV34" context="V,4,28,H34" playid="15,11,109" type="U"
+      text="Scarpolini L. punt 34 yards to the CAV0, touchback." newcontext="H,1,10,H20">
+    <p_pu vh="V" name="Scarpolini L." gain="34" tb="Y"></p_pu>
+   </play>
+   <drivesum plays="9" yards="18" top="7:00" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H20,12:00" vh="H" spot="H20" clock="12:00" driveindex="16,109"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV20" context="H,1,10,H20" playid="16,1,110" clock="05:00"
+      text="CAVALIERS CASTELFRAN drive start at 05:00." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV20" context="H,1,10,H20" playid="16,2,111" type="R"
+      text="Makokha B. rush for 2 yards to the CAV22 (Fagnini M.)." newcontext="H,2,8,H22">
+    <p_ru vh="H" name="Makokha B." gain="2"></p_ru>
+    <p_tk vh="V" name="Fagnini M."></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="8" spot="CAV22" context="H,2,8,H22" playid="16,3,112" type="P"
+      text="Piva L. pass incomplete to Mazzonetto D.." newcontext="H,3,8,H22">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Mazzonetto D."></p_pa>
+   </play>
+   <play hasball="CAV" down="3" togo="8" spot="CAV22" context="H,3,8,H22" playid="16,4,113" type="R"
+      text="Brunoro R. rush for 2 yards to the CAV24 (Esposito G.;Bonat F.)." newcontext="H,4,6,H24">
+    <p_ru vh="H" name="Brunoro R." gain="2"></p_ru>
+    <p_tk vh="V" name="Esposito G." assist="Y"></p_tk>
+    <p_tk vh="V" name="Bonat F." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="4" togo="6" spot="CAV24" context="H,4,6,H24" playid="16,5,114" type="U"
+      text="Vedoato A. punt 26 yards to the LEB40, Iop E. return 12 yards to the CAV38 (Mazzonetto D.)." newcontext="V,1,10,H38">
+    <p_pu vh="H" name="Vedoato A." gain="26"></p_pu>
+    <p_pr vh="V" name="Iop E." gain="12"></p_pr>
+    <p_tk vh="H" name="Mazzonetto D."></p_tk>
+   </play>
+   <drivesum plays="3" yards="4" top="2:55" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="V,H38,05:00" vh="V" spot="H38" clock="05:00" driveindex="17,114"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="CAV38" context="V,1,10,H38" playid="17,1,115" clock="02:05"
+      text="LEONI BASILIANO drive start at 02:05." newcontext="V,1,10,H38">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="CAV38" context="V,1,10,H38" playid="17,2,116" type="R"
+      text="La Rocca G. rush for 3 yards to the CAV35 (Sabbadin C.)." newcontext="V,2,7,H35">
+    <p_ru vh="V" name="La Rocca G." gain="3"></p_ru>
+    <p_tk vh="H" name="Sabbadin C."></p_tk>
+   </play>
+   <play hasball="LEB" down="2" togo="7" spot="CAV35" context="V,2,7,H35" playid="17,3,117" type="P"
+      text="Mattiussi M. pass incomplete to Fronda G.." newcontext="V,3,7,H35">
+    <p_pa vh="V" qb="Mattiussi M." result="INC" rcv="Fronda G."></p_pa>
+   </play>
+   <play hasball="LEB" down="3" togo="7" spot="CAV35" context="V,3,7,H35" playid="17,4,118" type="R"
+      text="La Rocca G. rush for 4 yards to the CAV31 (Zanin L.)." newcontext="V,4,3,H31">
+    <p_ru vh="V" name="La Rocca G." gain="4"></p_ru>
+    <p_tk vh="H" name="Zanin L."></p_tk>
+   </play>
+   <play hasball="LEB" down="4" togo="3" spot="CAV31" context="V,4,3,H31" playid="17,5,119" type="#" clock="01:15"
+      text="Timeout Leoni Basiliano, clock 01:15." newcontext="V,4,3,H31">
+    <p_to vh="V" team="Leoni Basiliano"></p_to>
+   </play>
+   <play hasball="LEB" down="4" togo="3" spot="CAV31" context="V,4,3,H31" playid="17,6,120" type="R"
+      text="Mattiussi M. rush for 1 yard to the CAV30 (Rigo A.)." newcontext="H,1,10,H30">
+    <p_ru vh="V" name="Mattiussi M." gain="1"></p_ru>
+    <p_tk vh="H" name="Rigo A."></p_tk>
+   </play>
+   <drivesum plays="4" yards="8" top="1:05" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,H30,01:15" vh="H" spot="H30" clock="01:15" driveindex="18,120"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="CAV30" context="H,1,10,H30" playid="18,1,121" clock="01:00"
+      text="CAVALIERS CASTELFRAN drive start at 01:00." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="CAV30" context="H,1,10,H30" playid="18,2,122" type="R"
+      text="Makokha B. rush for 2 yards to the CAV32 (Grion M.)." newcontext="H,2,8,H32">
+    <p_ru vh="H" name="Makokha B." gain="2"></p_ru>
+    <p_tk vh="V" name="Grion M."></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="8" spot="CAV32" context="H,2,8,H32" playid="18,3,123" type="P"
+      text="Piva L. pass incomplete to Santi M.." newcontext="H,3,8,H32">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Santi M."></p_pa>
+   </play>
+   <play hasball="CAV" down="3" togo="8" spot="CAV32" context="H,3,8,H32" playid="18,4,124" type="R"
+      text="Makokha B. rush for no gain to the CAV32 (Bonat F.)." newcontext="H,4,8,H32">
+    <p_ru vh="H" name="Makokha B." gain="0"></p_ru>
+    <p_tk vh="V" name="Bonat F."></p_tk>
+   </play>
+   <score qtr="3" V="7" H="42"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LEB">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:05"></misc>
+    <rush att="9" yds="24" gain="40" loss="16" td="0" long="0"></rush>
+    <pass comp="2" att="4" int="0" yds="2" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="2" td="0" long="0"></rcv>
+    <punt no="1" yds="34" long="34" blkd="0" tb="1" fc="0" plus50="0" inside20="0" avg="34.0"></punt>
+    <defense tackua="3" tacka="2" tot_tack="5" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="26" td="0" long="9"></kr>
+    <pr no="1" yds="12" td="0" long="12"></pr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CAV">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:55"></misc>
+    <rush att="4" yds="6" gain="6" loss="0" td="0" long="0"></rush>
+    <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="1" yds="26" long="5" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="26.0"></punt>
+    <ko no="1" yds="48" ob="0" tb="0"></ko>
+    <defense tackua="11" tacka="0" tot_tack="11" tflua="3" tfla="0" tflyds="18" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="CAV" down="4" togo="8" spot="CAV32" context="H,4,8,H32" playid="18,5,125" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="H,4,8,H32">
+   </play>
+   <play hasball="CAV" down="4" togo="8" spot="CAV32" context="H,4,8,H32" playid="18,6,126" type="U"
+      text="Vedoato A. punt 34 yards to the LEB24." newcontext="V,1,10,V24">
+    <p_pu vh="H" name="Vedoato A." gain="34"></p_pu>
+   </play>
+   <drivesum plays="3" yards="2" top="1:10" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="V,V24,12:00" vh="V" spot="V24" clock="12:00" driveindex="19,126"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB24" context="V,1,10,V24" playid="19,1,127" clock="11:50"
+      text="LEONI BASILIANO drive start at 11:50." newcontext="V,1,10,V24">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB24" context="V,1,10,V24" playid="19,2,128" type="R"
+      text="La Rocca G. rush for 1 yard to the LEB25 (Zanchetta S.;Tonin L.)." newcontext="V,2,9,V25">
+    <p_ru vh="V" name="La Rocca G." gain="1"></p_ru>
+    <p_tk vh="H" name="Zanchetta S." assist="Y"></p_tk>
+    <p_tk vh="H" name="Tonin L." assist="Y"></p_tk>
+   </play>
+   <play hasball="LEB" down="2" togo="9" spot="LEB25" context="V,2,9,V25" playid="19,3,129" type="P"
+      text="Mattiussi M. pass incomplete to Scarpolini L.." newcontext="V,3,9,V25">
+    <p_pa vh="V" qb="Mattiussi M." result="INC" rcv="Scarpolini L."></p_pa>
+   </play>
+   <play hasball="LEB" down="3" togo="9" spot="LEB25" context="V,3,9,V25" playid="19,4,130" type="P"
+      text="Mattiussi M. pass incomplete to La Rocca G., dropped pass." newcontext="V,4,9,V25">
+    <p_pa vh="V" qb="Mattiussi M." result="DROP" rcv="La Rocca G."></p_pa>
+   </play>
+   <play hasball="LEB" down="4" togo="9" spot="LEB25" context="V,4,9,V25" playid="19,5,131" type="U"
+      text="Scarpolini L. punt 15 yards to the LEB40." newcontext="H,1,10,V40">
+    <p_pu vh="V" name="Scarpolini L." gain="15"></p_pu>
+   </play>
+   <drivesum plays="3" yards="1" top="3:20" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,V40,11:50" vh="H" spot="V40" clock="11:50" driveindex="20,131"></drivestart>
+   <play hasball="CAV" down="1" togo="10" spot="LEB40" context="H,1,10,V40" playid="20,1,132" clock="08:30"
+      text="CAVALIERS CASTELFRAN drive start at 08:30." newcontext="H,1,10,V40">
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB40" context="H,1,10,V40" playid="20,2,133" type="R"
+      text="Diaw B. rush for 2 yards to the LEB38 (Gueye M.;Dione M.)." newcontext="H,2,8,V38">
+    <p_ru vh="H" name="Diaw B." gain="2"></p_ru>
+    <p_tk vh="V" name="Gueye M." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dione M." assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="2" togo="8" spot="LEB38" context="H,2,8,V38" playid="20,3,134" type="P"
+      text="Piva L. sacked for loss of 2 yards to the LEB40 (Grion M.;Tavano M.)." newcontext="H,3,10,V40">
+    <p_pa vh="H" qb="Piva L." result="SACK" gain="-2"></p_pa>
+    <p_tk vh="V" name="Grion M." sack="Y" tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Tavano M." sack="Y" tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="CAV" down="3" togo="10" spot="LEB40" context="H,3,10,V40" playid="20,4,135" type="P" first="P"
+      text="Piva L. pass complete to Santi M. for 16 yards to the LEB24, 1ST DOWN CAV." newcontext="H,1,10,V24">
+    <p_pa vh="H" qb="Piva L." result="COMP" rcv="Santi M." gain="16"></p_pa>
+   </play>
+   <play hasball="CAV" down="1" togo="10" spot="LEB24" context="H,1,10,V24" playid="20,5,136" type="E"
+      text="PENALTY LEB offside defense 5 yards to the LEB19." newcontext="H,1,5,V19">
+    <p_pn vh="V" code="OD" type="offside defense" result="ACCEPT" at="V24" yards="5"></p_pn>
+   </play>
+   <play hasball="CAV" down="1" togo="5" spot="LEB19" context="H,1,5,V19" playid="20,6,137" type="P"
+      text="Piva L. pass incomplete to Santi M.." newcontext="H,2,5,V19">
+    <p_pa vh="H" qb="Piva L." result="INC" rcv="Santi M."></p_pa>
+   </play>
+   <play hasball="CAV" down="2" togo="5" spot="LEB19" context="H,2,5,V19" playid="20,7,138" type="R" first="R"
+      text="Jimenez Rami J. rush for 15 yards to the LEB4, 1ST DOWN CAV (Montanari M.)." newcontext="H,1,0,V04">
+    <p_ru vh="H" name="Jimenez Rami J." gain="15"></p_ru>
+    <p_tk vh="V" name="Montanari M."></p_tk>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB04" context="H,1,0,V04" playid="20,8,139" type="R" score="Y" clock="03:30"
+      text="Piva L. rush for 4 yards to the LEB0, TOUCHDOWN, clock 03:30." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Piva L." gain="4"></p_ru>
+   </play>
+   <play hasball="CAV" down="1" togo="0" spot="LEB03" context="H,1,0,V03" playid="20,9,140" type="X"
+      text="Piva L. rush attempt failed (blocked) (blocked by Tavano M.)." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Piva L." qb="Piva L." type="R" result="BLOCKED"></p_pat>
+   </play>
+   <score V="7" H="48"></score>
+   <drivesum plays="6" yards="40" top="5:00" driveindex="20" complete="Y"></drivesum>
+   <play hasball="CAV" down="1" togo="0" spot="CAV30" context="H,1,0,H30" playid="20,10,141" type="K"
+      text="Tonin L. kickoff 38 yards to the LEB22, Turus D. return 30 yards to the CAV38 (Lago D.)." newcontext="V,1,10,H38">
+    <p_ko vh="H" name="Tonin L." gain="38"></p_ko>
+    <p_kr vh="V" name="Turus D." gain="30"></p_kr>
+    <p_tk vh="H" name="Lago D."></p_tk>
+   </play>
+   <drivestart poss="V,H38,03:30" vh="V" spot="H38" clock="03:30" driveindex="21,141"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="CAV38" context="V,1,10,H38" playid="21,1,142" clock="02:00"
+      text="LEONI BASILIANO drive start at 02:00." newcontext="V,1,10,H38">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="CAV38" context="V,1,10,H38" playid="21,2,143" type="R"
+      text="Mattiussi M. rush for 6 yards to the CAV32 (Baldassa A.;Santinello R.)." newcontext="V,2,4,H32">
+    <p_ru vh="V" name="Mattiussi M." gain="6"></p_ru>
+    <p_tk vh="H" name="Baldassa A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Santinello R." assist="Y"></p_tk>
+   </play>
+   <play hasball="LEB" down="2" togo="4" spot="CAV32" context="V,2,4,H32" playid="21,3,144" type="P"
+      text="Mattiussi M. pass complete to Degano S. for no gain to the CAV32 (De Caro M.)." newcontext="V,3,4,H32">
+    <p_pa vh="V" qb="Mattiussi M." result="COMP" rcv="Degano S." gain="0"></p_pa>
+    <p_tk vh="H" name="De Caro M."></p_tk>
+   </play>
+   <play hasball="LEB" down="3" togo="4" spot="CAV32" context="V,3,4,H32" playid="21,4,145" type="R"
+      text="Iop E. rush for 2 yards to the CAV30 (De Caro M.)." newcontext="V,4,2,H30">
+    <p_ru vh="V" name="Iop E." gain="2"></p_ru>
+    <p_tk vh="H" name="De Caro M."></p_tk>
+   </play>
+   <play hasball="LEB" down="4" togo="2" spot="CAV30" context="V,4,2,H30" playid="21,5,146" type="P" first="P"
+      text="Mattiussi M. pass complete to Fronda G. for 8 yards to the CAV22, 1ST DOWN LEB (Tiatto L.)." newcontext="V,1,10,H22">
+    <p_pa vh="V" qb="Mattiussi M." result="COMP" rcv="Fronda G." gain="8"></p_pa>
+    <p_tk vh="H" name="Tiatto L."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="CAV22" context="V,1,10,H22" playid="21,6,147" type="#" clock="00:10"
+      text="Timeout Leoni Basiliano, clock 00:10." newcontext="V,1,10,H22">
+    <p_to vh="V" team="Leoni Basiliano"></p_to>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="CAV22" context="V,1,10,H22" playid="21,7,148" type="P" first="P"
+      text="Mattiussi M. pass complete to Scarpolini L. for 21 yards to the CAV1, 1ST DOWN LEB." newcontext="V,1,0,H01">
+    <p_pa vh="V" qb="Mattiussi M." result="COMP" rcv="Scarpolini L." gain="21"></p_pa>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="CAV01" context="V,1,0,H01" playid="21,8,149" type="#" clock="00:02"
+      text="Timeout Leoni Basiliano, clock 00:02." newcontext="V,1,0,H01">
+    <p_to vh="V" team="Leoni Basiliano"></p_to>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="CAV01" context="V,1,0,H01" playid="21,9,150" type="P"
+      text="Mattiussi M. sacked for loss of 1 yard to the CAV2 (Makokha B.)." newcontext="V,2,0,H02">
+    <p_pa vh="V" qb="Mattiussi M." result="SACK" gain="-1"></p_pa>
+    <p_tk vh="H" name="Makokha B." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="LEB" down="2" togo="0" spot="CAV02" context="V,2,0,H02" playid="21,10,151" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="V,2,0,H02">
+   </play>
+   <drivesum plays="6" yards="36" top="2:00" driveindex="21" complete="Y"></drivesum>
+   <score final="Y" V="7" H="48"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LEB">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:50"></misc>
+    <rush att="4" yds="8" gain="9" loss="1" td="0" long="0"></rush>
+    <pass comp="3" att="5" int="0" yds="29" td="0" long="0" sacks="1" sackyds="1"></pass>
+    <rcv no="3" yds="29" td="0" long="0"></rcv>
+    <punt no="1" yds="15" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="15.0"></punt>
+    <defense tackua="1" tacka="4" tot_tack="5" tflua="2" tfla="0" tflyds="4" sacks="1" sackyds="2" blkd="1"></defense>
+    <kr no="1" yds="30" td="0" long="4"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="CAV">
+    <firstdowns no="2" rush="1" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:10"></misc>
+    <rush att="4" yds="19" gain="21" loss="2" td="1" long="0"></rush>
+    <pass comp="1" att="2" int="0" yds="16" td="0" long="0" sacks="1" sackyds="2"></pass>
+    <rcv no="1" yds="16" td="0" long="0"></rcv>
+    <punt no="1" yds="34" long="8" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="34.0"></punt>
+    <ko no="1" yds="38" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="0"></pat>
+    <defense tackua="5" tacka="4" tot_tack="9" tflua="1" tfla="0" tflyds="1" sacks="1" sackyds="1"></defense>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="LEB" down="2" togo="0" spot="CAV02" context="V,2,0,H02" qtr="4" clock="00:00" vtoh="3" htoh="0"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="LEB">
+  <player name="Prima N." checkname="N.,PRIMA" uni="9" gp="0" code="9"></player>
+  <player name="Pascolini A." checkname="A.,PASCOLINI" uni="55" gp="0" code="55"></player>
+  <player name="Pascutti F." checkname="F.,PASCUTTI" uni="56" gp="0" code="56"></player>
+  <player name="Vidoz L." checkname="L.,VIDOZ" uni="69" gp="0" code="69"></player>
+ </dnp>
+ <dnp vh="H" id="CAV">
+  <player name="Scantamburlo O." checkname="O.,SCANTAMBURLO" uni="71" gp="0" code="71"></player>
+  <player name="Reffo A." checkname="A.,REFFO" uni="74" gp="0" code="74"></player>
+  <player name="Vedovato N." checkname="N.,VEDOVATO" uni="75" gp="0" code="75"></player>
+  <player name="Sartore F." checkname="F.,SARTORE" uni="76" gp="0" code="76"></player>
+  <player name="Lago M." checkname="M.,LAGO" uni="79" gp="0" code="79"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

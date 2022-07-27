@@ -1,0 +1,1323 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220141" visid="GOR" homeid="PRE" visname="Gorillas Varese" homename="Predatori GdT"
+      date="4/30/2022" location="CHIAVARI" stadium="C.S.DANERI"
+      start="21|00" end="23|45" leaguegame="Y" nitegame="Y"
+      duration="2|45" attend="100" temp="10 C" wind="LIGHT" weather="PARTLY CLOUDY">
+  <officials ref="PASSALACQUA R." ump="GAIAS P." line="VITALE D." lj="MARAVENTANO V." sc="FASSIO M."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="GOR" name="Gorillas Varese" record="2-1" conf-record="2-1" abb="G">
+  <linescore prds="4" line="14,6,0,7" score="27">
+   <lineprd prd="1" score="14"></lineprd>
+   <lineprd prd="2" score="6"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="7"></lineprd>
+  </linescore>
+  <totals totoff_plays="54" totoff_yards="315" totoff_avg="5.8">
+   <firstdowns no="18" rush="8" pass="9" penalty="1"></firstdowns>
+   <penalties no="12" yds="81"></penalties>
+   <conversions thirdconv="5" thirdatt="10" fourthconv="2" fourthatt="3"></conversions>
+   <fumbles no="4" lost="3"></fumbles>
+   <misc yds="0" top="21:32" ona="0" onm="0"></misc>
+   <redzone att="2" scores="1" points="7" tdrush="1" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="1" endhalf="0" endgame="0"></redzone>
+   <rush att="25" yds="105" gain="123" loss="18" td="2" long="21"></rush>
+   <pass comp="20" att="29" int="0" yds="210" td="2" long="33" sacks="0" sackyds="0"></pass>
+   <rcv no="20" yds="210" td="2" long="33"></rcv>
+   <punt no="2" yds="87" long="51" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="43.5"></punt>
+   <ko no="5" yds="215" ob="0" tb="0"></ko>
+   <pat kickatt="3" kickmade="3" passatt="1" passmade="0"></pat>
+   <defense tackua="39" tacka="6" tot_tack="45" tflua="4" tfla="0" tflyds="26" sacks="1" sackyds="14" brup="1" int="1" intyds="2"></defense>
+   <kr no="5" yds="79" td="0" long="28"></kr>
+   <ir no="1" yds="2" td="0" long="2"></ir>
+   <scoring td="4" patkick="3"></scoring>
+  </totals>
+  <player name="Facetti M." shortname="Facetti M." checkname="M.,FACETTI" uni="8" gp="1" code="8">
+   <rcv no="7" yds="56" td="0" long="21"></rcv>
+  </player>
+  <player name="Traversa M." shortname="Traversa M." checkname="M.,TRAVERSA" uni="12" gp="1" code="12">
+   <rush att="1" yds="5" gain="5" loss="0" td="0" long="5"></rush>
+   <rcv no="4" yds="47" td="0" long="17"></rcv>
+  </player>
+  <player name="Giorgetti G." shortname="Giorgetti G." checkname="G.,GIORGETTI" uni="3" gp="1" code="3">
+   <rush att="1" yds="3" gain="3" loss="0" td="0" long="3"></rush>
+   <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+   <rcv no="4" yds="43" td="1" long="26"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Giardini A." shortname="Giardini A." checkname="A.,GIARDINI" uni="15" gp="1" code="15">
+   <rush att="2" yds="-17" gain="0" loss="17" td="0" long="0"></rush>
+   <rcv no="3" yds="51" td="1" long="33"></rcv>
+   <kr no="2" yds="42" td="0" long="24"></kr>
+   <fumbles no="2" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Giorgetti L." shortname="Giorgetti L." checkname="L.,GIORGETTI" uni="80" gp="1" code="80">
+   <rcv no="2" yds="13" td="0" long="9"></rcv>
+  </player>
+  <player name="Vigan&#242; J." shortname="Vigan&#242; J." checkname="J.,VIGAN&#242;" uni="86" gp="1" code="86">
+   <rush att="3" yds="23" gain="23" loss="0" td="0" long="13"></rush>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Salvioni L." shortname="Salvioni L." checkname="L.,SALVIONI" uni="17" gp="1" code="17">
+   <defense tackua="7" tacka="0" tot_tack="7"></defense>
+  </player>
+  <player name="Casucci B." shortname="Casucci B." checkname="B.,CASUCCI" uni="2" gp="1" code="2">
+   <defense tackua="4" tacka="1" tot_tack="5" tflua="2" tfla="0" tflyds="8"></defense>
+  </player>
+  <player name="Benecchi L." shortname="Benecchi L." checkname="L.,BENECCHI" uni="23" gp="1" code="23">
+   <defense tackua="1" tacka="3" tot_tack="4"></defense>
+  </player>
+  <player name="Altamura P." shortname="Altamura P." checkname="P.,ALTAMURA" uni="29" gp="1" code="29">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="4" int="1" intyds="2"></defense>
+   <ir no="1" yds="2" td="0" long="2"></ir>
+  </player>
+  <player name="Da Siena A." shortname="Da Siena A." checkname="SIENA A.,DA" uni="31" gp="1" code="31"></player>
+  <player name="Benecchi A." shortname="Benecchi A." checkname="A.,BENECCHI" uni="35" gp="1" code="35">
+   <defense tackua="6" tacka="0" tot_tack="6" brup="1"></defense>
+  </player>
+  <player name="Corvi G." shortname="Corvi G." checkname="G.,CORVI" uni="39" gp="1" code="39">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Rizzi E." shortname="Rizzi E." checkname="E.,RIZZI" uni="45" gp="1" code="45">
+   <ko no="5" yds="215" ob="0" tb="0"></ko>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Zanzi S." shortname="Zanzi S." checkname="S.,ZANZI" uni="47" gp="1" code="47">
+   <defense tackua="10" tacka="1" tot_tack="11" tflua="1" tfla="0" tflyds="14" sackua="1" sacka="0" sackyds="14"></defense>
+  </player>
+  <player name="Rizzo J." shortname="Rizzo J." checkname="J.,RIZZO" uni="51" gp="1" code="51"></player>
+  <player name="Corvi V." shortname="Corvi V." checkname="V.,CORVI" uni="59" gp="1" code="59"></player>
+  <player name="Filippi L." shortname="Filippi L." checkname="L.,FILIPPI" uni="63" gp="1" code="63"></player>
+  <player name="Haro Zambran H." shortname="Haro Zambran H." checkname="ZAMBRAN H.,HARO" uni="66" gp="1" code="66"></player>
+  <player name="Ferrara S." shortname="Ferrara S." checkname="S.,FERRARA" uni="72" gp="1" code="72"></player>
+  <player name="Zen D." shortname="Zen D." checkname="D.,ZEN" uni="74" gp="1" code="74"></player>
+  <player name="Ferrari F." shortname="Ferrari F." checkname="F.,FERRARI" uni="18" gp="1" code="18">
+   <rush att="6" yds="32" gain="32" loss="0" td="1" long="9"></rush>
+   <pass comp="20" att="28" int="0" yds="210" td="2" long="33" sacks="0" sackyds="0"></pass>
+   <punt no="2" yds="87" long="51" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="43.5"></punt>
+   <pat kickatt="3" kickmade="3" passatt="1" passmade="0"></pat>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1" patkick="3"></scoring>
+  </player>
+  <player name="Di Bartolo G." shortname="Di Bartolo G." checkname="BARTOLO G.,DI" uni="83" gp="1" code="83"></player>
+  <player name="Barbaro M." shortname="Barbaro M." checkname="M.,BARBARO" uni="84" gp="1" code="84">
+   <defense tackua="5" tacka="0" tot_tack="5"></defense>
+  </player>
+  <player name="Marabotti G." shortname="Marabotti G." checkname="G.,MARABOTTI" uni="11" gp="1" code="11">
+   <rush att="12" yds="59" gain="60" loss="1" td="1" long="21"></rush>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+   <kr no="2" yds="37" td="0" long="28"></kr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Valiani E." shortname="Valiani E." checkname="E.,VALIANI" uni="87" gp="1" code="87"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+   <kr no="1" yds="0" td="0" long="0"></kr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+ </team>
+ <team vh="H" code="" id="PRE" name="Predatori GdT" record="1-2" conf-record="1-2" abb="P">
+  <linescore prds="4" line="6,6,0,14" score="26">
+   <lineprd prd="1" score="6"></lineprd>
+   <lineprd prd="2" score="6"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="14"></lineprd>
+  </linescore>
+  <totals totoff_plays="70" totoff_yards="358" totoff_avg="5.1">
+   <firstdowns no="25" rush="5" pass="14" penalty="6"></firstdowns>
+   <penalties no="4" yds="46"></penalties>
+   <conversions thirdconv="4" thirdatt="12" fourthconv="2" fourthatt="4"></conversions>
+   <fumbles no="3" lost="0"></fumbles>
+   <misc yds="0" top="26:28" ona="1" onm="1"></misc>
+   <redzone att="6" scores="3" points="18" tdrush="3" tdpass="0" fgmade="0" endfga="0" enddowns="2" endint="0" endfumb="0" endhalf="1" endgame="0"></redzone>
+   <rush att="27" yds="92" gain="121" loss="29" td="3" long="15"></rush>
+   <pass comp="24" att="43" int="1" yds="266" td="1" long="46" sacks="1" sackyds="14"></pass>
+   <rcv no="24" yds="266" td="1" long="46"></rcv>
+   <punt no="2" yds="61" long="35" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="30.5"></punt>
+   <ko no="4" yds="196" ob="0" tb="0"></ko>
+   <pat kickatt="3" kickmade="0" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="39" tacka="12" tot_tack="51" tflua="4" tfla="0" tflyds="25" sacks="0" sackyds="0" brup="3" ff="3" fr="2" fryds="0"></defense>
+   <kr no="5" yds="47" td="0" long="25"></kr>
+   <pr no="1" yds="12" td="0" long="12"></pr>
+   <scoring td="4" patrcv="1"></scoring>
+  </totals>
+  <player name="Ravera N." shortname="Ravera N." checkname="N.,RAVERA" uni="88" gp="1" code="88">
+   <rcv no="11" yds="92" td="0" long="20"></rcv>
+   <kr no="2" yds="16" td="0" long="13"></kr>
+  </player>
+  <player name="Spiaggi F." shortname="Spiaggi F." checkname="F.,SPIAGGI" uni="82" gp="1" code="82">
+   <rcv no="10" yds="129" td="1" long="46"></rcv>
+   <kr no="1" yds="25" td="0" long="25"></kr>
+   <pr no="1" yds="12" td="0" long="12"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Froio S." shortname="Froio S." checkname="S.,FROIO" uni="87" gp="1" code="87">
+   <rcv no="2" yds="37" td="0" long="22"></rcv>
+   <pat rcvatt="1" rcvmade="1"></pat>
+   <scoring patrcv="1"></scoring>
+  </player>
+  <player name="Zanforlin G." shortname="Zanforlin G." checkname="G.,ZANFORLIN" uni="17" gp="1" code="17">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="Levaggi M." shortname="Levaggi M." checkname="M.,LEVAGGI" uni="2" gp="1" code="2">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Paoletti L." shortname="Paoletti L." checkname="L.,PAOLETTI" uni="12" gp="1" code="12">
+   <punt no="2" yds="61" long="35" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="30.5"></punt>
+   <ko no="4" yds="196" ob="0" tb="0"></ko>
+   <pat kickatt="3" kickmade="0"></pat>
+   <defense tackua="5" tacka="1" tot_tack="6" ff="1"></defense>
+  </player>
+  <player name="Biasotti N." shortname="Biasotti N." checkname="N.,BIASOTTI" uni="9" gp="1" code="9"></player>
+  <player name="Baciu F." shortname="Baciu F." checkname="F.,BACIU" uni="7" gp="1" code="7">
+   <defense tackua="4" tacka="0" tot_tack="4" brup="2" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Porro L." shortname="Porro L." checkname="L.,PORRO" uni="19" gp="1" code="19"></player>
+  <player name="Cavalli G." shortname="Cavalli G." checkname="G.,CAVALLI" uni="22" gp="1" code="22">
+   <defense tackua="5" tacka="0" tot_tack="5" brup="1"></defense>
+  </player>
+  <player name="Solari M." shortname="Solari M." checkname="M.,SOLARI" uni="25" gp="1" code="25">
+   <defense tackua="6" tacka="0" tot_tack="6"></defense>
+  </player>
+  <player name="Camarlinghi R." shortname="Camarlinghi R." checkname="R.,CAMARLINGHI" uni="28" gp="1" code="28"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="2" yds="-6" gain="0" loss="6" td="0" long="0"></rush>
+   <defense tackua="1" tacka="0" tot_tack="1" ff="1"></defense>
+   <fumbles no="2" lost="0"></fumbles>
+  </player>
+  <player name="Dellepere R." shortname="Dellepere R." checkname="R.,DELLEPERE" uni="33" gp="1" code="33"></player>
+  <player name="Romeo M." shortname="Romeo M." checkname="M.,ROMEO" uni="42" gp="1" code="42">
+   <defense tackua="3" tacka="5" tot_tack="8"></defense>
+  </player>
+  <player name="Munoz Moreir B." shortname="Munoz Moreir B." checkname="MOREIR B.,MUNOZ" uni="45" gp="1" code="45"></player>
+  <player name="Ragazzoni A." shortname="Ragazzoni A." checkname="A.,RAGAZZONI" uni="52" gp="1" code="52"></player>
+  <player name="Tenconi A." shortname="Tenconi A." checkname="A.,TENCONI" uni="54" gp="1" code="54"></player>
+  <player name="Baraldi A." shortname="Baraldi A." checkname="A.,BARALDI" uni="56" gp="1" code="56">
+   <defense tackua="7" tacka="3" tot_tack="10" tflua="1" tfla="0" tflyds="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Tarabella E." shortname="Tarabella E." checkname="E.,TARABELLA" uni="59" gp="1" code="59">
+   <defense tackua="4" tacka="0" tot_tack="4" tflua="2" tfla="0" tflyds="17"></defense>
+  </player>
+  <player name="Parri A." shortname="Parri A." checkname="A.,PARRI" uni="63" gp="1" code="63">
+   <rush att="0" yds="2" gain="2" loss="0" td="0" long="0"></rush>
+  </player>
+  <player name="Beani M." shortname="Beani M." checkname="M.,BEANI" uni="65" gp="1" code="65"></player>
+  <player name="Paganini  Mo A." shortname="Paganini  Mo A." checkname="MO A.,PAGANINI" uni="68" gp="1" code="68">
+   <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="7" ff="1"></defense>
+   <kr no="1" yds="0" td="0" long="0"></kr>
+  </player>
+  <player name="Di Santo F." shortname="Di Santo F." checkname="SANTO F.,DI" uni="70" gp="1" code="70"></player>
+  <player name="Romeo F." shortname="Romeo F." checkname="F.,ROMEO" uni="76" gp="1" code="76"></player>
+  <player name="Radoshchuk O." shortname="Radoshchuk O." checkname="O.,RADOSHCHUK" uni="79" gp="1" code="79"></player>
+  <player name="Vandelli L." shortname="Vandelli L." checkname="L.,VANDELLI" uni="1" gp="1" code="1">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="Ravera G." shortname="Ravera G." checkname="G.,RAVERA" uni="11" gp="1" code="11">
+   <rush att="7" yds="21" gain="37" loss="16" td="1" long="15"></rush>
+   <pass comp="24" att="43" int="1" yds="266" td="1" long="46" sacks="1" sackyds="14"></pass>
+   <pat passatt="1" passmade="1"></pat>
+   <fumbles no="1" lost="0"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Bisso D." shortname="Bisso D." checkname="D.,BISSO" uni="32" gp="1" code="32">
+   <rush att="9" yds="33" gain="33" loss="0" td="0" long="11"></rush>
+   <kr no="1" yds="6" td="0" long="6"></kr>
+  </player>
+  <player name="Molesti F." shortname="Molesti F." checkname="F.,MOLESTI" uni="89" gp="1" code="89"></player>
+  <player name="Malabruzzi A." shortname="Malabruzzi A." checkname="A.,MALABRUZZI" uni="18" gp="1" code="18">
+   <rush att="9" yds="42" gain="49" loss="7" td="2" long="15"></rush>
+   <scoring td="2"></scoring>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="GOR" qtr="1" clock="09:21" type="TD" how="PASS" yds="26" scorer="Giorgetti G." passer="Ferrari F." patby="Ferrari F." pattype="KICK" patres="GOOD" plays="8" drive="58" top="2:39" vscore="7" hscore="0" driveindex="1"></score>
+  <score vh="H" team="PRE" qtr="1" clock="06:54" type="TD" how="RUSH" yds="15" scorer="Malabruzzi A." patby="Paoletti L." pattype="KICK" patres="FAIL" plays="5" drive="57" top="2:27" vscore="7" hscore="6" driveindex="2"></score>
+  <score vh="V" team="GOR" qtr="1" clock="04:34" type="TD" how="PASS" yds="33" scorer="Giardini A." passer="Ferrari F." patby="Ferrari F." pattype="KICK" patres="GOOD" plays="6" drive="56" top="2:20" vscore="14" hscore="6" driveindex="3"></score>
+  <score vh="H" team="PRE" qtr="2" clock="07:21" type="TD" how="RUSH" yds="1" scorer="Malabruzzi A." patby="Paoletti L." pattype="KICK" patres="FAIL" plays="10" drive="76" top="4:03" vscore="14" hscore="12" driveindex="6"></score>
+  <score vh="V" team="GOR" qtr="2" clock="00:49" type="TD" how="RUSH" yds="21" scorer="Marabotti G." patby="Ferrari F." pattype="PASS" patres="FAIL" plays="8" drive="80" top="1:31" vscore="20" hscore="12" driveindex="9"></score>
+  <score vh="V" team="GOR" qtr="4" clock="08:34" type="TD" how="RUSH" yds="4" scorer="Ferrari F." patby="Ferrari F." pattype="KICK" patres="GOOD" plays="10" drive="50" top="3:26" vscore="27" hscore="12" driveindex="16"></score>
+  <score vh="H" team="PRE" qtr="4" clock="06:09" type="TD" how="PASS" yds="21" scorer="Spiaggi F." passer="Ravera G." patby="Froio S." pattype="PASS" patres="GOOD" plays="7" drive="60" top="2:15" vscore="27" hscore="20" driveindex="17"></score>
+  <score vh="H" team="PRE" qtr="4" clock="02:21" type="TD" how="RUSH" yds="9" scorer="Ravera G." patby="Paoletti L." pattype="KICK" patres="FAIL" plays="9" drive="48" top="3:46" vscore="27" hscore="26" driveindex="18"></score>
+ </scores>
+ <drives>
+  <drive vh="V" team="GOR" start="KO,1,12:00,32" end="TD,1,09:21,90" plays="8" yards="58" top="2:39" start_how="KO" start_qtr="1" start_time="12:00" start_spot="GOR32" end_how="TD" end_qtr="1" end_time="09:21" end_spot="PRE00" driveindex="1"></drive>
+  <drive vh="H" team="PRE" start="KO,1,09:21,33" end="TD,1,06:54,90" plays="5" yards="57" top="2:27" start_how="KO" start_qtr="1" start_time="09:21" start_spot="PRE33" end_how="TD" end_qtr="1" end_time="06:54" end_spot="GOR00" rz="1" driveindex="2"></drive>
+  <drive vh="V" team="GOR" start="KO,1,06:54,34" end="TD,1,04:34,90" plays="6" yards="56" top="2:20" start_how="KO" start_qtr="1" start_time="06:54" start_spot="GOR34" end_how="TD" end_qtr="1" end_time="04:34" end_spot="PRE00" driveindex="3"></drive>
+  <drive vh="H" team="PRE" start="KO,1,04:34,27" end="PUNT,1,03:07,34" plays="3" yards="7" top="1:27" start_how="KO" start_qtr="1" start_time="04:34" start_spot="PRE27" end_how="PUNT" end_qtr="1" end_time="03:07" end_spot="PRE34" driveindex="4"></drive>
+  <drive vh="V" team="GOR" start="PUNT,1,03:07,30" end="FUMB,2,11:24,76" plays="7" yards="46" top="3:43" start_how="PUNT" start_qtr="1" start_time="03:07" start_spot="GOR30" end_how="FUMB" end_qtr="2" end_time="11:24" end_spot="PRE14" rz="1" driveindex="5"></drive>
+  <drive vh="H" team="PRE" start="FUMB,2,11:24,14" end="TD,2,07:21,90" plays="10" yards="76" top="4:03" start_how="FUMB" start_qtr="2" start_time="11:24" start_spot="PRE14" end_how="TD" end_qtr="2" end_time="07:21" end_spot="GOR00" rz="1" driveindex="6"></drive>
+  <drive vh="V" team="GOR" start="KO,2,07:21,27" end="FUMB,2,05:13,31" plays="5" yards="4" top="2:08" start_how="KO" start_qtr="2" start_time="07:21" start_spot="GOR27" end_how="FUMB" end_qtr="2" end_time="05:13" end_spot="GOR31" driveindex="7"></drive>
+  <drive vh="H" team="PRE" start="FUMB,2,05:13,59" end="DOWNS,2,02:20,80" plays="10" yards="21" top="2:53" start_how="FUMB" start_qtr="2" start_time="05:13" start_spot="GOR31" end_how="DOWNS" end_qtr="2" end_time="02:20" end_spot="GOR10" rz="1" driveindex="8"></drive>
+  <drive vh="V" team="GOR" start="DOWNS,2,02:20,10" end="TD,2,00:49,90" plays="8" yards="80" top="1:31" start_how="DOWNS" start_qtr="2" start_time="02:20" start_spot="GOR10" end_how="TD" end_qtr="2" end_time="00:49" end_spot="PRE00" driveindex="9"></drive>
+  <drive vh="H" team="PRE" start="KO,2,00:49,21" end="HALF,2,00:00,55" plays="3" yards="34" top="0:49" start_how="KO" start_qtr="2" start_time="00:49" start_spot="PRE21" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="GOR35" driveindex="10"></drive>
+  <drive vh="H" team="PRE" start="KO,3,12:00,26" end="INT,3,08:35,60" plays="7" yards="34" top="3:25" start_how="KO" start_qtr="3" start_time="12:00" start_spot="PRE26" end_how="INT" end_qtr="3" end_time="08:35" end_spot="GOR30" driveindex="11"></drive>
+  <drive vh="V" team="GOR" start="INT,3,08:35,10" end="PUNT,3,06:12,10" plays="3" yards="0" top="2:23" start_how="INT" start_qtr="3" start_time="08:35" start_spot="GOR10" end_how="PUNT" end_qtr="3" end_time="06:12" end_spot="GOR10" driveindex="12"></drive>
+  <drive vh="H" team="PRE" start="PUNT,3,06:12,35" end="DOWNS,3,02:43,72" plays="9" yards="37" top="3:29" start_how="PUNT" start_qtr="3" start_time="06:12" start_spot="PRE35" end_how="DOWNS" end_qtr="3" end_time="02:43" end_spot="GOR18" rz="1" driveindex="13"></drive>
+  <drive vh="V" team="GOR" start="DOWNS,3,02:43,18" end="PUNT,3,00:47,26" plays="3" yards="8" top="1:56" start_how="DOWNS" start_qtr="3" start_time="02:43" start_spot="GOR18" end_how="PUNT" end_qtr="3" end_time="00:47" end_spot="GOR26" driveindex="14"></drive>
+  <drive vh="H" team="PRE" start="PUNT,3,00:47,13" end="PUNT,4,12:00,15" plays="3" yards="2" top="0:47" start_how="PUNT" start_qtr="3" start_time="00:47" start_spot="PRE13" end_how="PUNT" end_qtr="4" end_time="12:00" end_spot="PRE15" driveindex="15"></drive>
+  <drive vh="V" team="GOR" start="PUNT,4,12:00,40" end="TD,4,08:34,90" plays="10" yards="50" top="3:26" start_how="PUNT" start_qtr="4" start_time="12:00" start_spot="GOR40" end_how="TD" end_qtr="4" end_time="08:34" end_spot="PRE00" rz="1" driveindex="16"></drive>
+  <drive vh="H" team="PRE" start="KO,4,08:24,30" end="TD,4,06:09,90" plays="7" yards="60" top="2:15" start_how="KO" start_qtr="4" start_time="08:24" start_spot="PRE30" end_how="TD" end_qtr="4" end_time="06:09" end_spot="GOR00" driveindex="17"></drive>
+  <drive vh="H" team="PRE" start="KO,4,06:07,42" end="TD,4,02:21,90" plays="9" yards="48" top="3:46" start_how="KO" start_qtr="4" start_time="06:07" start_spot="PRE42" end_how="TD" end_qtr="4" end_time="02:21" end_spot="GOR00" rz="1" driveindex="18"></drive>
+  <drive vh="V" team="GOR" start="KO,4,02:21,20" end="DOWNS,4,00:55,28" plays="4" yards="8" top="1:26" start_how="KO" start_qtr="4" start_time="02:21" start_spot="GOR20" end_how="DOWNS" end_qtr="4" end_time="00:55" end_spot="GOR28" driveindex="19"></drive>
+  <drive vh="H" team="PRE" start="DOWNS,4,00:55,62" end="HALF,4,00:00,80" plays="4" yards="18" top="0:55" start_how="DOWNS" start_qtr="4" start_time="00:55" start_spot="GOR28" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="GOR10" rz="1" driveindex="20"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="GOR" down="1" togo="10" spot="GOR30" context="V,1,10,V30" playid="0,1,0"
+      text="PREDATORI GDT WIN THE COIN TOSS, DEFER TO SECOND HALF" newcontext="V,1,10,V30">
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR30" context="V,1,10,V30" playid="0,2,1"
+      text="PRE ball on PRE30." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE30" context="H,1,10,H30" playid="0,3,2" type="K"
+      text="Paoletti L. kickoff 52 yards to the GOR8, Giardini A. return 24 yards to the GOR32 (Baraldi A.)." newcontext="V,1,10,V32">
+    <p_ko vh="H" name="Paoletti L." gain="52"></p_ko>
+    <p_kr vh="V" name="Giardini A." gain="24"></p_kr>
+    <p_tk vh="H" name="Baraldi A."></p_tk>
+   </play>
+   <drivestart poss="V,V32,12:00" vh="V" spot="V32" clock="12:00" driveindex="1,2"></drivestart>
+   <play hasball="GOR" down="1" togo="10" spot="GOR32" context="V,1,10,V32" playid="1,1,3" type="P" first="P"
+      text="Ferrari F. pass complete to Giorgetti G. for 10 yards to the GOR42, 1ST DOWN GOR (Solari M.)." newcontext="V,1,10,V42">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Giorgetti G." gain="10"></p_pa>
+    <p_tk vh="H" name="Solari M."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR42" context="V,1,10,V42" playid="1,2,4" type="P"
+      text="Ferrari F. pass complete to Giardini A. for 7 yards to the PRE41 (Paoletti L.)." newcontext="V,2,3,H41">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Giardini A." gain="7"></p_pa>
+    <p_tk vh="H" name="Paoletti L."></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="3" spot="PRE41" context="V,2,3,H41" playid="1,3,5" type="P" first="P"
+      text="Ferrari F. pass complete to Facetti M. for 5 yards to the PRE36, 1ST DOWN GOR (Solari M.)." newcontext="V,1,10,H36">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Facetti M." gain="5"></p_pa>
+    <p_tk vh="H" name="Solari M."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="PRE36" context="V,1,10,H36" playid="1,4,6" type="R"
+      text="Marabotti G. rush for 1 yard to the PRE35 (Romeo M.)." newcontext="V,2,9,H35">
+    <p_ru vh="V" name="Marabotti G." gain="1"></p_ru>
+    <p_tk vh="H" name="Romeo M."></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="9" spot="PRE35" context="V,2,9,H35" playid="1,5,7" type="P"
+      text="Ferrari F. pass incomplete to Giorgetti G., dropped pass." newcontext="V,3,9,H35">
+    <p_pa vh="V" qb="Ferrari F." result="DROP" rcv="Giorgetti G."></p_pa>
+   </play>
+   <play hasball="GOR" down="3" togo="9" spot="PRE35" context="V,3,9,H35" playid="1,6,8" type="P"
+      text="Ferrari F. pass incomplete to Giardini A., dropped pass." newcontext="V,4,9,H35">
+    <p_pa vh="V" qb="Ferrari F." result="DROP" rcv="Giardini A."></p_pa>
+   </play>
+   <play hasball="GOR" down="4" togo="9" spot="PRE35" context="V,4,9,H35" playid="1,7,9" type="R" first="R"
+      text="Ferrari F. rush for 9 yards to the PRE26, 1ST DOWN GOR, out-of-bounds (Baciu F.)." ob="Y" newcontext="V,1,10,H26">
+    <p_ru vh="V" name="Ferrari F." gain="9"></p_ru>
+    <p_tk vh="H" name="Baciu F."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="PRE26" context="V,1,10,H26" playid="1,8,10" type="P" first="P" score="Y" clock="09:21"
+      text="Ferrari F. pass complete to Giorgetti G. for 26 yards to the PRE0, 1ST DOWN GOR, TOUCHDOWN, clock 09:21." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Giorgetti G." gain="26"></p_pa>
+   </play>
+   <play hasball="GOR" down="1" togo="0" spot="PRE03" context="V,1,0,H03" playid="1,9,11" type="X" score="Y"
+      text="Ferrari F. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Ferrari F." qb="Ferrari F." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="7" H="0"></score>
+   <drivesum plays="8" yards="58" top="2:39" driveindex="1" complete="Y"></drivesum>
+   <play hasball="GOR" down="1" togo="0" spot="GOR30" context="V,1,0,V30" playid="1,10,12" type="K"
+      text="Rizzi E. kickoff 52 yards to the PRE8, Spiaggi F. return 25 yards to the PRE33 (Benecchi A.)." newcontext="H,1,10,H33">
+    <p_ko vh="V" name="Rizzi E." gain="52"></p_ko>
+    <p_kr vh="H" name="Spiaggi F." gain="25"></p_kr>
+    <p_tk vh="V" name="Benecchi A."></p_tk>
+   </play>
+   <drivestart poss="H,H33,09:21" vh="H" spot="H33" clock="09:21" driveindex="2,12"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="PRE33" context="H,1,10,H33" playid="2,1,13" clock="09:21"
+      text="PREDATORI GDT drive start at 09:21." newcontext="H,1,10,H33">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE33" context="H,1,10,H33" playid="2,2,14" type="R"
+      text="Malabruzzi A. rush for 2 yards to the PRE35 (Corvi G.)." newcontext="H,2,8,H35">
+    <p_ru vh="H" name="Malabruzzi A." gain="2"></p_ru>
+    <p_tk vh="V" name="Corvi G."></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="8" spot="PRE35" context="H,2,8,H35" playid="2,3,15" type="R" first="R"
+      text="Malabruzzi A. rush for 15 yards to the GOR40, 1ST DOWN PRE (Barbaro M.)." newcontext="H,1,10,V40">
+    <p_ru vh="H" name="Malabruzzi A." gain="15"></p_ru>
+    <p_tk vh="V" name="Barbaro M."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR40" context="H,1,10,V40" playid="2,4,16" type="P" first="P"
+      text="Ravera G. pass complete to Ravera N. for 10 yards to the GOR30, 1ST DOWN PRE, out-of-bounds (Salvioni L.)." ob="Y" newcontext="H,1,10,V30">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="10"></p_pa>
+    <p_tk vh="V" name="Salvioni L."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR30" context="H,1,10,V30" playid="2,5,17" type="P" first="P"
+      text="Ravera G. pass complete to Spiaggi F. for 15 yards to the GOR15, 1ST DOWN PRE (Barbaro M.)." newcontext="H,1,10,V15">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Spiaggi F." gain="15"></p_pa>
+    <p_tk vh="V" name="Barbaro M."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR15" context="H,1,10,V15" playid="2,6,18" type="R" first="R" score="Y" clock="06:54"
+      text="Malabruzzi A. rush for 15 yards to the GOR0, 1ST DOWN PRE, TOUCHDOWN, clock 06:54." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Malabruzzi A." gain="15"></p_ru>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR03" context="H,1,0,V03" playid="2,7,19" type="X"
+      text="Paoletti L. kick attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Paoletti L." qb="Paoletti L." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="7" H="6"></score>
+   <drivesum plays="5" yards="57" top="2:27" driveindex="2" complete="Y"></drivesum>
+   <play hasball="PRE" down="1" togo="0" spot="PRE30" context="H,1,0,H30" playid="2,8,20" type="K"
+      text="Paoletti L. kickoff 54 yards to the GOR6, Marabotti G. return 28 yards to the GOR34, out-of-bounds (Solari M.)." ob="Y" newcontext="V,1,10,V34">
+    <p_ko vh="H" name="Paoletti L." gain="54"></p_ko>
+    <p_kr vh="V" name="Marabotti G." gain="28"></p_kr>
+    <p_tk vh="H" name="Solari M."></p_tk>
+   </play>
+   <drivestart poss="V,V34,06:54" vh="V" spot="V34" clock="06:54" driveindex="3,20"></drivestart>
+   <play hasball="GOR" down="1" togo="10" spot="GOR34" context="V,1,10,V34" playid="3,1,21" clock="06:54"
+      text="GORILLAS VARESE drive start at 06:54." newcontext="V,1,10,V34">
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR34" context="V,1,10,V34" playid="3,2,22" type="P"
+      text="Ferrari F. pass complete to Giorgetti L. for 4 yards to the GOR38 (Cavalli G.)." newcontext="V,2,6,V38">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Giorgetti L." gain="4"></p_pa>
+    <p_tk vh="H" name="Cavalli G."></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="6" spot="GOR38" context="V,2,6,V38" playid="3,3,23" type="R" first="R"
+      text="Ferrari F. rush for 7 yards to the 45 yardline, 1ST DOWN GOR, out-of-bounds (Baraldi A.)." ob="Y" newcontext="V,1,10,V45">
+    <p_ru vh="V" name="Ferrari F." gain="7"></p_ru>
+    <p_tk vh="H" name="Baraldi A."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR45" context="V,1,10,V45" playid="3,4,24" type="R"
+      text="Marabotti G. rush for 8 yards to the PRE37 (Paganini  Mo A.;Paoletti L.)." newcontext="V,2,2,H37">
+    <p_ru vh="V" name="Marabotti G." gain="8"></p_ru>
+    <p_tk vh="H" name="Paganini  Mo A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Paoletti L." assist="Y"></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="2" spot="PRE37" context="V,2,2,H37" playid="3,5,25" type="P"
+      text="Ferrari F. pass incomplete to Giorgetti L., dropped pass." newcontext="V,3,2,H37">
+    <p_pa vh="V" qb="Ferrari F." result="DROP" rcv="Giorgetti L."></p_pa>
+   </play>
+   <play hasball="GOR" down="3" togo="2" spot="PRE37" context="V,3,2,H37" playid="3,6,26" type="R" first="R"
+      text="Marabotti G. rush for 4 yards to the PRE33, 1ST DOWN GOR (Baraldi A.;Romeo M.)." newcontext="V,1,10,H33">
+    <p_ru vh="V" name="Marabotti G." gain="4"></p_ru>
+    <p_tk vh="H" name="Baraldi A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Romeo M." assist="Y"></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="PRE33" context="V,1,10,H33" playid="3,7,27" type="P" first="P" score="Y" clock="04:34"
+      text="Ferrari F. pass complete to Giardini A. for 33 yards to the PRE0, 1ST DOWN GOR, TOUCHDOWN, clock 04:34." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Giardini A." gain="33"></p_pa>
+   </play>
+   <play hasball="GOR" down="1" togo="0" spot="PRE03" context="V,1,0,H03" playid="3,8,28" type="X" score="Y"
+      text="Ferrari F. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Ferrari F." qb="Ferrari F." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="14" H="6"></score>
+   <drivesum plays="6" yards="56" top="2:20" driveindex="3" complete="Y"></drivesum>
+   <play hasball="GOR" down="1" togo="0" spot="GOR30" context="V,1,0,V30" playid="3,9,29" type="K"
+      text="Rizzi E. kickoff 46 yards to the PRE14, Ravera N. return 13 yards to the PRE27 (Benecchi L.;Corvi G.)." newcontext="H,1,10,H27">
+    <p_ko vh="V" name="Rizzi E." gain="46"></p_ko>
+    <p_kr vh="H" name="Ravera N." gain="13"></p_kr>
+    <p_tk vh="V" name="Benecchi L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Corvi G." assist="Y"></p_tk>
+   </play>
+   <drivestart poss="H,H27,04:34" vh="H" spot="H27" clock="04:34" driveindex="4,29"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="PRE27" context="H,1,10,H27" playid="4,1,30" clock="04:34"
+      text="PREDATORI GDT drive start at 04:34." newcontext="H,1,10,H27">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE27" context="H,1,10,H27" playid="4,2,31" type="R"
+      text="Bisso D. rush for 5 yards to the PRE32 (Benecchi A.)." newcontext="H,2,5,H32">
+    <p_ru vh="H" name="Bisso D." gain="5"></p_ru>
+    <p_tk vh="V" name="Benecchi A."></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="5" spot="PRE32" context="H,2,5,H32" playid="4,3,32" type="P"
+      text="Ravera G. pass incomplete to Ravera N.." newcontext="H,3,5,H32">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Ravera N."></p_pa>
+   </play>
+   <play hasball="PRE" down="3" togo="5" spot="PRE32" context="H,3,5,H32" playid="4,4,33" type="R"
+      text="Bisso D. rush for 2 yards to the PRE34 (Benecchi L.;Casucci B.)." newcontext="H,4,3,H34">
+    <p_ru vh="H" name="Bisso D." gain="2"></p_ru>
+    <p_tk vh="V" name="Benecchi L." assist="Y"></p_tk>
+    <p_tk vh="V" name="Casucci B." assist="Y"></p_tk>
+   </play>
+   <play hasball="PRE" down="4" togo="3" spot="PRE34" context="H,4,3,H34" playid="4,5,34" type="U"
+      text="Paoletti L. punt 26 yards to the GOR30." newcontext="V,1,10,V30">
+    <p_pu vh="H" name="Paoletti L." gain="26"></p_pu>
+   </play>
+   <drivesum plays="3" yards="7" top="1:27" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V30,04:34" vh="V" spot="V30" clock="04:34" driveindex="5,34"></drivestart>
+   <play hasball="GOR" down="1" togo="10" spot="GOR30" context="V,1,10,V30" playid="5,1,35" clock="03:07"
+      text="GORILLAS VARESE drive start at 03:07." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR30" context="V,1,10,V30" playid="5,2,36" type="R"
+      text="Traversa M. rush for 5 yards to the GOR35 (Tarabella E.)." newcontext="V,2,5,V35">
+    <p_ru vh="V" name="Traversa M." gain="5"></p_ru>
+    <p_tk vh="H" name="Tarabella E."></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="5" spot="GOR35" context="V,2,5,V35" playid="5,3,37" type="R" first="R"
+      text="Vigan&#242; J. rush for 13 yards to the PRE42, 1ST DOWN GOR (Baraldi A.)." newcontext="V,1,10,H42">
+    <p_ru vh="V" name="Vigan&#242; J." gain="13"></p_ru>
+    <p_tk vh="H" name="Baraldi A."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="PRE42" context="V,1,10,H42" playid="5,4,38" type="P"
+      text="Ferrari F. pass complete to Giorgetti G. for 4 yards to the PRE38 (Paoletti L.)." newcontext="V,2,6,H38">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Giorgetti G." gain="4"></p_pa>
+    <p_tk vh="H" name="Paoletti L."></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="6" spot="PRE38" context="V,2,6,H38" playid="5,5,39" type="P"
+      text="Ferrari F. pass complete to Facetti M. for 3 yards to the PRE35 (Romeo M.)." newcontext="V,3,3,H35">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Facetti M." gain="3"></p_pa>
+    <p_tk vh="H" name="Romeo M."></p_tk>
+   </play>
+   <play hasball="GOR" down="3" togo="3" spot="PRE35" context="V,3,3,H35" playid="5,6,40" type="R" first="R"
+      text="Vigan&#242; J. rush for 8 yards to the PRE27, 1ST DOWN GOR (Romeo M.)." newcontext="V,1,10,H27">
+    <p_ru vh="V" name="Vigan&#242; J." gain="8"></p_ru>
+    <p_tk vh="H" name="Romeo M."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="PRE27" context="V,1,10,H27" playid="5,7,41" type="P"
+      text="Ferrari F. pass complete to Facetti M. for 7 yards to the PRE20 (Baciu F.)." newcontext="V,2,3,H20">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Facetti M." gain="7"></p_pa>
+    <p_tk vh="H" name="Baciu F."></p_tk>
+   </play>
+   <score qtr="1" V="14" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GOR">
+    <firstdowns no="9" rush="5" pass="4" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:06"></misc>
+    <rush att="8" yds="55" gain="55" loss="0" td="0" long="13"></rush>
+    <pass comp="9" att="12" int="0" yds="99" td="2" long="33" sacks="0" sackyds="0"></pass>
+    <rcv no="9" yds="99" td="2" long="33"></rcv>
+    <ko no="2" yds="98" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="6" tacka="4" tot_tack="10" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="52" td="0" long="28"></kr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PRE">
+    <firstdowns no="4" rush="2" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:54"></misc>
+    <rush att="5" yds="39" gain="39" loss="0" td="1" long="15"></rush>
+    <pass comp="2" att="3" int="0" yds="25" td="0" long="15" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="25" td="0" long="15"></rcv>
+    <punt no="1" yds="26" long="26" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="26.0"></punt>
+    <ko no="2" yds="106" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="15" tacka="4" tot_tack="19" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="38" td="0" long="25"></kr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="GOR" down="2" togo="3" spot="PRE20" context="V,2,3,H20" playid="5,8,42" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="V,2,3,H20">
+   </play>
+   <play hasball="GOR" down="2" togo="3" spot="PRE20" context="V,2,3,H20" playid="5,9,43" type="E"
+      text="Ferrari F. pass complete to Facetti M. for 5 yards to the PRE15 (Cavalli G.), PENALTY GOR ineligible downfield on pass (1) 5 yards to the PRE25, NO PLAY." newcontext="V,2,8,H25">
+    <p_pn vh="V" code="ID" type="ineligible downfield on pass" name="1" result="ACCEPT" at="H20" yards="5"></p_pn>
+   </play>
+   <play hasball="GOR" down="2" togo="8" spot="PRE25" context="V,2,8,H25" playid="5,10,44" type="P" turnover="F"
+      text="Ferrari F. pass complete to Giardini A. for 11 yards to the PRE14, fumble forced by Paoletti L., fumble by Giardini A. recovered by PRE Baciu F. at PRE14." newcontext="H,1,10,H14">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Giardini A." gain="11"></p_pa>
+    <p_fumb vh="V" name="Giardini A." at="H14" frvh="H" frname="Baciu F."></p_fumb>
+    <p_tk vh="H" name="Paoletti L." ff="Y"></p_tk>
+   </play>
+   <drivesum plays="7" yards="46" top="3:43" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H14,12:00" vh="H" spot="H14" clock="12:00" driveindex="6,44"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="PRE14" context="H,1,10,H14" playid="6,1,45" clock="11:24"
+      text="PREDATORI GDT drive start at 11:24." newcontext="H,1,10,H14">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE14" context="H,1,10,H14" playid="6,2,46" type="R" first="R"
+      text="Bisso D. rush for 11 yards to the PRE25, 1ST DOWN PRE, out-of-bounds." ob="Y" newcontext="H,1,10,H25">
+    <p_ru vh="H" name="Bisso D." gain="11"></p_ru>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE25" context="H,1,10,H25" playid="6,3,47" type="R"
+      text="Bisso D. rush for no gain to the PRE25 (Zanzi S.)." newcontext="H,2,10,H25">
+    <p_ru vh="H" name="Bisso D." gain="0"></p_ru>
+    <p_tk vh="V" name="Zanzi S."></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="10" spot="PRE25" context="H,2,10,H25" playid="6,4,48" type="P"
+      text="Ravera G. pass incomplete to 8." newcontext="H,3,10,H25">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="8"></p_pa>
+   </play>
+   <play hasball="PRE" down="3" togo="10" spot="PRE25" context="H,3,10,H25" playid="6,5,49" type="P" first="P"
+      text="Ravera G. pass complete to Ravera N. for 12 yards to the PRE37, 1ST DOWN PRE (Zanzi S.)." newcontext="H,1,10,H37">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="12"></p_pa>
+    <p_tk vh="V" name="Zanzi S."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE37" context="H,1,10,H37" playid="6,6,50" type="P"
+      text="Ravera G. pass incomplete to Ravera N.." newcontext="H,2,10,H37">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Ravera N."></p_pa>
+   </play>
+   <play hasball="PRE" down="2" togo="10" spot="PRE37" context="H,2,10,H37" playid="6,7,51" type="P" first="P"
+      text="Ravera G. pass complete to Spiaggi F. for 46 yards to the GOR7, 1ST DOWN PRE (Salvioni L.)." newcontext="H,1,0,V07">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Spiaggi F." gain="46"></p_pa>
+    <p_tk vh="V" name="Salvioni L."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR07" context="H,1,0,V07" playid="6,8,52" type="E"
+      text="Malabruzzi A. rush for no gain to the GOR7 (Casucci B.), PENALTY GOR offside defense 3 yards to the GOR4, NO PLAY." newcontext="H,1,0,V04">
+    <p_pn vh="V" code="OD" type="offside defense" result="ACCEPT" at="V07" yards="3"></p_pn>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR04" context="H,1,0,V04" playid="6,9,53" type="P"
+      text="Ravera G. pass incomplete to Spiaggi F.." newcontext="H,2,0,V04">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Spiaggi F."></p_pa>
+   </play>
+   <play hasball="PRE" down="2" togo="0" spot="GOR04" context="H,2,0,V04" playid="6,10,54" type="R"
+      text="Malabruzzi A. rush for 3 yards to the GOR1 (Casucci B.)." newcontext="H,3,0,V01">
+    <p_ru vh="H" name="Malabruzzi A." gain="3"></p_ru>
+    <p_tk vh="V" name="Casucci B."></p_tk>
+   </play>
+   <play hasball="PRE" down="3" togo="0" spot="GOR01" context="H,3,0,V01" playid="6,11,55" type="R"
+      text="Bisso D. rush for no gain to the GOR1 (Rizzi E.)." newcontext="H,4,0,V01">
+    <p_ru vh="H" name="Bisso D." gain="0"></p_ru>
+    <p_tk vh="V" name="Rizzi E."></p_tk>
+   </play>
+   <play hasball="PRE" down="4" togo="0" spot="GOR01" context="H,4,0,V01" playid="6,12,56" type="R" score="Y" clock="07:21"
+      text="Malabruzzi A. rush for 1 yard to the GOR0, TOUCHDOWN, clock 07:21." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Malabruzzi A." gain="1"></p_ru>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR03" context="H,1,0,V03" playid="6,13,57" type="X"
+      text="Paoletti L. kick attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Paoletti L." qb="Paoletti L." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="14" H="12"></score>
+   <drivesum plays="10" yards="76" top="4:03" driveindex="6" complete="Y"></drivesum>
+   <play hasball="PRE" down="1" togo="0" spot="PRE30" context="H,1,0,H30" playid="6,14,58" type="K"
+      text="Paoletti L. kickoff 51 yards to the GOR9, Giardini A. return 18 yards to the GOR27 (Solari M.)." newcontext="V,1,10,V27">
+    <p_ko vh="H" name="Paoletti L." gain="51"></p_ko>
+    <p_kr vh="V" name="Giardini A." gain="18"></p_kr>
+    <p_tk vh="H" name="Solari M."></p_tk>
+   </play>
+   <drivestart poss="V,V27,07:21" vh="V" spot="V27" clock="07:21" driveindex="7,58"></drivestart>
+   <play hasball="GOR" down="1" togo="10" spot="GOR27" context="V,1,10,V27" playid="7,1,59" clock="07:21"
+      text="GORILLAS VARESE drive start at 07:21." newcontext="V,1,10,V27">
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR27" context="V,1,10,V27" playid="7,2,60" type="P"
+      text="Ferrari F. pass incomplete to Giardini A. (Baciu F.)." newcontext="V,2,10,V27">
+    <p_pa vh="V" qb="Ferrari F." result="BRUP" rcv="Giardini A."></p_pa>
+    <p_bu vh="H" name="Baciu F."></p_bu>
+   </play>
+   <play hasball="GOR" down="2" togo="10" spot="GOR27" context="V,2,10,V27" playid="7,3,61" type="P"
+      text="Ferrari F. pass incomplete to Giorgetti G.." newcontext="V,3,10,V27">
+    <p_pa vh="V" qb="Ferrari F." result="INC" rcv="Giorgetti G."></p_pa>
+   </play>
+   <play hasball="GOR" down="3" togo="10" spot="GOR27" context="V,3,10,V27" playid="7,4,62" type="P" first="P"
+      text="Ferrari F. pass complete to Traversa M. for 17 yards to the GOR44, 1ST DOWN GOR (Levaggi M.)." newcontext="V,1,10,V44">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Traversa M." gain="17"></p_pa>
+    <p_tk vh="H" name="Levaggi M."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR44" context="V,1,10,V44" playid="7,5,63" type="R"
+      text="Giardini A. rush for loss of 7 yards to the GOR37, fumble forced by Paganini  Mo A., fumble by Giardini A. recovered by GOR Ferrari F. at GOR30 (Tarabella E.)." newcontext="V,2,24,V30">
+    <p_ru vh="V" name="Giardini A." gain="-7"></p_ru>
+    <p_fumb vh="V" name="Giardini A." at="V30" frvh="V" frname="Ferrari F."></p_fumb>
+    <p_tk vh="H" name="Paganini  Mo A." ff="Y"></p_tk>
+    <p_tk vh="H" name="Tarabella E." tfl="Y"></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="24" spot="GOR30" context="V,2,24,V30" playid="7,6,64" type="R" turnover="F"
+      text="Ferrari F. rush for no gain to the GOR30, fumble forced by TEAM, fumble by Ferrari F. recovered by PRE Baraldi A. at GOR31." newcontext="H,1,10,V31">
+    <p_ru vh="V" name="Ferrari F." gain="0"></p_ru>
+    <p_fumb vh="V" name="Ferrari F." at="V31" frvh="H" frname="Baraldi A."></p_fumb>
+    <p_tk vh="H" name="TEAM" ff="Y"></p_tk>
+   </play>
+   <drivesum plays="5" yards="4" top="2:08" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,V31,07:21" vh="H" spot="V31" clock="07:21" driveindex="8,64"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="GOR31" context="H,1,10,V31" playid="8,1,65" clock="05:13"
+      text="PREDATORI GDT drive start at 05:13." newcontext="H,1,10,V31">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR31" context="H,1,10,V31" playid="8,2,66" type="R" first="E"
+      text="Bisso D. rush for 2 yards to the GOR29 (Benecchi A.), PENALTY GOR face mask (Corvi G.) 11 yards to the GOR18, 1ST DOWN PRE." newcontext="H,1,10,V18">
+    <p_ru vh="H" name="Bisso D." gain="2"></p_ru>
+    <p_tk vh="V" name="Benecchi A."></p_tk>
+    <p_pn vh="V" code="FM" type="face mask" name="Corvi G." result="ACCEPT" at="V29" yards="11"></p_pn>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR18" context="H,1,10,V18" playid="8,3,67"
+      text="1st and 10." newcontext="H,1,10,V18">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR18" context="H,1,10,V18" playid="8,4,68" type="P"
+      text="Ravera G. pass incomplete to Spiaggi F.." newcontext="H,2,10,V18">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Spiaggi F."></p_pa>
+   </play>
+   <play hasball="PRE" down="2" togo="10" spot="GOR18" context="H,2,10,V18" playid="8,5,69" type="P"
+      text="Ravera G. pass incomplete to Ravera N.." newcontext="H,3,10,V18">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Ravera N."></p_pa>
+   </play>
+   <play hasball="PRE" down="3" togo="10" spot="GOR18" context="H,3,10,V18" playid="8,6,70" type="R"
+      text="Ravera G. rush for 8 yards to the GOR10, out-of-bounds." ob="Y" newcontext="H,4,2,V10">
+    <p_ru vh="H" name="Ravera G." gain="8"></p_ru>
+   </play>
+   <play hasball="PRE" down="4" togo="2" spot="GOR10" context="H,4,2,V10" playid="8,7,71" type="E" first="E"
+      text="PENALTY GOR offside defense (Haro Zambran H.) 5 yards to the GOR5, 1ST DOWN PRE." newcontext="H,1,0,V05">
+    <p_pn vh="V" code="OD" type="offside defense" name="Haro Zambran H." result="ACCEPT" at="V10" yards="5"></p_pn>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR05" context="H,1,0,V05" playid="8,8,72" type="R"
+      text="Bisso D. rush for no gain to the GOR5 (TEAM)." newcontext="H,2,0,V05">
+    <p_ru vh="H" name="Bisso D." gain="0"></p_ru>
+    <p_tk vh="V" name="TEAM"></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="0" spot="GOR05" context="H,2,0,V05" playid="8,9,73" type="P"
+      text="Ravera G. sacked for loss of 14 yards to the GOR19 (Zanzi S.)." newcontext="H,3,0,V19">
+    <p_pa vh="H" qb="Ravera G." result="SACK" gain="-14"></p_pa>
+    <p_tk vh="V" name="Zanzi S." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="PRE" down="3" togo="0" spot="GOR19" context="H,3,0,V19" playid="8,10,74" type="E" first="E"
+      text="Ravera G. pass incomplete to Froio S., PENALTY GOR roughing passer (Benecchi L.) 10 yards to the GOR9, 1ST DOWN PRE, NO PLAY." newcontext="H,1,0,V09">
+    <p_pn vh="V" code="RP" type="roughing passer" name="Benecchi L." result="ACCEPT" at="V19" yards="10"></p_pn>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR09" context="H,1,0,V09" playid="8,11,75" type="P"
+      text="Ravera G. pass complete to Spiaggi F. for loss of 1 yard to the GOR10 (Casucci B.)." newcontext="H,2,0,V10">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Spiaggi F." gain="-1"></p_pa>
+    <p_tk vh="V" name="Casucci B." tfl="Y"></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="0" spot="GOR10" context="H,2,0,V10" playid="8,12,76" type="P"
+      text="Ravera G. pass incomplete to Ravera N.." newcontext="H,3,0,V10">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Ravera N."></p_pa>
+   </play>
+   <play hasball="PRE" down="3" togo="0" spot="GOR10" context="H,3,0,V10" playid="8,13,77" type="#" clock="02:45"
+      text="Timeout Predatori GdT, clock 02:45." newcontext="H,3,0,V10">
+    <p_to vh="H" team="Predatori GdT"></p_to>
+   </play>
+   <play hasball="PRE" down="3" togo="0" spot="GOR10" context="H,3,0,V10" playid="8,14,78" type="R"
+      text="Ravera G. rush for loss of 4 yards to the GOR14, fumble by Ravera G. recovered by PRE Parri A. at GOR12, Parri A. for 2 yards to the GOR10." newcontext="H,4,0,V10">
+    <p_ru vh="H" name="Ravera G." gain="-4"></p_ru>
+    <p_fumb vh="H" name="Ravera G." at="V12" frvh="H" frname="Parri A."></p_fumb>
+    <p_cont vh="H" name="Parri A." context="RUSH" at="V12" gain="2"></p_cont>
+   </play>
+   <play hasball="PRE" down="4" togo="0" spot="GOR10" context="H,4,0,V10" playid="8,15,79" type="P"
+      text="Ravera G. pass incomplete to Ravera N.." newcontext="V,1,10,V10">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Ravera N."></p_pa>
+   </play>
+   <drivesum plays="10" yards="21" top="2:53" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,V10,02:45" vh="V" spot="V10" clock="02:45" driveindex="9,79"></drivestart>
+   <play hasball="GOR" down="1" togo="10" spot="GOR10" context="V,1,10,V10" playid="9,1,80" clock="02:20"
+      text="GORILLAS VARESE drive start at 02:20." newcontext="V,1,10,V10">
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR10" context="V,1,10,V10" playid="9,2,81" type="P"
+      text="Ferrari F. pass incomplete to Giardini A. (Cavalli G.)." newcontext="V,2,10,V10">
+    <p_pa vh="V" qb="Ferrari F." result="INC" rcv="Giardini A."></p_pa>
+    <p_bu vh="H" name="Cavalli G."></p_bu>
+   </play>
+   <play hasball="GOR" down="2" togo="10" spot="GOR10" context="V,2,10,V10" playid="9,3,82" type="R"
+      text="Ferrari F. rush for 7 yards to the GOR17, out-of-bounds (Baciu F.)." ob="Y" newcontext="V,3,3,V17">
+    <p_ru vh="V" name="Ferrari F." gain="7"></p_ru>
+    <p_tk vh="H" name="Baciu F."></p_tk>
+   </play>
+   <play hasball="GOR" down="3" togo="3" spot="GOR17" context="V,3,3,V17" playid="9,4,83" type="P" first="P"
+      text="Ferrari F. pass complete to Giorgetti G. for 3 yards to the GOR20, 1ST DOWN GOR (Paoletti L.)." newcontext="V,1,10,V20">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Giorgetti G." gain="3"></p_pa>
+    <p_tk vh="H" name="Paoletti L."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR20" context="V,1,10,V20" playid="9,5,84" type="R"
+      text="Marabotti G. rush for 1 yard to the GOR21 (Tarabella E.)." newcontext="V,2,9,V21">
+    <p_ru vh="V" name="Marabotti G." gain="1"></p_ru>
+    <p_tk vh="H" name="Tarabella E."></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="9" spot="GOR21" context="V,2,9,V21" playid="9,6,85" type="P" first="P"
+      text="Ferrari F. pass complete to Facetti M. for 21 yards to the GOR42, 1ST DOWN GOR (Baraldi A.)." newcontext="V,1,10,V42">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Facetti M." gain="21"></p_pa>
+    <p_tk vh="H" name="Baraldi A."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR42" context="V,1,10,V42" playid="9,7,86" type="E" first="E"
+      text="PENALTY PRE unsportsmanlike conduct (Solari M.) 15 yards to the PRE33, 1ST DOWN GOR." newcontext="V,1,10,H33">
+    <p_pn vh="H" code="UC" type="unsportsmanlike conduct" name="Solari M." result="ACCEPT" at="V42" yards="15"></p_pn>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="PRE33" context="V,1,10,H33" playid="9,8,87" type="R"
+      text="Marabotti G. rush for 8 yards to the PRE25 (Vandelli L.;Romeo M.)." newcontext="V,2,2,H25">
+    <p_ru vh="V" name="Marabotti G." gain="8"></p_ru>
+    <p_tk vh="H" name="Vandelli L." assist="Y"></p_tk>
+    <p_tk vh="H" name="Romeo M." assist="Y"></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="2" spot="PRE25" context="V,2,2,H25" playid="9,9,88" type="R" first="R"
+      text="Ferrari F. rush for 4 yards to the PRE21, 1ST DOWN GOR, out-of-bounds." ob="Y" newcontext="V,1,10,H21">
+    <p_ru vh="V" name="Ferrari F." gain="4"></p_ru>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="PRE21" context="V,1,10,H21" playid="9,10,89" type="R" first="R" score="Y" clock="00:49"
+      text="Marabotti G. rush for 21 yards to the PRE0, 1ST DOWN GOR, TOUCHDOWN, clock 00:49." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Marabotti G." gain="21"></p_ru>
+   </play>
+   <play hasball="GOR" down="1" togo="0" spot="PRE03" context="V,1,0,H03" playid="9,11,90" type="X"
+      text="Ferrari F. pass attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Ferrari F." qb="Ferrari F." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="20" H="12"></score>
+   <drivesum plays="8" yards="80" top="1:31" driveindex="9" complete="Y"></drivesum>
+   <play hasball="GOR" down="1" togo="0" spot="GOR30" context="V,1,0,V30" playid="9,12,91" type="K"
+      text="Rizzi E. kickoff 45 yards to the PRE15, Bisso D. return 6 yards to the PRE21 (Barbaro M.)." newcontext="H,1,10,H21">
+    <p_ko vh="V" name="Rizzi E." gain="45"></p_ko>
+    <p_kr vh="H" name="Bisso D." gain="6"></p_kr>
+    <p_tk vh="V" name="Barbaro M."></p_tk>
+   </play>
+   <drivestart poss="H,H21,00:49" vh="H" spot="H21" clock="00:49" driveindex="10,91"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="PRE21" context="H,1,10,H21" playid="10,1,92" clock="00:49"
+      text="PREDATORI GDT drive start at 00:49." newcontext="H,1,10,H21">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE21" context="H,1,10,H21" playid="10,2,93" type="P" first="P"
+      text="Ravera G. pass complete to Ravera N. for 11 yards to the PRE32, 1ST DOWN PRE, out-of-bounds." ob="Y" newcontext="H,1,10,H32">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="11"></p_pa>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE32" context="H,1,10,H32" playid="10,3,94" type="P"
+      text="Ravera G. pass complete to Spiaggi F. for 8 yards to the PRE40 (Zanzi S.)." newcontext="H,2,2,H40">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Spiaggi F." gain="8"></p_pa>
+    <p_tk vh="V" name="Zanzi S."></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="2" spot="PRE40" context="H,2,2,H40" playid="10,4,95" type="P" first="P"
+      text="Ravera G. pass complete to Froio S. for 15 yards to the GOR35, 1ST DOWN PRE (Zanzi S.)." newcontext="H,1,10,V35">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Froio S." gain="15"></p_pa>
+    <p_tk vh="V" name="Zanzi S."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR35" context="H,1,10,V35" playid="10,5,96" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="H,1,10,V35">
+   </play>
+   <drivesum plays="3" yards="34" top="0:49" driveindex="10" complete="Y"></drivesum>
+   <score qtr="2" V="20" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GOR">
+    <firstdowns no="6" rush="2" pass="3" penalty="1"></firstdowns>
+    <penalties no="5" yds="34"></penalties>
+    <conversions thirdconv="3" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="3" lost="2"></fumbles>
+    <misc yds="0" top="04:15"></misc>
+    <rush att="7" yds="28" gain="42" loss="14" td="1" long="8"></rush>
+    <pass comp="4" att="7" int="0" yds="52" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="52" td="0" long="0"></rcv>
+    <ko no="1" yds="45" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="12" tacka="0" tot_tack="12" tflua="2" tfla="0" tflyds="15" sacks="1" sackyds="14"></defense>
+    <kr no="1" yds="18" td="0" long="0"></kr>
+    <fumbles no="3" lost="2"></fumbles>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PRE">
+    <firstdowns no="8" rush="1" pass="4" penalty="3"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="07:45"></misc>
+    <rush att="10" yds="11" gain="27" loss="16" td="1" long="0"></rush>
+    <pass comp="6" att="13" int="0" yds="91" td="0" long="31" sacks="1" sackyds="14"></pass>
+    <rcv no="6" yds="91" td="0" long="31"></rcv>
+    <ko no="1" yds="51" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="10" tacka="2" tot_tack="12" tflua="2" tfla="0" tflyds="21" sacks="0" sackyds="0" brup="2" ff="3" fr="2" fryds="0"></defense>
+    <kr no="1" yds="6" td="0" long="0"></kr>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="PRE" down="1" togo="10" spot="GOR35" context="H,1,10,V35" playid="10,6,97" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, GOR ball on GOR30." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR30" context="V,1,10,V30" playid="10,7,98" type="E"
+      text="Rizzi E. kickoff 55 yards to the PRE5, out-of-bounds, PENALTY GOR illegal procedure (Rizzi E.) 5 yards to the GOR25, NO PLAY." ob="Y" newcontext="V,1,10,V25">
+    <p_pn vh="V" code="PR" type="illegal procedure" name="Rizzi E." result="ACCEPT" at="V30" yards="5"></p_pn>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR25" context="V,1,10,V25" playid="10,8,99" type="K"
+      text="Rizzi E. kickoff 42 yards to the PRE23, Ravera N. return 3 yards to the PRE26 (Vigan&#242; J.)." newcontext="H,1,10,H26">
+    <p_ko vh="V" name="Rizzi E." gain="42"></p_ko>
+    <p_kr vh="H" name="Ravera N." gain="3"></p_kr>
+    <p_tk vh="V" name="Vigan&#242; J."></p_tk>
+   </play>
+   <drivestart poss="H,H26,12:00" vh="H" spot="H26" clock="12:00" driveindex="11,99"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="PRE26" context="H,1,10,H26" playid="11,1,100" clock="12:00"
+      text="PREDATORI GDT drive start at 12:00." newcontext="H,1,10,H26">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE26" context="H,1,10,H26" playid="11,2,101" type="P"
+      text="Ravera G. pass complete to Ravera N. for 6 yards to the PRE32 (Zanzi S.)." newcontext="H,2,4,H32">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="6"></p_pa>
+    <p_tk vh="V" name="Zanzi S."></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="4" spot="PRE32" context="H,2,4,H32" playid="11,3,102" type="P"
+      text="Ravera G. pass complete to Spiaggi F. for 3 yards to the PRE35 (Benecchi A.)." newcontext="H,3,1,H35">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Spiaggi F." gain="3"></p_pa>
+    <p_tk vh="V" name="Benecchi A."></p_tk>
+   </play>
+   <play hasball="PRE" down="3" togo="1" spot="PRE35" context="H,3,1,H35" playid="11,4,103" type="E"
+      text="PENALTY PRE false start 5 yards to the PRE30." newcontext="H,3,6,H30">
+    <p_pn vh="H" code="FS" type="false start" result="ACCEPT" at="H35" yards="5"></p_pn>
+   </play>
+   <play hasball="PRE" down="3" togo="6" spot="PRE30" context="H,3,6,H30" playid="11,5,104" type="P" first="P"
+      text="Ravera G. pass complete to Spiaggi F. for 8 yards to the PRE38, 1ST DOWN PRE (Benecchi A.)." newcontext="H,1,10,H38">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Spiaggi F." gain="8"></p_pa>
+    <p_tk vh="V" name="Benecchi A."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE38" context="H,1,10,H38" playid="11,6,105" type="P"
+      text="Ravera G. pass incomplete to Ravera N.." newcontext="H,2,10,H38">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Ravera N."></p_pa>
+   </play>
+   <play hasball="PRE" down="2" togo="10" spot="PRE38" context="H,2,10,H38" playid="11,7,106" type="P" first="P"
+      text="Ravera G. pass complete to Ravera N. for 13 yards to the GOR39, 1ST DOWN PRE, out-of-bounds (Salvioni L.)." ob="Y" newcontext="H,1,10,V39">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="13"></p_pa>
+    <p_tk vh="V" name="Salvioni L."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR39" context="H,1,10,V39" playid="11,8,107" type="R"
+      text="Malabruzzi A. rush for 9 yards to the GOR30 (Barbaro M.)." newcontext="H,2,1,V30">
+    <p_ru vh="H" name="Malabruzzi A." gain="9"></p_ru>
+    <p_tk vh="V" name="Barbaro M."></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="1" spot="GOR30" context="H,2,1,V30" playid="11,9,108" type="P" turnover="I"
+      text="Ravera G. pass intercepted by Altamura P. at the GOR8, Altamura P. return 2 yards to the GOR10 (Baraldi A.)." newcontext="V,1,10,V10">
+    <p_pa vh="H" qb="Ravera G." result="INT"></p_pa>
+    <p_ir vh="V" name="Altamura P." at="V08" gain="2"></p_ir>
+    <p_tk vh="H" name="Baraldi A."></p_tk>
+   </play>
+   <drivesum plays="7" yards="34" top="3:25" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="V,V10,12:00" vh="V" spot="V10" clock="12:00" driveindex="12,108"></drivestart>
+   <play hasball="GOR" down="1" togo="10" spot="GOR10" context="V,1,10,V10" playid="12,1,109" clock="08:35"
+      text="GORILLAS VARESE drive start at 08:35." newcontext="V,1,10,V10">
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR10" context="V,1,10,V10" playid="12,2,110" type="P"
+      text="Ferrari F. pass complete to Facetti M. for no gain to the GOR10 (Cavalli G.)." newcontext="V,2,10,V10">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Facetti M." gain="0"></p_pa>
+    <p_tk vh="H" name="Cavalli G."></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="10" spot="GOR10" context="V,2,10,V10" playid="12,3,111" type="R"
+      text="Giardini A. rush for loss of 3 yards to the GOR7 (Tarabella E.)." newcontext="V,3,13,V07">
+    <p_ru vh="V" name="Giardini A." gain="-3"></p_ru>
+    <p_tk vh="H" name="Tarabella E." tfl="Y"></p_tk>
+   </play>
+   <play hasball="GOR" down="3" togo="13" spot="GOR07" context="V,3,13,V07" playid="12,4,112" type="R"
+      text="Giorgetti G. rush for 3 yards to the GOR10 (Cavalli G.)." newcontext="V,4,10,V10">
+    <p_ru vh="V" name="Giorgetti G." gain="3"></p_ru>
+    <p_tk vh="H" name="Cavalli G."></p_tk>
+   </play>
+   <play hasball="GOR" down="4" togo="10" spot="GOR10" context="V,4,10,V10" playid="12,5,113" type="U"
+      text="Ferrari F. punt 36 yards to the PRE44, Spiaggi F. return 12 yards to the GOR34 (Marabotti G.), PENALTY PRE illegal block 21 yards to the PRE35, 1st and 10, PRE ball on PRE35." newcontext="H,1,10,H35">
+    <p_pu vh="V" name="Ferrari F." gain="36"></p_pu>
+    <p_pr vh="H" name="Spiaggi F." gain="12"></p_pr>
+    <p_tk vh="V" name="Marabotti G."></p_tk>
+    <p_pn vh="H" code="BL" type="illegal block" result="ACCEPT" at="V34" yards="21"></p_pn>
+   </play>
+   <drivesum plays="3" yards="0" top="2:23" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="H,H35,08:35" vh="H" spot="H35" clock="08:35" driveindex="13,113"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="PRE35" context="H,1,10,H35" playid="13,1,114" clock="06:12"
+      text="PREDATORI GDT drive start at 06:12." newcontext="H,1,10,H35">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE35" context="H,1,10,H35" playid="13,2,115" type="P"
+      text="Ravera G. pass complete to Ravera N. for 1 yard to the PRE36 (Zanzi S.;Benecchi L.)." newcontext="H,2,9,H36">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="1"></p_pa>
+    <p_tk vh="V" name="Zanzi S." assist="Y"></p_tk>
+    <p_tk vh="V" name="Benecchi L." assist="Y"></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="9" spot="PRE36" context="H,2,9,H36" playid="13,3,116" type="P" first="P"
+      text="Ravera G. pass complete to Ravera N. for 20 yards to the GOR34, 1ST DOWN PRE (Benecchi A.)." newcontext="H,1,10,V34">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="20"></p_pa>
+    <p_tk vh="V" name="Benecchi A."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR34" context="H,1,10,V34" playid="13,4,117" type="R"
+      text="Bisso D. rush for 2 yards to the GOR32 (Zanzi S.)." newcontext="H,2,8,V32">
+    <p_ru vh="H" name="Bisso D." gain="2"></p_ru>
+    <p_tk vh="V" name="Zanzi S."></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="8" spot="GOR32" context="H,2,8,V32" playid="13,5,118" type="P"
+      text="Ravera G. pass incomplete to Froio S. (Benecchi A.)." newcontext="H,3,8,V32">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Froio S."></p_pa>
+    <p_bu vh="V" name="Benecchi A."></p_bu>
+   </play>
+   <play hasball="PRE" down="3" togo="8" spot="GOR32" context="H,3,8,V32" playid="13,6,119" type="P"
+      text="Ravera G. pass incomplete to Spiaggi F.." newcontext="H,4,8,V32">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Spiaggi F."></p_pa>
+   </play>
+   <play hasball="PRE" down="4" togo="8" spot="GOR32" context="H,4,8,V32" playid="13,7,120" type="E" first="E"
+      text="Ravera G. pass incomplete, PENALTY GOR illegal block 8 yards to the GOR24, 1ST DOWN PRE, NO PLAY." newcontext="H,1,10,V24">
+    <p_pn vh="V" code="BL" type="illegal block" result="ACCEPT" at="V32" yards="8"></p_pn>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR24" context="H,1,10,V24" playid="13,8,121" type="P"
+      text="Ravera G. pass complete to Ravera N. for loss of 4 yards to the GOR28 (Altamura P.)." newcontext="H,2,14,V28">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="-4"></p_pa>
+    <p_tk vh="V" name="Altamura P." tfl="Y"></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="14" spot="GOR28" context="H,2,14,V28" playid="13,9,122" type="P"
+      text="Ravera G. pass incomplete to Spiaggi F.." newcontext="H,3,14,V28">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Spiaggi F."></p_pa>
+   </play>
+   <play hasball="PRE" down="3" togo="14" spot="GOR28" context="H,3,14,V28" playid="13,10,123" type="P"
+      text="Ravera G. pass complete to Ravera N. for 10 yards to the GOR18 (Salvioni L.)." newcontext="H,4,4,V18">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="10"></p_pa>
+    <p_tk vh="V" name="Salvioni L."></p_tk>
+   </play>
+   <play hasball="PRE" down="4" togo="4" spot="GOR18" context="H,4,4,V18" playid="13,11,124" type="P"
+      text="Ravera G. pass incomplete to Spiaggi F.." newcontext="V,1,10,V18">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Spiaggi F."></p_pa>
+   </play>
+   <drivesum plays="9" yards="37" top="3:29" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="V,V18,06:12" vh="V" spot="V18" clock="06:12" driveindex="14,124"></drivestart>
+   <play hasball="GOR" down="1" togo="10" spot="GOR18" context="V,1,10,V18" playid="14,1,125" clock="02:43"
+      text="GORILLAS VARESE drive start at 02:43." newcontext="V,1,10,V18">
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR18" context="V,1,10,V18" playid="14,2,126" type="R"
+      text="Marabotti G. rush for 2 yards to the GOR20 (Romeo M.;Baraldi A.)." newcontext="V,2,8,V20">
+    <p_ru vh="V" name="Marabotti G." gain="2"></p_ru>
+    <p_tk vh="H" name="Romeo M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Baraldi A." assist="Y"></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="8" spot="GOR20" context="V,2,8,V20" playid="14,3,127" type="R"
+      text="Marabotti G. rush for 4 yards to the GOR24 (Paganini  Mo A.)." newcontext="V,3,4,V24">
+    <p_ru vh="V" name="Marabotti G." gain="4"></p_ru>
+    <p_tk vh="H" name="Paganini  Mo A."></p_tk>
+   </play>
+   <play hasball="GOR" down="3" togo="4" spot="GOR24" context="V,3,4,V24" playid="14,4,128" type="R"
+      text="Vigan&#242; J. rush for 2 yards to the GOR26 (Vandelli L.)." newcontext="V,4,2,V26">
+    <p_ru vh="V" name="Vigan&#242; J." gain="2"></p_ru>
+    <p_tk vh="H" name="Vandelli L."></p_tk>
+   </play>
+   <play hasball="GOR" down="4" togo="2" spot="GOR26" context="V,4,2,V26" playid="14,5,129" type="U"
+      text="Ferrari F. punt 51 yards to the PRE13." newcontext="H,1,10,H13">
+    <p_pu vh="V" name="Ferrari F." gain="51" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="8" top="1:56" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="H,H13,02:43" vh="H" spot="H13" clock="02:43" driveindex="15,129"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="PRE13" context="H,1,10,H13" playid="15,1,130" clock="00:47"
+      text="PREDATORI GDT drive start at 00:47." newcontext="H,1,10,H13">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE13" context="H,1,10,H13" playid="15,2,131" type="P"
+      text="Ravera G. pass complete to Spiaggi F. for 9 yards to the PRE22, out-of-bounds (Salvioni L.)." ob="Y" newcontext="H,2,1,H22">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Spiaggi F." gain="9"></p_pa>
+    <p_tk vh="V" name="Salvioni L."></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="1" spot="PRE22" context="H,2,1,H22" playid="15,3,132" type="P"
+      text="Ravera G. pass incomplete." newcontext="H,3,1,H22">
+    <p_pa vh="H" qb="Ravera G." result="INC"></p_pa>
+   </play>
+   <play hasball="PRE" down="3" togo="1" spot="PRE22" context="H,3,1,H22" playid="15,4,133" type="R"
+      text="Malabruzzi A. rush for loss of 7 yards to the PRE15 (Casucci B.)." newcontext="H,4,8,H15">
+    <p_ru vh="H" name="Malabruzzi A." gain="-7"></p_ru>
+    <p_tk vh="V" name="Casucci B." tfl="Y"></p_tk>
+   </play>
+   <score qtr="3" V="20" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GOR">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="13"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:19"></misc>
+    <rush att="5" yds="8" gain="11" loss="3" td="0" long="0"></rush>
+    <pass comp="1" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="0" td="0" long="0"></rcv>
+    <punt no="2" yds="87" long="51" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="43.5"></punt>
+    <ko no="1" yds="42" ob="0" tb="0"></ko>
+    <defense tackua="13" tacka="2" tot_tack="15" tflua="2" tfla="0" tflyds="11" sacks="1" sackyds="14" brup="1" int="1" intyds="2"></defense>
+    <ir no="1" yds="2" td="0" long="2"></ir>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PRE">
+    <firstdowns no="4" rush="0" pass="3" penalty="1"></firstdowns>
+    <penalties no="2" yds="26"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:41"></misc>
+    <rush att="3" yds="4" gain="11" loss="7" td="0" long="0"></rush>
+    <pass comp="9" att="16" int="1" yds="66" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="9" yds="66" td="0" long="0"></rcv>
+    <defense tackua="6" tacka="2" tot_tack="8" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="3" td="0" long="0"></kr>
+    <pr no="1" yds="12" td="0" long="12"></pr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="PRE" down="4" togo="8" spot="PRE15" context="H,4,8,H15" playid="15,5,134" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="H,4,8,H15">
+   </play>
+   <play hasball="PRE" down="4" togo="8" spot="PRE15" context="H,4,8,H15" playid="15,6,135" type="U"
+      text="Paoletti L. punt 35 yards to the GOR40, out-of-bounds." ob="Y" newcontext="V,1,10,V40">
+    <p_pu vh="H" name="Paoletti L." gain="35" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="2" top="0:47" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V40,12:00" vh="V" spot="V40" clock="12:00" driveindex="16,135"></drivestart>
+   <play hasball="GOR" down="1" togo="10" spot="GOR40" context="V,1,10,V40" playid="16,1,136" clock="12:00"
+      text="GORILLAS VARESE drive start at 12:00." newcontext="V,1,10,V40">
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR40" context="V,1,10,V40" playid="16,2,137" type="P"
+      text="Ferrari F. pass complete to Facetti M. for 9 yards to the PRE41 (Cavalli G.)." newcontext="V,2,1,H41">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Facetti M." gain="9"></p_pa>
+    <p_tk vh="H" name="Cavalli G."></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="1" spot="PRE41" context="V,2,1,H41" playid="16,3,138" type="R" first="R"
+      text="Marabotti G. rush for 6 yards to the PRE35, 1ST DOWN GOR (Romeo M.;Vandelli L.)." newcontext="V,1,10,H35">
+    <p_ru vh="V" name="Marabotti G." gain="6"></p_ru>
+    <p_tk vh="H" name="Romeo M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Vandelli L." assist="Y"></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="PRE35" context="V,1,10,H35" playid="16,4,139" type="P" first="P"
+      text="Ferrari F. pass complete to Facetti M. for 11 yards to the PRE24, 1ST DOWN GOR (Baciu F.)." newcontext="V,1,10,H24">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Facetti M." gain="11"></p_pa>
+    <p_tk vh="H" name="Baciu F."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="PRE24" context="V,1,10,H24" playid="16,5,140" type="E"
+      text="Ferrari F. pass incomplete (Solari M.), PENALTY GOR ineligible downfield on pass (Corvi V.) 5 yards to the PRE29, NO PLAY." newcontext="V,1,15,H29">
+    <p_pn vh="V" code="ID" type="ineligible downfield on pass" name="Corvi V." result="ACCEPT" at="H24" yards="5"></p_pn>
+   </play>
+   <play hasball="GOR" down="1" togo="15" spot="PRE29" context="V,1,15,H29" playid="16,6,141" type="P"
+      text="Giorgetti G. pass incomplete to Giardini A.." newcontext="V,2,15,H29">
+    <p_pa vh="V" qb="Giorgetti G." result="INC" rcv="Giardini A."></p_pa>
+   </play>
+   <play hasball="GOR" down="2" togo="15" spot="PRE29" context="V,2,15,H29" playid="16,7,142" type="P"
+      text="Ferrari F. pass complete to Giorgetti L. for 9 yards to the PRE20 (Cavalli G.)." newcontext="V,3,6,H20">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Giorgetti L." gain="9"></p_pa>
+    <p_tk vh="H" name="Cavalli G."></p_tk>
+   </play>
+   <play hasball="GOR" down="3" togo="6" spot="PRE20" context="V,3,6,H20" playid="16,8,143" type="P"
+      text="Ferrari F. pass incomplete (Baciu F.)." newcontext="V,4,6,H20">
+    <p_pa vh="V" qb="Ferrari F." result="BRUP"></p_pa>
+    <p_bu vh="H" name="Baciu F."></p_bu>
+   </play>
+   <play hasball="GOR" down="4" togo="6" spot="PRE20" context="V,4,6,H20" playid="16,9,144" type="P" first="P"
+      text="Ferrari F. pass complete to Traversa M. for 15 yards to the PRE5, 1ST DOWN GOR (Baraldi A.)." newcontext="V,1,0,H05">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Traversa M." gain="15"></p_pa>
+    <p_tk vh="H" name="Baraldi A."></p_tk>
+   </play>
+   <play hasball="GOR" down="1" togo="0" spot="PRE05" context="V,1,0,H05" playid="16,10,145" type="E"
+      text="Vigan&#242; J. rush for loss of 3 yards to the PRE8 (Vandelli L.), PENALTY GOR holding (69) 10 yards to the PRE15, NO PLAY." newcontext="V,1,0,H15">
+    <p_pn vh="V" code="HO" type="holding" name="69" result="ACCEPT" at="H05" yards="10"></p_pn>
+   </play>
+   <play hasball="GOR" down="1" togo="0" spot="PRE15" context="V,1,0,H15" playid="16,11,146" type="P"
+      text="Ferrari F. pass incomplete to Giardini A.." newcontext="V,2,0,H15">
+    <p_pa vh="V" qb="Ferrari F." result="INC" rcv="Giardini A."></p_pa>
+   </play>
+   <play hasball="GOR" down="2" togo="0" spot="PRE15" context="V,2,0,H15" playid="16,12,147" type="P"
+      text="Ferrari F. pass complete to Traversa M. for 11 yards to the PRE4." newcontext="V,3,0,H04">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Traversa M." gain="11"></p_pa>
+   </play>
+   <play hasball="GOR" down="3" togo="0" spot="PRE04" context="V,3,0,H04" playid="16,13,148" type="R" score="Y" clock="08:34"
+      text="Ferrari F. rush for 4 yards to the PRE0, TOUCHDOWN, clock 08:34." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Ferrari F." gain="4"></p_ru>
+   </play>
+   <play hasball="GOR" down="1" togo="0" spot="PRE03" context="V,1,0,H03" playid="16,14,149" type="X" score="Y"
+      text="Ferrari F. kick attempt good." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Ferrari F." qb="Ferrari F." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="27" H="12"></score>
+   <drivesum plays="10" yards="50" top="3:26" driveindex="16" complete="Y"></drivesum>
+   <play hasball="GOR" down="1" togo="0" spot="GOR30" context="V,1,0,V30" playid="16,15,150" type="K"
+      text="Rizzi E. kickoff 30 yards to the PRE30, Paganini  Mo A. return 0 yards to the PRE30." newcontext="H,1,10,H30">
+    <p_ko vh="V" name="Rizzi E." gain="30"></p_ko>
+    <p_kr vh="H" name="Paganini  Mo A." gain="0"></p_kr>
+   </play>
+   <drivestart poss="H,H30,08:34" vh="H" spot="H30" clock="08:34" driveindex="17,150"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="PRE30" context="H,1,10,H30" playid="17,1,151" clock="08:24"
+      text="PREDATORI GDT drive start at 08:24." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE30" context="H,1,10,H30" playid="17,2,152" type="R" first="R"
+      text="Bisso D. rush for 11 yards to the PRE41, 1ST DOWN PRE (Zanzi S.)." newcontext="H,1,10,H41">
+    <p_ru vh="H" name="Bisso D." gain="11"></p_ru>
+    <p_tk vh="V" name="Zanzi S."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE41" context="H,1,10,H41" playid="17,3,153" type="R" first="R"
+      text="Ravera G. rush for 15 yards to the GOR34, 1ST DOWN PRE, out-of-bounds." ob="Y" newcontext="H,1,10,V34">
+    <p_ru vh="H" name="Ravera G." gain="15"></p_ru>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR34" context="H,1,10,V34" playid="17,4,154" type="P"
+      text="Ravera G. pass incomplete to Spiaggi F.." newcontext="H,2,10,V34">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Spiaggi F."></p_pa>
+   </play>
+   <play hasball="PRE" down="2" togo="10" spot="GOR34" context="H,2,10,V34" playid="17,5,155" type="R"
+      text="Malabruzzi A. rush for 4 yards to the GOR30 (Zanzi S.)." newcontext="H,3,6,V30">
+    <p_ru vh="H" name="Malabruzzi A." gain="4"></p_ru>
+    <p_tk vh="V" name="Zanzi S."></p_tk>
+   </play>
+   <play hasball="PRE" down="3" togo="6" spot="GOR30" context="H,3,6,V30" playid="17,6,156" type="P" first="P"
+      text="Ravera G. pass complete to Spiaggi F. for 9 yards to the GOR21, 1ST DOWN PRE (Barbaro M.)." newcontext="H,1,10,V21">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Spiaggi F." gain="9"></p_pa>
+    <p_tk vh="V" name="Barbaro M."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR21" context="H,1,10,V21" playid="17,7,157" type="P"
+      text="Ravera G. pass incomplete to Ravera N.." newcontext="H,2,10,V21">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Ravera N."></p_pa>
+   </play>
+   <play hasball="PRE" down="2" togo="10" spot="GOR21" context="H,2,10,V21" playid="17,8,158" type="P" first="P" score="Y" clock="06:09"
+      text="Ravera G. pass complete to Spiaggi F. for 21 yards to the GOR0, 1ST DOWN PRE, TOUCHDOWN, clock 06:09." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Spiaggi F." gain="21"></p_pa>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR03" context="H,1,0,V03" playid="17,9,159" type="X" score="Y"
+      text="Ravera G. pass attempt to Froio S. good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Froio S." qb="Ravera G." type="P" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="27" H="20"></score>
+   <drivesum plays="7" yards="60" top="2:15" driveindex="17" complete="Y"></drivesum>
+   <play hasball="PRE" down="1" togo="0" spot="PRE30" context="H,1,0,H30" playid="17,10,160" type="K"
+      text="Paoletti L. kickoff 14 yards to the PRE44, on-side kick (touch by receiving team), recovered by PRE on PRE42." newcontext="H,1,10,H42">
+    <p_ko vh="H" name="Paoletti L." gain="14" result="N"></p_ko>
+   </play>
+   <drivestart poss="H,H42,06:09" vh="H" spot="H42" clock="06:09" driveindex="18,160"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="PRE42" context="H,1,10,H42" playid="18,1,161" clock="06:07"
+      text="PREDATORI GDT drive start at 06:07." newcontext="H,1,10,H42">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="PRE42" context="H,1,10,H42" playid="18,2,162" type="P"
+      text="Ravera G. pass complete to Zanforlin G. for 8 yards to the GOR40 (Zanzi S.)." newcontext="H,2,2,V40">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Zanforlin G." gain="8"></p_pa>
+    <p_tk vh="V" name="Zanzi S."></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="2" spot="GOR40" context="H,2,2,V40" playid="18,3,163" type="E" first="E"
+      text="Malabruzzi A. rush for no gain to the GOR40 (Casucci B.), PENALTY GOR Encroachment 5 yards to the GOR35, 1ST DOWN PRE, NO PLAY." newcontext="H,1,10,V35">
+    <p_pn vh="V" code="EN" type="Encroachment" result="ACCEPT" at="V40" yards="5"></p_pn>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR35" context="H,1,10,V35" playid="18,4,164" type="P"
+      text="Ravera G. pass incomplete to Zanforlin G.." newcontext="H,2,10,V35">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Zanforlin G."></p_pa>
+   </play>
+   <play hasball="PRE" down="2" togo="10" spot="GOR35" context="H,2,10,V35" playid="18,5,165" type="R"
+      text="Malabruzzi A. rush for no gain to the GOR35 (Benecchi L.)." newcontext="H,3,10,V35">
+    <p_ru vh="H" name="Malabruzzi A." gain="0"></p_ru>
+    <p_tk vh="V" name="Benecchi L."></p_tk>
+   </play>
+   <play hasball="PRE" down="3" togo="10" spot="GOR35" context="H,3,10,V35" playid="18,6,166" type="P" first="P"
+      text="Ravera G. pass complete to Spiaggi F. for 11 yards to the GOR24, 1ST DOWN PRE, out-of-bounds." ob="Y" newcontext="H,1,10,V24">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Spiaggi F." gain="11"></p_pa>
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR24" context="H,1,10,V24" playid="18,7,167" type="P"
+      text="Ravera G. pass complete to Ravera N. for 6 yards to the GOR18 (Salvioni L.)." newcontext="H,2,4,V18">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="6"></p_pa>
+    <p_tk vh="V" name="Salvioni L."></p_tk>
+   </play>
+   <play hasball="PRE" down="2" togo="4" spot="GOR18" context="H,2,4,V18" playid="18,8,168" type="R"
+      text="Ravera G. rush for 2 yards to the GOR16 (Casucci B.)." newcontext="H,3,2,V16">
+    <p_ru vh="H" name="Ravera G." gain="2"></p_ru>
+    <p_tk vh="V" name="Casucci B."></p_tk>
+   </play>
+   <play hasball="PRE" down="3" togo="2" spot="GOR16" context="H,3,2,V16" playid="18,9,169" type="#" clock="03:00"
+      text="Timeout Predatori GdT, clock 03:00." newcontext="H,3,2,V16">
+    <p_to vh="H" team="Predatori GdT"></p_to>
+   </play>
+   <play hasball="PRE" down="3" togo="2" spot="GOR16" context="H,3,2,V16" playid="18,10,170" type="P"
+      text="Ravera G. pass incomplete to Spiaggi F.." newcontext="H,4,2,V16">
+    <p_pa vh="H" qb="Ravera G." result="INC" rcv="Spiaggi F."></p_pa>
+   </play>
+   <play hasball="PRE" down="4" togo="2" spot="GOR16" context="H,4,2,V16" playid="18,11,171" type="P" first="P"
+      text="Ravera G. pass complete to Ravera N. for 7 yards to the GOR9, 1ST DOWN PRE (Salvioni L.)." newcontext="H,1,0,V09">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Ravera N." gain="7"></p_pa>
+    <p_tk vh="V" name="Salvioni L."></p_tk>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR09" context="H,1,0,V09" playid="18,12,172" type="R" score="Y" clock="02:21"
+      text="Ravera G. rush for 9 yards to the GOR0, TOUCHDOWN, clock 02:21." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Ravera G." gain="9"></p_ru>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR03" context="H,1,0,V03" playid="18,13,173" type="X"
+      text="Paoletti L. kick attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Paoletti L." qb="Paoletti L." type="K" result="MISSED"></p_pat>
+   </play>
+   <score V="27" H="26"></score>
+   <play hasball="PRE" down="1" togo="0" spot="PRE30" context="H,1,0,H30" playid="18,14,174" type="#" clock="02:21"
+      text="Timeout Gorillas Varese, clock 02:21." newcontext="H,1,0,H30">
+    <p_to vh="V" team="Gorillas Varese"></p_to>
+   </play>
+   <drivesum plays="9" yards="48" top="3:46" driveindex="18" complete="Y"></drivesum>
+   <play hasball="PRE" down="1" togo="0" spot="PRE30" context="H,1,0,H30" playid="18,15,175" type="K"
+      text="Paoletti L. kickoff 39 yards to the GOR21, Marabotti G. return 9 yards to the GOR30 (Solari M.), PENALTY GOR holding 10 yards to the GOR20, 1st and 10, GOR ball on GOR20." newcontext="V,1,10,V20">
+    <p_ko vh="H" name="Paoletti L." gain="39"></p_ko>
+    <p_kr vh="V" name="Marabotti G." gain="9"></p_kr>
+    <p_tk vh="H" name="Solari M."></p_tk>
+    <p_pn vh="V" code="HO" type="holding" result="ACCEPT" at="V30" yards="10"></p_pn>
+   </play>
+   <drivestart poss="V,V20,02:21" vh="V" spot="V20" clock="02:21" driveindex="19,175"></drivestart>
+   <play hasball="GOR" down="1" togo="10" spot="GOR20" context="V,1,10,V20" playid="19,1,176" clock="02:21"
+      text="GORILLAS VARESE drive start at 02:21." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="GOR" down="1" togo="10" spot="GOR20" context="V,1,10,V20" playid="19,2,177" type="R"
+      text="Marabotti G. rush for 3 yards to the GOR23 (Baraldi A.;Romeo M.)." newcontext="V,2,7,V23">
+    <p_ru vh="V" name="Marabotti G." gain="3"></p_ru>
+    <p_tk vh="H" name="Baraldi A." assist="Y"></p_tk>
+    <p_tk vh="H" name="Romeo M." assist="Y"></p_tk>
+   </play>
+   <play hasball="GOR" down="2" togo="7" spot="GOR23" context="V,2,7,V23" playid="19,3,178" type="R"
+      text="Marabotti G. rush for 2 yards to the GOR25 (Paoletti L.)." newcontext="V,3,5,V25">
+    <p_ru vh="V" name="Marabotti G." gain="2"></p_ru>
+    <p_tk vh="H" name="Paoletti L."></p_tk>
+   </play>
+   <play hasball="GOR" down="3" togo="5" spot="GOR25" context="V,3,5,V25" playid="19,4,179" type="P"
+      text="Ferrari F. pass complete to Traversa M. for 4 yards to the GOR29 (Solari M.)." newcontext="V,4,1,V29">
+    <p_pa vh="V" qb="Ferrari F." result="COMP" rcv="Traversa M." gain="4"></p_pa>
+    <p_tk vh="H" name="Solari M."></p_tk>
+   </play>
+   <play hasball="GOR" down="4" togo="1" spot="GOR29" context="V,4,1,V29" playid="19,5,180" type="#" clock="01:00"
+      text="Timeout Predatori GdT, clock 01:00." newcontext="V,4,1,V29">
+    <p_to vh="H" team="Predatori GdT"></p_to>
+   </play>
+   <play hasball="GOR" down="4" togo="1" spot="GOR29" context="V,4,1,V29" playid="19,6,181" type="R"
+      text="Marabotti G. rush for loss of 1 yard to the GOR28 (Baraldi A.)." newcontext="H,1,10,V28">
+    <p_ru vh="V" name="Marabotti G." gain="-1"></p_ru>
+    <p_tk vh="H" name="Baraldi A." tfl="Y"></p_tk>
+   </play>
+   <drivesum plays="4" yards="8" top="1:26" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,V28,01:00" vh="H" spot="V28" clock="01:00" driveindex="20,181"></drivestart>
+   <play hasball="PRE" down="1" togo="10" spot="GOR28" context="H,1,10,V28" playid="20,1,182" clock="00:55"
+      text="PREDATORI GDT drive start at 00:55." newcontext="H,1,10,V28">
+   </play>
+   <play hasball="PRE" down="1" togo="10" spot="GOR28" context="H,1,10,V28" playid="20,2,183" type="R"
+      text="Ravera G. rush for 3 yards to the GOR25." newcontext="H,2,7,V25">
+    <p_ru vh="H" name="Ravera G." gain="3"></p_ru>
+   </play>
+   <play hasball="PRE" down="2" togo="7" spot="GOR25" context="H,2,7,V25" playid="20,3,184" type="E"
+      text="PENALTY PRE false start 5 yards to the GOR30." newcontext="H,2,12,V30">
+    <p_pn vh="H" code="FS" type="false start" result="ACCEPT" at="V25" yards="5"></p_pn>
+   </play>
+   <play hasball="PRE" down="2" togo="12" spot="GOR30" context="H,2,12,V30" playid="20,4,185" type="P" first="P"
+      text="Ravera G. pass complete to Froio S. for 22 yards to the GOR8, 1ST DOWN PRE, out-of-bounds." ob="Y" newcontext="H,1,0,V08">
+    <p_pa vh="H" qb="Ravera G." result="COMP" rcv="Froio S." gain="22"></p_pa>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR08" context="H,1,0,V08" playid="20,5,186" type="E" first="E"
+      text="Ravera G. pass incomplete, PENALTY GOR personal foul 4 yards to the GOR4, 1ST DOWN PRE, NO PLAY." newcontext="H,1,0,V04">
+    <p_pn vh="V" code="PF" type="personal foul" result="ACCEPT" at="V08" yards="4"></p_pn>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR04" context="H,1,0,V04" playid="20,6,187" type="#" clock="00:03"
+      text="Timeout Predatori GdT, clock 00:03." newcontext="H,1,0,V04">
+    <p_to vh="H" team="Predatori GdT"></p_to>
+   </play>
+   <play hasball="PRE" down="1" togo="0" spot="GOR04" context="H,1,0,V04" playid="20,7,188" type="R"
+      text="TEAM rush for loss of 6 yards to the GOR10, fumble by TEAM recovered by PRE 20 at GOR10." newcontext="H,2,0,V10">
+    <p_ru vh="H" name="TEAM" gain="-6"></p_ru>
+    <p_fumb vh="H" name="TEAM" at="V10" frvh="H" frname="20"></p_fumb>
+   </play>
+   <play hasball="PRE" down="2" togo="0" spot="GOR10" context="H,2,0,V10" playid="20,8,189" type="R"
+      text="TEAM rush for no gain to the GOR10, fumble by TEAM recovered by PRE Paoletti L. at GOR10." newcontext="H,3,0,V10">
+    <p_ru vh="H" name="TEAM" gain="0"></p_ru>
+    <p_fumb vh="H" name="TEAM" at="V10" frvh="H" frname="Paoletti L."></p_fumb>
+   </play>
+   <play hasball="PRE" down="3" togo="0" spot="GOR10" context="H,3,0,V10" playid="20,9,190" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="H,3,0,V10">
+   </play>
+   <drivesum plays="4" yards="18" top="0:55" driveindex="20" complete="Y"></drivesum>
+   <score final="Y" V="27" H="26"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GOR">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="5" yds="34"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="04:52"></misc>
+    <rush att="5" yds="14" gain="15" loss="1" td="1" long="0"></rush>
+    <pass comp="6" att="9" int="0" yds="59" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="6" yds="59" td="0" long="0"></rcv>
+    <ko no="1" yds="30" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="8" tacka="0" tot_tack="8" sacks="1" sackyds="14"></defense>
+    <kr no="2" yds="9" td="0" long="0"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PRE">
+    <firstdowns no="9" rush="2" pass="5" penalty="2"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="4" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="2" lost="0"></fumbles>
+    <misc yds="0" top="07:08"></misc>
+    <rush att="9" yds="38" gain="44" loss="6" td="1" long="0"></rush>
+    <pass comp="7" att="11" int="0" yds="84" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="7" yds="84" td="1" long="0"></rcv>
+    <punt no="1" yds="35" long="9" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="35.0"></punt>
+    <ko no="1" yds="39" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="8" tacka="4" tot_tack="12" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="1" yds="0" td="0" long="0"></kr>
+    <fumbles no="2" lost="0"></fumbles>
+    <scoring td="2" patrcv="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="H" id="PRE" down="3" togo="0" spot="GOR10" context="H,3,0,V10" qtr="4" clock="00:00" vtoh="1" htoh="3"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="GOR">
+  <player name="1" checkname="" uni="1" gp="0" code="1"></player>
+  <player name="69" checkname="" uni="69" gp="0" code="69"></player>
+ </dnp>
+ <dnp vh="H" id="PRE">
+  <player name="20" checkname="" uni="20" gp="0" code="20"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

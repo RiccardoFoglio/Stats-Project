@@ -1,0 +1,999 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220172" visid="CRU" homeid="EPC" visname="Crusaders Cagliari" homename="Elephants Catania"
+      date="5/21/2022" location="Catania" stadium="B. Paolone"
+      start="15.30" end="17.35" leaguegame="Y"
+      duration="2.05" attend="100" temp="warm" wind="light" weather="sunny">
+  <officials sc="E. Gulisano"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="25" patspot="3" safspot="25" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="CRU" name="Crusaders Cagliari" record="2-2" conf-record="2-2" abb="C">
+  <linescore prds="4" line="0,6,0,6" score="12">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="6"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals totoff_plays="28" totoff_yards="232" totoff_avg="8.3">
+   <firstdowns no="8" rush="3" pass="5" penalty="0"></firstdowns>
+   <penalties no="6" yds="40"></penalties>
+   <conversions thirdconv="2" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="43" top="12:12" ona="0" onm="0"></misc>
+   <redzone att="3" scores="1" points="6" tdrush="1" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="1" endfumb="0" endhalf="1" endgame="0"></redzone>
+   <rush att="15" yds="94" gain="101" loss="7" td="1" long="30"></rush>
+   <pass comp="8" att="13" int="1" yds="138" td="1" long="61" sacks="0" sackyds="0"></pass>
+   <rcv no="8" yds="138" td="1" long="61"></rcv>
+   <punt no="3" yds="108" long="44" blkd="0" tb="0" fc="0" plus50="0" inside20="2" avg="36.0"></punt>
+   <ko no="3" yds="151" ob="0" tb="0"></ko>
+   <pat passatt="2" passmade="0"></pat>
+   <defense tackua="34" tacka="14" tot_tack="48" tflua="3" tfla="4" tflyds="20" sacks="1" sackyds="5" brup="1" blkd="1"></defense>
+   <kr no="4" yds="36" td="0" long="20"></kr>
+   <pr no="1" yds="26" td="0" long="26"></pr>
+   <scoring td="2"></scoring>
+  </totals>
+  <player name="Pisu M." shortname="Pisu M." checkname="M.,PISU" uni="80" gp="1" code="80">
+   <rcv no="3" yds="16" td="0" long="10"></rcv>
+   <kr no="1" yds="0" td="0" long="0"></kr>
+  </player>
+  <player name="Brisu F." shortname="Brisu F." checkname="F.,BRISU" uni="81" gp="1" code="81">
+   <rcv no="2" yds="99" td="1" long="61"></rcv>
+   <kr no="3" yds="36" td="0" long="20"></kr>
+   <pr no="1" yds="26" td="0" long="26"></pr>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Agnesa R." shortname="Agnesa R." checkname="R.,AGNESA" uni="24" gp="1" code="24">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="Spadaccino L." shortname="Spadaccino L." checkname="L.,SPADACCINO" uni="3" gp="1" code="3">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="Pili R." shortname="Pili R." checkname="R.,PILI" uni="22" gp="1" code="22">
+   <rcv no="1" yds="7" td="0" long="7"></rcv>
+  </player>
+  <player name="Carta G." shortname="Carta G." checkname="G.,CARTA" uni="1" gp="1" code="1">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Murgia S." shortname="Murgia S." checkname="S.,MURGIA" uni="8" gp="1" code="8">
+   <defense tackua="6" tacka="3" tot_tack="9"></defense>
+  </player>
+  <player name="Billardello M." shortname="Billardello M." checkname="M.,BILLARDELLO" uni="14" gp="1" code="14">
+   <rush att="6" yds="4" gain="8" loss="4" td="0" long="4"></rush>
+  </player>
+  <player name="Matta F." shortname="Matta F." checkname="F.,MATTA" uni="28" gp="1" code="28">
+   <defense tackua="2" tacka="1" tot_tack="3"></defense>
+  </player>
+  <player name="Usai G." shortname="Usai G." checkname="G.,USAI" uni="34" gp="1" code="34">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="D'angelo G." shortname="D'angelo G." checkname="G.,D'ANGELO" uni="45" gp="1" code="45">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Cuccu R." shortname="Cuccu R." checkname="R.,CUCCU" uni="54" gp="1" code="54">
+   <defense tackua="5" tacka="2" tot_tack="7" tflua="1" tfla="1" tflyds="4"></defense>
+  </player>
+  <player name="Atzori N." shortname="Atzori N." checkname="N.,ATZORI" uni="55" gp="1" code="55">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Pili I." shortname="Pili I." checkname="I.,PILI" uni="77" gp="1" code="77">
+   <defense tackua="2" tacka="1" tot_tack="3" tflua="0" tfla="1" tflyds="3" sackua="0" sacka="1" sackyds="3"></defense>
+  </player>
+  <player name="Carpino A." shortname="Carpino A." checkname="A.,CARPINO" uni="78" gp="1" code="78">
+   <defense blkd="1"></defense>
+  </player>
+  <player name="Gandini M." shortname="Gandini M." checkname="M.,GANDINI" uni="79" gp="1" code="79">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Cordeddu M." shortname="Cordeddu M." checkname="M.,CORDEDDU" uni="21" gp="1" code="21">
+   <rush att="3" yds="5" gain="8" loss="3" td="0" long="8"></rush>
+   <punt no="3" yds="108" long="44" blkd="0" tb="0" fc="0" plus50="0" inside20="2" avg="36.0"></punt>
+   <ko no="3" yds="151" ob="0" tb="0"></ko>
+  </player>
+  <player name="Meloni M." shortname="Meloni M." checkname="M.,MELONI" uni="19" gp="1" code="19">
+   <rush att="6" yds="85" gain="85" loss="0" td="1" long="30"></rush>
+   <pass comp="8" att="13" int="1" yds="138" td="1" long="61" sacks="0" sackyds="0"></pass>
+   <pat passatt="2" passmade="0"></pat>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Giuliano F." shortname="Giuliano F." checkname="F.,GIULIANO" uni="90" gp="1" code="90">
+   <defense tackua="8" tacka="3" tot_tack="11" tflua="2" tfla="2" tflyds="13" sackua="0" sacka="1" sackyds="2"></defense>
+  </player>
+  <player name="Ashak E." shortname="Ashak E." checkname="E.,ASHAK" uni="94" gp="1" code="94">
+   <defense tackua="2" tacka="2" tot_tack="4"></defense>
+  </player>
+  <player name="Dessi F." shortname="Dessi F." checkname="F.,DESSI" uni="99" gp="1" code="99">
+   <defense tackua="4" tacka="1" tot_tack="5"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense brup="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="EPC" name="Elephants Catania" record="2-2" conf-record="2-2" abb="E">
+  <linescore prds="4" line="7,14,0,0" score="21">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="14"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="53" totoff_yards="277" totoff_avg="5.2">
+   <firstdowns no="15" rush="14" pass="0" penalty="1"></firstdowns>
+   <penalties no="4" yds="35"></penalties>
+   <conversions thirdconv="4" thirdatt="11" fourthconv="2" fourthatt="2"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="35:48" ona="0" onm="0"></misc>
+   <redzone att="4" scores="3" points="21" tdrush="3" tdpass="0" fgmade="0" endfga="1" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="45" yds="274" gain="294" loss="20" td="3" long="26"></rush>
+   <pass comp="2" att="8" int="0" yds="3" td="0" long="3" sacks="1" sackyds="5"></pass>
+   <rcv no="2" yds="3" td="0" long="3"></rcv>
+   <punt no="3" yds="93" long="37" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="31.0"></punt>
+   <ko no="4" yds="189" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="1"></fg>
+   <pat kickatt="3" kickmade="3"></pat>
+   <defense tackua="19" tacka="8" tot_tack="27" tflua="3" tfla="0" tflyds="6" sacks="0" sackyds="0" brup="1" ff="1" fr="1" fryds="0" int="1" intyds="2"></defense>
+   <kr no="3" yds="63" td="0" long="30"></kr>
+   <pr no="1" yds="5" td="0" long="5"></pr>
+   <ir no="1" yds="2" td="0" long="2"></ir>
+   <scoring td="3" patkick="3"></scoring>
+  </totals>
+  <player name="Castello M." shortname="Castello M." checkname="M.,CASTELLO" uni="23" gp="1" code="23">
+   <rcv no="2" yds="3" td="0" long="3"></rcv>
+   <defense fr="1" fryds="0"></defense>
+  </player>
+  <player name="Aronica F." shortname="Aronica F." checkname="F.,ARONICA" uni="12" gp="1" code="12">
+   <rush att="16" yds="41" gain="61" loss="20" td="0" long="12"></rush>
+   <pass comp="2" att="8" int="0" yds="3" td="0" long="3" sacks="1" sackyds="5"></pass>
+  </player>
+  <player name="Giordano L." shortname="Giordano L." checkname="L.,GIORDANO" uni="17" gp="1" code="17">
+   <defense tackua="0" tacka="2" tot_tack="2"></defense>
+  </player>
+  <player name="Maugeri G." shortname="Maugeri G." checkname="G.,MAUGERI" uni="20" gp="1" code="20">
+   <punt no="3" yds="93" long="37" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="31.0"></punt>
+   <fg made="0" att="1" long="0" blkd="1"></fg>
+   <pat kickatt="3" kickmade="3"></pat>
+   <defense tackua="2" tacka="1" tot_tack="3" int="1" intyds="2"></defense>
+   <pr no="1" yds="5" td="0" long="5"></pr>
+   <ir no="1" yds="2" td="0" long="2"></ir>
+   <scoring patkick="3"></scoring>
+  </player>
+  <player name="Di Mauro G." shortname="Di Mauro G." checkname="MAURO G.,DI" uni="21" gp="1" code="21">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+  <player name="Lombardo E." shortname="Lombardo E." checkname="E.,LOMBARDO" uni="37" gp="1" code="37">
+   <rush att="29" yds="233" gain="233" loss="0" td="3" long="26"></rush>
+   <kr no="3" yds="63" td="0" long="30"></kr>
+   <scoring td="3"></scoring>
+  </player>
+  <player name="Greco L." shortname="Greco L." checkname="L.,GRECO" uni="28" gp="1" code="28">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="Gulisano R." shortname="Gulisano R." checkname="R.,GULISANO" uni="31" gp="1" code="31">
+   <defense tackua="1" tacka="1" tot_tack="2" brup="1"></defense>
+  </player>
+  <player name="Tracuzzi Spa G." shortname="Tracuzzi Spa G." checkname="SPA G.,TRACUZZI" uni="35" gp="1" code="35">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+  <player name="Pinieri M." shortname="Pinieri M." checkname="M.,PINIERI" uni="42" gp="1" code="42">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Fichera S." shortname="Fichera S." checkname="S.,FICHERA" uni="47" gp="1" code="47">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Privitera D." shortname="Privitera D." checkname="D.,PRIVITERA" uni="57" gp="1" code="57">
+   <defense tackua="2" tacka="2" tot_tack="4"></defense>
+  </player>
+  <player name="Bonaccorsi G." shortname="Bonaccorsi G." checkname="G.,BONACCORSI" uni="81" gp="1" code="81">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+  <player name="Crocella' S." shortname="Crocella' S." checkname="S.,CROCELLA'" uni="88" gp="1" code="88">
+   <defense tackua="2" tacka="0" tot_tack="2" tflua="2" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Piccione S." shortname="Piccione S." checkname="S.,PICCIONE" uni="89" gp="1" code="89">
+   <ko no="4" yds="189" ob="0" tb="0"></ko>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0" tot_tack="1" ff="1"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="EPC" qtr="1" clock="00:00" type="TD" how="RUSH" yds="4" scorer="Lombardo E." patby="Maugeri G." pattype="KICK" patres="GOOD" plays="13" drive="75" top="8:50" vscore="0" hscore="7" driveindex="3"></score>
+  <score vh="H" team="EPC" qtr="2" clock="08:20" type="TD" how="RUSH" yds="9" scorer="Lombardo E." patby="Maugeri G." pattype="KICK" patres="GOOD" plays="4" drive="20" top="3:30" vscore="0" hscore="14" driveindex="5"></score>
+  <score vh="V" team="CRU" qtr="2" clock="07:25" type="TD" how="PASS" yds="61" scorer="Brisu F." passer="Meloni M." patby="Meloni M." pattype="PASS" patres="FAIL" plays="1" drive="61" top="0:07" vscore="6" hscore="14" driveindex="6"></score>
+  <score vh="H" team="EPC" qtr="2" clock="01:50" type="TD" how="RUSH" yds="18" scorer="Lombardo E." patby="Maugeri G." pattype="KICK" patres="GOOD" plays="10" drive="63" top="5:25" vscore="6" hscore="21" driveindex="7"></score>
+  <score vh="V" team="CRU" qtr="4" clock="11:50" type="TD" how="RUSH" yds="3" scorer="Meloni M." patby="Meloni M." pattype="PASS" patres="FAIL" plays="5" drive="65" top="1:25" vscore="12" hscore="21" driveindex="12"></score>
+ </scores>
+ <fgas>
+  <fga vh="H" team="EPC" kicker="Maugeri G." qtr="3" clock="01:15" distance="37" result="blkd"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="EPC" start="KO,1,12:00,25" end="PUNT,1,10:26,30" plays="3" yards="5" top="1:34" start_how="KO" start_qtr="1" start_time="12:00" start_spot="EPC25" end_how="PUNT" end_qtr="1" end_time="10:26" end_spot="EPC30" driveindex="1"></drive>
+  <drive vh="V" team="CRU" start="PUNT,1,10:26,51" end="PUNT,1,08:40,56" plays="3" yards="5" top="1:46" start_how="PUNT" start_qtr="1" start_time="10:26" start_spot="EPC39" end_how="PUNT" end_qtr="1" end_time="08:40" end_spot="EPC34" driveindex="2"></drive>
+  <drive vh="H" team="EPC" start="PUNT,1,08:40,15" end="TD,2,11:50,90" plays="13" yards="75" top="8:50" start_how="PUNT" start_qtr="1" start_time="08:40" start_spot="EPC15" end_how="TD" end_qtr="2" end_time="11:50" end_spot="CRU00" rz="1" driveindex="3"></drive>
+  <drive vh="V" team="CRU" start="KO,1,00:00,20" end="FUMB,2,11:50,20" plays="0" yards="0" top="0:10" start_how="KO" start_qtr="1" start_time="00:00" start_spot="CRU20" end_how="FUMB" end_qtr="2" end_time="11:50" end_spot="CRU20" driveindex="4"></drive>
+  <drive vh="H" team="EPC" start="FUMB,2,11:50,70" end="TD,2,08:20,90" plays="4" yards="20" top="3:30" start_how="FUMB" start_qtr="2" start_time="11:50" start_spot="CRU20" end_how="TD" end_qtr="2" end_time="08:20" end_spot="CRU00" rz="1" driveindex="5"></drive>
+  <drive vh="V" team="CRU" start="KO,2,07:32,29" end="TD,2,07:25,90" plays="1" yards="61" top="0:07" start_how="KO" start_qtr="2" start_time="07:32" start_spot="CRU29" end_how="TD" end_qtr="2" end_time="07:25" end_spot="EPC00" driveindex="6"></drive>
+  <drive vh="H" team="EPC" start="KO,2,07:15,27" end="TD,2,01:50,90" plays="10" yards="63" top="5:25" start_how="KO" start_qtr="2" start_time="07:15" start_spot="EPC27" end_how="TD" end_qtr="2" end_time="01:50" end_spot="CRU00" rz="1" driveindex="7"></drive>
+  <drive vh="V" team="CRU" start="KO,2,01:46,14" end="PUNT,2,00:07,12" plays="3" yards="-2" top="1:39" start_how="KO" start_qtr="2" start_time="01:46" start_spot="CRU14" end_how="PUNT" end_qtr="2" end_time="00:07" end_spot="CRU12" driveindex="8"></drive>
+  <drive vh="H" team="EPC" start="PUNT,2,00:07,34" end="HALF,2,00:00,34" plays="1" yards="0" top="0:07" start_how="PUNT" start_qtr="2" start_time="00:07" start_spot="EPC34" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="EPC34" driveindex="9"></drive>
+  <drive vh="V" team="CRU" start="KO,3,12:00,29" end="PUNT,3,09:02,46" plays="6" yards="17" top="2:58" start_how="KO" start_qtr="3" start_time="12:00" start_spot="CRU29" end_how="PUNT" end_qtr="3" end_time="09:02" end_spot="EPC44" driveindex="10"></drive>
+  <drive vh="H" team="EPC" start="PUNT,3,09:02,4" end="FGA,3,01:15,70" plays="11" yards="66" top="7:47" start_how="PUNT" start_qtr="3" start_time="09:02" start_spot="EPC04" end_how="FGA" end_qtr="3" end_time="01:15" end_spot="CRU20" rz="1" driveindex="11"></drive>
+  <drive vh="V" team="CRU" start="FGA,3,01:15,25" end="TD,4,11:50,90" plays="5" yards="65" top="1:25" start_how="FGA" start_qtr="3" start_time="01:15" start_spot="CRU25" end_how="TD" end_qtr="4" end_time="11:50" end_spot="EPC00" rz="1" driveindex="12"></drive>
+  <drive vh="H" team="EPC" start="KO,4,11:38,40" end="PUNT,4,05:44,55" plays="5" yards="15" top="5:54" start_how="KO" start_qtr="4" start_time="11:38" start_spot="EPC40" end_how="PUNT" end_qtr="4" end_time="05:44" end_spot="CRU35" driveindex="13"></drive>
+  <drive vh="V" team="CRU" start="PUNT,4,05:44,14" end="INT,4,03:55,55" plays="5" yards="41" top="1:49" start_how="PUNT" start_qtr="4" start_time="05:44" start_spot="CRU14" end_how="INT" end_qtr="4" end_time="03:55" end_spot="EPC35" rz="1" driveindex="14"></drive>
+  <drive vh="H" team="EPC" start="INT,4,03:55,10" end="PUNT,4,01:36,18" plays="6" yards="8" top="2:19" start_how="INT" start_qtr="4" start_time="03:55" start_spot="EPC10" end_how="PUNT" end_qtr="4" end_time="01:36" end_spot="EPC18" driveindex="15"></drive>
+  <drive vh="V" team="CRU" start="PUNT,4,01:36,35" end="HALF,4,00:00,83" plays="5" yards="48" top="1:36" start_how="PUNT" start_qtr="4" start_time="01:36" start_spot="CRU35" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="EPC07" rz="1" driveindex="16"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="CRU" down="1" togo="10" spot="CRU30" context="V,1,10,V30" playid="0,1,0" type="K"
+      text="Cordeddu M. kickoff 50 yards to the EPC10, Lombardo E. return 15 yards to the EPC25 (Murgia S.)." newcontext="H,1,10,H25">
+    <p_ko vh="V" name="Cordeddu M." gain="50"></p_ko>
+    <p_kr vh="H" name="Lombardo E." gain="15"></p_kr>
+    <p_tk vh="V" name="Murgia S."></p_tk>
+   </play>
+   <drivestart poss="H,H25,12:00" vh="H" spot="H25" clock="12:00" driveindex="1,0"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC25" context="H,1,10,H25" playid="1,1,1" type="R"
+      text="Aronica F. rush for loss of 3 yards to the EPC22 (Cuccu R.)." newcontext="H,2,13,H22">
+    <p_ru vh="H" name="Aronica F." gain="-3"></p_ru>
+    <p_tk vh="V" name="Cuccu R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="13" spot="EPC22" context="H,2,13,H22" playid="1,2,2" type="P"
+      text="Aronica F. pass incomplete to Piccione S. (TEAM)." newcontext="H,3,13,H22">
+    <p_pa vh="H" qb="Aronica F." result="BRUP" rcv="Piccione S."></p_pa>
+    <p_bu vh="V" name="TEAM"></p_bu>
+   </play>
+   <play hasball="EPC" down="3" togo="13" spot="EPC22" context="H,3,13,H22" playid="1,3,3" type="R"
+      text="Lombardo E. rush for 8 yards to the EPC30." newcontext="H,4,5,H30">
+    <p_ru vh="H" name="Lombardo E." gain="8"></p_ru>
+   </play>
+   <play hasball="EPC" down="4" togo="5" spot="EPC30" context="H,4,5,H30" playid="1,4,4" type="U"
+      text="Maugeri G. punt 35 yards to the CRU25, Brisu F. return 26 yards to the EPC39 (Gulisano R.)." newcontext="V,1,10,H39">
+    <p_pu vh="H" name="Maugeri G." gain="35"></p_pu>
+    <p_pr vh="V" name="Brisu F." gain="26"></p_pr>
+    <p_tk vh="H" name="Gulisano R."></p_tk>
+   </play>
+   <drivesum plays="3" yards="5" top="1:34" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,H39,12:00" vh="V" spot="H39" clock="12:00" driveindex="2,4"></drivestart>
+   <play hasball="CRU" down="1" togo="10" spot="EPC39" context="V,1,10,H39" playid="2,1,5" clock="10:26"
+      text="CRUSADERS CAGLIARI drive start at 10:26." newcontext="V,1,10,H39">
+   </play>
+   <play hasball="CRU" down="1" togo="10" spot="EPC39" context="V,1,10,H39" playid="2,2,6" type="R"
+      text="Billardello M. rush for 4 yards to the EPC35 (Privitera D.)." newcontext="V,2,6,H35">
+    <p_ru vh="V" name="Billardello M." gain="4"></p_ru>
+    <p_tk vh="H" name="Privitera D."></p_tk>
+   </play>
+   <play hasball="CRU" down="2" togo="6" spot="EPC35" context="V,2,6,H35" playid="2,3,7" type="R"
+      text="Billardello M. rush for 3 yards to the EPC32 (Privitera D.)." newcontext="V,3,3,H32">
+    <p_ru vh="V" name="Billardello M." gain="3"></p_ru>
+    <p_tk vh="H" name="Privitera D."></p_tk>
+   </play>
+   <play hasball="CRU" down="3" togo="3" spot="EPC32" context="V,3,3,H32" playid="2,4,8" type="R"
+      text="Cordeddu M. rush for loss of 2 yards to the EPC34 (Crocella' S.)." newcontext="V,4,5,H34">
+    <p_ru vh="V" name="Cordeddu M." gain="-2"></p_ru>
+    <p_tk vh="H" name="Crocella' S." tfl="Y"></p_tk>
+   </play>
+   <play hasball="CRU" down="4" togo="5" spot="EPC34" context="V,4,5,H34" playid="2,5,9" type="U"
+      text="Cordeddu M. punt 24 yards to the EPC10, Maugeri G. return 5 yards to the EPC15 (Atzori N.)." newcontext="H,1,10,H15">
+    <p_pu vh="V" name="Cordeddu M." gain="24" in20="Y"></p_pu>
+    <p_pr vh="H" name="Maugeri G." gain="5"></p_pr>
+    <p_tk vh="V" name="Atzori N."></p_tk>
+   </play>
+   <drivesum plays="3" yards="5" top="1:46" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,H15,10:26" vh="H" spot="H15" clock="10:26" driveindex="3,9"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC15" context="H,1,10,H15" playid="3,1,10" clock="08:40"
+      text="ELEPHANTS CATANIA drive start at 08:40." newcontext="H,1,10,H15">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC15" context="H,1,10,H15" playid="3,2,11" type="R" first="R"
+      text="Lombardo E. rush for 26 yards to the EPC41, 1ST DOWN EPC (Usai G.)." newcontext="H,1,10,H41">
+    <p_ru vh="H" name="Lombardo E." gain="26"></p_ru>
+    <p_tk vh="V" name="Usai G."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC41" context="H,1,10,H41" playid="3,3,12" type="P"
+      text="Aronica F. pass complete to Castello M. for no gain to the EPC41 (Matta F.)." newcontext="H,2,10,H41">
+    <p_pa vh="H" qb="Aronica F." result="COMP" rcv="Castello M." gain="0"></p_pa>
+    <p_tk vh="V" name="Matta F."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="EPC41" context="H,2,10,H41" playid="3,4,13" type="R"
+      text="Aronica F. rush for loss of 2 yards to the EPC39 (Cuccu R.;Giuliano F.)." newcontext="H,3,12,H39">
+    <p_ru vh="H" name="Aronica F." gain="-2"></p_ru>
+    <p_tk vh="V" name="Cuccu R." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Giuliano F." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="12" spot="EPC39" context="H,3,12,H39" playid="3,5,14" type="R"
+      text="Aronica F. rush for 10 yards to the CRU41 (Murgia S.)." newcontext="H,4,2,V41">
+    <p_ru vh="H" name="Aronica F." gain="10"></p_ru>
+    <p_tk vh="V" name="Murgia S."></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="2" spot="CRU41" context="H,4,2,V41" playid="3,6,15" type="E"
+      text="PENALTY CRU offside defense 0 yards to the CRU41." newcontext="H,4,2,V41">
+    <p_pn vh="V" code="OD" type="offside defense" result="ACCEPT"></p_pn>
+   </play>
+   <play hasball="EPC" down="4" togo="2" spot="CRU41" context="H,4,2,V41" playid="3,7,16" type="E" first="E"
+      text="PENALTY CRU offside defense 5 yards to the CRU36, 1ST DOWN EPC." newcontext="H,1,10,V36">
+    <p_pn vh="V" code="OD" type="offside defense" result="ACCEPT" at="V41" yards="5"></p_pn>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="CRU36" context="H,1,10,V36" playid="3,8,17" type="R"
+      text="Lombardo E. rush for 5 yards to the CRU31 (Cuccu R.)." newcontext="H,2,5,V31">
+    <p_ru vh="H" name="Lombardo E." gain="5"></p_ru>
+    <p_tk vh="V" name="Cuccu R."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="5" spot="CRU31" context="H,2,5,V31" playid="3,9,18" type="R"
+      text="Lombardo E. rush for 4 yards to the CRU27 (Murgia S.;Dessi F.)." newcontext="H,3,1,V27">
+    <p_ru vh="H" name="Lombardo E." gain="4"></p_ru>
+    <p_tk vh="V" name="Murgia S." assist="Y"></p_tk>
+    <p_tk vh="V" name="Dessi F." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="1" spot="CRU27" context="H,3,1,V27" playid="3,10,19" type="R" first="R"
+      text="Aronica F. rush for 2 yards to the CRU25, 1ST DOWN EPC (Giuliano F.)." newcontext="H,1,10,V25">
+    <p_ru vh="H" name="Aronica F." gain="2"></p_ru>
+    <p_tk vh="V" name="Giuliano F."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="CRU25" context="H,1,10,V25" playid="3,11,20" type="P"
+      text="Aronica F. pass incomplete to Piccione S.." newcontext="H,2,10,V25">
+    <p_pa vh="H" qb="Aronica F." result="INC" rcv="Piccione S."></p_pa>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="CRU25" context="H,2,10,V25" playid="3,12,21" type="R"
+      text="Lombardo E. rush for 6 yards to the CRU19 (Pili I.)." newcontext="H,3,4,V19">
+    <p_ru vh="H" name="Lombardo E." gain="6"></p_ru>
+    <p_tk vh="V" name="Pili I."></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="4" spot="CRU19" context="H,3,4,V19" playid="3,13,22" type="R"
+      text="Aronica F. rush for 2 yards to the CRU17 (Dessi F.)." newcontext="H,4,2,V17">
+    <p_ru vh="H" name="Aronica F." gain="2"></p_ru>
+    <p_tk vh="V" name="Dessi F."></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="2" spot="CRU17" context="H,4,2,V17" playid="3,14,23" type="R" first="R"
+      text="Lombardo E. rush for 5 yards to the CRU12, 1ST DOWN EPC (Giuliano F.)." newcontext="H,1,10,V12">
+    <p_ru vh="H" name="Lombardo E." gain="5"></p_ru>
+    <p_tk vh="V" name="Giuliano F."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="CRU12" context="H,1,10,V12" playid="3,15,24" type="R"
+      text="Aronica F. rush for 8 yards to the CRU4, out-of-bounds." ob="Y" newcontext="H,2,2,V04">
+    <p_ru vh="H" name="Aronica F." gain="8"></p_ru>
+   </play>
+   <play hasball="EPC" down="2" togo="2" spot="CRU04" context="H,2,2,V04" playid="3,16,25" type="R" first="R" score="Y" clock="00:00"
+      text="Lombardo E. rush for 4 yards to the CRU0, 1ST DOWN EPC, TOUCHDOWN, clock 00:00." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Lombardo E." gain="4"></p_ru>
+   </play>
+   <play hasball="EPC" down="1" togo="0" spot="CRU03" context="H,1,0,V03" playid="3,17,26" type="X" score="Y"
+      text="Maugeri G. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Maugeri G." qb="Maugeri G." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="7"></score>
+   <score qtr="1" V="0" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="CRU">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="01:46"></misc>
+    <rush att="3" yds="5" gain="7" loss="2" td="0" long="4"></rush>
+    <punt no="1" yds="24" long="24" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="24.0"></punt>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <defense tackua="11" tacka="4" tot_tack="15" tflua="3" tfla="0" tflyds="7" sacks="0" sackyds="0" brup="1"></defense>
+    <pr no="1" yds="26" td="0" long="26"></pr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="EPC">
+    <firstdowns no="5" rush="4" pass="0" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="10:14"></misc>
+    <rush att="13" yds="75" gain="80" loss="5" td="1" long="26"></rush>
+    <pass comp="1" att="3" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="0" td="0" long="0"></rcv>
+    <punt no="1" yds="35" long="35" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="35.0"></punt>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="4" tacka="0" tot_tack="4" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="15" td="0" long="15"></kr>
+    <pr no="1" yds="5" td="0" long="5"></pr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="EPC" down="1" togo="0" spot="EPC30" context="H,1,0,H30" playid="3,18,27" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="H,1,0,H30">
+   </play>
+   <drivesum plays="13" yards="75" top="8:50" driveindex="3" complete="Y"></drivesum>
+   <play hasball="EPC" down="1" togo="0" spot="EPC30" context="H,1,0,H30" playid="3,19,28" type="K" turnover="F"
+      text="Piccione S. kickoff 60 yards to the CRU0, Brisu F. return 20 yards to the CRU20, fumble forced by TEAM, fumble by Brisu F. recovered by EPC Castello M. at CRU20." newcontext="H,1,10,V20">
+    <p_ko vh="H" name="Piccione S." gain="60"></p_ko>
+    <p_kr vh="V" name="Brisu F." gain="20"></p_kr>
+    <p_fumb vh="V" name="Brisu F." at="V20" frvh="H" frname="Castello M."></p_fumb>
+    <p_tk vh="H" name="TEAM" ff="Y"></p_tk>
+   </play>
+   <drivestart poss="H,V20,12:00" vh="H" spot="V20" clock="12:00" driveindex="5,28"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="CRU20" context="H,1,10,V20" playid="5,1,29" clock="11:50"
+      text="ELEPHANTS CATANIA drive start at 11:50." newcontext="H,1,10,V20">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="CRU20" context="H,1,10,V20" playid="5,2,30" type="R"
+      text="1st and 10, Lombardo E. rush for 18 yards to the CRU2, PENALTY EPC OH (Bonaccorsi S.) 10 yards to the CRU12." newcontext="H,1,2,V12">
+    <p_ru vh="H" name="Lombardo E." gain="18"></p_ru>
+    <p_pn vh="H" code="OH" type="OH" name="Bonaccorsi S." result="ACCEPT" at="V02" yards="10"></p_pn>
+   </play>
+   <play hasball="EPC" down="1" togo="2" spot="CRU12" context="H,1,2,V12" playid="5,3,31" type="R"
+      text="Lombardo E. rush for 1 yard to the CRU11 (Giuliano F.)." newcontext="H,2,1,V11">
+    <p_ru vh="H" name="Lombardo E." gain="1"></p_ru>
+    <p_tk vh="V" name="Giuliano F."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="1" spot="CRU11" context="H,2,1,V11" playid="5,4,32" type="R" first="R"
+      text="Aronica F. rush for 2 yards to the CRU9, 1ST DOWN EPC (Giuliano F.)." newcontext="H,1,0,V09">
+    <p_ru vh="H" name="Aronica F." gain="2"></p_ru>
+    <p_tk vh="V" name="Giuliano F."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="0" spot="CRU09" context="H,1,0,V09" playid="5,5,33" type="R" score="Y" clock="08:20"
+      text="Lombardo E. rush for 9 yards to the CRU0, TOUCHDOWN, clock 08:20." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Lombardo E." gain="9"></p_ru>
+   </play>
+   <play hasball="EPC" down="1" togo="0" spot="CRU03" context="H,1,0,V03" playid="5,6,34" type="X" score="Y"
+      text="Maugeri G. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Maugeri G." qb="Maugeri G." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="14"></score>
+   <play hasball="EPC" down="1" togo="0" spot="EPC30" context="H,1,0,H30" playid="5,7,35" type="E"
+      text="Piccione S. kickoff 50 yards to the CRU10, out-of-bounds, PENALTY EPC illegal procedure 5 yards to the EPC25, NO PLAY." ob="Y" newcontext="H,1,0,H25">
+    <p_pn vh="H" code="PR" type="illegal procedure" result="ACCEPT" at="H30" yards="5"></p_pn>
+   </play>
+   <drivesum plays="4" yards="20" top="3:30" driveindex="5" complete="Y"></drivesum>
+   <play hasball="EPC" down="1" togo="0" spot="EPC25" context="H,1,0,H25" playid="5,8,36" type="K"
+      text="Piccione S. kickoff 50 yards to the CRU15, Brisu F. return 14 yards to the CRU29 (Maugeri G.)." newcontext="V,1,10,V29">
+    <p_ko vh="H" name="Piccione S." gain="50"></p_ko>
+    <p_kr vh="V" name="Brisu F." gain="14"></p_kr>
+    <p_tk vh="H" name="Maugeri G."></p_tk>
+   </play>
+   <drivestart poss="V,V29,08:20" vh="V" spot="V29" clock="08:20" driveindex="6,36"></drivestart>
+   <play hasball="CRU" down="1" togo="10" spot="CRU29" context="V,1,10,V29" playid="6,1,37" clock="07:32"
+      text="CRUSADERS CAGLIARI drive start at 07:32." newcontext="V,1,10,V29">
+   </play>
+   <play hasball="CRU" down="1" togo="10" spot="CRU29" context="V,1,10,V29" playid="6,2,38" type="P" first="P" score="Y" clock="07:25"
+      text="Meloni M. pass complete to Brisu F. for 61 yards to the EPC0, 1ST DOWN CRU, TOUCHDOWN, clock 07:25." newcontext="V,1,0,H03">
+    <p_pa vh="V" qb="Meloni M." result="COMP" rcv="Brisu F." gain="61"></p_pa>
+   </play>
+   <play hasball="CRU" down="1" togo="0" spot="EPC03" context="V,1,0,H03" playid="6,3,39" type="X"
+      text="Meloni M. pass attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Meloni M." qb="Meloni M." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="6" H="14"></score>
+   <drivesum plays="1" yards="61" top="0:07" driveindex="6" complete="Y"></drivesum>
+   <play hasball="CRU" down="1" togo="0" spot="CRU30" context="V,1,0,V30" playid="6,4,40" type="K"
+      text="Cordeddu M. kickoff 51 yards to the EPC9, Lombardo E. return 18 yards to the EPC27 (Murgia S.)." newcontext="H,1,10,H27">
+    <p_ko vh="V" name="Cordeddu M." gain="51"></p_ko>
+    <p_kr vh="H" name="Lombardo E." gain="18"></p_kr>
+    <p_tk vh="V" name="Murgia S."></p_tk>
+   </play>
+   <drivestart poss="H,H27,07:25" vh="H" spot="H27" clock="07:25" driveindex="7,40"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC27" context="H,1,10,H27" playid="7,1,41" clock="07:15"
+      text="ELEPHANTS CATANIA drive start at 07:15." newcontext="H,1,10,H27">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC27" context="H,1,10,H27" playid="7,2,42" type="R"
+      text="Lombardo E. rush for 9 yards to the EPC36 (Cuccu R.)." newcontext="H,2,1,H36">
+    <p_ru vh="H" name="Lombardo E." gain="9"></p_ru>
+    <p_tk vh="V" name="Cuccu R."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="1" spot="EPC36" context="H,2,1,H36" playid="7,3,43" type="R" first="R"
+      text="Lombardo E. rush for 9 yards to the 45 yardline, 1ST DOWN EPC (Murgia S.)." newcontext="H,1,10,H45">
+    <p_ru vh="H" name="Lombardo E." gain="9"></p_ru>
+    <p_tk vh="V" name="Murgia S."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC45" context="H,1,10,H45" playid="7,4,44" type="P"
+      text="Aronica F. sacked for loss of 5 yards to the EPC40 (Pili I.;Giuliano F.)." newcontext="H,2,15,H40">
+    <p_pa vh="H" qb="Aronica F." result="SACK" gain="-5"></p_pa>
+    <p_tk vh="V" name="Pili I." sack="Y" tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="V" name="Giuliano F." sack="Y" tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="15" spot="EPC40" context="H,2,15,H40" playid="7,5,45" type="R"
+      text="Lombardo E. rush for no gain to the EPC40 (Giuliano F.;Ashak E.)." newcontext="H,3,15,H40">
+    <p_ru vh="H" name="Lombardo E." gain="0"></p_ru>
+    <p_tk vh="V" name="Giuliano F." assist="Y"></p_tk>
+    <p_tk vh="V" name="Ashak E." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="15" spot="EPC40" context="H,3,15,H40" playid="7,6,46" type="R"
+      text="Aronica F. rush for 11 yards to the CRU39 (Pili I.)." newcontext="H,4,4,V39">
+    <p_ru vh="H" name="Aronica F." gain="11"></p_ru>
+    <p_tk vh="V" name="Pili I."></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="4" spot="CRU39" context="H,4,4,V39" playid="7,7,47" type="R" first="R"
+      text="Lombardo E. rush for 10 yards to the CRU29, 1ST DOWN EPC (Carta G.)." newcontext="H,1,10,V29">
+    <p_ru vh="H" name="Lombardo E." gain="10"></p_ru>
+    <p_tk vh="V" name="Carta G."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="CRU29" context="H,1,10,V29" playid="7,8,48" type="P"
+      text="Aronica F. pass incomplete to Castello M.." newcontext="H,2,10,V29">
+    <p_pa vh="H" qb="Aronica F." result="INC" rcv="Castello M."></p_pa>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="CRU29" context="H,2,10,V29" playid="7,9,49" type="R"
+      text="Lombardo E. rush for 5 yards to the CRU24 (Murgia S.;Ashak E.)." newcontext="H,3,5,V24">
+    <p_ru vh="H" name="Lombardo E." gain="5"></p_ru>
+    <p_tk vh="V" name="Murgia S." assist="Y"></p_tk>
+    <p_tk vh="V" name="Ashak E." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="5" spot="CRU24" context="H,3,5,V24" playid="7,10,50" type="R" first="R"
+      text="Aronica F. rush for 6 yards to the CRU18, 1ST DOWN EPC (Dessi F.)." newcontext="H,1,10,V18">
+    <p_ru vh="H" name="Aronica F." gain="6"></p_ru>
+    <p_tk vh="V" name="Dessi F."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="CRU18" context="H,1,10,V18" playid="7,11,51" type="R" first="R" score="Y" clock="01:50"
+      text="Lombardo E. rush for 18 yards to the CRU0, 1ST DOWN EPC, TOUCHDOWN, clock 01:50." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Lombardo E." gain="18"></p_ru>
+   </play>
+   <play hasball="EPC" down="1" togo="0" spot="CRU03" context="H,1,0,V03" playid="7,12,52" type="X" score="Y"
+      text="Maugeri G. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Maugeri G." qb="Maugeri G." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="6" H="21"></score>
+   <drivesum plays="10" yards="63" top="5:25" driveindex="7" complete="Y"></drivesum>
+   <play hasball="EPC" down="1" togo="0" spot="EPC30" context="H,1,0,H30" playid="7,13,53" type="K"
+      text="Piccione S. kickoff 48 yards to the CRU12, Brisu F. return 2 yards to the CRU14." newcontext="V,1,10,V14">
+    <p_ko vh="H" name="Piccione S." gain="48"></p_ko>
+    <p_kr vh="V" name="Brisu F." gain="2"></p_kr>
+   </play>
+   <drivestart poss="V,V14,01:50" vh="V" spot="V14" clock="01:50" driveindex="8,53"></drivestart>
+   <play hasball="CRU" down="1" togo="10" spot="CRU14" context="V,1,10,V14" playid="8,1,54" clock="01:46"
+      text="CRUSADERS CAGLIARI drive start at 01:46." newcontext="V,1,10,V14">
+   </play>
+   <play hasball="CRU" down="1" togo="10" spot="CRU14" context="V,1,10,V14" playid="8,2,55" type="R"
+      text="Billardello M. rush for no gain to the CRU14 (Privitera D.;Giordano L.)." newcontext="V,2,10,V14">
+    <p_ru vh="V" name="Billardello M." gain="0"></p_ru>
+    <p_tk vh="H" name="Privitera D." assist="Y"></p_tk>
+    <p_tk vh="H" name="Giordano L." assist="Y"></p_tk>
+   </play>
+   <play hasball="CRU" down="2" togo="10" spot="CRU14" context="V,2,10,V14" playid="8,3,56" type="E"
+      text="PENALTY CRU offside 5 yards to the CRU9." newcontext="V,2,15,V09">
+    <p_pn vh="V" code="OS" type="offside" result="ACCEPT" at="V14" yards="5"></p_pn>
+   </play>
+   <play hasball="CRU" down="2" togo="15" spot="CRU09" context="V,2,15,V09" playid="8,4,57" type="E"
+      text="Meloni M. rush for no gain to the CRU9 (Bonaccorsi G.), PENALTY CRU illegal formation 5 yards to the CRU4, NO PLAY." newcontext="V,2,20,V04">
+    <p_pn vh="V" code="FO" type="illegal formation" result="ACCEPT" at="V09" yards="5"></p_pn>
+   </play>
+   <play hasball="CRU" down="2" togo="20" spot="CRU04" context="V,2,20,V04" playid="8,5,58" type="R"
+      text="Meloni M. rush for 8 yards to the CRU12 (Di Mauro G.)." newcontext="V,3,12,V12">
+    <p_ru vh="V" name="Meloni M." gain="8"></p_ru>
+    <p_tk vh="H" name="Di Mauro G."></p_tk>
+   </play>
+   <play hasball="CRU" down="3" togo="12" spot="CRU12" context="V,3,12,V12" playid="8,6,59" type="P"
+      text="Meloni M. pass incomplete to Pisu M.." newcontext="V,4,12,V12">
+    <p_pa vh="V" qb="Meloni M." result="INC" rcv="Pisu M."></p_pa>
+   </play>
+   <play hasball="CRU" down="4" togo="12" spot="CRU12" context="V,4,12,V12" playid="8,7,60" type="U"
+      text="Cordeddu M. punt 44 yards to the EPC34, out-of-bounds." ob="Y" newcontext="H,1,10,H34">
+    <p_pu vh="V" name="Cordeddu M." gain="44" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="3" yards="-2" top="1:39" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="H,H34,01:46" vh="H" spot="H34" clock="01:46" driveindex="9,60"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC34" context="H,1,10,H34" playid="9,1,61" clock="00:07"
+      text="ELEPHANTS CATANIA drive start at 00:07." newcontext="H,1,10,H34">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC34" context="H,1,10,H34" playid="9,2,62" type="P"
+      text="Aronica F. pass incomplete to Castello M.." newcontext="H,2,10,H34">
+    <p_pa vh="H" qb="Aronica F." result="INC" rcv="Castello M."></p_pa>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="EPC34" context="H,2,10,H34" playid="9,3,63" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="H,2,10,H34">
+   </play>
+   <drivesum plays="1" yards="0" top="0:07" driveindex="9" complete="Y"></drivesum>
+   <score qtr="2" V="6" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="CRU">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="02:38"></misc>
+    <rush att="2" yds="8" gain="8" loss="0" td="0" long="4"></rush>
+    <pass comp="1" att="2" int="0" yds="61" td="1" long="61" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="61" td="1" long="61"></rcv>
+    <punt no="1" yds="44" long="20" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="44.0"></punt>
+    <ko no="1" yds="51" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="8" tacka="6" tot_tack="14" tflua="2" tfla="0" tflyds="10" sacks="1" sackyds="5"></defense>
+    <kr no="4" yds="36" td="0" long="20"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="EPC">
+    <firstdowns no="5" rush="5" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="15"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="2" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:22"></misc>
+    <rush att="13" yds="93" gain="98" loss="5" td="2" long="0"></rush>
+    <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="1" sackyds="5"></pass>
+    <ko no="4" yds="189" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="3" tacka="2" tot_tack="5" sacks="0" sackyds="0" ff="1" fr="1" fryds="0"></defense>
+    <kr no="1" yds="18" td="0" long="3"></kr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="EPC" down="2" togo="10" spot="EPC34" context="H,2,10,H34" playid="9,4,64" type="K" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, EPC ball on EPC30, Piccione S. kickoff 31 yards to the CRU29, Pisu M. return 0 yards to the CRU29." newcontext="V,1,10,V29">
+    <p_ko vh="H" name="Piccione S." gain="31"></p_ko>
+    <p_kr vh="V" name="Pisu M." gain="0"></p_kr>
+   </play>
+   <drivestart poss="V,V29,12:00" vh="V" spot="V29" clock="12:00" driveindex="10,64"></drivestart>
+   <play hasball="CRU" down="1" togo="10" spot="CRU29" context="V,1,10,V29" playid="10,1,65" clock="12:00"
+      text="CRUSADERS CAGLIARI drive start at 12:00." newcontext="V,1,10,V29">
+   </play>
+   <play hasball="CRU" down="1" togo="10" spot="CRU29" context="V,1,10,V29" playid="10,2,66" type="P"
+      text="Meloni M. pass complete to Pili R. for 7 yards to the CRU36, out-of-bounds." ob="Y" newcontext="V,2,3,V36">
+    <p_pa vh="V" qb="Meloni M." result="COMP" rcv="Pili R." gain="7"></p_pa>
+   </play>
+   <play hasball="CRU" down="2" togo="3" spot="CRU36" context="V,2,3,V36" playid="10,3,67" type="R"
+      text="Billardello M. rush for loss of 3 yards to the CRU33 (Fichera S.)." newcontext="V,3,6,V33">
+    <p_ru vh="V" name="Billardello M." gain="-3"></p_ru>
+    <p_tk vh="H" name="Fichera S." tfl="Y"></p_tk>
+   </play>
+   <play hasball="CRU" down="3" togo="6" spot="CRU33" context="V,3,6,V33" playid="10,4,68" type="R" first="R"
+      text="Meloni M. rush for 14 yards to the EPC43, 1ST DOWN CRU (Bonaccorsi G.)." newcontext="V,1,10,H43">
+    <p_ru vh="V" name="Meloni M." gain="14"></p_ru>
+    <p_tk vh="H" name="Bonaccorsi G."></p_tk>
+   </play>
+   <play hasball="CRU" down="1" togo="10" spot="EPC43" context="V,1,10,H43" playid="10,5,69" type="R"
+      text="Cordeddu M. rush for loss of 1 yard to the EPC44." newcontext="V,2,11,H44">
+    <p_ru vh="V" name="Cordeddu M." gain="-1"></p_ru>
+   </play>
+   <play hasball="CRU" down="2" togo="11" spot="EPC44" context="V,2,11,H44" playid="10,6,70" type="P"
+      text="Meloni M. pass incomplete to Spadaccino L.." newcontext="V,3,11,H44">
+    <p_pa vh="V" qb="Meloni M." result="INC" rcv="Spadaccino L."></p_pa>
+   </play>
+   <play hasball="CRU" down="3" togo="11" spot="EPC44" context="V,3,11,H44" playid="10,7,71" type="P"
+      text="Meloni M. pass incomplete to Brisu F.." newcontext="V,4,11,H44">
+    <p_pa vh="V" qb="Meloni M." result="INC" rcv="Brisu F."></p_pa>
+   </play>
+   <play hasball="CRU" down="4" togo="11" spot="EPC44" context="V,4,11,H44" playid="10,8,72" type="U"
+      text="Cordeddu M. punt 40 yards to the EPC4." newcontext="H,1,10,H04">
+    <p_pu vh="V" name="Cordeddu M." gain="40" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="6" yards="17" top="2:58" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="H,H04,12:00" vh="H" spot="H04" clock="12:00" driveindex="11,72"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC04" context="H,1,10,H04" playid="11,1,73" clock="09:02"
+      text="ELEPHANTS CATANIA drive start at 09:02." newcontext="H,1,10,H04">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC04" context="H,1,10,H04" playid="11,2,74" type="R"
+      text="Aronica F. rush for loss of 3 yards to the EPC1 (Giuliano F.)." newcontext="H,2,13,H01">
+    <p_ru vh="H" name="Aronica F." gain="-3"></p_ru>
+    <p_tk vh="V" name="Giuliano F." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="13" spot="EPC01" context="H,2,13,H01" playid="11,3,75" type="R" first="R"
+      text="Lombardo E. rush for 16 yards to the EPC17, 1ST DOWN EPC." newcontext="H,1,10,H17">
+    <p_ru vh="H" name="Lombardo E." gain="16"></p_ru>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC17" context="H,1,10,H17" playid="11,4,76" type="R"
+      text="Lombardo E. rush for 2 yards to the EPC19 (Gandini M.)." newcontext="H,2,8,H19">
+    <p_ru vh="H" name="Lombardo E." gain="2"></p_ru>
+    <p_tk vh="V" name="Gandini M."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="8" spot="EPC19" context="H,2,8,H19" playid="11,5,77" type="R"
+      text="Aronica F. rush for 12 yards to the EPC31, PENALTY EPC holding 10 yards to the EPC21." newcontext="H,2,6,H21">
+    <p_ru vh="H" name="Aronica F." gain="12"></p_ru>
+    <p_pn vh="H" code="HO" type="holding" result="ACCEPT" at="H31" yards="10"></p_pn>
+   </play>
+   <play hasball="EPC" down="2" togo="6" spot="EPC21" context="H,2,6,H21" playid="11,6,78" type="R"
+      text="2nd and 6, Lombardo E. rush for 4 yards to the EPC25 (Ashak E.)." newcontext="H,3,2,H25">
+    <p_ru vh="H" name="Lombardo E." gain="4"></p_ru>
+    <p_tk vh="V" name="Ashak E."></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="2" spot="EPC25" context="H,3,2,H25" playid="11,7,79" type="R" first="R"
+      text="Lombardo E. rush for 20 yards to the 45 yardline, 1ST DOWN EPC, out-of-bounds." ob="Y" newcontext="H,1,10,H45">
+    <p_ru vh="H" name="Lombardo E." gain="20"></p_ru>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC45" context="H,1,10,H45" playid="11,8,80" type="R" first="R"
+      text="Lombardo E. rush for 20 yards to the CRU25, 1ST DOWN EPC (D'angelo G.)." newcontext="H,1,10,V25">
+    <p_ru vh="H" name="Lombardo E." gain="20"></p_ru>
+    <p_tk vh="V" name="D'angelo G."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="CRU25" context="H,1,10,V25" playid="11,9,81" type="R"
+      text="Aronica F. rush for no gain to the CRU25 (Giuliano F.)." newcontext="H,2,10,V25">
+    <p_ru vh="H" name="Aronica F." gain="0"></p_ru>
+    <p_tk vh="V" name="Giuliano F."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="CRU25" context="H,2,10,V25" playid="11,10,82" type="R"
+      text="Lombardo E. rush for 5 yards to the CRU20 (Cuccu R.)." newcontext="H,3,5,V20">
+    <p_ru vh="H" name="Lombardo E." gain="5"></p_ru>
+    <p_tk vh="V" name="Cuccu R."></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="5" spot="CRU20" context="H,3,5,V20" playid="11,11,83" type="R"
+      text="Lombardo E. rush for 5 yards to the CRU15 (Dessi F.), PENALTY EPC holding 10 yards to the CRU25." newcontext="H,3,10,V25">
+    <p_ru vh="H" name="Lombardo E." gain="5"></p_ru>
+    <p_tk vh="V" name="Dessi F."></p_tk>
+    <p_pn vh="H" code="HO" type="holding" result="ACCEPT" at="V15" yards="10"></p_pn>
+   </play>
+   <play hasball="EPC" down="3" togo="10" spot="CRU25" context="H,3,10,V25" playid="11,12,84"
+      text="3rd and 10." newcontext="H,3,10,V25">
+   </play>
+   <play hasball="EPC" down="3" togo="10" spot="CRU25" context="H,3,10,V25" playid="11,13,85" type="R"
+      text="Lombardo E. rush for 5 yards to the CRU20 (Cuccu R.;D'angelo G.)." newcontext="H,4,5,V20">
+    <p_ru vh="H" name="Lombardo E." gain="5"></p_ru>
+    <p_tk vh="V" name="Cuccu R." assist="Y"></p_tk>
+    <p_tk vh="V" name="D'angelo G." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="5" spot="CRU20" context="H,4,5,V20" playid="11,14,86" type="F" clock="01:15"
+      text="Maugeri G. field goal attempt from 37 BLOCKED, recovered by CRU Carpino A. at CRU25 spot at CRU25, clock 01:15 (blocked by Carpino A.), Carpino A. for 38 yards to the EPC27 (Maugeri G.)." newcontext="V,1,10,H27">
+    <p_fg vh="H" name="Maugeri G." distance="37" result="BLOCKED"></p_fg>
+    <p_cont vh="V" name="Carpino A." context="FGA" at="V25" gain="38"></p_cont>
+    <p_tk vh="H" name="Maugeri G."></p_tk>
+   </play>
+   <drivesum plays="11" yards="66" top="7:47" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="V,H27,01:15" vh="V" spot="H27" clock="01:15" driveindex="12,86"></drivestart>
+   <play hasball="CRU" down="1" togo="10" spot="EPC27" context="V,1,10,H27" playid="12,1,87" type="R"
+      text="Cordeddu M. rush for 8 yards to the EPC19 (Tracuzzi Spa G.)." newcontext="V,2,2,H19">
+    <p_ru vh="V" name="Cordeddu M." gain="8"></p_ru>
+    <p_tk vh="H" name="Tracuzzi Spa G."></p_tk>
+   </play>
+   <play hasball="CRU" down="2" togo="2" spot="EPC19" context="V,2,2,H19" playid="12,2,88" type="P" first="P"
+      text="Meloni M. pass complete to Pisu M. for 5 yards to the EPC14, 1ST DOWN CRU (Bonaccorsi G.)." newcontext="V,1,10,H14">
+    <p_pa vh="V" qb="Meloni M." result="COMP" rcv="Pisu M." gain="5"></p_pa>
+    <p_tk vh="H" name="Bonaccorsi G."></p_tk>
+   </play>
+   <play hasball="CRU" down="1" togo="10" spot="EPC14" context="V,1,10,H14" playid="12,3,89" type="P" first="P"
+      text="Meloni M. pass complete to Pisu M. for 10 yards to the EPC4, 1ST DOWN CRU (Bonaccorsi G.)." newcontext="V,1,0,H04">
+    <p_pa vh="V" qb="Meloni M." result="COMP" rcv="Pisu M." gain="10"></p_pa>
+    <p_tk vh="H" name="Bonaccorsi G."></p_tk>
+   </play>
+   <play hasball="CRU" down="1" togo="0" spot="EPC04" context="V,1,0,H04" playid="12,4,90" type="P"
+      text="Meloni M. pass complete to Pisu M. for 1 yard to the EPC3 (Tracuzzi Spa G.)." newcontext="V,2,0,H03">
+    <p_pa vh="V" qb="Meloni M." result="COMP" rcv="Pisu M." gain="1"></p_pa>
+    <p_tk vh="H" name="Tracuzzi Spa G."></p_tk>
+   </play>
+   <score qtr="3" V="6" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="CRU">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="43" top="04:13"></misc>
+    <rush att="4" yds="18" gain="22" loss="4" td="0" long="6"></rush>
+    <pass comp="4" att="6" int="0" yds="23" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="23" td="0" long="0"></rcv>
+    <punt no="1" yds="40" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="40.0"></punt>
+    <defense tackua="7" tacka="2" tot_tack="9" tflua="1" tfla="0" tflyds="3" sacks="1" sackyds="5" blkd="1"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="EPC">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:47"></misc>
+    <rush att="11" yds="86" gain="89" loss="3" td="0" long="0"></rush>
+    <fg made="0" att="1" long="0" blkd="1"></fg>
+    <defense tackua="7" tacka="0" tot_tack="7" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="CRU" down="2" togo="0" spot="EPC03" context="V,2,0,H03" playid="12,5,91" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="V,2,0,H03">
+   </play>
+   <play hasball="CRU" down="2" togo="0" spot="EPC03" context="V,2,0,H03" playid="12,6,92" type="R" score="Y" clock="11:50"
+      text="Meloni M. rush for 3 yards to the EPC0, TOUCHDOWN, clock 11:50." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="Meloni M." gain="3"></p_ru>
+   </play>
+   <play hasball="CRU" down="1" togo="0" spot="EPC03" context="V,1,0,H03" playid="12,7,93" type="X"
+      text="Meloni M. pass attempt failed." newcontext="V,1,0,V30">
+    <p_pat vh="V" name="Meloni M." qb="Meloni M." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="12" H="21"></score>
+   <drivesum plays="5" yards="27" top="1:25" driveindex="12" complete="Y"></drivesum>
+   <play hasball="CRU" down="1" togo="0" spot="CRU30" context="V,1,0,V30" playid="12,8,94" type="K"
+      text="Cordeddu M. kickoff 50 yards to the EPC10, Lombardo E. return 30 yards to the EPC40 (Dessi F.)." newcontext="H,1,10,H40">
+    <p_ko vh="V" name="Cordeddu M." gain="50"></p_ko>
+    <p_kr vh="H" name="Lombardo E." gain="30"></p_kr>
+    <p_tk vh="V" name="Dessi F."></p_tk>
+   </play>
+   <drivestart poss="H,H40,11:50" vh="H" spot="H40" clock="11:50" driveindex="13,94"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC40" context="H,1,10,H40" playid="13,1,95" clock="11:38"
+      text="ELEPHANTS CATANIA drive start at 11:38." newcontext="H,1,10,H40">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC40" context="H,1,10,H40" playid="13,2,96" type="R"
+      text="Aronica F. rush for 8 yards to the CRU42, out-of-bounds." ob="Y" newcontext="H,2,2,V42">
+    <p_ru vh="H" name="Aronica F." gain="8"></p_ru>
+   </play>
+   <play hasball="EPC" down="2" togo="2" spot="CRU42" context="H,2,2,V42" playid="13,3,97" type="R" first="R"
+      text="Lombardo E. rush for 3 yards to the CRU39, 1ST DOWN EPC (Cuccu R.)." newcontext="H,1,10,V39">
+    <p_ru vh="H" name="Lombardo E." gain="3"></p_ru>
+    <p_tk vh="V" name="Cuccu R."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="CRU39" context="H,1,10,V39" playid="13,4,98" type="R"
+      text="Aronica F. rush for no gain to the CRU39 (Matta F.)." newcontext="H,2,10,V39">
+    <p_ru vh="H" name="Aronica F." gain="0"></p_ru>
+    <p_tk vh="V" name="Matta F."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="CRU39" context="H,2,10,V39" playid="13,5,99" type="R"
+      text="Lombardo E. rush for 1 yard to the CRU38 (Matta F.;Murgia S.)." newcontext="H,3,9,V38">
+    <p_ru vh="H" name="Lombardo E." gain="1"></p_ru>
+    <p_tk vh="V" name="Matta F." assist="Y"></p_tk>
+    <p_tk vh="V" name="Murgia S." assist="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="3" togo="9" spot="CRU38" context="H,3,9,V38" playid="13,6,100" type="P"
+      text="Aronica F. pass complete to Castello M. for 3 yards to the CRU35 (Giuliano F.)." newcontext="H,4,6,V35">
+    <p_pa vh="H" qb="Aronica F." result="COMP" rcv="Castello M." gain="3"></p_pa>
+    <p_tk vh="V" name="Giuliano F."></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="6" spot="CRU35" context="H,4,6,V35" playid="13,7,101" type="U"
+      text="Maugeri G. punt 21 yards to the CRU14, out-of-bounds." ob="Y" newcontext="V,1,10,V14">
+    <p_pu vh="H" name="Maugeri G." gain="21" in20="Y" ob="Y"></p_pu>
+   </play>
+   <drivesum plays="5" yards="15" top="5:54" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="V,V14,11:38" vh="V" spot="V14" clock="11:38" driveindex="14,101"></drivestart>
+   <play hasball="CRU" down="1" togo="10" spot="CRU14" context="V,1,10,V14" playid="14,1,102" clock="05:44"
+      text="CRUSADERS CAGLIARI drive start at 05:44." newcontext="V,1,10,V14">
+   </play>
+   <play hasball="CRU" down="1" togo="10" spot="CRU14" context="V,1,10,V14" playid="14,2,103" type="R"
+      text="Billardello M. rush for 1 yard to the CRU15 (Di Mauro G.)." newcontext="V,2,9,V15">
+    <p_ru vh="V" name="Billardello M." gain="1"></p_ru>
+    <p_tk vh="H" name="Di Mauro G."></p_tk>
+   </play>
+   <play hasball="CRU" down="2" togo="9" spot="CRU15" context="V,2,9,V15" playid="14,3,104" type="P" first="P"
+      text="Meloni M. pass complete to Brisu F. for 38 yards to the EPC37, 1ST DOWN CRU (Maugeri G.;Greco L.)." newcontext="V,1,10,H37">
+    <p_pa vh="V" qb="Meloni M." result="COMP" rcv="Brisu F." gain="38"></p_pa>
+    <p_tk vh="H" name="Maugeri G." assist="Y"></p_tk>
+    <p_tk vh="H" name="Greco L." assist="Y"></p_tk>
+   </play>
+   <play hasball="CRU" down="1" togo="10" spot="EPC37" context="V,1,10,H37" playid="14,4,105" type="R" first="R"
+      text="Meloni M. rush for 28 yards to the EPC9, 1ST DOWN CRU (Di Mauro G.)." newcontext="V,1,0,H09">
+    <p_ru vh="V" name="Meloni M." gain="28"></p_ru>
+    <p_tk vh="H" name="Di Mauro G."></p_tk>
+   </play>
+   <play hasball="CRU" down="1" togo="0" spot="EPC09" context="V,1,0,H09" playid="14,5,106" type="R"
+      text="Billardello M. rush for loss of 1 yard to the EPC10 (Crocella' S.), PENALTY CRU holding 10 yards to the EPC20." newcontext="V,1,0,H20">
+    <p_ru vh="V" name="Billardello M." gain="-1"></p_ru>
+    <p_tk vh="H" name="Crocella' S." tfl="Y"></p_tk>
+    <p_pn vh="V" code="HO" type="holding" result="ACCEPT" at="H10" yards="10"></p_pn>
+   </play>
+   <play hasball="CRU" down="1" togo="0" spot="EPC20" context="V,1,0,H20" playid="14,6,107"
+      text="1st and 20." newcontext="V,1,0,H20">
+   </play>
+   <play hasball="CRU" down="1" togo="0" spot="EPC20" context="V,1,0,H20" playid="14,7,108" type="E"
+      text="Meloni M. pass incomplete, PENALTY CRU pass interference 15 yards to the EPC35, NO PLAY." newcontext="V,1,0,H35">
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="H20" yards="15"></p_pn>
+   </play>
+   <play hasball="CRU" down="1" togo="0" spot="EPC35" context="V,1,0,H35" playid="14,8,109" type="P" turnover="I"
+      text="Meloni M. pass intercepted by Maugeri G. at the EPC8, Maugeri G. return 2 yards to the EPC10." newcontext="H,1,10,H10">
+    <p_pa vh="V" qb="Meloni M." result="INT"></p_pa>
+    <p_ir vh="H" name="Maugeri G." at="H08" gain="2"></p_ir>
+   </play>
+   <drivesum plays="5" yards="41" top="1:49" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="H,H10,05:44" vh="H" spot="H10" clock="05:44" driveindex="15,109"></drivestart>
+   <play hasball="EPC" down="1" togo="10" spot="EPC10" context="H,1,10,H10" playid="15,1,110" clock="03:55"
+      text="ELEPHANTS CATANIA drive start at 03:55." newcontext="H,1,10,H10">
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC10" context="H,1,10,H10" playid="15,2,111" type="R"
+      text="Lombardo E. rush for no gain to the EPC10 (Ashak E.)." newcontext="H,2,10,H10">
+    <p_ru vh="H" name="Lombardo E." gain="0"></p_ru>
+    <p_tk vh="V" name="Ashak E."></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="10" spot="EPC10" context="H,2,10,H10" playid="15,3,112" type="P"
+      text="Aronica F. pass incomplete." newcontext="H,3,10,H10">
+    <p_pa vh="H" qb="Aronica F." result="INC"></p_pa>
+   </play>
+   <play hasball="EPC" down="3" togo="10" spot="EPC10" context="H,3,10,H10" playid="15,4,113" type="R" first="R"
+      text="Lombardo E. rush for 15 yards to the EPC25, 1ST DOWN EPC (Murgia S.)." newcontext="H,1,10,H25">
+    <p_ru vh="H" name="Lombardo E." gain="15"></p_ru>
+    <p_tk vh="V" name="Murgia S."></p_tk>
+   </play>
+   <play hasball="EPC" down="1" togo="10" spot="EPC25" context="H,1,10,H25" playid="15,5,114" type="R"
+      text="Aronica F. rush for loss of 7 yards to the EPC18 (Giuliano F.)." newcontext="H,2,17,H18">
+    <p_ru vh="H" name="Aronica F." gain="-7"></p_ru>
+    <p_tk vh="V" name="Giuliano F." tfl="Y"></p_tk>
+   </play>
+   <play hasball="EPC" down="2" togo="17" spot="EPC18" context="H,2,17,H18" playid="15,6,115" type="P"
+      text="Aronica F. pass incomplete to Castello M.." newcontext="H,3,17,H18">
+    <p_pa vh="H" qb="Aronica F." result="INC" rcv="Castello M."></p_pa>
+   </play>
+   <play hasball="EPC" down="3" togo="17" spot="EPC18" context="H,3,17,H18" playid="15,7,116" type="R"
+      text="Lombardo E. rush for no gain to the EPC18 (Murgia S.)." newcontext="H,4,17,H18">
+    <p_ru vh="H" name="Lombardo E." gain="0"></p_ru>
+    <p_tk vh="V" name="Murgia S."></p_tk>
+   </play>
+   <play hasball="EPC" down="4" togo="17" spot="EPC18" context="H,4,17,H18" playid="15,8,117" type="U"
+      text="Maugeri G. punt 37 yards to the CRU35." newcontext="V,1,10,V35">
+    <p_pu vh="H" name="Maugeri G." gain="37"></p_pu>
+   </play>
+   <drivesum plays="6" yards="8" top="2:19" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V35,03:55" vh="V" spot="V35" clock="03:55" driveindex="16,117"></drivestart>
+   <play hasball="CRU" down="1" togo="10" spot="CRU35" context="V,1,10,V35" playid="16,1,118" clock="01:36"
+      text="CRUSADERS CAGLIARI drive start at 01:36." newcontext="V,1,10,V35">
+   </play>
+   <play hasball="CRU" down="1" togo="10" spot="CRU35" context="V,1,10,V35" playid="16,2,119" type="R" first="R"
+      text="Meloni M. rush for 30 yards to the EPC25, 1ST DOWN CRU (Greco L.)." newcontext="V,1,10,H25">
+    <p_ru vh="V" name="Meloni M." gain="30"></p_ru>
+    <p_tk vh="H" name="Greco L."></p_tk>
+   </play>
+   <play hasball="CRU" down="1" togo="10" spot="EPC25" context="V,1,10,H25" playid="16,3,120" type="P"
+      text="Meloni M. pass incomplete to Spadaccino L. (Gulisano R.)." newcontext="V,2,10,H25">
+    <p_pa vh="V" qb="Meloni M." result="INC" rcv="Spadaccino L."></p_pa>
+    <p_bu vh="H" name="Gulisano R."></p_bu>
+   </play>
+   <play hasball="CRU" down="2" togo="10" spot="EPC25" context="V,2,10,H25" playid="16,4,121" type="P"
+      text="Meloni M. pass complete to Agnesa R. for 8 yards to the EPC17 (Gulisano R.;Pinieri M.)." newcontext="V,3,2,H17">
+    <p_pa vh="V" qb="Meloni M." result="COMP" rcv="Agnesa R." gain="8"></p_pa>
+    <p_tk vh="H" name="Gulisano R." assist="Y"></p_tk>
+    <p_tk vh="H" name="Pinieri M." assist="Y"></p_tk>
+   </play>
+   <play hasball="CRU" down="3" togo="2" spot="EPC17" context="V,3,2,H17" playid="16,5,122" type="P" first="P"
+      text="Meloni M. pass complete to Spadaccino L. for 8 yards to the EPC9, 1ST DOWN CRU (Tracuzzi Spa G.)." newcontext="V,1,0,H09">
+    <p_pa vh="V" qb="Meloni M." result="COMP" rcv="Spadaccino L." gain="8"></p_pa>
+    <p_tk vh="H" name="Tracuzzi Spa G."></p_tk>
+   </play>
+   <play hasball="CRU" down="1" togo="0" spot="EPC09" context="V,1,0,H09" playid="16,6,123" type="R"
+      text="Meloni M. rush for 2 yards to the EPC7 (Privitera D.;Giordano L.)." newcontext="V,2,0,H07">
+    <p_ru vh="V" name="Meloni M." gain="2"></p_ru>
+    <p_tk vh="H" name="Privitera D." assist="Y"></p_tk>
+    <p_tk vh="H" name="Giordano L." assist="Y"></p_tk>
+   </play>
+   <play hasball="CRU" down="2" togo="0" spot="EPC07" context="V,2,0,H07" playid="16,7,124" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="V,2,0,H07">
+   </play>
+   <drivesum plays="5" yards="48" top="1:36" driveindex="16" complete="Y"></drivesum>
+   <score final="Y" V="12" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="CRU">
+    <firstdowns no="4" rush="2" pass="2" penalty="0"></firstdowns>
+    <penalties no="2" yds="25"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:35"></misc>
+    <rush att="6" yds="63" gain="64" loss="1" td="1" long="16"></rush>
+    <pass comp="3" att="5" int="1" yds="54" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="54" td="0" long="0"></rcv>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="8" tacka="2" tot_tack="10" tflua="1" tfla="0" tflyds="7" sacks="1" sackyds="5"></defense>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="EPC">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:25"></misc>
+    <rush att="8" yds="20" gain="27" loss="7" td="0" long="0"></rush>
+    <pass comp="1" att="3" int="0" yds="3" td="0" long="3" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="3" td="0" long="3"></rcv>
+    <punt no="2" yds="58" long="2" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="29.0"></punt>
+    <defense tackua="5" tacka="6" tot_tack="11" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0" brup="1" int="1" intyds="2"></defense>
+    <kr no="1" yds="30" td="0" long="12"></kr>
+    <ir no="1" yds="2" td="0" long="2"></ir>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="CRU" down="2" togo="0" spot="EPC07" context="V,2,0,H07" qtr="4" clock="00:00" vtoh="0" htoh="0"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="CRU">
+  <player name="Casertano V." checkname="V.,CASERTANO" uni="20" gp="0" code="20"></player>
+  <player name="Muscas N." checkname="N.,MUSCAS" uni="7" gp="0" code="7"></player>
+  <player name="Sanna E." checkname="E.,SANNA" uni="23" gp="0" code="23"></player>
+  <player name="Rivoldini E." checkname="E.,RIVOLDINI" uni="25" gp="0" code="25"></player>
+  <player name="Caccamo L." checkname="L.,CACCAMO" uni="32" gp="0" code="32"></player>
+  <player name="Sarais R." checkname="R.,SARAIS" uni="33" gp="0" code="33"></player>
+  <player name="Fadda N." checkname="N.,FADDA" uni="66" gp="0" code="66"></player>
+  <player name="Costantino L." checkname="L.,COSTANTINO" uni="69" gp="0" code="69"></player>
+  <player name="Pacinotti L." checkname="L.,PACINOTTI" uni="70" gp="0" code="70"></player>
+  <player name="Murgia G." checkname="G.,MURGIA" uni="75" gp="0" code="75"></player>
+  <player name="Cao G." checkname="G.,CAO" uni="83" gp="0" code="83"></player>
+  <player name="Lauchlan S." checkname="S.,LAUCHLAN" uni="84" gp="0" code="84"></player>
+  <player name="Pirina M." checkname="M.,PIRINA" uni="98" gp="0" code="98"></player>
+  <player name="12" checkname="" uni="12" gp="0" code="12"></player>
+ </dnp>
+ <dnp vh="H" id="EPC">
+  <player name="Leonardi A." checkname="A.,LEONARDI" uni="15" gp="0" code="15"></player>
+  <player name="Vendemmia M." checkname="M.,VENDEMMIA" uni="18" gp="0" code="18"></player>
+  <player name="Bonaccorsi S." checkname="S.,BONACCORSI" uni="24" gp="0" code="24"></player>
+  <player name="Mammana R." checkname="R.,MAMMANA" uni="9" gp="0" code="9"></player>
+  <player name="Leotta A." checkname="A.,LEOTTA" uni="43" gp="0" code="43"></player>
+  <player name="Fetene F." checkname="F.,FETENE" uni="51" gp="0" code="51"></player>
+  <player name="Megna P." checkname="P.,MEGNA" uni="56" gp="0" code="56"></player>
+  <player name="Gennaro S." checkname="S.,GENNARO" uni="58" gp="0" code="58"></player>
+  <player name="Corsaro A." checkname="A.,CORSARO" uni="59" gp="0" code="59"></player>
+  <player name="Mancuso F." checkname="F.,MANCUSO" uni="61" gp="0" code="61"></player>
+  <player name="Mondo L." checkname="L.,MONDO" uni="66" gp="0" code="66"></player>
+  <player name="Mauro S." checkname="S.,MAURO" uni="69" gp="0" code="69"></player>
+  <player name="Zaccone E." checkname="E.,ZACCONE" uni="79" gp="0" code="79"></player>
+  <player name="Piccione G." checkname="G.,PICCIONE" uni="84" gp="0" code="84"></player>
+  <player name="Scuto F." checkname="F.,SCUTO" uni="90" gp="0" code="90"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

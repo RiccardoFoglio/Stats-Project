@@ -1,0 +1,909 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/19/2022">
+ <venue gameid="20220102" visid="MUL" homeid="LEB" visname="Muli Trieste" homename="Leoni Basiliano"
+      date="3/14/2022" location="Orgnano" stadium="Polisportiva Orgnano"
+      start="15:07" end="17:00" leaguegame="Y"
+      duration="1:53" attend="136" temp="15 C" wind="No wind" weather="Sunny">
+  <officials ref="Maghini A." ump="Tognon F." line="Cian L." lj="Persia M." bj="Greco G." sc="Marussi E."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="30" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="94" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="MUL" name="Muli Trieste" record="0-1" conf-record="0-1" abb="V">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="42" totoff_yards="101" totoff_avg="2.4">
+   <firstdowns no="11" rush="3" pass="5" penalty="3"></firstdowns>
+   <penalties no="2" yds="10"></penalties>
+   <conversions thirdconv="2" thirdatt="9" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="1" lost="0"></fumbles>
+   <misc yds="0" top="32:03" ona="0" onm="0"></misc>
+   <redzone att="1" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="1" endgame="0"></redzone>
+   <rush att="22" yds="28" gain="48" loss="20" td="0" long="14"></rush>
+   <pass comp="8" att="20" int="0" yds="73" td="0" long="15" sacks="3" sackyds="10"></pass>
+   <rcv no="8" yds="73" td="0" long="15"></rcv>
+   <punt no="4" yds="150" long="43" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="37.5"></punt>
+   <ko no="1" yds="35" ob="0" tb="0"></ko>
+   <defense tackua="18" tacka="0" tot_tack="18" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+  </totals>
+  <player name="Kobal L." shortname="Kobal L." checkname="L.,KOBAL" uni="20" gp="1" code="20">
+   <rcv no="4" yds="36" td="0" long="15"></rcv>
+   <punt no="4" yds="150" long="43" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="37.5"></punt>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Ugrin R." shortname="Ugrin R." checkname="R.,UGRIN" uni="21" gp="1" code="21">
+   <rcv no="2" yds="13" td="0" long="8"></rcv>
+  </player>
+  <player name="Agnello E." shortname="Agnello E." checkname="E.,AGNELLO" uni="40" gp="1" code="40">
+   <rush att="9" yds="11" gain="16" loss="5" td="0" long="7"></rush>
+   <rcv no="1" yds="13" td="0" long="13"></rcv>
+   <ko no="1" yds="35" ob="0" tb="0"></ko>
+  </player>
+  <player name="Stolfa G." shortname="Stolfa G." checkname="G.,STOLFA" uni="81" gp="1" code="81">
+   <rcv no="1" yds="11" td="0" long="11"></rcv>
+   <defense tackua="7" tacka="0" tot_tack="7" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Sivec A." shortname="Sivec A." checkname="A.,SIVEC" uni="18" gp="1" code="18"></player>
+  <player name="Aversa M." shortname="Aversa M." checkname="M.,AVERSA" uni="15" gp="1" code="15">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Zaccaria V." shortname="Zaccaria V." checkname="V.,ZACCARIA" uni="7" gp="1" code="7">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="Gentile G." shortname="Gentile G." checkname="G.,GENTILE" uni="23" gp="1" code="23">
+   <defense tackua="4" tacka="0" tot_tack="4"></defense>
+  </player>
+  <player name="Casale S." shortname="Casale S." checkname="S.,CASALE" uni="27" gp="1" code="27">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Jankovic A." shortname="Jankovic A." checkname="A.,JANKOVIC" uni="1" gp="1" code="1"></player>
+  <player name="Hristov M." shortname="Hristov M." checkname="M.,HRISTOV" uni="50" gp="1" code="50"></player>
+  <player name="Birisic B." shortname="Birisic B." checkname="B.,BIRISIC" uni="61" gp="1" code="61"></player>
+  <player name="Cadenaro S." shortname="Cadenaro S." checkname="S.,CADENARO" uni="72" gp="1" code="72"></player>
+  <player name="Urbas C." shortname="Urbas C." checkname="C.,URBAS" uni="74" gp="1" code="74"></player>
+  <player name="Dosso J." shortname="Dosso J." checkname="J.,DOSSO" uni="6" gp="1" code="6">
+   <rush att="13" yds="17" gain="32" loss="15" td="0" long="14"></rush>
+   <pass comp="8" att="20" int="0" yds="73" td="0" long="15" sacks="3" sackyds="10"></pass>
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198"></player>
+ </team>
+ <team vh="H" code="" id="LEB" name="Leoni Basiliano" record="1-0" conf-record="1-0" abb="H">
+  <linescore prds="4" line="21,7,14,7" score="49">
+   <lineprd prd="1" score="21"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="14"></lineprd>
+   <lineprd prd="4" score="7"></lineprd>
+  </linescore>
+  <totals totoff_plays="30" totoff_yards="395" totoff_avg="13.2">
+   <firstdowns no="17" rush="10" pass="7" penalty="0"></firstdowns>
+   <penalties no="7" yds="60"></penalties>
+   <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="15:57" ona="1" onm="1"></misc>
+   <redzone att="4" scores="4" points="28" tdrush="2" tdpass="2" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="17" yds="188" gain="199" loss="11" td="3" long="34"></rush>
+   <pass comp="10" att="13" int="0" yds="207" td="4" long="74" sacks="0" sackyds="0"></pass>
+   <rcv no="10" yds="207" td="4" long="74"></rcv>
+   <ko no="7" yds="325" ob="0" tb="1"></ko>
+   <pat kickatt="7" kickmade="7"></pat>
+   <defense tackua="29" tacka="2" tot_tack="31" tflua="8" tfla="0" tflyds="20" sacks="3" sackyds="10"></defense>
+   <pr no="2" yds="14" td="0" long="13"></pr>
+   <scoring td="7" patkick="7"></scoring>
+  </totals>
+  <player name="Dione M." shortname="Dione M." checkname="M.,DIONE" uni="1" gp="1" code="1">
+   <rush att="1" yds="31" gain="31" loss="0" td="0" long="31"></rush>
+   <rcv no="3" yds="44" td="0" long="20"></rcv>
+   <ko no="7" yds="325" ob="0" tb="1"></ko>
+   <pat kickatt="7" kickmade="7"></pat>
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+   <scoring patkick="7"></scoring>
+  </player>
+  <player name="Vidoz F." shortname="Vidoz F." checkname="F.,VIDOZ" uni="30" gp="1" code="30">
+   <rcv no="2" yds="85" td="1" long="74"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Prima N." shortname="Prima N." checkname="N.,PRIMA" uni="9" gp="1" code="9">
+   <rcv no="2" yds="25" td="1" long="16"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Degano S." shortname="Degano S." checkname="S.,DEGANO" uni="18" gp="1" code="18">
+   <rcv no="2" yds="24" td="1" long="20"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Fronda G." shortname="Fronda G." checkname="G.,FRONDA" uni="89" gp="1" code="89">
+   <rcv no="1" yds="29" td="1" long="29"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Muzzolini A." shortname="Muzzolini A." checkname="A.,MUZZOLINI" uni="13" gp="1" code="13">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Turus D." shortname="Turus D." checkname="D.,TURUS" uni="11" gp="1" code="11"></player>
+  <player name="Gueye M." shortname="Gueye M." checkname="M.,GUEYE" uni="23" gp="1" code="23">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Venuti A." shortname="Venuti A." checkname="A.,VENUTI" uni="6" gp="1" code="6">
+   <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="4"></defense>
+  </player>
+  <player name="Mattiussi M." shortname="Mattiussi M." checkname="M.,MATTIUSSI" uni="27" gp="1" code="27">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+   <pr no="1" yds="13" td="0" long="13"></pr>
+  </player>
+  <player name="Corrado C." shortname="Corrado C." checkname="C.,CORRADO" uni="7" gp="1" code="7">
+   <rush att="6" yds="77" gain="77" loss="0" td="1" long="34"></rush>
+   <pass comp="10" att="13" int="0" yds="207" td="4" long="74" sacks="0" sackyds="0"></pass>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Fagnini M." shortname="Fagnini M." checkname="M.,FAGNINI" uni="32" gp="1" code="32">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+   <pr no="1" yds="1" td="0" long="1"></pr>
+  </player>
+  <player name="Lorenzon D." shortname="Lorenzon D." checkname="D.,LORENZON" uni="40" gp="1" code="40">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="3" sackua="1" sacka="0" sackyds="3"></defense>
+  </player>
+  <player name="Esposito G." shortname="Esposito G." checkname="G.,ESPOSITO" uni="46" gp="1" code="46">
+   <defense tackua="6" tacka="0" tot_tack="6"></defense>
+  </player>
+  <player name="Grion M." shortname="Grion M." checkname="M.,GRION" uni="47" gp="1" code="47">
+   <defense tackua="3" tacka="1" tot_tack="4" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Tavano M." shortname="Tavano M." checkname="M.,TAVANO" uni="52" gp="1" code="52"></player>
+  <player name="Roscani R." shortname="Roscani R." checkname="R.,ROSCANI" uni="53" gp="1" code="53">
+   <defense tackua="2" tacka="0" tot_tack="2" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Bonat F." shortname="Bonat F." checkname="F.,BONAT" uni="54" gp="1" code="54">
+   <defense tackua="2" tacka="0" tot_tack="2" tflua="2" tfla="0" tflyds="7" sackua="2" sacka="0" sackyds="7"></defense>
+  </player>
+  <player name="Pascolini A." shortname="Pascolini A." checkname="A.,PASCOLINI" uni="55" gp="1" code="55">
+   <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Pascutti F." shortname="Pascutti F." checkname="F.,PASCUTTI" uni="56" gp="1" code="56"></player>
+  <player name="Vidoz L." shortname="Vidoz L." checkname="L.,VIDOZ" uni="69" gp="1" code="69"></player>
+  <player name="Scarpolini L." shortname="Scarpolini L." checkname="L.,SCARPOLINI" uni="80" gp="1" code="80"></player>
+  <player name="Dodorico F." shortname="Dodorico F." checkname="F.,DODORICO" uni="88" gp="1" code="88">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="La Rocca G." shortname="La Rocca G." checkname="ROCCA G.,LA" uni="24" gp="1" code="24">
+   <rush att="10" yds="80" gain="91" loss="11" td="2" long="24"></rush>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="LEB" qtr="1" clock="08:36" type="TD" how="PASS" yds="4" scorer="Degano S." passer="Corrado C." patby="Dione M." pattype="KICK" patres="GOOD" plays="5" drive="46" top="1:09" vscore="0" hscore="7" driveindex="2"></score>
+  <score vh="H" team="LEB" qtr="1" clock="07:01" type="TD" how="PASS" yds="74" scorer="Vidoz F." passer="Corrado C." patby="Dione M." pattype="KICK" patres="GOOD" plays="1" drive="74" top="0:11" vscore="0" hscore="14" driveindex="4"></score>
+  <score vh="H" team="LEB" qtr="1" clock="04:30" type="TD" how="RUSH" yds="34" scorer="Corrado C." patby="Dione M." pattype="KICK" patres="GOOD" plays="1" drive="34" top="0:16" vscore="0" hscore="21" driveindex="6"></score>
+  <score vh="H" team="LEB" qtr="2" clock="11:33" type="TD" how="RUSH" yds="6" scorer="La Rocca G." patby="Dione M." pattype="KICK" patres="GOOD" plays="7" drive="86" top="2:26" vscore="0" hscore="28" driveindex="8"></score>
+  <score vh="H" team="LEB" qtr="3" clock="08:05" type="TD" how="PASS" yds="9" scorer="Prima N." passer="Corrado C." patby="Dione M." pattype="KICK" patres="GOOD" plays="7" drive="65" top="3:47" vscore="0" hscore="35" driveindex="10"></score>
+  <score vh="H" team="LEB" qtr="3" clock="03:35" type="TD" how="PASS" yds="29" scorer="Fronda G." passer="Corrado C." patby="Dione M." pattype="KICK" patres="GOOD" plays="3" drive="42" top="2:10" vscore="0" hscore="42" driveindex="11"></score>
+  <score vh="H" team="LEB" qtr="4" clock="05:40" type="TD" how="RUSH" yds="19" scorer="La Rocca G." patby="Dione M." pattype="KICK" patres="GOOD" plays="6" drive="53" top="3:30" vscore="0" hscore="49" driveindex="13"></score>
+ </scores>
+ <drives>
+  <drive vh="V" team="MUL" start="KO,1,12:00,17" end="PUNT,1,09:45,19" plays="3" yards="2" top="2:15" start_how="KO" start_qtr="1" start_time="12:00" start_spot="MUL17" end_how="PUNT" end_qtr="1" end_time="09:45" end_spot="MUL19" driveindex="1"></drive>
+  <drive vh="H" team="LEB" start="PUNT,1,09:45,48" end="TD,1,08:36,94" plays="5" yards="46" top="1:09" start_how="PUNT" start_qtr="1" start_time="09:45" start_spot="MUL46" end_how="TD" end_qtr="1" end_time="08:36" end_spot="MUL00" rz="1" driveindex="2"></drive>
+  <drive vh="V" team="MUL" start="KO,1,08:27,31" end="PUNT,1,07:12,35" plays="3" yards="4" top="1:15" start_how="KO" start_qtr="1" start_time="08:27" start_spot="MUL31" end_how="PUNT" end_qtr="1" end_time="07:12" end_spot="MUL35" driveindex="3"></drive>
+  <drive vh="H" team="LEB" start="PUNT,1,07:12,20" end="TD,1,07:01,94" plays="1" yards="74" top="0:11" start_how="PUNT" start_qtr="1" start_time="07:12" start_spot="LEB20" end_how="TD" end_qtr="1" end_time="07:01" end_spot="MUL00" driveindex="4"></drive>
+  <drive vh="V" team="MUL" start="KO,1,06:53,11" end="PUNT,1,04:46,7" plays="3" yards="-4" top="2:07" start_how="KO" start_qtr="1" start_time="06:53" start_spot="MUL11" end_how="PUNT" end_qtr="1" end_time="04:46" end_spot="MUL07" driveindex="5"></drive>
+  <drive vh="H" team="LEB" start="PUNT,1,04:46,60" end="TD,1,04:30,94" plays="1" yards="34" top="0:16" start_how="PUNT" start_qtr="1" start_time="04:46" start_spot="MUL34" end_how="TD" end_qtr="1" end_time="04:30" end_spot="MUL00" driveindex="6"></drive>
+  <drive vh="V" team="MUL" start="KO,1,04:21,30" end="PUNT,1,01:59,43" plays="5" yards="13" top="2:22" start_how="KO" start_qtr="1" start_time="04:21" start_spot="MUL30" end_how="PUNT" end_qtr="1" end_time="01:59" end_spot="MUL43" driveindex="7"></drive>
+  <drive vh="H" team="LEB" start="PUNT,1,01:59,8" end="TD,2,11:33,94" plays="7" yards="86" top="2:26" start_how="PUNT" start_qtr="1" start_time="01:59" start_spot="LEB08" end_how="TD" end_qtr="2" end_time="11:33" end_spot="MUL00" rz="1" driveindex="8"></drive>
+  <drive vh="V" team="MUL" start="KO,2,11:22,20" end="HALF,2,00:00,93" plays="16" yards="73" top="11:22" start_how="KO" start_qtr="2" start_time="11:22" start_spot="MUL20" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="LEB01" rz="1" driveindex="9"></drive>
+  <drive vh="H" team="LEB" start="KO,3,11:52,29" end="TD,3,08:05,94" plays="7" yards="65" top="3:47" start_how="KO" start_qtr="3" start_time="11:52" start_spot="LEB29" end_how="TD" end_qtr="3" end_time="08:05" end_spot="MUL00" rz="1" driveindex="10"></drive>
+  <drive vh="H" team="LEB" start="KO,3,05:45,52" end="TD,3,03:35,94" plays="3" yards="42" top="2:10" start_how="KO" start_qtr="3" start_time="05:45" start_spot="MUL42" end_how="TD" end_qtr="3" end_time="03:35" end_spot="MUL00" driveindex="11"></drive>
+  <drive vh="V" team="MUL" start="KO,3,01:22,24" end="DOWNS,4,09:10,53" plays="5" yards="29" top="4:12" start_how="KO" start_qtr="3" start_time="01:22" start_spot="MUL24" end_how="DOWNS" end_qtr="4" end_time="09:10" end_spot="LEB41" driveindex="12"></drive>
+  <drive vh="H" team="LEB" start="DOWNS,4,09:10,41" end="TD,4,05:40,94" plays="6" yards="53" top="3:30" start_how="DOWNS" start_qtr="4" start_time="09:10" start_spot="LEB41" end_how="TD" end_qtr="4" end_time="05:40" end_spot="MUL00" rz="1" driveindex="13"></drive>
+  <drive vh="V" team="MUL" start="KO,4,05:02,10" end="HALF,4,00:00,49" plays="7" yards="39" top="5:02" start_how="KO" start_qtr="4" start_time="05:02" start_spot="MUL10" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="LEB45" driveindex="14"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="MUL" down="1" togo="10" spot="MUL30" context="V,1,10,V30" playid="0,1,0"
+      text="Leoni win the coin toss, defer to second half" newcontext="V,1,10,V30">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL30" context="V,1,10,V30" playid="0,2,1"
+      text="LEB ball on LEB30." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB30" context="H,1,10,H30" playid="0,3,2" type="K"
+      text="Dione M. kickoff 47 yards to the MUL17, downed." newcontext="V,1,10,V17">
+    <p_ko vh="H" name="Dione M." gain="47"></p_ko>
+   </play>
+   <drivestart poss="V,V17,12:00" vh="V" spot="V17" clock="12:00" driveindex="1,2"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL17" context="V,1,10,V17" playid="1,1,3" type="R"
+      text="Agnello E. rush for no gain to the MUL17 (Venuti A.)." newcontext="V,2,10,V17">
+    <p_ru vh="V" name="Agnello E." gain="0"></p_ru>
+    <p_tk vh="H" name="Venuti A."></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="MUL17" context="V,2,10,V17" playid="1,2,4" type="R"
+      text="Agnello E. rush for loss of 3 yards to the MUL14 (Roscani R.)." newcontext="V,3,13,V14">
+    <p_ru vh="V" name="Agnello E." gain="-3"></p_ru>
+    <p_tk vh="H" name="Roscani R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="13" spot="MUL14" context="V,3,13,V14" playid="1,3,5" type="E"
+      text="PENALTY LEB offside defense 5 yards to the MUL19." newcontext="V,3,8,V19">
+    <p_pn vh="H" code="OD" type="offside defense" result="ACCEPT" at="V14" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="3" togo="8" spot="MUL19" context="V,3,8,V19" playid="1,4,6" type="R"
+      text="Agnello E. rush for no gain to the MUL19 (Esposito G.)." newcontext="V,4,8,V19">
+    <p_ru vh="V" name="Agnello E." gain="0"></p_ru>
+    <p_tk vh="H" name="Esposito G."></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="8" spot="MUL19" context="V,4,8,V19" playid="1,5,7" type="U"
+      text="Kobal L. punt 27 yards to the MUL46." newcontext="H,1,10,V46">
+    <p_pu vh="V" name="Kobal L." gain="27"></p_pu>
+   </play>
+   <drivesum plays="3" yards="2" top="2:15" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,V46,12:00" vh="H" spot="V46" clock="12:00" driveindex="2,7"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="MUL46" context="H,1,10,V46" playid="2,1,8" clock="09:45"
+      text="LEONI BASILIANO drive start at 09:45." newcontext="H,1,10,V46">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL46" context="H,1,10,V46" playid="2,2,9" type="R" first="R"
+      text="La Rocca G. rush for 17 yards to the MUL29, 1ST DOWN LEB (Stolfa G.)." newcontext="H,1,10,V29">
+    <p_ru vh="H" name="La Rocca G." gain="17"></p_ru>
+    <p_tk vh="V" name="Stolfa G."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL29" context="H,1,10,V29" playid="2,3,10" type="P"
+      text="Corrado C. pass incomplete to Degano S., dropped pass." newcontext="H,2,10,V29">
+    <p_pa vh="H" qb="Corrado C." result="DROP" rcv="Degano S."></p_pa>
+   </play>
+   <play hasball="LEB" down="2" togo="10" spot="MUL29" context="H,2,10,V29" playid="2,4,11" type="R" first="R"
+      text="La Rocca G. rush for 24 yards to the MUL5, 1ST DOWN LEB (Dosso J.)." newcontext="H,1,0,V05">
+    <p_ru vh="H" name="La Rocca G." gain="24"></p_ru>
+    <p_tk vh="V" name="Dosso J."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="MUL05" context="H,1,0,V05" playid="2,5,12" type="R"
+      text="La Rocca G. rush for 1 yard to the MUL4 (Stolfa G.)." newcontext="H,2,0,V04">
+    <p_ru vh="H" name="La Rocca G." gain="1"></p_ru>
+    <p_tk vh="V" name="Stolfa G."></p_tk>
+   </play>
+   <play hasball="LEB" down="2" togo="0" spot="MUL04" context="H,2,0,V04" playid="2,6,13" type="P" score="Y" clock="08:36"
+      text="Corrado C. pass complete to Degano S. for 4 yards to the MUL0, TOUCHDOWN, clock 08:36." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Corrado C." result="COMP" rcv="Degano S." gain="4"></p_pa>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="2,7,14" type="X" score="Y"
+      text="Dione M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Dione M." qb="Dione M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="7"></score>
+   <drivesum plays="5" yards="46" top="1:09" driveindex="2" complete="Y"></drivesum>
+   <play hasball="LEB" down="1" togo="0" spot="LEB30" context="H,1,0,H30" playid="2,8,15" type="K"
+      text="Dione M. kickoff 33 yards to the MUL31, downed." newcontext="V,1,10,V31">
+    <p_ko vh="H" name="Dione M." gain="33"></p_ko>
+   </play>
+   <drivestart poss="V,V31,08:36" vh="V" spot="V31" clock="08:36" driveindex="3,15"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL31" context="V,1,10,V31" playid="3,1,16" clock="08:27"
+      text="MULI TRIESTE drive start at 08:27." newcontext="V,1,10,V31">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL31" context="V,1,10,V31" playid="3,2,17" type="R"
+      text="Agnello E. rush for 5 yards to the MUL36 (TEAM), PENALTY LEB offside defense declined." newcontext="V,2,5,V36">
+    <p_ru vh="V" name="Agnello E." gain="5"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+    <p_pn vh="H" code="OD" type="offside defense" result="DECLINE"></p_pn>
+   </play>
+   <play hasball="MUL" down="2" togo="5" spot="MUL36" context="V,2,5,V36" playid="3,3,18" type="R"
+      text="Agnello E. rush for loss of 1 yard to the MUL35 (Pascolini A.)." newcontext="V,3,6,V35">
+    <p_ru vh="V" name="Agnello E." gain="-1"></p_ru>
+    <p_tk vh="H" name="Pascolini A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="6" spot="MUL35" context="V,3,6,V35" playid="3,4,19" type="P"
+      text="Dosso J. pass incomplete to Ugrin R.." newcontext="V,4,6,V35">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Ugrin R."></p_pa>
+   </play>
+   <play hasball="MUL" down="4" togo="6" spot="MUL35" context="V,4,6,V35" playid="3,5,20" type="U"
+      text="Kobal L. punt 40 yards to the LEB19, Fagnini M. return 1 yards to the LEB20 (Casale S.)." newcontext="H,1,10,H20">
+    <p_pu vh="V" name="Kobal L." gain="40"></p_pu>
+    <p_pr vh="H" name="Fagnini M." gain="1"></p_pr>
+    <p_tk vh="V" name="Casale S."></p_tk>
+   </play>
+   <drivesum plays="3" yards="4" top="1:15" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,H20,08:27" vh="H" spot="H20" clock="08:27" driveindex="4,20"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB20" context="H,1,10,H20" playid="4,1,21" clock="07:12"
+      text="LEONI BASILIANO drive start at 07:12." newcontext="H,1,10,H20">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB20" context="H,1,10,H20" playid="4,2,22" type="P" first="P" score="Y" clock="07:01"
+      text="Corrado C. pass complete to Vidoz F. for 74 yards to the MUL0, 1ST DOWN LEB, TOUCHDOWN, clock 07:01." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Corrado C." result="COMP" rcv="Vidoz F." gain="74"></p_pa>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="4,3,23" type="X" score="Y"
+      text="Dione M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Dione M." qb="Dione M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="14"></score>
+   <drivesum plays="1" yards="74" top="0:11" driveindex="4" complete="Y"></drivesum>
+   <play hasball="LEB" down="1" togo="0" spot="LEB30" context="H,1,0,H30" playid="4,4,24" type="K"
+      text="Dione M. kickoff 53 yards to the MUL11, downed." newcontext="V,1,10,V11">
+    <p_ko vh="H" name="Dione M." gain="53"></p_ko>
+   </play>
+   <drivestart poss="V,V11,07:01" vh="V" spot="V11" clock="07:01" driveindex="5,24"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL11" context="V,1,10,V11" playid="5,1,25" clock="06:53"
+      text="MULI TRIESTE drive start at 06:53." newcontext="V,1,10,V11">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL11" context="V,1,10,V11" playid="5,2,26" type="P"
+      text="Dosso J. sacked for loss of 4 yards to the MUL7 (Bonat F.)." newcontext="V,2,14,V07">
+    <p_pa vh="V" qb="Dosso J." result="SACK" gain="-4"></p_pa>
+    <p_tk vh="H" name="Bonat F." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="14" spot="MUL07" context="V,2,14,V07" playid="5,3,27" type="P"
+      text="Dosso J. sacked for loss of 3 yards to the MUL4 (Lorenzon D.)." newcontext="V,3,17,V04">
+    <p_pa vh="V" qb="Dosso J." result="SACK" gain="-3"></p_pa>
+    <p_tk vh="H" name="Lorenzon D." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="17" spot="MUL04" context="V,3,17,V04" playid="5,4,28" type="R"
+      text="Dosso J. rush for 3 yards to the MUL7 (Esposito G.)." newcontext="V,4,14,V07">
+    <p_ru vh="V" name="Dosso J." gain="3"></p_ru>
+    <p_tk vh="H" name="Esposito G."></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="14" spot="MUL07" context="V,4,14,V07" playid="5,5,29" type="U"
+      text="Kobal L. punt 40 yards to the 47 yardline, Mattiussi M. return 13 yards to the MUL34 (Kobal L.)." newcontext="H,1,10,V34">
+    <p_pu vh="V" name="Kobal L." gain="40"></p_pu>
+    <p_pr vh="H" name="Mattiussi M." gain="13"></p_pr>
+    <p_tk vh="V" name="Kobal L."></p_tk>
+   </play>
+   <drivesum plays="3" yards="-4" top="2:07" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,V34,06:53" vh="H" spot="V34" clock="06:53" driveindex="6,29"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="MUL34" context="H,1,10,V34" playid="6,1,30" clock="04:46"
+      text="LEONI BASILIANO drive start at 04:46." newcontext="H,1,10,V34">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL34" context="H,1,10,V34" playid="6,2,31" type="R" first="R" score="Y" clock="04:30"
+      text="Corrado C. rush for 34 yards to the MUL0, 1ST DOWN LEB, TOUCHDOWN, clock 04:30." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Corrado C." gain="34"></p_ru>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="6,3,32" type="X" score="Y"
+      text="Dione M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Dione M." qb="Dione M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="21"></score>
+   <drivesum plays="1" yards="34" top="0:16" driveindex="6" complete="Y"></drivesum>
+   <play hasball="LEB" down="1" togo="0" spot="LEB30" context="H,1,0,H30" playid="6,4,33" type="K"
+      text="Dione M. kickoff 34 yards to the MUL30, downed." newcontext="V,1,10,V30">
+    <p_ko vh="H" name="Dione M." gain="34"></p_ko>
+   </play>
+   <drivestart poss="V,V30,04:30" vh="V" spot="V30" clock="04:30" driveindex="7,33"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL30" context="V,1,10,V30" playid="7,1,34" clock="04:21"
+      text="MULI TRIESTE drive start at 04:21." newcontext="V,1,10,V30">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL30" context="V,1,10,V30" playid="7,2,35" type="R"
+      text="Agnello E. rush for loss of 1 yard to the MUL29 (Gueye M.)." newcontext="V,2,11,V29">
+    <p_ru vh="V" name="Agnello E." gain="-1"></p_ru>
+    <p_tk vh="H" name="Gueye M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="11" spot="MUL29" context="V,2,11,V29" playid="7,3,36" type="#" clock="03:56"
+      text="Timeout Muli Trieste, clock 03:56." newcontext="V,2,11,V29">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="MUL" down="2" togo="11" spot="MUL29" context="V,2,11,V29" playid="7,4,37" type="E"
+      text="Agnello E. rush for 1 yard to the MUL30 (Esposito G.), PENALTY LEB offside defense (Pascolini A.) 5 yards to the MUL34, NO PLAY." newcontext="V,2,6,V34">
+    <p_pn vh="H" code="OD" type="offside defense" name="Pascolini A." result="ACCEPT" at="V29" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="2" togo="6" spot="MUL34" context="V,2,6,V34" playid="7,5,38" type="P" first="P"
+      text="Dosso J. pass complete to Agnello E. for 13 yards to the 47 yardline, 1ST DOWN MUL (Esposito G.)." newcontext="V,1,10,V47">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Agnello E." gain="13"></p_pa>
+    <p_tk vh="H" name="Esposito G."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL47" context="V,1,10,V47" playid="7,6,39" type="P"
+      text="Dosso J. pass incomplete to Kobal L.." newcontext="V,2,10,V47">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="MUL47" context="V,2,10,V47" playid="7,7,40" type="R"
+      text="Dosso J. rush for loss of 4 yards to the MUL43, fumble by Dosso J. recovered by MUL Dosso J. at MUL43 (Venuti A.)." newcontext="V,3,14,V43">
+    <p_ru vh="V" name="Dosso J." gain="-4"></p_ru>
+    <p_fumb vh="V" name="Dosso J." at="V43" frvh="V" frname="Dosso J."></p_fumb>
+    <p_tk vh="H" name="Venuti A." tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="14" spot="MUL43" context="V,3,14,V43" playid="7,8,41" type="P"
+      text="Dosso J. pass incomplete to Kobal L., dropped pass." newcontext="V,4,14,V43">
+    <p_pa vh="V" qb="Dosso J." result="DROP" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="4" togo="14" spot="MUL43" context="V,4,14,V43" playid="7,9,42" type="U"
+      text="Kobal L. punt 43 yards to the LEB8." newcontext="H,1,10,H08">
+    <p_pu vh="V" name="Kobal L." gain="43" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="5" yards="13" top="2:22" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H08,03:56" vh="H" spot="H08" clock="03:56" driveindex="8,42"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB08" context="H,1,10,H08" playid="8,1,43" clock="01:59"
+      text="LEONI BASILIANO drive start at 01:59." newcontext="H,1,10,H08">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB08" context="H,1,10,H08" playid="8,2,44" type="R" first="R"
+      text="Dione M. rush for 31 yards to the LEB39, 1ST DOWN LEB, out-of-bounds." ob="Y" newcontext="H,1,10,H39">
+    <p_ru vh="H" name="Dione M." gain="31"></p_ru>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB39" context="H,1,10,H39" playid="8,3,45" type="R" first="R"
+      text="Corrado C. rush for 15 yards to the MUL40, 1ST DOWN LEB (Aversa M.)." newcontext="H,1,10,V40">
+    <p_ru vh="H" name="Corrado C." gain="15"></p_ru>
+    <p_tk vh="V" name="Aversa M."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL40" context="H,1,10,V40" playid="8,4,46" type="P" first="P"
+      text="Corrado C. pass complete to Vidoz F. for 11 yards to the MUL29, 1ST DOWN LEB (Zaccaria V.)." newcontext="H,1,10,V29">
+    <p_pa vh="H" qb="Corrado C." result="COMP" rcv="Vidoz F." gain="11"></p_pa>
+    <p_tk vh="V" name="Zaccaria V."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL29" context="H,1,10,V29" playid="8,5,47" type="R"
+      text="La Rocca G. rush for loss of 2 yards to the MUL31 (Stolfa G.)." newcontext="H,2,12,V31">
+    <p_ru vh="H" name="La Rocca G." gain="-2"></p_ru>
+    <p_tk vh="V" name="Stolfa G." tfl="Y"></p_tk>
+   </play>
+   <play hasball="LEB" down="2" togo="12" spot="MUL31" context="H,2,12,V31" playid="8,6,48" type="P" first="P"
+      text="Corrado C. pass complete to Dione M. for 19 yards to the MUL12, 1ST DOWN LEB, out-of-bounds (Gentile G.)." ob="Y" newcontext="H,1,10,V12">
+    <p_pa vh="H" qb="Corrado C." result="COMP" rcv="Dione M." gain="19"></p_pa>
+    <p_tk vh="V" name="Gentile G."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL12" context="H,1,10,V12" playid="8,7,49" type="R"
+      text="La Rocca G. rush for 6 yards to the MUL6, out-of-bounds (Stolfa G.)." ob="Y" newcontext="H,2,4,V06">
+    <p_ru vh="H" name="La Rocca G." gain="6"></p_ru>
+    <p_tk vh="V" name="Stolfa G."></p_tk>
+   </play>
+   <score qtr="1" V="0" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="08:25"></misc>
+    <rush att="10" yds="-8" gain="8" loss="16" td="0" long="5"></rush>
+    <pass comp="1" att="4" int="0" yds="13" td="0" long="13" sacks="2" sackyds="7"></pass>
+    <rcv no="1" yds="13" td="0" long="13"></rcv>
+    <punt no="4" yds="150" long="43" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="37.5"></punt>
+    <defense tackua="10" tacka="0" tot_tack="10" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LEB">
+    <firstdowns no="8" rush="5" pass="3" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:35"></misc>
+    <rush att="8" yds="126" gain="128" loss="2" td="1" long="34"></rush>
+    <pass comp="4" att="5" int="0" yds="108" td="2" long="74" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="108" td="2" long="74"></rcv>
+    <ko no="4" yds="167" ob="0" tb="0"></ko>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="11" tacka="0" tot_tack="11" tflua="6" tfla="0" tflyds="16" sacks="2" sackyds="7"></defense>
+    <pr no="2" yds="14" td="0" long="13"></pr>
+    <scoring td="3" patkick="3"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="LEB" down="2" togo="4" spot="MUL06" context="H,2,4,V06" playid="8,8,50" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00." newcontext="H,2,4,V06">
+   </play>
+   <play hasball="LEB" down="2" togo="4" spot="MUL06" context="H,2,4,V06" playid="8,9,51" type="R" first="R" score="Y" clock="11:33"
+      text="La Rocca G. rush for 6 yards to the MUL0, 1ST DOWN LEB, TOUCHDOWN, clock 11:33." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="La Rocca G." gain="6"></p_ru>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="8,10,52" type="X" score="Y"
+      text="Dione M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Dione M." qb="Dione M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="28"></score>
+   <drivesum plays="7" yards="86" top="2:26" driveindex="8" complete="Y"></drivesum>
+   <play hasball="LEB" down="1" togo="0" spot="LEB30" context="H,1,0,H30" playid="8,11,53" type="K"
+      text="Dione M. kickoff 64 yards to the MUL0, touchback." newcontext="V,1,10,V20">
+    <p_ko vh="H" name="Dione M." gain="64" result="T"></p_ko>
+   </play>
+   <drivestart poss="V,V20,11:33" vh="V" spot="V20" clock="11:33" driveindex="9,53"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL20" context="V,1,10,V20" playid="9,1,54" clock="11:22"
+      text="MULI TRIESTE drive start at 11:22." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL20" context="V,1,10,V20" playid="9,2,55" type="P"
+      text="Dosso J. pass incomplete to Kobal L.." newcontext="V,2,10,V20">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="MUL20" context="V,2,10,V20" playid="9,3,56" type="P"
+      text="Dosso J. pass complete to Ugrin R. for 8 yards to the MUL28, out-of-bounds (Dodorico F.)." ob="Y" newcontext="V,3,2,V28">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Ugrin R." gain="8"></p_pa>
+    <p_tk vh="H" name="Dodorico F."></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="2" spot="MUL28" context="V,3,2,V28" playid="9,4,57" type="R" first="R"
+      text="Dosso J. rush for 3 yards to the MUL31, 1ST DOWN MUL (Venuti A.)." newcontext="V,1,10,V31">
+    <p_ru vh="V" name="Dosso J." gain="3"></p_ru>
+    <p_tk vh="H" name="Venuti A."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL31" context="V,1,10,V31" playid="9,5,58" type="R"
+      text="Agnello E. rush for no gain to the MUL31 (Esposito G.)." newcontext="V,2,10,V31">
+    <p_ru vh="V" name="Agnello E." gain="0"></p_ru>
+    <p_tk vh="H" name="Esposito G."></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="MUL31" context="V,2,10,V31" playid="9,6,59" type="P" first="P"
+      text="Dosso J. pass complete to Kobal L. for 10 yards to the MUL41, 1ST DOWN MUL (Mattiussi M.)." newcontext="V,1,10,V41">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="10"></p_pa>
+    <p_tk vh="H" name="Mattiussi M."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL41" context="V,1,10,V41" playid="9,7,60" type="E"
+      text="PENALTY MUL false start (Hristov M.) 5 yards to the MUL36." newcontext="V,1,15,V36">
+    <p_pn vh="V" code="FS" type="false start" name="Hristov M." result="ACCEPT" at="V41" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="1" togo="15" spot="MUL36" context="V,1,15,V36" playid="9,8,61" type="P" first="E"
+      text="Dosso J. pass complete to Kobal L. for 4 yards to the MUL40 (Mattiussi M.), PENALTY LEB unsportsmanlike conduct (Gueye M.) 15 yards to the LEB39, 1ST DOWN MUL." newcontext="V,1,10,H39">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="4"></p_pa>
+    <p_tk vh="H" name="Mattiussi M."></p_tk>
+    <p_pn vh="H" code="UC" type="unsportsmanlike conduct" name="Gueye M." result="ACCEPT" at="V40" yards="15"></p_pn>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="LEB39" context="V,1,10,H39" playid="9,9,62"
+      text="1st and 10." newcontext="V,1,10,H39">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="LEB39" context="V,1,10,H39" playid="9,10,63" type="P"
+      text="Dosso J. sacked for loss of 3 yards to the LEB42 (Bonat F.)." newcontext="V,2,13,H42">
+    <p_pa vh="V" qb="Dosso J." result="SACK" gain="-3"></p_pa>
+    <p_tk vh="H" name="Bonat F." sack="Y" tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="13" spot="LEB42" context="V,2,13,H42" playid="9,11,64" type="R"
+      text="Dosso J. rush for 3 yards to the LEB39 (Esposito G.)." newcontext="V,3,10,H39">
+    <p_ru vh="V" name="Dosso J." gain="3"></p_ru>
+    <p_tk vh="H" name="Esposito G."></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="10" spot="LEB39" context="V,3,10,H39" playid="9,12,65" type="R"
+      text="Dosso J. rush for 6 yards to the LEB33 (Grion M.)." newcontext="V,4,4,H33">
+    <p_ru vh="V" name="Dosso J." gain="6"></p_ru>
+    <p_tk vh="H" name="Grion M."></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="4" spot="LEB33" context="V,4,4,H33" playid="9,13,66" type="#" clock="04:50"
+      text="Timeout Muli Trieste, clock 04:50." newcontext="V,4,4,H33">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="MUL" down="4" togo="4" spot="LEB33" context="V,4,4,H33" playid="9,14,67" type="P" first="P"
+      text="Dosso J. pass complete to Ugrin R. for 5 yards to the LEB28, 1ST DOWN MUL, out-of-bounds (Dodorico F.)." ob="Y" newcontext="V,1,10,H28">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Ugrin R." gain="5"></p_pa>
+    <p_tk vh="H" name="Dodorico F."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="LEB28" context="V,1,10,H28" playid="9,15,68" type="#" clock="04:17"
+      text="Timeout Muli Trieste, clock 04:17." newcontext="V,1,10,H28">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="LEB28" context="V,1,10,H28" playid="9,16,69" type="P"
+      text="Dosso J. pass incomplete to Kobal L.." newcontext="V,2,10,H28">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="LEB28" context="V,2,10,H28" playid="9,17,70" type="P" first="P"
+      text="Dosso J. pass complete to Stolfa G. for 11 yards to the LEB17, 1ST DOWN MUL (Fagnini M.)." newcontext="V,1,10,H17">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Stolfa G." gain="11"></p_pa>
+    <p_tk vh="H" name="Fagnini M."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="LEB17" context="V,1,10,H17" playid="9,18,71" type="E"
+      text="PENALTY LEB offside defense (Roscani R.) 5 yards to the LEB12." newcontext="V,1,5,H12">
+    <p_pn vh="H" code="OD" type="offside defense" name="Roscani R." result="ACCEPT" at="H17" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="1" togo="5" spot="LEB12" context="V,1,5,H12" playid="9,19,72" type="P"
+      text="Dosso J. pass incomplete to Ugrin R.." newcontext="V,2,5,H12">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Ugrin R."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="5" spot="LEB12" context="V,2,5,H12" playid="9,20,73" type="E" first="E"
+      text="Dosso J. pass intercepted by Dodorico F. at the LEB0, Dodorico F. return to the LEB0 (Ugrin R.), PENALTY LEB pass interference (Dodorico F.) 10 yards to the LEB2, 1ST DOWN MUL, NO PLAY." newcontext="V,1,0,H02">
+    <p_pn vh="H" code="PI" type="pass interference" name="Dodorico F." result="ACCEPT" at="H12" yards="10"></p_pn>
+   </play>
+   <play hasball="MUL" down="1" togo="0" spot="LEB02" context="V,1,0,H02" playid="9,21,74" type="#" clock="01:52"
+      text="Timeout Leoni Basiliano, clock 01:52." newcontext="V,1,0,H02">
+    <p_to vh="H" team="Leoni Basiliano"></p_to>
+   </play>
+   <play hasball="MUL" down="1" togo="0" spot="LEB02" context="V,1,0,H02" playid="9,22,75" type="P"
+      text="Dosso J. pass incomplete to Kobal L.." newcontext="V,2,0,H02">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="0" spot="LEB02" context="V,2,0,H02" playid="9,23,76" type="R"
+      text="Dosso J. rush for 1 yard to the LEB1 (TEAM)." newcontext="V,3,0,H01">
+    <p_ru vh="V" name="Dosso J." gain="1"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="0" spot="LEB01" context="V,3,0,H01" playid="9,24,77" type="R"
+      text="Dosso J. rush for no gain to the LEB1 (Roscani R.)." newcontext="V,4,0,H01">
+    <p_ru vh="V" name="Dosso J." gain="0"></p_ru>
+    <p_tk vh="H" name="Roscani R."></p_tk>
+   </play>
+   <play hasball="MUL" down="4" togo="0" spot="LEB01" context="V,4,0,H01" playid="9,25,78" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="V,4,0,H01">
+   </play>
+   <drivesum plays="16" yards="73" top="11:22" driveindex="9" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="28"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="6" rush="1" pass="3" penalty="2"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="11:33"></misc>
+    <rush att="7" yds="10" gain="13" loss="3" td="0" long="1"></rush>
+    <pass comp="5" att="9" int="0" yds="38" td="0" long="0" sacks="1" sackyds="3"></pass>
+    <rcv no="5" yds="38" td="0" long="0"></rcv>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LEB">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="30"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="00:27"></misc>
+    <rush att="1" yds="6" gain="6" loss="0" td="1" long="0"></rush>
+    <ko no="1" yds="64" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="12" tacka="0" tot_tack="12" tflua="1" tfla="0" tflyds="3" sacks="3" sackyds="10"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="MUL" down="4" togo="0" spot="LEB01" context="V,4,0,H01" playid="9,26,79" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, MUL ball on MUL30." newcontext="V,4,1,V30">
+   </play>
+   <play hasball="MUL" down="4" togo="1" spot="MUL30" context="V,4,1,V30" playid="9,27,80" type="K"
+      text="Agnello E. kickoff 35 yards to the LEB29, downed." newcontext="H,1,10,H29">
+    <p_ko vh="V" name="Agnello E." gain="35"></p_ko>
+   </play>
+   <drivestart poss="H,H29,12:00" vh="H" spot="H29" clock="12:00" driveindex="10,80"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB29" context="H,1,10,H29" playid="10,1,81" clock="11:52"
+      text="LEONI BASILIANO drive start at 11:52." newcontext="H,1,10,H29">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB29" context="H,1,10,H29" playid="10,2,82" type="R"
+      text="La Rocca G. rush for 5 yards to the LEB34 (Zaccaria V.)." newcontext="H,2,5,H34">
+    <p_ru vh="H" name="La Rocca G." gain="5"></p_ru>
+    <p_tk vh="V" name="Zaccaria V."></p_tk>
+   </play>
+   <play hasball="LEB" down="2" togo="5" spot="LEB34" context="H,2,5,H34" playid="10,3,83" type="R"
+      text="Corrado C. rush for no gain to the LEB34 (Stolfa G.)." newcontext="H,3,5,H34">
+    <p_ru vh="H" name="Corrado C." gain="0"></p_ru>
+    <p_tk vh="V" name="Stolfa G."></p_tk>
+   </play>
+   <play hasball="LEB" down="3" togo="5" spot="LEB34" context="H,3,5,H34" playid="10,4,84" type="P" first="P"
+      text="Corrado C. pass complete to Dione M. for 20 yards to the MUL40, 1ST DOWN LEB (Gentile G.)." newcontext="H,1,10,V40">
+    <p_pa vh="H" qb="Corrado C." result="COMP" rcv="Dione M." gain="20"></p_pa>
+    <p_tk vh="V" name="Gentile G."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL40" context="H,1,10,V40" playid="10,5,85" type="R"
+      text="La Rocca G. rush for loss of 9 yards to the LEB45, out-of-bounds." ob="Y" newcontext="H,2,19,H45">
+    <p_ru vh="H" name="La Rocca G." gain="-9"></p_ru>
+   </play>
+   <play hasball="LEB" down="2" togo="19" spot="LEB45" context="H,2,19,H45" playid="10,6,86" type="#" clock="09:43"
+      text="Timeout Leoni Basiliano, clock 09:43." newcontext="H,2,19,H45">
+    <p_to vh="H" team="Leoni Basiliano"></p_to>
+   </play>
+   <play hasball="LEB" down="2" togo="19" spot="LEB45" context="H,2,19,H45" playid="10,7,87" type="P" first="P"
+      text="Corrado C. pass complete to Degano S. for 20 yards to the MUL29, 1ST DOWN LEB, out-of-bounds (Gentile G.)." ob="Y" newcontext="H,1,10,V29">
+    <p_pa vh="H" qb="Corrado C." result="COMP" rcv="Degano S." gain="20"></p_pa>
+    <p_tk vh="V" name="Gentile G."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL29" context="H,1,10,V29" playid="10,8,88" type="E"
+      text="Corrado C. rush for 4 yards to the MUL25, out-of-bounds (Sivec A.), PENALTY MUL offside defense 5 yards to the MUL24, NO PLAY." ob="Y" newcontext="H,1,5,V24">
+    <p_pn vh="V" code="OD" type="offside defense" result="ACCEPT" at="V29" yards="5"></p_pn>
+   </play>
+   <play hasball="LEB" down="1" togo="5" spot="MUL24" context="H,1,5,V24" playid="10,9,89" type="R" first="R"
+      text="Corrado C. rush for 15 yards to the MUL9, 1ST DOWN LEB, out-of-bounds (Dosso J.)." ob="Y" newcontext="H,1,0,V09">
+    <p_ru vh="H" name="Corrado C." gain="15"></p_ru>
+    <p_tk vh="V" name="Dosso J."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="MUL09" context="H,1,0,V09" playid="10,10,90" type="P" score="Y" clock="08:05"
+      text="Corrado C. pass complete to Prima N. for 9 yards to the MUL0, TOUCHDOWN, clock 08:05." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Corrado C." result="COMP" rcv="Prima N." gain="9"></p_pa>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="10,11,91" type="X" score="Y"
+      text="Dione M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Dione M." qb="Dione M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="35"></score>
+   <drivesum plays="7" yards="65" top="3:47" driveindex="10" complete="Y"></drivesum>
+   <play hasball="LEB" down="1" togo="0" spot="LEB30" context="H,1,0,H30" playid="10,12,92" type="K"
+      text="Dione M. kickoff 22 yards to the MUL42, on-side kick, recovered by LEB on MUL42 (Stolfa G.)." newcontext="H,1,10,V42">
+    <p_ko vh="H" name="Dione M." gain="22" result="N"></p_ko>
+    <p_tk vh="V" name="Stolfa G."></p_tk>
+   </play>
+   <drivestart poss="H,V42,08:05" vh="H" spot="V42" clock="08:05" driveindex="11,92"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="MUL42" context="H,1,10,V42" playid="11,1,93" clock="05:45"
+      text="LEONI BASILIANO drive start at 05:45." newcontext="H,1,10,V42">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL42" context="H,1,10,V42" playid="11,2,94" type="R"
+      text="Corrado C. rush for 9 yards to the MUL33, out-of-bounds." ob="Y" newcontext="H,2,1,V33">
+    <p_ru vh="H" name="Corrado C." gain="9"></p_ru>
+   </play>
+   <play hasball="LEB" down="2" togo="1" spot="MUL33" context="H,2,1,V33" playid="11,3,95" type="R" first="R"
+      text="Corrado C. rush for 4 yards to the MUL29, 1ST DOWN LEB, out-of-bounds." ob="Y" newcontext="H,1,10,V29">
+    <p_ru vh="H" name="Corrado C." gain="4"></p_ru>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL29" context="H,1,10,V29" playid="11,4,96" type="P" first="P" score="Y" clock="03:35"
+      text="Corrado C. pass complete to Fronda G. for 29 yards to the MUL0, 1ST DOWN LEB, TOUCHDOWN, clock 03:35." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="Corrado C." result="COMP" rcv="Fronda G." gain="29"></p_pa>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="11,5,97" type="X" score="Y"
+      text="Dione M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Dione M." qb="Dione M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="42"></score>
+   <drivesum plays="3" yards="42" top="2:10" driveindex="11" complete="Y"></drivesum>
+   <play hasball="LEB" down="1" togo="0" spot="LEB30" context="H,1,0,H30" playid="11,6,98" type="K"
+      text="Dione M. kickoff 40 yards to the MUL24, fair catch by Kobal L.." newcontext="V,1,10,V24">
+    <p_ko vh="H" name="Dione M." gain="40" result="C" fc="Kobal L."></p_ko>
+   </play>
+   <drivestart poss="V,V24,03:35" vh="V" spot="V24" clock="03:35" driveindex="12,98"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL24" context="V,1,10,V24" playid="12,1,99" clock="01:22"
+      text="MULI TRIESTE drive start at 01:22." newcontext="V,1,10,V24">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL24" context="V,1,10,V24" playid="12,2,100" type="P" first="P"
+      text="Dosso J. pass complete to Kobal L. for 15 yards to the MUL39, 1ST DOWN MUL, out-of-bounds (Muzzolini A.)." ob="Y" newcontext="V,1,10,V39">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="15"></p_pa>
+    <p_tk vh="H" name="Muzzolini A."></p_tk>
+   </play>
+   <score qtr="3" V="0" H="42"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:35"></misc>
+    <pass comp="1" att="1" int="0" yds="15" td="0" long="2" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="15" td="0" long="2"></rcv>
+    <ko no="1" yds="35" ob="0" tb="0"></ko>
+    <defense tackua="6" tacka="0" tot_tack="6" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LEB">
+    <firstdowns no="5" rush="2" pass="3" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:25"></misc>
+    <rush att="6" yds="24" gain="33" loss="9" td="0" long="0"></rush>
+    <pass comp="4" att="4" int="0" yds="78" td="2" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="78" td="2" long="0"></rcv>
+    <ko no="1" yds="40" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="1" tacka="0" tot_tack="1" sacks="3" sackyds="10"></defense>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="MUL" down="1" togo="10" spot="MUL39" context="V,1,10,V39" playid="12,3,101" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00." newcontext="V,1,10,V39">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL39" context="V,1,10,V39" playid="12,4,102" type="E" first="E"
+      text="Agnello E. rush for no gain to the MUL39, out-of-bounds (Esposito G.), PENALTY LEB face mask 15 yards to the LEB40, 1ST DOWN MUL, NO PLAY." ob="Y" newcontext="V,1,10,H40">
+    <p_pn vh="H" code="FM" type="face mask" result="ACCEPT" at="V39" yards="15"></p_pn>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="LEB40" context="V,1,10,H40" playid="12,5,103" type="R"
+      text="Dosso J. rush for loss of 1 yard to the LEB41 (Grion M.)." newcontext="V,2,11,H41">
+    <p_ru vh="V" name="Dosso J." gain="-1"></p_ru>
+    <p_tk vh="H" name="Grion M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="11" spot="LEB41" context="V,2,11,H41" playid="12,6,104" type="P"
+      text="Dosso J. pass incomplete to Ugrin R.." newcontext="V,3,11,H41">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Ugrin R."></p_pa>
+   </play>
+   <play hasball="MUL" down="3" togo="11" spot="LEB41" context="V,3,11,H41" playid="12,7,105" type="P"
+      text="Dosso J. pass incomplete to Kobal L.." newcontext="V,4,11,H41">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="4" togo="11" spot="LEB41" context="V,4,11,H41" playid="12,8,106" type="P"
+      text="Dosso J. pass incomplete to Ugrin R.." newcontext="H,1,10,H41">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Ugrin R."></p_pa>
+   </play>
+   <drivesum plays="5" yards="29" top="4:12" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="H,H41,12:00" vh="H" spot="H41" clock="12:00" driveindex="13,106"></drivestart>
+   <play hasball="LEB" down="1" togo="10" spot="LEB41" context="H,1,10,H41" playid="13,1,107" clock="09:10"
+      text="LEONI BASILIANO drive start at 09:10." newcontext="H,1,10,H41">
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="LEB41" context="H,1,10,H41" playid="13,2,108" type="P"
+      text="Corrado C. pass incomplete to Dione M.." newcontext="H,2,10,H41">
+    <p_pa vh="H" qb="Corrado C." result="INC" rcv="Dione M."></p_pa>
+   </play>
+   <play hasball="LEB" down="2" togo="10" spot="LEB41" context="H,2,10,H41" playid="13,3,109" type="#" clock="08:10"
+      text="Timeout Muli Trieste, clock 08:10." newcontext="H,2,10,H41">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="LEB" down="2" togo="10" spot="LEB41" context="H,2,10,H41" playid="13,4,110" type="R" first="R"
+      text="La Rocca G. rush for 13 yards to the MUL40, 1ST DOWN LEB, out-of-bounds (Gentile G.)." ob="Y" newcontext="H,1,10,V40">
+    <p_ru vh="H" name="La Rocca G." gain="13"></p_ru>
+    <p_tk vh="V" name="Gentile G."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL40" context="H,1,10,V40" playid="13,5,111" type="P"
+      text="Corrado C. pass incomplete to Dione M.." newcontext="H,2,10,V40">
+    <p_pa vh="H" qb="Corrado C." result="INC" rcv="Dione M."></p_pa>
+   </play>
+   <play hasball="LEB" down="2" togo="10" spot="MUL40" context="H,2,10,V40" playid="13,6,112" type="P" first="P"
+      text="Corrado C. pass complete to Prima N. for 16 yards to the MUL24, 1ST DOWN LEB (Stolfa G.)." newcontext="H,1,10,V24">
+    <p_pa vh="H" qb="Corrado C." result="COMP" rcv="Prima N." gain="16"></p_pa>
+    <p_tk vh="V" name="Stolfa G."></p_tk>
+   </play>
+   <play hasball="LEB" down="1" togo="10" spot="MUL24" context="H,1,10,V24" playid="13,7,113" type="P"
+      text="Corrado C. pass complete to Dione M. for 5 yards to the MUL19, out-of-bounds." ob="Y" newcontext="H,2,5,V19">
+    <p_pa vh="H" qb="Corrado C." result="COMP" rcv="Dione M." gain="5"></p_pa>
+   </play>
+   <play hasball="LEB" down="2" togo="5" spot="MUL19" context="H,2,5,V19" playid="13,8,114" type="R" first="R" score="Y" clock="05:40"
+      text="La Rocca G. rush for 19 yards to the MUL0, 1ST DOWN LEB, TOUCHDOWN, clock 05:40." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="La Rocca G." gain="19"></p_ru>
+   </play>
+   <play hasball="LEB" down="1" togo="0" spot="MUL03" context="H,1,0,V03" playid="13,9,115" type="X" score="Y"
+      text="Dione M. kick attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Dione M." qb="Dione M." type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="49"></score>
+   <drivesum plays="6" yards="53" top="3:30" driveindex="13" complete="Y"></drivesum>
+   <play hasball="LEB" down="1" togo="0" spot="LEB30" context="H,1,0,H30" playid="13,10,116" type="K"
+      text="Dione M. kickoff 54 yards to the MUL10, downed." newcontext="V,1,10,V10">
+    <p_ko vh="H" name="Dione M." gain="54"></p_ko>
+   </play>
+   <drivestart poss="V,V10,05:40" vh="V" spot="V10" clock="05:40" driveindex="14,116"></drivestart>
+   <play hasball="MUL" down="1" togo="10" spot="MUL10" context="V,1,10,V10" playid="14,1,117" clock="05:02"
+      text="MULI TRIESTE drive start at 05:02." newcontext="V,1,10,V10">
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL10" context="V,1,10,V10" playid="14,2,118" type="P"
+      text="Dosso J. pass complete to Kobal L. for 7 yards to the MUL17, out-of-bounds (Mattiussi M.)." ob="Y" newcontext="V,2,3,V17">
+    <p_pa vh="V" qb="Dosso J." result="COMP" rcv="Kobal L." gain="7"></p_pa>
+    <p_tk vh="H" name="Mattiussi M."></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="3" spot="MUL17" context="V,2,3,V17" playid="14,3,119" type="R" first="R"
+      text="Agnello E. rush for 7 yards to the MUL24, 1ST DOWN MUL (Grion M.)." newcontext="V,1,10,V24">
+    <p_ru vh="V" name="Agnello E." gain="7"></p_ru>
+    <p_tk vh="H" name="Grion M."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL24" context="V,1,10,V24" playid="14,4,120" type="E"
+      text="PENALTY LEB offside defense (Bonat F.) 5 yards to the MUL29." newcontext="V,1,5,V29">
+    <p_pn vh="H" code="OD" type="offside defense" name="Bonat F." result="ACCEPT" at="V24" yards="5"></p_pn>
+   </play>
+   <play hasball="MUL" down="1" togo="5" spot="MUL29" context="V,1,5,V29" playid="14,5,121" type="R"
+      text="Agnello E. rush for 4 yards to the MUL33 (Grion M.;Dione M.)." newcontext="V,2,1,V33">
+    <p_ru vh="V" name="Agnello E." gain="4"></p_ru>
+    <p_tk vh="H" name="Grion M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Dione M." assist="Y"></p_tk>
+   </play>
+   <play hasball="MUL" down="2" togo="1" spot="MUL33" context="V,2,1,V33" playid="14,6,122" type="#" clock="01:25"
+      text="Timeout Muli Trieste, clock 01:25." newcontext="V,2,1,V33">
+    <p_to vh="V" team="Muli Trieste"></p_to>
+   </play>
+   <play hasball="MUL" down="2" togo="1" spot="MUL33" context="V,2,1,V33" playid="14,7,123" type="P"
+      text="Dosso J. pass incomplete to Kobal L.." newcontext="V,3,1,V33">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="3" togo="1" spot="MUL33" context="V,3,1,V33" playid="14,8,124" type="R" first="R"
+      text="Dosso J. rush for 14 yards to the 47 yardline, 1ST DOWN MUL (Esposito G.)." newcontext="V,1,10,V47">
+    <p_ru vh="V" name="Dosso J." gain="14"></p_ru>
+    <p_tk vh="H" name="Esposito G."></p_tk>
+   </play>
+   <play hasball="MUL" down="1" togo="10" spot="MUL47" context="V,1,10,V47" playid="14,9,125" type="P"
+      text="Dosso J. pass incomplete to Kobal L.." newcontext="V,2,10,V47">
+    <p_pa vh="V" qb="Dosso J." result="INC" rcv="Kobal L."></p_pa>
+   </play>
+   <play hasball="MUL" down="2" togo="10" spot="MUL47" context="V,2,10,V47" playid="14,10,126" type="R"
+      text="Dosso J. rush for 2 yards to the LEB45 (TEAM)." newcontext="V,3,8,H45">
+    <p_ru vh="V" name="Dosso J." gain="2"></p_ru>
+    <p_tk vh="H" name="TEAM"></p_tk>
+   </play>
+   <play hasball="MUL" down="3" togo="8" spot="LEB45" context="V,3,8,H45" playid="14,11,127" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="V,3,8,H45">
+   </play>
+   <drivesum plays="7" yards="39" top="5:02" driveindex="14" complete="Y"></drivesum>
+   <score final="Y" V="0" H="49"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="MUL">
+    <firstdowns no="3" rush="2" pass="0" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:30"></misc>
+    <rush att="5" yds="26" gain="27" loss="1" td="0" long="8"></rush>
+    <pass comp="1" att="6" int="0" yds="7" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="7" td="0" long="0"></rcv>
+    <defense tackua="2" tacka="0" tot_tack="2" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="LEB">
+    <firstdowns no="3" rush="2" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:30"></misc>
+    <rush att="2" yds="32" gain="32" loss="0" td="1" long="0"></rush>
+    <pass comp="2" att="4" int="0" yds="21" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="21" td="0" long="0"></rcv>
+    <ko no="1" yds="54" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="5" tacka="2" tot_tack="7" tflua="1" tfla="0" tflyds="1" sacks="3" sackyds="10"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="MUL" down="3" togo="8" spot="LEB45" context="V,3,8,H45" qtr="4" clock="00:00" vtoh="2" htoh="1"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="MUL">
+ </dnp>
+ <dnp vh="H" id="LEB">
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="H" id="LEB" yds="74" play="PASS" players="Corrado C. to Vidoz F." td="Y"></longplay>
+ </longplays>
+</fbgame>
