@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const url = "iflxml/20220078.xml"
+  const url = "2divxml/20220046.xml"
   fetch(url)
   .then(response=>response.text())
   .then(data=>{
@@ -13,15 +13,38 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 })
 
+
+function backToTop(){
+  window.scrollTo({top: 0, behavior: 'smooth'})
+}
+
+
+function toggleText(id){
+  window.scrollTo({top: 480, behavior: 'smooth'})
+  allDivs = document.getElementsByClassName('contentDiv')
+  console.log(allDivs[1])
+  for(i=0; i<allDivs.length; i++){
+    if (allDivs.id !== id)
+      allDivs[i].style.display = 'none';
+  }
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
 function createElementHTML(type, content, id, whereto){
   entry = document.createElement(type)
   entry.textContent = content
   if (id !== ''){
     entry.setAttribute('id', id)
   }
-  
   whereto.appendChild(entry)
 }
+
 
 function refToReferee(x){
   switch (x) {
@@ -55,6 +78,7 @@ function refToReferee(x){
   }
   return value
 }
+
 
 function buildScoreboard(x) {
   let team = x.getElementsByTagName('team')

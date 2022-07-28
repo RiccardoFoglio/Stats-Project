@@ -5,3 +5,23 @@ body {
   background-color: rgb(235, 235, 235);
   font-size: 18px;
 }
+
+
+.backToTopButton{
+  position: fixed;
+  bottom: 20;
+  right: 20;
+
+  border: 2px solid black;
+  border-radius: 50%;
+
+  height: 45px;
+  width: 45px;
+}
+
+.backToTopButton img {
+  height: 50px;
+  position: fixed;
+  bottom: 17.5;
+  right: 17.5;
+}

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+b<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="styles/scoreboard.css">
   <link rel="stylesheet" href="styles/scorebyquarters.css">
   <link rel="stylesheet" href="styles/general-info+refs.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+
 
 
   <script src="script.js"></script>
@@ -50,7 +52,9 @@
   </div>
 
   
-
+  <!--
+  scoring summary  
+  -->
 
 
   <div id="general-info">
@@ -74,13 +78,30 @@
     <ul id="ref-list"></ul>
   </div>
 
-  
-
   <hr>
-  
 
-  
-  
+<div class="navBox">
+  <button class="button" onclick="toggleText('teamTotals')">Team Statistics</button>
+  <button class="button" onclick="toggleText('individualOffense')">Individual Statistics</button>
+  <button class="button" onclick="toggleText('driveChart')">Drive Chart</button>
+  <button class="button" onclick="toggleText('defenseStats')">Defensive Statistics</button>
+  <button class="button" onclick="toggleText('rosters')">Rosters</button>
+  <button class="button" onclick="toggleText('play-by-play')">Play-by-Play</button>
+</div>
+
+
+<div id="contentBox">
+  <div class="contentDiv" id="teamTotals"> TeamTotals </div>
+  <div class="contentDiv" id="individualOffense"> IndividualOffense </div>
+  <div class="contentDiv" id="driveChart"> DriveChart (complete and by quarter) </div>
+  <div class="contentDiv" id="defenseStats"> Defense Stats </div>
+  <div class="contentDiv" id="rosters"> Rosters </div>
+  <div class="contentDiv" id="play-by-play"> Play-by-play </div>
+</div>
+
+
+
+<button class="backToTopButton" onclick="backToTop()"><img src="UI_v.webp"></button>
 </main>
     
 </body>

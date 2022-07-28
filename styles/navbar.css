@@ -1,0 +1,32 @@
+.navBox {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.button {
+    height: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    outline: 2px solid rgb(190, 190, 190);
+    padding: 20px 40px;
+    overflow: hidden;
+    transition: color 0.15s;
+    transition: background-color 0.15s;
+
+    margin: 5px 10px;
+}
+
+.button:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+.contentDiv {
+    display: none;
+}
+
