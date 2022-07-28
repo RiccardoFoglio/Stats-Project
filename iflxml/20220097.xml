@@ -1,0 +1,784 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220097" visid="GUE" homeid="VPS" visname="GUELFI FIRENZE" homename="VIPERS MODENA"
+      date="5/29/2022" location="MONTEVEGLIO BO" stadium="CENTRO SPORT.MONTEV."
+      start="15.00" end="17.05" leaguegame="Y"
+      duration="2.05" attend="150" temp="16.5" wind="LIGHT" weather="CLOUDY">
+  <officials ref="M. SALA" ump="G. CURATOLO" line="C. TOMAZ" lj="I. CONTI" bj="N. PIZZORNO" fj="A. CONTI" sj="A. TOGNONI" sc="S. PONGOLINI"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="92" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="GUE" name="GUELFI FIRENZE" record="5 2 0" conf-record="5-2" abb="G">
+  <linescore prds="4" line="7,21,7,0" score="35">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="21"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="19" rush="18" pass="1" penalty="0"></firstdowns>
+   <penalties no="10" yds="86"></penalties>
+   <conversions thirdconv="1" thirdatt="6" fourthconv="2" fourthatt="4"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="16:37" ona="0" onm="0"></misc>
+   <redzone att="4" scores="3" points="21" tdrush="3" tdpass="0" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="37" yds="297" gain="303" loss="6" td="4" long="42"></rush>
+   <pass comp="2" att="11" int="0" yds="52" td="1" long="39" sacks="1" sackyds="5"></pass>
+   <rcv no="2" yds="52" td="1" long="39"></rcv>
+   <ko no="6" yds="270" ob="0" tb="1"></ko>
+   <pat kickatt="5" kickmade="5"></pat>
+   <defense tackua="24" tacka="18" tflua="6" tfla="2" tflyds="42" sacks="1" sackyds="8" brup="2" ff="3" fr="3" fryds="0"></defense>
+   <kr no="1" yds="8" td="0" long="8"></kr>
+   <pr no="1" yds="0" td="0" long="0"></pr>
+   <scoring td="5" patkick="5"></scoring>
+  </totals>
+  <player name="Abera Jote M." shortname="Abera Jote M." checkname="JOTE M.,ABERA" uni="0" gp="1" code="0">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Gerbino J." shortname="Gerbino J." checkname="J.,GERBINO" uni="1" gp="1" code="1">
+   <rush att="5" yds="46" gain="46" loss="0" td="1" long="15"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Lynch D." shortname="Lynch D." checkname="D.,LYNCH" uni="2" gp="1" code="2">
+  </player>
+  <player name="Camilli C." shortname="Camilli C." checkname="C.,CAMILLI" uni="3" gp="1" code="3"></player>
+  <player name="Corraddossi P." shortname="Corraddossi P." checkname="P.,CORRADDOSSI" uni="4" gp="1" code="4">
+   <kr no="1" yds="8" td="0" long="8"></kr>
+  </player>
+  <player name="Tanner A." shortname="Tanner A." checkname="A.,TANNER" uni="5" gp="1" code="5"></player>
+  <player name="Formosa N." shortname="Formosa N." checkname="N.,FORMOSA" uni="6" gp="1" code="6">
+  </player>
+  <player name="Camorani F." shortname="Camorani F." checkname="F.,CAMORANI" uni="7" gp="1" code="7"></player>
+  <player name="Fimiani A." shortname="Fimiani A." checkname="A.,FIMIANI" uni="8" gp="1" code="8">
+   <rush att="17" yds="133" gain="139" loss="6" td="2" long="26"></rush>
+   <pass comp="2" att="11" int="0" yds="52" td="1" long="39" sacks="1" sackyds="5"></pass>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Cammi E." shortname="Cammi E." checkname="E.,CAMMI" uni="9" gp="1" code="9">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Nimskov J." shortname="Nimskov J." checkname="J.,NIMSKOV" uni="10" gp="1" code="10">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Rinaldi D." shortname="Rinaldi D." checkname="D.,RINALDI" uni="11" gp="1" code="11">
+   <defense tackua="4" tacka="0" tflua="3" tfla="0" tflyds="5"></defense>
+  </player>
+  <player name="Vitti D." shortname="Vitti D." checkname="D.,VITTI" uni="12" gp="1" code="12"></player>
+  <player name="Campora L." shortname="Campora L." checkname="L.,CAMPORA" uni="13" gp="1" code="13"></player>
+  <player name="Minnehan J." shortname="Minnehan J." checkname="J.,MINNEHAN" uni="14" gp="1" code="14">
+   <rush att="1" yds="2" gain="2" loss="0" td="0" long="2"></rush>
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="Giachin A." shortname="Giachin A." checkname="A.,GIACHIN" uni="15" gp="1" code="15"></player>
+  <player name="Dellasorte G." shortname="Dellasorte G." checkname="G.,DELLASORTE" uni="19" gp="1" code="19"></player>
+  <player name="Marcacci M." shortname="Marcacci M." checkname="M.,MARCACCI" uni="20" gp="1" code="20">
+   <defense fr="1" fryds="0"></defense>
+  </player>
+  <player name="Costanzi A." shortname="Costanzi A." checkname="A.,COSTANZI" uni="21" gp="1" code="21">
+   <defense tackua="4" tacka="1"></defense>
+   <pr no="1" yds="0" td="0" long="0"></pr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Almeida Cabr D." shortname="Almeida Cabr D." checkname="CABR D.,ALMEIDA" uni="22" gp="1" code="22">
+   <rcv no="1" yds="39" td="1" long="39"></rcv>
+   <defense tackua="1" tacka="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Fanni M." shortname="Fanni M." checkname="M.,FANNI" uni="23" gp="1" code="23"></player>
+  <player name="N'guessan K." shortname="N'guessan K." checkname="K.,N'GUESSAN" uni="24" gp="1" code="24">
+   <rush att="1" yds="6" gain="6" loss="0" td="0" long="6"></rush>
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Lonzar R." shortname="Lonzar R." checkname="R.,LONZAR" uni="25" gp="1" code="25"></player>
+  <player name="Poglietelli A." shortname="Poglietelli A." checkname="A.,POGLIETELLI" uni="26" gp="1" code="26">
+   <defense tackua="2" tacka="2" tflua="2" tfla="0" tflyds="30" sackua="1" sacka="0" sackyds="8" ff="1"></defense>
+  </player>
+  <player name="Torelli L." shortname="Torelli L." checkname="L.,TORELLI" uni="27" gp="1" code="27"></player>
+  <player name="Pascolo S." shortname="Pascolo S." checkname="S.,PASCOLO" uni="28" gp="1" code="28">
+   <defense tackua="1" tacka="0" brup="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Scialdone G." shortname="Scialdone G." checkname="G.,SCIALDONE" uni="29" gp="1" code="29">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Mansani G." shortname="Mansani G." checkname="G.,MANSANI" uni="31" gp="1" code="31"></player>
+  <player name="Casati C." shortname="Casati C." checkname="C.,CASATI" uni="32" gp="1" code="32">
+   <rush att="6" yds="73" gain="73" loss="0" td="1" long="42"></rush>
+   <defense tackua="2" tacka="1" ff="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Palomba M." shortname="Palomba M." checkname="M.,PALOMBA" uni="33" gp="1" code="33">
+   <rush att="7" yds="37" gain="37" loss="0" td="0" long="9"></rush>
+  </player>
+  <player name="Pinzauti D." shortname="Pinzauti D." checkname="D.,PINZAUTI" uni="40" gp="1" code="40">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Carboni F." shortname="Carboni F." checkname="F.,CARBONI" uni="45" gp="1" code="45">
+   <rcv no="1" yds="13" td="0" long="13"></rcv>
+  </player>
+  <player name="Carteni' C." shortname="Carteni' C." checkname="C.,CARTENI'" uni="48" gp="1" code="48"></player>
+  <player name="Dalle Piagge L." shortname="Dalle Piagge L." checkname="PIAGGE L.,DALLE" uni="52" gp="1" code="52"></player>
+  <player name="Piaggio P." shortname="Piaggio P." checkname="P.,PIAGGIO" uni="54" gp="1" code="54">
+   <defense tackua="0" tacka="2" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Chiusi L." shortname="Chiusi L." checkname="L.,CHIUSI" uni="56" gp="1" code="56">
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="Adduci A." shortname="Adduci A." checkname="A.,ADDUCI" uni="59" gp="1" code="59"></player>
+  <player name="Macaj R." shortname="Macaj R." checkname="R.,MACAJ" uni="61" gp="1" code="61"></player>
+  <player name="Lodovichi M." shortname="Lodovichi M." checkname="M.,LODOVICHI" uni="65" gp="1" code="65"></player>
+  <player name="Lazzaro F." shortname="Lazzaro F." checkname="F.,LAZZARO" uni="66" gp="1" code="66"></player>
+  <player name="Santini G." shortname="Santini G." checkname="G.,SANTINI" uni="69" gp="1" code="69"></player>
+  <player name="Ruotolo V." shortname="Ruotolo V." checkname="V.,RUOTOLO" uni="72" gp="1" code="72"></player>
+  <player name="Chiattelli V." shortname="Chiattelli V." checkname="V.,CHIATTELLI" uni="73" gp="1" code="73"></player>
+  <player name="Giachin R." shortname="Giachin R." checkname="R.,GIACHIN" uni="77" gp="1" code="77"></player>
+  <player name="Lelli M." shortname="Lelli M." checkname="M.,LELLI" uni="78" gp="1" code="78"></player>
+  <player name="Brighenti L." shortname="Brighenti L." checkname="L.,BRIGHENTI" uni="81" gp="1" code="81">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="5"></defense>
+  </player>
+  <player name="Bartoccioni S." shortname="Bartoccioni S." checkname="S.,BARTOCCIONI" uni="86" gp="1" code="86"></player>
+  <player name="Barbaro A." shortname="Barbaro A." checkname="A.,BARBARO" uni="88" gp="1" code="88">
+   <ko no="6" yds="270" ob="0" tb="1"></ko>
+   <pat kickatt="5" kickmade="5"></pat>
+   <scoring patkick="5"></scoring>
+  </player>
+  <player name="Baiocco P." shortname="Baiocco P." checkname="P.,BAIOCCO" uni="91" gp="1" code="91">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Parronchi G." shortname="Parronchi G." checkname="G.,PARRONCHI" uni="97" gp="1" code="97">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Vannini L." shortname="Vannini L." checkname="L.,VANNINI" uni="98" gp="1" code="98">
+   <defense tackua="0" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Dellasorte R." shortname="Dellasorte R." checkname="R.,DELLASORTE" uni="99" gp="1" code="99"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0" ff="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="VPS" name="VIPERS MODENA" record="3 4 0" conf-record="3-4" abb="H">
+  <linescore prds="4" line="0,0,0,6" score="6">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="10" rush="8" pass="0" penalty="2"></firstdowns>
+   <penalties no="8" yds="50"></penalties>
+   <conversions thirdconv="2" thirdatt="11" fourthconv="3" fourthatt="5"></conversions>
+   <fumbles no="3" lost="3"></fumbles>
+   <misc yds="0" top="31:23" ona="0" onm="0"></misc>
+   <redzone att="2" scores="1" points="6" tdrush="1" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="1" endhalf="0" endgame="0"></redzone>
+   <rush att="33" yds="97" gain="139" loss="42" td="1" long="20"></rush>
+   <pass comp="4" att="14" int="0" yds="16" td="0" long="7" sacks="1" sackyds="8"></pass>
+   <rcv no="4" yds="16" td="0" long="7"></rcv>
+   <punt no="2" yds="59" long="49" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="2" yds="75" ob="0" tb="0"></ko>
+   <pat passatt="1" passmade="0"></pat>
+   <defense tackua="22" tacka="24" tflua="2" tfla="0" tflyds="6" sacks="1" sackyds="5" brup="3" ff="1" fr="1" fryds="0"></defense>
+   <kr no="3" yds="51" td="0" long="31"></kr>
+   <scoring td="1"></scoring>
+  </totals>
+  <player name="Rumi F." shortname="Rumi F." checkname="F.,RUMI" uni="1" gp="1" code="1"></player>
+  <player name="Vanatsky D." shortname="Vanatsky D." checkname="D.,VANATSKY" uni="2" gp="1" code="2">
+   <rush att="4" yds="4" gain="12" loss="8" td="0" long="9"></rush>
+   <pass comp="3" att="9" int="0" yds="14" td="0" long="7" sacks="1" sackyds="8"></pass>
+   <punt no="2" yds="59" long="49" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+  </player>
+  <player name="Goldoni E." shortname="Goldoni E." checkname="E.,GOLDONI" uni="3" gp="1" code="3">
+   <rush att="7" yds="37" gain="39" loss="2" td="0" long="16"></rush>
+  </player>
+  <player name="Foti L." shortname="Foti L." checkname="L.,FOTI" uni="4" gp="1" code="4"></player>
+  <player name="Skinner D." shortname="Skinner D." checkname="D.,SKINNER" uni="5" gp="1" code="5">
+   <defense tackua="5" tacka="3"></defense>
+  </player>
+  <player name="Mirenda A." shortname="Mirenda A." checkname="A.,MIRENDA" uni="7" gp="1" code="7"></player>
+  <player name="Rosi L." shortname="Rosi L." checkname="L.,ROSI" uni="8" gp="1" code="8">
+   <defense tackua="2" tacka="5" brup="1"></defense>
+  </player>
+  <player name="Minopoli L." shortname="Minopoli L." checkname="L.,MINOPOLI" uni="9" gp="1" code="9">
+   <rcv no="1" yds="3" td="0" long="3"></rcv>
+   <kr no="1" yds="2" td="0" long="2"></kr>
+  </player>
+  <player name="Bernardini A." shortname="Bernardini A." checkname="A.,BERNARDINI" uni="10" gp="1" code="10">
+   <defense tackua="2" tacka="5"></defense>
+  </player>
+  <player name="Turrini M." shortname="Turrini M." checkname="M.,TURRINI" uni="11" gp="1" code="11">
+   <rcv no="1" yds="4" td="0" long="4"></rcv>
+   <defense tackua="0" tacka="1"></defense>
+   <kr no="2" yds="49" td="0" long="31"></kr>
+  </player>
+  <player name="Barbagallo G." shortname="Barbagallo G." checkname="G.,BARBAGALLO" uni="13" gp="1" code="13"></player>
+  <player name="Vidoni F." shortname="Vidoni F." checkname="F.,VIDONI" uni="14" gp="1" code="14">
+  </player>
+  <player name="Gatti A." shortname="Gatti A." checkname="A.,GATTI" uni="15" gp="1" code="15">
+   <rush att="5" yds="34" gain="39" loss="5" td="0" long="20"></rush>
+   <pass comp="1" att="5" int="0" yds="2" td="0" long="2" sacks="0" sackyds="0"></pass>
+   <pat passatt="1" passmade="0"></pat>
+  </player>
+  <player name="Cattabriga S." shortname="Cattabriga S." checkname="S.,CATTABRIGA" uni="17" gp="1" code="17"></player>
+  <player name="Sicignano F." shortname="Sicignano F." checkname="F.,SICIGNANO" uni="21" gp="1" code="21">
+   <rush att="3" yds="16" gain="16" loss="0" td="1" long="11"></rush>
+   <rcv no="1" yds="2" td="0" long="2"></rcv>
+   <defense tackua="0" tacka="2"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Vrapi K." shortname="Vrapi K." checkname="K.,VRAPI" uni="22" gp="1" code="22">
+   <defense tackua="4" tacka="2" brup="2"></defense>
+  </player>
+  <player name="Barbera F." shortname="Barbera F." checkname="F.,BARBERA" uni="24" gp="1" code="24">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Chiriac M." shortname="Chiriac M." checkname="M.,CHIRIAC" uni="26" gp="1" code="26">
+   <rush att="4" yds="7" gain="7" loss="0" td="0" long="4"></rush>
+   <ko no="2" yds="75" ob="0" tb="0"></ko>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Lo Biondo G." shortname="Lo Biondo G." checkname="BIONDO G.,LO" uni="31" gp="1" code="31"></player>
+  <player name="Cira E." shortname="Cira E." checkname="E.,CIRA" uni="33" gp="1" code="33">
+   <rush att="9" yds="-1" gain="26" loss="27" td="0" long="14"></rush>
+   <fumbles no="2" lost="2"></fumbles>
+  </player>
+  <player name="Montaruli G." shortname="Montaruli G." checkname="G.,MONTARULI" uni="37" gp="1" code="37">
+   <defense tackua="0" tacka="2" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Mazzoni M." shortname="Mazzoni M." checkname="M.,MAZZONI" uni="41" gp="1" code="41"></player>
+  <player name="Manicardi P." shortname="Manicardi P." checkname="P.,MANICARDI" uni="45" gp="1" code="45">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="5"></defense>
+  </player>
+  <player name="Baldi A." shortname="Baldi A." checkname="A.,BALDI" uni="47" gp="1" code="47">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Lianka H." shortname="Lianka H." checkname="H.,LIANKA" uni="50" gp="1" code="50">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Ficcarelli A." shortname="Ficcarelli A." checkname="A.,FICCARELLI" uni="52" gp="1" code="52"></player>
+  <player name="Vrapi M." shortname="Vrapi M." checkname="M.,VRAPI" uni="55" gp="1" code="55">
+   <defense tackua="3" tacka="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Romano G." shortname="Romano G." checkname="G.,ROMANO" uni="56" gp="1" code="56"></player>
+  <player name="Cosmar A." shortname="Cosmar A." checkname="A.,COSMAR" uni="60" gp="1" code="60"></player>
+  <player name="Bigliardi A." shortname="Bigliardi A." checkname="A.,BIGLIARDI" uni="66" gp="1" code="66"></player>
+  <player name="Buffagni M." shortname="Buffagni M." checkname="M.,BUFFAGNI" uni="67" gp="1" code="67"></player>
+  <player name="Fanti F." shortname="Fanti F." checkname="F.,FANTI" uni="68" gp="1" code="68"></player>
+  <player name="Orlando G." shortname="Orlando G." checkname="G.,ORLANDO" uni="69" gp="1" code="69"></player>
+  <player name="Barbarini L." shortname="Barbarini L." checkname="L.,BARBARINI" uni="72" gp="1" code="72"></player>
+  <player name="Leoni D." shortname="Leoni D." checkname="D.,LEONI" uni="75" gp="1" code="75"></player>
+  <player name="Spadoni A." shortname="Spadoni A." checkname="A.,SPADONI" uni="77" gp="1" code="77"></player>
+  <player name="Carroli D." shortname="Carroli D." checkname="D.,CARROLI" uni="78" gp="1" code="78">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Trentini Mar." shortname="Trentini Mar." checkname="MAR.,TRENTINI" uni="80" gp="1" code="80">
+  </player>
+  <player name="Caselli F." shortname="Caselli F." checkname="F.,CASELLI" uni="85" gp="1" code="85"></player>
+  <player name="Bonanno G." shortname="Bonanno G." checkname="G.,BONANNO" uni="88" gp="1" code="88">
+   <rcv no="1" yds="7" td="0" long="7"></rcv>
+  </player>
+  <player name="Chiletti R." shortname="Chiletti R." checkname="R.,CHILETTI" uni="91" gp="1" code="91"></player>
+  <player name="Orlando E." shortname="Orlando E." checkname="E.,ORLANDO" uni="97" gp="1" code="97">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0" ff="1"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="GUE" qtr="1" clock="00:00" type="TD" how="RUSH" yds="6" scorer="Fimiani A." patby="Barbaro A." pattype="KICK" patres="GOOD" plays="7" drive="51" top="3:07" vscore="7" hscore="0" driveindex="4"></score>
+  <score vh="V" team="GUE" qtr="2" clock="07:21" type="TD" how="RUSH" yds="4" scorer="Gerbino J." patby="Barbaro A." pattype="KICK" patres="GOOD" plays="4" drive="12" top="1:29" vscore="14" hscore="0" driveindex="8"></score>
+  <score vh="V" team="GUE" qtr="2" clock="00:53" type="TD" how="RUSH" yds="5" scorer="Fimiani A." patby="Barbaro A." pattype="KICK" patres="GOOD" plays="11" drive="81" top="3:41" vscore="21" hscore="0" driveindex="10"></score>
+  <score vh="V" team="GUE" qtr="2" clock="00:04" type="TD" how="PASS" yds="39" scorer="Almeida Cabr D." passer="Fimiani A." patby="Barbaro A." pattype="KICK" patres="GOOD" plays="1" drive="39" top="0:07" vscore="28" hscore="0" driveindex="12"></score>
+  <score vh="V" team="GUE" qtr="3" clock="02:47" type="TD" how="RUSH" yds="42" scorer="Casati C." patby="Barbaro A." pattype="KICK" patres="GOOD" plays="6" drive="81" top="2:05" vscore="35" hscore="0" driveindex="16"></score>
+  <score vh="H" team="VPS" qtr="4" clock="01:38" type="TD" how="RUSH" yds="1" scorer="Sicignano F." patby="Gatti A." pattype="PASS" patres="FAIL" plays="16" drive="72" top="13:09" vscore="35" hscore="6" driveindex="17"></score>
+ </scores>
+ <drives>
+  <drive vh="H" team="VPS" start="KO,1,12:00,37" end="DOWNS,1,09:56,41" plays="4" yards="4" top="2:04" driveindex="1"></drive>
+  <drive vh="V" team="GUE" start="DOWNS,1,09:56,51" end="DOWNS,1,08:43,75" plays="6" yards="24" top="1:13" rz="1" driveindex="2"></drive>
+  <drive vh="H" team="VPS" start="DOWNS,1,08:43,17" end="DOWNS,1,03:07,51" plays="9" yards="34" top="5:36" driveindex="3"></drive>
+  <drive vh="V" team="GUE" start="DOWNS,1,03:07,41" end="TD,1,00:00,92" plays="7" yards="51" top="3:07" rz="1" driveindex="4"></drive>
+  <drive vh="H" team="VPS" start="KO,2,12:00,22" end="PUNT,2,09:24,24" plays="3" yards="2" top="2:36" driveindex="5"></drive>
+  <drive vh="V" team="GUE" start="PUNT,2,00:00,58" end="FUMB,2,09:24,58" plays="0" yards="0" top="0:00" driveindex="6"></drive>
+  <drive vh="H" team="VPS" start="FUMB,2,09:24,34" end="FUMB,2,08:50,12" plays="1" yards="-22" top="0:34" driveindex="7"></drive>
+  <drive vh="V" team="GUE" start="FUMB,2,08:50,80" end="TD,2,07:21,92" plays="4" yards="12" top="1:29" rz="1" driveindex="8"></drive>
+  <drive vh="H" team="VPS" start="KO,2,07:21,31" end="PUNT,2,04:34,22" plays="3" yards="-9" top="2:47" driveindex="9"></drive>
+  <drive vh="V" team="GUE" start="PUNT,2,04:34,11" end="TD,2,00:53,92" plays="11" yards="81" top="3:41" rz="1" driveindex="10"></drive>
+  <drive vh="H" team="VPS" start="KO,2,00:53,28" end="FUMB,2,00:11,39" plays="5" yards="11" top="0:42" driveindex="11"></drive>
+  <drive vh="V" team="GUE" start="FUMB,2,00:11,53" end="TD,2,00:04,92" plays="1" yards="39" top="0:07" driveindex="12"></drive>
+  <drive vh="H" team="VPS" start="KO,2,00:04,35" end="HALF,2,00:00,35" plays="1" yards="0" top="0:04" driveindex="13"></drive>
+  <drive vh="V" team="GUE" start="KO,3,12:00,19" end="DOWNS,3,08:43,43" plays="10" yards="24" top="3:17" driveindex="14"></drive>
+  <drive vh="H" team="VPS" start="DOWNS,3,08:43,49" end="FUMB,3,04:52,81" plays="5" yards="32" top="3:51" rz="1" driveindex="15"></drive>
+  <drive vh="V" team="GUE" start="FUMB,3,04:52,11" end="TD,3,02:47,92" plays="6" yards="81" top="2:05" driveindex="16"></drive>
+  <drive vh="H" team="VPS" start="KO,3,02:47,20" end="TD,4,01:38,92" plays="16" yards="72" top="13:09" rz="1" driveindex="17"></drive>
+  <drive vh="V" team="GUE" start="KO,4,01:38,53" end="HALF,4,00:00,60" plays="3" yards="7" top="1:38" driveindex="18"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0"
+      text="VIPERS MODENA WIN THE COIN TOSS, ELECT TO RECEIVE"></play>
+   <play context="V,1,10,V30" playid="0,2,1" type="K"
+      text="Barbaro A. kickoff 27 yards to the VPS35, Minopoli L. return 2 yards to the VPS37 (Almeida Cabr D.)."></play>
+   <drivestart poss="H,H37,12:00" vh="H" spot="H37" clock="12:00" driveindex="1,1"></drivestart>
+   <play context="H,1,10,H37" playid="1,1,2" type="R"
+      text="Cira E. rush for 2 yards to the VPS39 (Chiusi L.)."></play>
+   <play context="H,2,8,H39" playid="1,2,3" type="R"
+      text="Cira E. rush for loss of 3 yards to the VPS36 (Rinaldi D.)."></play>
+   <play context="H,3,11,H36" playid="1,3,4" type="P"
+      text="Vanatsky D. pass incomplete to Vidoni F. (Pascolo S.)."></play>
+   <play context="H,4,11,H36" playid="1,4,5" type="E"
+      text="Vanatsky D. pass incomplete, PENALTY GUE offside defense 5 yards to the VPS41, NO PLAY."></play>
+   <play context="H,4,6,H41" playid="1,5,6" type="P"
+      text="Vanatsky D. pass incomplete to Vidoni F., dropped pass."></play>
+   <drivesum plays="4" yards="4" top="2:04" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,H41,12:00" vh="V" spot="H41" clock="12:00" driveindex="2,6"></drivestart>
+   <play context="V,1,10,H41" playid="2,1,7" clock="09:56"
+      text="GUELFI FIRENZE drive start at 09:56."></play>
+   <play context="V,1,10,H41" playid="2,2,8" type="R" first="R"
+      text="Fimiani A. rush for 26 yards to the VPS15, 1ST DOWN GUE, out-of-bounds (Skinner D.)."></play>
+   <play context="V,1,10,H15" playid="2,3,9" type="R"
+      text="Fimiani A. rush for 8 yards to the VPS7, PENALTY GUE holding (Almeida Cabr D.) 10 yards to the VPS17."></play>
+   <play context="V,1,12,H17" playid="2,4,10" type="P"
+      text="Fimiani A. pass incomplete to Almeida Cabr D., dropped pass."></play>
+   <play context="V,2,12,H17" playid="2,5,11" type="P"
+      text="Fimiani A. pass incomplete to Gerbino J.."></play>
+   <play context="V,3,12,H17" playid="2,6,12" type="P"
+      text="Fimiani A. pass incomplete to Carboni F.."></play>
+   <play context="V,4,12,H17" playid="2,7,13" type="P"
+      text="Fimiani A. pass incomplete to Costanzi A. (Vrapi K.)."></play>
+   <drivesum plays="6" yards="24" top="1:13" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,H17,09:56" vh="H" spot="H17" clock="09:56" driveindex="3,13"></drivestart>
+   <play context="H,1,10,H17" playid="3,1,14" clock="08:43"
+      text="VIPERS MODENA drive start at 08:43."></play>
+   <play context="H,1,10,H17" playid="3,2,15" type="R"
+      text="Cira E. rush for no gain to the VPS17."></play>
+   <play context="H,2,10,H17" playid="3,3,16" type="R"
+      text="Cira E. rush for 3 yards to the VPS20 (Casati C.)."></play>
+   <play context="H,3,7,H20" playid="3,4,17" type="E"
+      text="PENALTY GUE offside defense 5 yards to the VPS25."></play>
+   <play context="H,3,2,H25" playid="3,5,18" type="R" first="R"
+      text="Vanatsky D. rush for 9 yards to the VPS34, 1ST DOWN VPS, out-of-bounds."></play>
+   <play context="H,1,10,H34" playid="3,6,19" type="R"
+      text="Goldoni E. rush for 4 yards to the VPS38 (Costanzi A.)."></play>
+   <play context="H,2,6,H38" playid="3,7,20" type="R" first="R"
+      text="Goldoni E. rush for 16 yards to the GUE38, 1ST DOWN VPS, out-of-bounds (Minnehan J.)."></play>
+   <play context="H,1,10,V38" playid="3,8,21" type="R"
+      text="Goldoni E. rush for no gain to the GUE38 (Poglietelli A.;Abera Jote M.)."></play>
+   <play context="H,2,10,V38" playid="3,9,22" type="R"
+      text="Cira E. rush for 7 yards to the GUE31 (Costanzi A.)."></play>
+   <play context="H,3,3,V31" playid="3,10,23" type="E"
+      text="PENALTY VPS offside (Rumi F.) 5 yards to the GUE36."></play>
+   <play context="H,3,8,V36" playid="3,11,24" type="E"
+      text="PENALTY VPS offside (Bonanno G.) 5 yards to the GUE41."></play>
+   <play context="H,3,13,V41" playid="3,12,25" type="P"
+      text="Vanatsky D. pass incomplete to Bonanno G.."></play>
+   <play context="H,4,13,V41" playid="3,13,26" type="P"
+      text="Vanatsky D. pass incomplete to Vidoni F. (Vannini L.)."></play>
+   <drivesum plays="9" yards="34" top="5:36" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="V,V41,08:43" vh="V" spot="V41" clock="08:43" driveindex="4,26"></drivestart>
+   <play context="V,1,10,V41" playid="4,1,27" clock="03:07"
+      text="GUELFI FIRENZE drive start at 03:07."></play>
+   <play context="V,1,10,V41" playid="4,2,28" type="R" first="R"
+      text="Fimiani A. rush for 16 yards to the VPS35, 1ST DOWN GUE (Skinner D.)."></play>
+   <play context="V,1,10,H35" playid="4,3,29" type="R" first="R"
+      text="Fimiani A. rush for 10 yards to the VPS25, 1ST DOWN GUE (Skinner D.)."></play>
+   <play context="V,1,10,H25" playid="4,4,30" type="P"
+      text="Fimiani A. sacked for loss of 5 yards to the VPS30 (Manicardi P.)."></play>
+   <play context="V,2,15,H30" playid="4,5,31" type="R" first="R"
+      text="Gerbino J. rush for 15 yards to the VPS15, 1ST DOWN GUE, out-of-bounds (Skinner D.)."></play>
+   <play context="V,1,10,H15" playid="4,6,32" type="R"
+      text="Minnehan J. rush for 2 yards to the VPS13 (Lianka H.)."></play>
+   <play context="V,2,8,H13" playid="4,7,33" type="R"
+      text="Gerbino J. rush for 7 yards to the VPS6 (Skinner D.;Bernardini A.)."></play>
+   <play context="V,3,1,H06" playid="4,8,34" type="R" first="R" score="Y" clock="00:00"
+      text="Fimiani A. rush for 6 yards to the VPS0, 1ST DOWN GUE, TOUCHDOWN, clock 00:00."></play>
+   <play context="V,1,0,H03" playid="4,9,35" type="X" score="Y"
+      text="Barbaro A. kick attempt good."></play>
+   <score V="7" H="0"></score>
+   <score qtr="1" V="7" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GUE">
+    <firstdowns no="5" rush="5" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="20"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:20"></misc>
+    <rush att="9" yds="85" gain="90" loss="5" td="1" long="26"></rush>
+    <pass comp="0" att="4" int="0" yds="0" td="0" long="0" sacks="1" sackyds="5"></pass>
+    <ko no="1" yds="27" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="7" tacka="2" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0" brup="2"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="VPS">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:40"></misc>
+    <rush att="9" yds="38" gain="41" loss="3" td="0" long="16"></rush>
+    <pass comp="0" att="4" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <defense tackua="6" tacka="2" tflua="1" tfla="0" tflyds="5" sacks="1" sackyds="5" brup="1"></defense>
+    <kr no="1" yds="2" td="0" long="2"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,1,0,V30" playid="4,10,36" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <drivesum plays="7" yards="51" top="3:07" driveindex="4" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="4,11,37" type="K"
+      text="Barbaro A. kickoff 40 yards to the VPS22, fair catch by Turrini M.."></play>
+   <drivestart poss="H,H22,12:00" vh="H" spot="H22" clock="12:00" driveindex="5,37"></drivestart>
+   <play context="H,1,10,H22" playid="5,1,38" clock="12:00"
+      text="VIPERS MODENA drive start at 12:00."></play>
+   <play context="H,1,10,H22" playid="5,2,39" type="R"
+      text="Cira E. rush for loss of 1 yard to the VPS21 (Rinaldi D.)."></play>
+   <play context="H,2,11,H21" playid="5,3,40" type="R"
+      text="Cira E. rush for loss of 1 yard to the VPS20 (Rinaldi D.)."></play>
+   <play context="H,3,12,H20" playid="5,4,41" type="P"
+      text="Vanatsky D. pass complete to Turrini M. for 4 yards to the VPS24, out-of-bounds (Minnehan J.)."></play>
+   <play context="H,4,8,H24" playid="5,5,42" type="U" turnover="F"
+      text="Vanatsky D. punt 10 yards to the VPS34, Costanzi A. return 0 yards to the VPS34, fumble forced by TEAM, fumble by Costanzi A. recovered by VPS Montaruli G. at VPS34."></play>
+   <drivesum plays="3" yards="2" top="2:36" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H34,12:00" vh="H" spot="H34" clock="12:00" driveindex="7,42"></drivestart>
+   <play context="H,1,10,H34" playid="7,1,43" clock="09:24"
+      text="VIPERS MODENA drive start at 09:24."></play>
+   <play context="H,1,10,H34" playid="7,2,44" type="R" turnover="F"
+      text="Cira E. rush for loss of 22 yards to the VPS12, fumble forced by Poglietelli A., fumble by Cira E. recovered by GUE Pascolo S. at VPS12."></play>
+   <drivesum plays="1" yards="-22" top="0:34" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,H12,09:24" vh="V" spot="H12" clock="09:24" driveindex="8,44"></drivestart>
+   <play context="V,1,10,H12" playid="8,1,45" clock="08:50"
+      text="GUELFI FIRENZE drive start at 08:50."></play>
+   <play context="V,1,10,H12" playid="8,2,46" type="R"
+      text="Fimiani A. rush for 4 yards to the VPS8 (Vrapi M.)."></play>
+   <play context="V,2,6,H08" playid="8,3,47" type="R"
+      text="Fimiani A. rush for loss of 1 yard to the VPS9 (Vrapi M.)."></play>
+   <play context="V,3,7,H09" playid="8,4,48" type="R"
+      text="Gerbino J. rush for 5 yards to the VPS4 (Vrapi K.)."></play>
+   <play context="V,4,2,H04" playid="8,5,49" type="R" first="R" score="Y" clock="07:21"
+      text="Gerbino J. rush for 4 yards to the VPS0, 1ST DOWN GUE, TOUCHDOWN, clock 07:21."></play>
+   <play context="V,1,0,H03" playid="8,6,50" type="X" score="Y"
+      text="Barbaro A. kick attempt good."></play>
+   <score V="14" H="0"></score>
+   <drivesum plays="4" yards="12" top="1:29" driveindex="8" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="8,7,51" type="K"
+      text="Barbaro A. kickoff 62 yards to the VPS0, Turrini M. return 31 yards to the VPS31 (N'guessan K.;Scialdone G.)."></play>
+   <drivestart poss="H,H31,07:21" vh="H" spot="H31" clock="07:21" driveindex="9,51"></drivestart>
+   <play context="H,1,10,H31" playid="9,1,52" clock="07:21"
+      text="VIPERS MODENA drive start at 07:21."></play>
+   <play context="H,1,10,H31" playid="9,2,53" type="R"
+      text="Goldoni E. rush for loss of 2 yards to the VPS29 (Nimskov J.;Baiocco P.)."></play>
+   <play context="H,2,12,H29" playid="9,3,54" type="P"
+      text="Vanatsky D. pass complete to Minopoli L. for 3 yards to the VPS32, out-of-bounds (Casati C.;Minnehan J.)."></play>
+   <play context="H,3,9,H32" playid="9,4,55" type="E"
+      text="PENALTY VPS illegal procedure 5 yards to the VPS27."></play>
+   <play context="H,3,14,H27" playid="9,5,56" type="E"
+      text="PENALTY VPS offside 5 yards to the VPS22."></play>
+   <play context="H,3,19,H22" playid="9,6,57" type="P"
+      text="Vanatsky D. pass incomplete to Vidoni F., dropped pass."></play>
+   <play context="H,4,19,H22" playid="9,7,58" type="U"
+      text="Vanatsky D. punt 49 yards to the GUE21, downed, PENALTY GUE holding 10 yards to the GUE11, 1st and 10, GUE ball on GUE11."></play>
+   <drivesum plays="3" yards="-9" top="2:47" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="V,V11,07:21" vh="V" spot="V11" clock="07:21" driveindex="10,58"></drivestart>
+   <play context="V,1,10,V11" playid="10,1,59" clock="04:34"
+      text="GUELFI FIRENZE drive start at 04:34."></play>
+   <play context="V,1,10,V11" playid="10,2,60" type="R"
+      text="Fimiani A. rush for no gain to the GUE11 (Vrapi M.)."></play>
+   <play context="V,2,10,V11" playid="10,3,61" type="R" first="R"
+      text="Fimiani A. rush for 13 yards to the GUE24, 1ST DOWN GUE (Skinner D.;Bernardini A.)."></play>
+   <play context="V,1,10,V24" playid="10,4,62" type="R"
+      text="N'guessan K. rush for 6 yards to the GUE30 (Vrapi M.;Rosi L.)."></play>
+   <play context="V,2,4,V30" playid="10,5,63" type="R" first="R"
+      text="Fimiani A. rush for 5 yards to the GUE35, 1ST DOWN GUE (Vrapi K.)."></play>
+   <play context="V,1,10,V35" playid="10,6,64" type="P"
+      text="Fimiani A. pass incomplete to Minnehan J.."></play>
+   <play context="V,2,10,V35" playid="10,7,65" type="R" first="R"
+      text="Fimiani A. rush for 10 yards to the GUE45, 1ST DOWN GUE (Rosi L.;Bernardini A.)."></play>
+   <play context="V,1,10,V45" playid="10,8,66" type="R"
+      text="Casati C. rush for 8 yards to the VPS39 (Skinner D.)."></play>
+   <play context="V,2,2,H39" playid="10,9,67" type="R" first="R"
+      text="Casati C. rush for 2 yards to the VPS37, 1ST DOWN GUE (Barbera F.)."></play>
+   <play context="V,1,10,H37" playid="10,10,68" type="R" first="R"
+      text="Fimiani A. rush for 17 yards to the VPS20, 1ST DOWN GUE (Rosi L.;Skinner D.)."></play>
+   <play context="V,1,10,H20" playid="10,11,69" type="R" first="R"
+      text="Gerbino J. rush for 15 yards to the VPS5, 1ST DOWN GUE (Vrapi K.)."></play>
+   <play context="V,1,0,H05" playid="10,12,70" type="#" clock="00:59"
+      text="Timeout VIPERS MODENA, clock 00:59."></play>
+   <play context="V,1,0,H05" playid="10,13,71" type="R" score="Y" clock="00:53"
+      text="Fimiani A. rush for 5 yards to the VPS0, TOUCHDOWN, clock 00:53."></play>
+   <play context="V,1,0,H03" playid="10,14,72" type="X" score="Y"
+      text="Barbaro A. kick attempt good."></play>
+   <score V="21" H="0"></score>
+   <drivesum plays="11" yards="81" top="3:41" driveindex="10" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="10,15,73" type="K"
+      text="Barbaro A. kickoff 52 yards to the VPS10, Turrini M. return 18 yards to the VPS28 (Pinzauti D.)."></play>
+   <drivestart poss="H,H28,00:53" vh="H" spot="H28" clock="00:53" driveindex="11,73"></drivestart>
+   <play context="H,1,10,H28" playid="11,1,74" clock="00:53"
+      text="VIPERS MODENA drive start at 00:53."></play>
+   <play context="H,1,10,H28" playid="11,2,75" type="P"
+      text="Vanatsky D. pass complete to Bonanno G. for 7 yards to the VPS35, out-of-bounds (Minnehan J.)."></play>
+   <play context="H,2,3,H35" playid="11,3,76" type="R" first="R"
+      text="Vanatsky D. rush for 3 yards to the VPS38, 1ST DOWN VPS, out-of-bounds (Rinaldi D.)."></play>
+   <play context="H,1,10,H38" playid="11,4,77" type="P"
+      text="Vanatsky D. pass incomplete to Turrini M.."></play>
+   <play context="H,2,10,H38" playid="11,5,78" type="P"
+      text="Vanatsky D. sacked for loss of 8 yards to the VPS30 (Poglietelli A.)."></play>
+   <play context="H,3,18,H30" playid="11,6,79" type="#" clock="00:19"
+      text="Timeout VIPERS MODENA, clock 00:19."></play>
+   <play context="H,3,18,H30" playid="11,7,80" type="E"
+      text="PENALTY VPS offside (Vidoni F.) 5 yards to the VPS25."></play>
+   <play context="H,3,23,H25" playid="11,8,81" type="R" turnover="F"
+      text="Cira E. rush for 14 yards to the VPS39, fumble forced by Casati C., fumble by Cira E. recovered by GUE Marcacci M. at VPS39."></play>
+   <drivesum plays="5" yards="11" top="0:42" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="V,H39,00:19" vh="V" spot="H39" clock="00:19" driveindex="12,81"></drivestart>
+   <play context="V,1,10,H39" playid="12,1,82" clock="00:11"
+      text="GUELFI FIRENZE drive start at 00:11."></play>
+   <play context="V,1,10,H39" playid="12,2,83" type="P" first="P" score="Y" clock="00:04"
+      text="Fimiani A. pass complete to Almeida Cabr D. for 39 yards to the VPS0, 1ST DOWN GUE, TOUCHDOWN, clock 00:04."></play>
+   <play context="V,1,0,H03" playid="12,3,84" type="X" score="Y"
+      text="Barbaro A. kick attempt good."></play>
+   <score V="28" H="0"></score>
+   <play context="V,1,0,V30" playid="12,4,85" type="#" clock="00:04"
+      text="Timeout VIPERS MODENA, clock 00:04."></play>
+   <drivesum plays="1" yards="39" top="0:07" driveindex="12" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="12,5,86" type="K"
+      text="Barbaro A. kickoff 27 yards to the VPS35, fair catch by Turrini M.."></play>
+   <drivestart poss="H,H35,00:04" vh="H" spot="H35" clock="00:04" driveindex="13,86"></drivestart>
+   <play context="H,1,10,H35" playid="13,1,87" clock="00:04"
+      text="VIPERS MODENA drive start at 00:04."></play>
+   <play context="H,1,10,H35" playid="13,2,88" type="R"
+      text="Vanatsky D. rush for no gain to the VPS35."></play>
+   <play context="H,2,10,H35" playid="13,3,89" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="1" yards="0" top="0:04" driveindex="13" complete="Y"></drivesum>
+   <score qtr="2" V="28" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GUE">
+    <firstdowns no="8" rush="7" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="05:17"></misc>
+    <rush att="14" yds="93" gain="94" loss="1" td="2" long="0"></rush>
+    <pass comp="1" att="2" int="0" yds="39" td="1" long="39" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="39" td="1" long="39"></rcv>
+    <ko no="4" yds="181" ob="0" tb="0"></ko>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="9" tacka="6" tflua="6" tfla="0" tflyds="36" sacks="1" sackyds="8" ff="2" fr="2" fryds="0"></defense>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="3" patkick="3"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="VPS">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="2" lost="2"></fumbles>
+    <misc yds="0" top="06:43"></misc>
+    <rush att="8" yds="-17" gain="17" loss="34" td="0" long="0"></rush>
+    <pass comp="3" att="5" int="0" yds="14" td="0" long="7" sacks="1" sackyds="8"></pass>
+    <rcv no="3" yds="14" td="0" long="7"></rcv>
+    <punt no="2" yds="59" long="49" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="9" tacka="8" tflua="1" tfla="0" tflyds="1" sacks="1" sackyds="5" ff="1" fr="1" fryds="0"></defense>
+    <kr no="2" yds="49" td="0" long="29"></kr>
+    <fumbles no="2" lost="2"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="H,2,10,H35" playid="13,4,90" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, VPS ball on VPS30."></play>
+   <play context="H,2,10,H30" playid="13,5,91" type="K"
+      text="Chiriac M. kickoff 43 yards to the GUE19, fair catch by Casati C.."></play>
+   <drivestart poss="V,V19,12:00" vh="V" spot="V19" clock="12:00" driveindex="14,91"></drivestart>
+   <play context="V,1,10,V19" playid="14,1,92" clock="12:00"
+      text="GUELFI FIRENZE drive start at 12:00."></play>
+   <play context="V,1,10,V19" playid="14,2,93" type="P"
+      text="Fimiani A. pass incomplete to Lynch D., dropped pass."></play>
+   <play context="V,2,10,V19" playid="14,3,94" type="P"
+      text="Fimiani A. pass incomplete to Almeida Cabr D. (Vrapi K.)."></play>
+   <play context="V,3,10,V19" playid="14,4,95" type="E"
+      text="PENALTY GUE offside (Lazzaro F.) 5 yards to the GUE14."></play>
+   <play context="V,3,15,V14" playid="14,5,96" type="P"
+      text="Fimiani A. pass complete to Carboni F. for 13 yards to the GUE27 (Vrapi K.)."></play>
+   <play context="V,4,2,V27" playid="14,6,97" type="R" first="R"
+      text="Fimiani A. rush for 3 yards to the GUE30, 1ST DOWN GUE (Rosi L.;Vrapi K.)."></play>
+   <play context="V,1,10,V30" playid="14,7,98" type="R"
+      text="Palomba M. rush for 9 yards to the GUE39 (Baldi A.;Sicignano F.)."></play>
+   <play context="V,2,1,V39" playid="14,8,99" type="R" first="R"
+      text="Casati C. rush for 3 yards to the GUE42, 1ST DOWN GUE."></play>
+   <play context="V,1,10,V42" playid="14,9,100" type="P"
+      text="Fimiani A. pass incomplete to Formosa N., dropped pass."></play>
+   <play context="V,2,10,V42" playid="14,10,101" type="E"
+      text="Casati C. rush for 7 yards to the VPS43, out-of-bounds, PENALTY GUE holding 10 yards to the GUE32, NO PLAY."></play>
+   <play context="V,2,20,V32" playid="14,11,102" type="R"
+      text="Fimiani A. rush for 6 yards to the GUE38, out-of-bounds (Rosi L.)."></play>
+   <play context="V,3,14,V38" playid="14,12,103" type="E"
+      text="PENALTY GUE IP (79) 5 yards to the GUE33."></play>
+   <play context="V,3,19,V33" playid="14,13,104" type="R"
+      text="Casati C. rush for 10 yards to the GUE43 (Montaruli G.;Sicignano F.)."></play>
+   <play context="V,4,9,V43" playid="14,14,105" type="P"
+      text="Fimiani A. pass incomplete (Rosi L.)."></play>
+   <drivesum plays="10" yards="24" top="3:17" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="H,V43,12:00" vh="H" spot="V43" clock="12:00" driveindex="15,105"></drivestart>
+   <play context="H,1,10,V43" playid="15,1,106" clock="08:43"
+      text="VIPERS MODENA drive start at 08:43."></play>
+   <play context="H,1,10,V43" playid="15,2,107" type="E"
+      text="PENALTY VPS offside (Rumi F.) 5 yards to the VPS44."></play>
+   <play context="H,1,15,H44" playid="15,3,108" type="E" first="E"
+      text="Gatti A. pass incomplete to Rumi F., PENALTY GUE pass interference (Poglietelli A.) 15 yards to the GUE33, 1ST DOWN VPS, NO PLAY, PENALTY GUE personal foul 15 yards to the GUE18, 1ST DOWN VPS, NO PLAY."></play>
+   <play context="H,1,10,V18" playid="15,4,109" type="E"
+      text="PENALTY GUE offside defense 6 yards to the GUE12."></play>
+   <play context="H,1,4,V12" playid="15,5,110" type="R"
+      text="Gatti A. rush for 2 yards to the GUE10, out-of-bounds (Brighenti L.)."></play>
+   <play context="H,2,2,V10" playid="15,6,111" type="R" first="R"
+      text="Chiriac M. rush for 4 yards to the GUE6, 1ST DOWN VPS (Poglietelli A.;Almeida Cabr D.)."></play>
+   <play context="H,1,0,V06" playid="15,7,112" type="R"
+      text="Chiriac M. rush for no gain to the GUE6 (Parronchi G.;Vannini L.)."></play>
+   <play context="H,2,0,V06" playid="15,8,113" type="R"
+      text="Gatti A. rush for loss of 5 yards to the GUE11 (Brighenti L.)."></play>
+   <play context="H,3,0,V11" playid="15,9,114" type="R" turnover="F"
+      text="Carroli D. rush for no gain to the GUE11, fumble forced by TEAM, fumble by Carroli D. recovered by GUE Piaggio P. at GUE11."></play>
+   <drivesum plays="5" yards="32" top="3:51" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V11,08:43" vh="V" spot="V11" clock="08:43" driveindex="16,114"></drivestart>
+   <play context="V,1,10,V11" playid="16,1,115" clock="04:52"
+      text="GUELFI FIRENZE drive start at 04:52."></play>
+   <play context="V,1,10,V11" playid="16,2,116" type="R"
+      text="Palomba M. rush for 8 yards to the GUE19 (Bernardini A.)."></play>
+   <play context="V,2,2,V19" playid="16,3,117" type="R" first="R"
+      text="Palomba M. rush for 4 yards to the GUE23, 1ST DOWN GUE (Bernardini A.;Orlando E.)."></play>
+   <play context="V,1,10,V23" playid="16,4,118" type="R"
+      text="Palomba M. rush for 9 yards to the GUE32 (Bernardini A.)."></play>
+   <play context="V,2,1,V32" playid="16,5,119" type="R" first="R"
+      text="Casati C. rush for 8 yards to the GUE40, 1ST DOWN GUE (Rosi L.)."></play>
+   <play context="V,1,10,V40" playid="16,6,120" type="R" first="R"
+      text="Fimiani A. rush for 10 yards to the VPS42, 1ST DOWN GUE (Vrapi K.;Orlando E.)."></play>
+   <play context="V,1,10,H42" playid="16,7,121" type="R" first="R" score="Y" clock="02:47"
+      text="Casati C. rush for 42 yards to the VPS0, 1ST DOWN GUE, TOUCHDOWN, clock 02:47."></play>
+   <play context="V,1,0,H03" playid="16,8,122" type="X" score="Y"
+      text="Barbaro A. kick attempt good."></play>
+   <score V="35" H="0"></score>
+   <drivesum plays="6" yards="81" top="2:05" driveindex="16" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="16,9,123" type="K"
+      text="Barbaro A. kickoff 62 yards to the VPS0, touchback."></play>
+   <drivestart poss="H,H20,02:47" vh="H" spot="H20" clock="02:47" driveindex="17,123"></drivestart>
+   <play context="H,1,10,H20" playid="17,1,124" clock="02:47"
+      text="VIPERS MODENA drive start at 02:47."></play>
+   <play context="H,1,10,H20" playid="17,2,125" type="P"
+      text="Gatti A. pass incomplete to Rumi F.."></play>
+   <play context="H,2,10,H20" playid="17,3,126" type="R"
+      text="Goldoni E. rush for 8 yards to the VPS28 (Piaggio P.;Costanzi A.)."></play>
+   <play context="H,3,2,H28" playid="17,4,127" type="#" clock="00:12"
+      text="Timeout VIPERS MODENA, clock 00:12."></play>
+   <play context="H,3,2,H28" playid="17,5,128" type="R" first="R"
+      text="Goldoni E. rush for 7 yards to the VPS35, 1ST DOWN VPS (Costanzi A.)."></play>
+   <score qtr="3" V="35" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GUE">
+    <firstdowns no="6" rush="6" pass="0" penalty="0"></firstdowns>
+    <penalties no="6" yds="56"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:22"></misc>
+    <rush att="11" yds="112" gain="112" loss="0" td="1" long="16"></rush>
+    <pass comp="1" att="5" int="0" yds="13" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="13" td="0" long="0"></rcv>
+    <ko no="1" yds="62" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="4" tacka="6" tflua="1" tfla="0" tflyds="5" sacks="1" sackyds="8" ff="1" fr="1" fryds="0"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="VPS">
+    <firstdowns no="4" rush="2" pass="0" penalty="2"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="06:38"></misc>
+    <rush att="7" yds="16" gain="21" loss="5" td="0" long="0"></rush>
+    <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <ko no="1" yds="43" ob="0" tb="0"></ko>
+    <defense tackua="5" tacka="10" sacks="1" sackyds="5" brup="2"></defense>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="H,1,10,H35" playid="17,6,129" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="H,1,10,H35" playid="17,7,130" type="R"
+      text="Goldoni E. rush for 4 yards to the VPS39 (Costanzi A.)."></play>
+   <play context="H,2,6,H39" playid="17,8,131" type="P"
+      text="Gatti A. pass complete to Sicignano F. for 2 yards to the VPS41 (Pascolo S.)."></play>
+   <play context="H,3,4,H41" playid="17,9,132" type="R"
+      text="Gatti A. rush for 3 yards to the VPS44, out-of-bounds."></play>
+   <play context="H,4,1,H44" playid="17,10,133" type="R" first="R"
+      text="Sicignano F. rush for 11 yards to the GUE37, 1ST DOWN VPS (Cammi E.)."></play>
+   <play context="H,1,10,V37" playid="17,11,134" type="R"
+      text="Chiriac M. rush for 2 yards to the GUE35 (Abera Jote M.;Chiusi L.)."></play>
+   <play context="H,2,8,V35" playid="17,12,135" type="R"
+      text="Chiriac M. rush for 1 yard to the GUE34 (Chiusi L.)."></play>
+   <play context="H,3,7,V34" playid="17,13,136" type="P"
+      text="Gatti A. pass incomplete to Trentini Mar., dropped pass."></play>
+   <play context="H,4,7,V34" playid="17,14,137" type="E"
+      text="PENALTY VPS delay of game 5 yards to the GUE39."></play>
+   <play context="H,4,12,V39" playid="17,15,138" type="R" first="R"
+      text="Gatti A. rush for 20 yards to the GUE19, 1ST DOWN VPS."></play>
+   <play context="H,1,10,V19" playid="17,16,139" type="R"
+      text="Sicignano F. rush for 4 yards to the GUE15 (Parronchi G.;Piaggio P.)."></play>
+   <play context="H,2,6,V15" playid="17,17,140" type="P"
+      text="Gatti A. pass incomplete to Trentini Mar.."></play>
+   <play context="H,3,6,V15" playid="17,18,141" type="P"
+      text="Gatti A. pass incomplete to Caselli F.."></play>
+   <play context="H,4,6,V15" playid="17,19,142" type="R" first="R"
+      text="Gatti A. rush for 14 yards to the GUE1, 1ST DOWN VPS."></play>
+   <play context="H,1,0,V01" playid="17,20,143" type="R" score="Y" clock="01:38"
+      text="Sicignano F. rush for 1 yard to the GUE0, TOUCHDOWN, clock 01:38."></play>
+   <play context="H,1,0,V03" playid="17,21,144" type="X"
+      text="Gatti A. pass attempt failed."></play>
+   <score V="35" H="6"></score>
+   <drivesum plays="16" yards="72" top="13:09" driveindex="17" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="17,22,145" type="K"
+      text="Chiriac M. kickoff 32 yards to the GUE30, Corraddossi P. return 8 yards to the GUE38 (Chiriac M.), PENALTY VPS personal foul (Chiriac M.) 15 yards to the VPS39, 1st and 10, GUE ball on VPS39."></play>
+   <drivestart poss="V,H39,01:38" vh="V" spot="H39" clock="01:38" driveindex="18,145"></drivestart>
+   <play context="V,1,10,H39" playid="18,1,146" clock="01:38"
+      text="GUELFI FIRENZE drive start at 01:38."></play>
+   <play context="V,1,10,H39" playid="18,2,147" type="R"
+      text="Palomba M. rush for 1 yard to the VPS38 (Lianka H.)."></play>
+   <play context="V,2,9,H38" playid="18,3,148" type="R"
+      text="Palomba M. rush for 3 yards to the VPS35 (Rosi L.;Montaruli G.)."></play>
+   <play context="V,3,6,H35" playid="18,4,149" type="R"
+      text="Palomba M. rush for 3 yards to the VPS32 (Bernardini A.;Turrini M.)."></play>
+   <play context="V,4,3,H32" playid="18,5,150" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="3" yards="7" top="1:38" driveindex="18" complete="Y"></drivesum>
+   <score final="Y" V="35" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GUE">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="01:38"></misc>
+    <rush att="3" yds="7" gain="7" loss="0" td="0" long="0"></rush>
+    <defense tackua="4" tacka="4" sacks="1" sackyds="8"></defense>
+    <kr no="1" yds="8" td="0" long="8"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="VPS">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="3" fourthatt="3"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="10:22"></misc>
+    <rush att="9" yds="60" gain="60" loss="0" td="1" long="4"></rush>
+    <pass comp="1" att="4" int="0" yds="2" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="2" td="0" long="0"></rcv>
+    <ko no="1" yds="32" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="2" tacka="4" sacks="1" sackyds="5"></defense>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="V,4,3,H32" qtr="4" clock="00:00" vtoh="0" htoh="1"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="GUE">
+ </dnp>
+ <dnp vh="H" id="VPS">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

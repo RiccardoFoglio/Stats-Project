@@ -1,0 +1,911 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220049" visid="LI2" homeid="SKO" visname="Lions Bergamo" homename="Skorpions Varese"
+      date="4/9/2022" location="Varese" stadium="Stadio F.Ossola"
+      start="18.30" end="21.28" leaguegame="Y" nitegame="Y"
+      duration="02.58" attend="80" temp="08 C" wind="Heavy" weather="Partly cloudy">
+  <officials ref="Tomaz C." ump="Simanella R." lj="Arnone O." bj="Sala M." sc="Zanella B."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="96" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="LI2" name="Lions Bergamo" record="4-0" conf-record="4-0" abb="L">
+  <linescore prds="4" line="0,17,7,7" score="31">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="17"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="7"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="17" rush="9" pass="6" penalty="2"></firstdowns>
+   <penalties no="3" yds="32"></penalties>
+   <conversions thirdconv="2" thirdatt="10" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="23:39" ona="0" onm="0"></misc>
+   <redzone att="3" scores="3" points="17" tdrush="1" tdpass="1" fgmade="1" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="31" yds="170" gain="195" loss="25" td="2" long="55"></rush>
+   <pass comp="10" att="24" int="1" yds="201" td="2" long="70" sacks="1" sackyds="1"></pass>
+   <rcv no="10" yds="201" td="2" long="70"></rcv>
+   <punt no="4" yds="112" long="46" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="5" yds="291" ob="0" tb="2"></ko>
+   <fg made="1" att="1" long="29" blkd="0"></fg>
+   <pat kickatt="4" kickmade="4"></pat>
+   <defense tackua="31" tacka="8" tflua="4" tfla="2" tflyds="8" sacks="0" sackyds="0" brup="1" fr="2" fryds="0"></defense>
+   <kr no="3" yds="39" td="0" long="18"></kr>
+   <scoring td="4" fg="1" patkick="4"></scoring>
+  </totals>
+  <player name="Podavitte M." shortname="Podavitte M." checkname="M.,PODAVITTE" uni="19" gp="1" code="19">
+   <rcv no="4" yds="23" td="1" long="14"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Zani G." shortname="Zani G." checkname="G.,ZANI" uni="82" gp="1" code="82">
+   <rcv no="3" yds="128" td="1" long="70"></rcv>
+   <defense tackua="0" tacka="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Gregorio V." shortname="Gregorio V." checkname="V.,GREGORIO" uni="86" gp="1" code="86">
+   <rcv no="3" yds="50" td="0" long="31"></rcv>
+  </player>
+  <player name="El Gourch I." shortname="El Gourch I." checkname="GOURCH I.,EL" uni="5" gp="1" code="5"></player>
+  <player name="Pezzotta D." shortname="Pezzotta D." checkname="D.,PEZZOTTA" uni="3" gp="1" code="3">
+   <defense tackua="5" tacka="0"></defense>
+  </player>
+  <player name="Bjeletic D." shortname="Bjeletic D." checkname="D.,BJELETIC" uni="12" gp="1" code="12"></player>
+  <player name="Lombardi M." shortname="Lombardi M." checkname="M.,LOMBARDI" uni="14" gp="1" code="14"></player>
+  <player name="Breda E." shortname="Breda E." checkname="E.,BREDA" uni="17" gp="1" code="17"></player>
+  <player name="Cade' S." shortname="Cade' S." checkname="S.,CADE'" uni="6" gp="1" code="6"></player>
+  <player name="Bonzanni D." shortname="Bonzanni D." checkname="D.,BONZANNI" uni="20" gp="1" code="20">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Zanga J." shortname="Zanga J." checkname="J.,ZANGA" uni="21" gp="1" code="21"></player>
+  <player name="Pruchnicki E." shortname="Pruchnicki E." checkname="E.,PRUCHNICKI" uni="22" gp="1" code="22">
+   <defense tackua="2" tacka="0"></defense>
+   <kr no="1" yds="18" td="0" long="18"></kr>
+  </player>
+  <player name="Galbiati P." shortname="Galbiati P." checkname="P.,GALBIATI" uni="25" gp="1" code="25">
+   <punt no="2" yds="66" long="46" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+  </player>
+  <player name="Aldeghi T." shortname="Aldeghi T." checkname="T.,ALDEGHI" uni="29" gp="1" code="29"></player>
+  <player name="Bianchi F." shortname="Bianchi F." checkname="F.,BIANCHI" uni="32" gp="1" code="32"></player>
+  <player name="Brega S." shortname="Brega S." checkname="S.,BREGA" uni="35" gp="1" code="35">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Veber J." shortname="Veber J." checkname="J.,VEBER" uni="39" gp="1" code="39">
+   <punt no="2" yds="46" long="40" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="5" yds="291" ob="0" tb="2"></ko>
+   <fg made="1" att="1" long="29" blkd="0"></fg>
+   <pat kickatt="4" kickmade="4"></pat>
+   <defense tackua="0" tacka="1"></defense>
+   <scoring fg="1" patkick="4"></scoring>
+  </player>
+  <player name="Mema L." shortname="Mema L." checkname="L.,MEMA" uni="41" gp="1" code="41">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Appollonio A." shortname="Appollonio A." checkname="A.,APPOLLONIO" uni="43" gp="1" code="43">
+   <defense tackua="4" tacka="2" tflua="1" tfla="1" tflyds="1" brup="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Morgano M." shortname="Morgano M." checkname="M.,MORGANO" uni="47" gp="1" code="47">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Ferrarese C." shortname="Ferrarese C." checkname="C.,FERRARESE" uni="50" gp="1" code="50"></player>
+  <player name="Caglioni C." shortname="Caglioni C." checkname="C.,CAGLIONI" uni="51" gp="1" code="51"></player>
+  <player name="Rigamonti G." shortname="Rigamonti G." checkname="G.,RIGAMONTI" uni="52" gp="1" code="52"></player>
+  <player name="Cortinovis N." shortname="Cortinovis N." checkname="N.,CORTINOVIS" uni="53" gp="1" code="53"></player>
+  <player name="Marone E." shortname="Marone E." checkname="E.,MARONE" uni="54" gp="1" code="54">
+   <defense tackua="1" tacka="1" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Perini E." shortname="Perini E." checkname="E.,PERINI" uni="55" gp="1" code="55">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="4"></defense>
+  </player>
+  <player name="Menotti A." shortname="Menotti A." checkname="A.,MENOTTI" uni="57" gp="1" code="57">
+   <defense tackua="4" tacka="1"></defense>
+  </player>
+  <player name="Piemontese D." shortname="Piemontese D." checkname="D.,PIEMONTESE" uni="59" gp="1" code="59"></player>
+  <player name="Braidi B." shortname="Braidi B." checkname="B.,BRAIDI" uni="61" gp="1" code="61"></player>
+  <player name="Bailo P." shortname="Bailo P." checkname="P.,BAILO" uni="64" gp="1" code="64"></player>
+  <player name="Nervi G." shortname="Nervi G." checkname="G.,NERVI" uni="67" gp="1" code="67"></player>
+  <player name="Iacona C." shortname="Iacona C." checkname="C.,IACONA" uni="70" gp="1" code="70">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Natali P." shortname="Natali P." checkname="P.,NATALI" uni="71" gp="1" code="71">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Colombo M." shortname="Colombo M." checkname="M.,COLOMBO" uni="73" gp="1" code="73"></player>
+  <player name="Vavassori A." shortname="Vavassori A." checkname="A.,VAVASSORI" uni="75" gp="1" code="75"></player>
+  <player name="Prandelli C." shortname="Prandelli C." checkname="C.,PRANDELLI" uni="77" gp="1" code="77"></player>
+  <player name="Garufo G." shortname="Garufo G." checkname="G.,GARUFO" uni="79" gp="1" code="79">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Benedetti S." shortname="Benedetti S." checkname="S.,BENEDETTI" uni="80" gp="1" code="80">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Breviario A." shortname="Breviario A." checkname="A.,BREVIARIO" uni="81" gp="1" code="81"></player>
+  <player name="Rossi D." shortname="Rossi D." checkname="D.,ROSSI" uni="11" gp="1" code="11">
+   <rush att="6" yds="-2" gain="13" loss="15" td="1" long="6"></rush>
+   <pass comp="10" att="24" int="1" yds="201" td="2" long="70" sacks="1" sackyds="1"></pass>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Ferrari A." shortname="Ferrari A." checkname="A.,FERRARI" uni="83" gp="1" code="83"></player>
+  <player name="Mazzola A." shortname="Mazzola A." checkname="A.,MAZZOLA" uni="84" gp="1" code="84">
+   <kr no="1" yds="6" td="0" long="6"></kr>
+  </player>
+  <player name="Aldrighetti L." shortname="Aldrighetti L." checkname="L.,ALDRIGHETTI" uni="7" gp="1" code="7">
+   <rush att="25" yds="172" gain="182" loss="10" td="1" long="55"></rush>
+   <kr no="1" yds="15" td="0" long="15"></kr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Lombardini S." shortname="Lombardini S." checkname="S.,LOMBARDINI" uni="88" gp="1" code="88"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="SKO" name="Skorpions Varese" record="2-1" conf-record="2-1" abb="S">
+  <linescore prds="4" line="6,0,15,7" score="28">
+   <lineprd prd="1" score="6"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="15"></lineprd>
+   <lineprd prd="4" score="7"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="17" rush="5" pass="11" penalty="1"></firstdowns>
+   <penalties no="7" yds="49"></penalties>
+   <conversions thirdconv="3" thirdatt="12" fourthconv="2" fourthatt="5"></conversions>
+   <fumbles no="3" lost="2"></fumbles>
+   <misc yds="0" top="24:21" ona="0" onm="0"></misc>
+   <redzone att="3" scores="2" points="14" tdrush="2" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="1" endhalf="0" endgame="0"></redzone>
+   <rush att="31" yds="93" gain="107" loss="14" td="2" long="19"></rush>
+   <pass comp="17" att="31" int="0" yds="280" td="2" long="49" sacks="0" sackyds="0"></pass>
+   <rcv no="17" yds="280" td="2" long="49"></rcv>
+   <punt no="3" yds="91" long="36" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="5" yds="251" ob="1" tb="1"></ko>
+   <pat kickatt="3" kickmade="2" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="29" tacka="10" tflua="4" tfla="2" tflyds="10" sacks="1" sackyds="1" brup="2" fr="1" fryds="0" int="1" intyds="0"></defense>
+   <kr no="3" yds="92" td="0" long="55"></kr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+   <scoring td="4" patkick="2" patrcv="1"></scoring>
+  </totals>
+  <player name="Franchi L." shortname="Franchi L." checkname="L.,FRANCHI" uni="82" gp="1" code="82">
+   <rcv no="5" yds="102" td="1" long="45"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Mozzanica M." shortname="Mozzanica M." checkname="M.,MOZZANICA" uni="88" gp="1" code="88">
+   <rcv no="5" yds="93" td="0" long="37"></rcv>
+  </player>
+  <player name="Auriemma D." shortname="Auriemma D." checkname="D.,AURIEMMA" uni="27" gp="1" code="27">
+   <rush att="19" yds="54" gain="56" loss="2" td="1" long="9"></rush>
+   <rcv no="3" yds="22" td="0" long="11"></rcv>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Piazzi M." shortname="Piazzi M." checkname="M.,PIAZZI" uni="13" gp="1" code="13">
+   <rcv no="2" yds="64" td="1" long="49"></rcv>
+   <pat rcvatt="1" rcvmade="1"></pat>
+   <scoring td="1" patrcv="1"></scoring>
+  </player>
+  <player name="Zanovello R." shortname="Zanovello R." checkname="R.,ZANOVELLO" uni="1" gp="1" code="1">
+   <rcv no="2" yds="-1" td="0" long="0"></rcv>
+   <kr no="1" yds="15" td="0" long="15"></kr>
+  </player>
+  <player name="Zanon F." shortname="Zanon F." checkname="F.,ZANON" uni="7" gp="1" code="7">
+   <defense tackua="1" tacka="1" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+  <player name="Granelli S." shortname="Granelli S." checkname="S.,GRANELLI" uni="9" gp="1" code="9">
+   <punt no="3" yds="91" long="36" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <defense tackua="3" tacka="1" tflua="1" tfla="0" tflyds="3" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Micheli G." shortname="Micheli G." checkname="G.,MICHELI" uni="10" gp="1" code="10"></player>
+  <player name="Pedotti T." shortname="Pedotti T." checkname="T.,PEDOTTI" uni="11" gp="1" code="11">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Camagni S." shortname="Camagni S." checkname="S.,CAMAGNI" uni="6" gp="1" code="6"></player>
+  <player name="Giampaolo T." shortname="Giampaolo T." checkname="T.,GIAMPAOLO" uni="15" gp="1" code="15"></player>
+  <player name="De Micheli R." shortname="De Micheli R." checkname="MICHELI R.,DE" uni="16" gp="1" code="16"></player>
+  <player name="Della Bosca E." shortname="Della Bosca E." checkname="BOSCA E.,DELLA" uni="17" gp="1" code="17"></player>
+  <player name="Montalbetti S." shortname="Montalbetti S." checkname="S.,MONTALBETTI" uni="18" gp="1" code="18">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Fiore S." shortname="Fiore S." checkname="S.,FIORE" uni="5" gp="1" code="5"></player>
+  <player name="Principi N." shortname="Principi N." checkname="N.,PRINCIPI" uni="21" gp="1" code="21">
+   <defense tackua="2" tacka="0" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Mora A." shortname="Mora A." checkname="A.,MORA" uni="22" gp="1" code="22">
+   <defense tackua="4" tacka="0" brup="1"></defense>
+  </player>
+  <player name="Tettamanti S." shortname="Tettamanti S." checkname="S.,TETTAMANTI" uni="23" gp="1" code="23">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Dominioni P." shortname="Dominioni P." checkname="P.,DOMINIONI" uni="25" gp="1" code="25">
+   <defense tackua="1" tacka="0" brup="1"></defense>
+  </player>
+  <player name="Limido P." shortname="Limido P." checkname="P.,LIMIDO" uni="2" gp="1" code="2"></player>
+  <player name="Biloni A." shortname="Biloni A." checkname="A.,BILONI" uni="30" gp="1" code="30"></player>
+  <player name="Montagner M." shortname="Montagner M." checkname="M.,MONTAGNER" uni="31" gp="1" code="31">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Leoni D." shortname="Leoni D." checkname="D.,LEONI" uni="34" gp="1" code="34"></player>
+  <player name="Digennaro F." shortname="Digennaro F." checkname="F.,DIGENNARO" uni="39" gp="1" code="39">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Brovelli A." shortname="Brovelli A." checkname="A.,BROVELLI" uni="4" gp="1" code="4">
+   <kr no="2" yds="77" td="0" long="55"></kr>
+  </player>
+  <player name="Perrucci N." shortname="Perrucci N." checkname="N.,PERRUCCI" uni="42" gp="1" code="42">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Tonazzo N." shortname="Tonazzo N." checkname="N.,TONAZZO" uni="45" gp="1" code="45"></player>
+  <player name="Nardi R." shortname="Nardi R." checkname="R.,NARDI" uni="52" gp="1" code="52"></player>
+  <player name="Carimati M." shortname="Carimati M." checkname="M.,CARIMATI" uni="53" gp="1" code="53">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Bulgheroni S." shortname="Bulgheroni S." checkname="S.,BULGHERONI" uni="55" gp="1" code="55"></player>
+  <player name="Munoz Velez C." shortname="Munoz Velez C." checkname="VELEZ C.,MUNOZ" uni="56" gp="1" code="56"></player>
+  <player name="Lusuriello S." shortname="Lusuriello S." checkname="S.,LUSURIELLO" uni="57" gp="1" code="57"></player>
+  <player name="Moruzzi N." shortname="Moruzzi N." checkname="N.,MORUZZI" uni="59" gp="1" code="59"></player>
+  <player name="Valencia Arb J." shortname="Valencia Arb J." checkname="ARB J.,VALENCIA" uni="62" gp="1" code="62"></player>
+  <player name="Quadri G." shortname="Quadri G." checkname="G.,QUADRI" uni="64" gp="1" code="64"></player>
+  <player name="Frascati A." shortname="Frascati A." checkname="A.,FRASCATI" uni="65" gp="1" code="65"></player>
+  <player name="Brivio L." shortname="Brivio L." checkname="L.,BRIVIO" uni="66" gp="1" code="66"></player>
+  <player name="Zamboni G." shortname="Zamboni G." checkname="G.,ZAMBONI" uni="69" gp="1" code="69">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Bozzo L." shortname="Bozzo L." checkname="L.,BOZZO" uni="70" gp="1" code="70"></player>
+  <player name="Di Losa M." shortname="Di Losa M." checkname="LOSA M.,DI" uni="73" gp="1" code="73"></player>
+  <player name="Magnarelli S." shortname="Magnarelli S." checkname="S.,MAGNARELLI" uni="74" gp="1" code="74"></player>
+  <player name="Chiolerio P." shortname="Chiolerio P." checkname="P.,CHIOLERIO" uni="75" gp="1" code="75">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Girardi A." shortname="Girardi A." checkname="A.,GIRARDI" uni="76" gp="1" code="76">
+   <pat kickatt="3" kickmade="2"></pat>
+   <scoring patkick="2"></scoring>
+  </player>
+  <player name="Tenerini C." shortname="Tenerini C." checkname="C.,TENERINI" uni="77" gp="1" code="77">
+   <ko no="5" yds="251" ob="1" tb="1"></ko>
+  </player>
+  <player name="Ben H'mida W." shortname="Ben H'mida W." checkname="H'MIDA W.,BEN" uni="78" gp="1" code="78"></player>
+  <player name="Poste' A." shortname="Poste' A." checkname="A.,POSTE'" uni="40" gp="1" code="40">
+   <rush att="4" yds="2" gain="4" loss="2" td="0" long="3"></rush>
+  </player>
+  <player name="Pelusio R." shortname="Pelusio R." checkname="R.,PELUSIO" uni="85" gp="1" code="85"></player>
+  <player name="Caccivio M." shortname="Caccivio M." checkname="M.,CACCIVIO" uni="86" gp="1" code="86"></player>
+  <player name="Crosta R." shortname="Crosta R." checkname="R.,CROSTA" uni="19" gp="1" code="19">
+   <rush att="8" yds="37" gain="47" loss="10" td="1" long="19"></rush>
+   <pass comp="17" att="31" int="0" yds="280" td="2" long="49" sacks="0" sackyds="0"></pass>
+   <pat passatt="1" passmade="1"></pat>
+   <fumbles no="2" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Vuolo D." shortname="Vuolo D." checkname="D.,VUOLO" uni="92" gp="1" code="92">
+   <defense tackua="6" tacka="1" tflua="2" tfla="0" tflyds="2" sackua="1" sacka="0" sackyds="1"></defense>
+  </player>
+  <player name="Lardera L." shortname="Lardera L." checkname="L.,LARDERA" uni="97" gp="1" code="97">
+   <defense tackua="4" tacka="2" tflua="1" tfla="1" tflyds="5"></defense>
+  </player>
+  <player name="Tantillo S." shortname="Tantillo S." checkname="S.,TANTILLO" uni="99" gp="1" code="99"></player>
+ </team>
+ <scores>
+  <score vh="H" team="SKO" qtr="1" clock="04:00" type="TD" how="RUSH" yds="2" scorer="Crosta R." patby="Girardi A." pattype="KICK" patres="FAIL" plays="15" drive="60" top="8:00" vscore="0" hscore="6" driveindex="1"></score>
+  <score vh="V" team="LI2" qtr="2" clock="08:38" type="TD" how="RUSH" yds="6" scorer="Rossi D." patby="Veber J." pattype="KICK" patres="GOOD" plays="8" drive="55" top="3:36" vscore="7" hscore="6" driveindex="4"></score>
+  <score vh="V" team="LI2" qtr="2" clock="02:44" type="TD" how="RUSH" yds="55" scorer="Aldrighetti L." patby="Veber J." pattype="KICK" patres="GOOD" plays="2" drive="69" top="0:37" vscore="14" hscore="6" driveindex="8"></score>
+  <score vh="V" team="LI2" qtr="2" clock="00:00" type="FG" yds="29" scorer="Veber J." plays="7" drive="44" top="1:30" vscore="17" hscore="6" driveindex="10"></score>
+  <score vh="V" team="LI2" qtr="3" clock="11:48" type="TD" how="PASS" yds="70" scorer="Zani G." passer="Rossi D." patby="Veber J." pattype="KICK" patres="GOOD" plays="1" drive="70" top="0:07" vscore="24" hscore="6" driveindex="11"></score>
+  <score vh="H" team="SKO" qtr="3" clock="04:42" type="TD" how="RUSH" yds="3" scorer="Auriemma D." patby="Piazzi M." pattype="PASS" patres="GOOD" plays="8" drive="65" top="2:22" vscore="24" hscore="14" driveindex="14"></score>
+  <score vh="H" team="SKO" qtr="3" clock="02:30" type="TD" how="PASS" yds="45" scorer="Franchi L." passer="Crosta R." patby="Girardi A." pattype="KICK" patres="GOOD" plays="2" drive="58" top="0:25" vscore="24" hscore="21" driveindex="16"></score>
+  <score vh="H" team="SKO" qtr="4" clock="09:24" type="TD" how="PASS" yds="49" scorer="Piazzi M." passer="Crosta R." patby="Girardi A." pattype="KICK" patres="GOOD" plays="1" drive="49" top="0:01" vscore="24" hscore="28" driveindex="20"></score>
+  <score vh="V" team="LI2" qtr="4" clock="03:29" type="TD" how="PASS" yds="5" scorer="Podavitte M." passer="Rossi D." patby="Veber J." pattype="KICK" patres="GOOD" plays="7" drive="67" top="2:31" vscore="31" hscore="28" driveindex="23"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="LI2" kicker="Veber J." qtr="2" clock="00:00" distance="29" result="good"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="SKO" start="KO,1,12:00,36" end="TD,1,04:00,96" plays="15" yards="60" top="8:00" rz="1" driveindex="1"></drive>
+  <drive vh="V" team="LI2" start="KO,1,03:55,20" end="PUNT,1,02:21,27" plays="3" yards="7" top="1:34" driveindex="2"></drive>
+  <drive vh="H" team="SKO" start="PUNT,1,02:21,49" end="DOWNS,1,00:14,55" plays="4" yards="6" top="2:07" driveindex="3"></drive>
+  <drive vh="V" team="LI2" start="DOWNS,1,00:14,41" end="TD,2,08:38,96" plays="8" yards="55" top="3:36" rz="1" driveindex="4"></drive>
+  <drive vh="H" team="SKO" start="KO,2,08:33,30" end="PUNT,2,06:49,35" plays="3" yards="5" top="1:44" driveindex="5"></drive>
+  <drive vh="V" team="LI2" start="PUNT,2,06:49,25" end="PUNT,2,05:00,21" plays="3" yards="-4" top="1:49" driveindex="6"></drive>
+  <drive vh="H" team="SKO" start="PUNT,2,05:00,29" end="PUNT,2,03:21,47" plays="4" yards="18" top="1:39" driveindex="7"></drive>
+  <drive vh="V" team="LI2" start="PUNT,2,03:21,27" end="TD,2,02:44,96" plays="2" yards="69" top="0:37" driveindex="8"></drive>
+  <drive vh="H" team="SKO" start="KO,2,02:39,20" end="PUNT,2,01:30,23" plays="3" yards="3" top="1:09" driveindex="9"></drive>
+  <drive vh="V" team="LI2" start="PUNT,2,01:30,40" end="FG,3,12:00,84" plays="7" yards="44" top="1:30" rz="1" driveindex="10"></drive>
+  <drive vh="V" team="LI2" start="KO,3,11:55,26" end="TD,3,11:48,96" plays="1" yards="70" top="0:07" driveindex="11"></drive>
+  <drive vh="H" team="SKO" start="KO,3,11:43,20" end="FUMB,3,09:44,76" plays="6" yards="56" top="1:59" rz="1" driveindex="12"></drive>
+  <drive vh="V" team="LI2" start="FUMB,3,09:44,20" end="DOWNS,3,07:04,65" plays="5" yards="45" top="2:40" driveindex="13"></drive>
+  <drive vh="H" team="SKO" start="DOWNS,3,07:04,31" end="TD,3,04:42,96" plays="8" yards="65" top="2:22" rz="1" driveindex="14"></drive>
+  <drive vh="V" team="LI2" start="KO,3,04:37,25" end="PUNT,3,02:55,33" plays="3" yards="8" top="1:42" driveindex="15"></drive>
+  <drive vh="H" team="SKO" start="PUNT,3,02:55,38" end="TD,3,02:30,96" plays="2" yards="58" top="0:25" driveindex="16"></drive>
+  <drive vh="V" team="LI2" start="KO,3,02:24,37" end="INT,3,01:50,40" plays="3" yards="3" top="0:34" driveindex="17"></drive>
+  <drive vh="H" team="SKO" start="INT,3,01:50,29" end="FUMB,3,00:04,77" plays="5" yards="48" top="1:46" driveindex="18"></drive>
+  <drive vh="V" team="LI2" start="FUMB,3,00:04,19" end="PUNT,4,09:25,43" plays="7" yards="24" top="2:39" driveindex="19"></drive>
+  <drive vh="H" team="SKO" start="PUNT,4,09:25,47" end="TD,4,09:24,96" plays="1" yards="49" top="0:01" driveindex="20"></drive>
+  <drive vh="V" team="LI2" start="KO,4,09:19,30" end="FUMB,4,07:19,25" plays="3" yards="-5" top="2:00" driveindex="21"></drive>
+  <drive vh="H" team="SKO" start="FUMB,4,07:19,71" end="DOWNS,4,06:00,67" plays="5" yards="-4" top="1:19" driveindex="22"></drive>
+  <drive vh="V" team="LI2" start="DOWNS,4,06:00,29" end="TD,4,03:29,96" plays="7" yards="67" top="2:31" rz="1" driveindex="23"></drive>
+  <drive vh="H" team="SKO" start="KO,4,03:24,55" end="DOWNS,4,01:54,66" plays="6" yards="11" top="1:30" driveindex="24"></drive>
+  <drive vh="V" team="LI2" start="DOWNS,4,01:54,30" end="HALF,4,00:00,40" plays="3" yards="10" top="1:54" driveindex="25"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0"
+      text="Lions Bergamo win the coin toss / Defer to second half."></play>
+   <play context="V,1,10,V30" playid="0,2,1"
+      text="LI2 ball on LI230."></play>
+   <play context="V,1,10,V30" playid="0,3,2" type="K"
+      text="Veber J. kickoff 45 yards to the SKO21, Zanovello R. return 15 yards to the SKO36 (Pruchnicki E.)."></play>
+   <drivestart poss="H,H36,12:00" vh="H" spot="H36" clock="12:00" driveindex="1,2"></drivestart>
+   <play context="H,1,10,H36" playid="1,1,3" type="R"
+      text="Auriemma D. rush for 1 yard to the SKO37 (Garufo G.)."></play>
+   <play context="H,2,9,H37" playid="1,2,4" type="P"
+      text="Crosta R. pass complete to Auriemma D. for 5 yards to the SKO42 (Brega S.)."></play>
+   <play context="H,3,4,H42" playid="1,3,5" type="R" first="R"
+      text="Auriemma D. rush for 9 yards to the LI245, 1ST DOWN SKO (Bonzanni D.)."></play>
+   <play context="H,1,10,V45" playid="1,4,6" type="P"
+      text="Crosta R. pass complete to Zanovello R. for no gain to the LI245, out-of-bounds."></play>
+   <play context="H,2,10,V45" playid="1,5,7" type="R"
+      text="Auriemma D. rush for 6 yards to the LI239 (Iacona C.;Appollonio A.)."></play>
+   <play context="H,3,4,V39" playid="1,6,8" type="R"
+      text="Auriemma D. rush for 3 yards to the LI236 (Benedetti S.)."></play>
+   <play context="H,4,1,V36" playid="1,7,9" type="R" first="R"
+      text="Auriemma D. rush for 3 yards to the LI233, 1ST DOWN SKO (Menotti A.)."></play>
+   <play context="H,1,10,V33" playid="1,8,10" type="R"
+      text="Auriemma D. rush for 1 yard to the LI232 (Mema L.)."></play>
+   <play context="H,2,9,V32" playid="1,9,11" type="R"
+      text="Auriemma D. rush for 1 yard to the LI231 (Bonzanni D.;Menotti A.)."></play>
+   <play context="H,3,8,V31" playid="1,10,12" type="P"
+      text="Crosta R. pass incomplete to Zanovello R.."></play>
+   <play context="H,4,8,V31" playid="1,11,13" type="R" first="R"
+      text="Crosta R. rush for 12 yards to the LI219, 1ST DOWN SKO, out-of-bounds."></play>
+   <play context="H,1,10,V19" playid="1,12,14" type="P"
+      text="Crosta R. pass complete to Zanovello R. for loss of 1 yard to the LI220."></play>
+   <play context="H,2,11,V20" playid="1,13,15" type="R"
+      text="Auriemma D. rush for 5 yards to the LI215 (Iacona C.)."></play>
+   <play context="H,3,6,V15" playid="1,14,16" type="P" first="P"
+      text="Crosta R. pass complete to Franchi L. for 11 yards to the LI24, 1ST DOWN SKO (Pruchnicki E.)."></play>
+   <play context="H,1,0,V04" playid="1,15,17" type="E"
+      text="Auriemma D. rush for 1 yard to the LI23 (Menotti A.), PENALTY LI2 offside 2 yards to the LI22, NO PLAY."></play>
+   <play context="H,1,0,V02" playid="1,16,18" type="R" score="Y" clock="04:00"
+      text="Crosta R. rush for 2 yards to the LI20, TOUCHDOWN, clock 04:00."></play>
+   <play context="H,1,0,V03" playid="1,17,19" type="X"
+      text="Girardi A. kick attempt failed."></play>
+   <score V="0" H="6"></score>
+   <drivesum plays="15" yards="60" top="8:00" driveindex="1" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="1,18,20" type="K"
+      text="Tenerini C. kickoff 66 yards to the LI20, touchback."></play>
+   <drivestart poss="V,V20,04:00" vh="V" spot="V20" clock="04:00" driveindex="2,20"></drivestart>
+   <play context="V,1,10,V20" playid="2,1,21" clock="03:55"
+      text="LIONS BERGAMO drive start at 03:55."></play>
+   <play context="V,1,10,V20" playid="2,2,22" type="R"
+      text="Aldrighetti L. rush for 8 yards to the LI228 (Pedotti T.)."></play>
+   <play context="V,2,2,V28" playid="2,3,23" type="R"
+      text="Aldrighetti L. rush for loss of 1 yard to the LI227 (Lardera L.;Zanon F.)."></play>
+   <play context="V,3,3,V27" playid="2,4,24" type="P"
+      text="Rossi D. pass incomplete to Mazzola A.."></play>
+   <play context="V,4,3,V27" playid="2,5,25" type="U"
+      text="Galbiati P. punt 20 yards to the LI247."></play>
+   <drivesum plays="3" yards="7" top="1:34" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,V47,03:55" vh="H" spot="V47" clock="03:55" driveindex="3,25"></drivestart>
+   <play context="H,1,10,V47" playid="3,1,26" clock="02:21"
+      text="SKORPIONS VARESE drive start at 02:21."></play>
+   <play context="H,1,10,V47" playid="3,2,27" type="R"
+      text="Auriemma D. rush for 7 yards to the LI240 (Benedetti S.)."></play>
+   <play context="H,2,3,V40" playid="3,3,28" type="R"
+      text="Auriemma D. rush for no gain to the LI240 (Marone E.)."></play>
+   <play context="H,3,3,V40" playid="3,4,29" type="R"
+      text="Auriemma D. rush for loss of 1 yard to the LI241 (Appollonio A.)."></play>
+   <play context="H,4,4,V41" playid="3,5,30" type="P"
+      text="Crosta R. pass incomplete to Mozzanica M.."></play>
+   <drivesum plays="4" yards="6" top="2:07" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="V,V41,02:21" vh="V" spot="V41" clock="02:21" driveindex="4,30"></drivestart>
+   <play context="V,1,10,V41" playid="4,1,31" clock="00:14"
+      text="LIONS BERGAMO drive start at 00:14."></play>
+   <play context="V,1,10,V41" playid="4,2,32" type="R"
+      text="Aldrighetti L. rush for 2 yards to the LI243 (Vuolo D.)."></play>
+   <score qtr="1" V="0" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LI2">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="2"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="01:53"></misc>
+    <rush att="3" yds="9" gain="10" loss="1" td="0" long="8"></rush>
+    <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="1" yds="20" long="20" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="45" ob="0" tb="0"></ko>
+    <defense tackua="12" tacka="4" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SKO">
+    <firstdowns no="4" rush="3" pass="1" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="2" fourthatt="3"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="10:07"></misc>
+    <rush att="13" yds="49" gain="50" loss="1" td="1" long="12"></rush>
+    <pass comp="4" att="6" int="0" yds="15" td="0" long="11" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="15" td="0" long="11"></rcv>
+    <ko no="1" yds="66" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="2" tacka="2" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="15" td="0" long="15"></kr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,2,8,V43" playid="4,3,33" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="V,2,8,V43" playid="4,4,34" type="R" first="R"
+      text="Aldrighetti L. rush for 12 yards to the SKO41, 1ST DOWN LI2 (Perrucci N.)."></play>
+   <play context="V,1,10,H41" playid="4,5,35" type="R" first="R"
+      text="Aldrighetti L. rush for 15 yards to the SKO26, 1ST DOWN LI2, out-of-bounds (Mora A.)."></play>
+   <play context="V,1,10,H26" playid="4,6,36" type="R"
+      text="Aldrighetti L. rush for 1 yard to the SKO25 (Principi N.)."></play>
+   <play context="V,2,9,H25" playid="4,7,37" type="P"
+      text="Rossi D. pass incomplete to Gregorio V.."></play>
+   <play context="V,3,9,H25" playid="4,8,38" type="P" first="P"
+      text="Rossi D. pass complete to Gregorio V. for 18 yards to the SKO7, 1ST DOWN LI2 (Lardera L.;Perrucci N.)."></play>
+   <play context="V,1,0,H07" playid="4,9,39" type="P"
+      text="Rossi D. pass complete to Gregorio V. for 1 yard to the SKO6 (Tettamanti S.)."></play>
+   <play context="V,2,0,H06" playid="4,10,40" type="R" score="Y" clock="08:38"
+      text="Rossi D. rush for 6 yards to the SKO0, TOUCHDOWN, clock 08:38."></play>
+   <play context="V,1,0,H03" playid="4,11,41" type="X" score="Y"
+      text="Veber J. kick attempt good."></play>
+   <score V="7" H="6"></score>
+   <drivesum plays="8" yards="55" top="3:36" driveindex="4" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="4,12,42" type="K"
+      text="Veber J. kickoff 58 yards to the SKO8, Brovelli A. return 22 yards to the SKO30 (Pezzotta D.)."></play>
+   <drivestart poss="H,H30,08:38" vh="H" spot="H30" clock="08:38" driveindex="5,42"></drivestart>
+   <play context="H,1,10,H30" playid="5,1,43" clock="08:33"
+      text="SKORPIONS VARESE drive start at 08:33."></play>
+   <play context="H,1,10,H30" playid="5,2,44" type="R"
+      text="Auriemma D. rush for loss of 1 yard to the SKO29 (Mema L.)."></play>
+   <play context="H,2,11,H29" playid="5,3,45" type="P"
+      text="Crosta R. pass incomplete to Auriemma D.."></play>
+   <play context="H,3,11,H29" playid="5,4,46" type="P"
+      text="Crosta R. pass complete to Auriemma D. for 6 yards to the SKO35 (Perini E.)."></play>
+   <play context="H,4,5,H35" playid="5,5,47" type="U"
+      text="Granelli S. punt 36 yards to the LI225."></play>
+   <drivesum plays="3" yards="5" top="1:44" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V25,08:33" vh="V" spot="V25" clock="08:33" driveindex="6,47"></drivestart>
+   <play context="V,1,10,V25" playid="6,1,48" clock="06:49"
+      text="LIONS BERGAMO drive start at 06:49."></play>
+   <play context="V,1,10,V25" playid="6,2,49" type="P"
+      text="Rossi D. pass incomplete to Zani G.."></play>
+   <play context="V,2,10,V25" playid="6,3,50" type="R"
+      text="Aldrighetti L. rush for loss of 3 yards to the LI222 (Granelli S.)."></play>
+   <play context="V,3,13,V22" playid="6,4,51" type="P"
+      text="Rossi D. sacked for loss of 1 yard to the LI221 (Vuolo D.)."></play>
+   <play context="V,4,14,V21" playid="6,5,52" type="#" clock="06:00"
+      text="Timeout Lions Bergamo, clock 06:00."></play>
+   <play context="V,4,14,V21" playid="6,6,53" type="U"
+      text="Galbiati P. punt 46 yards to the SKO29."></play>
+   <drivesum plays="3" yards="-4" top="1:49" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H29,06:00" vh="H" spot="H29" clock="06:00" driveindex="7,53"></drivestart>
+   <play context="H,1,10,H29" playid="7,1,54" clock="05:00"
+      text="SKORPIONS VARESE drive start at 05:00."></play>
+   <play context="H,1,10,H29" playid="7,2,55" type="R" first="R"
+      text="Crosta R. rush for 19 yards to the 48 yardline, 1ST DOWN SKO (Menotti A.)."></play>
+   <play context="H,1,10,H48" playid="7,3,56" type="R"
+      text="Poste' A. rush for loss of 1 yard to the SKO47 (Marone E.;Appollonio A.)."></play>
+   <play context="H,2,11,H47" playid="7,4,57" type="P"
+      text="Crosta R. pass incomplete to Piazzi M.."></play>
+   <play context="H,3,11,H47" playid="7,5,58" type="P"
+      text="Crosta R. pass incomplete to Poste' A.."></play>
+   <play context="H,4,11,H47" playid="7,6,59" type="U"
+      text="Granelli S. punt 22 yards to the LI227."></play>
+   <drivesum plays="4" yards="18" top="1:39" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,V27,05:00" vh="V" spot="V27" clock="05:00" driveindex="8,59"></drivestart>
+   <play context="V,1,10,V27" playid="8,1,60" clock="03:21"
+      text="LIONS BERGAMO drive start at 03:21."></play>
+   <play context="V,1,10,V27" playid="8,2,61" type="P" first="P"
+      text="Rossi D. pass complete to Podavitte M. for 14 yards to the LI241, 1ST DOWN LI2 (Principi N.)."></play>
+   <play context="V,1,10,V41" playid="8,3,62" type="R" first="R" score="Y" clock="02:44"
+      text="Aldrighetti L. rush for 55 yards to the SKO0, 1ST DOWN LI2, TOUCHDOWN, clock 02:44."></play>
+   <play context="V,1,0,H03" playid="8,4,63" type="X" score="Y"
+      text="Veber J. kick attempt good."></play>
+   <score V="14" H="6"></score>
+   <drivesum plays="2" yards="69" top="0:37" driveindex="8" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="8,5,64" type="K"
+      text="Veber J. kickoff 66 yards to the SKO0, touchback."></play>
+   <drivestart poss="H,H20,02:44" vh="H" spot="H20" clock="02:44" driveindex="9,64"></drivestart>
+   <play context="H,1,10,H20" playid="9,1,65" clock="02:39"
+      text="SKORPIONS VARESE drive start at 02:39."></play>
+   <play context="H,1,10,H20" playid="9,2,66" type="R"
+      text="Crosta R. rush for 2 yards to the SKO22 (Appollonio A.)."></play>
+   <play context="H,2,8,H22" playid="9,3,67" type="R"
+      text="Auriemma D. rush for 1 yard to the SKO23 (Appollonio A.)."></play>
+   <play context="H,3,7,H23" playid="9,4,68" type="P"
+      text="Crosta R. pass incomplete to Mozzanica M.."></play>
+   <play context="H,4,7,H23" playid="9,5,69" type="U"
+      text="Granelli S. punt 33 yards to the LI240."></play>
+   <drivesum plays="3" yards="3" top="1:09" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="V,V40,02:39" vh="V" spot="V40" clock="02:39" driveindex="10,69"></drivestart>
+   <play context="V,1,10,V40" playid="10,1,70" clock="01:30"
+      text="LIONS BERGAMO drive start at 01:30."></play>
+   <play context="V,1,10,V40" playid="10,2,71" type="R"
+      text="Aldrighetti L. rush for 7 yards to the LI247, out-of-bounds (Mora A.)."></play>
+   <play context="V,2,3,V47" playid="10,3,72" type="P"
+      text="Rossi D. pass incomplete to Zani G. (Mora A.)."></play>
+   <play context="V,3,3,V47" playid="10,4,73" type="R" first="R"
+      text="Aldrighetti L. rush for 11 yards to the SKO38, 1ST DOWN LI2, out-of-bounds."></play>
+   <play context="V,1,10,H38" playid="10,5,74" type="R" first="R"
+      text="Aldrighetti L. rush for 10 yards to the SKO28, 1ST DOWN LI2, out-of-bounds."></play>
+   <play context="V,1,10,H28" playid="10,6,75" type="P"
+      text="Rossi D. pass incomplete to Zani G.."></play>
+   <play context="V,2,10,H28" playid="10,7,76" type="R" first="R"
+      text="Aldrighetti L. rush for 16 yards to the SKO12, 1ST DOWN LI2 (Digennaro F.)."></play>
+   <play context="V,1,10,H12" playid="10,8,77" type="#" clock="00:42"
+      text="Timeout Lions Bergamo, clock 00:42."></play>
+   <play context="V,1,10,H12" playid="10,9,78" type="R"
+      text="Rossi D. rush for no gain to the SKO12 (Pedotti T.;Chiolerio P.)."></play>
+   <play context="V,2,10,H12" playid="10,10,79" type="#" clock="00:04"
+      text="Timeout Lions Bergamo, clock 00:04."></play>
+   <play context="V,2,10,H12" playid="10,11,80" type="F" score="Y" clock="00:00"
+      text="Veber J. field goal attempt from 29 GOOD, clock 00:00."></play>
+   <score V="17" H="6"></score>
+   <play context="V,1,0,V30" playid="10,12,81" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="7" yards="44" top="1:30" driveindex="10" complete="Y"></drivesum>
+   <score qtr="2" V="17" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LI2">
+    <firstdowns no="8" rush="6" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:18"></misc>
+    <rush att="12" yds="129" gain="133" loss="4" td="2" long="47"></rush>
+    <pass comp="3" att="7" int="0" yds="33" td="0" long="18" sacks="1" sackyds="1"></pass>
+    <rcv no="3" yds="33" td="0" long="18"></rcv>
+    <punt no="1" yds="46" long="26" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="124" ob="0" tb="1"></ko>
+    <fg made="1" att="1" long="29" blkd="0"></fg>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="6" tacka="2" tflua="3" tfla="0" tflyds="3" sacks="0" sackyds="0"></defense>
+    <scoring td="2" fg="1" patkick="2"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SKO">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:42"></misc>
+    <rush att="5" yds="20" gain="22" loss="2" td="0" long="7"></rush>
+    <pass comp="1" att="5" int="0" yds="6" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="6" td="0" long="0"></rcv>
+    <punt no="3" yds="91" long="36" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="9" tacka="4" tflua="2" tfla="0" tflyds="4" sacks="1" sackyds="1" brup="1"></defense>
+    <kr no="1" yds="22" td="0" long="7"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,1,0,V30" playid="10,13,82" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, SKO ball on SKO30."></play>
+   <play context="H,1,0,H30" playid="10,14,83" type="K"
+      text="Tenerini C. kickoff 55 yards to the LI211, Aldrighetti L. return 15 yards to the LI226 (Montagner M.)."></play>
+   <drivestart poss="V,V26,12:00" vh="V" spot="V26" clock="12:00" driveindex="11,83"></drivestart>
+   <play context="V,1,10,V26" playid="11,1,84" clock="11:55"
+      text="LIONS BERGAMO drive start at 11:55."></play>
+   <play context="V,1,10,V26" playid="11,2,85" type="P" first="P" score="Y" clock="11:48"
+      text="Rossi D. pass complete to Zani G. for 70 yards to the SKO0, 1ST DOWN LI2, TOUCHDOWN, clock 11:48."></play>
+   <play context="V,1,0,H03" playid="11,3,86" type="X" score="Y"
+      text="Veber J. kick attempt good."></play>
+   <score V="24" H="6"></score>
+   <drivesum plays="1" yards="70" top="0:07" driveindex="11" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="11,4,87" type="K"
+      text="Veber J. kickoff 66 yards to the SKO0, touchback."></play>
+   <drivestart poss="H,H20,11:48" vh="H" spot="H20" clock="11:48" driveindex="12,87"></drivestart>
+   <play context="H,1,10,H20" playid="12,1,88" clock="11:43"
+      text="SKORPIONS VARESE drive start at 11:43."></play>
+   <play context="H,1,10,H20" playid="12,2,89" type="R"
+      text="Crosta R. rush for 5 yards to the SKO25, fumble by Crosta R. recovered by SKO Brovelli A. at SKO25."></play>
+   <play context="H,2,5,H25" playid="12,3,90" type="P" first="P"
+      text="Crosta R. pass complete to Mozzanica M. for 11 yards to the SKO36, 1ST DOWN SKO (Pezzotta D.)."></play>
+   <play context="H,1,10,H36" playid="12,4,91" type="P" first="P"
+      text="Crosta R. pass complete to Franchi L. for 35 yards to the LI225, 1ST DOWN SKO (Pezzotta D.)."></play>
+   <play context="H,1,10,V25" playid="12,5,92" type="P" first="P"
+      text="Crosta R. pass complete to Auriemma D. for 11 yards to the LI214, 1ST DOWN SKO (Pezzotta D.)."></play>
+   <play context="H,1,10,V14" playid="12,6,93" type="P"
+      text="Crosta R. pass incomplete to Franchi L.."></play>
+   <play context="H,2,10,V14" playid="12,7,94" type="R" turnover="F"
+      text="Crosta R. rush for loss of 6 yards to the LI220, fumble by Crosta R. recovered by LI2 Appollonio A. at LI220."></play>
+   <drivesum plays="6" yards="56" top="1:59" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V20,11:43" vh="V" spot="V20" clock="11:43" driveindex="13,94"></drivestart>
+   <play context="V,1,10,V20" playid="13,1,95" clock="09:44"
+      text="LIONS BERGAMO drive start at 09:44."></play>
+   <play context="V,1,10,V20" playid="13,2,96" type="P" first="P"
+      text="Rossi D. pass complete to Zani G. for 40 yards to the SKO36, 1ST DOWN LI2 (Mora A.)."></play>
+   <play context="V,1,10,H36" playid="13,3,97" type="R"
+      text="Aldrighetti L. rush for 1 yard to the SKO35 (Vuolo D.;Chiolerio P.)."></play>
+   <play context="V,2,9,H35" playid="13,4,98" type="R"
+      text="Rossi D. rush for 5 yards to the SKO30, out-of-bounds (Mora A.)."></play>
+   <play context="V,3,4,H30" playid="13,5,99" type="R"
+      text="Aldrighetti L. rush for loss of 1 yard to the SKO31 (Vuolo D.)."></play>
+   <play context="V,4,5,H31" playid="13,6,100" type="#" clock="07:07"
+      text="Timeout Lions Bergamo, clock 07:07."></play>
+   <play context="V,4,5,H31" playid="13,7,101" type="P"
+      text="Rossi D. pass incomplete to Zani G.."></play>
+   <drivesum plays="5" yards="45" top="2:40" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H31,07:07" vh="H" spot="H31" clock="07:07" driveindex="14,101"></drivestart>
+   <play context="H,1,10,H31" playid="14,1,102" clock="07:04"
+      text="SKORPIONS VARESE drive start at 07:04."></play>
+   <play context="H,1,10,H31" playid="14,2,103" type="R"
+      text="Poste' A. rush for 1 yard to the SKO32 (TEAM)."></play>
+   <play context="H,2,9,H32" playid="14,3,104" type="P" first="P"
+      text="Crosta R. pass complete to Mozzanica M. for 10 yards to the SKO42, 1ST DOWN SKO (Appollonio A.)."></play>
+   <play context="H,1,10,H42" playid="14,4,105" type="R"
+      text="Auriemma D. rush for 1 yard to the SKO43 (Natali P.)."></play>
+   <play context="H,2,9,H43" playid="14,5,106" type="P" first="P"
+      text="Crosta R. pass complete to Mozzanica M. for 37 yards to the LI216, 1ST DOWN SKO."></play>
+   <play context="H,1,10,V16" playid="14,6,107" type="R"
+      text="Auriemma D. rush for 6 yards to the LI210, out-of-bounds."></play>
+   <play context="H,2,4,V10" playid="14,7,108" type="P"
+      text="Crosta R. pass incomplete to Brovelli A. (Appollonio A.)."></play>
+   <play context="H,3,4,V10" playid="14,8,109" type="R" first="R"
+      text="Crosta R. rush for 7 yards to the LI23, 1ST DOWN SKO (Menotti A.)."></play>
+   <play context="H,1,0,V03" playid="14,9,110" type="R" score="Y" clock="04:42"
+      text="Auriemma D. rush for 3 yards to the LI20, TOUCHDOWN, clock 04:42."></play>
+   <play context="H,1,0,V03" playid="14,10,111" type="X" score="Y"
+      text="Crosta R. pass attempt to Piazzi M. good."></play>
+   <score V="24" H="14"></score>
+   <drivesum plays="8" yards="65" top="2:22" driveindex="14" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="14,11,112" type="K"
+      text="Tenerini C. kickoff 41 yards to the LI225, out-of-bounds, LI2 ball on LI225."></play>
+   <drivestart poss="V,V25,04:42" vh="V" spot="V25" clock="04:42" driveindex="15,112"></drivestart>
+   <play context="V,1,10,V25" playid="15,1,113" clock="04:37"
+      text="LIONS BERGAMO drive start at 04:37."></play>
+   <play context="V,1,10,V25" playid="15,2,114" type="R"
+      text="Aldrighetti L. rush for 4 yards to the LI229, out-of-bounds (Zanon F.)."></play>
+   <play context="V,2,6,V29" playid="15,3,115" type="P"
+      text="Rossi D. pass complete to Podavitte M. for loss of 2 yards to the LI227."></play>
+   <play context="V,3,8,V27" playid="15,4,116" type="P"
+      text="Rossi D. pass complete to Podavitte M. for 6 yards to the LI233 (Dominioni P.)."></play>
+   <play context="V,4,2,V33" playid="15,5,117" type="U"
+      text="Veber J. punt 40 yards to the SKO23, PENALTY LI2 personal foul 15 yards to the SKO38, 1st and 10, SKO ball on SKO38."></play>
+   <drivesum plays="3" yards="8" top="1:42" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H38,04:37" vh="H" spot="H38" clock="04:37" driveindex="16,117"></drivestart>
+   <play context="H,1,10,H38" playid="16,1,118" clock="02:55"
+      text="SKORPIONS VARESE drive start at 02:55."></play>
+   <play context="H,1,10,H38" playid="16,2,119" type="#" clock="02:43"
+      text="Timeout Lions Bergamo, clock 02:43."></play>
+   <play context="H,1,10,H38" playid="16,3,120" type="P" first="P"
+      text="Crosta R. pass complete to Franchi L. for 13 yards to the LI245, 1ST DOWN SKO."></play>
+   <play context="H,1,10,V45" playid="16,4,121" type="P" first="P" score="Y" clock="02:30"
+      text="Crosta R. pass complete to Franchi L. for 45 yards to the LI20, 1ST DOWN SKO, TOUCHDOWN, clock 02:30."></play>
+   <play context="H,1,0,V03" playid="16,5,122" type="X" score="Y"
+      text="Girardi A. kick attempt good."></play>
+   <score V="24" H="21"></score>
+   <drivesum plays="2" yards="58" top="0:25" driveindex="16" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="16,6,123" type="K"
+      text="Tenerini C. kickoff 35 yards to the LI231, Mazzola A. return 6 yards to the LI237 (Carimati M.)."></play>
+   <drivestart poss="V,V37,02:30" vh="V" spot="V37" clock="02:30" driveindex="17,123"></drivestart>
+   <play context="V,1,10,V37" playid="17,1,124" clock="02:24"
+      text="LIONS BERGAMO drive start at 02:24."></play>
+   <play context="V,1,10,V37" playid="17,2,125" type="R"
+      text="Aldrighetti L. rush for 3 yards to the LI240 (Zamboni G.)."></play>
+   <play context="V,2,7,V40" playid="17,3,126" type="P"
+      text="Rossi D. pass incomplete to Podavitte M.."></play>
+   <play context="V,3,7,V40" playid="17,4,127" type="P" turnover="I"
+      text="Rossi D. pass intercepted by Principi N. at the SKO29, Principi N. return 0 yards to the SKO29."></play>
+   <drivesum plays="3" yards="3" top="0:34" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,H29,02:24" vh="H" spot="H29" clock="02:24" driveindex="18,127"></drivestart>
+   <play context="H,1,10,H29" playid="18,1,128" clock="01:50"
+      text="SKORPIONS VARESE drive start at 01:50."></play>
+   <play context="H,1,10,H29" playid="18,2,129" type="P" first="E"
+      text="Crosta R. pass complete to Mozzanica M. for 2 yards to the SKO31, out-of-bounds (Menotti A.), PENALTY LI2 face mask 15 yards to the SKO46, 1ST DOWN SKO."></play>
+   <play context="H,1,10,H46" playid="18,3,130"
+      text="1st and 10."></play>
+   <play context="H,1,10,H46" playid="18,4,131" type="E"
+      text="Crosta R. pass complete to Auriemma D. for 2 yards to the 48 yardline, PENALTY SKO IP 5 yards to the SKO41, NO PLAY."></play>
+   <play context="H,1,15,H41" playid="18,5,132" type="P" first="P"
+      text="Crosta R. pass complete to Mozzanica M. for 33 yards to the LI222, 1ST DOWN SKO (Pezzotta D.)."></play>
+   <play context="H,1,10,V22" playid="18,6,133" type="P"
+      text="Crosta R. pass complete to Franchi L. for loss of 2 yards to the LI224."></play>
+   <play context="H,2,12,V24" playid="18,7,134" type="P"
+      text="Crosta R. pass incomplete to Mozzanica M.."></play>
+   <play context="H,3,12,V24" playid="18,8,135" type="R" turnover="F"
+      text="Auriemma D. rush for 5 yards to the LI219, fumble by Auriemma D. recovered by LI2 Mema L. at LI219."></play>
+   <drivesum plays="5" yards="48" top="1:46" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="V,V19,01:50" vh="V" spot="V19" clock="01:50" driveindex="19,135"></drivestart>
+   <play context="V,1,10,V19" playid="19,1,136" clock="00:04"
+      text="LIONS BERGAMO drive start at 00:04."></play>
+   <play context="V,1,10,V19" playid="19,2,137" type="R"
+      text="Aldrighetti L. rush for 8 yards to the LI227 (Tettamanti S.;Granelli S.)."></play>
+   <score qtr="3" V="24" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LI2">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="2" yds="30"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:23"></misc>
+    <rush att="6" yds="20" gain="21" loss="1" td="0" long="0"></rush>
+    <pass comp="4" att="7" int="1" yds="114" td="1" long="52" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="114" td="1" long="52"></rcv>
+    <punt no="1" yds="40" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="66" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="9" tacka="0" sacks="0" sackyds="0" brup="1" fr="2" fryds="0"></defense>
+    <kr no="2" yds="21" td="0" long="15"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SKO">
+    <firstdowns no="10" rush="1" pass="8" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="3" lost="2"></fumbles>
+    <misc yds="0" top="06:37"></misc>
+    <rush att="8" yds="22" gain="28" loss="6" td="1" long="0"></rush>
+    <pass comp="10" att="13" int="0" yds="195" td="1" long="34" sacks="0" sackyds="0"></pass>
+    <rcv no="10" yds="195" td="1" long="34"></rcv>
+    <ko no="3" yds="131" ob="1" tb="0"></ko>
+    <pat kickatt="1" kickmade="1" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="8" tacka="4" tflua="1" tfla="0" tflyds="1" sacks="1" sackyds="1" int="1" intyds="0"></defense>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <fumbles no="3" lost="2"></fumbles>
+    <scoring td="2" patkick="1" patrcv="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="V,2,2,V27" playid="19,3,138" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="V,2,2,V27" playid="19,4,139" type="R" first="R"
+      text="Aldrighetti L. rush for 4 yards to the LI231, 1ST DOWN LI2 (Lardera L.)."></play>
+   <play context="V,1,10,V31" playid="19,5,140" type="P"
+      text="Rossi D. pass incomplete."></play>
+   <play context="V,2,10,V31" playid="19,6,141" type="R" first="R"
+      text="Aldrighetti L. rush for 10 yards to the LI241, 1ST DOWN LI2 (Lardera L.)."></play>
+   <play context="V,1,10,V41" playid="19,7,142" type="P"
+      text="Rossi D. pass incomplete."></play>
+   <play context="V,2,10,V41" playid="19,8,143" type="R"
+      text="Rossi D. rush for 2 yards to the LI243 (Vuolo D.)."></play>
+   <play context="V,3,8,V43" playid="19,9,144" type="P"
+      text="Rossi D. pass incomplete to Zani G.."></play>
+   <play context="V,4,8,V43" playid="19,10,145" type="U"
+      text="Veber J. punt 6 yards to the SKO47, out-of-bounds."></play>
+   <drivesum plays="7" yards="24" top="2:39" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,H47,12:00" vh="H" spot="H47" clock="12:00" driveindex="20,145"></drivestart>
+   <play context="H,1,10,H47" playid="20,1,146" clock="09:25"
+      text="SKORPIONS VARESE drive start at 09:25."></play>
+   <play context="H,1,10,H47" playid="20,2,147" type="P" first="P" score="Y" clock="09:24"
+      text="Crosta R. pass complete to Piazzi M. for 49 yards to the LI20, 1ST DOWN SKO, TOUCHDOWN, clock 09:24."></play>
+   <play context="H,1,0,V03" playid="20,3,148" type="X" score="Y"
+      text="Girardi A. kick attempt good."></play>
+   <score V="24" H="28"></score>
+   <drivesum plays="1" yards="49" top="0:01" driveindex="20" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="20,4,149" type="K"
+      text="Tenerini C. kickoff 54 yards to the LI212, Pruchnicki E. return 18 yards to the LI230 (Montalbetti S.)."></play>
+   <drivestart poss="V,V30,09:24" vh="V" spot="V30" clock="09:24" driveindex="21,149"></drivestart>
+   <play context="V,1,10,V30" playid="21,1,150" clock="09:19"
+      text="LIONS BERGAMO drive start at 09:19."></play>
+   <play context="V,1,10,V30" playid="21,2,151" type="R"
+      text="Aldrighetti L. rush for 8 yards to the LI238 (Vuolo D.)."></play>
+   <play context="V,2,2,V38" playid="21,3,152" type="R"
+      text="Aldrighetti L. rush for 1 yard to the LI239 (Vuolo D.)."></play>
+   <play context="V,3,1,V39" playid="21,4,153" type="R" turnover="F"
+      text="Rossi D. rush for loss of 14 yards to the LI225, fumble by Rossi D. recovered by SKO Granelli S. at LI225."></play>
+   <drivesum plays="3" yards="-5" top="2:00" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="H,V25,09:19" vh="H" spot="V25" clock="09:19" driveindex="22,153"></drivestart>
+   <play context="H,1,10,V25" playid="22,1,154" clock="07:19"
+      text="SKORPIONS VARESE drive start at 07:19."></play>
+   <play context="H,1,10,V25" playid="22,2,155" type="R"
+      text="Poste' A. rush for loss of 1 yard to the LI226 (Morgano M.)."></play>
+   <play context="H,2,11,V26" playid="22,3,156" type="R"
+      text="Poste' A. rush for 3 yards to the LI223 (TEAM), PENALTY SKO holding 10 yards to the LI233."></play>
+   <play context="H,2,18,V33" playid="22,4,157"
+      text="2nd and 18."></play>
+   <play context="H,2,18,V33" playid="22,5,158" type="R"
+      text="Auriemma D. rush for 4 yards to the LI229 (Morgano M.)."></play>
+   <play context="H,3,14,V29" playid="22,6,159" type="P"
+      text="Crosta R. pass incomplete to Piazzi M.."></play>
+   <play context="H,4,14,V29" playid="22,7,160" type="R"
+      text="Auriemma D. rush for no gain to the LI229, PENALTY SKO personal foul declined."></play>
+   <drivesum plays="5" yards="-4" top="1:19" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="V,V29,07:19" vh="V" spot="V29" clock="07:19" driveindex="23,160"></drivestart>
+   <play context="V,1,10,V29" playid="23,1,161" clock="06:00"
+      text="LIONS BERGAMO drive start at 06:00."></play>
+   <play context="V,1,10,V29" playid="23,2,162" type="P" first="P"
+      text="Rossi D. pass complete to Gregorio V. for 31 yards to the SKO36, 1ST DOWN LI2 (Granelli S.)."></play>
+   <play context="V,1,10,H36" playid="23,3,163" type="E" first="E"
+      text="Rossi D. pass incomplete, PENALTY SKO roughing passer 7 yards to the SKO29, 1ST DOWN LI2, NO PLAY."></play>
+   <play context="V,1,10,H29" playid="23,4,164" type="E" first="E"
+      text="Rossi D. pass incomplete to Aldrighetti L., PENALTY SKO personal foul (Lardera L.) 10 yards to the SKO19, 1ST DOWN LI2, NO PLAY."></play>
+   <play context="V,1,10,H19" playid="23,5,165" type="P"
+      text="Rossi D. pass incomplete to Zani G.."></play>
+   <play context="V,2,10,H19" playid="23,6,166" type="P" first="P"
+      text="Rossi D. pass complete to Zani G. for 18 yards to the SKO1, 1ST DOWN LI2."></play>
+   <play context="V,1,0,H01" playid="23,7,167" type="R"
+      text="Aldrighetti L. rush for loss of 4 yards to the SKO5 (Lardera L.)."></play>
+   <play context="V,2,0,H05" playid="23,8,168" type="P"
+      text="Rossi D. pass incomplete to Podavitte M. (Dominioni P.)."></play>
+   <play context="V,3,0,H05" playid="23,9,169" type="P"
+      text="Rossi D. pass incomplete to Aldrighetti L.."></play>
+   <play context="V,4,0,H05" playid="23,10,170" type="#" clock="03:36"
+      text="Timeout Lions Bergamo, clock 03:36."></play>
+   <play context="V,4,0,H05" playid="23,11,171" type="P" score="Y" clock="03:29"
+      text="Rossi D. pass complete to Podavitte M. for 5 yards to the SKO0, TOUCHDOWN, clock 03:29, PENALTY LI2 personal foul off-setting, PENALTY SKO personal foul off-setting."></play>
+   <play context="V,1,0,H03" playid="23,12,172" type="E"
+      text="Veber J. kick attempt good, PENALTY SKO offside 2 yards to the SKO1, NO PLAY."></play>
+   <play context="V,1,0,H01" playid="23,13,173" type="X" score="Y"
+      text="Veber J. kick attempt good."></play>
+   <score V="31" H="28"></score>
+   <drivesum plays="7" yards="67" top="2:31" driveindex="23" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="23,14,174" type="K"
+      text="Veber J. kickoff 56 yards to the SKO10, Brovelli A. return 55 yards to the LI231 (Zani G.;Veber J.), PENALTY SKO personal foul 10 yards to the LI241, 1st and 10, SKO ball on LI241."></play>
+   <drivestart poss="H,V41,03:29" vh="H" spot="V41" clock="03:29" driveindex="24,174"></drivestart>
+   <play context="H,1,10,V41" playid="24,1,175" clock="03:24"
+      text="SKORPIONS VARESE drive start at 03:24."></play>
+   <play context="H,1,10,V41" playid="24,2,176" type="P"
+      text="Crosta R. pass incomplete to Mozzanica M.."></play>
+   <play context="H,2,10,V41" playid="24,3,177" type="P" first="P"
+      text="Crosta R. pass complete to Piazzi M. for 15 yards to the LI226, 1ST DOWN SKO, out-of-bounds."></play>
+   <play context="H,1,10,V26" playid="24,4,178" type="P"
+      text="Crosta R. pass incomplete to Piazzi M.."></play>
+   <play context="H,2,10,V26" playid="24,5,179" type="P"
+      text="Crosta R. pass incomplete to Mozzanica M.."></play>
+   <play context="H,3,10,V26" playid="24,6,180" type="R"
+      text="Crosta R. rush for loss of 4 yards to the LI230 (Perini E.)."></play>
+   <play context="H,4,14,V30" playid="24,7,181" type="#" clock="02:00"
+      text="Timeout Skorpions Varese, clock 02:00."></play>
+   <play context="H,4,14,V30" playid="24,8,182" type="P"
+      text="Crosta R. pass incomplete to Mozzanica M.."></play>
+   <drivesum plays="6" yards="11" top="1:30" driveindex="24" complete="Y"></drivesum>
+   <drivestart poss="V,V30,02:00" vh="V" spot="V30" clock="02:00" driveindex="25,182"></drivestart>
+   <play context="V,1,10,V30" playid="25,1,183" clock="01:54"
+      text="LIONS BERGAMO drive start at 01:54."></play>
+   <play context="V,1,10,V30" playid="25,2,184" type="R"
+      text="Aldrighetti L. rush for 4 yards to the LI234 (Granelli S.)."></play>
+   <play context="V,2,6,V34" playid="25,3,185" type="#" clock="01:35"
+      text="Timeout Skorpions Varese, clock 01:35."></play>
+   <play context="V,2,6,V34" playid="25,4,186" type="E"
+      text="Rossi D. rush for loss of 3 yards to the LI231, PENALTY SKO 12 men on the field 5 yards to the LI239, NO PLAY."></play>
+   <play context="V,2,1,V39" playid="25,5,187" type="R" first="R"
+      text="Aldrighetti L. rush for 2 yards to the LI241, 1ST DOWN LI2 (Lardera L.)."></play>
+   <play context="V,1,10,V41" playid="25,6,188" type="R"
+      text="Aldrighetti L. rush for loss of 1 yard to the LI240."></play>
+   <play context="V,2,11,V40" playid="25,7,189" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="3" yards="10" top="1:54" driveindex="25" complete="Y"></drivesum>
+   <score final="Y" V="31" H="28"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="LI2">
+    <firstdowns no="7" rush="3" pass="2" penalty="2"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="09:05"></misc>
+    <rush att="10" yds="12" gain="31" loss="19" td="0" long="0"></rush>
+    <pass comp="3" att="9" int="0" yds="54" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="54" td="1" long="0"></rcv>
+    <punt no="1" yds="6" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="56" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="4" tacka="2" tflua="2" tfla="0" tflyds="5" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="18" td="0" long="3"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SKO">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="6" yds="44"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="02:55"></misc>
+    <rush att="5" yds="2" gain="7" loss="5" td="0" long="0"></rush>
+    <pass comp="2" att="7" int="0" yds="64" td="1" long="4" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="64" td="1" long="4"></rcv>
+    <ko no="1" yds="54" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="10" tacka="0" tflua="1" tfla="0" tflyds="4" sacks="1" sackyds="1" brup="1" fr="1" fryds="0"></defense>
+    <kr no="1" yds="55" td="0" long="33"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="V,2,11,V40" qtr="4" clock="00:00" vtoh="3" htoh="2"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="LI2">
+ </dnp>
+ <dnp vh="H" id="SKO">
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="V" id="LI2" yds="70" play="PASS" players="Rossi D. to Zani G." td="Y"></longplay>
+ </longplays>
+</fbgame>

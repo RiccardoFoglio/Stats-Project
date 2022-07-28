@@ -1,0 +1,771 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220070" visid="SKO" homeid="FRG" visname="Skorpions Varese" homename="Frogs Legnano"
+      date="4/25/2022" location="LEGNANO" stadium="CAMPO DELL'AMICIZIA"
+      start="14:30" end="16:23" leaguegame="Y"
+      duration="1:53" attend="50" temp="15" wind="NO WIND" weather="SUNNY">
+  <officials ref="GARLASCHI F." ump="SIMANELLA R." line="MANCINO L." lj="PIZZORNO F." bj="TOGNONI A." sc="VAI ALESSIA"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="SKO" name="Skorpions Varese" record="3-1" conf-record="3-1" abb="S">
+  <linescore prds="4" line="14,21,7,0" score="42">
+   <lineprd prd="1" score="14"></lineprd>
+   <lineprd prd="2" score="21"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="13" rush="5" pass="8" penalty="0"></firstdowns>
+   <penalties no="4" yds="49"></penalties>
+   <conversions thirdconv="3" thirdatt="9" fourthconv="2" fourthatt="2"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="24:26" ona="0" onm="0"></misc>
+   <redzone att="3" scores="2" points="14" tdrush="0" tdpass="2" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="1" endgame="0"></redzone>
+   <rush att="27" yds="63" gain="91" loss="28" td="0" long="14"></rush>
+   <pass comp="12" att="15" int="0" yds="230" td="5" long="70" sacks="0" sackyds="0"></pass>
+   <rcv no="12" yds="230" td="5" long="70"></rcv>
+   <punt no="4" yds="114" long="42" blkd="0" tb="0" fc="0" plus50="0" inside20="2"></punt>
+   <ko no="7" yds="374" ob="0" tb="0"></ko>
+   <pat kickatt="6" kickmade="6"></pat>
+   <defense tackua="12" tacka="20" tflua="4" tfla="4" tflyds="12" sacks="0" sackyds="0" brup="2" fr="1" fryds="0" int="3" intyds="24"></defense>
+   <kr no="1" yds="23" td="0" long="23"></kr>
+   <pr no="3" yds="49" td="0" long="21"></pr>
+   <ir no="3" yds="24" td="1" long="24"></ir>
+   <scoring td="6" patkick="6"></scoring>
+  </totals>
+  <player name="Mozzanica M." shortname="Mozzanica M." checkname="M.,MOZZANICA" uni="88" gp="1" code="88">
+   <rcv no="6" yds="146" td="4" long="70"></rcv>
+   <punt no="4" yds="114" long="42" blkd="0" tb="0" fc="0" plus50="0" inside20="2"></punt>
+   <scoring td="4"></scoring>
+  </player>
+  <player name="Zanovello R." shortname="Zanovello R." checkname="R.,ZANOVELLO" uni="1" gp="1" code="1">
+   <rush att="2" yds="-3" gain="4" loss="7" td="0" long="4"></rush>
+   <rcv no="3" yds="63" td="1" long="31"></rcv>
+   <kr no="1" yds="23" td="0" long="23"></kr>
+   <pr no="3" yds="49" td="0" long="21"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Franchi L." shortname="Franchi L." checkname="L.,FRANCHI" uni="82" gp="1" code="82">
+   <rcv no="2" yds="19" td="0" long="14"></rcv>
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Della Bosca E." shortname="Della Bosca E." checkname="BOSCA E.,DELLA" uni="17" gp="1" code="17">
+   <rush att="2" yds="-2" gain="0" loss="2" td="0" long="0"></rush>
+   <rcv no="1" yds="2" td="0" long="2"></rcv>
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Crosta R." shortname="Crosta R." checkname="R.,CROSTA" uni="19" gp="1" code="19">
+   <rush att="4" yds="5" gain="13" loss="8" td="0" long="7"></rush>
+   <pass comp="12" att="14" int="0" yds="230" td="5" long="70" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="Poste' A." shortname="Poste' A." checkname="A.,POSTE'" uni="40" gp="1" code="40">
+   <rush att="5" yds="14" gain="15" loss="1" td="0" long="6"></rush>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Brovelli A." shortname="Brovelli A." checkname="A.,BROVELLI" uni="4" gp="1" code="4">
+   <rush att="1" yds="14" gain="14" loss="0" td="0" long="14"></rush>
+  </player>
+  <player name="Limido P." shortname="Limido P." checkname="P.,LIMIDO" uni="2" gp="1" code="2"></player>
+  <player name="Pedotti T." shortname="Pedotti T." checkname="T.,PEDOTTI" uni="11" gp="1" code="11">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+  <player name="Piazzi M." shortname="Piazzi M." checkname="M.,PIAZZI" uni="13" gp="1" code="13"></player>
+  <player name="Giampaolo T." shortname="Giampaolo T." checkname="T.,GIAMPAOLO" uni="15" gp="1" code="15"></player>
+  <player name="De Micheli R." shortname="De Micheli R." checkname="MICHELI R.,DE" uni="16" gp="1" code="16"></player>
+  <player name="Granelli S." shortname="Granelli S." checkname="S.,GRANELLI" uni="9" gp="1" code="9"></player>
+  <player name="Montalbetti S." shortname="Montalbetti S." checkname="S.,MONTALBETTI" uni="18" gp="1" code="18">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Zanon F." shortname="Zanon F." checkname="F.,ZANON" uni="7" gp="1" code="7">
+   <defense tackua="4" tacka="1" tflua="2" tfla="0" tflyds="5"></defense>
+  </player>
+  <player name="Principi N." shortname="Principi N." checkname="N.,PRINCIPI" uni="21" gp="1" code="21">
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="Mora A." shortname="Mora A." checkname="A.,MORA" uni="22" gp="1" code="22">
+   <defense tackua="0" tacka="1" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Tettamanti S." shortname="Tettamanti S." checkname="S.,TETTAMANTI" uni="23" gp="1" code="23"></player>
+  <player name="Zanetta F." shortname="Zanetta F." checkname="F.,ZANETTA" uni="24" gp="1" code="24"></player>
+  <player name="Dominioni P." shortname="Dominioni P." checkname="P.,DOMINIONI" uni="25" gp="1" code="25"></player>
+  <player name="Testoni F." shortname="Testoni F." checkname="F.,TESTONI" uni="26" gp="1" code="26"></player>
+  <player name="Camagni S." shortname="Camagni S." checkname="S.,CAMAGNI" uni="6" gp="1" code="6">
+   <defense tackua="1" tacka="3" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Ballerini T." shortname="Ballerini T." checkname="T.,BALLERINI" uni="29" gp="1" code="29"></player>
+  <player name="Biloni A." shortname="Biloni A." checkname="A.,BILONI" uni="30" gp="1" code="30"></player>
+  <player name="Montagner M." shortname="Montagner M." checkname="M.,MONTAGNER" uni="31" gp="1" code="31"></player>
+  <player name="Fiore S." shortname="Fiore S." checkname="S.,FIORE" uni="5" gp="1" code="5">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Digennaro F." shortname="Digennaro F." checkname="F.,DIGENNARO" uni="39" gp="1" code="39">
+   <defense tackua="1" tacka="4" tflua="0" tfla="1" tflyds="1" brup="1" int="1" intyds="24"></defense>
+   <ir no="1" yds="24" td="1" long="24"></ir>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Micheli G." shortname="Micheli G." checkname="G.,MICHELI" uni="10" gp="1" code="10">
+   <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="Perrucci N." shortname="Perrucci N." checkname="N.,PERRUCCI" uni="42" gp="1" code="42">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Tonazzo N." shortname="Tonazzo N." checkname="N.,TONAZZO" uni="45" gp="1" code="45"></player>
+  <player name="Di Stefano G." shortname="Di Stefano G." checkname="STEFANO G.,DI" uni="51" gp="1" code="51"></player>
+  <player name="Nardi R." shortname="Nardi R." checkname="R.,NARDI" uni="52" gp="1" code="52"></player>
+  <player name="Carimati M." shortname="Carimati M." checkname="M.,CARIMATI" uni="53" gp="1" code="53"></player>
+  <player name="Bulgheroni S." shortname="Bulgheroni S." checkname="S.,BULGHERONI" uni="55" gp="1" code="55">
+   <defense tackua="1" tacka="0" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Munoz Velez C." shortname="Munoz Velez C." checkname="VELEZ C.,MUNOZ" uni="56" gp="1" code="56"></player>
+  <player name="Lusuriello S." shortname="Lusuriello S." checkname="S.,LUSURIELLO" uni="57" gp="1" code="57"></player>
+  <player name="Raso I." shortname="Raso I." checkname="I.,RASO" uni="58" gp="1" code="58"></player>
+  <player name="Moruzzi N." shortname="Moruzzi N." checkname="N.,MORUZZI" uni="59" gp="1" code="59"></player>
+  <player name="Cucchiara F." shortname="Cucchiara F." checkname="F.,CUCCHIARA" uni="60" gp="1" code="60"></player>
+  <player name="Valencia Arb J." shortname="Valencia Arb J." checkname="ARB J.,VALENCIA" uni="62" gp="1" code="62"></player>
+  <player name="Quadri G." shortname="Quadri G." checkname="G.,QUADRI" uni="64" gp="1" code="64"></player>
+  <player name="Frascati A." shortname="Frascati A." checkname="A.,FRASCATI" uni="65" gp="1" code="65"></player>
+  <player name="Brivio L." shortname="Brivio L." checkname="L.,BRIVIO" uni="66" gp="1" code="66"></player>
+  <player name="Zamboni G." shortname="Zamboni G." checkname="G.,ZAMBONI" uni="69" gp="1" code="69"></player>
+  <player name="Bozzo L." shortname="Bozzo L." checkname="L.,BOZZO" uni="70" gp="1" code="70"></player>
+  <player name="Tognon F." shortname="Tognon F." checkname="F.,TOGNON" uni="71" gp="1" code="71"></player>
+  <player name="Di Losa M." shortname="Di Losa M." checkname="LOSA M.,DI" uni="73" gp="1" code="73"></player>
+  <player name="Magnarelli S." shortname="Magnarelli S." checkname="S.,MAGNARELLI" uni="74" gp="1" code="74"></player>
+  <player name="Chiolerio P." shortname="Chiolerio P." checkname="P.,CHIOLERIO" uni="75" gp="1" code="75">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Girardi A." shortname="Girardi A." checkname="A.,GIRARDI" uni="76" gp="1" code="76">
+   <pat kickatt="6" kickmade="6"></pat>
+   <scoring patkick="6"></scoring>
+  </player>
+  <player name="Tenerini C." shortname="Tenerini C." checkname="C.,TENERINI" uni="77" gp="1" code="77">
+   <ko no="7" yds="374" ob="0" tb="0"></ko>
+   <defense tackua="0" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Ben H'mida W." shortname="Ben H'mida W." checkname="H'MIDA W.,BEN" uni="78" gp="1" code="78"></player>
+  <player name="Auriemma D." shortname="Auriemma D." checkname="D.,AURIEMMA" uni="27" gp="1" code="27">
+   <rush att="9" yds="17" gain="27" loss="10" td="0" long="11"></rush>
+  </player>
+  <player name="Pelusio R." shortname="Pelusio R." checkname="R.,PELUSIO" uni="85" gp="1" code="85"></player>
+  <player name="Caccivio M." shortname="Caccivio M." checkname="M.,CACCIVIO" uni="86" gp="1" code="86"></player>
+  <player name="Leoni D." shortname="Leoni D." checkname="D.,LEONI" uni="34" gp="1" code="34">
+   <rush att="4" yds="18" gain="18" loss="0" td="0" long="9"></rush>
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Vuolo D." shortname="Vuolo D." checkname="D.,VUOLO" uni="92" gp="1" code="92">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Lardera L." shortname="Lardera L." checkname="L.,LARDERA" uni="97" gp="1" code="97">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Tantillo S." shortname="Tantillo S." checkname="S.,TANTILLO" uni="99" gp="1" code="99"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense fr="1" fryds="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="FRG" name="Frogs Legnano" record="1-3" conf-record="1-3" abb="F">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="3" rush="1" pass="1" penalty="1"></firstdowns>
+   <penalties no="1" yds="5"></penalties>
+   <conversions thirdconv="1" thirdatt="9" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="23:34" ona="0" onm="0"></misc>
+   <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="11" yds="5" gain="34" loss="29" td="0" long="22"></rush>
+   <pass comp="5" att="19" int="3" yds="27" td="0" long="19" sacks="0" sackyds="0"></pass>
+   <rcv no="5" yds="27" td="0" long="19"></rcv>
+   <punt no="6" yds="198" long="54" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+   <ko no="1" yds="48" ob="0" tb="0"></ko>
+   <defense tackua="21" tacka="20" tflua="4" tfla="6" tflyds="21" sacks="0" sackyds="0"></defense>
+   <kr no="7" yds="82" td="0" long="18"></kr>
+   <pr no="3" yds="19" td="0" long="14"></pr>
+  </totals>
+  <player name="Salcone S." shortname="Salcone S." checkname="S.,SALCONE" uni="16" gp="1" code="16">
+   <rcv no="2" yds="24" td="0" long="19"></rcv>
+  </player>
+  <player name="Colombo D." shortname="Colombo D." checkname="D.,COLOMBO" uni="15" gp="1" code="15">
+   <rcv no="2" yds="4" td="0" long="4"></rcv>
+   <kr no="3" yds="30" td="0" long="18"></kr>
+  </player>
+  <player name="Furghieri M." shortname="Furghieri M." checkname="M.,FURGHIERI" uni="84" gp="1" code="84">
+   <rush att="7" yds="21" gain="30" loss="9" td="0" long="22"></rush>
+   <rcv no="1" yds="-1" td="0" long="0"></rcv>
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Delaria A." shortname="Delaria A." checkname="A.,DELARIA" uni="4" gp="1" code="4">
+   <rush att="1" yds="-18" gain="0" loss="18" td="0" long="0"></rush>
+   <pass comp="1" att="4" int="0" yds="4" td="0" long="4" sacks="0" sackyds="0"></pass>
+   <punt no="6" yds="198" long="54" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+  </player>
+  <player name="Cecchetto E." shortname="Cecchetto E." checkname="E.,CECCHETTO" uni="1" gp="1" code="1"></player>
+  <player name="De Bernardi E." shortname="De Bernardi E." checkname="BERNARDI E.,DE" uni="8" gp="1" code="8">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="4"></defense>
+  </player>
+  <player name="Bistoletti F." shortname="Bistoletti F." checkname="F.,BISTOLETTI" uni="9" gp="1" code="9">
+   <defense tackua="4" tacka="3" tflua="0" tfla="2" tflyds="0"></defense>
+  </player>
+  <player name="Gerosa N." shortname="Gerosa N." checkname="N.,GEROSA" uni="10" gp="1" code="10">
+  </player>
+  <player name="Grasso P." shortname="Grasso P." checkname="P.,GRASSO" uni="13" gp="1" code="13">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Hernandez Gu R." shortname="Hernandez Gu R." checkname="GU R.,HERNANDEZ" uni="14" gp="1" code="14"></player>
+  <player name="Vincenti G." shortname="Vincenti G." checkname="G.,VINCENTI" uni="7" gp="1" code="7">
+   <rush att="2" yds="0" gain="2" loss="2" td="0" long="2"></rush>
+   <pass comp="4" att="15" int="3" yds="23" td="0" long="19" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="Borsari L." shortname="Borsari L." checkname="L.,BORSARI" uni="18" gp="1" code="18">
+   <rush att="1" yds="2" gain="2" loss="0" td="0" long="2"></rush>
+  </player>
+  <player name="Buran M." shortname="Buran M." checkname="M.,BURAN" uni="17" gp="1" code="17">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Gianera A." shortname="Gianera A." checkname="A.,GIANERA" uni="2" gp="1" code="2">
+   <defense tackua="2" tacka="2"></defense>
+   <pr no="1" yds="2" td="0" long="2"></pr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Cilento Dav." shortname="Cilento Dav." checkname="DAV.,CILENTO" uni="20" gp="1" code="20">
+   <pr no="1" yds="14" td="0" long="14"></pr>
+  </player>
+  <player name="Dillon Salaz J." shortname="Dillon Salaz J." checkname="SALAZ J.,DILLON" uni="21" gp="1" code="21"></player>
+  <player name="Palazzi F." shortname="Palazzi F." checkname="F.,PALAZZI" uni="23" gp="1" code="23"></player>
+  <player name="Ventrici I." shortname="Ventrici I." checkname="I.,VENTRICI" uni="24" gp="1" code="24"></player>
+  <player name="Merighi F." shortname="Merighi F." checkname="F.,MERIGHI" uni="29" gp="1" code="29">
+   <defense tackua="3" tacka="1"></defense>
+   <kr no="2" yds="24" td="0" long="16"></kr>
+  </player>
+  <player name="Di Mari A." shortname="Di Mari A." checkname="MARI A.,DI" uni="31" gp="1" code="31">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Caletti A." shortname="Caletti A." checkname="A.,CALETTI" uni="34" gp="1" code="34"></player>
+  <player name="Borsani A." shortname="Borsani A." checkname="A.,BORSANI" uni="38" gp="1" code="38"></player>
+  <player name="Gangale G." shortname="Gangale G." checkname="G.,GANGALE" uni="45" gp="1" code="45"></player>
+  <player name="Sarcevic M." shortname="Sarcevic M." checkname="M.,SARCEVIC" uni="50" gp="1" code="50"></player>
+  <player name="Rusconi M." shortname="Rusconi M." checkname="M.,RUSCONI" uni="51" gp="1" code="51"></player>
+  <player name="Colescia S." shortname="Colescia S." checkname="S.,COLESCIA" uni="55" gp="1" code="55">
+   <defense tackua="2" tacka="2"></defense>
+  </player>
+  <player name="Selvagio F." shortname="Selvagio F." checkname="F.,SELVAGIO" uni="56" gp="1" code="56"></player>
+  <player name="Menghini E." shortname="Menghini E." checkname="E.,MENGHINI" uni="59" gp="1" code="59">
+   <defense tackua="1" tacka="2"></defense>
+  </player>
+  <player name="Pegoraro M." shortname="Pegoraro M." checkname="M.,PEGORARO" uni="62" gp="1" code="62"></player>
+  <player name="Azzimonti A." shortname="Azzimonti A." checkname="A.,AZZIMONTI" uni="65" gp="1" code="65"></player>
+  <player name="Zuddas O." shortname="Zuddas O." checkname="O.,ZUDDAS" uni="68" gp="1" code="68"></player>
+  <player name="Valente A." shortname="Valente A." checkname="A.,VALENTE" uni="69" gp="1" code="69"></player>
+  <player name="Della Foglia G." shortname="Della Foglia G." checkname="FOGLIA G.,DELLA" uni="77" gp="1" code="77"></player>
+  <player name="Suzzarellu A." shortname="Suzzarellu A." checkname="A.,SUZZARELLU" uni="78" gp="1" code="78"></player>
+  <player name="Greco Ina T." shortname="Greco Ina T." checkname="INA T.,GRECO" uni="80" gp="1" code="80"></player>
+  <player name="Tamburrino F." shortname="Tamburrino F." checkname="F.,TAMBURRINO" uni="81" gp="1" code="81">
+   <defense tackua="2" tacka="3" tflua="2" tfla="2" tflyds="13"></defense>
+  </player>
+  <player name="Cilento Dan." shortname="Cilento Dan." checkname="DAN.,CILENTO" uni="5" gp="1" code="5">
+   <defense tackua="2" tacka="2" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Di Biase A." shortname="Di Biase A." checkname="BIASE A.,DI" uni="85" gp="1" code="85"></player>
+  <player name="Verderio G." shortname="Verderio G." checkname="G.,VERDERIO" uni="86" gp="1" code="86">
+   <defense tackua="0" tacka="2"></defense>
+   <kr no="2" yds="28" td="0" long="17"></kr>
+   <pr no="1" yds="3" td="0" long="3"></pr>
+  </player>
+  <player name="Antonini E." shortname="Antonini E." checkname="E.,ANTONINI" uni="87" gp="1" code="87">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Scrudato R." shortname="Scrudato R." checkname="R.,SCRUDATO" uni="88" gp="1" code="88">
+   <ko no="1" yds="48" ob="0" tb="0"></ko>
+  </player>
+  <player name="Costanzo N." shortname="Costanzo N." checkname="N.,COSTANZO" uni="89" gp="1" code="89"></player>
+  <player name="Pesenti F." shortname="Pesenti F." checkname="F.,PESENTI" uni="91" gp="1" code="91">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="SKO" qtr="1" clock="04:12" type="TD" how="PASS" yds="15" scorer="Mozzanica M." passer="Crosta R." patby="Girardi A." pattype="KICK" patres="GOOD" plays="11" drive="40" top="5:52" vscore="7" hscore="0" driveindex="2"></score>
+  <score vh="V" team="SKO" qtr="1" clock="00:50" type="TD" how="PASS" yds="70" scorer="Mozzanica M." passer="Crosta R." patby="Girardi A." pattype="KICK" patres="GOOD" plays="1" drive="70" top="0:16" vscore="14" hscore="0" driveindex="4"></score>
+  <score vh="V" team="SKO" qtr="2" clock="09:08" type="TD" how="PASS" yds="10" scorer="Mozzanica M." passer="Crosta R." patby="Girardi A." pattype="KICK" patres="GOOD" plays="5" drive="55" top="2:52" vscore="21" hscore="0" driveindex="6"></score>
+  <score vh="V" team="SKO" qtr="2" clock="01:20" type="TD" how="PASS" yds="25" scorer="Mozzanica M." passer="Crosta R." patby="Girardi A." pattype="KICK" patres="GOOD" plays="3" drive="27" top="0:40" vscore="28" hscore="0" driveindex="12"></score>
+  <score vh="V" team="SKO" qtr="2" clock="00:36" type="TD" how="INT" yds="24" scorer="Digennaro F." patby="Girardi A." pattype="KICK" patres="GOOD" vscore="35" hscore="0" driveindex="14"></score>
+  <score vh="V" team="SKO" qtr="3" clock="09:06" type="TD" how="PASS" yds="28" scorer="Zanovello R." passer="Crosta R." patby="Girardi A." pattype="KICK" patres="GOOD" plays="4" drive="55" top="2:54" vscore="42" hscore="0" driveindex="17"></score>
+ </scores>
+ <drives>
+  <drive vh="H" team="FRG" start="KO,1,12:00,21" end="PUNT,1,10:04,17" plays="3" yards="-4" top="1:56" driveindex="1"></drive>
+  <drive vh="V" team="SKO" start="PUNT,1,10:04,50" end="TD,1,04:12,90" plays="11" yards="40" top="5:52" rz="1" driveindex="2"></drive>
+  <drive vh="H" team="FRG" start="KO,1,04:12,21" end="PUNT,1,01:06,40" plays="6" yards="19" top="3:06" driveindex="3"></drive>
+  <drive vh="V" team="SKO" start="PUNT,1,01:06,20" end="TD,1,00:50,90" plays="1" yards="70" top="0:16" driveindex="4"></drive>
+  <drive vh="H" team="FRG" start="KO,1,00:50,12" end="POSS,1,00:00,40" plays="3" yards="28" top="0:50" driveindex="5"></drive>
+  <drive vh="V" team="SKO" start="POSS,2,12:00,35" end="TD,2,09:08,90" plays="5" yards="55" top="2:52" rz="1" driveindex="6"></drive>
+  <drive vh="H" team="FRG" start="KO,2,09:08,17" end="PUNT,2,07:40,24" plays="3" yards="7" top="1:28" driveindex="7"></drive>
+  <drive vh="V" team="SKO" start="PUNT,2,07:40,41" end="PUNT,2,04:33,54" plays="5" yards="13" top="3:07" driveindex="8"></drive>
+  <drive vh="H" team="FRG" start="PUNT,2,04:33,17" end="INT,2,04:20,17" plays="1" yards="0" top="0:13" driveindex="9"></drive>
+  <drive vh="V" team="SKO" start="INT,2,04:20,53" end="PUNT,2,02:00,53" plays="3" yards="0" top="2:20" driveindex="10"></drive>
+  <drive vh="H" team="FRG" start="PUNT,2,00:00,27" end="FUMB,2,02:00,27" plays="0" yards="0" top="0:00" driveindex="11"></drive>
+  <drive vh="V" team="SKO" start="FUMB,2,02:00,63" end="TD,2,01:20,90" plays="3" yards="27" top="0:40" driveindex="12"></drive>
+  <drive vh="H" team="FRG" start="KO,2,01:08,18" end="INT,2,00:36,18" plays="3" yards="0" top="0:32" driveindex="13"></drive>
+  <drive vh="V" team="SKO" start="INT,2,00:36,87" end="TD,2,00:36,87" plays="0" yards="0" top="0:00" driveindex="14"></drive>
+  <drive vh="H" team="FRG" start="KO,2,00:27,24" end="INT,2,00:00,24" plays="1" yards="0" top="0:27" driveindex="15"></drive>
+  <drive vh="V" team="SKO" start="INT,2,00:00,60" end="HALF,2,00:00,60" plays="0" yards="0" top="0:00" driveindex="16"></drive>
+  <drive vh="V" team="SKO" start="KO,3,12:00,35" end="TD,3,09:06,90" plays="4" yards="55" top="2:54" driveindex="17"></drive>
+  <drive vh="H" team="FRG" start="KO,3,09:06,25" end="PUNT,3,04:16,50" plays="4" yards="25" top="4:50" driveindex="18"></drive>
+  <drive vh="V" team="SKO" start="PUNT,3,04:16,30" end="PUNT,3,02:21,28" plays="3" yards="-2" top="1:55" driveindex="19"></drive>
+  <drive vh="H" team="FRG" start="PUNT,3,02:21,34" end="PUNT,4,08:15,11" plays="3" yards="-23" top="6:06" driveindex="20"></drive>
+  <drive vh="V" team="SKO" start="PUNT,4,08:15,46" end="PUNT,4,06:20,51" plays="3" yards="5" top="1:55" driveindex="21"></drive>
+  <drive vh="H" team="FRG" start="PUNT,4,06:20,1" end="PUNT,4,02:35,5" plays="3" yards="4" top="3:45" driveindex="22"></drive>
+  <drive vh="V" team="SKO" start="PUNT,4,02:35,57" end="HALF,4,00:00,77" plays="4" yards="20" top="2:35" rz="1" driveindex="23"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0"
+      text="SKORPIONS WIN THE COIN TOSS, DEFER TO SECOND HALF"></play>
+   <play context="V,1,10,V30" playid="0,2,1"
+      text="SKO ball on SKO30."></play>
+   <play context="V,1,10,V30" playid="0,3,2" type="K"
+      text="Tenerini C. kickoff 50 yards to the FRG10, Verderio G. return 11 yards to the FRG21 (Digennaro F.;Camagni S.)."></play>
+   <drivestart poss="H,H21,12:00" vh="H" spot="H21" clock="12:00" driveindex="1,2"></drivestart>
+   <play context="H,1,10,H21" playid="1,1,3" type="R"
+      text="Furghieri M. rush for loss of 3 yards to the FRG18 (Fiore S.;Camagni S.)."></play>
+   <play context="H,2,13,H18" playid="1,2,4" type="R"
+      text="Furghieri M. rush for loss of 1 yard to the FRG17 (Digennaro F.;Pedotti T.)."></play>
+   <play context="H,3,14,H17" playid="1,3,5" type="P"
+      text="Vincenti G. pass incomplete to Gerosa N., dropped pass."></play>
+   <play context="H,4,14,H17" playid="1,4,6" type="U"
+      text="Delaria A. punt 23 yards to the FRG40."></play>
+   <drivesum plays="3" yards="-4" top="1:56" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,H40,12:00" vh="V" spot="H40" clock="12:00" driveindex="2,6"></drivestart>
+   <play context="V,1,10,H40" playid="2,1,7" clock="10:04"
+      text="SKORPIONS VARESE drive start at 10:04."></play>
+   <play context="V,1,10,H40" playid="2,2,8" type="R"
+      text="Auriemma D. rush for 1 yard to the FRG39 (Gianera A.)."></play>
+   <play context="V,2,9,H39" playid="2,3,9" type="R"
+      text="Auriemma D. rush for 1 yard to the FRG38 (Verderio G.;Gianera A.)."></play>
+   <play context="V,3,8,H38" playid="2,4,10" type="R"
+      text="Auriemma D. rush for 2 yards to the FRG36 (Merighi F.;Verderio G.)."></play>
+   <play context="V,4,6,H36" playid="2,5,11" type="P" first="P"
+      text="Crosta R. pass complete to Mozzanica M. for 13 yards to the FRG23, 1ST DOWN SKO (Grasso P.)."></play>
+   <play context="V,1,10,H23" playid="2,6,12" type="P"
+      text="Crosta R. pass incomplete to Auriemma D.."></play>
+   <play context="V,2,10,H23" playid="2,7,13" type="P"
+      text="Crosta R. pass complete to Zanovello R. for 4 yards to the FRG19."></play>
+   <play context="V,3,6,H19" playid="2,8,14" type="R"
+      text="Auriemma D. rush for 1 yard to the FRG18 (Menghini E.)."></play>
+   <play context="V,4,5,H18" playid="2,9,15" type="R" first="R"
+      text="Crosta R. rush for 6 yards to the FRG12, 1ST DOWN SKO (Gianera A.)."></play>
+   <play context="V,1,10,H12" playid="2,10,16" type="R"
+      text="Auriemma D. rush for loss of 8 yards to the FRG20 (Tamburrino F.;De Bernardi E.)."></play>
+   <play context="V,2,18,H20" playid="2,11,17" type="P"
+      text="Crosta R. pass complete to Franchi L. for 5 yards to the FRG15 (Merighi F.)."></play>
+   <play context="V,3,13,H15" playid="2,12,18" type="P" first="P" score="Y" clock="04:12"
+      text="Crosta R. pass complete to Mozzanica M. for 15 yards to the FRG0, 1ST DOWN SKO, TOUCHDOWN, clock 04:12."></play>
+   <play context="V,1,0,H03" playid="2,13,19" type="X" score="Y"
+      text="Girardi A. kick attempt good."></play>
+   <score V="7" H="0"></score>
+   <drivesum plays="11" yards="40" top="5:52" driveindex="2" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="2,14,20" type="K"
+      text="Tenerini C. kickoff 57 yards to the FRG3, Colombo D. return 18 yards to the FRG21 (Montalbetti S.;Digennaro F.)."></play>
+   <drivestart poss="H,H21,04:12" vh="H" spot="H21" clock="04:12" driveindex="3,20"></drivestart>
+   <play context="H,1,10,H21" playid="3,1,21" clock="04:12"
+      text="FROGS LEGNANO drive start at 04:12."></play>
+   <play context="H,1,10,H21" playid="3,2,22" type="R"
+      text="Vincenti G. rush for loss of 2 yards to the FRG19 (Chiolerio P.)."></play>
+   <play context="H,2,12,H19" playid="3,3,23" type="P"
+      text="Vincenti G. pass complete to Colombo D. for no gain to the FRG19 (Principi N.)."></play>
+   <play context="H,3,12,H19" playid="3,4,24" type="P" first="P"
+      text="Vincenti G. pass complete to Salcone S. for 19 yards to the FRG38, 1ST DOWN FRG (Bulgheroni S.)."></play>
+   <play context="H,1,10,H38" playid="3,5,25" type="P"
+      text="Vincenti G. pass incomplete to Greco Ina T.."></play>
+   <play context="H,2,10,H38" playid="3,6,26" type="R"
+      text="Vincenti G. rush for 2 yards to the FRG40."></play>
+   <play context="H,3,8,H40" playid="3,7,27" type="P"
+      text="Vincenti G. pass incomplete to Salcone S.."></play>
+   <play context="H,4,8,H40" playid="3,8,28" type="U"
+      text="Delaria A. punt 30 yards to the SKO20, out-of-bounds."></play>
+   <drivesum plays="6" yards="19" top="3:06" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="V,V20,04:12" vh="V" spot="V20" clock="04:12" driveindex="4,28"></drivestart>
+   <play context="V,1,10,V20" playid="4,1,29" clock="01:06"
+      text="SKORPIONS VARESE drive start at 01:06."></play>
+   <play context="V,1,10,V20" playid="4,2,30" type="P" first="P" score="Y" clock="00:50"
+      text="Crosta R. pass complete to Mozzanica M. for 70 yards to the FRG0, 1ST DOWN SKO, TOUCHDOWN, clock 00:50."></play>
+   <play context="V,1,0,H03" playid="4,3,31" type="X" score="Y"
+      text="Girardi A. kick attempt good."></play>
+   <score V="14" H="0"></score>
+   <play context="V,1,0,V30" playid="4,4,32" type="E"
+      text="Tenerini C. kickoff 40 yards to the FRG20, out-of-bounds, PENALTY SKO illegal kicking 5 yards to the SKO25, NO PLAY."></play>
+   <drivesum plays="1" yards="70" top="0:16" driveindex="4" complete="Y"></drivesum>
+   <play context="V,1,0,V25" playid="4,5,33" type="K"
+      text="Tenerini C. kickoff 57 yards to the FRG8, Colombo D. return 4 yards to the FRG12 (Leoni D.;Franchi L.)."></play>
+   <drivestart poss="H,H12,00:50" vh="H" spot="H12" clock="00:50" driveindex="5,33"></drivestart>
+   <play context="H,1,10,H12" playid="5,1,34" clock="00:50"
+      text="FROGS LEGNANO drive start at 00:50."></play>
+   <play context="H,1,10,H12" playid="5,2,35" type="P"
+      text="Vincenti G. pass incomplete to Salcone S. (Digennaro F.)."></play>
+   <play context="H,2,10,H12" playid="5,3,36" type="P"
+      text="Vincenti G. pass incomplete to Cecchetto E.."></play>
+   <play context="H,3,10,H12" playid="5,4,37" type="P"
+      text="Vincenti G. pass complete to Furghieri M. for loss of 1 yard to the FRG11 (Zanon F.)."></play>
+   <play context="H,4,11,H11" playid="5,5,38" type="E" first="E" clock="00:00"
+      text="Delaria A. punt 41 yards to the SKO38, Zanovello R. return to the FRG0, clock 00:00, PENALTY SKO personal foul (Dominioni P.) 29 yards to the FRG40, 1ST DOWN FRG, NO PLAY."></play>
+   <play context="H,1,10,H40" playid="5,6,39"
+      text="Change of possession, SKO ball on SKO35, 1st and 10."></play>
+   <drivesum plays="3" yards="28" top="0:50" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V35,00:00" vh="V" spot="V35" clock="00:00" driveindex="6,39"></drivestart>
+   <score qtr="1" V="14" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="SKO">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="2" yds="34"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="2" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:08"></misc>
+    <rush att="6" yds="3" gain="11" loss="8" td="0" long="6"></rush>
+    <pass comp="5" att="6" int="0" yds="107" td="2" long="70" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="107" td="2" long="70"></rcv>
+    <ko no="3" yds="164" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="4" tacka="10" tflua="6" tfla="0" tflyds="11" sacks="0" sackyds="0" brup="1"></defense>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FRG">
+    <firstdowns no="2" rush="0" pass="1" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:52"></misc>
+    <rush att="4" yds="-4" gain="2" loss="6" td="0" long="2"></rush>
+    <pass comp="3" att="8" int="0" yds="18" td="0" long="19" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="18" td="0" long="19"></rcv>
+    <punt no="2" yds="53" long="30" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="5" tacka="6" tflua="2" tfla="0" tflyds="16" sacks="0" sackyds="0"></defense>
+    <kr no="3" yds="33" td="0" long="18"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,1,10,V35" playid="6,1,40" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="V,1,10,V35" playid="6,2,41" type="R" first="R"
+      text="Auriemma D. rush for 11 yards to the FRG44, 1ST DOWN SKO (Merighi F.)."></play>
+   <play context="V,1,10,H44" playid="6,3,42" type="P" first="P"
+      text="Crosta R. pass complete to Zanovello R. for 31 yards to the FRG13, 1ST DOWN SKO, out-of-bounds."></play>
+   <play context="V,1,10,H13" playid="6,4,43" type="R"
+      text="Auriemma D. rush for 5 yards to the FRG8 (Bistoletti F.)."></play>
+   <play context="V,2,5,H08" playid="6,5,44" type="R"
+      text="Auriemma D. rush for loss of 2 yards to the FRG10 (Antonini E.)."></play>
+   <play context="V,3,7,H10" playid="6,6,45" type="P" first="P" score="Y" clock="09:08"
+      text="Crosta R. pass complete to Mozzanica M. for 10 yards to the FRG0, 1ST DOWN SKO, TOUCHDOWN, clock 09:08."></play>
+   <play context="V,1,0,H03" playid="6,7,46" type="X" score="Y"
+      text="Girardi A. kick attempt good."></play>
+   <score V="21" H="0"></score>
+   <drivesum plays="5" yards="55" top="2:52" driveindex="6" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="6,8,47" type="K"
+      text="Tenerini C. kickoff 51 yards to the FRG9, Colombo D. return 8 yards to the FRG17 (Digennaro F.;Montalbetti S.)."></play>
+   <drivestart poss="H,H17,09:08" vh="H" spot="H17" clock="09:08" driveindex="7,47"></drivestart>
+   <play context="H,1,10,H17" playid="7,1,48" clock="09:08"
+      text="FROGS LEGNANO drive start at 09:08."></play>
+   <play context="H,1,10,H17" playid="7,2,49" type="P"
+      text="Vincenti G. pass complete to Salcone S. for 5 yards to the FRG22 (Mora A.;Camagni S.)."></play>
+   <play context="H,2,5,H22" playid="7,3,50" type="R"
+      text="Borsari L. rush for 2 yards to the FRG24 (Tenerini C.;Vuolo D.)."></play>
+   <play context="H,3,3,H24" playid="7,4,51" type="P"
+      text="Vincenti G. pass incomplete to Greco Ina T. (Tenerini C.)."></play>
+   <play context="H,4,3,H24" playid="7,5,52" type="U"
+      text="Delaria A. punt 36 yards to the SKO30, Zanovello R. return 11 yards to the SKO41, out-of-bounds."></play>
+   <drivesum plays="3" yards="7" top="1:28" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,V41,09:08" vh="V" spot="V41" clock="09:08" driveindex="8,52"></drivestart>
+   <play context="V,1,10,V41" playid="8,1,53" clock="07:40"
+      text="SKORPIONS VARESE drive start at 07:40."></play>
+   <play context="V,1,10,V41" playid="8,2,54" type="R"
+      text="Zanovello R. rush for 4 yards to the 45 yardline, out-of-bounds."></play>
+   <play context="V,2,6,V45" playid="8,3,55" type="R" first="R"
+      text="Brovelli A. rush for 14 yards to the FRG31, 1ST DOWN SKO (Colescia S.)."></play>
+   <play context="V,1,10,H31" playid="8,4,56" type="R"
+      text="Crosta R. rush for loss of 7 yards to the FRG38."></play>
+   <play context="V,2,17,H38" playid="8,5,57" type="P"
+      text="Crosta R. pass complete to Della Bosca E. for 2 yards to the FRG36 (Bistoletti F.)."></play>
+   <play context="V,3,15,H36" playid="8,6,58" type="P"
+      text="Crosta R. pass incomplete to Mozzanica M.."></play>
+   <play context="V,4,15,H36" playid="8,7,59" type="U"
+      text="Mozzanica M. punt 22 yards to the FRG14, Verderio G. return 3 yards to the FRG17 (Digennaro F.)."></play>
+   <drivesum plays="5" yards="13" top="3:07" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="H,H17,07:40" vh="H" spot="H17" clock="07:40" driveindex="9,59"></drivestart>
+   <play context="H,1,10,H17" playid="9,1,60" clock="04:33"
+      text="FROGS LEGNANO drive start at 04:33."></play>
+   <play context="H,1,10,H17" playid="9,2,61" type="P" turnover="I"
+      text="Vincenti G. pass intercepted by Mora A. at the FRG37, Mora A. return 0 yards to the FRG37."></play>
+   <drivesum plays="1" yards="0" top="0:13" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="V,H37,04:33" vh="V" spot="H37" clock="04:33" driveindex="10,61"></drivestart>
+   <play context="V,1,10,H37" playid="10,1,62" clock="04:20"
+      text="SKORPIONS VARESE drive start at 04:20."></play>
+   <play context="V,1,10,H37" playid="10,2,63" type="R"
+      text="Zanovello R. rush for loss of 7 yards to the FRG44 (Tamburrino F.)."></play>
+   <play context="V,2,17,H44" playid="10,3,64" type="R"
+      text="Leoni D. rush for 4 yards to the FRG40 (Tamburrino F.;Menghini E.)."></play>
+   <play context="V,3,13,H40" playid="10,4,65" type="R"
+      text="Leoni D. rush for 3 yards to the FRG37 (Menghini E.;Colescia S.)."></play>
+   <play context="V,4,10,H37" playid="10,5,66" type="U" turnover="F"
+      text="Mozzanica M. punt 12 yards to the FRG25, Gianera A. return 2 yards to the FRG27, fumble by Gianera A. recovered by SKO TEAM at FRG27."></play>
+   <drivesum plays="3" yards="0" top="2:20" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,H27,04:20" vh="V" spot="H27" clock="04:20" driveindex="12,66"></drivestart>
+   <play context="V,1,10,H27" playid="12,1,67" clock="02:00"
+      text="SKORPIONS VARESE drive start at 02:00."></play>
+   <play context="V,1,10,H27" playid="12,2,68" type="E"
+      text="Leoni D. rush for no gain to the FRG27 (Delaria A.), PENALTY SKO personal foul (Quadri G.) 10 yards to the FRG37, NO PLAY."></play>
+   <play context="V,1,20,H37" playid="12,3,69" type="P"
+      text="Crosta R. pass complete to Mozzanica M. for 13 yards to the FRG24 (Di Mari A.)."></play>
+   <play context="V,2,7,H24" playid="12,4,70" type="R"
+      text="Crosta R. rush for loss of 1 yard to the FRG25 (Tamburrino F.;Bistoletti F.)."></play>
+   <play context="V,3,8,H25" playid="12,5,71" type="P" first="P" score="Y" clock="01:20"
+      text="Crosta R. pass complete to Mozzanica M. for 25 yards to the FRG0, 1ST DOWN SKO, TOUCHDOWN, clock 01:20."></play>
+   <play context="V,1,0,H03" playid="12,6,72" type="X" score="Y"
+      text="Girardi A. kick attempt good."></play>
+   <score V="28" H="0"></score>
+   <drivesum plays="3" yards="27" top="0:40" driveindex="12" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="12,7,73" type="K"
+      text="Tenerini C. kickoff 50 yards to the FRG10, Merighi F. return 8 yards to the FRG18 (Camagni S.)."></play>
+   <drivestart poss="H,H18,01:20" vh="H" spot="H18" clock="01:20" driveindex="13,73"></drivestart>
+   <play context="H,1,10,H18" playid="13,1,74" clock="01:08"
+      text="FROGS LEGNANO drive start at 01:08."></play>
+   <play context="H,1,10,H18" playid="13,2,75" type="P"
+      text="Vincenti G. pass incomplete to Colombo D.."></play>
+   <play context="H,2,10,H18" playid="13,3,76" type="P"
+      text="Vincenti G. pass incomplete to Greco Ina T.."></play>
+   <play context="H,3,10,H18" playid="13,4,77" type="P" score="Y" turnover="I"
+      text="Vincenti G. pass intercepted by Digennaro F. at the FRG24, Digennaro F. return 24 yards to the FRG0, TOUCHDOWN."></play>
+   <drivesum plays="3" yards="0" top="0:32" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="V,H03,01:08" vh="V" spot="H03" clock="01:08" driveindex="14,77"></drivestart>
+   <play context="V,1,0,H03" playid="14,1,78" clock="00:36"
+      text="SKORPIONS VARESE drive start at 00:36, SKO ball on FRG3."></play>
+   <play context="V,1,0,H03" playid="14,2,79" type="X" score="Y"
+      text="Girardi A. kick attempt good."></play>
+   <score V="35" H="0"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="14" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="14,3,80" type="K"
+      text="Tenerini C. kickoff 52 yards to the FRG8, Merighi F. return 16 yards to the FRG24 (Della Bosca E.;Zanon F.)."></play>
+   <drivestart poss="H,H24,00:36" vh="H" spot="H24" clock="00:36" driveindex="15,80"></drivestart>
+   <play context="H,1,10,H24" playid="15,1,81" clock="00:27"
+      text="FROGS LEGNANO drive start at 00:27."></play>
+   <play context="H,1,10,H24" playid="15,2,82" type="P" turnover="I"
+      text="Vincenti G. pass intercepted by Bulgheroni S. at the FRG30, Bulgheroni S. return 0 yards to the FRG30."></play>
+   <drivesum plays="1" yards="0" top="0:27" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,H30,00:27" vh="V" spot="H30" clock="00:27" driveindex="16,82"></drivestart>
+   <play context="V,1,10,H30" playid="16,1,83" clock="00:00"
+      text="SKORPIONS VARESE drive start at 00:00."></play>
+   <play context="V,1,10,H30" playid="16,2,84" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="16" complete="Y"></drivesum>
+   <score qtr="2" V="35" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="SKO">
+    <firstdowns no="5" rush="2" pass="3" penalty="0"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:59"></misc>
+    <rush att="10" yds="24" gain="41" loss="17" td="0" long="8"></rush>
+    <pass comp="5" att="6" int="0" yds="81" td="2" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="81" td="2" long="0"></rcv>
+    <punt no="2" yds="34" long="22" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <ko no="3" yds="153" ob="0" tb="0"></ko>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="2" tacka="8" sacks="0" sackyds="0" brup="1" fr="1" fryds="0" int="3" intyds="24"></defense>
+    <pr no="1" yds="11" td="0" long="11"></pr>
+    <ir no="3" yds="24" td="1" long="24"></ir>
+    <scoring td="3" patkick="3"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FRG">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="03:01"></misc>
+    <rush att="1" yds="2" gain="2" loss="0" td="0" long="0"></rush>
+    <pass comp="1" att="7" int="3" yds="5" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="5" td="0" long="0"></rcv>
+    <punt no="1" yds="36" long="6" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="7" tacka="6" tflua="4" tfla="0" tflyds="11" sacks="0" sackyds="0"></defense>
+    <kr no="3" yds="32" td="0" long="0"></kr>
+    <pr no="2" yds="5" td="0" long="3"></pr>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,1,10,H30" playid="16,3,85" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, FRG ball on FRG30."></play>
+   <play context="H,1,10,H30" playid="16,4,86" type="K"
+      text="Scrudato R. kickoff 48 yards to the SKO12, Zanovello R. return 23 yards to the SKO35 (Furghieri M.;Gianera A.)."></play>
+   <drivestart poss="V,V35,12:00" vh="V" spot="V35" clock="12:00" driveindex="17,86"></drivestart>
+   <play context="V,1,10,V35" playid="17,1,87" clock="12:00"
+      text="SKORPIONS VARESE drive start at 12:00."></play>
+   <play context="V,1,10,V35" playid="17,2,88" type="P" first="P"
+      text="Crosta R. pass complete to Franchi L. for 14 yards to the FRG41, 1ST DOWN SKO (Merighi F.)."></play>
+   <play context="V,1,10,H41" playid="17,3,89" type="R"
+      text="Auriemma D. rush for 6 yards to the FRG35 (Bistoletti F.)."></play>
+   <play context="V,2,4,H35" playid="17,4,90" type="R" first="R"
+      text="Crosta R. rush for 7 yards to the FRG28, 1ST DOWN SKO (Colescia S.)."></play>
+   <play context="V,1,10,H28" playid="17,5,91" type="P" first="P" score="Y" clock="09:06"
+      text="Crosta R. pass complete to Zanovello R. for 28 yards to the FRG0, 1ST DOWN SKO, TOUCHDOWN, clock 09:06."></play>
+   <play context="V,1,0,H03" playid="17,6,92" type="X" score="Y"
+      text="Girardi A. kick attempt good."></play>
+   <score V="42" H="0"></score>
+   <play context="V,1,0,V30" playid="17,7,93" type="E"
+      text="Tenerini C. kickoff 40 yards to the FRG20, out-of-bounds, PENALTY SKO illegal kicking (Tenerini C.) 5 yards to the SKO25, NO PLAY."></play>
+   <drivesum plays="4" yards="55" top="2:54" driveindex="17" complete="Y"></drivesum>
+   <play context="V,1,0,V25" playid="17,8,94" type="K"
+      text="Tenerini C. kickoff 57 yards to the FRG8, Verderio G. return 17 yards to the FRG25 (Zanon F.)."></play>
+   <drivestart poss="H,H25,09:06" vh="H" spot="H25" clock="09:06" driveindex="18,94"></drivestart>
+   <play context="H,1,10,H25" playid="18,1,95" clock="09:06"
+      text="FROGS LEGNANO drive start at 09:06."></play>
+   <play context="H,1,10,H25" playid="18,2,96" type="R" first="R"
+      text="Furghieri M. rush for 22 yards to the SKO43, 1ST DOWN FRG (Poste' A.)."></play>
+   <play context="H,1,10,V43" playid="18,3,97" type="P"
+      text="Delaria A. pass incomplete to Gianera A.."></play>
+   <play context="H,2,10,V43" playid="18,4,98" type="R"
+      text="Furghieri M. rush for loss of 1 yard to the SKO44 (Lardera L.)."></play>
+   <play context="H,3,11,V44" playid="18,5,99" type="P"
+      text="Delaria A. pass complete to Colombo D. for 4 yards to the SKO40 (Principi N.)."></play>
+   <play context="H,4,7,V40" playid="18,6,100" type="#" clock="04:16"
+      text="Timeout Frogs Legnano, clock 04:16."></play>
+   <play context="H,4,7,V40" playid="18,7,101" type="U"
+      text="Delaria A. punt 10 yards to the SKO30, out-of-bounds."></play>
+   <drivesum plays="4" yards="25" top="4:50" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="V,V30,04:16" vh="V" spot="V30" clock="04:16" driveindex="19,101"></drivestart>
+   <play context="V,1,10,V30" playid="19,1,102" clock="04:16"
+      text="SKORPIONS VARESE drive start at 04:16."></play>
+   <play context="V,1,10,V30" playid="19,2,103" type="R"
+      text="Della Bosca E. rush for loss of 1 yard to the SKO29 (Tamburrino F.)."></play>
+   <play context="V,2,11,V29" playid="19,3,104" type="R"
+      text="Della Bosca E. rush for loss of 1 yard to the SKO28 (Buran M.)."></play>
+   <play context="V,3,12,V28" playid="19,4,105" type="P"
+      text="Micheli G. pass incomplete to Mozzanica M.."></play>
+   <play context="V,4,12,V28" playid="19,5,106" type="U"
+      text="Mozzanica M. punt 42 yards to the FRG20, Cilento Dav. return 14 yards to the FRG34, out-of-bounds."></play>
+   <drivesum plays="3" yards="-2" top="1:55" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,H34,04:16" vh="H" spot="H34" clock="04:16" driveindex="20,106"></drivestart>
+   <play context="H,1,10,H34" playid="20,1,107" clock="02:21"
+      text="FROGS LEGNANO drive start at 02:21."></play>
+   <play context="H,1,10,H34" playid="20,2,108" type="E"
+      text="PENALTY FRG false start (Pegoraro M.) 5 yards to the FRG29."></play>
+   <score qtr="3" V="42" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="SKO">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:49"></misc>
+    <rush att="4" yds="11" gain="13" loss="2" td="0" long="0"></rush>
+    <pass comp="2" att="3" int="0" yds="42" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="42" td="1" long="0"></rcv>
+    <punt no="1" yds="42" long="20" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="57" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="4" tacka="0" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="23" td="0" long="23"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FRG">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:11"></misc>
+    <rush att="2" yds="21" gain="22" loss="1" td="0" long="20"></rush>
+    <pass comp="1" att="2" int="0" yds="4" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="4" td="0" long="0"></rcv>
+    <punt no="1" yds="10" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="48" ob="0" tb="0"></ko>
+    <defense tackua="5" tacka="2" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="17" td="0" long="0"></kr>
+    <pr no="1" yds="14" td="0" long="11"></pr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="H,1,15,H29" playid="20,3,109" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="H,1,15,H29" playid="20,4,110" type="P"
+      text="Delaria A. pass incomplete to Greco Ina T.."></play>
+   <play context="H,2,15,H29" playid="20,5,111" type="R"
+      text="Furghieri M. rush for no gain to the FRG29 (Zanon F.)."></play>
+   <play context="H,3,15,H29" playid="20,6,112" type="R"
+      text="Delaria A. rush for loss of 18 yards to the FRG11."></play>
+   <play context="H,4,33,H11" playid="20,7,113" type="U"
+      text="Delaria A. punt 54 yards to the SKO25, Zanovello R. return 21 yards to the FRG44, out-of-bounds."></play>
+   <drivesum plays="3" yards="-23" top="6:06" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="V,H44,12:00" vh="V" spot="H44" clock="12:00" driveindex="21,113"></drivestart>
+   <play context="V,1,10,H44" playid="21,1,114" clock="08:15"
+      text="SKORPIONS VARESE drive start at 08:15."></play>
+   <play context="V,1,10,H44" playid="21,2,115" type="R"
+      text="Poste' A. rush for 4 yards to the FRG40 (Cilento Dan.)."></play>
+   <play context="V,2,6,H40" playid="21,3,116" type="R"
+      text="Poste' A. rush for 2 yards to the FRG38 (Pesenti F.)."></play>
+   <play context="V,3,4,H38" playid="21,4,117" type="R"
+      text="Poste' A. rush for loss of 1 yard to the FRG39 (Cilento Dan.;Bistoletti F.)."></play>
+   <play context="V,4,5,H39" playid="21,5,118" type="U"
+      text="Mozzanica M. punt 38 yards to the FRG1."></play>
+   <drivesum plays="3" yards="5" top="1:55" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="H,H01,08:15" vh="H" spot="H01" clock="08:15" driveindex="22,118"></drivestart>
+   <play context="H,1,10,H01" playid="22,1,119" clock="06:20"
+      text="FROGS LEGNANO drive start at 06:20."></play>
+   <play context="H,1,10,H01" playid="22,2,120" type="R"
+      text="Furghieri M. rush for 8 yards to the FRG9 (Principi N.;Perrucci N.)."></play>
+   <play context="H,2,2,H09" playid="22,3,121" type="R"
+      text="Furghieri M. rush for loss of 4 yards to the FRG5 (Zanon F.)."></play>
+   <play context="H,3,6,H05" playid="22,4,122" type="P"
+      text="Delaria A. pass incomplete to Cecchetto E.."></play>
+   <play context="H,4,6,H05" playid="22,5,123" type="U"
+      text="Delaria A. punt 45 yards to the SKO40, Zanovello R. return 17 yards to the FRG33, out-of-bounds."></play>
+   <drivesum plays="3" yards="4" top="3:45" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="V,H33,06:20" vh="V" spot="H33" clock="06:20" driveindex="23,123"></drivestart>
+   <play context="V,1,10,H33" playid="23,1,124" clock="02:35"
+      text="SKORPIONS VARESE drive start at 02:35."></play>
+   <play context="V,1,10,H33" playid="23,2,125" type="R"
+      text="Leoni D. rush for 2 yards to the FRG31 (Bistoletti F.)."></play>
+   <play context="V,2,8,H31" playid="23,3,126" type="R" first="R"
+      text="Leoni D. rush for 9 yards to the FRG22, 1ST DOWN SKO (Colescia S.;Grasso P.)."></play>
+   <play context="V,1,10,H22" playid="23,4,127" type="R"
+      text="Poste' A. rush for 3 yards to the FRG19 (Cilento Dan.;Bistoletti F.)."></play>
+   <play context="V,2,7,H19" playid="23,5,128" type="R"
+      text="Poste' A. rush for 6 yards to the FRG13 (Cilento Dan.)."></play>
+   <play context="V,3,1,H13" playid="23,6,129" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="4" yards="20" top="2:35" driveindex="23" complete="Y"></drivesum>
+   <score final="Y" V="42" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="SKO">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:30"></misc>
+    <rush att="7" yds="25" gain="26" loss="1" td="0" long="0"></rush>
+    <punt no="1" yds="38" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <defense tackua="2" tacka="2" tflua="1" tfla="0" tflyds="4" sacks="0" sackyds="0"></defense>
+    <pr no="2" yds="38" td="0" long="10"></pr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FRG">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:30"></misc>
+    <rush att="4" yds="-14" gain="8" loss="22" td="0" long="0"></rush>
+    <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="2" yds="99" long="18" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+    <defense tackua="4" tacka="6" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="V,3,1,H13" qtr="4" clock="00:00" vtoh="0" htoh="1"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="SKO">
+ </dnp>
+ <dnp vh="H" id="FRG">
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="V" id="SKO" yds="70" play="PASS" players="Crosta R. to Mozzanica M." td="Y"></longplay>
+ </longplays>
+</fbgame>

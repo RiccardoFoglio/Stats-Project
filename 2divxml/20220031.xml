@@ -1,0 +1,719 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220031" visid="SEN" homeid="SAI" visname="Sentinels Isonzo" homename="Saints Padova"
+      date="Dom 6 marzo" location="Padova" stadium="Stadio Plebiscito"
+      start="14:30" end="16:49" leaguegame="Y"
+      duration="2:19" attend="0" temp="13" wind="no wind" weather="sunny">
+  <officials sc="Stefani S."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="SEN" name="Sentinels Isonzo" record="0-1" conf-record="0-1" abb="I">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="11" rush="0" pass="6" penalty="5"></firstdowns>
+   <penalties no="4" yds="50"></penalties>
+   <conversions thirdconv="2" thirdatt="11" fourthconv="0" fourthatt="3"></conversions>
+   <fumbles no="2" lost="1"></fumbles>
+   <misc yds="0" top="22:44" ona="0" onm="0"></misc>
+   <redzone att="2" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="1" endhalf="0" endgame="0"></redzone>
+   <rush att="23" yds="27" gain="56" loss="29" td="0" long="7"></rush>
+   <pass comp="10" att="27" int="1" yds="113" td="0" long="24" sacks="3" sackyds="18"></pass>
+   <rcv no="10" yds="113" td="0" long="24"></rcv>
+   <punt no="4" yds="109" long="30" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="1" yds="41" ob="0" tb="0"></ko>
+   <defense tackua="35" tacka="4" tflua="5" tfla="0" tflyds="32" sacks="0" sackyds="0" blkd="1" ff="1" fr="1" fryds="3" int="2" intyds="6"></defense>
+   <kr no="3" yds="47" td="0" long="22"></kr>
+   <ir no="2" yds="6" td="0" long="6"></ir>
+   <fr no="1" yds="3" td="0" long="3"></fr>
+  </totals>
+  <player name="Agostinis M." shortname="Agostinis M." checkname="M.,AGOSTINIS" uni="7" gp="1" code="7">
+   <rcv no="4" yds="37" td="0" long="15"></rcv>
+   <defense int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Sustarsic M." shortname="Sustarsic M." checkname="M.,SUSTARSIC" uni="1" gp="1" code="1">
+   <rcv no="3" yds="49" td="0" long="24"></rcv>
+   <ko no="1" yds="41" ob="0" tb="0"></ko>
+  </player>
+  <player name="Alimonda De  A." shortname="Alimonda De  A." checkname="DE  A.,ALIMONDA" uni="28" gp="1" code="28">
+   <rush att="14" yds="42" gain="46" loss="4" td="0" long="7"></rush>
+   <rcv no="2" yds="23" td="0" long="19"></rcv>
+   <kr no="3" yds="47" td="0" long="22"></kr>
+  </player>
+  <player name="Brandolin F." shortname="Brandolin F." checkname="F.,BRANDOLIN" uni="80" gp="1" code="80">
+   <rcv no="1" yds="4" td="0" long="4"></rcv>
+  </player>
+  <player name="Kerstich L." shortname="Kerstich L." checkname="L.,KERSTICH" uni="10" gp="1" code="10"></player>
+  <player name="Furlani J." shortname="Furlani J." checkname="J.,FURLANI" uni="3" gp="1" code="3"></player>
+  <player name="Pitton S." shortname="Pitton S." checkname="S.,PITTON" uni="17" gp="1" code="17">
+   <defense tackua="9" tacka="1" tflua="2" tfla="0" tflyds="3" int="1" intyds="6"></defense>
+   <ir no="1" yds="6" td="0" long="6"></ir>
+  </player>
+  <player name="Forgiarini D." shortname="Forgiarini D." checkname="D.,FORGIARINI" uni="18" gp="1" code="18">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Pacorig M." shortname="Pacorig M." checkname="M.,PACORIG" uni="21" gp="1" code="21">
+   <punt no="4" yds="109" long="30" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <defense tackua="5" tacka="0" fr="1" fryds="3"></defense>
+   <fr no="1" yds="3" td="0" long="3"></fr>
+  </player>
+  <player name="Mascarin M." shortname="Mascarin M." checkname="M.,MASCARIN" uni="23" gp="1" code="23">
+   <defense tackua="5" tacka="1"></defense>
+  </player>
+  <player name="Bergamasco A." shortname="Bergamasco A." checkname="A.,BERGAMASCO" uni="27" gp="1" code="27"></player>
+  <player name="Capasso M." shortname="Capasso M." checkname="M.,CAPASSO" uni="9" gp="1" code="9"></player>
+  <player name="Pischiottin G." shortname="Pischiottin G." checkname="G.,PISCHIOTTIN" uni="32" gp="1" code="32"></player>
+  <player name="Pizzin S." shortname="Pizzin S." checkname="S.,PIZZIN" uni="37" gp="1" code="37">
+   <defense tackua="3" tacka="0"></defense>
+  </player>
+  <player name="Arduini A." shortname="Arduini A." checkname="A.,ARDUINI" uni="12" gp="1" code="12">
+   <rush att="4" yds="-20" gain="0" loss="20" td="0" long="0"></rush>
+   <pass comp="10" att="25" int="1" yds="113" td="0" long="24" sacks="3" sackyds="18"></pass>
+  </player>
+  <player name="Assirelli A." shortname="Assirelli A." checkname="A.,ASSIRELLI" uni="40" gp="1" code="40"></player>
+  <player name="Zakrajse R." shortname="Zakrajse R." checkname="R.,ZAKRAJSE" uni="39" gp="1" code="39">
+   <rush att="1" yds="2" gain="2" loss="0" td="0" long="2"></rush>
+  </player>
+  <player name="Zorzet E." shortname="Zorzet E." checkname="E.,ZORZET" uni="46" gp="1" code="46"></player>
+  <player name="Zakelj R." shortname="Zakelj R." checkname="R.,ZAKELJ" uni="52" gp="1" code="52"></player>
+  <player name="Gaye M." shortname="Gaye M." checkname="M.,GAYE" uni="53" gp="1" code="53"></player>
+  <player name="Quargnali M." shortname="Quargnali M." checkname="M.,QUARGNALI" uni="57" gp="1" code="57"></player>
+  <player name="Berti G." shortname="Berti G." checkname="G.,BERTI" uni="58" gp="1" code="58"></player>
+  <player name="Braccini G." shortname="Braccini G." checkname="G.,BRACCINI" uni="60" gp="1" code="60">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Tomassetto G." shortname="Tomassetto G." checkname="G.,TOMASSETTO" uni="63" gp="1" code="63"></player>
+  <player name="Rugo G." shortname="Rugo G." checkname="G.,RUGO" uni="64" gp="1" code="64"></player>
+  <player name="Tanghetti P." shortname="Tanghetti P." checkname="P.,TANGHETTI" uni="66" gp="1" code="66">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Pedro A." shortname="Pedro A." checkname="A.,PEDRO" uni="68" gp="1" code="68"></player>
+  <player name="Tranese D." shortname="Tranese D." checkname="D.,TRANESE" uni="69" gp="1" code="69"></player>
+  <player name="Buiat A." shortname="Buiat A." checkname="A.,BUIAT" uni="72" gp="1" code="72"></player>
+  <player name="Gigante A." shortname="Gigante A." checkname="A.,GIGANTE" uni="73" gp="1" code="73">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Tognon M." shortname="Tognon M." checkname="M.,TOGNON" uni="77" gp="1" code="77">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Cavasino A." shortname="Cavasino A." checkname="A.,CAVASINO" uni="78" gp="1" code="78"></player>
+  <player name="Micic D." shortname="Micic D." checkname="D.,MICIC" uni="41" gp="1" code="41">
+   <rush att="4" yds="3" gain="8" loss="5" td="0" long="3"></rush>
+   <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+   <fumbles no="2" lost="1"></fumbles>
+  </player>
+  <player name="Baratto A." shortname="Baratto A." checkname="A.,BARATTO" uni="82" gp="1" code="82"></player>
+  <player name="Grunwald N." shortname="Grunwald N." checkname="N.,GRUNWALD" uni="86" gp="1" code="86"></player>
+  <player name="Sakotic U." shortname="Sakotic U." checkname="U.,SAKOTIC" uni="94" gp="1" code="94"></player>
+  <player name="Baldini L." shortname="Baldini L." checkname="L.,BALDINI" uni="96" gp="1" code="96">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Sel Y." shortname="Sel Y." checkname="Y.,SEL" uni="99" gp="1" code="99">
+   <defense tackua="3" tacka="1" tflua="1" tfla="0" tflyds="9"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="18" blkd="1" ff="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="SAI" name="Saints Padova" record="1-0" conf-record="1-0" abb="S">
+  <linescore prds="4" line="0,7,0,13" score="20">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="13"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="13" rush="8" pass="3" penalty="2"></firstdowns>
+   <penalties no="6" yds="60"></penalties>
+   <conversions thirdconv="7" thirdatt="12" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="25:16" ona="0" onm="0"></misc>
+   <redzone att="2" scores="2" points="13" tdrush="2" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="39" yds="125" gain="163" loss="38" td="2" long="17"></rush>
+   <pass comp="4" att="12" int="2" yds="122" td="1" long="47" sacks="0" sackyds="0"></pass>
+   <rcv no="4" yds="122" td="1" long="47"></rcv>
+   <punt no="4" yds="121" long="46" blkd="0" tb="0" fc="0" plus50="0" inside20="2"></punt>
+   <ko no="4" yds="199" ob="0" tb="1"></ko>
+   <pat kickatt="3" kickmade="2"></pat>
+   <defense tackua="30" tacka="12" tflua="4" tfla="4" tflyds="30" sacks="3" sackyds="18" brup="2" ff="2" fr="1" fryds="0" int="1" intyds="0"></defense>
+   <kr no="1" yds="0" td="0" long="0"></kr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+   <scoring td="3" patkick="2"></scoring>
+  </totals>
+  <player name="Danese D." shortname="Danese D." checkname="D.,DANESE" uni="86" gp="1" code="86">
+   <rcv no="2" yds="70" td="0" long="46"></rcv>
+  </player>
+  <player name="Griggio M." shortname="Griggio M." checkname="M.,GRIGGIO" uni="43" gp="1" code="43">
+   <rcv no="1" yds="47" td="1" long="47"></rcv>
+   <defense tackua="1" tacka="3" tflua="0" tfla="1" tflyds="2" brup="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Sinigaglia A." shortname="Sinigaglia A." checkname="A.,SINIGAGLIA" uni="87" gp="1" code="87">
+   <rcv no="1" yds="5" td="0" long="5"></rcv>
+   <kr no="1" yds="0" td="0" long="0"></kr>
+  </player>
+  <player name="Tumiatti M." shortname="Tumiatti M." checkname="M.,TUMIATTI" uni="1" gp="1" code="1">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <defense tackua="1" tacka="1" tflua="1" tfla="1" tflyds="7" sackua="1" sacka="0" sackyds="6"></defense>
+  </player>
+  <player name="Vecchiato M." shortname="Vecchiato M." checkname="M.,VECCHIATO" uni="9" gp="1" code="9">
+   <rush att="3" yds="-33" gain="0" loss="33" td="0" long="0"></rush>
+   <pass comp="4" att="12" int="2" yds="122" td="1" long="47" sacks="0" sackyds="0"></pass>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Zancan T." shortname="Zancan T." checkname="T.,ZANCAN" uni="22" gp="1" code="22"></player>
+  <player name="Giuriato A." shortname="Giuriato A." checkname="A.,GIURIATO" uni="26" gp="1" code="26"></player>
+  <player name="Patrignani M." shortname="Patrignani M." checkname="M.,PATRIGNANI" uni="28" gp="1" code="28">
+   <ko no="4" yds="199" ob="0" tb="1"></ko>
+   <pat kickatt="3" kickmade="2"></pat>
+   <defense tackua="2" tacka="0"></defense>
+   <scoring patkick="2"></scoring>
+  </player>
+  <player name="Del Sordo L." shortname="Del Sordo L." checkname="SORDO L.,DEL" uni="18" gp="1" code="18"></player>
+  <player name="Furlan A." shortname="Furlan A." checkname="A.,FURLAN" uni="12" gp="1" code="12"></player>
+  <player name="James W." shortname="James W." checkname="W.,JAMES" uni="39" gp="1" code="39"></player>
+  <player name="Contessa A." shortname="Contessa A." checkname="A.,CONTESSA" uni="3" gp="1" code="3">
+   <defense tackua="3" tacka="0"></defense>
+  </player>
+  <player name="Fantin A." shortname="Fantin A." checkname="A.,FANTIN" uni="40" gp="1" code="40">
+   <rush att="2" yds="11" gain="11" loss="0" td="0" long="7"></rush>
+   <punt no="4" yds="121" long="46" blkd="0" tb="0" fc="0" plus50="0" inside20="2"></punt>
+   <defense tackua="10" tacka="3" tflua="1" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="5"></defense>
+  </player>
+  <player name="Tripodi P." shortname="Tripodi P." checkname="P.,TRIPODI" uni="50" gp="1" code="50"></player>
+  <player name="Zabeo A." shortname="Zabeo A." checkname="A.,ZABEO" uni="54" gp="1" code="54"></player>
+  <player name="Capuano D." shortname="Capuano D." checkname="D.,CAPUANO" uni="56" gp="1" code="56"></player>
+  <player name="Molina A." shortname="Molina A." checkname="A.,MOLINA" uni="60" gp="1" code="60">
+   <defense tackua="1" tacka="2" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Cesaro M." shortname="Cesaro M." checkname="M.,CESARO" uni="73" gp="1" code="73"></player>
+  <player name="Minazzato N." shortname="Minazzato N." checkname="N.,MINAZZATO" uni="75" gp="1" code="75">
+   <defense tackua="3" tacka="0" tflua="1" tfla="0" tflyds="7" sackua="1" sacka="0" sackyds="7"></defense>
+  </player>
+  <player name="Fassina F." shortname="Fassina F." checkname="F.,FASSINA" uni="77" gp="1" code="77"></player>
+  <player name="Vettore M." shortname="Vettore M." checkname="M.,VETTORE" uni="78" gp="1" code="78">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Lievore M." shortname="Lievore M." checkname="M.,LIEVORE" uni="84" gp="1" code="84">
+   <defense brup="1" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Carella S." shortname="Carella S." checkname="S.,CARELLA" uni="31" gp="1" code="31">
+   <rush att="6" yds="27" gain="27" loss="0" td="0" long="16"></rush>
+  </player>
+  <player name="Masiero T." shortname="Masiero T." checkname="T.,MASIERO" uni="36" gp="1" code="36">
+   <rush att="27" yds="120" gain="125" loss="5" td="2" long="17"></rush>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Nanula G." shortname="Nanula G." checkname="G.,NANULA" uni="89" gp="1" code="89"></player>
+  <player name="Turioni D." shortname="Turioni D." checkname="D.,TURIONI" uni="90" gp="1" code="90">
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="Turioni L." shortname="Turioni L." checkname="L.,TURIONI" uni="91" gp="1" code="91"></player>
+  <player name="Libero M." shortname="Libero M." checkname="M.,LIBERO" uni="99" gp="1" code="99">
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="6" ff="2"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="SAI" qtr="2" clock="01:00" type="TD" how="RUSH" yds="3" scorer="Masiero T." patby="Patrignani M." pattype="KICK" patres="GOOD" plays="11" drive="56" top="5:06" vscore="0" hscore="7" driveindex="12"></score>
+  <score vh="H" team="SAI" qtr="4" clock="10:00" type="TD" how="PASS" yds="47" scorer="Griggio M." passer="Vecchiato M." patby="Patrignani M." pattype="KICK" patres="GOOD" plays="4" drive="70" top="2:07" vscore="0" hscore="14" driveindex="18"></score>
+  <score vh="H" team="SAI" qtr="4" clock="00:40" type="TD" how="RUSH" yds="1" scorer="Masiero T." patby="Patrignani M." pattype="KICK" patres="BLKD" plays="12" drive="66" top="6:04" vscore="0" hscore="20" driveindex="20"></score>
+ </scores>
+ <drives>
+  <drive vh="V" team="SEN" start="KO,1,12:00,28" end="INT,1,10:00,41" plays="4" yards="13" top="2:00" driveindex="1"></drive>
+  <drive vh="H" team="SAI" start="INT,1,10:00,46" end="PUNT,1,09:00,50" plays="3" yards="4" top="1:00" driveindex="2"></drive>
+  <drive vh="V" team="SEN" start="PUNT,1,09:00,14" end="PUNT,1,06:00,23" plays="3" yards="9" top="3:00" driveindex="3"></drive>
+  <drive vh="H" team="SAI" start="PUNT,1,06:00,46" end="FUMB,1,04:00,60" plays="4" yards="14" top="2:00" driveindex="4"></drive>
+  <drive vh="V" team="SEN" start="FUMB,1,04:00,33" end="PUNT,1,03:00,40" plays="4" yards="7" top="1:00" driveindex="5"></drive>
+  <drive vh="H" team="SAI" start="PUNT,1,03:00,20" end="INT,1,02:50,20" plays="1" yards="0" top="0:10" driveindex="6"></drive>
+  <drive vh="V" team="SEN" start="INT,1,02:50,65" end="DOWNS,1,01:20,68" plays="4" yards="3" top="1:30" driveindex="7"></drive>
+  <drive vh="H" team="SAI" start="DOWNS,1,01:20,22" end="INT,2,11:50,60" plays="5" yards="38" top="1:30" driveindex="8"></drive>
+  <drive vh="V" team="SEN" start="INT,2,11:50,31" end="PUNT,2,10:30,38" plays="3" yards="7" top="1:20" driveindex="9"></drive>
+  <drive vh="H" team="SAI" start="PUNT,2,10:30,24" end="PUNT,2,08:10,13" plays="3" yards="-11" top="2:20" driveindex="10"></drive>
+  <drive vh="V" team="SEN" start="PUNT,2,08:10,31" end="PUNT,2,06:06,26" plays="3" yards="-5" top="2:04" driveindex="11"></drive>
+  <drive vh="H" team="SAI" start="PUNT,2,06:06,34" end="TD,2,01:00,90" plays="11" yards="56" top="5:06" rz="1" driveindex="12"></drive>
+  <drive vh="V" team="SEN" start="KO,2,00:46,35" end="HALF,2,00:00,30" plays="3" yards="-5" top="0:46" driveindex="13"></drive>
+  <drive vh="H" team="SAI" start="KO,3,12:00,19" end="PUNT,3,08:43,43" plays="5" yards="24" top="3:17" driveindex="14"></drive>
+  <drive vh="V" team="SEN" start="PUNT,3,08:43,16" end="DOWNS,3,05:00,72" plays="9" yards="56" top="3:43" rz="1" driveindex="15"></drive>
+  <drive vh="H" team="SAI" start="DOWNS,3,05:00,18" end="PUNT,3,03:18,24" plays="3" yards="6" top="1:42" driveindex="16"></drive>
+  <drive vh="V" team="SEN" start="PUNT,3,03:18,48" end="FUMB,3,00:07,70" plays="8" yards="22" top="3:11" rz="1" driveindex="17"></drive>
+  <drive vh="H" team="SAI" start="FUMB,3,00:07,20" end="TD,4,10:00,90" plays="4" yards="70" top="2:07" driveindex="18"></drive>
+  <drive vh="V" team="SEN" start="KO,4,09:54,20" end="DOWNS,4,06:44,66" plays="8" yards="46" top="3:10" driveindex="19"></drive>
+  <drive vh="H" team="SAI" start="DOWNS,4,06:44,24" end="TD,4,00:40,90" plays="12" yards="66" top="6:04" rz="1" driveindex="20"></drive>
+  <drive vh="V" team="SEN" start="KO,4,00:09,20" end="HALF,4,00:00,22" plays="1" yards="2" top="0:09" driveindex="21"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0"
+      text="Saints Padova win the coin toss, elect to kick"></play>
+   <play context="V,1,10,V30" playid="0,2,1" type="K"
+      text="SAI ball on SAI30, Patrignani M. kickoff 54 yards to the SEN6, Alimonda De  A. return 22 yards to the SEN28 (Turioni D.)."></play>
+   <drivestart poss="V,V28,12:00" vh="V" spot="V28" clock="12:00" driveindex="1,1"></drivestart>
+   <play context="V,1,10,V28" playid="1,1,2" type="R"
+      text="Alimonda De  A. rush for 4 yards to the SEN32 (Fantin A.)."></play>
+   <play context="V,2,6,V32" playid="1,2,3" type="P"
+      text="Arduini A. pass incomplete to Micic D.."></play>
+   <play context="V,3,6,V32" playid="1,3,4" type="P" first="P"
+      text="Arduini A. pass complete to Agostinis M. for 9 yards to the SEN41, 1ST DOWN SEN."></play>
+   <play context="V,1,10,V41" playid="1,4,5" type="P" turnover="I"
+      text="Arduini A. pass intercepted by Lievore M. at the SEN44, Lievore M. return 0 yards to the SEN44."></play>
+   <drivesum plays="4" yards="13" top="2:00" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,V44,12:00" vh="H" spot="V44" clock="12:00" driveindex="2,5"></drivestart>
+   <play context="H,1,10,V44" playid="2,1,6" type="R" clock="10:00"
+      text="SAINTS PADOVA drive start at 10:00, Masiero T. rush for 4 yards to the SEN40 (Tanghetti P.)."></play>
+   <play context="H,2,6,V40" playid="2,2,7" type="P"
+      text="Vecchiato M. pass incomplete to Furlan A.."></play>
+   <play context="H,3,6,V40" playid="2,3,8" type="P"
+      text="Vecchiato M. pass incomplete to Danese D.."></play>
+   <play context="H,4,6,V40" playid="2,4,9" type="U"
+      text="Fantin A. punt 26 yards to the SEN14."></play>
+   <drivesum plays="3" yards="4" top="1:00" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,V14,10:00" vh="V" spot="V14" clock="10:00" driveindex="3,9"></drivestart>
+   <play context="V,1,10,V14" playid="3,1,10" type="R" clock="09:00"
+      text="SENTINELS ISONZO drive start at 09:00, Micic D. rush for 3 yards to the SEN17 (Molina A.;Libero M.)."></play>
+   <play context="V,2,7,V17" playid="3,2,11" type="R"
+      text="Alimonda De  A. rush for 2 yards to the SEN19 (Fantin A.)."></play>
+   <play context="V,3,5,V19" playid="3,3,12" type="P"
+      text="Arduini A. pass complete to Brandolin F. for 4 yards to the SEN23 (Griggio M.)."></play>
+   <play context="V,4,1,V23" playid="3,4,13" type="U"
+      text="Pacorig M. punt 21 yards to the SEN44."></play>
+   <drivesum plays="3" yards="9" top="3:00" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,V44,09:00" vh="H" spot="V44" clock="09:00" driveindex="4,13"></drivestart>
+   <play context="H,1,10,V44" playid="4,1,14" type="R" clock="06:00"
+      text="SAINTS PADOVA drive start at 06:00, Masiero T. rush for 8 yards to the SEN36 (Pizzin S.)."></play>
+   <play context="H,2,2,V36" playid="4,2,15" type="R" first="R"
+      text="Masiero T. rush for 2 yards to the SEN34, 1ST DOWN SAI (Pacorig M.)."></play>
+   <play context="H,1,10,V34" playid="4,3,16" type="P"
+      text="Vecchiato M. pass incomplete to Masiero T.."></play>
+   <play context="H,2,10,V34" playid="4,4,17" type="R" turnover="F"
+      text="Masiero T. rush for 4 yards to the SEN30, fumble forced by TEAM, fumble by Masiero T. recovered by SEN Pacorig M. at SEN30, Pacorig M. for 3 yards to the SEN33 (Fantin A.)."></play>
+   <drivesum plays="4" yards="14" top="2:00" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V33,06:00" vh="V" spot="V33" clock="06:00" driveindex="5,17"></drivestart>
+   <play context="V,1,10,V33" playid="5,1,18" type="P" clock="04:00"
+      text="SENTINELS ISONZO drive start at 04:00, SEN ball on SEN33, Arduini A. pass complete to Alimonda De  A. for 4 yards to the SEN37 (Fantin A.)."></play>
+   <play context="V,2,6,V37" playid="5,2,19" type="E" first="E"
+      text="Arduini A. sacked for loss of 5 yards to the SEN32 (Tumiatti M.), PENALTY SAI face mask (Tumiatti M.) 13 yards to the SAI40, 1ST DOWN SEN, NO PLAY."></play>
+   <play context="V,1,10,H40" playid="5,3,20" type="R"
+      text="Alimonda De  A. rush for loss of 4 yards to the SAI44 (Molina A.;Griggio M.)."></play>
+   <play context="V,2,14,H44" playid="5,4,21" type="P"
+      text="Arduini A. sacked for loss of 6 yards to the SEN40 (Tumiatti M.)."></play>
+   <play context="V,3,20,V40" playid="5,5,22" type="P"
+      text="Arduini A. pass incomplete."></play>
+   <play context="V,4,20,V40" playid="5,6,23" type="U"
+      text="Pacorig M. punt 30 yards to the SAI20."></play>
+   <drivesum plays="4" yards="7" top="1:00" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H20,04:00" vh="H" spot="H20" clock="04:00" driveindex="6,23"></drivestart>
+   <play context="H,1,10,H20" playid="6,1,24" type="P" turnover="I" clock="03:00"
+      text="SAINTS PADOVA drive start at 03:00, Vecchiato M. pass intercepted by Agostinis M. at the SAI25, Agostinis M. return 0 yards to the SAI25."></play>
+   <drivesum plays="1" yards="0" top="0:10" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,H25,03:00" vh="V" spot="H25" clock="03:00" driveindex="7,24"></drivestart>
+   <play context="V,1,10,H25" playid="7,1,25" type="R" clock="02:50"
+      text="SENTINELS ISONZO drive start at 02:50, Arduini A. rush for loss of 2 yards to the SAI27 (Tumiatti M.;Vettore M.)."></play>
+   <play context="V,2,12,H27" playid="7,2,26" type="E"
+      text="Alimonda De  A. rush for no gain to the SAI27 (Libero M.), PENALTY SEN holding (Brandolin F.) 10 yards to the SAI37, NO PLAY."></play>
+   <play context="V,2,22,H37" playid="7,3,27" type="P"
+      text="Arduini A. pass incomplete to Brandolin F.."></play>
+   <play context="V,3,22,H37" playid="7,4,28" type="P"
+      text="Arduini A. pass complete to Agostinis M. for 15 yards to the SAI22 (Patrignani M.)."></play>
+   <play context="V,4,7,H22" playid="7,5,29" type="P"
+      text="Arduini A. pass incomplete to Sustarsic M. (Lievore M.)."></play>
+   <drivesum plays="4" yards="3" top="1:30" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H22,02:50" vh="H" spot="H22" clock="02:50" driveindex="8,29"></drivestart>
+   <play context="H,1,10,H22" playid="8,1,30" type="R" clock="01:20"
+      text="SAINTS PADOVA drive start at 01:20, Masiero T. rush for loss of 2 yards to the SAI20 (Tognon M.)."></play>
+   <play context="H,2,12,H20" playid="8,2,31" type="P" first="P"
+      text="Vecchiato M. pass complete to Danese D. for 46 yards to the SEN24, 1ST DOWN SAI (Mascarin M.)."></play>
+   <play context="H,1,10,V24" playid="8,3,32" type="R"
+      text="Vecchiato M. rush for loss of 9 yards to the SEN33 (Sel Y.)."></play>
+   <play context="H,2,19,V33" playid="8,4,33" type="R"
+      text="Masiero T. rush for 3 yards to the SEN30 (Pitton S.)."></play>
+   <score qtr="1" V="0" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="SEN">
+    <firstdowns no="2" rush="0" pass="1" penalty="1"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:30"></misc>
+    <rush att="6" yds="-3" gain="9" loss="12" td="0" long="4"></rush>
+    <pass comp="4" att="9" int="1" yds="32" td="0" long="15" sacks="1" sackyds="6"></pass>
+    <rcv no="4" yds="32" td="0" long="15"></rcv>
+    <punt no="2" yds="51" long="30" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="8" tacka="0" tflua="2" tfla="0" tflyds="11" sacks="0" sackyds="0" ff="1" fr="1" fryds="3" int="1" intyds="0"></defense>
+    <kr no="1" yds="22" td="0" long="22"></kr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <fr no="1" yds="3" td="0" long="3"></fr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SAI">
+    <firstdowns no="2" rush="1" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="13"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="04:30"></misc>
+    <rush att="7" yds="10" gain="21" loss="11" td="0" long="8"></rush>
+    <pass comp="1" att="5" int="1" yds="46" td="0" long="46" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="46" td="0" long="46"></rcv>
+    <punt no="1" yds="26" long="26" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="54" ob="0" tb="0"></ko>
+    <defense tackua="8" tacka="6" tflua="5" tfla="0" tflyds="18" sacks="1" sackyds="6" brup="1" int="1" intyds="0"></defense>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="H,3,16,V30" playid="8,5,34" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="H,3,16,V30" playid="8,6,35" type="P" turnover="I"
+      text="Vecchiato M. pass intercepted by Pitton S. at the SEN25, Pitton S. return 6 yards to the SEN31 (Vecchiato M.)."></play>
+   <drivesum plays="5" yards="38" top="1:30" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,V31,12:00" vh="V" spot="V31" clock="12:00" driveindex="9,35"></drivestart>
+   <play context="V,1,10,V31" playid="9,1,36" type="P" clock="11:50"
+      text="SENTINELS ISONZO drive start at 11:50, Arduini A. pass incomplete to Agostinis M.."></play>
+   <play context="V,2,10,V31" playid="9,2,37" type="R"
+      text="Alimonda De  A. rush for 2 yards to the SEN33 (Fantin A.)."></play>
+   <play context="V,3,8,V33" playid="9,3,38" type="R"
+      text="Alimonda De  A. rush for 5 yards to the SEN38 (Molina A.)."></play>
+   <play context="V,4,3,V38" playid="9,4,39" type="U"
+      text="Pacorig M. punt 28 yards to the SAI24."></play>
+   <drivesum plays="3" yards="7" top="1:20" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,H24,11:50" vh="H" spot="H24" clock="11:50" driveindex="10,39"></drivestart>
+   <play context="H,1,10,H24" playid="10,1,40" type="R" clock="10:30"
+      text="SAINTS PADOVA drive start at 10:30, Vecchiato M. rush for loss of 18 yards to the SAI6 (TEAM)."></play>
+   <play context="H,2,28,H06" playid="10,2,41" type="R"
+      text="Masiero T. rush for 7 yards to the SAI13 (Sel Y.)."></play>
+   <play context="H,3,21,H13" playid="10,3,42" type="P"
+      text="Vecchiato M. pass incomplete to Danese D.."></play>
+   <play context="H,4,21,H13" playid="10,4,43" type="U"
+      text="Fantin A. punt 46 yards to the SEN31."></play>
+   <drivesum plays="3" yards="-11" top="2:20" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V31,10:30" vh="V" spot="V31" clock="10:30" driveindex="11,43"></drivestart>
+   <play context="V,1,10,V31" playid="11,1,44" type="R" clock="08:10"
+      text="SENTINELS ISONZO drive start at 08:10, Alimonda De  A. rush for 2 yards to the SEN33 (Libero M.)."></play>
+   <play context="V,2,8,V33" playid="11,2,45" type="P"
+      text="Arduini A. sacked for loss of 7 yards to the SEN26 (Minazzato N.)."></play>
+   <play context="V,3,15,V26" playid="11,3,46" type="P"
+      text="Arduini A. pass incomplete to Alimonda De  A.."></play>
+   <play context="V,4,15,V26" playid="11,4,47" type="U"
+      text="Pacorig M. punt 30 yards to the SAI34."></play>
+   <drivesum plays="3" yards="-5" top="2:04" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,H34,08:10" vh="H" spot="H34" clock="08:10" driveindex="12,47"></drivestart>
+   <play context="H,1,10,H34" playid="12,1,48" type="R" clock="06:06"
+      text="SAINTS PADOVA drive start at 06:06, Masiero T. rush for 7 yards to the SAI41 (Pacorig M.)."></play>
+   <play context="H,2,3,H41" playid="12,2,49" type="R" first="R"
+      text="Masiero T. rush for 6 yards to the SEN43, 1ST DOWN SAI (Pitton S.)."></play>
+   <play context="H,1,10,V43" playid="12,3,50" type="P"
+      text="Vecchiato M. pass complete to Sinigaglia A. for 5 yards to the SEN38 (Forgiarini D.)."></play>
+   <play context="H,2,5,V38" playid="12,4,51" type="R"
+      text="Fantin A. rush for 4 yards to the SEN34 (Pacorig M.)."></play>
+   <play context="H,3,1,V34" playid="12,5,52" type="#" clock="03:38"
+      text="Timeout Saints Padova, clock 03:38."></play>
+   <play context="H,3,1,V34" playid="12,6,53" type="R" first="R"
+      text="Masiero T. rush for 9 yards to the SEN25, 1ST DOWN SAI (Pitton S.;Gigante A.)."></play>
+   <play context="H,1,10,V25" playid="12,7,54" type="R"
+      text="Masiero T. rush for 5 yards to the SEN20 (Mascarin M.)."></play>
+   <play context="H,2,5,V20" playid="12,8,55" type="R"
+      text="Masiero T. rush for 4 yards to the SEN16 (Baldini L.)."></play>
+   <play context="H,3,1,V16" playid="12,9,56" type="R" first="R"
+      text="Masiero T. rush for 7 yards to the SEN9, 1ST DOWN SAI (Mascarin M.)."></play>
+   <play context="H,1,0,V09" playid="12,10,57" type="R"
+      text="Masiero T. rush for 4 yards to the SEN5 (Sel Y.;Mascarin M.)."></play>
+   <play context="H,2,0,V05" playid="12,11,58" type="R"
+      text="Masiero T. rush for 2 yards to the SEN3 (Pitton S.)."></play>
+   <play context="H,3,0,V03" playid="12,12,59" type="#" clock="01:07"
+      text="Timeout Saints Padova, clock 01:07."></play>
+   <play context="H,3,0,V03" playid="12,13,60" type="R" score="Y" clock="01:00"
+      text="Masiero T. rush for 3 yards to the SEN0, TOUCHDOWN, clock 01:00."></play>
+   <play context="H,1,0,V03" playid="12,14,61" type="X" score="Y"
+      text="Patrignani M. kick attempt good."></play>
+   <score V="0" H="7"></score>
+   <drivesum plays="11" yards="56" top="5:06" driveindex="12" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="12,15,62" type="K"
+      text="Patrignani M. kickoff 40 yards to the SEN20, touchback."></play>
+   <drivestart poss="V,V20,01:00" vh="V" spot="V20" clock="01:00" driveindex="13,62"></drivestart>
+   <play context="V,1,10,V20" playid="13,1,63" type="E" first="E"
+      text="SENTINELS ISONZO drive start at 00:55, Arduini A. pass incomplete to Agostinis M., PENALTY SAI pass interference (Lievore M.) 15 yards to the SEN35, 1ST DOWN SEN, NO PLAY."></play>
+   <play context="V,1,10,V35" playid="13,2,64" type="P" clock="00:46"
+      text="SENTINELS ISONZO drive start at 00:46, SEN ball on SEN35, Arduini A. pass incomplete to Brandolin F.."></play>
+   <play context="V,2,10,V35" playid="13,3,65" type="P"
+      text="Arduini A. pass incomplete to Brandolin F.."></play>
+   <play context="V,3,10,V35" playid="13,4,66" type="P"
+      text="Arduini A. sacked for loss of 5 yards to the SEN30 (Fantin A.)."></play>
+   <play context="V,4,15,V30" playid="13,5,67" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="3" yards="-5" top="0:46" driveindex="13" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="SEN">
+    <firstdowns no="1" rush="0" pass="0" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:24"></misc>
+    <rush att="5" yds="-3" gain="9" loss="12" td="0" long="1"></rush>
+    <pass comp="0" att="4" int="0" yds="0" td="0" long="0" sacks="2" sackyds="12"></pass>
+    <punt no="2" yds="58" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="10" tacka="4" tflua="1" tfla="0" tflyds="18" sacks="0" sackyds="0" int="1" intyds="6"></defense>
+    <ir no="1" yds="6" td="0" long="6"></ir>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SAI">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="3" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:36"></misc>
+    <rush att="12" yds="40" gain="58" loss="18" td="1" long="1"></rush>
+    <pass comp="1" att="3" int="1" yds="5" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="5" td="0" long="0"></rcv>
+    <punt no="1" yds="46" long="20" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="40" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="6" tacka="0" tflua="2" tfla="0" tflyds="12" sacks="3" sackyds="18"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,4,15,V30" playid="13,6,68" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, SEN ball on SEN30."></play>
+   <play context="V,4,15,V30" playid="13,7,69" type="K"
+      text="Sustarsic M. kickoff 41 yards to the SAI19, Sinigaglia A. return 0 yards to the SAI19."></play>
+   <drivestart poss="H,H19,12:00" vh="H" spot="H19" clock="12:00" driveindex="14,69"></drivestart>
+   <play context="H,1,10,H19" playid="14,1,70" type="R" clock="12:00"
+      text="SAINTS PADOVA drive start at 12:00, Carella S. rush for 1 yard to the SAI20 (Pitton S.)."></play>
+   <play context="H,2,9,H20" playid="14,2,71" type="R" first="R"
+      text="Masiero T. rush for 17 yards to the SAI37, 1ST DOWN SAI, out-of-bounds (Mascarin M.)."></play>
+   <play context="H,1,10,H37" playid="14,3,72" type="R"
+      text="Masiero T. rush for 5 yards to the SAI42 (Forgiarini D.)."></play>
+   <play context="H,2,5,H42" playid="14,4,73" type="R"
+      text="Vecchiato M. rush for loss of 6 yards to the SAI36, out-of-bounds."></play>
+   <play context="H,3,11,H36" playid="14,5,74" type="R"
+      text="Fantin A. rush for 7 yards to the SAI43 (Pacorig M.)."></play>
+   <play context="H,4,4,H43" playid="14,6,75" type="U"
+      text="Fantin A. punt 31 yards to the SEN16."></play>
+   <drivesum plays="5" yards="24" top="3:17" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,V16,12:00" vh="V" spot="V16" clock="12:00" driveindex="15,75"></drivestart>
+   <play context="V,1,10,V16" playid="15,1,76" clock="08:43"
+      text="SENTINELS ISONZO drive start at 08:43."></play>
+   <play context="V,1,10,V16" playid="15,2,77" type="P" first="P"
+      text="Arduini A. pass complete to Sustarsic M. for 13 yards to the SEN29, 1ST DOWN SEN."></play>
+   <play context="V,1,10,V29" playid="15,3,78" type="R"
+      text="Alimonda De  A. rush for 2 yards to the SEN31 (Libero M.)."></play>
+   <play context="V,2,8,V31" playid="15,4,79" type="P" first="P"
+      text="Arduini A. pass complete to Sustarsic M. for 24 yards to the SAI35, 1ST DOWN SEN (Fantin A.;Griggio M.)."></play>
+   <play context="V,1,10,H35" playid="15,5,80" type="R"
+      text="Alimonda De  A. rush for 5 yards to the SAI30, out-of-bounds (Contessa A.)."></play>
+   <play context="V,2,5,H30" playid="15,6,81" type="P" first="P"
+      text="Arduini A. pass complete to Agostinis M. for 10 yards to the SAI20, 1ST DOWN SEN (Fantin A.)."></play>
+   <play context="V,1,10,H20" playid="15,7,82" type="R"
+      text="Alimonda De  A. rush for 2 yards to the SAI18 (Minazzato N.)."></play>
+   <play context="V,2,8,H18" playid="15,8,83" type="P"
+      text="Arduini A. pass incomplete to Agostinis M.."></play>
+   <play context="V,3,8,H18" playid="15,9,84" type="P"
+      text="Arduini A. pass incomplete to Micic D.."></play>
+   <play context="V,4,8,H18" playid="15,10,85" type="P"
+      text="Arduini A. pass incomplete to Micic D., PENALTY SEN holding declined."></play>
+   <drivesum plays="9" yards="56" top="3:43" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H18,08:43" vh="H" spot="H18" clock="08:43" driveindex="16,85"></drivestart>
+   <play context="H,1,10,H18" playid="16,1,86" clock="05:00"
+      text="SAINTS PADOVA drive start at 05:00."></play>
+   <play context="H,1,10,H18" playid="16,2,87" type="R"
+      text="Masiero T. rush for 7 yards to the SAI25 (Sel Y.)."></play>
+   <play context="H,2,3,H25" playid="16,3,88" type="R"
+      text="Masiero T. rush for loss of 1 yard to the SAI24 (Pitton S.)."></play>
+   <play context="H,3,4,H24" playid="16,4,89" type="P"
+      text="Vecchiato M. pass incomplete to Danese D.."></play>
+   <play context="H,4,4,H24" playid="16,5,90" type="U"
+      text="Fantin A. punt 18 yards to the SAI42, out-of-bounds."></play>
+   <drivesum plays="3" yards="6" top="1:42" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="V,H42,05:00" vh="V" spot="H42" clock="05:00" driveindex="17,90"></drivestart>
+   <play context="V,1,10,H42" playid="17,1,91" clock="03:18"
+      text="SENTINELS ISONZO drive start at 03:18."></play>
+   <play context="V,1,10,H42" playid="17,2,92" type="R"
+      text="Alimonda De  A. rush for 4 yards to the SAI38 (Fantin A.)."></play>
+   <play context="V,2,6,H38" playid="17,3,93" type="R"
+      text="Alimonda De  A. rush for 3 yards to the SAI35 (Griggio M.;Fantin A.)."></play>
+   <play context="V,3,3,H35" playid="17,4,94" type="E" first="E"
+      text="PENALTY SAI offside defense (Vettore M.) 5 yards to the SAI30, 1ST DOWN SEN."></play>
+   <play context="V,1,10,H30" playid="17,5,95" type="R"
+      text="Alimonda De  A. rush for 4 yards to the SAI26 (Turioni D.;Fantin A.)."></play>
+   <play context="V,2,6,H26" playid="17,6,96" type="P" first="P"
+      text="Arduini A. pass complete to Sustarsic M. for 12 yards to the SAI14, 1ST DOWN SEN (Patrignani M.), PENALTY SAI roughing passer (Fassina F.) 7 yards to the SAI7, 1ST DOWN SEN."></play>
+   <play context="V,1,0,H07" playid="17,7,97"
+      text="1st and 7."></play>
+   <play context="V,1,0,H07" playid="17,8,98" type="R"
+      text="Micic D. rush for 2 yards to the SAI5 (Turioni D.), PENALTY SEN holding (Agostinis M.) 10 yards to the SAI15."></play>
+   <play context="V,1,0,H15" playid="17,9,99"
+      text="1st and 15."></play>
+   <play context="V,1,0,H15" playid="17,10,100" type="P"
+      text="Micic D. pass incomplete to Sustarsic M. (Griggio M.)."></play>
+   <play context="V,2,0,H15" playid="17,11,101" type="P"
+      text="Micic D. pass incomplete to Furlani J.."></play>
+   <play context="V,3,0,H15" playid="17,12,102" type="R" turnover="F"
+      text="Micic D. rush for loss of 6 yards to the SAI21, fumble forced by TEAM, fumble by Micic D. recovered by SAI Vettore M. at SAI20."></play>
+   <drivesum plays="8" yards="22" top="3:11" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,H20,03:18" vh="H" spot="H20" clock="03:18" driveindex="18,102"></drivestart>
+   <play context="H,1,10,H20" playid="18,1,103" type="E" first="E" clock="00:07"
+      text="SAINTS PADOVA drive start at 00:07, PENALTY SEN unsportsmanlike conduct (Micic D.) 15 yards to the SAI35, 1ST DOWN SAI."></play>
+   <play context="H,1,10,H35" playid="18,2,104" type="P"
+      text="1st and 10, Vecchiato M. pass incomplete to Danese D.."></play>
+   <score qtr="3" V="0" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="SEN">
+    <firstdowns no="6" rush="0" pass="4" penalty="2"></firstdowns>
+    <penalties no="2" yds="25"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="06:54"></misc>
+    <rush att="8" yds="17" gain="22" loss="5" td="0" long="0"></rush>
+    <pass comp="4" att="9" int="0" yds="59" td="0" long="9" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="59" td="0" long="9"></rcv>
+    <ko no="1" yds="41" ob="0" tb="0"></ko>
+    <defense tackua="6" tacka="0" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0"></defense>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SAI">
+    <firstdowns no="2" rush="1" pass="0" penalty="1"></firstdowns>
+    <penalties no="2" yds="12"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:06"></misc>
+    <rush att="7" yds="30" gain="37" loss="7" td="0" long="8"></rush>
+    <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="2" yds="49" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <defense tackua="8" tacka="6" tflua="1" tfla="0" tflyds="6" sacks="3" sackyds="18" brup="1" ff="1" fr="1" fryds="0"></defense>
+    <kr no="1" yds="0" td="0" long="0"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="H,2,10,H35" playid="18,3,105" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="H,2,10,H35" playid="18,4,106" type="E"
+      text="Masiero T. rush for no gain to the SAI35, out-of-bounds (Pacorig M.), PENALTY SAI holding (Fassina F.) 10 yards to the SAI25, NO PLAY."></play>
+   <play context="H,2,20,H25" playid="18,5,107" type="E" first="E"
+      text="Vecchiato M. pass incomplete to Sinigaglia A., PENALTY SEN pass interference (Zakelj R.) 15 yards to the SAI40, 1ST DOWN SAI, NO PLAY."></play>
+   <play context="H,1,10,H40" playid="18,6,108" type="R"
+      text="Masiero T. rush for 3 yards to the SAI43 (Pacorig M.)."></play>
+   <play context="H,2,7,H43" playid="18,7,109" type="R"
+      text="Tumiatti M. rush for no gain to the SAI43 (Pitton S.)."></play>
+   <play context="H,3,7,H43" playid="18,8,110" type="#" clock="10:00"
+      text="Timeout Saints Padova, clock 10:00."></play>
+   <play context="H,3,7,H43" playid="18,9,111" type="P" first="P" score="Y" clock="10:00"
+      text="Vecchiato M. pass complete to Griggio M. for 47 yards to the SEN0, 1ST DOWN SAI, TOUCHDOWN, clock 10:00."></play>
+   <play context="H,1,0,V03" playid="18,10,112" type="X" score="Y"
+      text="Patrignani M. kick attempt good."></play>
+   <score V="0" H="14"></score>
+   <drivesum plays="4" yards="70" top="2:07" driveindex="18" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="18,11,113" type="K"
+      text="Patrignani M. kickoff 52 yards to the SEN8, Alimonda De  A. return 12 yards to the SEN20 (Fantin A.)."></play>
+   <drivestart poss="V,V20,10:00" vh="V" spot="V20" clock="10:00" driveindex="19,113"></drivestart>
+   <play context="V,1,10,V20" playid="19,1,114" clock="09:54"
+      text="SENTINELS ISONZO drive start at 09:54."></play>
+   <play context="V,1,10,V20" playid="19,2,115" type="R"
+      text="Micic D. rush for 3 yards to the SEN23, fumble forced by TEAM, fumble by Micic D. recovered by SEN Brandolin F. at SEN23."></play>
+   <play context="V,2,7,V23" playid="19,3,116" type="E" first="E"
+      text="Arduini A. pass incomplete to Sustarsic M., PENALTY SAI holding (Fassina F.) 10 yards to the SEN33, 1ST DOWN SEN, NO PLAY."></play>
+   <play context="V,1,10,V33" playid="19,4,117" type="R"
+      text="Alimonda De  A. rush for 7 yards to the SEN40 (Contessa A.)."></play>
+   <play context="V,2,3,V40" playid="19,5,118" type="P"
+      text="Arduini A. pass incomplete to Agostinis M.."></play>
+   <play context="V,3,3,V40" playid="19,6,119" type="P" first="P"
+      text="Arduini A. pass complete to Alimonda De  A. for 19 yards to the SAI31, 1ST DOWN SEN, out-of-bounds (Contessa A.)."></play>
+   <play context="V,1,10,H31" playid="19,7,120" type="P"
+      text="Arduini A. pass incomplete to Sustarsic M.."></play>
+   <play context="V,2,10,H31" playid="19,8,121" type="P"
+      text="Arduini A. pass incomplete to Sustarsic M.."></play>
+   <play context="V,3,10,H31" playid="19,9,122" type="R"
+      text="Alimonda De  A. rush for 4 yards to the SAI27 (Turioni D.)."></play>
+   <play context="V,4,6,H27" playid="19,10,123" type="P"
+      text="Arduini A. pass complete to Agostinis M. for 3 yards to the SAI24 (Libero M.)."></play>
+   <drivesum plays="8" yards="46" top="3:10" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,H24,09:54" vh="H" spot="H24" clock="09:54" driveindex="20,123"></drivestart>
+   <play context="H,1,10,H24" playid="20,1,124" clock="06:44"
+      text="SAINTS PADOVA drive start at 06:44."></play>
+   <play context="H,1,10,H24" playid="20,2,125" type="R"
+      text="Carella S. rush for 2 yards to the SAI26 (Pitton S.)."></play>
+   <play context="H,2,8,H26" playid="20,3,126" type="R" first="R"
+      text="Masiero T. rush for 9 yards to the SAI35, 1ST DOWN SAI (Mascarin M.)."></play>
+   <play context="H,1,10,H35" playid="20,4,127" type="R" first="R"
+      text="Carella S. rush for 16 yards to the SEN39, 1ST DOWN SAI, out-of-bounds (Pizzin S.)."></play>
+   <play context="H,1,10,V39" playid="20,5,128" type="R"
+      text="Masiero T. rush for loss of 2 yards to the SEN41 (Pitton S.)."></play>
+   <play context="H,2,12,V41" playid="20,6,129" type="R"
+      text="Carella S. rush for no gain to the SEN41 (Tognon M.)."></play>
+   <play context="H,3,12,V41" playid="20,7,130" type="#" clock="03:57"
+      text="Timeout Sentinels Isonzo, clock 03:57."></play>
+   <play context="H,3,12,V41" playid="20,8,131" type="P" first="P"
+      text="Vecchiato M. pass complete to Danese D. for 24 yards to the SEN17, 1ST DOWN SAI, PENALTY SEN offside defense declined."></play>
+   <play context="H,1,10,V17" playid="20,9,132" type="R"
+      text="Carella S. rush for 2 yards to the SEN15, out-of-bounds."></play>
+   <play context="H,2,8,V15" playid="20,10,133" type="R"
+      text="Carella S. rush for 6 yards to the SEN9 (Braccini G.)."></play>
+   <play context="H,3,2,V09" playid="20,11,134" type="R" first="R"
+      text="Masiero T. rush for 4 yards to the SEN5, 1ST DOWN SAI (Pitton S.)."></play>
+   <play context="H,1,0,V05" playid="20,12,135" type="R"
+      text="Masiero T. rush for 1 yard to the SEN4 (Baldini L.)."></play>
+   <play context="H,2,0,V04" playid="20,13,136" type="R"
+      text="Masiero T. rush for 3 yards to the SEN1."></play>
+   <play context="H,3,0,V01" playid="20,14,137" type="R" score="Y" clock="00:40"
+      text="Masiero T. rush for 1 yard to the SEN0, TOUCHDOWN, clock 00:40."></play>
+   <play context="H,1,0,V03" playid="20,15,138" type="X"
+      text="Patrignani M. kick attempt failed (blocked) (blocked by TEAM) (Pizzin S.)."></play>
+   <score V="0" H="20"></score>
+   <drivesum plays="12" yards="66" top="6:04" driveindex="20" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="20,16,139" type="K"
+      text="Patrignani M. kickoff 53 yards to the SEN7, Alimonda De  A. return 13 yards to the SEN20 (Minazzato N.)."></play>
+   <drivestart poss="V,V20,00:40" vh="V" spot="V20" clock="00:40" driveindex="21,139"></drivestart>
+   <play context="V,1,10,V20" playid="21,1,140" clock="00:09"
+      text="SENTINELS ISONZO drive start at 00:09."></play>
+   <play context="V,1,10,V20" playid="21,2,141" type="R"
+      text="Zakrajse R. rush for 2 yards to the SEN22 (Fantin A.)."></play>
+   <play context="V,2,8,V22" playid="21,3,142" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="1" yards="2" top="0:09" driveindex="21" complete="Y"></drivesum>
+   <score final="Y" V="0" H="20"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="SEN">
+    <firstdowns no="2" rush="0" pass="1" penalty="1"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="03:56"></misc>
+    <rush att="4" yds="16" gain="16" loss="0" td="0" long="2"></rush>
+    <pass comp="2" att="5" int="0" yds="22" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="22" td="0" long="0"></rcv>
+    <defense tackua="11" tacka="0" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0" blkd="1"></defense>
+    <kr no="2" yds="25" td="0" long="0"></kr>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SAI">
+    <firstdowns no="6" rush="3" pass="2" penalty="1"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="4" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:04"></misc>
+    <rush att="13" yds="45" gain="47" loss="2" td="1" long="0"></rush>
+    <pass comp="2" att="2" int="0" yds="71" td="1" long="1" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="71" td="1" long="1"></rcv>
+    <ko no="2" yds="105" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="1"></pat>
+    <defense tackua="8" tacka="0" sacks="3" sackyds="18" ff="1"></defense>
+    <scoring td="2" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="V,2,8,V22" qtr="4" clock="00:00" vtoh="1" htoh="1"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="SEN">
+ </dnp>
+ <dnp vh="H" id="SAI">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

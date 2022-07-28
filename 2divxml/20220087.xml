@@ -1,0 +1,826 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220087" visid="AQU" homeid="HOG" visname="Aquile Ferrara" homename="Hogs Reggio Emilia"
+      date="5/15/2022" location="SCANDIANO RE" stadium="STADIO TORELLI"
+      start="20:00" end="22:20" leaguegame="Y" nitegame="Y"
+      duration="02:20" attend="50" temp="22 C" wind="NO WIND" weather="SUNNY">
+  <officials ref="G.SANFELICE" ump="P.GAIAS" line="L.CIAN" lj="M.NALDI" bj="V.VITELLI" sc="FONTECHIARI"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="94" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="AQU" name="Aquile Ferrara" record="2-3" conf-record="2-3" abb="A">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="6" rush="2" pass="4" penalty="0"></firstdowns>
+   <penalties no="5" yds="51"></penalties>
+   <conversions thirdconv="0" thirdatt="10" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="3" lost="2"></fumbles>
+   <misc yds="0" top="21:25" ona="0" onm="0"></misc>
+   <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="22" yds="12" gain="48" loss="36" td="0" long="11"></rush>
+   <pass comp="10" att="27" int="3" yds="68" td="0" long="12" sacks="0" sackyds="0"></pass>
+   <rcv no="10" yds="68" td="0" long="12"></rcv>
+   <punt no="7" yds="231" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+   <ko no="1" yds="44" ob="0" tb="0"></ko>
+   <defense tackua="32" tacka="22" tflua="5" tfla="4" tflyds="18" sacks="0" sackyds="0" brup="1" ff="1" int="1" intyds="0"></defense>
+   <kr no="4" yds="73" td="0" long="30"></kr>
+   <pr no="1" yds="10" td="0" long="10"></pr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </totals>
+  <player name="Ferrari G." shortname="Ferrari G." checkname="G.,FERRARI" uni="9" gp="1" code="9">
+   <rcv no="4" yds="24" td="0" long="12"></rcv>
+   <kr no="1" yds="19" td="0" long="19"></kr>
+  </player>
+  <player name="Bindini J." shortname="Bindini J." checkname="J.,BINDINI" uni="12" gp="1" code="12">
+   <rush att="1" yds="-3" gain="0" loss="3" td="0" long="0"></rush>
+   <rcv no="3" yds="28" td="0" long="12"></rcv>
+   <punt no="7" yds="231" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+   <defense tackua="3" tacka="1"></defense>
+   <pr no="1" yds="10" td="0" long="10"></pr>
+  </player>
+  <player name="Ghironi M." shortname="Ghironi M." checkname="M.,GHIRONI" uni="24" gp="1" code="24">
+   <rcv no="1" yds="6" td="0" long="6"></rcv>
+   <kr no="1" yds="30" td="0" long="30"></kr>
+  </player>
+  <player name="Medini M." shortname="Medini M." checkname="M.,MEDINI" uni="81" gp="1" code="81">
+   <rush att="3" yds="10" gain="10" loss="0" td="0" long="5"></rush>
+   <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+   <rcv no="1" yds="5" td="0" long="5"></rcv>
+   <kr no="2" yds="24" td="0" long="12"></kr>
+  </player>
+  <player name="Capitozzo F." shortname="Capitozzo F." checkname="F.,CAPITOZZO" uni="21" gp="1" code="21">
+   <rcv no="1" yds="5" td="0" long="5"></rcv>
+  </player>
+  <player name="Rizzo G." shortname="Rizzo G." checkname="G.,RIZZO" uni="17" gp="1" code="17">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="2" yds="-17" gain="0" loss="17" td="0" long="0"></rush>
+   <fumbles no="2" lost="1"></fumbles>
+  </player>
+  <player name="Zanella M." shortname="Zanella M." checkname="M.,ZANELLA" uni="23" gp="1" code="23"></player>
+  <player name="Carulli G." shortname="Carulli G." checkname="G.,CARULLI" uni="2" gp="1" code="2">
+   <rush att="6" yds="0" gain="6" loss="6" td="0" long="3"></rush>
+  </player>
+  <player name="Bottoni C." shortname="Bottoni C." checkname="C.,BOTTONI" uni="25" gp="1" code="25">
+   <defense tackua="1" tacka="4" tflua="0" tfla="1" tflyds="0" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Masiero C." shortname="Masiero C." checkname="C.,MASIERO" uni="28" gp="1" code="28"></player>
+  <player name="Quadretti A." shortname="Quadretti A." checkname="A.,QUADRETTI" uni="30" gp="1" code="30"></player>
+  <player name="Peressotti P." shortname="Peressotti P." checkname="P.,PERESSOTTI" uni="31" gp="1" code="31">
+   <defense tackua="6" tacka="5" tflua="1" tfla="2" tflyds="4"></defense>
+  </player>
+  <player name="Berti A." shortname="Berti A." checkname="A.,BERTI" uni="33" gp="1" code="33">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Carr&#224; S." shortname="Carr&#224; S." checkname="S.,CARR&#224;" uni="39" gp="1" code="39"></player>
+  <player name="Bastia Marce D." shortname="Bastia Marce D." checkname="MARCE D.,BASTIA" uni="42" gp="1" code="42">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Omietti G." shortname="Omietti G." checkname="G.,OMIETTI" uni="44" gp="1" code="44">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="De Rosa L." shortname="De Rosa L." checkname="ROSA L.,DE" uni="45" gp="1" code="45"></player>
+  <player name="Orlandi L." shortname="Orlandi L." checkname="L.,ORLANDI" uni="51" gp="1" code="51"></player>
+  <player name="Neodo L." shortname="Neodo L." checkname="L.,NEODO" uni="54" gp="1" code="54">
+   <defense tackua="3" tacka="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Brunetti S." shortname="Brunetti S." checkname="S.,BRUNETTI" uni="56" gp="1" code="56">
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="Maccagnani G." shortname="Maccagnani G." checkname="G.,MACCAGNANI" uni="58" gp="1" code="58"></player>
+  <player name="Cavicchi F." shortname="Cavicchi F." checkname="F.,CAVICCHI" uni="70" gp="1" code="70"></player>
+  <player name="Cellini S." shortname="Cellini S." checkname="S.,CELLINI" uni="71" gp="1" code="71"></player>
+  <player name="Giacomelli E." shortname="Giacomelli E." checkname="E.,GIACOMELLI" uni="72" gp="1" code="72">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Sartori T." shortname="Sartori T." checkname="T.,SARTORI" uni="74" gp="1" code="74">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Manente E." shortname="Manente E." checkname="E.,MANENTE" uni="75" gp="1" code="75"></player>
+  <player name="Zucchelli R." shortname="Zucchelli R." checkname="R.,ZUCCHELLI" uni="1" gp="1" code="1">
+   <rush att="10" yds="22" gain="32" loss="10" td="0" long="11"></rush>
+   <defense brup="1"></defense>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Fondi P." shortname="Fondi P." checkname="P.,FONDI" uni="91" gp="1" code="91">
+   <defense tackua="8" tacka="5" tflua="2" tfla="1" tflyds="11" ff="1"></defense>
+  </player>
+  <player name="Baldoin E." shortname="Baldoin E." checkname="E.,BALDOIN" uni="93" gp="1" code="93">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Solimine F." shortname="Solimine F." checkname="F.,SOLIMINE" uni="99" gp="1" code="99">
+   <ko no="1" yds="44" ob="0" tb="0"></ko>
+   <defense tackua="1" tacka="2"></defense>
+  </player>
+  <player name="Zucchelli Z." shortname="Zucchelli Z." checkname="Z.,ZUCCHELLI" uni="4" gp="1" code="4">
+   <pass comp="10" att="25" int="3" yds="68" td="0" long="12" sacks="0" sackyds="0"></pass>
+  </player>
+ </team>
+ <team vh="H" code="" id="HOG" name="Hogs Reggio Emilia" record="1-4" conf-record="1-4" abb="H">
+  <linescore prds="4" line="6,0,0,6" score="12">
+   <lineprd prd="1" score="6"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="9" rush="6" pass="2" penalty="1"></firstdowns>
+   <penalties no="5" yds="25"></penalties>
+   <conversions thirdconv="3" thirdatt="13" fourthconv="0" fourthatt="1"></conversions>
+   <fumbles no="1" lost="0"></fumbles>
+   <misc yds="0" top="26:35" ona="0" onm="0"></misc>
+   <redzone att="4" scores="3" points="12" tdrush="1" tdpass="0" fgmade="2" endfga="1" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="37" yds="158" gain="177" loss="19" td="1" long="34"></rush>
+   <pass comp="3" att="16" int="1" yds="26" td="0" long="13" sacks="0" sackyds="0"></pass>
+   <rcv no="3" yds="26" td="0" long="13"></rcv>
+   <punt no="7" yds="188" long="45" blkd="0" tb="1" fc="0" plus50="0" inside20="2"></punt>
+   <ko no="4" yds="220" ob="0" tb="0"></ko>
+   <fg made="2" att="3" long="27" blkd="0"></fg>
+   <pat passatt="1" passmade="0"></pat>
+   <defense tackua="23" tacka="20" tflua="5" tfla="0" tflyds="15" sacks="0" sackyds="0" brup="3" fr="2" fryds="0" int="3" intyds="17"></defense>
+   <kr no="1" yds="18" td="0" long="18"></kr>
+   <pr no="3" yds="16" td="0" long="14"></pr>
+   <ir no="3" yds="17" td="0" long="15"></ir>
+   <scoring td="1" fg="2"></scoring>
+  </totals>
+  <player name="Luzzoli N." shortname="Luzzoli N." checkname="N.,LUZZOLI" uni="84" gp="1" code="84">
+   <rcv no="1" yds="13" td="0" long="13"></rcv>
+   <punt no="7" yds="188" long="45" blkd="0" tb="1" fc="0" plus50="0" inside20="2"></punt>
+   <ko no="4" yds="220" ob="0" tb="0"></ko>
+  </player>
+  <player name="Giustini G." shortname="Giustini G." checkname="G.,GIUSTINI" uni="37" gp="1" code="37">
+   <rcv no="1" yds="13" td="0" long="13"></rcv>
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Ruozzi A." shortname="Ruozzi A." checkname="A.,RUOZZI" uni="6" gp="1" code="6">
+   <rcv no="1" yds="0" td="0" long="0"></rcv>
+   <pat passatt="1" passmade="0"></pat>
+  </player>
+  <player name="Daino E." shortname="Daino E." checkname="E.,DAINO" uni="14" gp="1" code="14">
+   <rush att="1" yds="-9" gain="0" loss="9" td="0" long="0"></rush>
+   <pass comp="3" att="16" int="1" yds="26" td="0" long="13" sacks="0" sackyds="0"></pass>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Oriunto E." shortname="Oriunto E." checkname="E.,ORIUNTO" uni="2" gp="1" code="2">
+   <defense tackua="0" tacka="6"></defense>
+  </player>
+  <player name="Russo A." shortname="Russo A." checkname="A.,RUSSO" uni="16" gp="1" code="16"></player>
+  <player name="Tegoni S." shortname="Tegoni S." checkname="S.,TEGONI" uni="21" gp="1" code="21">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Braga N." shortname="Braga N." checkname="N.,BRAGA" uni="23" gp="1" code="23">
+   <kr no="1" yds="18" td="0" long="18"></kr>
+  </player>
+  <player name="Boachie B." shortname="Boachie B." checkname="B.,BOACHIE" uni="24" gp="1" code="24">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="1" yds="-1" gain="0" loss="1" td="0" long="0"></rush>
+  </player>
+  <player name="Archenti E." shortname="Archenti E." checkname="E.,ARCHENTI" uni="28" gp="1" code="28"></player>
+  <player name="Borsari L." shortname="Borsari L." checkname="L.,BORSARI" uni="29" gp="1" code="29">
+   <defense tackua="3" tacka="0" tflua="1" tfla="0" tflyds="5" brup="1" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Kolombi D." shortname="Kolombi D." checkname="D.,KOLOMBI" uni="33" gp="1" code="33"></player>
+  <player name="Gazzotti F." shortname="Gazzotti F." checkname="F.,GAZZOTTI" uni="34" gp="1" code="34"></player>
+  <player name="Inmwan Mona D." shortname="Inmwan Mona D." checkname="MONA D.,INMWAN" uni="86" gp="1" code="86">
+   <rush att="10" yds="42" gain="46" loss="4" td="0" long="21"></rush>
+  </player>
+  <player name="Baldini G." shortname="Baldini G." checkname="G.,BALDINI" uni="40" gp="1" code="40">
+   <defense tackua="4" tacka="0" brup="1" int="1" intyds="2"></defense>
+   <ir no="1" yds="2" td="0" long="2"></ir>
+  </player>
+  <player name="Rizzuti A." shortname="Rizzuti A." checkname="A.,RIZZUTI" uni="43" gp="1" code="43">
+   <defense tackua="1" tacka="5" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Zanni R." shortname="Zanni R." checkname="R.,ZANNI" uni="44" gp="1" code="44">
+   <defense tackua="2" tacka="2" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Giacomelli F." shortname="Giacomelli F." checkname="F.,GIACOMELLI" uni="52" gp="1" code="52"></player>
+  <player name="Cordani M." shortname="Cordani M." checkname="M.,CORDANI" uni="55" gp="1" code="55"></player>
+  <player name="Morlini D." shortname="Morlini D." checkname="D.,MORLINI" uni="56" gp="1" code="56">
+   <defense tackua="3" tacka="1" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Mazzani M." shortname="Mazzani M." checkname="M.,MAZZANI" uni="58" gp="1" code="58"></player>
+  <player name="Battistini F." shortname="Battistini F." checkname="F.,BATTISTINI" uni="59" gp="1" code="59">
+   <defense tackua="1" tacka="0" fr="1" fryds="0" int="1" intyds="15"></defense>
+   <ir no="1" yds="15" td="0" long="15"></ir>
+  </player>
+  <player name="Camorani R." shortname="Camorani R." checkname="R.,CAMORANI" uni="61" gp="1" code="61"></player>
+  <player name="Marino N." shortname="Marino N." checkname="N.,MARINO" uni="63" gp="1" code="63">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="5"></defense>
+  </player>
+  <player name="Raffaelli D." shortname="Raffaelli D." checkname="D.,RAFFAELLI" uni="70" gp="1" code="70"></player>
+  <player name="Rozzi L." shortname="Rozzi L." checkname="L.,ROZZI" uni="71" gp="1" code="71"></player>
+  <player name="El Amrani Ej K." shortname="El Amrani Ej K." checkname="AMRANI EJ K.,EL" uni="73" gp="1" code="73"></player>
+  <player name="Bertagnini D." shortname="Bertagnini D." checkname="D.,BERTAGNINI" uni="75" gp="1" code="75"></player>
+  <player name="Falavigna D." shortname="Falavigna D." checkname="D.,FALAVIGNA" uni="82" gp="1" code="82"></player>
+  <player name="Buriani R." shortname="Buriani R." checkname="R.,BURIANI" uni="26" gp="1" code="26">
+   <rush att="25" yds="126" gain="131" loss="5" td="1" long="34"></rush>
+   <pr no="3" yds="16" td="0" long="14"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Boschini S." shortname="Boschini S." checkname="S.,BOSCHINI" uni="5" gp="1" code="5">
+   <defense tackua="2" tacka="2" brup="1"></defense>
+  </player>
+  <player name="Fontana A." shortname="Fontana A." checkname="A.,FONTANA" uni="4" gp="1" code="4">
+   <fg made="2" att="3" long="27" blkd="0"></fg>
+   <defense tackua="2" tacka="4" tflua="1" tfla="0" tflyds="1"></defense>
+   <scoring fg="2"></scoring>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="HOG" qtr="1" clock="09:03" type="FG" yds="27" scorer="Fontana A." plays="3" drive="2" top="2:08" vscore="0" hscore="3" driveindex="2"></score>
+  <score vh="H" team="HOG" qtr="1" clock="03:40" type="FG" yds="24" scorer="Fontana A." plays="3" drive="9" top="2:18" vscore="0" hscore="6" driveindex="6"></score>
+  <score vh="H" team="HOG" qtr="4" clock="03:29" type="TD" how="RUSH" yds="7" scorer="Buriani R." patby="Ruozzi A." pattype="PASS" patres="FAIL" plays="6" drive="57" top="3:11" vscore="0" hscore="12" driveindex="25"></score>
+ </scores>
+ <fgas>
+  <fga vh="H" team="HOG" kicker="Fontana A." qtr="1" clock="09:03" distance="27" result="good"></fga>
+  <fga vh="H" team="HOG" kicker="Fontana A." qtr="1" clock="06:03" distance="35" result="missed"></fga>
+  <fga vh="H" team="HOG" kicker="Fontana A." qtr="1" clock="03:40" distance="24" result="good"></fga>
+ </fgas>
+ <drives>
+  <drive vh="V" team="AQU" start="KO,1,12:00,21" end="FUMB,1,11:11,12" plays="2" yards="-9" top="0:49" driveindex="1"></drive>
+  <drive vh="H" team="HOG" start="FUMB,1,11:11,82" end="FG,1,09:03,84" plays="3" yards="2" top="2:08" rz="1" driveindex="2"></drive>
+  <drive vh="V" team="AQU" start="KO,1,09:03,20" end="DOWNS,1,07:02,20" plays="4" yards="0" top="2:01" driveindex="3"></drive>
+  <drive vh="H" team="HOG" start="DOWNS,1,07:02,74" end="FGA,1,06:03,76" plays="3" yards="2" top="0:59" rz="1" driveindex="4"></drive>
+  <drive vh="V" team="AQU" start="FGA,1,06:03,20" end="FUMB,1,05:58,16" plays="1" yards="-4" top="0:05" driveindex="5"></drive>
+  <drive vh="H" team="HOG" start="FUMB,1,05:58,78" end="FG,1,03:40,87" plays="3" yards="9" top="2:18" rz="1" driveindex="6"></drive>
+  <drive vh="V" team="AQU" start="KO,1,03:40,33" end="PUNT,1,00:52,36" plays="3" yards="3" top="2:48" driveindex="7"></drive>
+  <drive vh="H" team="HOG" start="PUNT,1,00:52,36" end="INT,1,00:43,36" plays="2" yards="0" top="0:09" driveindex="8"></drive>
+  <drive vh="V" team="AQU" start="INT,1,00:43,54" end="INT,2,09:56,67" plays="6" yards="13" top="2:47" driveindex="9"></drive>
+  <drive vh="H" team="HOG" start="INT,2,09:56,19" end="PUNT,2,07:36,24" plays="3" yards="5" top="2:20" driveindex="10"></drive>
+  <drive vh="V" team="AQU" start="PUNT,2,07:36,35" end="INT,2,05:50,41" plays="4" yards="6" top="1:46" driveindex="11"></drive>
+  <drive vh="H" team="HOG" start="INT,2,05:50,69" end="PUNT,2,04:41,67" plays="3" yards="-2" top="1:09" driveindex="12"></drive>
+  <drive vh="V" team="AQU" start="PUNT,2,04:41,20" end="PUNT,2,03:38,24" plays="3" yards="4" top="1:03" driveindex="13"></drive>
+  <drive vh="H" team="HOG" start="PUNT,2,03:38,39" end="PUNT,2,01:43,58" plays="4" yards="19" top="1:55" driveindex="14"></drive>
+  <drive vh="V" team="AQU" start="PUNT,2,01:43,18" end="PUNT,2,00:45,41" plays="4" yards="23" top="0:58" driveindex="15"></drive>
+  <drive vh="H" team="HOG" start="PUNT,2,00:45,16" end="HALF,2,00:00,56" plays="4" yards="40" top="0:45" driveindex="16"></drive>
+  <drive vh="H" team="HOG" start="KO,3,12:00,38" end="PUNT,3,08:15,57" plays="6" yards="19" top="3:45" driveindex="17"></drive>
+  <drive vh="V" team="AQU" start="PUNT,3,08:15,15" end="PUNT,3,06:00,24" plays="3" yards="9" top="2:15" driveindex="18"></drive>
+  <drive vh="H" team="HOG" start="PUNT,3,06:00,42" end="PUNT,3,03:48,63" plays="4" yards="21" top="2:12" driveindex="19"></drive>
+  <drive vh="V" team="AQU" start="PUNT,3,03:48,20" end="PUNT,3,02:03,24" plays="3" yards="4" top="1:45" driveindex="20"></drive>
+  <drive vh="H" team="HOG" start="PUNT,3,02:03,45" end="DOWNS,3,00:00,58" plays="6" yards="13" top="2:03" driveindex="21"></drive>
+  <drive vh="V" team="AQU" start="DOWNS,4,12:00,36" end="PUNT,4,10:42,24" plays="3" yards="-12" top="1:18" driveindex="22"></drive>
+  <drive vh="H" team="HOG" start="PUNT,4,10:42,31" end="PUNT,4,08:46,35" plays="3" yards="4" top="1:56" driveindex="23"></drive>
+  <drive vh="V" team="AQU" start="PUNT,4,08:46,28" end="INT,4,06:40,54" plays="5" yards="26" top="2:06" driveindex="24"></drive>
+  <drive vh="H" team="HOG" start="INT,4,06:40,37" end="TD,4,03:29,94" plays="6" yards="57" top="3:11" rz="1" driveindex="25"></drive>
+  <drive vh="V" team="AQU" start="KO,4,03:29,35" end="PUNT,4,02:40,36" plays="3" yards="1" top="0:49" driveindex="26"></drive>
+  <drive vh="H" team="HOG" start="PUNT,4,02:40,25" end="PUNT,4,00:55,30" plays="3" yards="5" top="1:45" driveindex="27"></drive>
+  <drive vh="V" team="AQU" start="PUNT,4,00:55,30" end="HALF,4,00:00,30" plays="5" yards="0" top="0:55" driveindex="28"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0"
+      text="HOGS REGGIO EMILIA WIN THE COIN TOSS, DEFER TO SECOND HALF"></play>
+   <play context="V,1,10,V30" playid="0,2,1"
+      text="HOG ball on HOG30."></play>
+   <play context="H,1,10,H30" playid="0,3,2" type="K"
+      text="Luzzoli N. kickoff 55 yards to the AQU9, Medini M. return 12 yards to the AQU21 (Oriunto E.;Zanni R.)."></play>
+   <drivestart poss="V,V21,12:00" vh="V" spot="V21" clock="12:00" driveindex="1,2"></drivestart>
+   <play context="V,1,10,V21" playid="1,1,3" type="R"
+      text="Zucchelli R. rush for 2 yards to the AQU23 (Morlini D.;Rizzuti A.)."></play>
+   <play context="V,2,8,V23" playid="1,2,4" type="R" turnover="F"
+      text="TEAM rush for loss of 11 yards to the AQU12, fumble by TEAM recovered by HOG Rizzuti A. at AQU12."></play>
+   <drivesum plays="2" yards="-9" top="0:49" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,V12,12:00" vh="H" spot="V12" clock="12:00" driveindex="2,4"></drivestart>
+   <play context="H,1,10,V12" playid="2,1,5" clock="11:11"
+      text="HOGS REGGIO EMILIA drive start at 11:11."></play>
+   <play context="H,1,10,V12" playid="2,2,6" type="R"
+      text="Buriani R. rush for 1 yard to the AQU11 (Peressotti P.)."></play>
+   <play context="H,2,9,V11" playid="2,3,7" type="R"
+      text="Buriani R. rush for 1 yard to the AQU10 (Baldoin E.)."></play>
+   <play context="H,3,8,V10" playid="2,4,8" type="#" clock="09:46"
+      text="Timeout Hogs Reggio Emilia, clock 09:46."></play>
+   <play context="H,3,8,V10" playid="2,5,9" type="P"
+      text="Daino E. pass incomplete to Inmwan Mona D.."></play>
+   <play context="H,4,8,V10" playid="2,6,10" type="F" score="Y" clock="09:03"
+      text="Fontana A. field goal attempt from 27 GOOD, clock 09:03."></play>
+   <score V="0" H="3"></score>
+   <drivesum plays="3" yards="2" top="2:08" driveindex="2" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="2,7,11" type="K"
+      text="Luzzoli N. kickoff 56 yards to the AQU8, Medini M. return 12 yards to the AQU20 (Baldini G.)."></play>
+   <drivestart poss="V,V20,09:03" vh="V" spot="V20" clock="09:03" driveindex="3,11"></drivestart>
+   <play context="V,1,10,V20" playid="3,1,12" clock="09:03"
+      text="AQUILE FERRARA drive start at 09:03."></play>
+   <play context="V,1,10,V20" playid="3,2,13" type="R"
+      text="Zucchelli R. rush for loss of 1 yard to the AQU19 (Fontana A.)."></play>
+   <play context="V,2,11,V19" playid="3,3,14" type="P"
+      text="Zucchelli Z. pass incomplete to Zucchelli R.."></play>
+   <play context="V,3,11,V19" playid="3,4,15" type="R"
+      text="Zucchelli R. rush for 4 yards to the AQU23 (Fontana A.;Rizzuti A.)."></play>
+   <play context="V,4,7,V23" playid="3,5,16" type="R"
+      text="Bindini J. rush for loss of 3 yards to the AQU20 (Zanni R.)."></play>
+   <drivesum plays="4" yards="0" top="2:01" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,V20,09:03" vh="H" spot="V20" clock="09:03" driveindex="4,16"></drivestart>
+   <play context="H,1,10,V20" playid="4,1,17" clock="07:02"
+      text="HOGS REGGIO EMILIA drive start at 07:02."></play>
+   <play context="H,1,10,V20" playid="4,2,18" type="P"
+      text="Daino E. pass incomplete to Falavigna D.."></play>
+   <play context="H,2,10,V20" playid="4,3,19" type="R"
+      text="Buriani R. rush for 2 yards to the AQU18 (Fondi P.;Peressotti P.)."></play>
+   <play context="H,3,8,V18" playid="4,4,20" type="P"
+      text="Daino E. pass incomplete to Braga N.."></play>
+   <play context="H,4,8,V18" playid="4,5,21" type="F" clock="06:03"
+      text="Fontana A. field goal attempt from 35 MISSED - wide right, spot at AQU20, clock 06:03."></play>
+   <drivesum plays="3" yards="2" top="0:59" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V20,06:03" vh="V" spot="V20" clock="06:03" driveindex="5,21"></drivestart>
+   <play context="V,1,10,V20" playid="5,1,22" type="R" turnover="F"
+      text="Zucchelli R. rush for loss of 4 yards to the AQU16, fumble by Zucchelli R. recovered by HOG Battistini F. at AQU16."></play>
+   <drivesum plays="1" yards="-4" top="0:05" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,V16,06:03" vh="H" spot="V16" clock="06:03" driveindex="6,22"></drivestart>
+   <play context="H,1,10,V16" playid="6,1,23" clock="05:58"
+      text="HOGS REGGIO EMILIA drive start at 05:58."></play>
+   <play context="H,1,10,V16" playid="6,2,24" type="R"
+      text="Buriani R. rush for 8 yards to the AQU8 (Fondi P.)."></play>
+   <play context="H,2,2,V08" playid="6,3,25" type="R"
+      text="Buriani R. rush for 1 yard to the AQU7 (Peressotti P.)."></play>
+   <play context="H,3,1,V07" playid="6,4,26" type="R"
+      text="Inmwan Mona D. rush for no gain to the AQU7 (Fondi P.)."></play>
+   <play context="H,4,1,V07" playid="6,5,27" type="F" score="Y" clock="03:40"
+      text="Fontana A. field goal attempt from 24 GOOD, clock 03:40."></play>
+   <score V="0" H="6"></score>
+   <drivesum plays="3" yards="9" top="2:18" driveindex="6" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="6,6,28" type="K"
+      text="Luzzoli N. kickoff 50 yards to the AQU14, Ferrari G. return 19 yards to the AQU33 (Giustini G.)."></play>
+   <drivestart poss="V,V33,03:40" vh="V" spot="V33" clock="03:40" driveindex="7,28"></drivestart>
+   <play context="V,1,10,V33" playid="7,1,29" clock="03:40"
+      text="AQUILE FERRARA drive start at 03:40."></play>
+   <play context="V,1,10,V33" playid="7,2,30" type="R"
+      text="Medini M. rush for 5 yards to the AQU38 (Zanni R.;Oriunto E.)."></play>
+   <play context="V,2,5,V38" playid="7,3,31" type="R"
+      text="Zucchelli R. rush for 3 yards to the AQU41 (Fontana A.;Rizzuti A.)."></play>
+   <play context="V,3,2,V41" playid="7,4,32" type="R"
+      text="Zucchelli R. rush for loss of 5 yards to the AQU36 (Borsari L.)."></play>
+   <play context="V,4,7,V36" playid="7,5,33" type="U"
+      text="Bindini J. punt 36 yards to the HOG22, Buriani R. return 14 yards to the HOG36 (Neodo L.)."></play>
+   <drivesum plays="3" yards="3" top="2:48" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H36,03:40" vh="H" spot="H36" clock="03:40" driveindex="8,33"></drivestart>
+   <play context="H,1,10,H36" playid="8,1,34" clock="00:52"
+      text="HOGS REGGIO EMILIA drive start at 00:52."></play>
+   <play context="H,1,10,H36" playid="8,2,35" type="P"
+      text="Daino E. pass incomplete to Giustini G.."></play>
+   <play context="H,2,10,H36" playid="8,3,36" type="P" turnover="I"
+      text="Daino E. pass intercepted by Bottoni C. at the HOG40, Bottoni C. return 0 yards to the HOG40 (Giustini G.)."></play>
+   <drivesum plays="2" yards="0" top="0:09" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,H40,00:52" vh="V" spot="H40" clock="00:52" driveindex="9,36"></drivestart>
+   <play context="V,1,10,H40" playid="9,1,37" clock="00:43"
+      text="AQUILE FERRARA drive start at 00:43."></play>
+   <play context="V,1,10,H40" playid="9,2,38" type="R"
+      text="TEAM rush for loss of 6 yards to the HOG46, fumble by TEAM recovered by AQU Zucchelli Z. at HOG46."></play>
+   <play context="V,2,16,H46" playid="9,3,39" type="R"
+      text="Zucchelli R. rush for 6 yards to the HOG40 (Fontana A.;Oriunto E.)."></play>
+   <score qtr="1" V="0" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AQU">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="3" lost="2"></fumbles>
+    <misc yds="0" top="06:26"></misc>
+    <rush att="11" yds="-10" gain="20" loss="30" td="0" long="6"></rush>
+    <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="1" yds="36" long="36" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="6" tacka="2" sacks="0" sackyds="0" int="1" intyds="0"></defense>
+    <kr no="3" yds="43" td="0" long="19"></kr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <fumbles no="3" lost="2"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="HOG">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:34"></misc>
+    <rush att="6" yds="13" gain="13" loss="0" td="0" long="8"></rush>
+    <pass comp="0" att="5" int="1" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <ko no="3" yds="161" ob="0" tb="0"></ko>
+    <fg made="2" att="3" long="27" blkd="0"></fg>
+    <defense tackua="6" tacka="12" tflua="3" tfla="0" tflyds="9" sacks="0" sackyds="0" fr="2" fryds="0"></defense>
+    <pr no="1" yds="14" td="0" long="14"></pr>
+    <scoring fg="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,3,10,H40" playid="9,4,40" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="V,3,10,H40" playid="9,5,41" type="P"
+      text="Zucchelli Z. pass complete to Bindini J. for 9 yards to the HOG31 (Boschini S.)."></play>
+   <play context="V,4,1,H31" playid="9,6,42" type="R" first="R"
+      text="Zucchelli R. rush for 3 yards to the HOG28, 1ST DOWN AQU, out-of-bounds (Borsari L.)."></play>
+   <play context="V,1,10,H28" playid="9,7,43" type="R"
+      text="Medini M. rush for 1 yard to the HOG27, out-of-bounds (Rizzuti A.)."></play>
+   <play context="V,2,9,H27" playid="9,8,44" type="P" turnover="I"
+      text="Zucchelli Z. pass intercepted by Borsari L. at the HOG19, Borsari L. return 0 yards to the HOG19."></play>
+   <drivesum plays="6" yards="13" top="2:47" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,H19,12:00" vh="H" spot="H19" clock="12:00" driveindex="10,44"></drivestart>
+   <play context="H,1,10,H19" playid="10,1,45" clock="09:56"
+      text="HOGS REGGIO EMILIA drive start at 09:56."></play>
+   <play context="H,1,10,H19" playid="10,2,46" type="R"
+      text="Buriani R. rush for 7 yards to the HOG26 (Brunetti S.)."></play>
+   <play context="H,2,3,H26" playid="10,3,47" type="R"
+      text="Buriani R. rush for loss of 1 yard to the HOG25 (Fondi P.)."></play>
+   <play context="H,3,4,H25" playid="10,4,48" type="R"
+      text="Buriani R. rush for loss of 1 yard to the HOG24 (Neodo L.)."></play>
+   <play context="H,4,5,H24" playid="10,5,49" type="#" clock="07:57"
+      text="Timeout Hogs Reggio Emilia, clock 07:57."></play>
+   <play context="H,4,5,H24" playid="10,6,50" type="U"
+      text="Luzzoli N. punt 45 yards to the AQU25, Bindini J. return 10 yards to the AQU35 (Boschini S.;Fontana A.)."></play>
+   <drivesum plays="3" yards="5" top="2:20" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V35,07:57" vh="V" spot="V35" clock="07:57" driveindex="11,50"></drivestart>
+   <play context="V,1,10,V35" playid="11,1,51" clock="07:36"
+      text="AQUILE FERRARA drive start at 07:36."></play>
+   <play context="V,1,10,V35" playid="11,2,52" type="P"
+      text="Zucchelli Z. pass complete to Medini M. for 5 yards to the AQU40, out-of-bounds."></play>
+   <play context="V,2,5,V40" playid="11,3,53" type="P" first="P"
+      text="Zucchelli Z. pass complete to Ferrari G. for 6 yards to the AQU46, 1ST DOWN AQU (Fontana A.)."></play>
+   <play context="V,1,10,V46" playid="11,4,54" type="E"
+      text="PENALTY AQU delay of game 5 yards to the AQU41."></play>
+   <play context="V,1,15,V41" playid="11,5,55" type="P"
+      text="Zucchelli Z. pass incomplete to Medini M. (Boschini S.)."></play>
+   <play context="V,2,15,V41" playid="11,6,56" type="P" turnover="I"
+      text="Zucchelli Z. pass intercepted by Battistini F. at the AQU40, Battistini F. return 15 yards to the AQU25 (Giacomelli E.)."></play>
+   <drivesum plays="4" yards="6" top="1:46" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,V25,07:36" vh="H" spot="V25" clock="07:36" driveindex="12,56"></drivestart>
+   <play context="H,1,10,V25" playid="12,1,57" clock="05:50"
+      text="HOGS REGGIO EMILIA drive start at 05:50."></play>
+   <play context="H,1,10,V25" playid="12,2,58" type="E"
+      text="PENALTY HOG false start 5 yards to the AQU30."></play>
+   <play context="H,1,15,V30" playid="12,3,59" type="P"
+      text="Daino E. pass incomplete to Giustini G. (Zucchelli R.)."></play>
+   <play context="H,2,15,V30" playid="12,4,60" type="P"
+      text="Daino E. pass incomplete to Falavigna D.."></play>
+   <play context="H,3,15,V30" playid="12,5,61" type="R"
+      text="Buriani R. rush for 3 yards to the AQU27 (Fondi P.;Baldoin E.)."></play>
+   <play context="H,4,12,V27" playid="12,6,62" type="U"
+      text="Luzzoli N. punt 7 yards to the AQU20."></play>
+   <drivesum plays="3" yards="-2" top="1:09" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V20,05:50" vh="V" spot="V20" clock="05:50" driveindex="13,62"></drivestart>
+   <play context="V,1,10,V20" playid="13,1,63" clock="04:41"
+      text="AQUILE FERRARA drive start at 04:41."></play>
+   <play context="V,1,10,V20" playid="13,2,64" type="R"
+      text="Medini M. rush for 4 yards to the AQU24 (Rizzuti A.;Oriunto E.)."></play>
+   <play context="V,2,6,V24" playid="13,3,65" type="P"
+      text="Medini M. pass incomplete to Ghironi M.."></play>
+   <play context="V,3,6,V24" playid="13,4,66" type="P"
+      text="Medini M. pass incomplete to Ghironi M.."></play>
+   <play context="V,4,6,V24" playid="13,5,67" type="U"
+      text="Bindini J. punt 31 yards to the HOG39."></play>
+   <drivesum plays="3" yards="4" top="1:03" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H39,04:41" vh="H" spot="H39" clock="04:41" driveindex="14,67"></drivestart>
+   <play context="H,1,10,H39" playid="14,1,68" clock="03:38"
+      text="HOGS REGGIO EMILIA drive start at 03:38."></play>
+   <play context="H,1,10,H39" playid="14,2,69" type="P" first="P"
+      text="Daino E. pass complete to Giustini G. for 13 yards to the AQU42, 1ST DOWN HOG (Bottoni C.;Bindini J.), PENALTY AQU personal foul (Cavicchi F.) 15 yards to the AQU27, 1ST DOWN HOG."></play>
+   <play context="H,1,10,V27" playid="14,3,70"
+      text="1st and 10."></play>
+   <play context="H,1,10,V27" playid="14,4,71" type="R"
+      text="Daino E. rush for loss of 9 yards to the AQU36, fumble forced by Fondi P., fumble by Daino E. recovered by HOG Daino E. at AQU36."></play>
+   <play context="H,2,19,V36" playid="14,5,72" type="R"
+      text="Buriani R. rush for no gain to the AQU36 (Neodo L.)."></play>
+   <play context="H,3,19,V36" playid="14,6,73" type="P"
+      text="Daino E. pass incomplete to Braga N.."></play>
+   <play context="H,4,19,V36" playid="14,7,74" type="U"
+      text="Luzzoli N. punt 18 yards to the AQU18, out-of-bounds."></play>
+   <drivesum plays="4" yards="19" top="1:55" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,V18,03:38" vh="V" spot="V18" clock="03:38" driveindex="15,74"></drivestart>
+   <play context="V,1,10,V18" playid="15,1,75" clock="01:43"
+      text="AQUILE FERRARA drive start at 01:43."></play>
+   <play context="V,1,10,V18" playid="15,2,76" type="P"
+      text="Zucchelli Z. pass complete to Ghironi M. for 6 yards to the AQU24 (Zanni R.)."></play>
+   <play context="V,2,4,V24" playid="15,3,77" type="#" clock="01:30"
+      text="Timeout Aquile Ferrara, clock 01:30."></play>
+   <play context="V,2,4,V24" playid="15,4,78" type="P" first="P"
+      text="Zucchelli Z. pass complete to Bindini J. for 12 yards to the AQU36, 1ST DOWN AQU, out-of-bounds (Tegoni S.)."></play>
+   <play context="V,1,10,V36" playid="15,5,79" type="P"
+      text="Zucchelli Z. pass incomplete."></play>
+   <play context="V,2,10,V36" playid="15,6,80" type="E"
+      text="Zucchelli Z. pass incomplete to Ghironi M., PENALTY HOG offside defense 5 yards to the AQU41, NO PLAY."></play>
+   <play context="V,2,5,V41" playid="15,7,81" type="P"
+      text="Zucchelli Z. pass incomplete to Ghironi M.."></play>
+   <play context="V,3,5,V41" playid="15,8,82" type="U"
+      text="Bindini J. punt 37 yards to the HOG16."></play>
+   <drivesum plays="4" yards="23" top="0:58" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H16,01:30" vh="H" spot="H16" clock="01:30" driveindex="16,82"></drivestart>
+   <play context="H,1,10,H16" playid="16,1,83" clock="00:45"
+      text="HOGS REGGIO EMILIA drive start at 00:45."></play>
+   <play context="H,1,10,H16" playid="16,2,84" type="R"
+      text="Buriani R. rush for no gain to the HOG16 (Peressotti P.)."></play>
+   <play context="H,2,10,H16" playid="16,3,85" type="#" clock="00:38"
+      text="Timeout Aquile Ferrara, clock 00:38."></play>
+   <play context="H,2,10,H16" playid="16,4,86" type="E"
+      text="PENALTY AQU offside defense 5 yards to the HOG21."></play>
+   <play context="H,2,5,H21" playid="16,5,87" type="R"
+      text="Buriani R. rush for 2 yards to the HOG23 (Peressotti P.)."></play>
+   <play context="H,3,3,H23" playid="16,6,88" type="#" clock="00:28"
+      text="Timeout Aquile Ferrara, clock 00:28."></play>
+   <play context="H,3,3,H23" playid="16,7,89" type="R" first="R"
+      text="Buriani R. rush for 34 yards to the AQU37, 1ST DOWN HOG (Fondi P.)."></play>
+   <play context="H,1,10,V37" playid="16,8,90" type="#" clock="00:20"
+      text="Timeout Hogs Reggio Emilia, clock 00:20."></play>
+   <play context="H,1,10,V37" playid="16,9,91" type="R"
+      text="TEAM rush for loss of 1 yard to the AQU38."></play>
+   <play context="H,2,11,V38" playid="16,10,92" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="4" yards="40" top="0:45" driveindex="16" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AQU">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="3" yds="25"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:51"></misc>
+    <rush att="3" yds="8" gain="8" loss="0" td="0" long="0"></rush>
+    <pass comp="5" att="12" int="2" yds="38" td="0" long="12" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="38" td="0" long="12"></rcv>
+    <punt no="2" yds="68" long="1" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <defense tackua="9" tacka="4" tflua="3" tfla="0" tflyds="11" sacks="0" sackyds="0" brup="1" ff="1"></defense>
+    <pr no="1" yds="10" td="0" long="10"></pr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="HOG">
+    <firstdowns no="3" rush="1" pass="1" penalty="1"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="06:09"></misc>
+    <rush att="10" yds="34" gain="46" loss="12" td="0" long="26"></rush>
+    <pass comp="1" att="4" int="0" yds="13" td="0" long="13" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="13" td="0" long="13"></rcv>
+    <punt no="3" yds="70" long="45" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <defense tackua="6" tacka="4" sacks="0" sackyds="0" brup="1" int="2" intyds="15"></defense>
+    <ir no="2" yds="15" td="0" long="15"></ir>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="H,2,11,V38" playid="16,11,93" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, AQU ball on AQU30."></play>
+   <play context="V,2,11,V30" playid="16,12,94" type="K"
+      text="Solimine F. kickoff 44 yards to the HOG20, Braga N. return 18 yards to the HOG38 (Bastia Marce D.)."></play>
+   <drivestart poss="H,H38,12:00" vh="H" spot="H38" clock="12:00" driveindex="17,94"></drivestart>
+   <play context="H,1,10,H38" playid="17,1,95" clock="12:00"
+      text="HOGS REGGIO EMILIA drive start at 12:00."></play>
+   <play context="H,1,10,H38" playid="17,2,96" type="R"
+      text="Buriani R. rush for loss of 2 yards to the HOG36 (Peressotti P.;Fondi P.)."></play>
+   <play context="H,2,12,H36" playid="17,3,97" type="R"
+      text="Inmwan Mona D. rush for 5 yards to the HOG41 (Brunetti S.)."></play>
+   <play context="H,3,7,H41" playid="17,4,98" type="E"
+      text="PENALTY HOG false start 5 yards to the HOG36."></play>
+   <play context="H,3,12,H36" playid="17,5,99" type="P" first="P"
+      text="Daino E. pass complete to Luzzoli N. for 13 yards to the AQU45, 1ST DOWN HOG (Bindini J.)."></play>
+   <play context="H,1,10,V45" playid="17,6,100" type="R"
+      text="Inmwan Mona D. rush for 4 yards to the AQU41 (Fondi P.)."></play>
+   <play context="H,2,6,V41" playid="17,7,101" type="E"
+      text="Daino E. pass incomplete, PENALTY HOG offside defense off-setting, PENALTY AQU intentional grounding off-setting, NO PLAY."></play>
+   <play context="H,2,6,V41" playid="17,8,102" type="R"
+      text="Inmwan Mona D. rush for 4 yards to the AQU37 (Fondi P.)."></play>
+   <play context="H,3,2,V37" playid="17,9,103" type="P"
+      text="Daino E. pass incomplete to Giustini G.."></play>
+   <play context="H,4,2,V37" playid="17,10,104" type="U"
+      text="Luzzoli N. punt 22 yards to the AQU15."></play>
+   <drivesum plays="6" yards="19" top="3:45" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="V,V15,12:00" vh="V" spot="V15" clock="12:00" driveindex="18,104"></drivestart>
+   <play context="V,1,10,V15" playid="18,1,105" clock="08:15"
+      text="AQUILE FERRARA drive start at 08:15."></play>
+   <play context="V,1,10,V15" playid="18,2,106" type="E"
+      text="PENALTY HOG offside defense 5 yards to the AQU20."></play>
+   <play context="V,1,5,V20" playid="18,3,107" type="R"
+      text="Carulli G. rush for 3 yards to the AQU23 (Baldini G.)."></play>
+   <play context="V,2,2,V23" playid="18,4,108" type="R"
+      text="Carulli G. rush for 1 yard to the AQU24 (Morlini D.)."></play>
+   <play context="V,3,1,V24" playid="18,5,109" type="R"
+      text="Carulli G. rush for no gain to the AQU24 (Battistini F.)."></play>
+   <play context="V,4,1,V24" playid="18,6,110" type="U"
+      text="Bindini J. punt 28 yards to the HOG42."></play>
+   <drivesum plays="3" yards="9" top="2:15" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="H,H42,08:15" vh="H" spot="H42" clock="08:15" driveindex="19,110"></drivestart>
+   <play context="H,1,10,H42" playid="19,1,111" clock="06:00"
+      text="HOGS REGGIO EMILIA drive start at 06:00."></play>
+   <play context="H,1,10,H42" playid="19,2,112" type="P"
+      text="Daino E. pass incomplete to Braga N.."></play>
+   <play context="H,2,10,H42" playid="19,3,113" type="R" first="R"
+      text="Inmwan Mona D. rush for 21 yards to the AQU31, 1ST DOWN HOG (Peressotti P.)."></play>
+   <play context="H,1,10,V31" playid="19,4,114" type="P"
+      text="Daino E. pass complete to Ruozzi A. for no gain to the AQU31 (Bindini J.)."></play>
+   <play context="H,2,10,V31" playid="19,5,115" type="P"
+      text="Daino E. pass incomplete."></play>
+   <play context="H,3,10,V31" playid="19,6,116" type="U"
+      text="Luzzoli N. punt 31 yards to the AQU0, touchback."></play>
+   <drivesum plays="4" yards="21" top="2:12" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="V,V20,06:00" vh="V" spot="V20" clock="06:00" driveindex="20,116"></drivestart>
+   <play context="V,1,10,V20" playid="20,1,117" clock="03:48"
+      text="AQUILE FERRARA drive start at 03:48."></play>
+   <play context="V,1,10,V20" playid="20,2,118" type="R"
+      text="Carulli G. rush for loss of 1 yard to the AQU19 (Morlini D.)."></play>
+   <play context="V,2,11,V19" playid="20,3,119" type="P"
+      text="Zucchelli Z. pass complete to Ferrari G. for 5 yards to the AQU24, out-of-bounds (Boachie B.)."></play>
+   <play context="V,3,6,V24" playid="20,4,120" type="P"
+      text="Zucchelli Z. pass incomplete."></play>
+   <play context="V,4,6,V24" playid="20,5,121" type="U"
+      text="Bindini J. punt 25 yards to the HOG45, Buriani R. return 0 yards to the HOG45 (Bastia Marce D.)."></play>
+   <drivesum plays="3" yards="4" top="1:45" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="H,H45,03:48" vh="H" spot="H45" clock="03:48" driveindex="21,121"></drivestart>
+   <play context="H,1,10,H45" playid="21,1,122" clock="02:03"
+      text="HOGS REGGIO EMILIA drive start at 02:03."></play>
+   <play context="H,1,10,H45" playid="21,2,123" type="R"
+      text="Inmwan Mona D. rush for 4 yards to the AQU45 (Fondi P.)."></play>
+   <play context="H,2,6,V45" playid="21,3,124" type="R" first="R"
+      text="Inmwan Mona D. rush for 7 yards to the AQU38, 1ST DOWN HOG (Bottoni C.;Peressotti P.)."></play>
+   <play context="H,1,10,V38" playid="21,4,125" type="R"
+      text="Inmwan Mona D. rush for loss of 2 yards to the AQU40 (Peressotti P.)."></play>
+   <play context="H,2,12,V40" playid="21,5,126" type="P"
+      text="Daino E. pass incomplete to Luzzoli N.."></play>
+   <play context="H,3,12,V40" playid="21,6,127" type="R"
+      text="Buriani R. rush for 5 yards to the AQU35."></play>
+   <play context="H,4,7,V35" playid="21,7,128" type="R"
+      text="Buriani R. rush for loss of 1 yard to the AQU36 (Peressotti P.;Bottoni C.)."></play>
+   <drivesum plays="6" yards="13" top="2:03" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="V,V36,02:03" vh="V" spot="V36" clock="02:03" driveindex="22,128"></drivestart>
+   <play context="V,1,10,V36" playid="22,1,129" clock="00:00"
+      text="AQUILE FERRARA drive start at 00:00."></play>
+   <score qtr="3" V="0" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AQU">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:00"></misc>
+    <rush att="4" yds="3" gain="4" loss="1" td="0" long="0"></rush>
+    <pass comp="1" att="2" int="0" yds="5" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="5" td="0" long="0"></rcv>
+    <punt no="2" yds="53" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="44" ob="0" tb="0"></ko>
+    <defense tackua="10" tacka="6" tflua="5" tfla="0" tflyds="8" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="HOG">
+    <firstdowns no="3" rush="2" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:00"></misc>
+    <rush att="10" yds="45" gain="50" loss="5" td="0" long="0"></rush>
+    <pass comp="2" att="6" int="0" yds="13" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="13" td="0" long="0"></rcv>
+    <punt no="2" yds="53" long="0" blkd="0" tb="1" fc="0" plus50="0" inside20="1"></punt>
+    <defense tackua="5" tacka="0" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="18" td="0" long="18"></kr>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="V,1,10,V36" playid="22,2,130" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="V,1,10,V36" playid="22,3,131" type="P"
+      text="Zucchelli Z. pass incomplete, PENALTY AQU intentional grounding 14 yards to the AQU22."></play>
+   <play context="V,2,24,V22" playid="22,4,132"
+      text="2nd and 24."></play>
+   <play context="V,2,24,V22" playid="22,5,133" type="R"
+      text="Carulli G. rush for 2 yards to the AQU24 (Oriunto E.;Rizzuti A.)."></play>
+   <play context="V,3,22,V24" playid="22,6,134" type="P"
+      text="Zucchelli Z. pass incomplete to Ferrari G. (Borsari L.)."></play>
+   <play context="V,4,22,V24" playid="22,7,135" type="U"
+      text="Bindini J. punt 39 yards to the HOG31."></play>
+   <drivesum plays="3" yards="-12" top="1:18" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="H,H31,12:00" vh="H" spot="H31" clock="12:00" driveindex="23,135"></drivestart>
+   <play context="H,1,10,H31" playid="23,1,136" clock="10:42"
+      text="HOGS REGGIO EMILIA drive start at 10:42."></play>
+   <play context="H,1,10,H31" playid="23,2,137" type="R"
+      text="Inmwan Mona D. rush for 1 yard to the HOG32 (Bottoni C.;Peressotti P.)."></play>
+   <play context="H,2,9,H32" playid="23,3,138" type="R"
+      text="Buriani R. rush for 3 yards to the HOG35 (Brunetti S.;Omietti G.)."></play>
+   <play context="H,3,6,H35" playid="23,4,139" type="P"
+      text="Daino E. pass incomplete to Buriani R.."></play>
+   <play context="H,4,6,H35" playid="23,5,140" type="U"
+      text="Luzzoli N. punt 31 yards to the AQU28."></play>
+   <drivesum plays="3" yards="4" top="1:56" driveindex="23" complete="Y"></drivesum>
+   <drivestart poss="V,V28,10:42" vh="V" spot="V28" clock="10:42" driveindex="24,140"></drivestart>
+   <play context="V,1,10,V28" playid="24,1,141" clock="08:46"
+      text="AQUILE FERRARA drive start at 08:46."></play>
+   <play context="V,1,10,V28" playid="24,2,142" type="P" first="P"
+      text="Zucchelli Z. pass complete to Ferrari G. for 12 yards to the AQU40, 1ST DOWN AQU (Baldini G.)."></play>
+   <play context="V,1,10,V40" playid="24,3,143" type="R" first="R"
+      text="Zucchelli R. rush for 11 yards to the HOG43, 1ST DOWN AQU (Boschini S.;Oriunto E.)."></play>
+   <play context="V,1,10,H43" playid="24,4,144" type="P"
+      text="Zucchelli Z. pass incomplete to Ferrari G.."></play>
+   <play context="V,2,10,H43" playid="24,5,145" type="R"
+      text="Zucchelli R. rush for 3 yards to the HOG40 (Morlini D.)."></play>
+   <play context="V,3,7,H40" playid="24,6,146" type="P" turnover="I"
+      text="Zucchelli Z. pass intercepted by Baldini G. at the HOG35, Baldini G. return 2 yards to the HOG37 (Bottoni C.)."></play>
+   <drivesum plays="5" yards="26" top="2:06" driveindex="24" complete="Y"></drivesum>
+   <drivestart poss="H,H37,08:46" vh="H" spot="H37" clock="08:46" driveindex="25,146"></drivestart>
+   <play context="H,1,10,H37" playid="25,1,147" clock="06:40"
+      text="HOGS REGGIO EMILIA drive start at 06:40."></play>
+   <play context="H,1,10,H37" playid="25,2,148" type="R" first="R"
+      text="Buriani R. rush for 22 yards to the AQU35, 1ST DOWN HOG (Bindini J.)."></play>
+   <play context="H,1,10,V35" playid="25,3,149" type="R"
+      text="Buriani R. rush for 2 yards to the AQU33 (Solimine F.)."></play>
+   <play context="H,2,8,V33" playid="25,4,150" type="R"
+      text="Buriani R. rush for 6 yards to the AQU27 (Rizzo G.)."></play>
+   <play context="H,3,2,V27" playid="25,5,151" type="R" first="R"
+      text="Buriani R. rush for 6 yards to the AQU21, 1ST DOWN HOG (Berti A.;Neodo L.)."></play>
+   <play context="H,1,10,V21" playid="25,6,152" type="R" first="R"
+      text="Buriani R. rush for 14 yards to the AQU7, 1ST DOWN HOG (Brunetti S.)."></play>
+   <play context="H,1,0,V07" playid="25,7,153" type="R" score="Y" clock="03:29"
+      text="Buriani R. rush for 7 yards to the AQU0, TOUCHDOWN, clock 03:29."></play>
+   <play context="H,1,0,V03" playid="25,8,154" type="X"
+      text="Ruozzi A. pass attempt failed."></play>
+   <score V="0" H="12"></score>
+   <drivesum plays="6" yards="57" top="3:11" driveindex="25" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="25,9,155" type="K"
+      text="Luzzoli N. kickoff 59 yards to the AQU5, Ghironi M. return 30 yards to the AQU35, out-of-bounds (Boschini S.)."></play>
+   <drivestart poss="V,V35,03:29" vh="V" spot="V35" clock="03:29" driveindex="26,155"></drivestart>
+   <play context="V,1,10,V35" playid="26,1,156" clock="03:29"
+      text="AQUILE FERRARA drive start at 03:29."></play>
+   <play context="V,1,10,V35" playid="26,2,157" type="P"
+      text="Zucchelli Z. pass complete to Ferrari G. for 1 yard to the AQU36 (Borsari L.)."></play>
+   <play context="V,2,9,V36" playid="26,3,158" type="#" clock="02:56"
+      text="Timeout Aquile Ferrara, clock 02:56."></play>
+   <play context="V,2,9,V36" playid="26,4,159" type="P"
+      text="Zucchelli Z. pass incomplete to Bindini J. (Baldini G.)."></play>
+   <play context="V,3,9,V36" playid="26,5,160" type="P"
+      text="Zucchelli Z. pass incomplete."></play>
+   <play context="V,4,9,V36" playid="26,6,161" type="U"
+      text="Bindini J. punt 35 yards to the HOG23, Buriani R. return 2 yards to the HOG25 (Fondi P.;Solimine F.)."></play>
+   <drivesum plays="3" yards="1" top="0:49" driveindex="26" complete="Y"></drivesum>
+   <drivestart poss="H,H25,02:56" vh="H" spot="H25" clock="02:56" driveindex="27,161"></drivestart>
+   <play context="H,1,10,H25" playid="27,1,162" clock="02:40"
+      text="HOGS REGGIO EMILIA drive start at 02:40."></play>
+   <play context="H,1,10,H25" playid="27,2,163" type="R"
+      text="Buriani R. rush for no gain to the HOG25 (Fondi P.;Solimine F.)."></play>
+   <play context="H,2,10,H25" playid="27,3,164" type="R"
+      text="Buriani R. rush for 7 yards to the HOG32 (Rizzo G.)."></play>
+   <play context="H,3,3,H32" playid="27,4,165" type="R"
+      text="Inmwan Mona D. rush for loss of 2 yards to the HOG30 (Sartori T.)."></play>
+   <play context="H,4,5,H30" playid="27,5,166" type="U"
+      text="Luzzoli N. punt 34 yards to the AQU30."></play>
+   <drivesum plays="3" yards="5" top="1:45" driveindex="27" complete="Y"></drivesum>
+   <drivestart poss="V,V30,02:40" vh="V" spot="V30" clock="02:40" driveindex="28,166"></drivestart>
+   <play context="V,1,10,V30" playid="28,1,167" clock="00:55"
+      text="AQUILE FERRARA drive start at 00:55."></play>
+   <play context="V,1,10,V30" playid="28,2,168" type="P"
+      text="Zucchelli Z. pass complete to Capitozzo F. for 5 yards to the AQU35, out-of-bounds."></play>
+   <play context="V,2,5,V35" playid="28,3,169" type="P" first="P"
+      text="Zucchelli Z. pass complete to Bindini J. for 7 yards to the AQU42, 1ST DOWN AQU (Baldini G.)."></play>
+   <play context="V,1,10,V42" playid="28,4,170" type="P"
+      text="Zucchelli Z. pass incomplete."></play>
+   <play context="V,2,10,V42" playid="28,5,171" type="E"
+      text="PENALTY HOG offside defense 5 yards to the 47 yardline."></play>
+   <play context="V,2,5,V47" playid="28,6,172" type="P"
+      text="Zucchelli Z. pass incomplete, PENALTY AQU intentional grounding 12 yards to the AQU35."></play>
+   <play context="V,3,17,V35" playid="28,7,173"
+      text="3rd and 17."></play>
+   <play context="V,3,17,V35" playid="28,8,174" type="R"
+      text="Carulli G. rush for loss of 5 yards to the AQU30 (Marino N.)."></play>
+   <play context="V,4,22,V30" playid="28,9,175" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="5" yards="0" top="0:55" driveindex="28" complete="Y"></drivesum>
+   <score final="Y" V="0" H="12"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AQU">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="2" yds="26"></penalties>
+    <conversions thirdconv="0" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:08"></misc>
+    <rush att="4" yds="11" gain="16" loss="5" td="0" long="5"></rush>
+    <pass comp="4" att="12" int="1" yds="25" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="25" td="0" long="0"></rcv>
+    <punt no="2" yds="74" long="2" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="7" tacka="10" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="30" td="0" long="11"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="HOG">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:52"></misc>
+    <rush att="11" yds="66" gain="68" loss="2" td="1" long="0"></rush>
+    <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="2" yds="65" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="59" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="6" tacka="4" tflua="1" tfla="0" tflyds="5" sacks="0" sackyds="0" brup="2" int="1" intyds="2"></defense>
+    <pr no="1" yds="2" td="0" long="0"></pr>
+    <ir no="1" yds="2" td="0" long="0"></ir>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="V,4,22,V30" qtr="4" clock="00:00" vtoh="1" htoh="0"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="AQU">
+ </dnp>
+ <dnp vh="H" id="HOG">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

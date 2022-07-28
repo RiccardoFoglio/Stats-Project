@@ -1,0 +1,861 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220057" visid="VPS" homeid="PAN" visname="VIPERS MODENA" homename="PANTHERS PARMA"
+      date="4/3/2022" location="Colorno (PR)" stadium="HBS Rugby Stadium"
+      start="15:00" end="17:35" leaguegame="Y"
+      duration="02:35" attend="300" temp="15 c" wind="no wind" weather="sunny">
+  <officials ref="A.Maghini" ump="M.Breglia" line="G.Virone" lj="V.Pierotti" bj="A.Colombo" fj="A.Avagnina" sj="V.Vitelli" sc="Bogazzi/Avanzin"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="VPS" name="VIPERS MODENA" record="1-1" conf-record="1-1" abb="V">
+  <linescore prds="4" line="6,3,8,7" score="24">
+   <lineprd prd="1" score="6"></lineprd>
+   <lineprd prd="2" score="3"></lineprd>
+   <lineprd prd="3" score="8"></lineprd>
+   <lineprd prd="4" score="7"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="15" rush="3" pass="8" penalty="4"></firstdowns>
+   <penalties no="11" yds="95"></penalties>
+   <conversions thirdconv="4" thirdatt="11" fourthconv="1" fourthatt="1"></conversions>
+   <fumbles no="2" lost="1"></fumbles>
+   <misc yds="0" top="28:12" ona="0" onm="0"></misc>
+   <redzone att="2" scores="2" points="11" tdrush="0" tdpass="1" fgmade="1" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="22" yds="40" gain="58" loss="18" td="0" long="16"></rush>
+   <pass comp="17" att="29" int="0" yds="238" td="3" long="52" sacks="2" sackyds="9"></pass>
+   <rcv no="17" yds="238" td="3" long="52"></rcv>
+   <punt no="4" yds="133" long="51" blkd="0" tb="0" fc="1" plus50="1" inside20="3"></punt>
+   <ko no="4" yds="213" ob="0" tb="0"></ko>
+   <fg made="1" att="1" long="35" blkd="0"></fg>
+   <pat kickatt="2" kickmade="1" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="26" tacka="14" tflua="2" tfla="0" tflyds="16" sacks="2" sackyds="16" brup="5" int="3" intyds="12"></defense>
+   <kr no="2" yds="28" td="0" long="25"></kr>
+   <pr no="1" yds="50" td="0" long="50"></pr>
+   <ir no="3" yds="12" td="0" long="12"></ir>
+   <scoring td="3" fg="1" patkick="1" patrcv="1"></scoring>
+  </totals>
+  <player name="Vanatsky D." shortname="Vanatsky D." checkname="D.,VANATSKY" uni="2" gp="1" code="2">
+   <rush att="3" yds="-7" gain="2" loss="9" td="0" long="2"></rush>
+   <pass comp="17" att="29" int="0" yds="238" td="3" long="52" sacks="2" sackyds="9"></pass>
+   <pat passatt="1" passmade="1"></pat>
+  </player>
+  <player name="Skinner D." shortname="Skinner D." checkname="D.,SKINNER" uni="5" gp="1" code="5">
+   <rcv no="5" yds="122" td="2" long="35"></rcv>
+   <defense tackua="2" tacka="1" brup="1" int="1" intyds="12"></defense>
+   <pr no="1" yds="50" td="0" long="50"></pr>
+   <ir no="1" yds="12" td="0" long="12"></ir>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Mirenda A." shortname="Mirenda A." checkname="A.,MIRENDA" uni="7" gp="1" code="7">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Rosi L." shortname="Rosi L." checkname="L.,ROSI" uni="8" gp="1" code="8">
+   <defense tackua="3" tacka="1" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Minopoli L." shortname="Minopoli L." checkname="L.,MINOPOLI" uni="9" gp="1" code="9">
+   <rcv no="4" yds="22" td="0" long="8"></rcv>
+  </player>
+  <player name="Bernardini A." shortname="Bernardini A." checkname="A.,BERNARDINI" uni="10" gp="1" code="10">
+   <defense tackua="6" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Barbagallo G." shortname="Barbagallo G." checkname="G.,BARBAGALLO" uni="13" gp="1" code="13">
+   <rcv no="3" yds="13" td="0" long="9"></rcv>
+  </player>
+  <player name="Vidoni F." shortname="Vidoni F." checkname="F.,VIDONI" uni="14" gp="1" code="14">
+   <rcv no="1" yds="52" td="0" long="52"></rcv>
+  </player>
+  <player name="Blanzieri L." shortname="Blanzieri L." checkname="L.,BLANZIERI" uni="18" gp="1" code="18">
+   <defense brup="1"></defense>
+  </player>
+  <player name="Cattabriga S." shortname="Cattabriga S." checkname="S.,CATTABRIGA" uni="19" gp="1" code="19">
+   <kr no="2" yds="28" td="0" long="25"></kr>
+  </player>
+  <player name="Gambuzzi R." shortname="Gambuzzi R." checkname="R.,GAMBUZZI" uni="23" gp="1" code="23">
+   <defense tackua="1" tacka="0" brup="2" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Chiriac M." shortname="Chiriac M." checkname="M.,CHIRIAC" uni="26" gp="1" code="26">
+   <rush att="3" yds="1" gain="1" loss="0" td="0" long="1"></rush>
+  </player>
+  <player name="Lo Biondo G." shortname="Lo Biondo G." checkname="BIONDO G.,LO" uni="31" gp="1" code="31">
+   <defense tackua="1" tacka="3" tflua="1" tfla="0" tflyds="6" sackua="1" sacka="0" sackyds="6"></defense>
+  </player>
+  <player name="Cira E." shortname="Cira E." checkname="E.,CIRA" uni="33" gp="1" code="33">
+   <rush att="16" yds="46" gain="55" loss="9" td="0" long="16"></rush>
+   <defense tackua="2" tacka="0"></defense>
+   <fumbles no="2" lost="1"></fumbles>
+  </player>
+  <player name="Baldi A." shortname="Baldi A." checkname="A.,BALDI" uni="47" gp="1" code="47">
+   <defense tackua="3" tacka="2"></defense>
+  </player>
+  <player name="Vrapi M." shortname="Vrapi M." checkname="M.,VRAPI" uni="55" gp="1" code="55">
+   <defense tackua="3" tacka="2"></defense>
+  </player>
+  <player name="Di Tunisi S." shortname="Di Tunisi S." checkname="TUNISI S.,DI" uni="84" gp="1" code="84">
+   <rcv no="4" yds="29" td="1" long="11"></rcv>
+   <punt no="4" yds="133" long="51" blkd="0" tb="0" fc="1" plus50="1" inside20="3"></punt>
+   <ko no="4" yds="213" ob="0" tb="0"></ko>
+   <fg made="1" att="1" long="35" blkd="0"></fg>
+   <pat kickatt="2" kickmade="1" rcvatt="1" rcvmade="1"></pat>
+   <defense tackua="2" tacka="0"></defense>
+   <scoring td="1" fg="1" patkick="1" patrcv="1"></scoring>
+  </player>
+  <player name="Bernardoni S." shortname="Bernardoni S." checkname="S.,BERNARDONI" uni="90" gp="1" code="90">
+   <defense tackua="2" tacka="1" tflua="1" tfla="0" tflyds="10" sackua="1" sacka="0" sackyds="10"></defense>
+  </player>
+  <player name="Chiletti R." shortname="Chiletti R." checkname="R.,CHILETTI" uni="91" gp="1" code="91">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="PAN" name="PANTHERS PARMA" record="2-2" conf-record="2-2" abb="P">
+  <linescore prds="4" line="7,0,0,14" score="21">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="14"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="23" rush="2" pass="15" penalty="6"></firstdowns>
+   <penalties no="7" yds="85"></penalties>
+   <conversions thirdconv="4" thirdatt="8" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="1" lost="0"></fumbles>
+   <misc yds="0" top="19:48" ona="0" onm="0"></misc>
+   <redzone att="6" scores="2" points="14" tdrush="1" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="3" endfumb="0" endhalf="1" endgame="0"></redzone>
+   <rush att="15" yds="32" gain="48" loss="16" td="1" long="26"></rush>
+   <pass comp="20" att="40" int="3" yds="303" td="2" long="74" sacks="2" sackyds="16"></pass>
+   <rcv no="20" yds="303" td="2" long="74"></rcv>
+   <punt no="2" yds="61" long="37" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+   <ko no="4" yds="233" ob="0" tb="2"></ko>
+   <pat kickatt="3" kickmade="3"></pat>
+   <defense tackua="24" tacka="24" tflua="3" tfla="4" tflyds="15" sacks="2" sackyds="9" brup="6" blkd="1" ff="2" fr="1" fryds="0"></defense>
+   <kr no="4" yds="121" td="0" long="58"></kr>
+   <scoring td="3" patkick="3"></scoring>
+  </totals>
+  <player name="Bolles B." shortname="Bolles B." checkname="B.,BOLLES" uni="2" gp="1" code="2">
+   <rush att="5" yds="15" gain="31" loss="16" td="0" long="26"></rush>
+   <pass comp="20" att="40" int="3" yds="303" td="2" long="74" sacks="2" sackyds="16"></pass>
+   <punt no="1" yds="24" long="24" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+  </player>
+  <player name="Bilcari D." shortname="Bilcari D." checkname="D.,BILCARI" uni="3" gp="1" code="3">
+   <defense tackua="2" tacka="3" tflua="1" tfla="1" tflyds="1" ff="1"></defense>
+  </player>
+  <player name="Pooda M." shortname="Pooda M." checkname="M.,POODA" uni="4" gp="1" code="4">
+   <rush att="1" yds="2" gain="2" loss="0" td="0" long="2"></rush>
+   <rcv no="1" yds="19" td="0" long="19"></rcv>
+   <kr no="1" yds="58" td="0" long="58"></kr>
+  </player>
+  <player name="Felli M." shortname="Felli M." checkname="M.,FELLI" uni="10" gp="1" code="10">
+   <punt no="1" yds="37" long="37" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="4" yds="233" ob="0" tb="2"></ko>
+   <pat kickatt="3" kickmade="3"></pat>
+   <scoring patkick="3"></scoring>
+  </player>
+  <player name="Diaco N." shortname="Diaco N." checkname="N.,DIACO" uni="11" gp="1" code="11">
+   <rush att="3" yds="2" gain="2" loss="0" td="1" long="1"></rush>
+   <rcv no="6" yds="68" td="0" long="20"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Amoroso A." shortname="Amoroso A." checkname="A.,AMOROSO" uni="12" gp="1" code="12">
+   <defense tackua="0" tacka="3"></defense>
+  </player>
+  <player name="Brambilla R." shortname="Brambilla R." checkname="R.,BRAMBILLA" uni="14" gp="1" code="14">
+   <rcv no="1" yds="9" td="0" long="9"></rcv>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Bonvicini R." shortname="Bonvicini R." checkname="R.,BONVICINI" uni="17" gp="1" code="17">
+   <rcv no="1" yds="10" td="0" long="10"></rcv>
+  </player>
+  <player name="Ampomah S." shortname="Ampomah S." checkname="S.,AMPOMAH" uni="18" gp="1" code="18">
+   <rcv no="2" yds="38" td="0" long="22"></rcv>
+  </player>
+  <player name="Felisa T." shortname="Felisa T." checkname="T.,FELISA" uni="19" gp="1" code="19">
+   <rcv no="3" yds="38" td="0" long="19"></rcv>
+  </player>
+  <player name="Erioldi A." shortname="Erioldi A." checkname="A.,ERIOLDI" uni="21" gp="1" code="21">
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="Diaferia F." shortname="Diaferia F." checkname="F.,DIAFERIA" uni="23" gp="1" code="23">
+   <defense tackua="1" tacka="0" brup="1"></defense>
+  </player>
+  <player name="Francani N." shortname="Francani N." checkname="N.,FRANCANI" uni="26" gp="1" code="26">
+   <defense brup="1"></defense>
+  </player>
+  <player name="Vasini F." shortname="Vasini F." checkname="F.,VASINI" uni="27" gp="1" code="27">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Paganini G." shortname="Paganini G." checkname="G.,PAGANINI" uni="29" gp="1" code="29">
+   <rush att="1" yds="3" gain="3" loss="0" td="0" long="3"></rush>
+   <rcv no="1" yds="13" td="0" long="13"></rcv>
+   <kr no="1" yds="46" td="0" long="46"></kr>
+  </player>
+  <player name="Callegati L." shortname="Callegati L." checkname="L.,CALLEGATI" uni="34" gp="1" code="34">
+   <rush att="5" yds="10" gain="10" loss="0" td="0" long="4"></rush>
+   <defense tackua="1" tacka="0"></defense>
+   <kr no="2" yds="17" td="0" long="19"></kr>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Zanardi F." shortname="Zanardi F." checkname="F.,ZANARDI" uni="37" gp="1" code="37">
+   <defense tackua="1" tacka="2" brup="3"></defense>
+  </player>
+  <player name="Dales D." shortname="Dales D." checkname="D.,DALES" uni="42" gp="1" code="42">
+   <defense tackua="3" tacka="7" tflua="0" tfla="1" tflyds="2" brup="1" blkd="1"></defense>
+  </player>
+  <player name="Ricchiuti P." shortname="Ricchiuti P." checkname="P.,RICCHIUTI" uni="47" gp="1" code="47">
+   <defense tackua="2" tacka="2"></defense>
+  </player>
+  <player name="Froldi M." shortname="Froldi M." checkname="M.,FROLDI" uni="50" gp="1" code="50">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Belli V." shortname="Belli V." checkname="V.,BELLI" uni="52" gp="1" code="52">
+   <defense tackua="2" tacka="1" tflua="1" tfla="0" tflyds="4" sackua="1" sacka="0" sackyds="4" ff="1"></defense>
+  </player>
+  <player name="Gueye A." shortname="Gueye A." checkname="A.,GUEYE" uni="64" gp="1" code="64">
+   <defense tackua="0" tacka="2" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Bonzanni M." shortname="Bonzanni M." checkname="M.,BONZANNI" uni="80" gp="1" code="80">
+   <rcv no="4" yds="100" td="2" long="74"></rcv>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Iuliano E." shortname="Iuliano E." checkname="E.,IULIANO" uni="81" gp="1" code="81">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="Zatti D." shortname="Zatti D." checkname="D.,ZATTI" uni="88" gp="1" code="88">
+  </player>
+  <player name="Grossi G." shortname="Grossi G." checkname="G.,GROSSI" uni="93" gp="1" code="93">
+   <defense tackua="6" tacka="3" tflua="1" tfla="1" tflyds="6" sackua="1" sacka="0" sackyds="5" fr="1" fryds="0"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="VPS" qtr="1" clock="04:40" type="TD" how="PASS" yds="28" scorer="Skinner D." passer="Vanatsky D." patby="Di Tunisi S." pattype="KICK" patres="BLKD" plays="6" drive="75" top="4:08" vscore="6" hscore="0" driveindex="2"></score>
+  <score vh="H" team="PAN" qtr="1" clock="03:13" type="TD" how="PASS" yds="74" scorer="Bonzanni M." passer="Bolles B." patby="Felli M." pattype="KICK" patres="GOOD" plays="3" drive="87" top="1:07" vscore="6" hscore="7" driveindex="3"></score>
+  <score vh="V" team="VPS" qtr="2" clock="00:00" type="FG" yds="35" scorer="Di Tunisi S." plays="5" drive="18" top="1:23" vscore="9" hscore="7" driveindex="8"></score>
+  <score vh="V" team="VPS" qtr="3" clock="00:40" type="TD" how="PASS" yds="1" scorer="Di Tunisi S." passer="Vanatsky D." patby="Di Tunisi S." pattype="PASS" patres="GOOD" plays="9" drive="80" top="4:57" vscore="17" hscore="7" driveindex="11"></score>
+  <score vh="H" team="PAN" qtr="4" clock="11:01" type="TD" how="RUSH" yds="1" scorer="Diaco N." patby="Felli M." pattype="KICK" patres="GOOD" plays="3" drive="37" top="1:19" vscore="17" hscore="14" driveindex="12"></score>
+  <score vh="V" team="VPS" qtr="4" clock="07:05" type="TD" how="PASS" yds="31" scorer="Skinner D." passer="Vanatsky D." patby="Di Tunisi S." pattype="KICK" patres="GOOD" plays="5" drive="62" top="3:48" vscore="24" hscore="14" driveindex="13"></score>
+  <score vh="H" team="PAN" qtr="4" clock="04:03" type="TD" how="PASS" yds="5" scorer="Bonzanni M." passer="Bolles B." patby="Felli M." pattype="KICK" patres="GOOD" plays="5" drive="16" top="2:29" vscore="24" hscore="21" driveindex="16"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="VPS" kicker="Di Tunisi S." qtr="2" clock="00:00" distance="35" result="good"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="PAN" start="KO,1,12:00,30" end="INT,1,08:48,83" plays="11" yards="53" top="3:12" rz="1" driveindex="1"></drive>
+  <drive vh="V" team="VPS" start="INT,1,08:48,15" end="TD,1,04:40,90" plays="6" yards="75" top="4:08" driveindex="2"></drive>
+  <drive vh="H" team="PAN" start="KO,1,04:20,3" end="TD,1,03:13,90" plays="3" yards="87" top="1:07" driveindex="3"></drive>
+  <drive vh="V" team="VPS" start="KO,1,03:13,20" end="PUNT,2,10:40,52" plays="8" yards="32" top="4:33" driveindex="4"></drive>
+  <drive vh="H" team="PAN" start="PUNT,2,10:40,13" end="INT,2,05:23,70" plays="13" yards="57" top="5:17" rz="1" driveindex="5"></drive>
+  <drive vh="V" team="VPS" start="INT,2,05:23,20" end="PUNT,2,02:27,35" plays="5" yards="15" top="2:56" driveindex="6"></drive>
+  <drive vh="H" team="PAN" start="PUNT,2,02:27,4" end="PUNT,2,01:23,49" plays="6" yards="45" top="1:04" driveindex="7"></drive>
+  <drive vh="V" team="VPS" start="PUNT,2,01:23,54" end="FG,3,12:00,72" plays="5" yards="18" top="1:23" rz="1" driveindex="8"></drive>
+  <drive vh="V" team="VPS" start="KO,3,11:53,7" end="PUNT,3,08:32,17" plays="5" yards="10" top="3:21" driveindex="9"></drive>
+  <drive vh="H" team="PAN" start="PUNT,3,08:32,35" end="PUNT,3,05:37,56" plays="6" yards="21" top="2:55" driveindex="10"></drive>
+  <drive vh="V" team="VPS" start="PUNT,3,05:37,10" end="TD,3,00:40,90" plays="9" yards="80" top="4:57" rz="1" driveindex="11"></drive>
+  <drive vh="H" team="PAN" start="KO,3,00:20,53" end="TD,4,11:01,90" plays="3" yards="37" top="1:19" rz="1" driveindex="12"></drive>
+  <drive vh="V" team="VPS" start="KO,4,10:53,28" end="TD,4,07:05,90" plays="5" yards="62" top="3:48" driveindex="13"></drive>
+  <drive vh="H" team="PAN" start="KO,4,06:57,62" end="INT,4,06:40,75" plays="2" yards="13" top="0:17" rz="1" driveindex="14"></drive>
+  <drive vh="V" team="VPS" start="INT,4,06:40,20" end="FUMB,4,06:32,16" plays="1" yards="-4" top="0:08" driveindex="15"></drive>
+  <drive vh="H" team="PAN" start="FUMB,4,06:32,74" end="TD,4,04:03,90" plays="5" yards="16" top="2:29" rz="1" driveindex="16"></drive>
+  <drive vh="V" team="VPS" start="KO,4,04:03,20" end="PUNT,4,01:20,55" plays="7" yards="35" top="2:43" driveindex="17"></drive>
+  <drive vh="H" team="PAN" start="PUNT,4,01:20,16" end="HALF,4,00:00,77" plays="6" yards="61" top="1:20" rz="1" driveindex="18"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0"
+      text="Panthers Parma win the coin toss,elect to receive"></play>
+   <play context="V,1,10,V30" playid="0,2,1"
+      text="VPS ball on VPS30."></play>
+   <play context="V,1,10,V30" playid="0,3,2" type="K"
+      text="Di Tunisi S. kickoff 49 yards to the PAN11, Callegati L. return 19 yards to the PAN30 (Cira E.)."></play>
+   <drivestart poss="H,H30,12:00" vh="H" spot="H30" clock="12:00" driveindex="1,2"></drivestart>
+   <play context="H,1,10,H30" playid="1,1,3" type="P"
+      text="Bolles B. pass incomplete to Diaco N.."></play>
+   <play context="H,2,10,H30" playid="1,2,4" type="P"
+      text="Bolles B. pass incomplete to Felisa T., dropped pass."></play>
+   <play context="H,3,10,H30" playid="1,3,5" type="P" first="P"
+      text="Bolles B. pass complete to Ampomah S. for 22 yards to the VPS38, 1ST DOWN PAN (Rosi L.)."></play>
+   <play context="H,1,10,V38" playid="1,4,6" type="R"
+      text="Callegati L. rush for 1 yard to the VPS37 (Bernardoni S.)."></play>
+   <play context="H,2,9,V37" playid="1,5,7" type="P"
+      text="Bolles B. pass incomplete to Brambilla R.."></play>
+   <play context="H,3,9,V37" playid="1,6,8" type="P"
+      text="Bolles B. pass incomplete to Diaco N.."></play>
+   <play context="H,4,9,V37" playid="1,7,9" type="E" first="E"
+      text="Bolles B. pass incomplete to Iuliano E., PENALTY VPS roughing passer (Mazzoni M.) 15 yards to the VPS22, 1ST DOWN PAN, NO PLAY."></play>
+   <play context="H,1,10,V22" playid="1,8,10" type="R"
+      text="Callegati L. rush for 4 yards to the VPS18 (Vrapi M.)."></play>
+   <play context="H,2,6,V18" playid="1,9,11" type="P" first="P"
+      text="Bolles B. pass complete to Diaco N. for 11 yards to the VPS7, 1ST DOWN PAN (Skinner D.;Baldi A.)."></play>
+   <play context="H,1,0,V07" playid="1,10,12" type="P"
+      text="Bolles B. pass incomplete to Bonzanni M. (Bernardini A.)."></play>
+   <play context="H,2,0,V07" playid="1,11,13" type="R"
+      text="Callegati L. rush for no gain to the VPS7 (Chiletti R.;Vrapi M.)."></play>
+   <play context="H,3,0,V07" playid="1,12,14" type="P" turnover="I"
+      text="Bolles B. pass intercepted by Skinner D. at the VPS3, Skinner D. return 12 yards to the VPS15 (Callegati L.)."></play>
+   <drivesum plays="11" yards="53" top="3:12" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,V15,12:00" vh="V" spot="V15" clock="12:00" driveindex="2,14"></drivestart>
+   <play context="V,1,10,V15" playid="2,1,15" clock="08:48"
+      text="VIPERS MODENA drive start at 08:48."></play>
+   <play context="V,1,10,V15" playid="2,2,16" type="R"
+      text="Cira E. rush for 4 yards to the VPS19 (Grossi G.)."></play>
+   <play context="V,2,6,V19" playid="2,3,17" type="R"
+      text="Cira E. rush for 4 yards to the VPS23 (Grossi G.;Ricchiuti P.)."></play>
+   <play context="V,3,2,V23" playid="2,4,18" type="E" first="E"
+      text="Vanatsky D. pass incomplete to Skinner D. (Diaferia F.), PENALTY PAN pass interference (Diaferia F.) 15 yards to the VPS38, 1ST DOWN VPS, NO PLAY."></play>
+   <play context="V,1,10,V38" playid="2,5,19" type="P"
+      text="Vanatsky D. pass incomplete to Barbagallo G. (Dales D.)."></play>
+   <play context="V,2,10,V38" playid="2,6,20" type="P"
+      text="Vanatsky D. pass complete to Barbagallo G. for 9 yards to the PAN43 (Ricchiuti P.)."></play>
+   <play context="V,3,1,H43" playid="2,7,21" type="P"
+      text="Vanatsky D. pass incomplete to Di Tunisi S. (Zanardi F.)."></play>
+   <play context="V,4,1,H43" playid="2,8,22" type="E" first="E"
+      text="Bernardini A. rush for 3 yards to the PAN40 (Amoroso A.;Bianchi M.), PENALTY PAN face mask (Amoroso A.) 15 yards to the PAN28, 1ST DOWN VPS, NO PLAY."></play>
+   <play context="V,1,10,H28" playid="2,9,23" type="P" first="P" score="Y" clock="04:40"
+      text="Vanatsky D. pass complete to Skinner D. for 28 yards to the PAN0, 1ST DOWN VPS, TOUCHDOWN, clock 04:40."></play>
+   <play context="V,1,0,H03" playid="2,10,24" type="X"
+      text="Di Tunisi S. kick attempt failed (blocked) (blocked by Dales D.)."></play>
+   <score V="6" H="0"></score>
+   <drivesum plays="6" yards="75" top="4:08" driveindex="2" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="2,11,25" type="K"
+      text="Di Tunisi S. kickoff 55 yards to the PAN5, Callegati L. return 0 yards to the PAN5, fumble by Callegati L. recovered by PAN Callegati L. at PAN0, Callegati L. for 3 yards to the PAN3 (Cira E.)."></play>
+   <drivestart poss="H,H03,04:40" vh="H" spot="H03" clock="04:40" driveindex="3,25"></drivestart>
+   <play context="H,1,10,H03" playid="3,1,26" clock="04:20"
+      text="PANTHERS PARMA drive start at 04:20, PAN ball on PAN3."></play>
+   <play context="H,1,10,H03" playid="3,2,27" type="E"
+      text="Bolles B. pass incomplete to Diaco N., PENALTY VPS offside (Chiletti R.) 5 yards to the PAN8, NO PLAY."></play>
+   <play context="H,1,5,H08" playid="3,3,28" type="P" first="P"
+      text="Bolles B. pass complete to Felisa T. for 7 yards to the PAN15, 1ST DOWN PAN (Bernardini A.)."></play>
+   <play context="H,1,10,H15" playid="3,4,29" type="R"
+      text="Callegati L. rush for 1 yard to the PAN16 (Vrapi M.)."></play>
+   <play context="H,2,9,H16" playid="3,5,30" type="P" first="P" score="Y" clock="03:13"
+      text="Bolles B. pass complete to Bonzanni M. for 74 yards to the VPS0, 1ST DOWN PAN, TOUCHDOWN, clock 03:13."></play>
+   <play context="H,1,0,V03" playid="3,6,31" type="X" score="Y"
+      text="Felli M. kick attempt good."></play>
+   <score V="6" H="7"></score>
+   <drivesum plays="3" yards="87" top="1:07" driveindex="3" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="3,7,32" type="K"
+      text="Felli M. kickoff 60 yards to the VPS0, touchback."></play>
+   <drivestart poss="V,V20,03:13" vh="V" spot="V20" clock="03:13" driveindex="4,32"></drivestart>
+   <play context="V,1,10,V20" playid="4,1,33" clock="03:13"
+      text="VIPERS MODENA drive start at 03:13."></play>
+   <play context="V,1,10,V20" playid="4,2,34" type="P"
+      text="Vanatsky D. pass complete to Minopoli L. for 8 yards to the VPS28 (Zanardi F.)."></play>
+   <play context="V,2,2,V28" playid="4,3,35" type="P" first="P"
+      text="Vanatsky D. pass complete to Minopoli L. for 3 yards to the VPS31, 1ST DOWN VPS (Amoroso A.;Zanardi F.)."></play>
+   <play context="V,1,10,V31" playid="4,4,36" type="R"
+      text="Cira E. rush for 7 yards to the VPS38 (Amoroso A.;Erioldi A.)."></play>
+   <play context="V,2,3,V38" playid="4,5,37" type="P"
+      text="Vanatsky D. pass complete to Barbagallo G. for 2 yards to the VPS40."></play>
+   <play context="V,3,1,V40" playid="4,6,38" type="E"
+      text="PENALTY VPS false start (Bigliardi A.) 5 yards to the VPS35."></play>
+   <play context="V,3,6,V35" playid="4,7,39" type="#" clock="00:07"
+      text="Timeout PANTHERS PARMA, clock 00:07."></play>
+   <play context="V,3,6,V35" playid="4,8,40" type="P"
+      text="Vanatsky D. pass incomplete to Barbagallo G.."></play>
+   <play context="V,4,6,V35" playid="4,9,41" type="E" first="E"
+      text="Di Tunisi S. punt 36 yards to the PAN19, PENALTY PAN roughing the kicker (Zanardi F.) 15 yards to the PAN40, 1ST DOWN VPS, NO PLAY."></play>
+   <score qtr="1" V="6" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="VPS">
+    <firstdowns no="5" rush="0" pass="2" penalty="3"></firstdowns>
+    <penalties no="3" yds="25"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:21"></misc>
+    <rush att="3" yds="15" gain="15" loss="0" td="0" long="7"></rush>
+    <pass comp="5" att="8" int="0" yds="50" td="1" long="28" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="50" td="1" long="28"></rcv>
+    <ko no="2" yds="104" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="7" tacka="4" sacks="0" sackyds="0" brup="1" int="1" intyds="12"></defense>
+    <ir no="1" yds="12" td="0" long="12"></ir>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PAN">
+    <firstdowns no="5" rush="0" pass="4" penalty="1"></firstdowns>
+    <penalties no="3" yds="45"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="04:39"></misc>
+    <rush att="4" yds="6" gain="6" loss="0" td="0" long="4"></rush>
+    <pass comp="4" att="10" int="1" yds="114" td="1" long="74" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="114" td="1" long="74"></rcv>
+    <ko no="1" yds="60" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="4" tacka="6" sacks="0" sackyds="0" brup="2" blkd="1"></defense>
+    <kr no="2" yds="17" td="0" long="19"></kr>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,1,10,H40" playid="4,10,42" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="V,1,10,H40" playid="4,11,43" type="R"
+      text="Cira E. rush for 2 yards to the PAN38 (Grossi G.)."></play>
+   <play context="V,2,8,H38" playid="4,12,44" type="P"
+      text="Vanatsky D. pass incomplete to Skinner D. (Zanardi F.)."></play>
+   <play context="V,3,8,H38" playid="4,13,45" type="P"
+      text="Vanatsky D. pass incomplete to Di Tunisi S.."></play>
+   <play context="V,4,8,H38" playid="4,14,46" type="U"
+      text="Di Tunisi S. punt 25 yards to the PAN13, out-of-bounds."></play>
+   <drivesum plays="8" yards="32" top="4:33" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,H13,12:00" vh="H" spot="H13" clock="12:00" driveindex="5,46"></drivestart>
+   <play context="H,1,10,H13" playid="5,1,47" clock="10:40"
+      text="PANTHERS PARMA drive start at 10:40."></play>
+   <play context="H,1,10,H13" playid="5,2,48" type="P" first="P"
+      text="Bolles B. pass complete to Felisa T. for 12 yards to the PAN25, 1ST DOWN PAN (Skinner D.)."></play>
+   <play context="H,1,10,H25" playid="5,3,49" type="R"
+      text="Pooda M. rush for 2 yards to the PAN27 (Lo Biondo G.;Bernardoni S.)."></play>
+   <play context="H,2,8,H27" playid="5,4,50" type="P"
+      text="Bolles B. pass incomplete to Zatti D., dropped pass."></play>
+   <play context="H,3,8,H27" playid="5,5,51" type="P" first="P"
+      text="Bolles B. pass complete to Ampomah S. for 16 yards to the PAN43, 1ST DOWN PAN, out-of-bounds (Baldi A.)."></play>
+   <play context="H,1,10,H43" playid="5,6,52" type="R"
+      text="Callegati L. rush for 4 yards to the VPS43 (Skinner D.)."></play>
+   <play context="H,2,6,V43" playid="5,7,53" type="P"
+      text="Bolles B. pass complete to Diaco N. for 4 yards to the VPS39."></play>
+   <play context="H,3,2,V39" playid="5,8,54" type="E" first="E"
+      text="Bolles B. pass incomplete to Bonzanni M., dropped pass, PENALTY VPS offside (Chiletti R.) 5 yards to the VPS34, 1ST DOWN PAN, NO PLAY."></play>
+   <play context="H,1,10,V34" playid="5,9,55" type="P"
+      text="Bolles B. pass complete to Brambilla R. for 9 yards to the VPS25 (Bernardini A.)."></play>
+   <play context="H,2,1,V25" playid="5,10,56" type="R" first="R"
+      text="Bolles B. rush for 2 yards to the VPS23, 1ST DOWN PAN (Lo Biondo G.;Mirenda A.)."></play>
+   <play context="H,1,10,V23" playid="5,11,57" type="P"
+      text="Bolles B. pass incomplete to Ampomah S.."></play>
+   <play context="H,2,10,V23" playid="5,12,58" type="P"
+      text="Bolles B. pass incomplete to Diaco N.."></play>
+   <play context="H,3,10,V23" playid="5,13,59" type="P" first="P"
+      text="Bolles B. pass complete to Paganini G. for 13 yards to the VPS10, 1ST DOWN PAN (Vrapi M.)."></play>
+   <play context="H,1,0,V10" playid="5,14,60" type="P"
+      text="Bolles B. pass incomplete to Ampomah S., dropped pass (Gambuzzi R.)."></play>
+   <play context="H,2,0,V10" playid="5,15,61" type="E"
+      text="Bolles B. pass complete to Diaco N. for 8 yards to the VPS2 (Bernardini A.), PENALTY PAN holding (Cariola E.) 10 yards to the VPS20, NO PLAY."></play>
+   <play context="H,2,0,V20" playid="5,16,62" type="P" turnover="I"
+      text="Bolles B. pass intercepted by Rosi L. at the VPS0, Rosi L. return 0 yards to the VPS0, touchback."></play>
+   <drivesum plays="13" yards="57" top="5:17" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="V,V20,10:40" vh="V" spot="V20" clock="10:40" driveindex="6,62"></drivestart>
+   <play context="V,1,10,V20" playid="6,1,63" clock="05:23"
+      text="VIPERS MODENA drive start at 05:23."></play>
+   <play context="V,1,10,V20" playid="6,2,64" type="R"
+      text="Cira E. rush for 6 yards to the VPS26 (Amoroso A.;Dales D.)."></play>
+   <play context="V,2,4,V26" playid="6,3,65" type="R" first="R"
+      text="Cira E. rush for 4 yards to the VPS30, 1ST DOWN VPS (Dales D.)."></play>
+   <play context="V,1,10,V30" playid="6,4,66" type="R"
+      text="Cira E. rush for 3 yards to the VPS33 (Ricchiuti P.)."></play>
+   <play context="V,2,7,V33" playid="6,5,67" type="R"
+      text="Vanatsky D. rush for 2 yards to the VPS35 (Bilcari D.)."></play>
+   <play context="V,3,5,V35" playid="6,6,68" type="P"
+      text="Vanatsky D. pass incomplete to Barbagallo G.."></play>
+   <play context="V,4,5,V35" playid="6,7,69" type="U"
+      text="Di Tunisi S. punt 51 yards to the PAN4."></play>
+   <drivesum plays="5" yards="15" top="2:56" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H04,05:23" vh="H" spot="H04" clock="05:23" driveindex="7,69"></drivestart>
+   <play context="H,1,10,H04" playid="7,1,70" clock="02:27"
+      text="PANTHERS PARMA drive start at 02:27."></play>
+   <play context="H,1,10,H04" playid="7,2,71" type="P" first="P"
+      text="Bolles B. pass complete to Diaco N. for 16 yards to the PAN20, 1ST DOWN PAN, out-of-bounds (Rosi L.)."></play>
+   <play context="H,1,10,H20" playid="7,3,72" type="P" first="P"
+      text="Bolles B. pass complete to Bonzanni M. for 10 yards to the PAN30, 1ST DOWN PAN, out-of-bounds (Rosi L.;Baldi A.)."></play>
+   <play context="H,1,10,H30" playid="7,4,73" type="P" first="P"
+      text="Bolles B. pass complete to Felisa T. for 19 yards to the VPS41, 1ST DOWN PAN (Bernardini A.)."></play>
+   <play context="H,1,10,V41" playid="7,5,74" type="P"
+      text="Bolles B. pass incomplete to Diaco N.."></play>
+   <play context="H,2,10,V41" playid="7,6,75" type="P"
+      text="Bolles B. pass incomplete to Ampomah S. (Gambuzzi R.)."></play>
+   <play context="H,3,10,V41" playid="7,7,76" type="P"
+      text="Bolles B. pass incomplete to Diaco N. (Blanzieri L.)."></play>
+   <play context="H,4,10,V41" playid="7,8,77" type="U"
+      text="Felli M. punt 37 yards to the VPS4, Skinner D. return 50 yards to the PAN36 (Froldi M.)."></play>
+   <drivesum plays="6" yards="45" top="1:04" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,H36,02:27" vh="V" spot="H36" clock="02:27" driveindex="8,77"></drivestart>
+   <play context="V,1,10,H36" playid="8,1,78" clock="01:23"
+      text="VIPERS MODENA drive start at 01:23."></play>
+   <play context="V,1,10,H36" playid="8,2,79" type="P"
+      text="Vanatsky D. pass complete to Di Tunisi S. for 7 yards to the PAN29, out-of-bounds."></play>
+   <play context="V,2,3,H29" playid="8,3,80" type="R" first="R"
+      text="Cira E. rush for 3 yards to the PAN26, fumble forced by Belli V., fumble by Cira E. recovered by VPS Cira E. at PAN23, 1ST DOWN VPS."></play>
+   <play context="V,1,10,H23" playid="8,4,81" type="#" clock="00:33"
+      text="Timeout VIPERS MODENA, clock 00:33."></play>
+   <play context="V,1,10,H23" playid="8,5,82" type="P"
+      text="Vanatsky D. pass incomplete to Skinner D.."></play>
+   <play context="V,2,10,H23" playid="8,6,83" type="E" first="E"
+      text="Vanatsky D. pass incomplete to Skinner D. (Diaferia F.), PENALTY PAN pass interference (Diaferia F.) 15 yards to the PAN8, 1ST DOWN VPS, NO PLAY."></play>
+   <play context="V,1,0,H08" playid="8,7,84" type="P"
+      text="Vanatsky D. pass incomplete to Vidoni F.."></play>
+   <play context="V,2,0,H08" playid="8,8,85" type="P"
+      text="Vanatsky D. pass incomplete to Skinner D. (Zanardi F.)."></play>
+   <play context="V,3,0,H08" playid="8,9,86" type="#" clock="00:14"
+      text="Timeout PANTHERS PARMA, clock 00:14."></play>
+   <play context="V,3,0,H08" playid="8,10,87" type="E" clock="00:07"
+      text="Vanatsky D. pass complete to Vidoni F. for 8 yards to the PAN0, clock 00:07, PENALTY VPS holding (Carroli D.) 10 yards to the PAN18, NO PLAY."></play>
+   <play context="V,3,0,H18" playid="8,11,88" type="#" clock="00:07"
+      text="Timeout VIPERS MODENA, clock 00:07."></play>
+   <play context="V,3,0,H18" playid="8,12,89" type="F" score="Y" clock="00:00"
+      text="Di Tunisi S. field goal attempt from 35 GOOD, clock 00:00."></play>
+   <score V="9" H="7"></score>
+   <play context="V,1,0,V30" playid="8,13,90" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="5" yards="18" top="1:23" driveindex="8" complete="Y"></drivesum>
+   <score qtr="2" V="9" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="VPS">
+    <firstdowns no="3" rush="2" pass="0" penalty="1"></firstdowns>
+    <penalties no="2" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="05:39"></misc>
+    <rush att="6" yds="23" gain="23" loss="0" td="0" long="0"></rush>
+    <pass comp="1" att="7" int="0" yds="7" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="7" td="0" long="0"></rcv>
+    <punt no="2" yds="76" long="51" blkd="0" tb="0" fc="0" plus50="1" inside20="2"></punt>
+    <fg made="1" att="1" long="35" blkd="0"></fg>
+    <defense tackua="7" tacka="6" sacks="0" sackyds="0" brup="3" int="1" intyds="0"></defense>
+    <pr no="1" yds="50" td="0" long="50"></pr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring fg="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PAN">
+    <firstdowns no="8" rush="1" pass="6" penalty="1"></firstdowns>
+    <penalties no="2" yds="25"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:21"></misc>
+    <rush att="3" yds="8" gain="8" loss="0" td="0" long="0"></rush>
+    <pass comp="8" att="16" int="1" yds="99" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="8" yds="99" td="0" long="0"></rcv>
+    <punt no="1" yds="37" long="37" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="6" tacka="2" sacks="0" sackyds="0" brup="2" ff="1"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,1,0,V30" playid="8,14,91" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, PAN ball on PAN30."></play>
+   <play context="H,1,0,H30" playid="8,15,92" type="K"
+      text="Felli M. kickoff 56 yards to the VPS4, Cattabriga S. return 3 yards to the VPS7 (Brambilla R.)."></play>
+   <drivestart poss="V,V07,12:00" vh="V" spot="V07" clock="12:00" driveindex="9,92"></drivestart>
+   <play context="V,1,10,V07" playid="9,1,93" clock="11:53"
+      text="VIPERS MODENA drive start at 11:53."></play>
+   <play context="V,1,10,V07" playid="9,2,94" type="R"
+      text="Cira E. rush for no gain to the VPS7 (Dales D.;Grossi G.)."></play>
+   <play context="V,2,10,V07" playid="9,3,95" type="P" first="P"
+      text="Vanatsky D. pass complete to Di Tunisi S. for 10 yards to the VPS17, 1ST DOWN VPS, out-of-bounds (Erioldi A.)."></play>
+   <play context="V,1,10,V17" playid="9,4,96" type="E"
+      text="Cira E. rush for 5 yards to the VPS22 (Erioldi A.), PENALTY VPS false start (Skinner D.) 5 yards to the VPS12, NO PLAY."></play>
+   <play context="V,1,15,V12" playid="9,5,97" type="P"
+      text="Vanatsky D. pass complete to Minopoli L. for 7 yards to the VPS19 (Erioldi A.)."></play>
+   <play context="V,2,8,V19" playid="9,6,98" type="P"
+      text="Vanatsky D. pass complete to Barbagallo G. for 2 yards to the VPS21."></play>
+   <play context="V,3,6,V21" playid="9,7,99" type="P"
+      text="Vanatsky D. sacked for loss of 4 yards to the VPS17 (Belli V.), PENALTY VPS H declined."></play>
+   <play context="V,4,10,V17" playid="9,8,100" type="U"
+      text="Di Tunisi S. punt 38 yards to the PAN35, fair catch by Callegati L.."></play>
+   <drivesum plays="5" yards="10" top="3:21" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,H35,11:53" vh="H" spot="H35" clock="11:53" driveindex="10,100"></drivestart>
+   <play context="H,1,10,H35" playid="10,1,101" clock="08:32"
+      text="PANTHERS PARMA drive start at 08:32."></play>
+   <play context="H,1,10,H35" playid="10,2,102" type="P"
+      text="Bolles B. pass incomplete to Brambilla R., dropped pass."></play>
+   <play context="H,2,10,H35" playid="10,3,103" type="E" first="E"
+      text="Bolles B. pass incomplete to Bonvicini R. (Gambuzzi R.), PENALTY VPS pass interference (Gambuzzi R.) 15 yards to the VPS40, 1ST DOWN PAN, NO PLAY."></play>
+   <play context="H,1,10,V40" playid="10,4,104" type="R"
+      text="Bolles B. rush for 3 yards to the VPS37 (Vrapi M.;Mirenda A.)."></play>
+   <play context="H,2,7,V37" playid="10,5,105" type="P" first="P"
+      text="Bolles B. pass complete to Iuliano E. for 8 yards to the VPS29, 1ST DOWN PAN, out-of-bounds (Rosi L.)."></play>
+   <play context="H,1,10,V29" playid="10,6,106" type="E"
+      text="Bolles B. pass intercepted by Skinner D. at the VPS23, Skinner D. return to the VPS23, PENALTY VPS offside (Bernardoni S.) 5 yards to the VPS24, NO PLAY."></play>
+   <play context="H,1,10,V24" playid="10,7,107" type="P"
+      text="Bolles B. sacked for loss of 10 yards to the VPS34 (Bernardoni S.), PENALTY PAN holding declined."></play>
+   <play context="H,2,20,V34" playid="10,8,108" type="E"
+      text="Pooda M. rush for 4 yards to the VPS30 (Vrapi M.), PENALTY PAN holding (Cariola E.) 10 yards to the VPS44, NO PLAY."></play>
+   <play context="H,2,30,V44" playid="10,9,109" type="P"
+      text="Bolles B. pass complete to Bonvicini R. for 10 yards to the VPS34 (Baldi A.)."></play>
+   <play context="H,3,20,V34" playid="10,10,110" type="P"
+      text="Bolles B. pass incomplete to Brambilla R. (Skinner D.)."></play>
+   <play context="H,4,20,V34" playid="10,11,111" type="U"
+      text="Bolles B. punt 24 yards to the VPS10."></play>
+   <drivesum plays="6" yards="21" top="2:55" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V10,08:32" vh="V" spot="V10" clock="08:32" driveindex="11,111"></drivestart>
+   <play context="V,1,10,V10" playid="11,1,112" clock="05:37"
+      text="VIPERS MODENA drive start at 05:37."></play>
+   <play context="V,1,10,V10" playid="11,2,113" type="P"
+      text="Vanatsky D. pass complete to Minopoli L. for 4 yards to the VPS14 (Dales D.;Belli V.)."></play>
+   <play context="V,2,6,V14" playid="11,3,114" type="R"
+      text="Cira E. rush for no gain to the VPS14 (Bilcari D.;Dales D.)."></play>
+   <play context="V,3,6,V14" playid="11,4,115" type="P" first="P"
+      text="Vanatsky D. pass complete to Vidoni F. for 52 yards to the PAN24, 1ST DOWN VPS (Zanardi F.;Gueye A.)."></play>
+   <play context="V,1,10,H24" playid="11,5,116" type="R"
+      text="Cira E. rush for loss of 1 yard to the PAN25 (Grossi G.;Bilcari D.)."></play>
+   <play context="V,2,11,H25" playid="11,6,117" type="E"
+      text="Vanatsky D. pass complete to Barbagallo G. for 5 yards to the PAN20 (Erioldi A.), PENALTY PAN offside 5 yards to the PAN20, NO PLAY."></play>
+   <play context="V,2,6,H20" playid="11,7,118" type="P"
+      text="Vanatsky D. pass incomplete to Minopoli L.."></play>
+   <play context="V,3,6,H20" playid="11,8,119" type="R" first="R"
+      text="Cira E. rush for 16 yards to the PAN4, 1ST DOWN VPS (Vasini F.)."></play>
+   <play context="V,1,0,H04" playid="11,9,120" type="R"
+      text="Cira E. rush for 1 yard to the PAN3 (Grossi G.)."></play>
+   <play context="V,2,0,H03" playid="11,10,121" type="R"
+      text="Cira E. rush for 2 yards to the PAN1 (Bilcari D.;Dales D.)."></play>
+   <play context="V,3,0,H01" playid="11,11,122" type="#" clock="00:52"
+      text="Timeout PANTHERS PARMA, clock 00:52."></play>
+   <play context="V,3,0,H01" playid="11,12,123" type="P" score="Y" clock="00:40"
+      text="Vanatsky D. pass complete to Di Tunisi S. for 1 yard to the PAN0, TOUCHDOWN, clock 00:40."></play>
+   <play context="V,1,0,H03" playid="11,13,124" type="X" score="Y"
+      text="Vanatsky D. pass attempt to Di Tunisi S. good."></play>
+   <score V="17" H="7"></score>
+   <drivesum plays="9" yards="80" top="4:57" driveindex="11" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="11,14,125" type="K"
+      text="Di Tunisi S. kickoff 53 yards to the PAN7, Paganini G. return 46 yards to the VPS37 (Di Tunisi S.)."></play>
+   <drivestart poss="H,V37,00:40" vh="H" spot="V37" clock="00:40" driveindex="12,125"></drivestart>
+   <play context="H,1,10,V37" playid="12,1,126" clock="00:20"
+      text="PANTHERS PARMA drive start at 00:20."></play>
+   <play context="H,1,10,V37" playid="12,2,127" type="R" first="R"
+      text="Bolles B. rush for 26 yards to the VPS11, 1ST DOWN PAN (Baldi A.)."></play>
+   <play context="H,1,10,V11" playid="12,3,128" type="E" first="E"
+      text="Bolles B. pass incomplete to Felisa T. (Bernardini A.), PENALTY VPS pass interference (Bernardini A.) 9 yards to the VPS2, 1ST DOWN PAN, NO PLAY."></play>
+   <score qtr="3" V="17" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="VPS">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="4" yds="34"></penalties>
+    <conversions thirdconv="3" thirdatt="4" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:25"></misc>
+    <rush att="7" yds="14" gain="19" loss="5" td="0" long="9"></rush>
+    <pass comp="6" att="7" int="0" yds="76" td="1" long="24" sacks="1" sackyds="4"></pass>
+    <rcv no="6" yds="76" td="1" long="24"></rcv>
+    <punt no="1" yds="38" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="53" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="5" tacka="2" tflua="1" tfla="0" tflyds="10" sacks="1" sackyds="10" brup="1"></defense>
+    <kr no="1" yds="3" td="0" long="3"></kr>
+    <scoring td="1" patrcv="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PAN">
+    <firstdowns no="4" rush="1" pass="1" penalty="2"></firstdowns>
+    <penalties no="2" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:35"></misc>
+    <rush att="3" yds="19" gain="29" loss="10" td="0" long="22"></rush>
+    <pass comp="2" att="4" int="0" yds="18" td="0" long="0" sacks="1" sackyds="10"></pass>
+    <rcv no="2" yds="18" td="0" long="0"></rcv>
+    <punt no="1" yds="24" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="56" ob="0" tb="0"></ko>
+    <defense tackua="6" tacka="12" tflua="3" tfla="0" tflyds="6" sacks="1" sackyds="4"></defense>
+    <kr no="1" yds="46" td="0" long="27"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="H,1,0,V02" playid="12,4,129" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="H,1,0,V02" playid="12,5,130" type="R"
+      text="Diaco N. rush for 1 yard to the VPS1 (TEAM)."></play>
+   <play context="H,2,0,V01" playid="12,6,131" type="R" score="Y" clock="11:01"
+      text="Diaco N. rush for 1 yard to the VPS0, TOUCHDOWN, clock 11:01."></play>
+   <play context="H,1,0,V03" playid="12,7,132" type="X" score="Y"
+      text="Felli M. kick attempt good."></play>
+   <score V="17" H="14"></score>
+   <drivesum plays="3" yards="37" top="1:19" driveindex="12" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="12,8,133" type="K"
+      text="Felli M. kickoff 57 yards to the VPS3, Cattabriga S. return 25 yards to the VPS28 (Froldi M.)."></play>
+   <drivestart poss="V,V28,11:01" vh="V" spot="V28" clock="11:01" driveindex="13,133"></drivestart>
+   <play context="V,1,10,V28" playid="13,1,134" clock="10:53"
+      text="VIPERS MODENA drive start at 10:53."></play>
+   <play context="V,1,10,V28" playid="13,2,135" type="P" first="P"
+      text="Vanatsky D. pass complete to Skinner D. for 35 yards to the PAN27, 1ST DOWN VPS (Dales D.)."></play>
+   <play context="V,1,10,H27" playid="13,3,136" type="R"
+      text="Cira E. rush for loss of 4 yards to the PAN31 (Dales D.;Gueye A.)."></play>
+   <play context="V,2,14,H31" playid="13,4,137" type="P"
+      text="Vanatsky D. pass incomplete to Di Tunisi S., dropped pass (Francani N.)."></play>
+   <play context="V,3,14,H31" playid="13,5,138" type="P"
+      text="Vanatsky D. pass incomplete to Di Tunisi S. (Diaferia F.)."></play>
+   <play context="V,4,14,H31" playid="13,6,139" type="P" first="P" score="Y" clock="07:05"
+      text="Vanatsky D. pass complete to Skinner D. for 31 yards to the PAN0, 1ST DOWN VPS, TOUCHDOWN, clock 07:05."></play>
+   <play context="V,1,0,H03" playid="13,7,140" type="X" score="Y"
+      text="Di Tunisi S. kick attempt good."></play>
+   <score V="24" H="14"></score>
+   <drivesum plays="5" yards="62" top="3:48" driveindex="13" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="13,8,141" type="K"
+      text="Di Tunisi S. kickoff 56 yards to the PAN4, Pooda M. return 58 yards to the VPS28 (Di Tunisi S.)."></play>
+   <drivestart poss="H,V28,07:05" vh="H" spot="V28" clock="07:05" driveindex="14,141"></drivestart>
+   <play context="H,1,10,V28" playid="14,1,142" clock="06:57"
+      text="PANTHERS PARMA drive start at 06:57."></play>
+   <play context="H,1,10,V28" playid="14,2,143" type="R"
+      text="Paganini G. rush for 3 yards to the VPS25 (Bernardini A.)."></play>
+   <play context="H,2,7,V25" playid="14,3,144" type="E" first="E"
+      text="Bolles B. pass incomplete to Bonzanni M., PENALTY VPS holding (Bernardini A.) 10 yards to the VPS15, 1ST DOWN PAN, NO PLAY."></play>
+   <play context="H,1,10,V15" playid="14,4,145" type="P" turnover="I"
+      text="Bolles B. pass intercepted by Gambuzzi R. at the VPS0, Gambuzzi R. return 0 yards to the VPS0, touchback."></play>
+   <drivesum plays="2" yards="13" top="0:17" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,V20,06:57" vh="V" spot="V20" clock="06:57" driveindex="15,145"></drivestart>
+   <play context="V,1,10,V20" playid="15,1,146" clock="06:40"
+      text="VIPERS MODENA drive start at 06:40."></play>
+   <play context="V,1,10,V20" playid="15,2,147" type="R" turnover="F"
+      text="Cira E. rush for loss of 1 yard to the VPS19, fumble forced by Bilcari D., fumble by Cira E. recovered by PAN Grossi G. at VPS16."></play>
+   <drivesum plays="1" yards="-4" top="0:08" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,V16,06:40" vh="H" spot="V16" clock="06:40" driveindex="16,147"></drivestart>
+   <play context="H,1,10,V16" playid="16,1,148" clock="06:32"
+      text="PANTHERS PARMA drive start at 06:32."></play>
+   <play context="H,1,10,V16" playid="16,2,149" type="R"
+      text="Diaco N. rush for no gain to the VPS16 (Gambuzzi R.)."></play>
+   <play context="H,2,10,V16" playid="16,3,150" type="P" first="P"
+      text="Bolles B. pass complete to Diaco N. for 10 yards to the VPS6, 1ST DOWN PAN (Lo Biondo G.;Bernardini A.)."></play>
+   <play context="H,1,0,V06" playid="16,4,151" type="P"
+      text="Bolles B. sacked for loss of 6 yards to the VPS12 (Lo Biondo G.)."></play>
+   <play context="H,2,0,V12" playid="16,5,152" type="P"
+      text="Bolles B. pass complete to Diaco N. for 7 yards to the VPS5 (Bernardini A.)."></play>
+   <play context="H,3,0,V05" playid="16,6,153" type="P" score="Y" clock="04:03"
+      text="Bolles B. pass complete to Bonzanni M. for 5 yards to the VPS0, TOUCHDOWN, clock 04:03."></play>
+   <play context="H,1,0,V03" playid="16,7,154" type="X" score="Y"
+      text="Felli M. kick attempt good."></play>
+   <score V="24" H="21"></score>
+   <drivesum plays="5" yards="16" top="2:29" driveindex="16" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="16,8,155" type="K"
+      text="Felli M. kickoff 60 yards to the VPS0, touchback."></play>
+   <drivestart poss="V,V20,04:03" vh="V" spot="V20" clock="04:03" driveindex="17,155"></drivestart>
+   <play context="V,1,10,V20" playid="17,1,156" clock="04:03"
+      text="VIPERS MODENA drive start at 04:03."></play>
+   <play context="V,1,10,V20" playid="17,2,157" type="P" first="P"
+      text="Vanatsky D. pass complete to Di Tunisi S. for 11 yards to the VPS31, 1ST DOWN VPS (Dales D.)."></play>
+   <play context="V,1,10,V31" playid="17,3,158" type="P"
+      text="Vanatsky D. pass complete to Skinner D. for 3 yards to the VPS34 (Diaferia F.)."></play>
+   <play context="V,2,7,V34" playid="17,4,159" type="R"
+      text="Chiriac M. rush for no gain to the VPS34 (Grossi G.)."></play>
+   <play context="V,3,7,V34" playid="17,5,160" type="#" clock="03:12"
+      text="Timeout PANTHERS PARMA, clock 03:12."></play>
+   <play context="V,3,7,V34" playid="17,6,161" type="P" first="P"
+      text="Vanatsky D. pass complete to Skinner D. for 25 yards to the PAN31, 1ST DOWN VPS, out-of-bounds."></play>
+   <play context="V,1,10,H31" playid="17,7,162" type="P"
+      text="Vanatsky D. sacked for loss of 5 yards to the PAN36 (Grossi G.)."></play>
+   <play context="V,2,15,H36" playid="17,8,163" type="R"
+      text="Chiriac M. rush for 1 yard to the PAN35 (Dales D.;Ricchiuti P.)."></play>
+   <play context="V,3,14,H35" playid="17,9,164" type="#" clock="02:00"
+      text="Timeout PANTHERS PARMA, clock 02:00."></play>
+   <play context="V,3,14,H35" playid="17,10,165" type="R"
+      text="Chiriac M. rush for no gain to the PAN35 (Grossi G.)."></play>
+   <play context="V,4,14,H35" playid="17,11,166" type="U"
+      text="Di Tunisi S. punt 19 yards to the PAN16."></play>
+   <drivesum plays="7" yards="35" top="2:43" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,H16,02:00" vh="H" spot="H16" clock="02:00" driveindex="18,166"></drivestart>
+   <play context="H,1,10,H16" playid="18,1,167" clock="01:20"
+      text="PANTHERS PARMA drive start at 01:20."></play>
+   <play context="H,1,10,H16" playid="18,2,168" type="#" clock="01:20"
+      text="Timeout VIPERS MODENA, clock 01:20."></play>
+   <play context="H,1,10,H16" playid="18,3,169" type="P" first="P"
+      text="Bolles B. pass complete to Diaco N. for 20 yards to the PAN36, 1ST DOWN PAN (Bernardini A.)."></play>
+   <play context="H,1,10,H36" playid="18,4,170" type="P"
+      text="Bolles B. pass incomplete to Diaco N.."></play>
+   <play context="H,2,10,H36" playid="18,5,171" type="P" first="P"
+      text="Bolles B. pass complete to Pooda M. for 19 yards to the VPS35, 1ST DOWN PAN, out-of-bounds."></play>
+   <play context="H,1,10,V35" playid="18,6,172" type="P" first="P"
+      text="Bolles B. pass complete to Bonzanni M. for 11 yards to the VPS24, 1ST DOWN PAN, out-of-bounds."></play>
+   <play context="H,1,10,V24" playid="18,7,173" type="E" first="E"
+      text="Bolles B. pass incomplete to Bonzanni M., PENALTY VPS roughing passer (Mirenda A.) 11 yards to the VPS13, 1ST DOWN PAN, NO PLAY."></play>
+   <play context="H,1,10,V13" playid="18,8,174" type="P"
+      text="Bolles B. pass incomplete to Diaco N.."></play>
+   <play context="H,2,10,V13" playid="18,9,175" type="P"
+      text="Bolles B. pass incomplete to Diaco N.."></play>
+   <play context="H,3,10,V13" playid="18,10,176" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="6" yards="61" top="1:20" driveindex="18" complete="Y"></drivesum>
+   <score final="Y" V="24" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="VPS">
+    <firstdowns no="4" rush="0" pass="4" penalty="0"></firstdowns>
+    <penalties no="2" yds="21"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="06:47"></misc>
+    <rush att="6" yds="-12" gain="1" loss="13" td="0" long="0"></rush>
+    <pass comp="5" att="7" int="0" yds="105" td="1" long="0" sacks="1" sackyds="5"></pass>
+    <rcv no="5" yds="105" td="1" long="0"></rcv>
+    <punt no="1" yds="19" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="56" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="7" tacka="2" tflua="1" tfla="0" tflyds="6" sacks="2" sackyds="16" int="1" intyds="0"></defense>
+    <kr no="1" yds="25" td="0" long="22"></kr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PAN">
+    <firstdowns no="6" rush="0" pass="4" penalty="2"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:13"></misc>
+    <rush att="5" yds="-1" gain="5" loss="6" td="1" long="0"></rush>
+    <pass comp="6" att="10" int="1" yds="72" td="1" long="0" sacks="1" sackyds="6"></pass>
+    <rcv no="6" yds="72" td="1" long="0"></rcv>
+    <ko no="2" yds="117" ob="0" tb="1"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="8" tacka="4" tflua="4" tfla="0" tflyds="14" sacks="2" sackyds="9" brup="2" ff="1" fr="1" fryds="0"></defense>
+    <kr no="1" yds="58" td="0" long="12"></kr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,3,10,V13" qtr="4" clock="00:00" vtoh="1" htoh="3"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="VPS">
+  <player name="Rinaldi A." checkname="A.,RINALDI" uni="1" gp="0" code="1"></player>
+  <player name="Goldoni E." checkname="E.,GOLDONI" uni="3" gp="0" code="3"></player>
+  <player name="Foti L." checkname="L.,FOTI" uni="4" gp="0" code="4"></player>
+  <player name="Del Stabile T." checkname="STABILE T.,DEL" uni="16" gp="0" code="16"></player>
+  <player name="Sicignano F." checkname="F.,SICIGNANO" uni="21" gp="0" code="21"></player>
+  <player name="Vrapi K." checkname="K.,VRAPI" uni="22" gp="0" code="22"></player>
+  <player name="Barbera F." checkname="F.,BARBERA" uni="24" gp="0" code="24"></player>
+  <player name="Zattoni F." checkname="F.,ZATTONI" uni="36" gp="0" code="36"></player>
+  <player name="Mazzoni M." checkname="M.,MAZZONI" uni="41" gp="0" code="41"></player>
+  <player name="Manicardi P." checkname="P.,MANICARDI" uni="45" gp="0" code="45"></player>
+  <player name="Lianka H." checkname="H.,LIANKA" uni="50" gp="0" code="50"></player>
+  <player name="Ficcarelli A." checkname="A.,FICCARELLI" uni="52" gp="0" code="52"></player>
+  <player name="Romano G." checkname="G.,ROMANO" uni="56" gp="0" code="56"></player>
+  <player name="Vitali R." checkname="R.,VITALI" uni="58" gp="0" code="58"></player>
+  <player name="Cosmar A." checkname="A.,COSMAR" uni="60" gp="0" code="60"></player>
+  <player name="Bigliardi A." checkname="A.,BIGLIARDI" uni="66" gp="0" code="66"></player>
+  <player name="Buffagni M." checkname="M.,BUFFAGNI" uni="67" gp="0" code="67"></player>
+  <player name="Orlando G." checkname="G.,ORLANDO" uni="69" gp="0" code="69"></player>
+  <player name="Leoni D." checkname="D.,LEONI" uni="75" gp="0" code="75"></player>
+  <player name="Spadoni A." checkname="A.,SPADONI" uni="77" gp="0" code="77"></player>
+  <player name="Carroli D." checkname="D.,CARROLI" uni="78" gp="0" code="78"></player>
+  <player name="Grazia R." checkname="R.,GRAZIA" uni="81" gp="0" code="81"></player>
+  <player name="Lauriola M." checkname="M.,LAURIOLA" uni="83" gp="0" code="83"></player>
+  <player name="Caselli F." checkname="F.,CASELLI" uni="85" gp="0" code="85"></player>
+  <player name="Orlando E." checkname="E.,ORLANDO" uni="97" gp="0" code="97"></player>
+ </dnp>
+ <dnp vh="H" id="PAN">
+  <player name="Greci T." checkname="T.,GRECI" uni="5" gp="0" code="5"></player>
+  <player name="Sano Amparo C." checkname="AMPARO C.,SANO" uni="7" gp="0" code="7"></player>
+  <player name="Monardi T." checkname="T.,MONARDI" uni="9" gp="0" code="9"></player>
+  <player name="Mboup N." checkname="N.,MBOUP" uni="13" gp="0" code="13"></player>
+  <player name="Montaresi L." checkname="L.,MONTARESI" uni="15" gp="0" code="15"></player>
+  <player name="Leone Mi." checkname="MI.,LEONE" uni="24" gp="0" code="24"></player>
+  <player name="Gregorini D." checkname="D.,GREGORINI" uni="30" gp="0" code="30"></player>
+  <player name="Fanunza M." checkname="M.,FANUNZA" uni="31" gp="0" code="31"></player>
+  <player name="Bianchi M." checkname="M.,BIANCHI" uni="43" gp="0" code="43"></player>
+  <player name="Brianti A." checkname="A.,BRIANTI" uni="44" gp="0" code="44"></player>
+  <player name="Steinhauser F." checkname="F.,STEINHAUSER" uni="45" gp="0" code="45"></player>
+  <player name="Bottoni F." checkname="F.,BOTTONI" uni="46" gp="0" code="46"></player>
+  <player name="Vascelli A." checkname="A.,VASCELLI" uni="51" gp="0" code="51"></player>
+  <player name="Borgna E." checkname="E.,BORGNA" uni="54" gp="0" code="54"></player>
+  <player name="Bernazzoli A." checkname="A.,BERNAZZOLI" uni="56" gp="0" code="56"></player>
+  <player name="Cariola E." checkname="E.,CARIOLA" uni="60" gp="0" code="60"></player>
+  <player name="Penini M." checkname="M.,PENINI" uni="63" gp="0" code="63"></player>
+  <player name="Valota D." checkname="D.,VALOTA" uni="71" gp="0" code="71"></player>
+  <player name="Mattarei C." checkname="C.,MATTAREI" uni="76" gp="0" code="76"></player>
+  <player name="Novarini M." checkname="M.,NOVARINI" uni="79" gp="0" code="79"></player>
+  <player name="Racheli L." checkname="L.,RACHELI" uni="83" gp="0" code="83"></player>
+  <player name="Volpi D." checkname="D.,VOLPI" uni="85" gp="0" code="85"></player>
+  <player name="Ghelfi M." checkname="M.,GHELFI" uni="87" gp="0" code="87"></player>
+  <player name="Boschi N." checkname="N.,BOSCHI" uni="91" gp="0" code="91"></player>
+  <player name="Niang O." checkname="O.,NIANG" uni="94" gp="0" code="94"></player>
+  <player name="Rugani F." checkname="F.,RUGANI" uni="99" gp="0" code="99"></player>
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="H" id="PAN" yds="74" play="PASS" players="Bolles B. to Bonzanni M." td="Y"></longplay>
+ </longplays>
+</fbgame>

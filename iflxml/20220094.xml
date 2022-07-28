@@ -1,0 +1,814 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220094" visid="VPS" homeid="RHI" visname="VIPERS MODENA" homename="Rhinos Milano"
+      date="5/22/2022" location="Milano" stadium="Velodromo Vigorelli"
+      start="18:00" end="20:42" leaguegame="Y" nitegame="Y"
+      duration="2:42" attend="0" temp="" wind="" weather="">
+  <officials ref="Garlaschi" ump="Tognon" line="Mancino" lj="Cian" bj="Santini" fj="Tognoni" sj="Cassiani" sc="Vecchia"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="35" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="VPS" name="VIPERS MODENA" record="3-4" conf-record="3-4" abb="V">
+  <linescore prds="2" line="7,7" score="14">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="9" rush="4" pass="4" penalty="1"></firstdowns>
+   <penalties no="1" yds="5"></penalties>
+   <conversions thirdconv="2" thirdatt="5" fourthconv="1" fourthatt="1"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="12:05" ona="0" onm="0"></misc>
+   <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="16" yds="38" gain="58" loss="20" td="1" long="17"></rush>
+   <pass comp="8" att="13" int="1" yds="98" td="1" long="29" sacks="1" sackyds="4"></pass>
+   <rcv no="8" yds="98" td="1" long="29"></rcv>
+   <punt no="1" yds="34" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+   <ko no="2" yds="103" ob="0" tb="0"></ko>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="12" tacka="6" tflua="2" tfla="0" tflyds="4" sacks="0" sackyds="0" int="1" intyds="5"></defense>
+   <kr no="3" yds="79" td="0" long="29"></kr>
+   <pr no="1" yds="9" td="0" long="9"></pr>
+   <ir no="1" yds="5" td="0" long="5"></ir>
+   <scoring td="2" patkick="2"></scoring>
+  </totals>
+  <player name="Goldoni E." shortname="Goldoni E." checkname="E.,GOLDONI" uni="1" gp="1" code="1"></player>
+  <player name="Vanatsky D." shortname="Vanatsky D." checkname="D.,VANATSKY" uni="2" gp="1" code="2">
+   <rush att="4" yds="-6" gain="6" loss="12" td="1" long="5"></rush>
+   <pass comp="8" att="13" int="1" yds="98" td="1" long="29" sacks="1" sackyds="4"></pass>
+   <punt no="1" yds="34" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Gatti A." shortname="Gatti A." checkname="A.,GATTI" uni="3" gp="1" code="3">
+   <rush att="8" yds="36" gain="41" loss="5" td="0" long="17"></rush>
+  </player>
+  <player name="Foti L." shortname="Foti L." checkname="L.,FOTI" uni="4" gp="1" code="4"></player>
+  <player name="Skinner D." shortname="Skinner D." checkname="D.,SKINNER" uni="5" gp="1" code="5">
+   <rcv no="2" yds="11" td="0" long="11"></rcv>
+   <defense tackua="3" tacka="1" int="1" intyds="5"></defense>
+   <pr no="1" yds="9" td="0" long="9"></pr>
+   <ir no="1" yds="5" td="0" long="5"></ir>
+  </player>
+  <player name="Mirenda A." shortname="Mirenda A." checkname="A.,MIRENDA" uni="7" gp="1" code="7"></player>
+  <player name="Rosi L." shortname="Rosi L." checkname="L.,ROSI" uni="8" gp="1" code="8"></player>
+  <player name="Minopoli L." shortname="Minopoli L." checkname="L.,MINOPOLI" uni="9" gp="1" code="9">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="Bernardini A." shortname="Bernardini A." checkname="A.,BERNARDINI" uni="10" gp="1" code="10">
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="Turrini M." shortname="Turrini M." checkname="M.,TURRINI" uni="11" gp="1" code="11">
+   <kr no="3" yds="79" td="0" long="29"></kr>
+  </player>
+  <player name="Barbagallo G." shortname="Barbagallo G." checkname="G.,BARBAGALLO" uni="13" gp="1" code="13">
+   <rcv no="2" yds="24" td="0" long="15"></rcv>
+  </player>
+  <player name="Vidoni F." shortname="Vidoni F." checkname="F.,VIDONI" uni="14" gp="1" code="14">
+   <rcv no="1" yds="29" td="0" long="29"></rcv>
+  </player>
+  <player name="Panzetti E." shortname="Panzetti E." checkname="E.,PANZETTI" uni="15" gp="1" code="15"></player>
+  <player name="Del Stabile T." shortname="Del Stabile T." checkname="STABILE T.,DEL" uni="16" gp="1" code="16">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Cattabriga S." shortname="Cattabriga S." checkname="S.,CATTABRIGA" uni="17" gp="1" code="17"></player>
+  <player name="Sicignano F." shortname="Sicignano F." checkname="F.,SICIGNANO" uni="21" gp="1" code="21"></player>
+  <player name="Vrapi K." shortname="Vrapi K." checkname="K.,VRAPI" uni="22" gp="1" code="22"></player>
+  <player name="Gambuzzi R." shortname="Gambuzzi R." checkname="R.,GAMBUZZI" uni="23" gp="1" code="23">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Barbera F." shortname="Barbera F." checkname="F.,BARBERA" uni="24" gp="1" code="24"></player>
+  <player name="Trentini Mat." shortname="Trentini Mat." checkname="MAT.,TRENTINI" uni="25" gp="1" code="25"></player>
+  <player name="Chiriac M." shortname="Chiriac M." checkname="M.,CHIRIAC" uni="26" gp="1" code="26">
+   <ko no="2" yds="103" ob="0" tb="0"></ko>
+   <pat kickatt="2" kickmade="2"></pat>
+   <scoring patkick="2"></scoring>
+  </player>
+  <player name="Lo Biondo G." shortname="Lo Biondo G." checkname="BIONDO G.,LO" uni="31" gp="1" code="31"></player>
+  <player name="Cira E." shortname="Cira E." checkname="E.,CIRA" uni="33" gp="1" code="33">
+   <rush att="4" yds="8" gain="11" loss="3" td="0" long="9"></rush>
+  </player>
+  <player name="Zattoni F." shortname="Zattoni F." checkname="F.,ZATTONI" uni="36" gp="1" code="36"></player>
+  <player name="Montaruli G." shortname="Montaruli G." checkname="G.,MONTARULI" uni="37" gp="1" code="37">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Mazzoni M." shortname="Mazzoni M." checkname="M.,MAZZONI" uni="41" gp="1" code="41"></player>
+  <player name="Farruggia G." shortname="Farruggia G." checkname="G.,FARRUGGIA" uni="42" gp="1" code="42"></player>
+  <player name="Manicardi P." shortname="Manicardi P." checkname="P.,MANICARDI" uni="45" gp="1" code="45"></player>
+  <player name="Baldi A." shortname="Baldi A." checkname="A.,BALDI" uni="47" gp="1" code="47"></player>
+  <player name="Lianka H." shortname="Lianka H." checkname="H.,LIANKA" uni="50" gp="1" code="50">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Ficcarelli A." shortname="Ficcarelli A." checkname="A.,FICCARELLI" uni="52" gp="1" code="52"></player>
+  <player name="Vrapi M." shortname="Vrapi M." checkname="M.,VRAPI" uni="55" gp="1" code="55">
+   <defense tackua="2" tacka="0" tflua="2" tfla="0" tflyds="4"></defense>
+  </player>
+  <player name="Romano G." shortname="Romano G." checkname="G.,ROMANO" uni="56" gp="1" code="56"></player>
+  <player name="Cosmar A." shortname="Cosmar A." checkname="A.,COSMAR" uni="60" gp="1" code="60"></player>
+  <player name="Bigliardi A." shortname="Bigliardi A." checkname="A.,BIGLIARDI" uni="66" gp="1" code="66"></player>
+  <player name="Buffagni M." shortname="Buffagni M." checkname="M.,BUFFAGNI" uni="67" gp="1" code="67"></player>
+  <player name="Fanti F." shortname="Fanti F." checkname="F.,FANTI" uni="68" gp="1" code="68"></player>
+  <player name="Orlando G." shortname="Orlando G." checkname="G.,ORLANDO" uni="69" gp="1" code="69"></player>
+  <player name="Barbarini L." shortname="Barbarini L." checkname="L.,BARBARINI" uni="72" gp="1" code="72"></player>
+  <player name="Leoni D." shortname="Leoni D." checkname="D.,LEONI" uni="75" gp="1" code="75"></player>
+  <player name="Spadoni A." shortname="Spadoni A." checkname="A.,SPADONI" uni="77" gp="1" code="77"></player>
+  <player name="Trentini Mar." shortname="Trentini Mar." checkname="MAR.,TRENTINI" uni="80" gp="1" code="80"></player>
+  <player name="Grazia R." shortname="Grazia R." checkname="R.,GRAZIA" uni="81" gp="1" code="81"></player>
+  <player name="Bonanno G." shortname="Bonanno G." checkname="G.,BONANNO" uni="83" gp="1" code="83">
+   <rcv no="2" yds="26" td="1" long="17"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Caselli F." shortname="Caselli F." checkname="F.,CASELLI" uni="85" gp="1" code="85"></player>
+  <player name="Bernardoni S." shortname="Bernardoni S." checkname="S.,BERNARDONI" uni="90" gp="1" code="90"></player>
+  <player name="Chiletti R." shortname="Chiletti R." checkname="R.,CHILETTI" uni="91" gp="1" code="91">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Orlando E." shortname="Orlando E." checkname="E.,ORLANDO" uni="97" gp="1" code="97"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="RHI" name="Rhinos Milano" record="2-6" conf-record="2-6" abb="R">
+  <linescore prds="2" line="14,0" score="14">
+   <lineprd prd="1" score="14"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="6" rush="2" pass="4" penalty="0"></firstdowns>
+   <penalties no="4" yds="25"></penalties>
+   <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="10:12" ona="0" onm="0"></misc>
+   <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="7" yds="40" gain="42" loss="2" td="1" long="15"></rush>
+   <pass comp="8" att="12" int="1" yds="92" td="1" long="43" sacks="0" sackyds="0"></pass>
+   <rcv no="8" yds="92" td="1" long="43"></rcv>
+   <punt no="1" yds="38" long="38" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="3" yds="173" ob="0" tb="0"></ko>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="20" tacka="8" tflua="3" tfla="2" tflyds="12" sacks="1" sackyds="4" brup="1" int="1" intyds="8"></defense>
+   <kr no="2" yds="63" td="0" long="42"></kr>
+   <ir no="1" yds="8" td="0" long="8"></ir>
+   <scoring td="2" patkick="2"></scoring>
+  </totals>
+  <player name="Ines R." shortname="Ines R." checkname="R.,INES" uni="1" gp="1" code="1"></player>
+  <player name="Elmi P." shortname="Elmi P." checkname="P.,ELMI" uni="2" gp="1" code="2">
+   <rcv no="2" yds="14" td="0" long="10"></rcv>
+  </player>
+  <player name="Alojado J." shortname="Alojado J." checkname="J.,ALOJADO" uni="3" gp="1" code="3"></player>
+  <player name="Assemian L." shortname="Assemian L." checkname="L.,ASSEMIAN" uni="4" gp="1" code="4">
+   <rush att="4" yds="19" gain="21" loss="2" td="0" long="9"></rush>
+  </player>
+  <player name="Romano' G." shortname="Romano' G." checkname="G.,ROMANO'" uni="5" gp="1" code="5">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Faoro A." shortname="Faoro A." checkname="A.,FAORO" uni="6" gp="1" code="6">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Santacaterin D." shortname="Santacaterin D." checkname="D.,SANTACATERIN" uni="7" gp="1" code="7">
+   <rush att="1" yds="5" gain="5" loss="0" td="0" long="5"></rush>
+   <pass comp="8" att="12" int="1" yds="92" td="1" long="43" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="Gagliardi R." shortname="Gagliardi R." checkname="R.,GAGLIARDI" uni="9" gp="1" code="9">
+   <defense tackua="1" tacka="2"></defense>
+  </player>
+  <player name="Escobar B." shortname="Escobar B." checkname="B.,ESCOBAR" uni="11" gp="1" code="11">
+   <rcv no="1" yds="19" td="1" long="19"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Boni S." shortname="Boni S." checkname="S.,BONI" uni="13" gp="1" code="13">
+   <rcv no="2" yds="41" td="0" long="43"></rcv>
+   <defense tackua="1" tacka="0"></defense>
+   <kr no="2" yds="63" td="0" long="42"></kr>
+  </player>
+  <player name="Valesi J." shortname="Valesi J." checkname="J.,VALESI" uni="14" gp="1" code="14">
+   <defense tackua="1" tacka="0" brup="1"></defense>
+  </player>
+  <player name="Marotta S." shortname="Marotta S." checkname="S.,MAROTTA" uni="15" gp="1" code="15"></player>
+  <player name="Myhre J." shortname="Myhre J." checkname="J.,MYHRE" uni="16" gp="1" code="16">
+   <rcv no="1" yds="3" td="0" long="3"></rcv>
+  </player>
+  <player name="Migliori P." shortname="Migliori P." checkname="P.,MIGLIORI" uni="18" gp="1" code="18"></player>
+  <player name="Bertocchi L." shortname="Bertocchi L." checkname="L.,BERTOCCHI" uni="19" gp="1" code="19"></player>
+  <player name="Bertazzi A." shortname="Bertazzi A." checkname="A.,BERTAZZI" uni="21" gp="1" code="21">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Gerges C." shortname="Gerges C." checkname="C.,GERGES" uni="22" gp="1" code="22"></player>
+  <player name="Ghitti F." shortname="Ghitti F." checkname="F.,GHITTI" uni="25" gp="1" code="25">
+   <defense tackua="1" tacka="2"></defense>
+  </player>
+  <player name="Ortiz A." shortname="Ortiz A." checkname="A.,ORTIZ" uni="26" gp="1" code="26">
+   <defense tackua="3" tacka="0"></defense>
+  </player>
+  <player name="Sinfi J." shortname="Sinfi J." checkname="J.,SINFI" uni="30" gp="1" code="30"></player>
+  <player name="Restelli R." shortname="Restelli R." checkname="R.,RESTELLI" uni="31" gp="1" code="31">
+   <defense tackua="2" tacka="1" int="1" intyds="8"></defense>
+   <ir no="1" yds="8" td="0" long="8"></ir>
+  </player>
+  <player name="Farano A." shortname="Farano A." checkname="A.,FARANO" uni="33" gp="1" code="33"></player>
+  <player name="Franzosi M." shortname="Franzosi M." checkname="M.,FRANZOSI" uni="41" gp="1" code="41"></player>
+  <player name="Villa F." shortname="Villa F." checkname="F.,VILLA" uni="43" gp="1" code="43"></player>
+  <player name="Sarra G." shortname="Sarra G." checkname="G.,SARRA" uni="47" gp="1" code="47">
+   <ko no="3" yds="173" ob="0" tb="0"></ko>
+   <pat kickatt="2" kickmade="2"></pat>
+   <scoring patkick="2"></scoring>
+  </player>
+  <player name="Natale A." shortname="Natale A." checkname="A.,NATALE" uni="50" gp="1" code="50">
+   <defense tackua="5" tacka="0" tflua="3" tfla="0" tflyds="9" sackua="1" sacka="0" sackyds="4"></defense>
+  </player>
+  <player name="Basso A." shortname="Basso A." checkname="A.,BASSO" uni="53" gp="1" code="53">
+   <defense tackua="1" tacka="2" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Raffaelli M." shortname="Raffaelli M." checkname="M.,RAFFAELLI" uni="54" gp="1" code="54">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Lombardi L." shortname="Lombardi L." checkname="L.,LOMBARDI" uni="55" gp="1" code="55"></player>
+  <player name="Guillet Ri." shortname="Guillet Ri." checkname="RI.,GUILLET" uni="56" gp="1" code="56"></player>
+  <player name="Bersanetti D." shortname="Bersanetti D." checkname="D.,BERSANETTI" uni="60" gp="1" code="60">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Todisco D." shortname="Todisco D." checkname="D.,TODISCO" uni="66" gp="1" code="66"></player>
+  <player name="Ongari F." shortname="Ongari F." checkname="F.,ONGARI" uni="70" gp="1" code="70"></player>
+  <player name="Folci G." shortname="Folci G." checkname="G.,FOLCI" uni="72" gp="1" code="72"></player>
+  <player name="Simeoni J." shortname="Simeoni J." checkname="J.,SIMEONI" uni="76" gp="1" code="76"></player>
+  <player name="Votta C." shortname="Votta C." checkname="C.,VOTTA" uni="78" gp="1" code="78"></player>
+  <player name="Massironi M." shortname="Massironi M." checkname="M.,MASSIRONI" uni="79" gp="1" code="79"></player>
+  <player name="Cambrisi L." shortname="Cambrisi L." checkname="L.,CAMBRISI" uni="82" gp="1" code="82">
+   <rush att="2" yds="16" gain="16" loss="0" td="1" long="15"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Guillet Ru." shortname="Guillet Ru." checkname="RU.,GUILLET" uni="84" gp="1" code="84">
+   <rcv no="2" yds="15" td="0" long="8"></rcv>
+  </player>
+  <player name="De Vecchi N." shortname="De Vecchi N." checkname="VECCHI N.,DE" uni="85" gp="1" code="85">
+   <punt no="1" yds="38" long="38" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+  </player>
+  <player name="Goria G." shortname="Goria G." checkname="G.,GORIA" uni="89" gp="1" code="89"></player>
+  <player name="Bettale L." shortname="Bettale L." checkname="L.,BETTALE" uni="90" gp="1" code="90"></player>
+  <player name="Alaimo L." shortname="Alaimo L." checkname="L.,ALAIMO" uni="93" gp="1" code="93"></player>
+  <player name="Gerges M." shortname="Gerges M." checkname="M.,GERGES" uni="99" gp="1" code="99"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="RHI" qtr="1" clock="07:16" type="TD" how="RUSH" yds="15" scorer="Cambrisi L." patby="Sarra G." pattype="KICK" patres="GOOD" vscore="0" hscore="7" driveindex="2"></score>
+  <score vh="V" team="VPS" qtr="1" clock="02:37" type="TD" how="PASS" yds="9" scorer="Bonanno G." passer="Vanatsky D." patby="Chiriac M." pattype="KICK" patres="GOOD" vscore="7" hscore="7" driveindex="3"></score>
+  <score vh="H" team="RHI" qtr="1" clock="00:00" type="TD" how="PASS" yds="19" scorer="Escobar B." passer="Santacaterin D." patby="Sarra G." pattype="KICK" patres="GOOD" vscore="7" hscore="14" driveindex="4"></score>
+  <score vh="V" team="VPS" qtr="2" clock="02:41" type="TD" how="RUSH" yds="1" scorer="Vanatsky D." patby="Chiriac M." pattype="KICK" patres="GOOD" vscore="14" hscore="14" driveindex="7"></score>
+ </scores>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V35" playid="0,1,0"
+      text="Vipers win Coin Toss and defers to second half"></play>
+   <play context="V,1,10,V35" playid="0,2,1"
+      text="RHI ball on RHI35."></play>
+   <play context="H,1,10,H35" playid="0,3,2" type="K"
+      text="Sarra G. kickoff 56 yards to the VPS9, Turrini M. return 23 yards to the VPS32 (Bersanetti D.)."></play>
+   <drivestart poss="V,V32,12:00" vh="V" spot="V32" clock="12:00" driveindex="1,2"></drivestart>
+   <play context="V,1,10,V32" playid="1,1,3" type="P"
+      text="Vanatsky D. pass incomplete to Bonanno G.."></play>
+   <play context="V,2,10,V32" playid="1,2,4" type="R" first="R"
+      text="Gatti A. rush for 17 yards to the VPS49, 1ST DOWN VPS, out-of-bounds."></play>
+   <play context="V,1,10,V49" playid="1,3,5" type="P" turnover="I"
+      text="Vanatsky D. pass intercepted by Restelli R. at the RHI35, Restelli R. return 8 yards to the RHI43 (TEAM)."></play>
+   <drivesum plays="3" yards="17" top="12:00" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,H43,12:00" vh="H" spot="H43" clock="12:00" driveindex="2,5"></drivestart>
+   <play context="H,1,10,H43" playid="2,1,6" clock="10:30"
+      text="RHINOS MILANO drive start at 10:30."></play>
+   <play context="H,1,10,H43" playid="2,2,7" type="P"
+      text="Santacaterin D. pass complete to Guillet Ru. for 8 yards to the VPS49 (Bernardini A.)."></play>
+   <play context="H,2,2,V49" playid="2,3,8" type="P" first="P"
+      text="Santacaterin D. pass complete to Elmi P. for 10 yards to the VPS39, 1ST DOWN RHI (Skinner D.)."></play>
+   <play context="H,1,10,V39" playid="2,4,9" type="R"
+      text="Assemian L. rush for 9 yards to the VPS30 (Skinner D.)."></play>
+   <play context="H,2,1,V30" playid="2,5,10" type="P" first="P"
+      text="Santacaterin D. pass complete to Myhre J. for 3 yards to the VPS27, 1ST DOWN RHI (Del Stabile T.)."></play>
+   <play context="H,1,10,V27" playid="2,6,11" type="R"
+      text="Santacaterin D. rush for 5 yards to the VPS22 (Gambuzzi R.;Lianka H.)."></play>
+   <play context="H,2,5,V22" playid="2,7,12" type="P" first="P"
+      text="Santacaterin D. pass complete to Guillet Ru. for 7 yards to the VPS15, 1ST DOWN RHI (Bernardini A.)."></play>
+   <play context="H,1,10,V15" playid="2,8,13" type="R" first="R" score="Y" clock="07:16"
+      text="Cambrisi L. rush for 15 yards to the VPS0, 1ST DOWN RHI, TOUCHDOWN, clock 07:16."></play>
+   <play context="H,1,0,V03" playid="2,9,14" type="X" score="Y"
+      text="Sarra G. kick attempt good."></play>
+   <score V="0" H="7"></score>
+   <play context="H,1,0,H35" playid="2,10,15" type="E"
+      text="Sarra G. kickoff 45 yards to the VPS20, out-of-bounds, PENALTY RHI IP (Sarra G.) 5 yards to the RHI30, NO PLAY."></play>
+   <drivesum plays="7" yards="57" top="0:00" driveindex="2" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="2,11,16" type="K"
+      text="Sarra G. kickoff 63 yards to the VPS7, Turrini M. return 29 yards to the VPS36 (Natale A.)."></play>
+   <drivestart poss="V,V36,07:16" vh="V" spot="V36" clock="07:16" driveindex="3,16"></drivestart>
+   <play context="V,1,10,V36" playid="3,1,17" clock="07:16"
+      text="VIPERS MODENA drive start at 07:16."></play>
+   <play context="V,1,10,V36" playid="3,2,18" type="R" first="R"
+      text="Gatti A. rush for 11 yards to the VPS47, 1ST DOWN VPS (Gagliardi R.;Basso A.)."></play>
+   <play context="V,1,10,V47" playid="3,3,19" type="R"
+      text="Gatti A. rush for loss of 2 yards to the VPS45 (Natale A.)."></play>
+   <play context="V,2,12,V45" playid="3,4,20" type="P"
+      text="Vanatsky D. pass complete to Skinner D. for 11 yards to the RHI44 (Bertazzi A.)."></play>
+   <play context="V,3,1,H44" playid="3,5,21" type="R" first="R"
+      text="Gatti A. rush for 7 yards to the RHI37, 1ST DOWN VPS (Gagliardi R.;Ghitti F.)."></play>
+   <play context="V,1,10,H37" playid="3,6,22" type="R"
+      text="Gatti A. rush for loss of 3 yards to the RHI40 (Faoro A.;Basso A.)."></play>
+   <play context="V,2,13,H40" playid="3,7,23" type="P"
+      text="Vanatsky D. pass complete to Barbagallo G. for 9 yards to the RHI31 (Restelli R.)."></play>
+   <play context="V,3,4,H31" playid="3,8,24" type="E" first="E"
+      text="PENALTY RHI offside defense (Marotta S.) 5 yards to the RHI26, 1ST DOWN VPS."></play>
+   <play context="V,1,10,H26" playid="3,9,25" type="P"
+      text="Vanatsky D. pass incomplete to Vanatsky D. (Valesi J.)."></play>
+   <play context="V,2,10,H26" playid="3,10,26" type="P" first="P"
+      text="Vanatsky D. pass complete to Bonanno G. for 17 yards to the RHI9, 1ST DOWN VPS (Valesi J.)."></play>
+   <play context="V,1,0,H09" playid="3,11,27" type="#" clock="02:43"
+      text="Timeout Rhinos Milano, clock 02:43."></play>
+   <play context="V,1,0,H09" playid="3,12,28" type="P" score="Y" clock="02:37"
+      text="Vanatsky D. pass complete to Bonanno G. for 9 yards to the RHI0, TOUCHDOWN, clock 02:37."></play>
+   <play context="V,1,0,H03" playid="3,13,29" type="X" score="Y"
+      text="Chiriac M. kick attempt good."></play>
+   <score V="7" H="7"></score>
+   <drivesum plays="9" yards="64" top="0:00" driveindex="3" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="3,14,30" type="K"
+      text="Chiriac M. kickoff 50 yards to the RHI15, Boni S. return 21 yards to the RHI36 (TEAM)."></play>
+   <drivestart poss="H,H36,02:37" vh="H" spot="H36" clock="02:37" driveindex="4,30"></drivestart>
+   <play context="H,1,10,H36" playid="4,1,31" clock="02:37"
+      text="RHINOS MILANO drive start at 02:37."></play>
+   <play context="H,1,10,H36" playid="4,2,32" type="P" first="P"
+      text="Santacaterin D. pass complete to Boni S. for 43 yards to the VPS21, 1ST DOWN RHI (Gambuzzi R.)."></play>
+   <play context="H,1,10,V21" playid="4,3,33" type="P"
+      text="Santacaterin D. pass incomplete to Boni S.."></play>
+   <play context="H,2,10,V21" playid="4,4,34" type="R"
+      text="Assemian L. rush for 9 yards to the VPS12 (Bernardini A.;Skinner D.)."></play>
+   <play context="H,3,1,V12" playid="4,5,35" type="R" first="R"
+      text="Assemian L. rush for 3 yards to the VPS9, 1ST DOWN RHI (Skinner D.)."></play>
+   <play context="H,1,0,V09" playid="4,6,36" type="E"
+      text="Cambrisi L. rush for loss of 2 yards to the VPS11 (Skinner D.), PENALTY RHI holding (Boni S.) 10 yards to the VPS19, NO PLAY."></play>
+   <play context="H,1,0,V19" playid="4,7,37" type="P" score="Y" clock="00:00"
+      text="Santacaterin D. pass complete to Escobar B. for 19 yards to the VPS0, TOUCHDOWN, clock 00:00."></play>
+   <play context="H,1,0,V03" playid="4,8,38" type="X" score="Y"
+      text="Sarra G. kick attempt good."></play>
+   <score V="7" H="14"></score>
+   <score qtr="1" V="7" H="14"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="VPS">
+    <firstdowns no="5" rush="3" pass="1" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:09"></misc>
+    <rush att="5" yds="30" gain="35" loss="5" td="0" long="17"></rush>
+    <pass comp="4" att="7" int="1" yds="46" td="1" long="17" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="46" td="1" long="17"></rcv>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="9" tacka="4" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="52" td="0" long="29"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="RHI">
+    <firstdowns no="6" rush="2" pass="4" penalty="0"></firstdowns>
+    <penalties no="3" yds="20"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:51"></misc>
+    <rush att="5" yds="41" gain="41" loss="0" td="1" long="15"></rush>
+    <pass comp="6" att="7" int="0" yds="90" td="1" long="43" sacks="0" sackyds="0"></pass>
+    <rcv no="6" yds="90" td="1" long="43"></rcv>
+    <ko no="2" yds="119" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="6" tacka="6" tflua="3" tfla="0" tflyds="8" sacks="0" sackyds="0" brup="1" int="1" intyds="8"></defense>
+    <kr no="1" yds="21" td="0" long="21"></kr>
+    <ir no="1" yds="8" td="0" long="8"></ir>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="H,1,0,H35" playid="4,9,39" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <drivesum plays="5" yards="64" top="0:00" driveindex="4" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="4,10,40" type="K"
+      text="Sarra G. kickoff 54 yards to the VPS11, Turrini M. return 27 yards to the VPS38 (Ghitti F.)."></play>
+   <drivestart poss="V,V38,12:00" vh="V" spot="V38" clock="12:00" driveindex="5,40"></drivestart>
+   <play context="V,1,10,V38" playid="5,1,41" clock="12:00"
+      text="VIPERS MODENA drive start at 12:00."></play>
+   <play context="V,1,10,V38" playid="5,2,42" type="R"
+      text="Cira E. rush for 9 yards to the VPS47 (Gagliardi R.)."></play>
+   <play context="V,2,1,V47" playid="5,3,43" type="R"
+      text="Cira E. rush for no gain to the VPS47 (Basso A.)."></play>
+   <play context="V,3,1,V47" playid="5,4,44" type="R" first="R"
+      text="Vanatsky D. rush for 5 yards to the RHI48, 1ST DOWN VPS (TEAM)."></play>
+   <play context="V,1,10,H48" playid="5,5,45" type="E"
+      text="PENALTY RHI offside defense (Ongari F.) 5 yards to the RHI43."></play>
+   <play context="V,1,5,H43" playid="5,6,46" type="P" first="P"
+      text="Vanatsky D. pass complete to Minopoli L. for 8 yards to the RHI35, 1ST DOWN VPS (Ortiz A.)."></play>
+   <play context="V,1,10,H35" playid="5,7,47" type="R"
+      text="Cira E. rush for loss of 3 yards to the RHI38 (Natale A.)."></play>
+   <play context="V,2,13,H38" playid="5,8,48" type="P"
+      text="Vanatsky D. pass incomplete to Minopoli L.."></play>
+   <play context="V,3,13,H38" playid="5,9,49" type="P"
+      text="Vanatsky D. sacked for loss of 4 yards to the RHI42 (Natale A.)."></play>
+   <play context="V,4,17,H42" playid="5,10,50" type="U"
+      text="Vanatsky D. punt 34 yards to the RHI8, downed."></play>
+   <drivesum plays="7" yards="20" top="0:00" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H08,12:00" vh="H" spot="H08" clock="12:00" driveindex="6,50"></drivestart>
+   <play context="H,1,10,H08" playid="6,1,51" clock="10:25"
+      text="RHINOS MILANO drive start at 10:25."></play>
+   <play context="H,1,10,H08" playid="6,2,52" type="P"
+      text="Santacaterin D. pass complete to Boni S. for loss of 2 yards to the RHI6 (Vrapi M.)."></play>
+   <play context="H,2,12,H06" playid="6,3,53" type="P"
+      text="Santacaterin D. pass incomplete to Elmi P.."></play>
+   <play context="H,3,12,H06" playid="6,4,54" type="R"
+      text="Cambrisi L. rush for 1 yard to the RHI7 (Chiletti R.;Lianka H.)."></play>
+   <play context="H,4,11,H07" playid="6,5,55" type="U"
+      text="De Vecchi N. punt 38 yards to the RHI45, Skinner D. return 9 yards to the RHI36 (Ortiz A.)."></play>
+   <drivesum plays="3" yards="-1" top="0:00" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,H36,10:25" vh="V" spot="H36" clock="10:25" driveindex="7,55"></drivestart>
+   <play context="V,1,10,H36" playid="7,1,56" clock="07:02"
+      text="VIPERS MODENA drive start at 07:02."></play>
+   <play context="V,1,10,H36" playid="7,2,57" type="P" first="P"
+      text="Vanatsky D. pass complete to Vidoni F. for 29 yards to the RHI7, 1ST DOWN VPS (Restelli R.)."></play>
+   <play context="V,1,0,H07" playid="7,3,58" type="R"
+      text="Gatti A. rush for 4 yards to the RHI3 (Restelli R.;Ghitti F.)."></play>
+   <play context="V,2,0,H03" playid="7,4,59" type="R"
+      text="Gatti A. rush for no gain to the RHI3 (Natale A.)."></play>
+   <play context="V,3,0,H03" playid="7,5,60" type="R"
+      text="Cira E. rush for 2 yards to the RHI1 (Raffaelli M.)."></play>
+   <play context="V,4,0,H01" playid="7,6,61" type="R" score="Y" clock="02:41"
+      text="Vanatsky D. rush for 1 yard to the RHI0, TOUCHDOWN, clock 02:41."></play>
+   <play context="V,1,0,H03" playid="7,7,62" type="X" score="Y"
+      text="Chiriac M. kick attempt good."></play>
+   <score V="14" H="14"></score>
+   <drivesum plays="5" yards="36" top="0:00" driveindex="7" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="7,8,63" type="K"
+      text="Chiriac M. kickoff 53 yards to the RHI12, Boni S. return 42 yards to the VPS46 (Montaruli G.)."></play>
+   <drivestart poss="H,V46,02:41" vh="H" spot="V46" clock="02:41" driveindex="8,63"></drivestart>
+   <play context="H,1,10,V46" playid="8,1,64" clock="02:41"
+      text="RHINOS MILANO drive start at 02:41."></play>
+   <play context="H,1,10,V46" playid="8,2,65" type="R"
+      text="Assemian L. rush for loss of 2 yards to the VPS48 (Vrapi M.)."></play>
+   <play context="H,2,12,V48" playid="8,3,66" type="P"
+      text="Santacaterin D. pass incomplete to Escobar B.."></play>
+   <play context="H,3,12,V48" playid="8,4,67" type="P"
+      text="Santacaterin D. pass complete to Elmi P. for 4 yards to the VPS44, out-of-bounds."></play>
+   <play context="H,4,8,V44" playid="8,5,68" type="P" turnover="I"
+      text="Santacaterin D. pass intercepted by Skinner D. at the VPS30, Skinner D. return 5 yards to the VPS35 (Boni S.)."></play>
+   <drivesum plays="4" yards="2" top="0:00" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,V35,02:41" vh="V" spot="V35" clock="02:41" driveindex="9,68"></drivestart>
+   <play context="V,1,10,V35" playid="9,1,69" clock="01:43"
+      text="VIPERS MODENA drive start at 01:43."></play>
+   <play context="V,1,10,V35" playid="9,2,70" type="R"
+      text="Gatti A. rush for 2 yards to the VPS37 (Romano' G.)."></play>
+   <play context="V,2,8,V37" playid="9,3,71" type="P" first="P"
+      text="Vanatsky D. pass complete to Barbagallo G. for 15 yards to the RHI48, 1ST DOWN VPS."></play>
+   <play context="V,1,10,H48" playid="9,4,72" type="E"
+      text="PENALTY VPS offside 5 yards to the RHI43."></play>
+   <play context="V,1,15,H43" playid="9,5,73" type="P"
+      text="Vanatsky D. pass complete to Skinner D. for no gain to the RHI43 (Ortiz A.)."></play>
+   <play context="V,2,15,H43" playid="9,6,74" type="P"
+      text="Vanatsky D. pass incomplete to Skinner D.."></play>
+   <play context="V,3,15,H43" playid="9,7,75" type="R"
+      text="Vanatsky D. rush for loss of 8 yards to the VPS49."></play>
+   <play context="V,4,23,V49" playid="9,8,76" type="#" clock="00:02"
+      text="Timeout VIPERS MODENA, clock 00:02."></play>
+   <play context="V,4,23,V49" playid="9,9,77" type="P"
+      text="Vanatsky D. pass incomplete."></play>
+   <drivesum plays="6" yards="4" top="0:00" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,V49,00:02" vh="H" spot="V49" clock="00:02" driveindex="10,77"></drivestart>
+   <play context="H,1,10,V49" playid="10,1,78" type="#" clock="00:00"
+      text="RHINOS MILANO drive start at 00:00, end of half, clock 00:00."></play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="10" complete="Y"></drivesum>
+   <score qtr="2" V="14" H="14"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="VPS">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:56"></misc>
+    <rush att="11" yds="8" gain="23" loss="15" td="1" long="0"></rush>
+    <pass comp="4" att="7" int="0" yds="52" td="0" long="12" sacks="1" sackyds="4"></pass>
+    <rcv no="4" yds="52" td="0" long="12"></rcv>
+    <punt no="1" yds="34" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="53" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="3" tacka="2" tflua="2" tfla="0" tflyds="4" sacks="0" sackyds="0" int="1" intyds="5"></defense>
+    <kr no="1" yds="27" td="0" long="0"></kr>
+    <pr no="1" yds="9" td="0" long="9"></pr>
+    <ir no="1" yds="5" td="0" long="5"></ir>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="RHI">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:21"></misc>
+    <rush att="2" yds="-1" gain="1" loss="2" td="0" long="0"></rush>
+    <pass comp="2" att="5" int="1" yds="2" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="2" td="0" long="0"></rcv>
+    <punt no="1" yds="38" long="38" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="54" ob="0" tb="0"></ko>
+    <defense tackua="14" tacka="2" tflua="2" tfla="0" tflyds="7" sacks="1" sackyds="4"></defense>
+    <kr no="1" yds="42" td="0" long="21"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="H,1,10,V49" playid="10,2,79" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00."></play>
+   <play context="H,1,10,V49" playid="10,3,80"
+      text="VPS ball on VPS35."></play>
+   <play context="V,1,10,V35" playid="10,4,81" type="K"
+      text="Chiriac M. kickoff 48 yards to the RHI17, Elmi P. return 20 yards to the RHI37 (Vrapi K.)."></play>
+   <drivestart poss="H,H37,12:00" vh="H" spot="H37" clock="12:00" driveindex="11,81"></drivestart>
+   <play context="H,1,10,H37" playid="11,1,82" clock="12:00"
+      text="RHINOS MILANO drive start at 12:00."></play>
+   <play context="H,1,10,H37" playid="11,2,83" type="R"
+      text="Assemian L. rush for 2 yards to the RHI39 (Bernardini A.)."></play>
+   <play context="H,2,8,H39" playid="11,3,84" type="R" first="R"
+      text="Assemian L. rush for 14 yards to the VPS47, 1ST DOWN RHI (Foti L.;Gambuzzi R.)."></play>
+   <play context="H,1,10,V47" playid="11,4,85" type="P" first="P"
+      text="Santacaterin D. pass complete to Alaimo L. for 22 yards to the VPS25, 1ST DOWN RHI (Skinner D.)."></play>
+   <play context="H,1,10,V25" playid="11,5,86" type="P"
+      text="Santacaterin D. pass incomplete to Boni S., dropped pass."></play>
+   <play context="H,2,10,V25" playid="11,6,87" type="R"
+      text="Assemian L. rush for 3 yards to the VPS22 (Mazzoni M.;Bernardini A.)."></play>
+   <play context="H,3,7,V22" playid="11,7,88" type="P" first="P"
+      text="Santacaterin D. pass complete to Boni S. for 17 yards to the VPS5, 1ST DOWN RHI (Gambuzzi R.)."></play>
+   <play context="H,1,0,V05" playid="11,8,89" type="E"
+      text="Santacaterin D. pass incomplete to De Vecchi N., PENALTY RHI holding 10 yards to the VPS15, NO PLAY."></play>
+   <play context="H,1,0,V15" playid="11,9,90" type="R" score="Y" clock="08:47"
+      text="Assemian L. rush for 15 yards to the VPS0, TOUCHDOWN, clock 08:47."></play>
+   <play context="H,1,0,V03" playid="11,10,91" type="X" score="Y"
+      text="Sarra G. kick attempt good."></play>
+   <drivesum plays="7" yards="63" top="0:00" driveindex="11" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="11,11,92" type="K"
+      text="Sarra G. kickoff 54 yards to the VPS11, Gatti A. return 0 yards to the VPS11 (Natale A.)."></play>
+   <drivestart poss="V,V11,08:47" vh="V" spot="V11" clock="08:47" driveindex="12,92"></drivestart>
+   <play context="V,1,10,V11" playid="12,1,93" type="#" clock="08:44"
+      text="Clock 08:44."></play>
+   <play context="V,1,10,V11" playid="12,2,94" type="R" first="R"
+      text="Cira E. rush for 13 yards to the VPS24, 1ST DOWN VPS (Bertazzi A.)."></play>
+   <play context="V,1,10,V24" playid="12,3,95" type="P" first="P"
+      text="Vanatsky D. pass complete to Minopoli L. for 11 yards to the VPS35, 1ST DOWN VPS (Gagliardi R.)."></play>
+   <play context="V,1,10,V35" playid="12,4,96" type="R"
+      text="Cira E. rush for 5 yards to the VPS40 (Gagliardi R.;Basso A.)."></play>
+   <play context="V,2,5,V40" playid="12,5,97" type="P"
+      text="Vanatsky D. pass incomplete to Minopoli L.."></play>
+   <play context="V,3,5,V40" playid="12,6,98" type="E"
+      text="PENALTY VPS false start (Goldoni E.) 5 yards to the VPS35."></play>
+   <play context="V,3,10,V35" playid="12,7,99" type="P" first="P"
+      text="Vanatsky D. pass complete to Bonanno G. for 15 yards to the 50 yardline, 1ST DOWN VPS (Franzosi M.)."></play>
+   <play context="V,1,10,V50" playid="12,8,100" type="R"
+      text="Chiriac M. rush for no gain to the 50 yardline (Lombardi L.;Gagliardi R.)."></play>
+   <play context="V,2,10,V50" playid="12,9,101" type="P"
+      text="Vanatsky D. pass complete to Turrini M. for 1 yard to the RHI49 (Bertazzi A.)."></play>
+   <play context="V,3,9,H49" playid="12,10,102" type="P"
+      text="Vanatsky D. sacked for loss of 16 yards to the VPS35 (Romano' G.)."></play>
+   <play context="V,4,25,V35" playid="12,11,103" turnover="F"
+      text="Fumble by recovered by RHI TEAM at VPS5."></play>
+   <drivesum plays="8" yards="-6" top="0:00" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="H,V05,08:44" vh="H" spot="V05" clock="08:44" driveindex="13,103"></drivestart>
+   <play context="H,1,0,V05" playid="13,1,104" clock="04:00"
+      text="RHINOS MILANO drive start at 04:00."></play>
+   <play context="H,1,0,V05" playid="13,2,105" type="R" score="Y" clock="03:15"
+      text="Santacaterin D. rush for 5 yards to the VPS0, TOUCHDOWN, clock 03:15."></play>
+   <play context="H,1,0,V03" playid="13,3,106" type="X" score="Y"
+      text="Sarra G. kick attempt good."></play>
+   <play context="H,1,0,H35" playid="13,4,107" type="E"
+      text="Sarra G. kickoff 0 yards to the RHI35, out-of-bounds, PENALTY RHI IP (Sarra G.) 5 yards to the RHI30, NO PLAY."></play>
+   <drivesum plays="1" yards="5" top="0:00" driveindex="13" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="13,5,108" type="K"
+      text="Sarra G. kickoff 47 yards to the VPS23, Turrini M. return 18 yards to the VPS41 (Restelli R.)."></play>
+   <drivestart poss="V,V41,03:15" vh="V" spot="V41" clock="03:15" driveindex="14,108"></drivestart>
+   <play context="V,1,10,V41" playid="14,1,109" clock="03:15"
+      text="VIPERS MODENA drive start at 03:15."></play>
+   <play context="V,1,10,V41" playid="14,2,110" type="R"
+      text="Cira E. rush for 4 yards to the VPS45 (Romano' G.;Gagliardi R.)."></play>
+   <play context="V,2,6,V45" playid="14,3,111" type="P"
+      text="Vanatsky D. pass incomplete to Barbagallo G., dropped pass."></play>
+   <play context="V,3,6,V45" playid="14,4,112" type="R"
+      text="Vanatsky D. rush for no gain to the VPS45."></play>
+   <play context="V,4,6,V45" playid="14,5,113" turnover="F"
+      text="Fumble by recovered by RHI Basso A. at VPS45."></play>
+   <drivesum plays="3" yards="4" top="0:00" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="H,V45,03:15" vh="H" spot="V45" clock="03:15" driveindex="15,113"></drivestart>
+   <play context="H,1,10,V45" playid="15,1,114" clock="02:45"
+      text="RHINOS MILANO drive start at 02:45."></play>
+   <play context="H,1,10,V45" playid="15,2,115" type="P"
+      text="Santacaterin D. pass incomplete to Escobar B., dropped pass."></play>
+   <play context="H,2,10,V45" playid="15,3,116" type="E" first="E"
+      text="PENALTY VPS personal foul (Foti L.) 15 yards to the VPS30, 1ST DOWN RHI."></play>
+   <play context="H,1,10,V30" playid="15,4,117" type="R"
+      text="Cambrisi L. rush for loss of 3 yards to the VPS33 (Mazzoni M.)."></play>
+   <play context="H,2,13,V33" playid="15,5,118" type="R"
+      text="Cambrisi L. rush for loss of 3 yards to the VPS36 (Lianka H.;Vrapi M.)."></play>
+   <play context="H,3,16,V36" playid="15,6,119" type="P" clock="01:16"
+      text="Timeout Rhinos Milano, clock 01:16, Santacaterin D. pass incomplete to Escobar B. (Gambuzzi R.)."></play>
+   <play context="H,4,16,V36" playid="15,7,120" type="U"
+      text="De Vecchi N. punt 33 yards to the VPS3, Skinner D. return 0 yards to the VPS3 (Basso A.)."></play>
+   <drivesum plays="4" yards="9" top="0:00" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V03,01:16" vh="V" spot="V03" clock="01:16" driveindex="16,120"></drivestart>
+   <play context="V,1,10,V03" playid="16,1,121" clock="01:13"
+      text="VIPERS MODENA drive start at 01:13."></play>
+   <play context="V,1,10,V03" playid="16,2,122" type="R"
+      text="Vanatsky D. rush for loss of 2 yards to the VPS1 (Basso A.)."></play>
+   <play context="V,2,12,V01" playid="16,3,123" type="R"
+      text="Cira E. rush for 5 yards to the VPS6 (Franzosi M.;Ghitti F.)."></play>
+   <score qtr="3" V="14" H="28"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="VPS">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="2" lost="2"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="8" yds="-21" gain="27" loss="48" td="0" long="0"></rush>
+    <pass comp="3" att="5" int="0" yds="27" td="0" long="0" sacks="1" sackyds="16"></pass>
+    <rcv no="3" yds="27" td="0" long="0"></rcv>
+    <ko no="1" yds="48" ob="0" tb="0"></ko>
+    <defense tackua="5" tacka="6" tflua="3" tfla="0" tflyds="9" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="2" yds="18" td="0" long="0"></kr>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+    <fumbles no="2" lost="2"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="RHI">
+    <firstdowns no="4" rush="1" pass="2" penalty="1"></firstdowns>
+    <penalties no="2" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="7" yds="33" gain="39" loss="6" td="2" long="0"></rush>
+    <pass comp="2" att="5" int="0" yds="39" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="39" td="0" long="0"></rcv>
+    <punt no="1" yds="33" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <ko no="2" yds="101" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="9" tacka="8" tflua="2" tfla="0" tflyds="18" sacks="2" sackyds="20" fr="2" fryds="0"></defense>
+    <kr no="1" yds="20" td="0" long="0"></kr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="V,3,7,V06" playid="16,4,124" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="V,3,7,V06" playid="16,5,125" type="R" score="Y" clock="11:55"
+      text="Fumble by TEAM, TEAM rush for loss of 6 yards to the VPS0, TEAM safety, clock 11:55."></play>
+   <drivesum plays="3" yards="-3" top="0:00" driveindex="16" complete="Y"></drivesum>
+   <play context="V,1,0,V20" playid="16,6,126" type="K"
+      text="Chiriac M. kickoff 44 yards to the RHI36, Elmi P. return 0 yards to the RHI36 (Vrapi K.)."></play>
+   <drivestart poss="H,H36,11:55" vh="H" spot="H36" clock="11:55" driveindex="17,126"></drivestart>
+   <play context="H,1,10,H36" playid="17,1,127" clock="11:55"
+      text="RHINOS MILANO drive start at 11:55."></play>
+   <play context="H,1,10,H36" playid="17,2,128" type="#" clock="11:55"
+      text="Timeout VIPERS MODENA, clock 11:55."></play>
+   <play context="H,1,10,H36" playid="17,3,129" type="R"
+      text="Boni S. rush for no gain to the RHI36 (Vrapi M.;Mazzoni M.)."></play>
+   <play context="H,2,10,H36" playid="17,4,130" type="R"
+      text="Cambrisi L. rush for 6 yards to the RHI42 (Bernardini A.;Vrapi M.)."></play>
+   <play context="H,3,4,H42" playid="17,5,131" type="E"
+      text="PENALTY RHI false start (Myhre J.) 5 yards to the RHI37."></play>
+   <play context="H,3,9,H37" playid="17,6,132" type="P"
+      text="Santacaterin D. pass complete to Boni S. for 8 yards to the RHI45 (Bernardini A.)."></play>
+   <play context="H,4,1,H45" playid="17,7,133" type="U"
+      text="De Vecchi N. punt 30 yards to the VPS25, Skinner D. return 0 yards to the VPS25 (Ortiz A.)."></play>
+   <drivesum plays="3" yards="9" top="0:00" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="V,V25,11:55" vh="V" spot="V25" clock="11:55" driveindex="18,133"></drivestart>
+   <play context="V,1,10,V25" playid="18,1,134" clock="09:40"
+      text="VIPERS MODENA drive start at 09:40."></play>
+   <play context="V,1,10,V25" playid="18,2,135" type="P" first="P"
+      text="Vanatsky D. pass complete to Skinner D. for 33 yards to the RHI42, 1ST DOWN VPS, out-of-bounds."></play>
+   <play context="V,1,10,H42" playid="18,3,136" type="P"
+      text="Vanatsky D. pass complete to Skinner D. for 9 yards to the RHI33, out-of-bounds (Bertazzi A.)."></play>
+   <play context="V,2,1,H33" playid="18,4,137" type="P" turnover="I"
+      text="Vanatsky D. pass intercepted by Restelli R. at the RHI15, Restelli R. return 11 yards to the RHI26."></play>
+   <drivesum plays="3" yards="42" top="0:00" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="H,H26,09:40" vh="H" spot="H26" clock="09:40" driveindex="19,137"></drivestart>
+   <play context="H,1,10,H26" playid="19,1,138" clock="08:15"
+      text="RHINOS MILANO drive start at 08:15."></play>
+   <play context="H,1,10,H26" playid="19,2,139" type="R"
+      text="Assemian L. rush for 1 yard to the RHI27 (Bernardini A.)."></play>
+   <play context="H,2,9,H27" playid="19,3,140" type="#" clock="07:45"
+      text="Timeout VIPERS MODENA, clock 07:45."></play>
+   <play context="H,2,9,H27" playid="19,4,141" type="P" turnover="I"
+      text="Santacaterin D. pass intercepted by Skinner D. at the VPS45, Skinner D. return 18 yards to the RHI37 (Folci G.)."></play>
+   <drivesum plays="2" yards="1" top="0:00" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="V,H37,07:45" vh="V" spot="H37" clock="07:45" driveindex="20,141"></drivestart>
+   <play context="V,1,10,H37" playid="20,1,142" clock="07:25"
+      text="VIPERS MODENA drive start at 07:25."></play>
+   <play context="V,1,10,H37" playid="20,2,143" type="P" first="P"
+      text="Vanatsky D. pass complete to Vidoni F. for 12 yards to the RHI25, 1ST DOWN VPS (Franzosi M.)."></play>
+   <play context="V,1,10,H25" playid="20,3,144" type="P" first="P"
+      text="Vanatsky D. pass complete to Vidoni F. for 18 yards to the RHI7, 1ST DOWN VPS (Bertazzi A.;Ghitti F.)."></play>
+   <play context="V,1,0,H07" playid="20,4,145" type="P"
+      text="Vanatsky D. pass incomplete to Turrini M. (Alojado J.)."></play>
+   <play context="V,2,0,H07" playid="20,5,146" type="R"
+      text="Chiriac M. rush for loss of 15 yards to the RHI22 (Natale A.)."></play>
+   <play context="V,3,0,H22" playid="20,6,147" type="P" score="Y" clock="05:25"
+      text="Vanatsky D. pass complete to Skinner D. for 22 yards to the RHI0, TOUCHDOWN, clock 05:25."></play>
+   <play context="V,1,0,H03" playid="20,7,148" type="E"
+      text="Vanatsky D. pass attempt failed, PENALTY RHI pass interference (Franzosi M.) 0 yards to the RHI3, NO PLAY."></play>
+   <play context="V,1,0,H03" playid="20,8,149" type="X"
+      text="Vanatsky D. pass attempt failed."></play>
+   <drivesum plays="5" yards="37" top="0:00" driveindex="20" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="20,9,150" type="K"
+      text="Chiriac M. kickoff 16 yards to the RHI49, Ines R. return 0 yards to the RHI49."></play>
+   <drivestart poss="H,H49,05:25" vh="H" spot="H49" clock="05:25" driveindex="21,150"></drivestart>
+   <play context="H,1,10,H49" playid="21,1,151" clock="05:25"
+      text="RHINOS MILANO drive start at 05:25."></play>
+   <play context="H,1,10,H49" playid="21,2,152" type="R"
+      text="Assemian L. rush for 3 yards to the VPS48 (Rosi L.)."></play>
+   <play context="H,2,7,V48" playid="21,3,153" type="R"
+      text="Assemian L. rush for loss of 5 yards to the RHI47 (Foti L.)."></play>
+   <play context="H,3,12,H47" playid="21,4,154" type="R"
+      text="Assemian L. rush for 9 yards to the VPS44 (Mazzoni M.)."></play>
+   <play context="H,4,3,V44" playid="21,5,155" type="#" clock="04:26"
+      text="Timeout VIPERS MODENA, clock 04:26."></play>
+   <play context="H,4,3,V44" playid="21,6,156" type="R" first="R"
+      text="Santacaterin D. rush for 4 yards to the VPS40, 1ST DOWN RHI (Foti L.;Lianka H.)."></play>
+   <play context="H,1,10,V40" playid="21,7,157" type="R"
+      text="Cambrisi L. rush for no gain to the VPS40."></play>
+   <play context="H,2,10,V40" playid="21,8,158" type="R"
+      text="Santacaterin D. rush for loss of 1 yard to the VPS41 (Gambuzzi R.)."></play>
+   <play context="H,3,11,V41" playid="21,9,159" type="#" clock="02:43"
+      text="Timeout Rhinos Milano, clock 02:43."></play>
+   <play context="H,3,11,V41" playid="21,10,160" type="R" first="R"
+      text="Assemian L. rush for 13 yards to the VPS28, 1ST DOWN RHI (Vrapi K.)."></play>
+   <play context="H,1,10,V28" playid="21,11,161" type="E" first="E"
+      text="PENALTY VPS personal foul (Vrapi M.) 14 yards to the VPS14, 1ST DOWN RHI."></play>
+   <play context="H,1,10,V14" playid="21,12,162" type="R"
+      text="Assemian L. rush for loss of 2 yards to the VPS16 (Vrapi M.)."></play>
+   <play context="H,2,12,V16" playid="21,13,163" type="R"
+      text="Cambrisi L. rush for 11 yards to the VPS5 (Skinner D.)."></play>
+   <play context="H,3,1,V05" playid="21,14,164" type="E"
+      text="PENALTY RHI holding (Folci G.) 10 yards to the VPS15."></play>
+   <play context="H,3,11,V15" playid="21,15,165" type="E"
+      text="PENALTY RHI 12 men on the field 5 yards to the VPS20."></play>
+   <play context="H,3,16,V20" playid="21,16,166" type="R"
+      text="Assemian L. rush for 2 yards to the VPS18 (Grazia R.;Foti L.)."></play>
+   <play context="H,4,14,V18" playid="21,17,167" type="F" score="Y" clock="00:49"
+      text="Sarra G. field goal attempt from 36 GOOD, clock 00:49, PENALTY RHI IP 42 yards to the VPS23, Sarra G. field goal attempt from 41 BLOCKED, recovered by VPS Mazzoni M. at VPS31 spot at VPS31, clock 00:49 (blocked by Mazzoni M.) (Assemian L.)."></play>
+   <drivesum plays="10" yards="33" top="0:00" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="V,V31,00:49" vh="V" spot="V31" clock="00:49" driveindex="22,167"></drivestart>
+   <play context="V,1,10,V31" playid="22,1,168" clock="00:49"
+      text="VIPERS MODENA drive start at 00:49."></play>
+   <play context="V,1,10,V31" playid="22,2,169" type="P"
+      text="Vanatsky D. pass incomplete to Skinner D.."></play>
+   <play context="V,2,10,V31" playid="22,3,170" type="P" first="P"
+      text="Vanatsky D. pass complete to Skinner D. for 19 yards to the 50 yardline, 1ST DOWN VPS (Franzosi M.)."></play>
+   <play context="V,1,10,V50" playid="22,4,171" type="P"
+      text="Vanatsky D. pass incomplete."></play>
+   <play context="V,2,10,V50" playid="22,5,172" type="P"
+      text="Vanatsky D. pass complete to Skinner D. for loss of 13 yards to the VPS37 (Migliori P.)."></play>
+   <play context="V,3,23,V37" playid="22,6,173" type="P"
+      text="Vanatsky D. pass incomplete."></play>
+   <play context="V,4,23,V37" playid="22,7,174" type="P"
+      text="Vanatsky D. pass incomplete."></play>
+   <drivesum plays="6" yards="6" top="0:00" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="H,V37,00:49" vh="H" spot="V37" clock="00:49" driveindex="23,174"></drivestart>
+   <play context="H,1,10,V37" playid="23,1,175" clock="00:00"
+      text="RHINOS MILANO drive start at 00:00."></play>
+   <play context="H,1,10,V37" playid="23,2,176" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="23" complete="Y"></drivesum>
+   <score final="Y" V="20" H="33"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="VPS">
+    <firstdowns no="4" rush="0" pass="4" penalty="0"></firstdowns>
+    <penalties no="1" yds="14"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="8" top="00:00"></misc>
+    <rush att="2" yds="-21" gain="0" loss="21" td="0" long="0"></rush>
+    <pass comp="7" att="13" int="1" yds="100" td="1" long="4" sacks="0" sackyds="0"></pass>
+    <rcv no="7" yds="100" td="1" long="4"></rcv>
+    <ko no="2" yds="60" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="10" tacka="8" tflua="3" tfla="0" tflyds="8" sacks="0" sackyds="0" blkd="1" int="1" intyds="18"></defense>
+    <pr no="1" yds="0" td="0" long="0"></pr>
+    <ir no="1" yds="18" td="0" long="13"></ir>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="RHI">
+    <firstdowns no="3" rush="2" pass="0" penalty="1"></firstdowns>
+    <penalties no="5" yds="62"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="13" yds="41" gain="49" loss="8" td="0" long="0"></rush>
+    <pass comp="1" att="2" int="1" yds="8" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="8" td="0" long="0"></rcv>
+    <punt no="1" yds="30" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <fg made="1" att="2" long="36" blkd="1"></fg>
+    <defense tackua="8" tacka="2" tflua="2" tfla="0" tflyds="28" sacks="2" sackyds="20" brup="1" saf="1" int="1" intyds="11"></defense>
+    <kr no="2" yds="0" td="0" long="0"></kr>
+    <ir no="1" yds="11" td="0" long="3"></ir>
+    <scoring fg="1" saf="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,1,10,V37" qtr="4" clock="01:43" vtoh="3" htoh="2"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="VPS">
+ </dnp>
+ <dnp vh="H" id="RHI">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

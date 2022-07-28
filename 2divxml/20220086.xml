@@ -1,0 +1,796 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220086" visid="REA" homeid="GIT" visname="Reapers Torino" homename="Giaguari Torino"
+      date="5/15/2022" location="Torino" stadium="Primo Nebiolo"
+      start="15:00" end="17:15" leaguegame="Y"
+      duration="2:15" attend="230" temp="27 C" wind="NO Wind" weather="Cloudy">
+  <officials ref="A. Avagnina" ump="A. Tognoni" line="M. Cassiani" lj="P. Giulianelli" bj="E. Vescovi" sc="R. Balma"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="REA" name="Reapers Torino" record="2-4" conf-record="2-4" abb="R">
+  <linescore prds="4" line="0,13,0,0" score="13">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="13"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="11" rush="9" pass="0" penalty="2"></firstdowns>
+   <penalties no="5" yds="35"></penalties>
+   <conversions thirdconv="2" thirdatt="6" fourthconv="1" fourthatt="1"></conversions>
+   <fumbles no="5" lost="1"></fumbles>
+   <misc yds="0" top="30:34" ona="1" onm="0"></misc>
+   <redzone att="1" scores="1" points="7" tdrush="1" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="34" yds="161" gain="176" loss="15" td="2" long="30"></rush>
+   <pass comp="0" att="4" int="2" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+   <punt no="3" yds="123" long="52" blkd="0" tb="0" fc="0" plus50="1" inside20="1"></punt>
+   <ko no="2" yds="102" ob="0" tb="0"></ko>
+   <pat kickatt="2" kickmade="1"></pat>
+   <defense tackua="15" tacka="14" tflua="1" tfla="0" tflyds="7" sacks="1" sackyds="7" brup="2"></defense>
+   <kr no="6" yds="123" td="0" long="34"></kr>
+   <scoring td="2" patkick="1"></scoring>
+  </totals>
+  <player name="Garetto M." shortname="Garetto M." checkname="M.,GARETTO" uni="45" gp="1" code="45">
+   <rush att="18" yds="78" gain="83" loss="5" td="0" long="11"></rush>
+   <fumbles no="2" lost="0"></fumbles>
+  </player>
+  <player name="Brun L." shortname="Brun L." checkname="L.,BRUN" uni="3" gp="1" code="3">
+   <rush att="7" yds="41" gain="41" loss="0" td="1" long="13"></rush>
+   <punt no="1" yds="41" long="41" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="2" yds="102" ob="0" tb="0"></ko>
+   <pat kickatt="2" kickmade="1"></pat>
+   <defense tackua="1" tacka="0"></defense>
+   <scoring td="1" patkick="1"></scoring>
+  </player>
+  <player name="Esposito L." shortname="Esposito L." checkname="L.,ESPOSITO" uni="30" gp="1" code="30">
+   <rush att="3" yds="29" gain="35" loss="6" td="1" long="30"></rush>
+   <pass comp="0" att="4" int="2" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+   <fumbles no="1" lost="0"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Rolando E." shortname="Rolando E." checkname="E.,ROLANDO" uni="31" gp="1" code="31">
+   <rush att="5" yds="17" gain="17" loss="0" td="0" long="6"></rush>
+   <kr no="1" yds="22" td="0" long="22"></kr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="1" yds="-4" gain="0" loss="4" td="0" long="0"></rush>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Alice S." shortname="Alice S." checkname="S.,ALICE" uni="12" gp="1" code="12">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Bellizia M." shortname="Bellizia M." checkname="M.,BELLIZIA" uni="15" gp="1" code="15">
+   <defense tackua="0" tacka="3"></defense>
+  </player>
+  <player name="Delfino D." shortname="Delfino D." checkname="D.,DELFINO" uni="17" gp="1" code="17">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Salussolia P." shortname="Salussolia P." checkname="P.,SALUSSOLIA" uni="18" gp="1" code="18">
+   <defense tackua="3" tacka="2" brup="1"></defense>
+  </player>
+  <player name="Canella S." shortname="Canella S." checkname="S.,CANELLA" uni="22" gp="1" code="22"></player>
+  <player name="Guazzotti F." shortname="Guazzotti F." checkname="F.,GUAZZOTTI" uni="23" gp="1" code="23">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Garello G." shortname="Garello G." checkname="G.,GARELLO" uni="27" gp="1" code="27">
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="Vernetti D." shortname="Vernetti D." checkname="D.,VERNETTI" uni="28" gp="1" code="28">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="7" sackua="1" sacka="0" sackyds="7"></defense>
+  </player>
+  <player name="Giaccardi M." shortname="Giaccardi M." checkname="M.,GIACCARDI" uni="1" gp="1" code="1">
+   <defense brup="1"></defense>
+  </player>
+  <player name="Grolla A." shortname="Grolla A." checkname="A.,GROLLA" uni="10" gp="1" code="10"></player>
+  <player name="Marangella L." shortname="Marangella L." checkname="L.,MARANGELLA" uni="35" gp="1" code="35">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Amelotti M." shortname="Amelotti M." checkname="M.,AMELOTTI" uni="4" gp="1" code="4"></player>
+  <player name="De Souza T." shortname="De Souza T." checkname="SOUZA T.,DE" uni="50" gp="1" code="50">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Lentini A." shortname="Lentini A." checkname="A.,LENTINI" uni="54" gp="1" code="54">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Ornati S." shortname="Ornati S." checkname="S.,ORNATI" uni="60" gp="1" code="60"></player>
+  <player name="Baldacci A." shortname="Baldacci A." checkname="A.,BALDACCI" uni="65" gp="1" code="65"></player>
+  <player name="Petrone J." shortname="Petrone J." checkname="J.,PETRONE" uni="66" gp="1" code="66"></player>
+  <player name="Angelini L." shortname="Angelini L." checkname="L.,ANGELINI" uni="69" gp="1" code="69"></player>
+  <player name="Blandino A." shortname="Blandino A." checkname="A.,BLANDINO" uni="74" gp="1" code="74"></player>
+  <player name="Amoroso A." shortname="Amoroso A." checkname="A.,AMOROSO" uni="75" gp="1" code="75"></player>
+  <player name="Favero Camp M." shortname="Favero Camp M." checkname="CAMP M.,FAVERO" uni="76" gp="1" code="76"></player>
+  <player name="Di Pasquale G." shortname="Di Pasquale G." checkname="PASQUALE G.,DI" uni="77" gp="1" code="77"></player>
+  <player name="Benetton A." shortname="Benetton A." checkname="A.,BENETTON" uni="78" gp="1" code="78"></player>
+  <player name="Marannano D." shortname="Marannano D." checkname="D.,MARANNANO" uni="79" gp="1" code="79"></player>
+  <player name="Testa P." shortname="Testa P." checkname="P.,TESTA" uni="82" gp="1" code="82">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Marcuccetti M." shortname="Marcuccetti M." checkname="M.,MARCUCCETTI" uni="83" gp="1" code="83">
+   <punt no="2" yds="82" long="52" blkd="0" tb="0" fc="0" plus50="1" inside20="1"></punt>
+   <defense tackua="1" tacka="0"></defense>
+   <kr no="5" yds="101" td="0" long="34"></kr>
+  </player>
+  <player name="Confortini J." shortname="Confortini J." checkname="J.,CONFORTINI" uni="87" gp="1" code="87">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Di Tommaso S." shortname="Di Tommaso S." checkname="TOMMASO S.,DI" uni="92" gp="1" code="92"></player>
+  <player name="Bonnot S." shortname="Bonnot S." checkname="S.,BONNOT" uni="95" gp="1" code="95"></player>
+  <player name="Brunetto A." shortname="Brunetto A." checkname="A.,BRUNETTO" uni="99" gp="1" code="99">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Givone S." shortname="Givone S." checkname="S.,GIVONE" uni="5" gp="1" code="5"></player>
+ </team>
+ <team vh="H" code="" id="GIT" name="Giaguari Torino" record="6-0" conf-record="6-0" abb="G">
+  <linescore prds="4" line="7,14,28,14" score="63">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="14"></lineprd>
+   <lineprd prd="3" score="28"></lineprd>
+   <lineprd prd="4" score="14"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="17" rush="6" pass="10" penalty="1"></firstdowns>
+   <penalties no="4" yds="38"></penalties>
+   <conversions thirdconv="3" thirdatt="4" fourthconv="1" fourthatt="1"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="17:26" ona="0" onm="0"></misc>
+   <redzone att="8" scores="8" points="56" tdrush="3" tdpass="5" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="13" yds="95" gain="102" loss="7" td="3" long="29"></rush>
+   <pass comp="17" att="23" int="0" yds="230" td="6" long="39" sacks="1" sackyds="7"></pass>
+   <rcv no="17" yds="230" td="6" long="39"></rcv>
+   <ko no="10" yds="559" ob="0" tb="4"></ko>
+   <pat kickatt="9" kickmade="9"></pat>
+   <defense tackua="22" tacka="30" tflua="3" tfla="0" tflyds="12" sacks="0" sackyds="0" blkd="1" ff="4" fr="1" fryds="0" int="2" intyds="28"></defense>
+   <kr no="2" yds="82" td="0" long="41"></kr>
+   <pr no="2" yds="70" td="0" long="45"></pr>
+   <ir no="2" yds="28" td="0" long="25"></ir>
+   <scoring td="9" patkick="9"></scoring>
+  </totals>
+  <player name="Salsa J." shortname="Salsa J." checkname="J.,SALSA" uni="13" gp="1" code="13">
+   <rcv no="5" yds="45" td="2" long="16"></rcv>
+   <kr no="1" yds="41" td="0" long="41"></kr>
+   <pr no="1" yds="25" td="0" long="25"></pr>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Serra A." shortname="Serra A." checkname="A.,SERRA" uni="3" gp="1" code="3">
+   <rcv no="4" yds="78" td="1" long="35"></rcv>
+   <kr no="1" yds="41" td="0" long="41"></kr>
+   <pr no="1" yds="45" td="0" long="45"></pr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Morelli A." shortname="Morelli A." checkname="A.,MORELLI" uni="9" gp="1" code="9">
+   <pass comp="1" att="1" int="0" yds="8" td="1" long="8" sacks="0" sackyds="0"></pass>
+   <rcv no="3" yds="26" td="1" long="11"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Incarbone A." shortname="Incarbone A." checkname="A.,INCARBONE" uni="15" gp="1" code="15">
+   <rcv no="1" yds="39" td="0" long="39"></rcv>
+  </player>
+  <player name="Socci A." shortname="Socci A." checkname="A.,SOCCI" uni="19" gp="1" code="19">
+   <rcv no="1" yds="13" td="1" long="13"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Duranti R." shortname="Duranti R." checkname="R.,DURANTI" uni="12" gp="1" code="12">
+   <rush att="2" yds="3" gain="10" loss="7" td="0" long="10"></rush>
+   <pass comp="4" att="6" int="0" yds="70" td="2" long="39" sacks="1" sackyds="7"></pass>
+   <rcv no="1" yds="11" td="0" long="11"></rcv>
+  </player>
+  <player name="Naretti D." shortname="Naretti D." checkname="D.,NARETTI" uni="11" gp="1" code="11">
+   <rcv no="1" yds="10" td="0" long="10"></rcv>
+  </player>
+  <player name="Bergesio G." shortname="Bergesio G." checkname="G.,BERGESIO" uni="17" gp="1" code="17">
+   <rcv no="1" yds="8" td="1" long="8"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Capello D." shortname="Capello D." checkname="D.,CAPELLO" uni="10" gp="1" code="10">
+   <defense tackua="0" tacka="2"></defense>
+  </player>
+  <player name="Dalmasso N." shortname="Dalmasso N." checkname="N.,DALMASSO" uni="5" gp="1" code="5">
+   <rush att="3" yds="13" gain="13" loss="0" td="2" long="9"></rush>
+   <pass comp="12" att="16" int="0" yds="152" td="3" long="35" sacks="0" sackyds="0"></pass>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Longhini D." shortname="Longhini D." checkname="D.,LONGHINI" uni="1" gp="1" code="1">
+   <defense tackua="0" tacka="4"></defense>
+  </player>
+  <player name="Salem I." shortname="Salem I." checkname="I.,SALEM" uni="31" gp="1" code="31">
+   <rush att="1" yds="19" gain="19" loss="0" td="0" long="19"></rush>
+  </player>
+  <player name="Sibona Tacco E." shortname="Sibona Tacco E." checkname="TACCO E.,SIBONA" uni="14" gp="1" code="14">
+   <ko no="1" yds="48" ob="0" tb="0"></ko>
+   <pat kickatt="1" kickmade="1"></pat>
+   <scoring patkick="1"></scoring>
+  </player>
+  <player name="Ligotti R." shortname="Ligotti R." checkname="R.,LIGOTTI" uni="6" gp="1" code="6">
+   <defense tackua="4" tacka="0"></defense>
+  </player>
+  <player name="Ferraris F." shortname="Ferraris F." checkname="F.,FERRARIS" uni="7" gp="1" code="7"></player>
+  <player name="Gambetti C." shortname="Gambetti C." checkname="C.,GAMBETTI" uni="18" gp="1" code="18"></player>
+  <player name="Caprioglio J." shortname="Caprioglio J." checkname="J.,CAPRIOGLIO" uni="2" gp="1" code="2">
+   <ko no="9" yds="511" ob="0" tb="4"></ko>
+   <pat kickatt="8" kickmade="8"></pat>
+   <scoring patkick="8"></scoring>
+  </player>
+  <player name="Pregnolato L." shortname="Pregnolato L." checkname="L.,PREGNOLATO" uni="20" gp="1" code="20">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Pochettino J." shortname="Pochettino J." checkname="J.,POCHETTINO" uni="23" gp="1" code="23">
+   <defense tackua="2" tacka="1" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Maritano M." shortname="Maritano M." checkname="M.,MARITANO" uni="24" gp="1" code="24">
+   <defense tackua="0" tacka="3"></defense>
+  </player>
+  <player name="Cammareri Va D." shortname="Cammareri Va D." checkname="VA D.,CAMMARERI" uni="25" gp="1" code="25"></player>
+  <player name="Agostini A." shortname="Agostini A." checkname="A.,AGOSTINI" uni="26" gp="1" code="26"></player>
+  <player name="Casolo R." shortname="Casolo R." checkname="R.,CASOLO" uni="28" gp="1" code="28">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Latorraca D." shortname="Latorraca D." checkname="D.,LATORRACA" uni="29" gp="1" code="29">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Tenconi T." shortname="Tenconi T." checkname="T.,TENCONI" uni="30" gp="1" code="30">
+   <rush att="7" yds="60" gain="60" loss="0" td="1" long="29"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Iula S." shortname="Iula S." checkname="S.,IULA" uni="4" gp="1" code="4">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Akmel D." shortname="Akmel D." checkname="D.,AKMEL" uni="33" gp="1" code="33">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Bombardiere S." shortname="Bombardiere S." checkname="S.,BOMBARDIERE" uni="35" gp="1" code="35">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Minna F." shortname="Minna F." checkname="F.,MINNA" uni="36" gp="1" code="36"></player>
+  <player name="Clarke M." shortname="Clarke M." checkname="M.,CLARKE" uni="40" gp="1" code="40">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="De Marco G." shortname="De Marco G." checkname="MARCO G.,DE" uni="41" gp="1" code="41"></player>
+  <player name="Capello A." shortname="Capello A." checkname="A.,CAPELLO" uni="45" gp="1" code="45">
+   <defense tackua="3" tacka="1" ff="1"></defense>
+  </player>
+  <player name="Stoppa S." shortname="Stoppa S." checkname="S.,STOPPA" uni="47" gp="1" code="47">
+   <defense tackua="0" tacka="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Tarantini R." shortname="Tarantini R." checkname="R.,TARANTINI" uni="50" gp="1" code="50"></player>
+  <player name="Montanella D." shortname="Montanella D." checkname="D.,MONTANELLA" uni="57" gp="1" code="57">
+   <defense tackua="3" tacka="3" tflua="2" tfla="0" tflyds="9" ff="1"></defense>
+  </player>
+  <player name="Ciattaglia F." shortname="Ciattaglia F." checkname="F.,CIATTAGLIA" uni="58" gp="1" code="58"></player>
+  <player name="Ruffoni G." shortname="Ruffoni G." checkname="G.,RUFFONI" uni="59" gp="1" code="59"></player>
+  <player name="Durigon Y." shortname="Durigon Y." checkname="Y.,DURIGON" uni="69" gp="1" code="69"></player>
+  <player name="Diaz Lauzuri N." shortname="Diaz Lauzuri N." checkname="LAUZURI N.,DIAZ" uni="70" gp="1" code="70">
+   <defense tackua="0" tacka="2" blkd="1"></defense>
+  </player>
+  <player name="Paschetto M." shortname="Paschetto M." checkname="M.,PASCHETTO" uni="72" gp="1" code="72"></player>
+  <player name="Lazzaretto F." shortname="Lazzaretto F." checkname="F.,LAZZARETTO" uni="75" gp="1" code="75"></player>
+  <player name="Bona I." shortname="Bona I." checkname="I.,BONA" uni="77" gp="1" code="77"></player>
+  <player name="Yilmaz A." shortname="Yilmaz A." checkname="A.,YILMAZ" uni="79" gp="1" code="79"></player>
+  <player name="Peiroleri F." shortname="Peiroleri F." checkname="F.,PEIROLERI" uni="80" gp="1" code="80"></player>
+  <player name="Ivasiuc T." shortname="Ivasiuc T." checkname="T.,IVASIUC" uni="81" gp="1" code="81"></player>
+  <player name="Giardina A." shortname="Giardina A." checkname="A.,GIARDINA" uni="86" gp="1" code="86">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Di Pierro A." shortname="Di Pierro A." checkname="PIERRO A.,DI" uni="89" gp="1" code="89">
+   <defense tackua="1" tacka="1" ff="1" int="1" intyds="25"></defense>
+   <ir no="1" yds="25" td="0" long="25"></ir>
+  </player>
+  <player name="Brezzi A." shortname="Brezzi A." checkname="A.,BREZZI" uni="90" gp="1" code="90">
+   <defense tackua="3" tacka="2" ff="1"></defense>
+  </player>
+  <player name="Vazzana D." shortname="Vazzana D." checkname="D.,VAZZANA" uni="91" gp="1" code="91"></player>
+  <player name="Gallo D." shortname="Gallo D." checkname="D.,GALLO" uni="95" gp="1" code="95"></player>
+  <player name="Tebaldi D." shortname="Tebaldi D." checkname="D.,TEBALDI" uni="96" gp="1" code="96">
+   <defense tackua="3" tacka="3" int="1" intyds="3"></defense>
+   <ir no="1" yds="3" td="0" long="3"></ir>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="GIT" qtr="1" clock="03:20" type="TD" how="PASS" yds="9" scorer="Salsa J." passer="Dalmasso N." patby="Caprioglio J." pattype="KICK" patres="GOOD" plays="7" drive="76" top="4:40" vscore="0" hscore="7" driveindex="2"></score>
+  <score vh="V" team="REA" qtr="2" clock="09:00" type="TD" how="RUSH" yds="13" scorer="Brun L." patby="Brun L." pattype="KICK" patres="GOOD" plays="10" drive="65" top="6:20" vscore="7" hscore="7" driveindex="3"></score>
+  <score vh="H" team="GIT" qtr="2" clock="06:00" type="TD" how="RUSH" yds="1" scorer="Dalmasso N." patby="Caprioglio J." pattype="KICK" patres="GOOD" plays="8" drive="45" top="2:43" vscore="7" hscore="14" driveindex="4"></score>
+  <score vh="V" team="REA" qtr="2" clock="01:15" type="TD" how="RUSH" yds="30" scorer="Esposito L." patby="Brun L." pattype="KICK" patres="BLKD" plays="7" drive="66" top="4:34" vscore="13" hscore="14" driveindex="5"></score>
+  <score vh="H" team="GIT" qtr="2" clock="01:00" type="TD" how="PASS" yds="35" scorer="Serra A." passer="Dalmasso N." patby="Caprioglio J." pattype="KICK" patres="GOOD" plays="1" drive="35" top="0:09" vscore="13" hscore="21" driveindex="6"></score>
+  <score vh="H" team="GIT" qtr="3" clock="11:30" type="TD" how="PASS" yds="10" scorer="Salsa J." passer="Dalmasso N." patby="Caprioglio J." pattype="KICK" patres="GOOD" plays="4" drive="43" top="0:30" vscore="13" hscore="28" driveindex="8"></score>
+  <score vh="H" team="GIT" qtr="3" clock="06:55" type="TD" how="RUSH" yds="3" scorer="Tenconi T." patby="Caprioglio J." pattype="KICK" patres="GOOD" plays="3" drive="21" top="1:25" vscore="13" hscore="35" driveindex="10"></score>
+  <score vh="H" team="GIT" qtr="3" clock="04:00" type="TD" how="RUSH" yds="3" scorer="Dalmasso N." patby="Caprioglio J." pattype="KICK" patres="GOOD" plays="2" drive="14" top="0:51" vscore="13" hscore="42" driveindex="12"></score>
+  <score vh="H" team="GIT" qtr="3" clock="00:00" type="TD" how="PASS" yds="13" scorer="Socci A." passer="Duranti R." patby="Caprioglio J." pattype="KICK" patres="GOOD" plays="4" drive="49" top="1:30" vscore="13" hscore="49" driveindex="14"></score>
+  <score vh="H" team="GIT" qtr="4" clock="05:00" type="TD" how="PASS" yds="11" scorer="Morelli A." passer="Duranti R." patby="Caprioglio J." pattype="KICK" patres="GOOD" plays="6" drive="44" top="4:45" vscore="13" hscore="56" driveindex="16"></score>
+  <score vh="H" team="GIT" qtr="4" clock="00:50" type="TD" how="PASS" yds="8" scorer="Bergesio G." passer="Morelli A." patby="Sibona Tacco E." pattype="KICK" patres="GOOD" plays="1" drive="8" top="0:30" vscore="13" hscore="63" driveindex="18"></score>
+ </scores>
+ <drives>
+  <drive vh="V" team="REA" start="KO,1,12:00,20" end="PUNT,1,08:00,46" plays="7" yards="26" top="4:00" driveindex="1"></drive>
+  <drive vh="H" team="GIT" start="PUNT,1,08:00,14" end="TD,1,03:20,90" plays="7" yards="76" top="4:40" rz="1" driveindex="2"></drive>
+  <drive vh="V" team="REA" start="KO,1,03:20,25" end="TD,2,09:00,90" plays="10" yards="65" top="6:20" rz="1" driveindex="3"></drive>
+  <drive vh="H" team="GIT" start="KO,2,08:43,45" end="TD,2,06:00,90" plays="8" yards="45" top="2:43" rz="1" driveindex="4"></drive>
+  <drive vh="V" team="REA" start="KO,2,05:49,24" end="TD,2,01:15,90" plays="7" yards="66" top="4:34" driveindex="5"></drive>
+  <drive vh="H" team="GIT" start="KO,2,01:09,55" end="TD,2,01:00,90" plays="1" yards="35" top="0:09" driveindex="6"></drive>
+  <drive vh="V" team="REA" start="KO,2,00:50,29" end="HALF,2,00:00,34" plays="2" yards="5" top="0:50" driveindex="7"></drive>
+  <drive vh="H" team="GIT" start="KO,3,12:00,47" end="TD,3,11:30,90" plays="4" yards="43" top="0:30" rz="1" driveindex="8"></drive>
+  <drive vh="V" team="REA" start="KO,3,11:19,20" end="INT,3,08:20,19" plays="3" yards="-1" top="2:59" driveindex="9"></drive>
+  <drive vh="H" team="GIT" start="INT,3,08:20,69" end="TD,3,06:55,90" plays="3" yards="21" top="1:25" rz="1" driveindex="10"></drive>
+  <drive vh="V" team="REA" start="KO,3,06:55,20" end="PUNT,3,04:51,18" plays="3" yards="-2" top="2:04" driveindex="11"></drive>
+  <drive vh="H" team="GIT" start="PUNT,3,04:51,76" end="TD,3,04:00,90" plays="2" yards="14" top="0:51" rz="1" driveindex="12"></drive>
+  <drive vh="V" team="REA" start="KO,3,04:00,20" end="PUNT,3,01:30,22" plays="3" yards="2" top="2:30" driveindex="13"></drive>
+  <drive vh="H" team="GIT" start="PUNT,3,01:30,41" end="TD,3,00:00,90" plays="4" yards="49" top="1:30" rz="1" driveindex="14"></drive>
+  <drive vh="V" team="REA" start="KO,4,12:00,36" end="FUMB,4,09:45,44" plays="2" yards="8" top="2:15" driveindex="15"></drive>
+  <drive vh="H" team="GIT" start="FUMB,4,09:45,46" end="TD,4,05:00,90" plays="6" yards="44" top="4:45" rz="1" driveindex="16"></drive>
+  <drive vh="V" team="REA" start="KO,4,03:30,24" end="INT,4,01:20,24" plays="1" yards="0" top="2:10" driveindex="17"></drive>
+  <drive vh="H" team="GIT" start="INT,4,01:20,82" end="TD,4,00:50,90" plays="1" yards="8" top="0:30" rz="1" driveindex="18"></drive>
+  <drive vh="V" team="REA" start="KO,4,00:00,31" end="HALF,4,00:00,31" plays="0" yards="0" top="0:00" driveindex="19"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0"
+      text="Giaguari Torino win the coin toss, defer to second half"></play>
+   <play context="V,1,10,V30" playid="0,2,1"
+      text="GIT ball on GIT30."></play>
+   <play context="H,1,10,H30" playid="0,3,2" type="K"
+      text="Caprioglio J. kickoff 60 yards to the REA0, touchback."></play>
+   <drivestart poss="V,V20,12:00" vh="V" spot="V20" clock="12:00" driveindex="1,2"></drivestart>
+   <play context="V,1,10,V20" playid="1,1,3" type="R"
+      text="Garetto M. rush for 3 yards to the REA23 (Tebaldi D.;Longhini D.)."></play>
+   <play context="V,2,7,V23" playid="1,2,4" type="R"
+      text="Garetto M. rush for 4 yards to the REA27 (Tebaldi D.)."></play>
+   <play context="V,3,3,V27" playid="1,3,5" type="R" first="R"
+      text="Garetto M. rush for 8 yards to the REA35, 1ST DOWN REA (Ligotti R.)."></play>
+   <play context="V,1,10,V35" playid="1,4,6" type="R" first="R"
+      text="Garetto M. rush for 10 yards to the 45 yardline, 1ST DOWN REA (Latorraca D.;Maritano M.)."></play>
+   <play context="V,1,10,V45" playid="1,5,7" type="R"
+      text="Garetto M. rush for 1 yard to the GIT44 (Montanella D.;Brezzi A.)."></play>
+   <play context="V,2,9,H44" playid="1,6,8" type="R"
+      text="Brun L. rush for 5 yards to the GIT39 (Ligotti R.)."></play>
+   <play context="V,3,4,H39" playid="1,7,9" type="P"
+      text="Esposito L. pass incomplete to Testa P.."></play>
+   <play context="V,4,4,H39" playid="1,8,10" type="E"
+      text="PENALTY REA delay of game (Esposito L.) 5 yards to the GIT44."></play>
+   <play context="V,4,9,H44" playid="1,9,11" type="U"
+      text="Marcuccetti M. punt 30 yards to the GIT14, out-of-bounds."></play>
+   <drivesum plays="7" yards="26" top="4:00" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,H14,12:00" vh="H" spot="H14" clock="12:00" driveindex="2,11"></drivestart>
+   <play context="H,1,10,H14" playid="2,1,12" clock="08:00"
+      text="GIAGUARI TORINO drive start at 08:00."></play>
+   <play context="H,1,10,H14" playid="2,2,13" type="P"
+      text="Dalmasso N. pass complete to Salsa J. for 3 yards to the GIT17 (Salussolia P.)."></play>
+   <play context="H,2,7,H17" playid="2,3,14" type="R"
+      text="Tenconi T. rush for no gain to the GIT17 (Bellizia M.;Alice S.)."></play>
+   <play context="H,3,7,H17" playid="2,4,15" type="R" first="R"
+      text="Dalmasso N. rush for 9 yards to the GIT26, 1ST DOWN GIT, out-of-bounds."></play>
+   <play context="H,1,10,H26" playid="2,5,16" type="#" clock="06:00"
+      text="Timeout Giaguari Torino, clock 06:00."></play>
+   <play context="H,1,10,H26" playid="2,6,17" type="P" first="P"
+      text="Dalmasso N. pass complete to Serra A. for 24 yards to the REA40, 1ST DOWN GIT, out-of-bounds."></play>
+   <play context="H,1,10,V40" playid="2,7,18" type="P" first="P"
+      text="Dalmasso N. pass complete to Salsa J. for 16 yards to the REA24, 1ST DOWN GIT (Garello G.)."></play>
+   <play context="H,1,10,V24" playid="2,8,19" type="E" first="E"
+      text="Dalmasso N. pass incomplete to Longhini D., PENALTY REA pass interference (Salussolia P.) 15 yards to the REA9, 1ST DOWN GIT, NO PLAY."></play>
+   <play context="H,1,0,V09" playid="2,9,20" type="P"
+      text="Dalmasso N. pass incomplete."></play>
+   <play context="H,2,0,V09" playid="2,10,21" type="P" score="Y" clock="03:20"
+      text="Dalmasso N. pass complete to Salsa J. for 9 yards to the REA0, TOUCHDOWN, clock 03:20."></play>
+   <play context="H,1,0,V03" playid="2,11,22" type="X" score="Y"
+      text="Caprioglio J. kick attempt good."></play>
+   <score V="0" H="7"></score>
+   <drivesum plays="7" yards="76" top="4:40" driveindex="2" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="2,12,23" type="K"
+      text="Caprioglio J. kickoff 60 yards to the REA0, touchback, PENALTY GIT illegal procedure 5 yards to the REA25, 1st and 10, REA ball on REA25."></play>
+   <drivestart poss="V,V25,03:20" vh="V" spot="V25" clock="03:20" driveindex="3,23"></drivestart>
+   <play context="V,1,10,V25" playid="3,1,24" clock="03:20"
+      text="REAPERS TORINO drive start at 03:20."></play>
+   <play context="V,1,10,V25" playid="3,2,25" type="R"
+      text="Garetto M. rush for 9 yards to the REA34 (Ligotti R.)."></play>
+   <play context="V,2,1,V34" playid="3,3,26" type="R"
+      text="Garetto M. rush for 1 yard to the REA35, fumble forced by Capello A., fumble by Garetto M. recovered by REA Blandino A. at REA32."></play>
+   <play context="V,3,3,V32" playid="3,4,27" type="R" first="R"
+      text="Garetto M. rush for 4 yards to the REA36, 1ST DOWN REA (Bombardiere S.;Diaz Lauzuri N.)."></play>
+   <play context="V,1,10,V36" playid="3,5,28" type="R"
+      text="Garetto M. rush for 9 yards to the 45 yardline (Pochettino J.)."></play>
+   <play context="V,2,1,V45" playid="3,6,29" type="R" first="R"
+      text="Brun L. rush for 1 yard to the GIT44, 1ST DOWN REA (Capello A.)."></play>
+   <play context="V,1,10,H44" playid="3,7,30" type="R" first="R"
+      text="Brun L. rush for 13 yards to the GIT31, 1ST DOWN REA (Ligotti R.)."></play>
+   <score qtr="1" V="0" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="REA">
+    <firstdowns no="5" rush="5" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="07:20"></misc>
+    <rush att="12" yds="65" gain="67" loss="2" td="0" long="13"></rush>
+    <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="1" yds="30" long="30" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <defense tackua="2" tacka="2" sacks="0" sackyds="0"></defense>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIT">
+    <firstdowns no="4" rush="1" pass="2" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:40"></misc>
+    <rush att="2" yds="9" gain="9" loss="0" td="0" long="9"></rush>
+    <pass comp="4" att="5" int="0" yds="52" td="1" long="24" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="52" td="1" long="24"></rcv>
+    <ko no="2" yds="120" ob="0" tb="2"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="8" tacka="8" sacks="0" sackyds="0" ff="1"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,1,10,H31" playid="3,8,31" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="V,1,10,H31" playid="3,9,32" type="R"
+      text="Garetto M. rush for loss of 3 yards to the GIT34 (Montanella D.)."></play>
+   <play context="V,2,13,H34" playid="3,10,33" type="R"
+      text="Garetto M. rush for 1 yard to the GIT33, fumble forced by Brezzi A., fumble by Garetto M. recovered by REA Blandino A. at GIT31."></play>
+   <play context="V,3,10,H31" playid="3,11,34" type="E" first="E"
+      text="Esposito L. pass incomplete to Giaccardi M., PENALTY GIT pass interference (Latorraca D.) 13 yards to the GIT18, 1ST DOWN REA, NO PLAY."></play>
+   <play context="V,1,10,H18" playid="3,12,35" type="R"
+      text="Brun L. rush for 5 yards to the GIT13 (Montanella D.)."></play>
+   <play context="V,2,5,H13" playid="3,13,36" type="R" first="R" score="Y" clock="09:00"
+      text="Brun L. rush for 13 yards to the GIT0, 1ST DOWN REA, TOUCHDOWN, clock 09:00."></play>
+   <play context="V,1,0,H03" playid="3,14,37" type="X" score="Y"
+      text="Brun L. kick attempt good."></play>
+   <score V="7" H="7"></score>
+   <drivesum plays="10" yards="65" top="6:20" driveindex="3" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="3,15,38" type="K"
+      text="Brun L. kickoff 56 yards to the GIT4, Salsa J. return 41 yards to the 45 yardline, out-of-bounds (Brun L.)."></play>
+   <drivestart poss="H,H45,09:00" vh="H" spot="H45" clock="09:00" driveindex="4,38"></drivestart>
+   <play context="H,1,10,H45" playid="4,1,39" clock="08:43"
+      text="GIAGUARI TORINO drive start at 08:43."></play>
+   <play context="H,1,10,H45" playid="4,2,40" type="R"
+      text="Tenconi T. rush for 4 yards to the REA41 (Brunetto A.)."></play>
+   <play context="H,2,6,V41" playid="4,3,41" type="P" first="P"
+      text="Dalmasso N. pass complete to Salsa J. for 7 yards to the REA34, 1ST DOWN GIT, out-of-bounds (Garello G.)."></play>
+   <play context="H,1,10,V34" playid="4,4,42" type="P"
+      text="Dalmasso N. pass complete to Serra A. for 6 yards to the REA28, out-of-bounds (Salussolia P.;Alice S.)."></play>
+   <play context="H,2,4,V28" playid="4,5,43" type="#" clock="08:00"
+      text="Timeout Reapers Torino, clock 08:00."></play>
+   <play context="H,2,4,V28" playid="4,6,44" type="P" first="P"
+      text="Dalmasso N. pass complete to Serra A. for 13 yards to the REA15, 1ST DOWN GIT, out-of-bounds (Salussolia P.)."></play>
+   <play context="H,1,10,V15" playid="4,7,45" type="R" first="R"
+      text="Tenconi T. rush for 14 yards to the REA1, 1ST DOWN GIT (Delfino D.;Marangella L.)."></play>
+   <play context="H,1,0,V01" playid="4,8,46" type="P"
+      text="Dalmasso N. pass incomplete to Salsa J., dropped pass."></play>
+   <play context="H,2,0,V01" playid="4,9,47" type="P"
+      text="Dalmasso N. pass incomplete to Serra A., dropped pass (Salussolia P.)."></play>
+   <play context="H,3,0,V01" playid="4,10,48" type="R" score="Y" clock="06:00"
+      text="Dalmasso N. rush for 1 yard to the REA0, TOUCHDOWN, clock 06:00."></play>
+   <play context="H,1,0,V03" playid="4,11,49" type="X" score="Y"
+      text="Caprioglio J. kick attempt good."></play>
+   <score V="7" H="14"></score>
+   <drivesum plays="8" yards="45" top="2:43" driveindex="4" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="4,12,50" type="K"
+      text="Caprioglio J. kickoff 58 yards to the REA2, Rolando E. return 22 yards to the REA24 (Akmel D.)."></play>
+   <drivestart poss="V,V24,06:00" vh="V" spot="V24" clock="06:00" driveindex="5,50"></drivestart>
+   <play context="V,1,10,V24" playid="5,1,51" clock="05:49"
+      text="REAPERS TORINO drive start at 05:49."></play>
+   <play context="V,1,10,V24" playid="5,2,52" type="E"
+      text="Rolando E. rush for loss of 2 yards to the REA22 (Montanella D.;Longhini D.), PENALTY REA false start 5 yards to the REA19, NO PLAY."></play>
+   <play context="V,1,15,V19" playid="5,3,53" type="#" clock="05:30"
+      text="Timeout Reapers Torino, clock 05:30."></play>
+   <play context="V,1,15,V19" playid="5,4,54" type="R"
+      text="Garetto M. rush for 4 yards to the REA23 (Diaz Lauzuri N.;Tebaldi D.)."></play>
+   <play context="V,2,11,V23" playid="5,5,55" type="R"
+      text="Rolando E. rush for 4 yards to the REA27 (Montanella D.;Tebaldi D.)."></play>
+   <play context="V,3,7,V27" playid="5,6,56" type="E" first="E"
+      text="Esposito L. pass incomplete to Giaccardi M., PENALTY GIT roughing passer (Maritano M.) 15 yards to the REA42, 1ST DOWN REA, NO PLAY."></play>
+   <play context="V,1,10,V42" playid="5,7,57"
+      text="REA      78 now wearing 43."></play>
+   <play context="V,1,10,V42" playid="5,8,58"
+      text="REA      95 now wearing 78."></play>
+   <play context="V,1,10,V42" playid="5,9,59" type="R" first="R"
+      text="Garetto M. rush for 11 yards to the GIT37, 1ST DOWN REA (Tebaldi D.)."></play>
+   <play context="V,1,10,H37" playid="5,10,60" type="R"
+      text="Garetto M. rush for 2 yards to the GIT35 (Casolo R.;Longhini D.)."></play>
+   <play context="V,2,8,H35" playid="5,11,61" type="R"
+      text="Garetto M. rush for 4 yards to the GIT31 (Tebaldi D.)."></play>
+   <play context="V,3,4,H31" playid="5,12,62" type="R"
+      text="Rolando E. rush for 1 yard to the GIT30 (Brezzi A.)."></play>
+   <play context="V,4,3,H30" playid="5,13,63" type="#" clock="01:30"
+      text="Timeout Giaguari Torino, clock 01:30."></play>
+   <play context="V,4,3,H30" playid="5,14,64" type="R" first="R" score="Y" clock="01:15"
+      text="Esposito L. rush for 30 yards to the GIT0, 1ST DOWN REA, TOUCHDOWN, clock 01:15."></play>
+   <play context="V,1,0,H03" playid="5,15,65" type="X"
+      text="Brun L. kick attempt failed (blocked) (blocked by Diaz Lauzuri N.)."></play>
+   <score V="13" H="14"></score>
+   <drivesum plays="7" yards="66" top="4:34" driveindex="5" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="5,16,66" type="K"
+      text="Brun L. kickoff 46 yards to the GIT14, Serra A. return 41 yards to the REA35, out-of-bounds (Guazzotti F.;Testa P.)."></play>
+   <drivestart poss="H,V35,01:15" vh="H" spot="V35" clock="01:15" driveindex="6,66"></drivestart>
+   <play context="H,1,10,V35" playid="6,1,67" clock="01:09"
+      text="GIAGUARI TORINO drive start at 01:09."></play>
+   <play context="H,1,10,V35" playid="6,2,68" type="P" first="P" score="Y" clock="01:00"
+      text="Dalmasso N. pass complete to Serra A. for 35 yards to the REA0, 1ST DOWN GIT, TOUCHDOWN, clock 01:00."></play>
+   <play context="H,1,0,V03" playid="6,3,69" type="X" score="Y"
+      text="Caprioglio J. kick attempt good."></play>
+   <score V="13" H="21"></score>
+   <drivesum plays="1" yards="35" top="0:09" driveindex="6" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="6,4,70" type="K"
+      text="Caprioglio J. kickoff 44 yards to the REA16, Marcuccetti M. return 13 yards to the REA29 (Clarke M.;Pregnolato L.)."></play>
+   <drivestart poss="V,V29,01:00" vh="V" spot="V29" clock="01:00" driveindex="7,70"></drivestart>
+   <play context="V,1,10,V29" playid="7,1,71" clock="00:50"
+      text="REAPERS TORINO drive start at 00:50."></play>
+   <play context="V,1,10,V29" playid="7,2,72" type="R"
+      text="Garetto M. rush for 1 yard to the REA30 (Bombardiere S.)."></play>
+   <play context="V,2,9,V30" playid="7,3,73" type="R"
+      text="Garetto M. rush for 4 yards to the REA34 (Capello D.;Brezzi A.)."></play>
+   <play context="V,3,5,V34" playid="7,4,74" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="2" yards="5" top="0:50" driveindex="7" complete="Y"></drivesum>
+   <score qtr="2" V="13" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="REA">
+    <firstdowns no="5" rush="3" pass="0" penalty="2"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="08:45"></misc>
+    <rush att="13" yds="79" gain="82" loss="3" td="2" long="17"></rush>
+    <ko no="2" yds="102" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="1"></pat>
+    <defense tackua="4" tacka="6" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="2" yds="35" td="0" long="22"></kr>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="2" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIT">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="2" yds="28"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="03:15"></misc>
+    <rush att="3" yds="19" gain="19" loss="0" td="1" long="5"></rush>
+    <pass comp="4" att="6" int="0" yds="61" td="1" long="11" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="61" td="1" long="11"></rcv>
+    <ko no="2" yds="102" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="8" tacka="10" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0" blkd="1" ff="1"></defense>
+    <kr no="2" yds="82" td="0" long="41"></kr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,3,5,V34" playid="7,5,75" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, REA ball on REA30."></play>
+   <play context="V,3,5,V30" playid="7,6,76" type="K"
+      text="Brun L. kickoff 13 yards to the REA43, on-side kick, recovered by GIT on REA43."></play>
+   <drivestart poss="H,V43,12:00" vh="H" spot="V43" clock="12:00" driveindex="8,76"></drivestart>
+   <play context="H,1,10,V43" playid="8,1,77" clock="12:00"
+      text="GIAGUARI TORINO drive start at 12:00."></play>
+   <play context="H,1,10,V43" playid="8,2,78" type="E"
+      text="PENALTY GIT false start (Serra A.) 5 yards to the GIT42."></play>
+   <play context="H,1,15,H42" playid="8,3,79" type="R"
+      text="Tenconi T. rush for 9 yards to the REA39 (Delfino D.)."></play>
+   <play context="H,2,6,V39" playid="8,4,80" type="P"
+      text="Dalmasso N. pass incomplete to Serra A. (Giaccardi M.)."></play>
+   <play context="H,3,6,V39" playid="8,5,81" type="R" first="R"
+      text="Tenconi T. rush for 29 yards to the REA10, 1ST DOWN GIT (Salussolia P.)."></play>
+   <play context="H,1,0,V10" playid="8,6,82" type="P" score="Y" clock="11:30"
+      text="Dalmasso N. pass complete to Salsa J. for 10 yards to the REA0, TOUCHDOWN, clock 11:30."></play>
+   <play context="H,1,0,V03" playid="8,7,83" type="X" score="Y"
+      text="Caprioglio J. kick attempt good."></play>
+   <score V="13" H="28"></score>
+   <drivesum plays="4" yards="43" top="0:30" driveindex="8" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="8,8,84" type="K"
+      text="Caprioglio J. kickoff 58 yards to the REA2, Marcuccetti M. return 18 yards to the REA20 (Capello A.;Longhini D.)."></play>
+   <drivestart poss="V,V20,11:30" vh="V" spot="V20" clock="11:30" driveindex="9,84"></drivestart>
+   <play context="V,1,10,V20" playid="9,1,85" clock="11:19"
+      text="REAPERS TORINO drive start at 11:19."></play>
+   <play context="V,1,10,V20" playid="9,2,86" type="R"
+      text="Brun L. rush for 2 yards to the REA22 (Brezzi A.)."></play>
+   <play context="V,2,8,V22" playid="9,3,87" type="R"
+      text="Brun L. rush for 2 yards to the REA24 (Pochettino J.;Longhini D.)."></play>
+   <play context="V,3,6,V24" playid="9,4,88" type="E"
+      text="PENALTY REA false start (Favero Camp M.) 5 yards to the REA19."></play>
+   <play context="V,3,11,V19" playid="9,5,89" type="P" turnover="I"
+      text="Esposito L. pass intercepted by Tebaldi D. at the REA24, Tebaldi D. return 3 yards to the REA21 (Confortini J.)."></play>
+   <drivesum plays="3" yards="-1" top="2:59" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,V21,11:19" vh="H" spot="V21" clock="11:19" driveindex="10,89"></drivestart>
+   <play context="H,1,10,V21" playid="10,1,90" clock="08:20"
+      text="GIAGUARI TORINO drive start at 08:20."></play>
+   <play context="H,1,10,V21" playid="10,2,91" type="P" first="P"
+      text="Dalmasso N. pass complete to Naretti D. for 10 yards to the REA11, 1ST DOWN GIT, out-of-bounds (Garello G.)."></play>
+   <play context="H,1,10,V11" playid="10,3,92" type="P"
+      text="Dalmasso N. pass complete to Morelli A. for 8 yards to the REA3 (Salussolia P.;Brunetto A.)."></play>
+   <play context="H,2,2,V03" playid="10,4,93" type="#" clock="07:00"
+      text="Timeout Giaguari Torino, clock 07:00."></play>
+   <play context="H,2,2,V03" playid="10,5,94" type="R" first="R" score="Y" clock="06:55"
+      text="Tenconi T. rush for 3 yards to the REA0, 1ST DOWN GIT, TOUCHDOWN, clock 06:55."></play>
+   <play context="H,1,0,V03" playid="10,6,95" type="X" score="Y"
+      text="Caprioglio J. kick attempt good."></play>
+   <score V="13" H="35"></score>
+   <drivesum plays="3" yards="21" top="1:25" driveindex="10" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="10,7,96" type="K"
+      text="Caprioglio J. kickoff 60 yards to the REA0, touchback."></play>
+   <drivestart poss="V,V20,06:55" vh="V" spot="V20" clock="06:55" driveindex="11,96"></drivestart>
+   <play context="V,1,10,V20" playid="11,1,97" clock="06:55"
+      text="REAPERS TORINO drive start at 06:55."></play>
+   <play context="V,1,10,V20" playid="11,2,98" type="R"
+      text="TEAM rush for no gain to the REA20, fumble by TEAM recovered by REA Esposito L. at REA16."></play>
+   <play context="V,2,14,V16" playid="11,3,99" type="R"
+      text="Esposito L. rush for 2 yards to the REA18, out-of-bounds."></play>
+   <play context="V,3,12,V18" playid="11,4,100" type="P"
+      text="Esposito L. pass incomplete to Givone S.."></play>
+   <play context="V,4,12,V18" playid="11,5,101" type="U"
+      text="Brun L. punt 41 yards to the GIT31, Serra A. return 45 yards to the REA14 (Marcuccetti M.)."></play>
+   <drivesum plays="3" yards="-2" top="2:04" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,V14,06:55" vh="H" spot="V14" clock="06:55" driveindex="12,101"></drivestart>
+   <play context="H,1,10,V14" playid="12,1,102" clock="04:51"
+      text="GIAGUARI TORINO drive start at 04:51."></play>
+   <play context="H,1,10,V14" playid="12,2,103" type="P" first="P"
+      text="Dalmasso N. pass complete to Duranti R. for 11 yards to the REA3, 1ST DOWN GIT (Bellizia M.;Garello G.)."></play>
+   <play context="H,1,0,V03" playid="12,3,104" type="R" score="Y" clock="04:00"
+      text="Dalmasso N. rush for 3 yards to the REA0, TOUCHDOWN, clock 04:00."></play>
+   <play context="H,1,0,V03" playid="12,4,105" type="X" score="Y"
+      text="Caprioglio J. kick attempt good."></play>
+   <score V="13" H="42"></score>
+   <drivesum plays="2" yards="14" top="0:51" driveindex="12" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="12,5,106" type="K"
+      text="Caprioglio J. kickoff 60 yards to the REA0, touchback."></play>
+   <drivestart poss="V,V20,04:00" vh="V" spot="V20" clock="04:00" driveindex="13,106"></drivestart>
+   <play context="V,1,10,V20" playid="13,1,107" clock="04:00"
+      text="REAPERS TORINO drive start at 04:00."></play>
+   <play context="V,1,10,V20" playid="13,2,108" type="R"
+      text="Garetto M. rush for 6 yards to the REA26 (Montanella D.;Iula S.)."></play>
+   <play context="V,2,4,V26" playid="13,3,109" type="R" first="R"
+      text="Rolando E. rush for 4 yards to the REA30, 1ST DOWN REA (Maritano M.;Giardina A.)."></play>
+   <play context="V,1,10,V30" playid="13,4,110" type="E"
+      text="PENALTY REA false start 5 yards to the REA25."></play>
+   <play context="V,1,15,V25" playid="13,5,111" type="R"
+      text="Esposito L. rush for loss of 6 yards to the REA19, fumble forced by Montanella D., fumble by Esposito L. recovered by REA Esposito L. at REA19, Esposito L. for 3 yards to the REA22 (Pochettino J.)."></play>
+   <play context="V,2,18,V22" playid="13,6,112" type="U"
+      text="Marcuccetti M. punt 52 yards to the GIT16, Salsa J. return 25 yards to the GIT41, out-of-bounds."></play>
+   <drivesum plays="3" yards="2" top="2:30" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H41,04:00" vh="H" spot="H41" clock="04:00" driveindex="14,112"></drivestart>
+   <play context="H,1,10,H41" playid="14,1,113" clock="01:30"
+      text="GIAGUARI TORINO drive start at 01:30."></play>
+   <play context="H,1,10,H41" playid="14,2,114" type="R" first="R"
+      text="Salem I. rush for 19 yards to the REA30, 1ST DOWN GIT (Marangella L.)."></play>
+   <play context="H,1,10,V30" playid="14,3,115" type="P"
+      text="Duranti R. pass complete to Morelli A. for 7 yards to the REA23, out-of-bounds (Lentini A.)."></play>
+   <play context="H,2,3,V23" playid="14,4,116" type="R" first="R"
+      text="Duranti R. rush for 10 yards to the REA13, 1ST DOWN GIT (Lentini A.)."></play>
+   <play context="H,1,10,V13" playid="14,5,117" type="P" first="P" score="Y" clock="00:00"
+      text="Duranti R. pass complete to Socci A. for 13 yards to the REA0, 1ST DOWN GIT, TOUCHDOWN, clock 00:00."></play>
+   <play context="H,1,0,V03" playid="14,6,118" type="X" score="Y"
+      text="Caprioglio J. kick attempt good."></play>
+   <score V="13" H="49"></score>
+   <score qtr="3" V="13" H="49"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="REA">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="2" lost="0"></fumbles>
+    <misc yds="0" top="07:44"></misc>
+    <rush att="7" yds="9" gain="19" loss="10" td="0" long="0"></rush>
+    <pass comp="0" att="2" int="1" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="2" yds="93" long="22" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+    <defense tackua="8" tacka="4" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="1" yds="18" td="0" long="0"></kr>
+    <fumbles no="2" lost="0"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIT">
+    <firstdowns no="7" rush="4" pass="3" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:16"></misc>
+    <rush att="6" yds="73" gain="73" loss="0" td="2" long="15"></rush>
+    <pass comp="6" att="7" int="0" yds="59" td="2" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="6" yds="59" td="2" long="0"></rcv>
+    <ko no="3" yds="178" ob="0" tb="2"></ko>
+    <pat kickatt="4" kickmade="4"></pat>
+    <defense tackua="3" tacka="8" tflua="2" tfla="0" tflyds="9" sacks="0" sackyds="0" ff="1" int="1" intyds="3"></defense>
+    <pr no="2" yds="70" td="0" long="45"></pr>
+    <ir no="1" yds="3" td="0" long="3"></ir>
+    <scoring td="4" patkick="4"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="H,1,0,H30" playid="14,7,119" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <comment text="Running clock"></comment>
+   <drivesum plays="4" yards="49" top="1:30" driveindex="14" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="14,8,121" type="K"
+      text="Caprioglio J. kickoff 58 yards to the REA2, Marcuccetti M. return 34 yards to the REA36 (Maritano M.;Di Pierro A.)."></play>
+   <drivestart poss="V,V36,12:00" vh="V" spot="V36" clock="12:00" driveindex="15,121"></drivestart>
+   <play context="V,1,10,V36" playid="15,1,122" clock="12:00"
+      text="REAPERS TORINO drive start at 12:00."></play>
+   <play context="V,1,10,V36" playid="15,2,123" clock="12:00"
+      text="REAPERS TORINO drive start at 12:00."></play>
+   <play context="V,1,10,V36" playid="15,3,124" type="R"
+      text="Rolando E. rush for no gain to the REA36 (Capello D.;Stoppa S.)."></play>
+   <play context="V,2,10,V36" playid="15,4,125" type="R" turnover="F"
+      text="Rolando E. rush for 6 yards to the REA42, fumble forced by Di Pierro A., fumble by Rolando E. recovered by GIT Stoppa S. at REA44."></play>
+   <drivesum plays="2" yards="8" top="2:15" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,V44,12:00" vh="H" spot="V44" clock="12:00" driveindex="16,125"></drivestart>
+   <play context="H,1,10,V44" playid="16,1,126" clock="09:45"
+      text="GIAGUARI TORINO drive start at 09:45."></play>
+   <play context="H,1,10,V44" playid="16,2,127" type="#" clock="09:30"
+      text="Timeout Giaguari Torino, clock 09:30."></play>
+   <play context="H,1,10,V44" playid="16,3,128" type="P"
+      text="Duranti R. sacked for loss of 7 yards to the GIT39 (Vernetti D.)."></play>
+   <play context="H,2,17,H39" playid="16,4,129" type="P" first="P"
+      text="Duranti R. pass complete to Incarbone A. for 39 yards to the REA12, 1ST DOWN GIT."></play>
+   <play context="H,1,10,V12" playid="16,5,130" type="R"
+      text="Tenconi T. rush for 1 yard to the REA11 (De Souza T.;Bellizia M.)."></play>
+   <play context="H,2,9,V11" playid="16,6,131" type="P"
+      text="Duranti R. pass incomplete to Socci A.."></play>
+   <play context="H,3,9,V11" playid="16,7,132" type="#" clock="06:00"
+      text="Timeout Giaguari Torino, clock 06:00."></play>
+   <play context="H,3,9,V11" playid="16,8,133" type="P"
+      text="Duranti R. pass incomplete to Socci A.."></play>
+   <play context="H,4,9,V11" playid="16,9,134" type="P" first="P" score="Y" clock="05:00"
+      text="Duranti R. pass complete to Morelli A. for 11 yards to the REA0, 1ST DOWN GIT, TOUCHDOWN, clock 05:00."></play>
+   <play context="H,1,0,V03" playid="16,10,135" type="X" score="Y"
+      text="Caprioglio J. kick attempt good."></play>
+   <score V="13" H="56"></score>
+   <drivesum plays="6" yards="44" top="4:45" driveindex="16" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="16,11,136" type="K"
+      text="Caprioglio J. kickoff 53 yards to the REA7, Marcuccetti M. return 17 yards to the REA24 (Clarke M.)."></play>
+   <drivestart poss="V,V24,05:00" vh="V" spot="V24" clock="05:00" driveindex="17,136"></drivestart>
+   <play context="V,1,10,V24" playid="17,1,137" clock="03:30"
+      text="REAPERS TORINO drive start at 03:30."></play>
+   <play context="V,1,10,V24" playid="17,2,138" type="P" turnover="I"
+      text="Esposito L. pass intercepted by Di Pierro A. at the REA33, Di Pierro A. return 25 yards to the REA8, out-of-bounds."></play>
+   <drivesum plays="1" yards="0" top="2:10" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,V08,03:30" vh="H" spot="V08" clock="03:30" driveindex="18,138"></drivestart>
+   <play context="H,1,0,V08" playid="18,1,139" clock="01:20"
+      text="GIAGUARI TORINO drive start at 01:20."></play>
+   <play context="H,1,0,V08" playid="18,2,140" type="P" score="Y" clock="00:50"
+      text="Morelli A. pass complete to Bergesio G. for 8 yards to the REA0, TOUCHDOWN, clock 00:50."></play>
+   <play context="H,1,0,V03" playid="18,3,141" type="X" score="Y"
+      text="Sibona Tacco E. kick attempt good."></play>
+   <score V="13" H="63"></score>
+   <drivesum plays="1" yards="8" top="0:30" driveindex="18" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="18,4,142" type="K"
+      text="Sibona Tacco E. kickoff 48 yards to the REA12, Marcuccetti M. return 19 yards to the REA31 (Capello A.)."></play>
+   <drivestart poss="V,V31,00:50" vh="V" spot="V31" clock="00:50" driveindex="19,142"></drivestart>
+   <play context="V,1,10,V31" playid="19,1,143" clock="00:00"
+      text="REAPERS TORINO drive start at 00:00."></play>
+   <play context="V,1,10,V31" playid="19,2,144" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="19" complete="Y"></drivesum>
+   <score final="Y" V="13" H="63"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="REA">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="06:45"></misc>
+    <rush att="2" yds="8" gain="8" loss="0" td="0" long="0"></rush>
+    <pass comp="0" att="1" int="1" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <defense tackua="1" tacka="2" tflua="1" tfla="0" tflyds="7" sacks="1" sackyds="7"></defense>
+    <kr no="3" yds="70" td="0" long="12"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIT">
+    <firstdowns no="2" rush="0" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:15"></misc>
+    <rush att="2" yds="-6" gain="1" loss="7" td="0" long="0"></rush>
+    <pass comp="3" att="5" int="0" yds="58" td="2" long="4" sacks="1" sackyds="7"></pass>
+    <rcv no="3" yds="58" td="2" long="4"></rcv>
+    <ko no="3" yds="159" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="3" tacka="4" sacks="0" sackyds="0" ff="1" fr="1" fryds="0" int="1" intyds="25"></defense>
+    <ir no="1" yds="25" td="0" long="22"></ir>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="V,1,10,V31" qtr="4" clock="00:00" vtoh="0" htoh="3"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="REA">
+ </dnp>
+ <dnp vh="H" id="GIT">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

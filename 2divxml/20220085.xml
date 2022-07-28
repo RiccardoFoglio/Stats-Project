@@ -1,0 +1,957 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220085" visid="RED" homeid="FRG" visname="Redskins Verona" homename="Frogs Legnano"
+      date="5/8/2022" location="LEGNANO" stadium="CAMPO DELL'AMICIZIA"
+      start="14:30" end="18:12" leaguegame="Y"
+      duration="3:42" attend="50" temp="20" wind="NO WIND" weather="CLOUDY">
+  <officials sc="VAI ALESSIA"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="30" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="RED" name="Redskins Verona" record="0-6" conf-record="0-6" abb="R">
+  <linescore prds="4" line="7,7,0,0" score="14">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="5" rush="2" pass="2" penalty="1"></firstdowns>
+   <penalties no="2" yds="10"></penalties>
+   <conversions thirdconv="1" thirdatt="16" fourthconv="2" fourthatt="6"></conversions>
+   <fumbles no="4" lost="3"></fumbles>
+   <misc yds="0" top="27:28" ona="0" onm="0"></misc>
+   <redzone att="1" scores="1" points="7" tdrush="1" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="37" yds="17" gain="71" loss="54" td="1" long="8"></rush>
+   <pass comp="5" att="24" int="4" yds="71" td="0" long="34" sacks="2" sackyds="11"></pass>
+   <rcv no="5" yds="71" td="0" long="34"></rcv>
+   <punt no="5" yds="138" long="50" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+   <ko no="3" yds="167" ob="0" tb="2"></ko>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="26" tacka="6" tflua="8" tfla="2" tflyds="47" sacks="0" sackyds="0" brup="3" blkd="1" fr="1" fryds="0" int="2" intyds="12"></defense>
+   <kr no="5" yds="149" td="1" long="84"></kr>
+   <pr no="2" yds="20" td="0" long="17"></pr>
+   <ir no="2" yds="12" td="0" long="14"></ir>
+   <scoring td="2" patkick="2"></scoring>
+  </totals>
+  <player name="Capon M." shortname="Capon M." checkname="M.,CAPON" uni="23" gp="1" code="23">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <rcv no="2" yds="32" td="0" long="34"></rcv>
+   <pr no="2" yds="20" td="0" long="17"></pr>
+  </player>
+  <player name="Moronesi M." shortname="Moronesi M." checkname="M.,MORONESI" uni="82" gp="1" code="82">
+   <rcv no="2" yds="11" td="0" long="11"></rcv>
+  </player>
+  <player name="Vignola F." shortname="Vignola F." checkname="F.,VIGNOLA" uni="13" gp="1" code="13">
+   <rcv no="1" yds="28" td="0" long="28"></rcv>
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="11"></defense>
+  </player>
+  <player name="Passarin F." shortname="Passarin F." checkname="F.,PASSARIN" uni="1" gp="1" code="1">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+  </player>
+  <player name="Burato A." shortname="Burato A." checkname="A.,BURATO" uni="27" gp="1" code="27">
+   <rush att="3" yds="5" gain="6" loss="1" td="0" long="4"></rush>
+   <kr no="1" yds="10" td="0" long="10"></kr>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Arzenton A." shortname="Arzenton A." checkname="A.,ARZENTON" uni="31" gp="1" code="31">
+   <rush att="1" yds="-1" gain="0" loss="1" td="0" long="0"></rush>
+  </player>
+  <player name="Centonze S." shortname="Centonze S." checkname="S.,CENTONZE" uni="18" gp="1" code="18">
+   <rush att="5" yds="-2" gain="9" loss="11" td="1" long="7"></rush>
+   <pass comp="2" att="11" int="3" yds="11" td="0" long="11" sacks="2" sackyds="11"></pass>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Gaspari N." shortname="Gaspari N." checkname="N.,GASPARI" uni="4" gp="1" code="4">
+   <rush att="12" yds="-9" gain="14" loss="23" td="0" long="5"></rush>
+   <fumbles no="2" lost="1"></fumbles>
+  </player>
+  <player name="Dona' L." shortname="Dona' L." checkname="L.,DONA'" uni="11" gp="1" code="11"></player>
+  <player name="Ragazzini P." shortname="Ragazzini P." checkname="P.,RAGAZZINI" uni="12" gp="1" code="12"></player>
+  <player name="Silvestri D." shortname="Silvestri D." checkname="D.,SILVESTRI" uni="21" gp="1" code="21">
+   <rush att="8" yds="1" gain="19" loss="18" td="0" long="7"></rush>
+   <punt no="1" yds="-3" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <defense tackua="2" tacka="1" tflua="1" tfla="0" tflyds="3" int="1" intyds="14"></defense>
+   <kr no="4" yds="139" td="1" long="84"></kr>
+   <ir no="1" yds="14" td="0" long="14"></ir>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Dona' J." shortname="Dona' J." checkname="J.,DONA'" uni="14" gp="1" code="14">
+   <defense tackua="6" tacka="2" brup="1"></defense>
+  </player>
+  <player name="Gaspari S." shortname="Gaspari S." checkname="S.,GASPARI" uni="15" gp="1" code="15"></player>
+  <player name="Fagnani E." shortname="Fagnani E." checkname="E.,FAGNANI" uni="17" gp="1" code="17"></player>
+  <player name="Corso M." shortname="Corso M." checkname="M.,CORSO" uni="20" gp="1" code="20"></player>
+  <player name="Bottacini M." shortname="Bottacini M." checkname="M.,BOTTACINI" uni="7" gp="1" code="7"></player>
+  <player name="Roveda J." shortname="Roveda J." checkname="J.,ROVEDA" uni="5" gp="1" code="5"></player>
+  <player name="Marchesini T." shortname="Marchesini T." checkname="T.,MARCHESINI" uni="24" gp="1" code="24"></player>
+  <player name="Scarmagnani G." shortname="Scarmagnani G." checkname="G.,SCARMAGNANI" uni="25" gp="1" code="25"></player>
+  <player name="Andreoli D." shortname="Andreoli D." checkname="D.,ANDREOLI" uni="2" gp="1" code="2"></player>
+  <player name="Terziotti M." shortname="Terziotti M." checkname="M.,TERZIOTTI" uni="30" gp="1" code="30"></player>
+  <player name="Bianciardi T." shortname="Bianciardi T." checkname="T.,BIANCIARDI" uni="3" gp="1" code="3"></player>
+  <player name="Marinelli N." shortname="Marinelli N." checkname="N.,MARINELLI" uni="34" gp="1" code="34"></player>
+  <player name="Vandin F." shortname="Vandin F." checkname="F.,VANDIN" uni="36" gp="1" code="36">
+   <punt no="4" yds="141" long="50" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+   <defense tackua="0" tacka="1" int="1" intyds="-2"></defense>
+   <ir no="1" yds="-2" td="0" long="0"></ir>
+  </player>
+  <player name="Rossini D." shortname="Rossini D." checkname="D.,ROSSINI" uni="39" gp="1" code="39">
+   <defense tackua="2" tacka="1" tflua="2" tfla="1" tflyds="17"></defense>
+  </player>
+  <player name="Dolci N." shortname="Dolci N." checkname="N.,DOLCI" uni="46" gp="1" code="46"></player>
+  <player name="Pilla R." shortname="Pilla R." checkname="R.,PILLA" uni="47" gp="1" code="47"></player>
+  <player name="Checuz M." shortname="Checuz M." checkname="M.,CHECUZ" uni="51" gp="1" code="51">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Perbellini P." shortname="Perbellini P." checkname="P.,PERBELLINI" uni="52" gp="1" code="52">
+   <defense tackua="1" tacka="0" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Romio L." shortname="Romio L." checkname="L.,ROMIO" uni="54" gp="1" code="54">
+   <defense tackua="3" tacka="0" brup="2"></defense>
+  </player>
+  <player name="Zamperlin F." shortname="Zamperlin F." checkname="F.,ZAMPERLIN" uni="55" gp="1" code="55"></player>
+  <player name="Macchi G." shortname="Macchi G." checkname="G.,MACCHI" uni="56" gp="1" code="56"></player>
+  <player name="Eshun M." shortname="Eshun M." checkname="M.,ESHUN" uni="58" gp="1" code="58"></player>
+  <player name="Perbellini O." shortname="Perbellini O." checkname="O.,PERBELLINI" uni="59" gp="1" code="59"></player>
+  <player name="Di Franco E." shortname="Di Franco E." checkname="FRANCO E.,DI" uni="64" gp="1" code="64"></player>
+  <player name="De Martin D." shortname="De Martin D." checkname="MARTIN D.,DE" uni="65" gp="1" code="65"></player>
+  <player name="Camerlengo M." shortname="Camerlengo M." checkname="M.,CAMERLENGO" uni="66" gp="1" code="66"></player>
+  <player name="Damin M." shortname="Damin M." checkname="M.,DAMIN" uni="69" gp="1" code="69"></player>
+  <player name="Mir Fakhraei K." shortname="Mir Fakhraei K." checkname="FAKHRAEI K.,MIR" uni="70" gp="1" code="70"></player>
+  <player name="Malan S." shortname="Malan S." checkname="S.,MALAN" uni="71" gp="1" code="71"></player>
+  <player name="Massella P." shortname="Massella P." checkname="P.,MASSELLA" uni="79" gp="1" code="79"></player>
+  <player name="Casiello G." shortname="Casiello G." checkname="G.,CASIELLO" uni="80" gp="1" code="80"></player>
+  <player name="Corcodel G." shortname="Corcodel G." checkname="G.,CORCODEL" uni="81" gp="1" code="81"></player>
+  <player name="Boninsegni S." shortname="Boninsegni S." checkname="S.,BONINSEGNI" uni="9" gp="1" code="9">
+   <rush att="6" yds="23" gain="23" loss="0" td="0" long="8"></rush>
+   <pass comp="3" att="13" int="1" yds="60" td="0" long="34" sacks="0" sackyds="0"></pass>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="84" shortname="" checkname="" uni="84" gp="1" code="84">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Montanari S." shortname="Montanari S." checkname="S.,MONTANARI" uni="87" gp="1" code="87"></player>
+  <player name="Antochi R." shortname="Antochi R." checkname="R.,ANTOCHI" uni="90" gp="1" code="90">
+   <ko no="3" yds="167" ob="0" tb="2"></ko>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="3" tacka="0" tflua="3" tfla="0" tflyds="9"></defense>
+   <scoring patkick="2"></scoring>
+  </player>
+  <player name="Mizzi G." shortname="Mizzi G." checkname="G.,MIZZI" uni="94" gp="1" code="94"></player>
+  <player name="Cundari D." shortname="Cundari D." checkname="D.,CUNDARI" uni="97" gp="1" code="97"></player>
+  <player name="Perbellini E." shortname="Perbellini E." checkname="E.,PERBELLINI" uni="99" gp="1" code="99">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="4" tacka="0" tflua="1" tfla="0" tflyds="5" blkd="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="FRG" name="Frogs Legnano" record="2-4" conf-record="2-4" abb="F">
+  <linescore prds="4" line="7,0,14,7" score="28">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="14"></lineprd>
+   <lineprd prd="4" score="7"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="6" rush="3" pass="3" penalty="0"></firstdowns>
+   <penalties no="4" yds="25"></penalties>
+   <conversions thirdconv="2" thirdatt="12" fourthconv="0" fourthatt="1"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="20:32" ona="0" onm="0"></misc>
+   <redzone att="3" scores="1" points="7" tdrush="1" tdpass="0" fgmade="0" endfga="1" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="21" yds="19" gain="66" loss="47" td="1" long="19"></rush>
+   <pass comp="9" att="26" int="2" yds="133" td="1" long="57" sacks="0" sackyds="0"></pass>
+   <rcv no="9" yds="133" td="1" long="57"></rcv>
+   <punt no="7" yds="232" long="42" blkd="0" tb="1" fc="0" plus50="0" inside20="1"></punt>
+   <ko no="5" yds="242" ob="0" tb="0"></ko>
+   <fg made="0" att="1" long="0" blkd="1"></fg>
+   <pat kickatt="4" kickmade="4"></pat>
+   <defense tackua="40" tacka="8" tflua="13" tfla="0" tflyds="47" sacks="2" sackyds="11" brup="5" ff="1" fr="3" fryds="49" int="4" intyds="72"></defense>
+   <pr no="1" yds="20" td="0" long="20"></pr>
+   <ir no="4" yds="72" td="1" long="62"></ir>
+   <fr no="2" yds="49" td="1" long="34"></fr>
+   <scoring td="4" patkick="4"></scoring>
+  </totals>
+  <player name="Salcone S." shortname="Salcone S." checkname="S.,SALCONE" uni="16" gp="1" code="16">
+   <rcv no="2" yds="82" td="1" long="57"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Furghieri M." shortname="Furghieri M." checkname="M.,FURGHIERI" uni="84" gp="1" code="84">
+   <rush att="9" yds="36" gain="46" loss="10" td="0" long="19"></rush>
+   <rcv no="2" yds="29" td="0" long="19"></rcv>
+  </player>
+  <player name="Colombo D." shortname="Colombo D." checkname="D.,COLOMBO" uni="15" gp="1" code="15">
+   <rcv no="2" yds="10" td="0" long="5"></rcv>
+  </player>
+  <player name="Greco Ina T." shortname="Greco Ina T." checkname="INA T.,GRECO" uni="80" gp="1" code="80">
+   <rcv no="2" yds="9" td="0" long="6"></rcv>
+  </player>
+  <player name="Cecchetto E." shortname="Cecchetto E." checkname="E.,CECCHETTO" uni="1" gp="1" code="1">
+   <rcv no="1" yds="3" td="0" long="3"></rcv>
+  </player>
+  <player name="Vincenti G." shortname="Vincenti G." checkname="G.,VINCENTI" uni="7" gp="1" code="7">
+   <rush att="1" yds="-5" gain="0" loss="5" td="0" long="0"></rush>
+   <pass comp="9" att="25" int="1" yds="133" td="1" long="57" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="Suzzarellu A." shortname="Suzzarellu A." checkname="A.,SUZZARELLU" uni="78" gp="1" code="78">
+   <rush att="1" yds="-11" gain="0" loss="11" td="0" long="0"></rush>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Bistoletti F." shortname="Bistoletti F." checkname="F.,BISTOLETTI" uni="9" gp="1" code="9">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Gerosa N." shortname="Gerosa N." checkname="N.,GEROSA" uni="10" gp="1" code="10"></player>
+  <player name="Grasso P." shortname="Grasso P." checkname="P.,GRASSO" uni="13" gp="1" code="13">
+   <defense tackua="4" tacka="0" brup="1"></defense>
+  </player>
+  <player name="Hernandez Gu R." shortname="Hernandez Gu R." checkname="GU R.,HERNANDEZ" uni="14" gp="1" code="14"></player>
+  <player name="Menghini E." shortname="Menghini E." checkname="E.,MENGHINI" uni="59" gp="1" code="59">
+   <rush att="1" yds="-2" gain="0" loss="2" td="0" long="0"></rush>
+   <defense tackua="4" tacka="0" tflua="2" tfla="0" tflyds="8" sackua="1" sacka="0" sackyds="6" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Borsari L." shortname="Borsari L." checkname="L.,BORSARI" uni="18" gp="1" code="18">
+   <rush att="6" yds="-1" gain="17" loss="18" td="1" long="8"></rush>
+   <pass comp="0" att="1" int="1" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+   <ko no="4" yds="191" ob="0" tb="0"></ko>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Gianera A." shortname="Gianera A." checkname="A.,GIANERA" uni="2" gp="1" code="2">
+   <defense tackua="0" tacka="1" fr="0" fryds="15"></defense>
+   <fr no="0" yds="15" td="1" long="15"></fr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Delaria A." shortname="Delaria A." checkname="A.,DELARIA" uni="4" gp="1" code="4">
+   <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"></rush>
+   <punt no="7" yds="232" long="42" blkd="0" tb="1" fc="0" plus50="0" inside20="1"></punt>
+   <fg made="0" att="1" long="0" blkd="1"></fg>
+   <pat kickatt="4" kickmade="4"></pat>
+   <defense brup="1" int="1" intyds="5"></defense>
+   <ir no="1" yds="5" td="0" long="5"></ir>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring patkick="4"></scoring>
+  </player>
+  <player name="Cilento Dav." shortname="Cilento Dav." checkname="DAV.,CILENTO" uni="20" gp="1" code="20"></player>
+  <player name="Dillon Salaz J." shortname="Dillon Salaz J." checkname="SALAZ J.,DILLON" uni="21" gp="1" code="21"></player>
+  <player name="Merighi F." shortname="Merighi F." checkname="F.,MERIGHI" uni="29" gp="1" code="29">
+   <defense tackua="4" tacka="0" tflua="1" tfla="0" tflyds="3" brup="1" int="3" intyds="5"></defense>
+   <ir no="2" yds="5" td="0" long="5"></ir>
+  </player>
+  <player name="Di Mari A." shortname="Di Mari A." checkname="MARI A.,DI" uni="31" gp="1" code="31">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Caletti A." shortname="Caletti A." checkname="A.,CALETTI" uni="34" gp="1" code="34"></player>
+  <player name="Borsani A." shortname="Borsani A." checkname="A.,BORSANI" uni="38" gp="1" code="38"></player>
+  <player name="41" shortname="" checkname="" uni="41" gp="1" code="41">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Gangale G." shortname="Gangale G." checkname="G.,GANGALE" uni="45" gp="1" code="45"></player>
+  <player name="Sarcevic M." shortname="Sarcevic M." checkname="M.,SARCEVIC" uni="50" gp="1" code="50"></player>
+  <player name="Rusconi M." shortname="Rusconi M." checkname="M.,RUSCONI" uni="51" gp="1" code="51"></player>
+  <player name="52" shortname="" checkname="" uni="52" gp="1" code="52">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Colescia S." shortname="Colescia S." checkname="S.,COLESCIA" uni="55" gp="1" code="55"></player>
+  <player name="Selvagio F." shortname="Selvagio F." checkname="F.,SELVAGIO" uni="56" gp="1" code="56"></player>
+  <player name="Cilento Dan." shortname="Cilento Dan." checkname="DAN.,CILENTO" uni="5" gp="1" code="5">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Pegoraro M." shortname="Pegoraro M." checkname="M.,PEGORARO" uni="62" gp="1" code="62">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Azzimonti A." shortname="Azzimonti A." checkname="A.,AZZIMONTI" uni="65" gp="1" code="65"></player>
+  <player name="Zuddas O." shortname="Zuddas O." checkname="O.,ZUDDAS" uni="68" gp="1" code="68">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Valente A." shortname="Valente A." checkname="A.,VALENTE" uni="69" gp="1" code="69"></player>
+  <player name="72" shortname="" checkname="" uni="72" gp="1" code="72">
+   <defense tackua="2" tacka="2" tflua="2" tfla="0" tflyds="4" fr="1" fryds="0"></defense>
+   <fr no="1" yds="0" td="0" long="0"></fr>
+  </player>
+  <player name="Della Foglia G." shortname="Della Foglia G." checkname="FOGLIA G.,DELLA" uni="77" gp="1" code="77"></player>
+  <player name="De Bernardi E." shortname="De Bernardi E." checkname="BERNARDI E.,DE" uni="8" gp="1" code="8">
+   <defense tackua="3" tacka="0" tflua="2" tfla="0" tflyds="7" sackua="1" sacka="0" sackyds="5" ff="1" fr="1" fryds="34"></defense>
+   <fr no="1" yds="34" td="0" long="34"></fr>
+  </player>
+  <player name="Buran M." shortname="Buran M." checkname="M.,BURAN" uni="17" gp="1" code="17">
+   <rush att="2" yds="2" gain="3" loss="1" td="0" long="3"></rush>
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Tamburrino F." shortname="Tamburrino F." checkname="F.,TAMBURRINO" uni="81" gp="1" code="81">
+   <defense tackua="4" tacka="2" tflua="2" tfla="0" tflyds="5"></defense>
+  </player>
+  <player name="3" shortname="" checkname="" uni="3" gp="1" code="3">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Di Biase A." shortname="Di Biase A." checkname="BIASE A.,DI" uni="85" gp="1" code="85"></player>
+  <player name="Verderio G." shortname="Verderio G." checkname="G.,VERDERIO" uni="86" gp="1" code="86">
+   <ko no="1" yds="51" ob="0" tb="0"></ko>
+   <defense tackua="3" tacka="0" tflua="2" tfla="0" tflyds="11" brup="2" int="0" intyds="62"></defense>
+   <pr no="1" yds="20" td="0" long="20"></pr>
+   <ir no="1" yds="62" td="1" long="62"></ir>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Antonini E." shortname="Antonini E." checkname="E.,ANTONINI" uni="87" gp="1" code="87"></player>
+  <player name="Scrudato R." shortname="Scrudato R." checkname="R.,SCRUDATO" uni="88" gp="1" code="88"></player>
+  <player name="Costanzo N." shortname="Costanzo N." checkname="N.,COSTANZO" uni="89" gp="1" code="89"></player>
+  <player name="Pesenti F." shortname="Pesenti F." checkname="F.,PESENTI" uni="91" gp="1" code="91">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="5" tacka="0" tflua="1" tfla="0" tflyds="8"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="FRG" qtr="1" clock="02:43" type="TD" how="FUMB" yds="15" scorer="Gianera A." patby="Delaria A." pattype="KICK" patres="GOOD" vscore="0" hscore="7" driveindex="6"></score>
+  <score vh="V" team="RED" qtr="1" clock="02:30" type="TD" how="KO" yds="84" scorer="Silvestri D." patby="Antochi R." pattype="KICK" patres="GOOD" vscore="7" hscore="7" driveindex="7"></score>
+  <score vh="V" team="RED" qtr="2" clock="05:14" type="TD" how="RUSH" yds="1" scorer="Centonze S." patby="Antochi R." pattype="KICK" patres="GOOD" plays="6" drive="30" top="1:46" vscore="14" hscore="7" driveindex="13"></score>
+  <score vh="H" team="FRG" qtr="3" clock="09:40" type="TD" how="RUSH" yds="8" scorer="Borsari L." patby="Delaria A." pattype="KICK" patres="GOOD" plays="5" drive="60" top="2:20" vscore="14" hscore="14" driveindex="18"></score>
+  <score vh="H" team="FRG" qtr="3" clock="08:03" type="TD" how="PASS" yds="25" scorer="Salcone S." passer="Vincenti G." patby="Delaria A." pattype="KICK" patres="GOOD" plays="3" drive="27" top="1:17" vscore="14" hscore="21" driveindex="20"></score>
+  <score vh="H" team="FRG" qtr="4" clock="04:00" type="TD" how="INT" yds="62" scorer="Verderio G." patby="Delaria A." pattype="KICK" patres="GOOD" vscore="14" hscore="28" driveindex="32"></score>
+ </scores>
+ <fgas>
+  <fga vh="H" team="FRG" kicker="Delaria A." qtr="1" clock="04:10" distance="35" result="blkd"></fga>
+ </fgas>
+ <drives>
+  <drive vh="V" team="RED" start="KO,1,12:00,30" end="PUNT,1,10:00,31" plays="3" yards="1" top="2:00" driveindex="1"></drive>
+  <drive vh="H" team="FRG" start="PUNT,1,10:00,28" end="PUNT,1,08:25,45" plays="4" yards="17" top="1:35" driveindex="2"></drive>
+  <drive vh="V" team="RED" start="PUNT,1,08:25,30" end="FUMB,1,05:50,47" plays="6" yards="17" top="2:35" driveindex="3"></drive>
+  <drive vh="H" team="FRG" start="FUMB,1,05:50,72" end="FGA,1,04:10,77" plays="3" yards="5" top="1:40" rz="1" driveindex="4"></drive>
+  <drive vh="V" team="RED" start="FGA,1,04:10,18" end="FUMB,1,02:43,15" plays="3" yards="-3" top="1:27" driveindex="5"></drive>
+  <drive vh="H" team="FRG" start="FUMB,1,02:43,75" end="TD,1,02:43,75" plays="0" yards="0" top="0:00" driveindex="6"></drive>
+  <drive vh="V" team="RED" start="KO,1,02:30,90" end="TD,1,02:30,90" plays="0" yards="0" top="0:00" driveindex="7"></drive>
+  <drive vh="H" team="FRG" start="KO,1,02:30,30" end="PUNT,1,00:35,13" plays="3" yards="-17" top="1:55" driveindex="8"></drive>
+  <drive vh="V" team="RED" start="PUNT,1,00:35,35" end="PUNT,1,00:00,25" plays="3" yards="-10" top="0:35" driveindex="9"></drive>
+  <drive vh="H" team="FRG" start="PUNT,2,12:00,27" end="INT,2,11:15,32" plays="2" yards="5" top="0:45" driveindex="10"></drive>
+  <drive vh="V" team="RED" start="INT,2,11:15,64" end="INT,2,09:00,63" plays="4" yards="-1" top="2:15" driveindex="11"></drive>
+  <drive vh="H" team="FRG" start="INT,2,09:00,10" end="PUNT,2,07:00,10" plays="3" yards="0" top="2:00" driveindex="12"></drive>
+  <drive vh="V" team="RED" start="PUNT,2,07:00,60" end="TD,2,05:14,90" plays="6" yards="30" top="1:46" rz="1" driveindex="13"></drive>
+  <drive vh="H" team="FRG" start="KO,2,05:14,13" end="PUNT,2,03:30,17" plays="3" yards="4" top="1:44" driveindex="14"></drive>
+  <drive vh="V" team="RED" start="PUNT,2,03:30,57" end="INT,2,02:24,51" plays="3" yards="-6" top="1:06" driveindex="15"></drive>
+  <drive vh="H" team="FRG" start="INT,2,02:24,20" end="PUNT,2,00:00,39" plays="4" yards="19" top="2:24" driveindex="16"></drive>
+  <drive vh="V" team="RED" start="PUNT,2,00:00,20" end="HALF,2,00:00,20" plays="0" yards="0" top="0:00" driveindex="17"></drive>
+  <drive vh="H" team="FRG" start="KO,3,12:00,30" end="TD,3,09:40,90" plays="5" yards="60" top="2:20" rz="1" driveindex="18"></drive>
+  <drive vh="V" team="RED" start="KO,3,09:40,25" end="FUMB,3,09:20,27" plays="1" yards="2" top="0:20" driveindex="19"></drive>
+  <drive vh="H" team="FRG" start="FUMB,3,09:20,63" end="TD,3,08:03,90" plays="3" yards="27" top="1:17" driveindex="20"></drive>
+  <drive vh="V" team="RED" start="KO,3,08:03,35" end="DOWNS,3,02:52,38" plays="8" yards="3" top="5:11" driveindex="21"></drive>
+  <drive vh="H" team="FRG" start="DOWNS,3,02:52,52" end="FUMB,3,02:45,52" plays="1" yards="0" top="0:07" driveindex="22"></drive>
+  <drive vh="V" team="RED" start="FUMB,3,02:45,38" end="INT,3,02:43,29" plays="3" yards="-9" top="0:02" driveindex="23"></drive>
+  <drive vh="H" team="FRG" start="INT,3,02:43,40" end="INT,3,02:43,40" plays="1" yards="0" top="0:00" driveindex="24"></drive>
+  <drive vh="V" team="RED" start="INT,3,02:43,23" end="PUNT,3,01:13,22" plays="3" yards="-1" top="1:30" driveindex="25"></drive>
+  <drive vh="H" team="FRG" start="PUNT,3,01:13,38" end="PUNT,3,01:12,33" plays="3" yards="-5" top="0:01" driveindex="26"></drive>
+  <drive vh="V" team="RED" start="PUNT,3,01:12,21" end="PUNT,3,00:00,23" plays="3" yards="2" top="1:12" driveindex="27"></drive>
+  <drive vh="H" team="FRG" start="PUNT,4,12:00,45" end="PUNT,4,08:26,45" plays="3" yards="0" top="3:34" driveindex="28"></drive>
+  <drive vh="V" team="RED" start="PUNT,4,08:26,3" end="PUNT,4,04:33,18" plays="5" yards="15" top="3:53" driveindex="29"></drive>
+  <drive vh="H" team="FRG" start="PUNT,4,04:33,75" end="DOWNS,4,04:11,67" plays="4" yards="-8" top="0:22" rz="1" driveindex="30"></drive>
+  <drive vh="V" team="RED" start="DOWNS,4,04:11,23" end="INT,4,04:00,23" plays="1" yards="0" top="0:11" driveindex="31"></drive>
+  <drive vh="H" team="FRG" start="INT,4,04:00,30" end="TD,4,04:00,30" plays="0" yards="0" top="0:00" driveindex="32"></drive>
+  <drive vh="V" team="RED" start="KO,4,04:00,27" end="DOWNS,4,02:24,57" plays="5" yards="30" top="1:36" driveindex="33"></drive>
+  <drive vh="H" team="FRG" start="DOWNS,4,02:24,33" end="POSS,4,02:00,53" plays="4" yards="20" top="0:24" driveindex="34"></drive>
+  <drive vh="V" team="RED" start="POSS,4,02:00,37" end="DOWNS,4,00:24,40" plays="4" yards="3" top="1:36" driveindex="35"></drive>
+  <drive vh="H" team="FRG" start="DOWNS,4,00:24,50" end="HALF,4,00:00,50" plays="1" yards="0" top="0:24" driveindex="36"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0"
+      text="REDSKINS VERONA WIN THE COIN TOSS ELECT TO RECEIVE"></play>
+   <play context="V,1,10,V30" playid="0,2,1"
+      text="FRG ball on FRG30."></play>
+   <play context="H,1,10,H30" playid="0,3,2" type="#" clock="12:00"
+      text="Start of 1st quarter, clock 12:00."></play>
+   <play context="H,1,10,H30" playid="0,4,3"
+      text="FRG ball on FRG30."></play>
+   <play context="H,1,10,H30" playid="0,5,4" type="K"
+      text="Borsari L. kickoff 52 yards to the RED8, Silvestri D. return 22 yards to the RED30 (Tamburrino F.;Gianera A.)."></play>
+   <drivestart poss="V,V30,12:00" vh="V" spot="V30" clock="12:00" driveindex="1,4"></drivestart>
+   <play context="V,1,10,V30" playid="1,1,5" type="R"
+      text="Silvestri D. rush for 1 yard to the RED31 (Tamburrino F.)."></play>
+   <play context="V,2,9,V31" playid="1,2,6" type="P"
+      text="Boninsegni S. pass incomplete to Capon M., dropped pass (Verderio G.)."></play>
+   <play context="V,3,9,V31" playid="1,3,7" type="P"
+      text="Boninsegni S. pass incomplete to Silvestri D., dropped pass."></play>
+   <play context="V,4,9,V31" playid="1,4,8" type="U"
+      text="Vandin F. punt 31 yards to the FRG28."></play>
+   <drivesum plays="3" yards="1" top="2:00" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,H28,12:00" vh="H" spot="H28" clock="12:00" driveindex="2,8"></drivestart>
+   <play context="H,1,10,H28" playid="2,1,9" clock="10:00"
+      text="FROGS LEGNANO drive start at 10:00."></play>
+   <play context="H,1,10,H28" playid="2,2,10" type="R" first="R"
+      text="Furghieri M. rush for 14 yards to the FRG42, 1ST DOWN FRG (Dona' J.)."></play>
+   <play context="H,1,10,H42" playid="2,3,11" type="R"
+      text="Furghieri M. rush for loss of 3 yards to the FRG39 (Silvestri D.)."></play>
+   <play context="H,2,13,H39" playid="2,4,12" type="P"
+      text="Vincenti G. pass complete to Greco Ina T. for 6 yards to the 45 yardline (Dona' J.)."></play>
+   <play context="H,3,7,H45" playid="2,5,13" type="P"
+      text="Vincenti G. pass incomplete to Cecchetto E.."></play>
+   <play context="H,4,7,H45" playid="2,6,14" type="U"
+      text="Delaria A. punt 25 yards to the RED20, touchback."></play>
+   <drivesum plays="4" yards="17" top="1:35" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,V30,10:00" vh="V" spot="V30" clock="10:00" driveindex="3,14"></drivestart>
+   <play context="V,1,10,V30" playid="3,1,15" clock="08:25"
+      text="REDSKINS VERONA drive start at 08:25, RED ball on RED20."></play>
+   <play context="V,1,10,V20" playid="3,2,16" type="R"
+      text="Silvestri D. rush for 7 yards to the RED27 (Grasso P.)."></play>
+   <play context="V,2,3,V27" playid="3,3,17" type="R"
+      text="Burato A. rush for 2 yards to the RED29 (Bistoletti F.)."></play>
+   <play context="V,3,1,V29" playid="3,4,18" type="R" first="R"
+      text="Boninsegni S. rush for 6 yards to the RED35, 1ST DOWN RED (Grasso P.)."></play>
+   <play context="V,1,10,V35" playid="3,5,19" type="P"
+      text="Boninsegni S. pass incomplete to Capon M., dropped pass (Delaria A.)."></play>
+   <play context="V,2,10,V35" playid="3,6,20" type="R"
+      text="Boninsegni S. rush for 8 yards to the RED43 (Grasso P.)."></play>
+   <play context="V,3,2,V43" playid="3,7,21" type="R" turnover="F"
+      text="Burato A. rush for 4 yards to the FRG43, fumble forced by De Bernardi E., fumble by Burato A. recovered by FRG De Bernardi E. at FRG43, De Bernardi E. for 34 yards to the RED13, out-of-bounds."></play>
+   <drivesum plays="6" yards="27" top="2:35" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,V13,08:25" vh="H" spot="V13" clock="08:25" driveindex="4,21"></drivestart>
+   <play context="H,1,10,V13" playid="4,1,22" clock="05:50"
+      text="FROGS LEGNANO drive start at 05:50, FRG ball on RED18."></play>
+   <play context="H,1,10,V18" playid="4,2,23" type="R"
+      text="Borsari L. rush for 2 yards to the RED16 (Checuz M.)."></play>
+   <play context="H,2,8,V16" playid="4,3,24" type="#" clock="05:15"
+      text="Timeout Frogs Legnano, clock 05:15."></play>
+   <play context="H,2,8,V16" playid="4,4,25" type="P"
+      text="Vincenti G. pass complete to Cecchetto E. for 3 yards to the RED13 (Dona' J.)."></play>
+   <play context="H,3,5,V13" playid="4,5,26" type="P"
+      text="Vincenti G. pass incomplete to Cecchetto E.."></play>
+   <play context="H,4,5,V13" playid="4,6,27" type="F" clock="04:10"
+      text="Delaria A. field goal attempt from 35 BLOCKED, recovered by RED Antochi R. at RED18 spot at RED18, clock 04:10 (blocked by TEAM), 8 for loss of 5 yards to the RED13."></play>
+   <drivesum plays="3" yards="5" top="1:40" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V13,04:10" vh="V" spot="V13" clock="04:10" driveindex="5,27"></drivestart>
+   <play context="V,1,10,V13" playid="5,1,28" type="R"
+      text="Burato A. rush for loss of 1 yard to the RED12 (Buran M.)."></play>
+   <play context="V,2,11,V12" playid="5,2,29" type="R"
+      text="Passarin F. rush for no gain to the RED12 (Menghini E.)."></play>
+   <play context="V,3,11,V12" playid="5,3,30" type="R" score="Y" turnover="F" clock="02:43"
+      text="Boninsegni S. rush for 3 yards to the RED15, fumble by Boninsegni S. recovered by FRG 72 at RED15, Gianera A. for 15 yards to the RED0, TOUCHDOWN, clock 02:43."></play>
+   <drivesum plays="3" yards="2" top="1:27" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,V03,02:43" vh="H" spot="V03" clock="02:43" driveindex="6,30"></drivestart>
+   <play context="H,1,0,V03" playid="6,1,31" type="X" score="Y"
+      text="Delaria A. kick attempt good."></play>
+   <score V="0" H="7"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="6" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="6,2,32" type="K" score="Y" clock="02:30"
+      text="Borsari L. kickoff 54 yards to the RED6, Silvestri D. return 84 yards to the FRG0, TOUCHDOWN, clock 02:30."></play>
+   <drivestart poss="V,H03,02:30" vh="V" spot="H03" clock="02:30" driveindex="7,32"></drivestart>
+   <play context="V,1,0,H03" playid="7,1,33" type="X" score="Y"
+      text="Antochi R. kick attempt good."></play>
+   <score V="7" H="7"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="7" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="7,2,34" type="K"
+      text="Antochi R. kickoff 60 yards to the FRG0, touchback."></play>
+   <drivestart poss="H,H30,02:30" vh="H" spot="H30" clock="02:30" driveindex="8,34"></drivestart>
+   <play context="H,1,10,H30" playid="8,1,35" clock="02:30"
+      text="FROGS LEGNANO drive start at 02:30."></play>
+   <play context="H,1,10,H30" playid="8,2,36"
+      text="FRG ball on FRG20."></play>
+   <play context="H,1,10,H20" playid="8,3,37" type="P"
+      text="Vincenti G. pass incomplete to Salcone S.."></play>
+   <play context="H,2,10,H20" playid="8,4,38" type="E"
+      text="Vincenti G. pass complete to Greco Ina T. for 8 yards to the FRG28 (Antochi R.), PENALTY FRG holding (Valente A.) 10 yards to the FRG10, NO PLAY."></play>
+   <play context="H,2,20,H10" playid="8,5,39" type="P"
+      text="Vincenti G. pass incomplete to Greco Ina T. (Dona' J.)."></play>
+   <play context="H,3,20,H10" playid="8,6,40" type="P"
+      text="Vincenti G. pass complete to Greco Ina T. for 3 yards to the FRG13 (Dona' J.)."></play>
+   <play context="H,4,17,H13" playid="8,7,41" type="U"
+      text="Delaria A. punt 42 yards to the RED35."></play>
+   <drivesum plays="3" yards="-7" top="1:55" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,V35,02:30" vh="V" spot="V35" clock="02:30" driveindex="9,41"></drivestart>
+   <play context="V,1,10,V35" playid="9,1,42" clock="00:35"
+      text="REDSKINS VERONA drive start at 00:35."></play>
+   <play context="V,1,10,V35" playid="9,2,43" type="R"
+      text="Arzenton A. rush for loss of 1 yard to the RED34 (72)."></play>
+   <play context="V,2,11,V34" playid="9,3,44" type="R"
+      text="Gaspari N. rush for loss of 9 yards to the RED25, fumble by Gaspari N. recovered by RED Capon M. at RED25."></play>
+   <play context="V,3,20,V25" playid="9,4,45" type="P"
+      text="Centonze S. pass incomplete to Capon M. (Grasso P.)."></play>
+   <play context="V,4,20,V25" playid="9,5,46" type="U"
+      text="Vandin F. punt 38 yards to the FRG27."></play>
+   <drivesum plays="3" yards="-10" top="0:35" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,H27,00:35" vh="H" spot="H27" clock="00:35" driveindex="10,46"></drivestart>
+   <play context="H,1,10,H27" playid="10,1,47" clock="00:00"
+      text="FROGS LEGNANO drive start at 00:00."></play>
+   <score qtr="1" V="7" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="RED">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="3" lost="2"></fumbles>
+    <misc yds="0" top="06:50"></misc>
+    <rush att="11" yds="20" gain="31" loss="11" td="0" long="8"></rush>
+    <pass comp="0" att="4" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="2" yds="69" long="38" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="60" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="6" tacka="0" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0" brup="1" blkd="1"></defense>
+    <kr no="2" yds="106" td="1" long="84"></kr>
+    <fumbles no="3" lost="2"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FRG">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:10"></misc>
+    <rush att="3" yds="13" gain="16" loss="3" td="0" long="14"></rush>
+    <pass comp="3" att="7" int="0" yds="12" td="0" long="6" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="12" td="0" long="6"></rcv>
+    <punt no="2" yds="67" long="42" blkd="0" tb="1" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="106" ob="0" tb="0"></ko>
+    <fg made="0" att="1" long="0" blkd="1"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="9" tacka="2" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0" brup="3" ff="1" fr="2" fryds="49"></defense>
+    <fr no="2" yds="49" td="1" long="34"></fr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="H,1,10,H27" playid="10,2,48" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="H,1,10,H27" playid="10,3,49" type="E"
+      text="PENALTY RED false start (Antochi R.) 5 yards to the FRG32."></play>
+   <play context="H,1,5,H32" playid="10,4,50" type="P"
+      text="Vincenti G. pass incomplete to Greco Ina T.."></play>
+   <play context="H,2,5,H32" playid="10,5,51" type="P" turnover="I"
+      text="Vincenti G. pass intercepted by Silvestri D. at the FRG40, Silvestri D. return 14 yards to the FRG26, out-of-bounds."></play>
+   <drivesum plays="2" yards="5" top="0:45" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,H26,12:00" vh="V" spot="H26" clock="12:00" driveindex="11,51"></drivestart>
+   <play context="V,1,10,H26" playid="11,1,52" clock="11:15"
+      text="REDSKINS VERONA drive start at 11:15."></play>
+   <play context="V,1,10,H26" playid="11,2,53" type="R"
+      text="Silvestri D. rush for 4 yards to the FRG22 (Merighi F.)."></play>
+   <play context="V,2,6,H22" playid="11,3,54" type="P"
+      text="Centonze S. pass incomplete to Moronesi M., dropped pass."></play>
+   <play context="V,3,6,H22" playid="11,4,55" type="#" clock="09:00"
+      text="Timeout Redskins Verona, clock 09:00."></play>
+   <play context="V,3,6,H22" playid="11,5,56" type="P"
+      text="Centonze S. sacked for loss of 5 yards to the FRG27 (De Bernardi E.)."></play>
+   <play context="V,4,11,H27" playid="11,6,57" type="P" turnover="I"
+      text="Centonze S. pass intercepted by Merighi F. at the FRG10, Merighi F. return 0 yards to the FRG10."></play>
+   <drivesum plays="4" yards="-1" top="2:15" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,H10,09:00" vh="H" spot="H10" clock="09:00" driveindex="12,57"></drivestart>
+   <play context="H,1,10,H10" playid="12,1,58" clock="09:00"
+      text="FROGS LEGNANO drive start at 09:00."></play>
+   <play context="H,1,10,H10" playid="12,2,59" type="R"
+      text="Furghieri M. rush for 2 yards to the FRG12 (Silvestri D.)."></play>
+   <play context="H,2,8,H12" playid="12,3,60" type="R"
+      text="Menghini E. rush for loss of 2 yards to the FRG10 (Rossini D.)."></play>
+   <play context="H,3,10,H10" playid="12,4,61" type="P"
+      text="Vincenti G. pass incomplete to Salcone S., dropped pass."></play>
+   <play context="H,4,10,H10" playid="12,5,62" type="U"
+      text="Delaria A. punt 20 yards to the FRG30."></play>
+   <drivesum plays="3" yards="0" top="2:00" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,H30,09:00" vh="V" spot="H30" clock="09:00" driveindex="13,62"></drivestart>
+   <play context="V,1,10,H30" playid="13,1,63" clock="07:00"
+      text="REDSKINS VERONA drive start at 07:00."></play>
+   <play context="V,1,10,H30" playid="13,2,64" type="R"
+      text="Silvestri D. rush for 5 yards to the FRG25 (Bistoletti F.;72)."></play>
+   <play context="V,2,5,H25" playid="13,3,65" type="R"
+      text="Silvestri D. rush for loss of 10 yards to the FRG35 (Verderio G.)."></play>
+   <play context="V,3,15,H35" playid="13,4,66" type="R"
+      text="Capon M. rush for no gain to the FRG35 (Grasso P.)."></play>
+   <comment text="interruzzione di 30 minuti per infortunio nummero 9 frogs"></comment>
+   <play context="V,4,15,H35" playid="13,5,68" type="P" first="P"
+      text="Boninsegni S. pass complete to Capon M. for 34 yards to the FRG1, 1ST DOWN RED (3)."></play>
+   <play context="V,1,0,H01" playid="13,6,69" type="R"
+      text="Boninsegni S. rush for no gain to the FRG1 (TEAM)."></play>
+   <play context="V,2,0,H01" playid="13,7,70" type="R" score="Y" clock="05:14"
+      text="Centonze S. rush for 1 yard to the FRG0, TOUCHDOWN, clock 05:14."></play>
+   <play context="V,1,0,H03" playid="13,8,71" type="X" score="Y"
+      text="Antochi R. kick attempt good."></play>
+   <score V="14" H="7"></score>
+   <drivesum plays="6" yards="30" top="1:46" driveindex="13" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="13,9,72" type="K"
+      text="Antochi R. kickoff 47 yards to the FRG13, fair catch by Cilento Dav.."></play>
+   <drivestart poss="H,H13,05:14" vh="H" spot="H13" clock="05:14" driveindex="14,72"></drivestart>
+   <play context="H,1,10,H13" playid="14,1,73" clock="05:14"
+      text="FROGS LEGNANO drive start at 05:14."></play>
+   <play context="H,1,10,H13" playid="14,2,74" type="P"
+      text="Vincenti G. pass incomplete."></play>
+   <play context="H,2,10,H13" playid="14,3,75" type="R"
+      text="Borsari L. rush for 4 yards to the FRG17 (Perbellini E.)."></play>
+   <play context="H,3,6,H17" playid="14,4,76" type="P"
+      text="Vincenti G. pass incomplete to Colombo D. (Romio L.)."></play>
+   <play context="H,4,6,H17" playid="14,5,77" type="U"
+      text="Delaria A. punt 33 yards to the RED40, Capon M. return 17 yards to the FRG33, out-of-bounds."></play>
+   <drivesum plays="3" yards="4" top="1:44" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,H33,05:14" vh="V" spot="H33" clock="05:14" driveindex="15,77"></drivestart>
+   <play context="V,1,10,H33" playid="15,1,78" clock="03:30"
+      text="REDSKINS VERONA drive start at 03:30."></play>
+   <play context="V,1,10,H33" playid="15,2,79" type="R"
+      text="Gaspari N. rush for loss of 1 yard to the FRG34 (Verderio G.)."></play>
+   <play context="V,2,11,H34" playid="15,3,80" type="P"
+      text="Boninsegni S. pass incomplete to Capon M. (Verderio G.)."></play>
+   <play context="V,3,11,H34" playid="15,4,81" type="#" clock="02:24"
+      text="Timeout Redskins Verona, clock 02:24."></play>
+   <play context="V,3,11,H34" playid="15,5,82" type="E"
+      text="PENALTY RED false start 5 yards to the FRG39."></play>
+   <play context="V,3,16,H39" playid="15,6,83" type="P" turnover="I"
+      text="Centonze S. pass intercepted by Merighi F. at the FRG15, Merighi F. return 5 yards to the FRG20, Merighi F. for no gain to the FRG20 (TEAM)."></play>
+   <drivesum plays="3" yards="-6" top="1:06" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,H20,02:24" vh="H" spot="H20" clock="02:24" driveindex="16,83"></drivestart>
+   <play context="H,1,10,H20" playid="16,1,84" clock="02:24"
+      text="FROGS LEGNANO drive start at 02:24."></play>
+   <play context="H,1,10,H20" playid="16,2,85" type="E"
+      text="PENALTY FRG false start (Azzimonti A.) 5 yards to the FRG15."></play>
+   <play context="H,1,15,H15" playid="16,3,86" type="P" first="P"
+      text="Vincenti G. pass complete to Furghieri M. for 19 yards to the FRG34, 1ST DOWN FRG (Checuz M.)."></play>
+   <play context="H,1,10,H34" playid="16,4,87" type="P"
+      text="Vincenti G. pass incomplete to Colombo D.."></play>
+   <play context="H,2,10,H34" playid="16,5,88" type="P"
+      text="Vincenti G. pass incomplete to Furghieri M., dropped pass."></play>
+   <play context="H,3,10,H34" playid="16,6,89" type="E"
+      text="PENALTY FRG false start 5 yards to the FRG29."></play>
+   <play context="H,3,15,H29" playid="16,7,90" type="P"
+      text="Vincenti G. pass complete to Furghieri M. for 10 yards to the FRG39 (Dona' J.)."></play>
+   <play context="H,4,5,H39" playid="16,8,91" type="U"
+      text="Delaria A. punt 31 yards to the RED20."></play>
+   <drivesum plays="4" yards="19" top="2:24" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="V,V20,02:24" vh="V" spot="V20" clock="02:24" driveindex="17,91"></drivestart>
+   <play context="V,1,10,V20" playid="17,1,92" clock="00:00"
+      text="REDSKINS VERONA drive start at 00:00."></play>
+   <play context="V,1,10,V20" playid="17,2,93" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="17" complete="Y"></drivesum>
+   <score qtr="2" V="14" H="7"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="RED">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:07"></misc>
+    <rush att="8" yds="-6" gain="10" loss="16" td="1" long="0"></rush>
+    <pass comp="1" att="5" int="2" yds="34" td="0" long="34" sacks="1" sackyds="5"></pass>
+    <rcv no="1" yds="34" td="0" long="34"></rcv>
+    <ko no="1" yds="47" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="6" tacka="0" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0" brup="1" int="1" intyds="14"></defense>
+    <pr no="1" yds="17" td="0" long="17"></pr>
+    <ir no="1" yds="14" td="0" long="14"></ir>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FRG">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:53"></misc>
+    <rush att="3" yds="4" gain="6" loss="2" td="0" long="0"></rush>
+    <pass comp="2" att="9" int="1" yds="29" td="0" long="13" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="29" td="0" long="13"></rcv>
+    <punt no="3" yds="84" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="7" tacka="2" tflua="3" tfla="0" tflyds="16" sacks="1" sackyds="5" brup="1" int="2" intyds="5"></defense>
+    <ir no="2" yds="5" td="0" long="5"></ir>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,1,10,V20" playid="17,3,94" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, RED ball on RED30."></play>
+   <play context="V,1,10,V30" playid="17,4,95" type="K"
+      text="Antochi R. kickoff 60 yards to the FRG0, touchback."></play>
+   <drivestart poss="H,H30,12:00" vh="H" spot="H30" clock="12:00" driveindex="18,95"></drivestart>
+   <play context="H,1,10,H30" playid="18,1,96" clock="12:00"
+      text="FROGS LEGNANO drive start at 12:00."></play>
+   <play context="H,1,10,H30" playid="18,2,97" type="R"
+      text="Borsari L. rush for loss of 13 yards to the FRG17 (Rossini D.)."></play>
+   <play context="H,2,23,H17" playid="18,3,98" type="P"
+      text="Vincenti G. pass complete to Colombo D. for 5 yards to the FRG22 (Romio L.)."></play>
+   <play context="H,3,18,H22" playid="18,4,99" type="P" first="P"
+      text="Vincenti G. pass complete to Salcone S. for 57 yards to the RED11, 1ST DOWN FRG (Vandin F.;Dona' J.)."></play>
+   <play context="H,1,10,V11" playid="18,5,100" type="R"
+      text="Buran M. rush for 3 yards to the RED8 (Perbellini E.)."></play>
+   <play context="H,2,7,V08" playid="18,6,101" type="R" first="R" score="Y" clock="09:40"
+      text="Borsari L. rush for 8 yards to the RED0, 1ST DOWN FRG, TOUCHDOWN, clock 09:40."></play>
+   <play context="H,1,0,V03" playid="18,7,102" type="X" score="Y"
+      text="Delaria A. kick attempt good."></play>
+   <score V="14" H="14"></score>
+   <drivesum plays="5" yards="60" top="2:20" driveindex="18" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="18,8,103" type="K"
+      text="Borsari L. kickoff 50 yards to the RED10, Silvestri D. return 15 yards to the RED25 (41)."></play>
+   <drivestart poss="V,V25,09:40" vh="V" spot="V25" clock="09:40" driveindex="19,103"></drivestart>
+   <play context="V,1,10,V25" playid="19,1,104" clock="09:40"
+      text="REDSKINS VERONA drive start at 09:40."></play>
+   <play context="V,1,10,V25" playid="19,2,105" type="R" turnover="F"
+      text="Gaspari N. rush for 2 yards to the RED27, fumble by Gaspari N. recovered by FRG Menghini E. at RED27."></play>
+   <drivesum plays="1" yards="2" top="0:20" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,V27,09:40" vh="H" spot="V27" clock="09:40" driveindex="20,105"></drivestart>
+   <play context="H,1,10,V27" playid="20,1,106" clock="09:20"
+      text="FROGS LEGNANO drive start at 09:20."></play>
+   <play context="H,1,10,V27" playid="20,2,107" type="R"
+      text="Furghieri M. rush for loss of 3 yards to the RED30 (Antochi R.)."></play>
+   <play context="H,2,13,V30" playid="20,3,108" type="P"
+      text="Vincenti G. pass complete to Colombo D. for 5 yards to the RED25 (Romio L.)."></play>
+   <play context="H,3,8,V25" playid="20,4,109" type="P" first="P" score="Y" clock="08:03"
+      text="Vincenti G. pass complete to Salcone S. for 25 yards to the RED0, 1ST DOWN FRG, TOUCHDOWN, clock 08:03."></play>
+   <play context="H,1,0,V03" playid="20,5,110" type="X" score="Y"
+      text="Delaria A. kick attempt good."></play>
+   <score V="14" H="21"></score>
+   <drivesum plays="3" yards="27" top="1:17" driveindex="20" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="20,6,111" type="K"
+      text="Borsari L. kickoff 35 yards to the RED25, Burato A. return 10 yards to the RED35 (Suzzarellu A.)."></play>
+   <drivestart poss="V,V35,08:03" vh="V" spot="V35" clock="08:03" driveindex="21,111"></drivestart>
+   <play context="V,1,10,V35" playid="21,1,112" clock="08:03"
+      text="REDSKINS VERONA drive start at 08:03."></play>
+   <play context="V,1,10,V35" playid="21,2,113" type="R"
+      text="Gaspari N. rush for loss of 3 yards to the RED32 (72)."></play>
+   <play context="V,2,13,V32" playid="21,3,114" type="P"
+      text="Centonze S. pass complete to Moronesi M. for 11 yards to the RED43 (Cilento Dan.)."></play>
+   <play context="V,3,2,V43" playid="21,4,115" type="R"
+      text="Silvestri D. rush for 1 yard to the RED44 (72;Tamburrino F.)."></play>
+   <play context="V,4,1,V44" playid="21,5,116" type="R" first="R"
+      text="Centonze S. rush for 1 yard to the 45 yardline, 1ST DOWN RED (TEAM)."></play>
+   <play context="V,1,10,V45" playid="21,6,117" type="R"
+      text="Silvestri D. rush for 1 yard to the FRG44 (Merighi F.)."></play>
+   <play context="V,2,9,H44" playid="21,7,118" type="P"
+      text="Centonze S. pass incomplete to Moronesi M.."></play>
+   <play context="V,3,9,H44" playid="21,8,119" type="P"
+      text="Centonze S. pass incomplete to Moronesi M., dropped pass."></play>
+   <play context="V,4,9,H44" playid="21,9,120" type="R"
+      text="Silvestri D. rush for loss of 8 yards to the RED38 (TEAM)."></play>
+   <drivesum plays="8" yards="3" top="5:11" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="H,V38,08:03" vh="H" spot="V38" clock="08:03" driveindex="22,120"></drivestart>
+   <play context="H,1,10,V38" playid="22,1,121" clock="02:52"
+      text="FROGS LEGNANO drive start at 02:52."></play>
+   <play context="H,1,10,V38" playid="22,2,122" type="R" turnover="F"
+      text="Delaria A. rush for no gain to the RED38, fumble by Delaria A. recovered by RED Perbellini P. at RED38."></play>
+   <drivesum plays="1" yards="0" top="0:07" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="V,V38,02:52" vh="V" spot="V38" clock="02:52" driveindex="23,122"></drivestart>
+   <play context="V,1,10,V38" playid="23,1,123" clock="02:45"
+      text="REDSKINS VERONA drive start at 02:45."></play>
+   <play context="V,1,10,V38" playid="23,2,124" type="R"
+      text="Gaspari N. rush for loss of 3 yards to the RED35 (Merighi F.)."></play>
+   <play context="V,2,13,V35" playid="23,3,125" type="P"
+      text="Centonze S. sacked for loss of 6 yards to the RED29 (Menghini E.)."></play>
+   <play context="V,3,19,V29" playid="23,4,126" type="P" turnover="I"
+      text="Centonze S. pass intercepted by Delaria A. at the FRG35, Delaria A. return 5 yards to the FRG40."></play>
+   <drivesum plays="3" yards="-9" top="0:02" driveindex="23" complete="Y"></drivesum>
+   <drivestart poss="H,H40,02:45" vh="H" spot="H40" clock="02:45" driveindex="24,126"></drivestart>
+   <play context="H,1,10,H40" playid="24,1,127" clock="02:43"
+      text="FROGS LEGNANO drive start at 02:43."></play>
+   <play context="H,1,10,H40" playid="24,2,128" type="P" turnover="I"
+      text="Borsari L. pass intercepted by Vandin F. at the RED25, Vandin F. return -2 yards to the RED23 (TEAM)."></play>
+   <drivesum plays="1" yards="0" top="0:00" driveindex="24" complete="Y"></drivesum>
+   <drivestart poss="V,V23,02:43" vh="V" spot="V23" clock="02:43" driveindex="25,128"></drivestart>
+   <play context="V,1,10,V23" playid="25,1,129" clock="02:43"
+      text="REDSKINS VERONA drive start at 02:43."></play>
+   <play context="V,1,10,V23" playid="25,2,130" type="R"
+      text="Gaspari N. rush for loss of 1 yard to the RED22 (Tamburrino F.)."></play>
+   <play context="V,2,11,V22" playid="25,3,131" type="P"
+      text="Centonze S. pass incomplete to Moronesi M.."></play>
+   <play context="V,3,11,V22" playid="25,4,132" type="P"
+      text="Boninsegni S. pass incomplete to Capon M., dropped pass (Merighi F.)."></play>
+   <play context="V,4,11,V22" playid="25,5,133" type="U"
+      text="Vandin F. punt 50 yards to the FRG18, Verderio G. return 20 yards to the FRG38 (TEAM)."></play>
+   <drivesum plays="3" yards="-1" top="1:30" driveindex="25" complete="Y"></drivesum>
+   <drivestart poss="H,H38,02:43" vh="H" spot="H38" clock="02:43" driveindex="26,133"></drivestart>
+   <play context="H,1,10,H38" playid="26,1,134" clock="01:13"
+      text="FROGS LEGNANO drive start at 01:13."></play>
+   <play context="H,1,10,H38" playid="26,2,135" type="R"
+      text="Borsari L. rush for loss of 5 yards to the FRG33 (Antochi R.)."></play>
+   <play context="H,2,15,H33" playid="26,3,136" type="P"
+      text="Vincenti G. pass incomplete to 36."></play>
+   <play context="H,3,15,H33" playid="26,4,137" type="P"
+      text="Vincenti G. pass incomplete to Colombo D., dropped pass (Romio L.)."></play>
+   <play context="H,4,15,H33" playid="26,5,138" type="U"
+      text="Delaria A. punt 39 yards to the RED18, Capon M. return 3 yards to the RED21 (Zuddas O.)."></play>
+   <drivesum plays="3" yards="-5" top="0:01" driveindex="26" complete="Y"></drivesum>
+   <drivestart poss="V,V21,01:13" vh="V" spot="V21" clock="01:13" driveindex="27,138"></drivestart>
+   <play context="V,1,10,V21" playid="27,1,139" clock="01:12"
+      text="REDSKINS VERONA drive start at 01:12."></play>
+   <play context="V,1,10,V21" playid="27,2,140" type="R"
+      text="Gaspari N. rush for 4 yards to the RED25 (Verderio G.)."></play>
+   <play context="V,2,6,V25" playid="27,3,141" type="R"
+      text="Gaspari N. rush for loss of 2 yards to the RED23 (De Bernardi E.)."></play>
+   <play context="V,3,8,V23" playid="27,4,142" type="P"
+      text="Boninsegni S. pass incomplete to Capon M.."></play>
+   <play context="V,4,8,V23" playid="27,5,143" type="U"
+      text="Vandin F. punt 22 yards to the 45 yardline."></play>
+   <drivesum plays="3" yards="2" top="1:12" driveindex="27" complete="Y"></drivesum>
+   <drivestart poss="H,H45,01:12" vh="H" spot="H45" clock="01:12" driveindex="28,143"></drivestart>
+   <play context="H,1,10,H45" playid="28,1,144" clock="00:00"
+      text="FROGS LEGNANO drive start at 00:00."></play>
+   <score qtr="3" V="14" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="RED">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="5" fourthconv="1" fourthatt="2"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="08:15"></misc>
+    <rush att="11" yds="-14" gain="9" loss="23" td="0" long="0"></rush>
+    <pass comp="1" att="7" int="1" yds="11" td="0" long="0" sacks="1" sackyds="6"></pass>
+    <rcv no="1" yds="11" td="0" long="0"></rcv>
+    <punt no="2" yds="72" long="12" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+    <ko no="1" yds="60" ob="0" tb="1"></ko>
+    <defense tackua="7" tacka="2" tflua="3" tfla="0" tflyds="21" sacks="0" sackyds="0" brup="1" fr="1" fryds="0" int="1" intyds="-2"></defense>
+    <kr no="2" yds="25" td="0" long="0"></kr>
+    <pr no="1" yds="3" td="0" long="0"></pr>
+    <ir no="1" yds="-2" td="0" long="0"></ir>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FRG">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="03:45"></misc>
+    <rush att="6" yds="-10" gain="11" loss="21" td="1" long="0"></rush>
+    <pass comp="4" att="7" int="1" yds="92" td="1" long="38" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="92" td="1" long="38"></rcv>
+    <punt no="1" yds="39" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="85" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="14" tacka="2" tflua="6" tfla="0" tflyds="23" sacks="2" sackyds="11" brup="1" fr="1" fryds="0" int="1" intyds="5"></defense>
+    <pr no="1" yds="20" td="0" long="20"></pr>
+    <ir no="1" yds="5" td="0" long="0"></ir>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="H,1,10,H45" playid="28,2,145" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="H,1,10,H45" playid="28,3,146" type="R"
+      text="Buran M. rush for loss of 1 yard to the FRG44 (Antochi R.)."></play>
+   <play context="H,2,11,H44" playid="28,4,147" type="R"
+      text="Furghieri M. rush for no gain to the FRG44 (TEAM)."></play>
+   <play context="H,3,11,H44" playid="28,5,148" type="R"
+      text="Furghieri M. rush for 1 yard to the 45 yardline (Dona' J.)."></play>
+   <play context="H,4,10,H45" playid="28,6,149" type="U"
+      text="Delaria A. punt 42 yards to the RED3."></play>
+   <drivesum plays="3" yards="0" top="3:34" driveindex="28" complete="Y"></drivesum>
+   <drivestart poss="V,V03,12:00" vh="V" spot="V03" clock="12:00" driveindex="29,149"></drivestart>
+   <play context="V,1,10,V03" playid="29,1,150" clock="08:26"
+      text="REDSKINS VERONA drive start at 08:26."></play>
+   <play context="V,1,10,V03" playid="29,2,151" type="R"
+      text="Gaspari N. rush for 2 yards to the RED5 (Menghini E.)."></play>
+   <play context="V,2,8,V05" playid="29,3,152" type="R"
+      text="Boninsegni S. rush for 4 yards to the RED9 (Pesenti F.)."></play>
+   <play context="V,3,4,V09" playid="29,4,153" type="E" first="E"
+      text="PENALTY FRG false start 5 yards to the RED14, 1ST DOWN RED."></play>
+   <play context="V,1,10,V14" playid="29,5,154" type="R"
+      text="Gaspari N. rush for 5 yards to the RED19 (Tamburrino F.)."></play>
+   <play context="V,2,5,V19" playid="29,6,155" type="R"
+      text="Gaspari N. rush for 1 yard to the RED20 (Pegoraro M.;Di Mari A.)."></play>
+   <play context="V,3,4,V20" playid="29,7,156" type="P"
+      text="Boninsegni S. pass complete to Capon M. for loss of 2 yards to the RED18 (Menghini E.)."></play>
+   <play context="V,4,6,V18" playid="29,8,157" type="U"
+      text="Silvestri D. punt -3 yards to the RED15."></play>
+   <drivesum plays="5" yards="15" top="3:53" driveindex="29" complete="Y"></drivesum>
+   <drivestart poss="H,V15,08:26" vh="H" spot="V15" clock="08:26" driveindex="30,157"></drivestart>
+   <play context="H,1,10,V15" playid="30,1,158" clock="04:33"
+      text="FROGS LEGNANO drive start at 04:33."></play>
+   <play context="H,1,10,V15" playid="30,2,159" type="R"
+      text="Borsari L. rush for 3 yards to the RED12 (Perbellini P.)."></play>
+   <play context="H,2,7,V12" playid="30,3,160" type="P"
+      text="Vincenti G. pass incomplete."></play>
+   <play context="H,3,7,V12" playid="30,4,161" type="R"
+      text="Suzzarellu A. rush for loss of 11 yards to the RED23 (Vignola F.)."></play>
+   <play context="H,4,18,V23" playid="30,5,162" type="P"
+      text="Vincenti G. pass incomplete to Greco Ina T.."></play>
+   <drivesum plays="4" yards="-8" top="0:22" driveindex="30" complete="Y"></drivesum>
+   <drivestart poss="V,V23,04:33" vh="V" spot="V23" clock="04:33" driveindex="31,162"></drivestart>
+   <play context="V,1,10,V23" playid="31,1,163" clock="04:11"
+      text="REDSKINS VERONA drive start at 04:11."></play>
+   <play context="V,1,10,V23" playid="31,2,164" type="P" score="Y" turnover="I"
+      text="Boninsegni S. pass intercepted by Merighi F. at the FRG28, Verderio G. return 62 yards to the RED0, TOUCHDOWN."></play>
+   <drivesum plays="1" yards="0" top="0:11" driveindex="31" complete="Y"></drivesum>
+   <drivestart poss="H,V03,04:11" vh="H" spot="V03" clock="04:11" driveindex="32,164"></drivestart>
+   <play context="H,1,0,V03" playid="32,1,165" clock="04:00"
+      text="FROGS LEGNANO drive start at 04:00, FRG ball on FRG30."></play>
+   <play context="H,1,3,H30" playid="32,2,166" type="X" score="Y"
+      text="Delaria A. kick attempt good."></play>
+   <score V="14" H="28"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="32" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="32,3,167" type="K"
+      text="Verderio G. kickoff 51 yards to the RED9, Silvestri D. return 18 yards to the RED27 (52)."></play>
+   <drivestart poss="V,V27,04:00" vh="V" spot="V27" clock="04:00" driveindex="33,167"></drivestart>
+   <play context="V,1,10,V27" playid="33,1,168" clock="04:00"
+      text="REDSKINS VERONA drive start at 04:00."></play>
+   <play context="V,1,10,V27" playid="33,2,169" type="P" first="P"
+      text="Boninsegni S. pass complete to Vignola F. for 28 yards to the FRG35, 1ST DOWN RED (Merighi F.)."></play>
+   <play context="V,1,10,H35" playid="33,3,170" type="P"
+      text="Boninsegni S. pass incomplete to Marchesini T.."></play>
+   <play context="V,2,10,H35" playid="33,4,171" type="P"
+      text="Boninsegni S. pass incomplete to Marchesini T.."></play>
+   <play context="V,3,10,H35" playid="33,5,172" type="R"
+      text="Boninsegni S. rush for 2 yards to the FRG33 (Pesenti F.)."></play>
+   <play context="V,4,8,H33" playid="33,6,173" type="P"
+      text="Boninsegni S. pass incomplete to Vignola F.."></play>
+   <drivesum plays="5" yards="30" top="1:36" driveindex="33" complete="Y"></drivesum>
+   <drivestart poss="H,H33,04:00" vh="H" spot="H33" clock="04:00" driveindex="34,173"></drivestart>
+   <play context="H,1,10,H33" playid="34,1,174" clock="02:24"
+      text="FROGS LEGNANO drive start at 02:24."></play>
+   <play context="H,1,10,H33" playid="34,2,175" type="R" first="R"
+      text="Furghieri M. rush for 19 yards to the RED38, 1ST DOWN FRG (Silvestri D.;Dona' J.)."></play>
+   <play context="H,1,10,V38" playid="34,3,176" type="R"
+      text="Furghieri M. rush for loss of 4 yards to the RED42 (84;Rossini D.)."></play>
+   <play context="H,2,14,V42" playid="34,4,177" type="R"
+      text="Furghieri M. rush for 10 yards to the RED32 (Romio L.)."></play>
+   <play context="H,3,4,V32" playid="34,5,178" type="R"
+      text="Vincenti G. rush for loss of 5 yards to the RED37 (TEAM)."></play>
+   <play context="H,4,9,V37" playid="34,6,179"
+      text="Change of possession, RED ball on RED37, 1st and 10."></play>
+   <drivesum plays="4" yards="20" top="0:24" driveindex="34" complete="Y"></drivesum>
+   <drivestart poss="V,V37,02:24" vh="V" spot="V37" clock="02:24" driveindex="35,179"></drivestart>
+   <play context="V,1,10,V37" playid="35,1,180" clock="02:00"
+      text="REDSKINS VERONA drive start at 02:00."></play>
+   <play context="V,1,10,V37" playid="35,2,181" type="R"
+      text="Centonze S. rush for 7 yards to the RED44 (TEAM)."></play>
+   <play context="V,2,3,V44" playid="35,3,182" type="P"
+      text="Centonze S. pass complete to Moronesi M. for no gain to the RED44 (Cilento Dan.)."></play>
+   <play context="V,3,3,V44" playid="35,4,183" type="P"
+      text="Centonze S. pass incomplete to Moronesi M.."></play>
+   <play context="V,4,3,V44" playid="35,5,184" type="R"
+      text="Gaspari N. rush for loss of 4 yards to the RED40 (Tamburrino F.)."></play>
+   <drivesum plays="4" yards="3" top="1:36" driveindex="35" complete="Y"></drivesum>
+   <drivestart poss="H,V40,02:00" vh="H" spot="V40" clock="02:00" driveindex="36,184"></drivestart>
+   <play context="H,1,10,V40" playid="36,1,185" clock="00:24"
+      text="FROGS LEGNANO drive start at 00:24."></play>
+   <play context="H,1,10,V40" playid="36,2,186" type="P"
+      text="Vincenti G. pass incomplete."></play>
+   <play context="H,2,10,V40" playid="36,3,187" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="1" yards="0" top="0:24" driveindex="36" complete="Y"></drivesum>
+   <score final="Y" V="14" H="28"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="RED">
+    <firstdowns no="2" rush="0" pass="1" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="2"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:16"></misc>
+    <rush att="7" yds="17" gain="21" loss="4" td="0" long="0"></rush>
+    <pass comp="3" att="8" int="1" yds="26" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="26" td="0" long="0"></rcv>
+    <punt no="1" yds="-3" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="7" tacka="4" tflua="5" tfla="0" tflyds="25" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="18" td="0" long="0"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="FRG">
+    <firstdowns no="1" rush="1" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:44"></misc>
+    <rush att="9" yds="12" gain="33" loss="21" td="0" long="5"></rush>
+    <pass comp="0" att="3" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="1" yds="42" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="51" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="10" tacka="2" tflua="2" tfla="0" tflyds="6" sacks="2" sackyds="11" int="1" intyds="62"></defense>
+    <ir no="1" yds="62" td="1" long="57"></ir>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,2,10,V40" qtr="4" clock="00:00" vtoh="0" htoh="0"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="RED">
+  <player name="Zemcic I." checkname="I.,ZEMCIC" uni="42" gp="0" code="42"></player>
+ </dnp>
+ <dnp vh="H" id="FRG">
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="V" id="RED" yds="84" play="KO" players="Silvestri D." td="Y"></longplay>
+ </longplays>
+</fbgame>

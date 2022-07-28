@@ -1,0 +1,928 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220091" visid="GUE" homeid="SEA" visname="GUELFI FIRENZE" homename="Seamen Milano"
+      date="5/14/2022" location="Milano" stadium="Vigorelli"
+      start="18:00" end="20:50" leaguegame="Y"
+      duration="02:50" attend="500" temp="30 C" wind="No Wind" weather="Sunny">
+  <officials ref="Zampedri" ump="Maghini" line="Mancino" lj="Avagnina/Andrea" bj="Tognoni" fj="Antonelli" sj="Cassiani" sc="Gatti D."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="35" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="GUE" name="GUELFI FIRENZE" record="7-0" conf-record="7-0" abb="G">
+  <linescore prds="4" line="7,21,19,0" score="47">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="21"></lineprd>
+   <lineprd prd="3" score="19"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="24" rush="16" pass="7" penalty="1"></firstdowns>
+   <penalties no="7" yds="68"></penalties>
+   <conversions thirdconv="5" thirdatt="9" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="22:42" ona="0" onm="0"></misc>
+   <redzone att="3" scores="3" points="19" tdrush="3" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="44" yds="307" gain="321" loss="14" td="3" long="28"></rush>
+   <pass comp="12" att="18" int="0" yds="200" td="4" long="45" sacks="2" sackyds="9"></pass>
+   <rcv no="12" yds="200" td="4" long="45"></rcv>
+   <punt no="2" yds="56" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="8" yds="431" ob="1" tb="0"></ko>
+   <pat kickatt="6" kickmade="5" passatt="1" passmade="0"></pat>
+   <defense tackua="30" tacka="10" tflua="2" tfla="0" tflyds="5" sacks="1" sackyds="4"></defense>
+   <kr no="8" yds="208" td="0" long="42"></kr>
+   <pr no="1" yds="17" td="0" long="17"></pr>
+   <scoring td="7" patkick="5"></scoring>
+  </totals>
+  <player name="Abera Jote M." shortname="Abera Jote M." checkname="JOTE M.,ABERA" uni="0" gp="1" code="0">
+   <defense tackua="3" tacka="3"></defense>
+  </player>
+  <player name="Gerbino J." shortname="Gerbino J." checkname="J.,GERBINO" uni="1" gp="1" code="1">
+   <rush att="12" yds="82" gain="82" loss="0" td="2" long="9"></rush>
+   <rcv no="8" yds="129" td="3" long="45"></rcv>
+   <punt no="2" yds="56" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <pat passatt="1" passmade="0"></pat>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="5"></scoring>
+  </player>
+  <player name="Lynch D." shortname="Lynch D." checkname="D.,LYNCH" uni="2" gp="1" code="2"></player>
+  <player name="Camilli C." shortname="Camilli C." checkname="C.,CAMILLI" uni="3" gp="1" code="3">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Corraddossi P." shortname="Corraddossi P." checkname="P.,CORRADDOSSI" uni="4" gp="1" code="4">
+   <kr no="1" yds="33" td="0" long="33"></kr>
+  </player>
+  <player name="Tanner A." shortname="Tanner A." checkname="A.,TANNER" uni="5" gp="1" code="5">
+   <rush att="12" yds="92" gain="93" loss="1" td="0" long="22"></rush>
+  </player>
+  <player name="Formosa N." shortname="Formosa N." checkname="N.,FORMOSA" uni="6" gp="1" code="6"></player>
+  <player name="Camorani F." shortname="Camorani F." checkname="F.,CAMORANI" uni="7" gp="1" code="7"></player>
+  <player name="Fimiani A." shortname="Fimiani A." checkname="A.,FIMIANI" uni="8" gp="1" code="8">
+   <rush att="19" yds="121" gain="134" loss="13" td="1" long="28"></rush>
+   <pass comp="12" att="18" int="0" yds="200" td="4" long="45" sacks="2" sackyds="9"></pass>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Cammi E." shortname="Cammi E." checkname="E.,CAMMI" uni="9" gp="1" code="9"></player>
+  <player name="Nimskov J." shortname="Nimskov J." checkname="J.,NIMSKOV" uni="10" gp="1" code="10">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Rinaldi D." shortname="Rinaldi D." checkname="D.,RINALDI" uni="11" gp="1" code="11">
+   <defense tackua="3" tacka="0" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Vitti D." shortname="Vitti D." checkname="D.,VITTI" uni="12" gp="1" code="12">
+   <rcv no="2" yds="34" td="0" long="29"></rcv>
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Campora L." shortname="Campora L." checkname="L.,CAMPORA" uni="13" gp="1" code="13"></player>
+  <player name="Minnehan J." shortname="Minnehan J." checkname="J.,MINNEHAN" uni="14" gp="1" code="14">
+   <rush att="1" yds="12" gain="12" loss="0" td="0" long="12"></rush>
+   <rcv no="1" yds="30" td="1" long="30"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Giachin A." shortname="Giachin A." checkname="A.,GIACHIN" uni="15" gp="1" code="15"></player>
+  <player name="Falcone A." shortname="Falcone A." checkname="A.,FALCONE" uni="17" gp="1" code="17"></player>
+  <player name="Dellasorte G." shortname="Dellasorte G." checkname="G.,DELLASORTE" uni="19" gp="1" code="19"></player>
+  <player name="Marcacci M." shortname="Marcacci M." checkname="M.,MARCACCI" uni="20" gp="1" code="20">
+   <defense tackua="4" tacka="0"></defense>
+  </player>
+  <player name="Almeida Cabr D." shortname="Almeida Cabr D." checkname="CABR D.,ALMEIDA" uni="22" gp="1" code="22">
+   <rcv no="1" yds="7" td="0" long="7"></rcv>
+   <defense tackua="1" tacka="1"></defense>
+   <kr no="5" yds="142" td="0" long="42"></kr>
+  </player>
+  <player name="Fanni M." shortname="Fanni M." checkname="M.,FANNI" uni="23" gp="1" code="23"></player>
+  <player name="N'guessan K." shortname="N'guessan K." checkname="K.,N'GUESSAN" uni="24" gp="1" code="24">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Torelli L." shortname="Torelli L." checkname="L.,TORELLI" uni="27" gp="1" code="27">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Pascolo S." shortname="Pascolo S." checkname="S.,PASCOLO" uni="28" gp="1" code="28">
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="Scialdone G." shortname="Scialdone G." checkname="G.,SCIALDONE" uni="29" gp="1" code="29">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Mansani G." shortname="Mansani G." checkname="G.,MANSANI" uni="31" gp="1" code="31">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Casati C." shortname="Casati C." checkname="C.,CASATI" uni="32" gp="1" code="32">
+   <defense tackua="2" tacka="0"></defense>
+   <kr no="2" yds="33" td="0" long="26"></kr>
+   <pr no="1" yds="17" td="0" long="17"></pr>
+  </player>
+  <player name="Pinzauti D." shortname="Pinzauti D." checkname="D.,PINZAUTI" uni="40" gp="1" code="40">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Carboni F." shortname="Carboni F." checkname="F.,CARBONI" uni="45" gp="1" code="45"></player>
+  <player name="Carteni' C." shortname="Carteni' C." checkname="C.,CARTENI'" uni="48" gp="1" code="48"></player>
+  <player name="Dalle Piagge L." shortname="Dalle Piagge L." checkname="PIAGGE L.,DALLE" uni="52" gp="1" code="52"></player>
+  <player name="Piaggio P." shortname="Piaggio P." checkname="P.,PIAGGIO" uni="54" gp="1" code="54"></player>
+  <player name="Chiusi L." shortname="Chiusi L." checkname="L.,CHIUSI" uni="56" gp="1" code="56">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Adduci A." shortname="Adduci A." checkname="A.,ADDUCI" uni="59" gp="1" code="59"></player>
+  <player name="Macaj R." shortname="Macaj R." checkname="R.,MACAJ" uni="61" gp="1" code="61"></player>
+  <player name="Lodovichi M." shortname="Lodovichi M." checkname="M.,LODOVICHI" uni="65" gp="1" code="65"></player>
+  <player name="Lazzaro F." shortname="Lazzaro F." checkname="F.,LAZZARO" uni="66" gp="1" code="66"></player>
+  <player name="Ruotolo V." shortname="Ruotolo V." checkname="V.,RUOTOLO" uni="72" gp="1" code="72"></player>
+  <player name="Giachin R." shortname="Giachin R." checkname="R.,GIACHIN" uni="77" gp="1" code="77"></player>
+  <player name="Lelli M." shortname="Lelli M." checkname="M.,LELLI" uni="78" gp="1" code="78"></player>
+  <player name="Brighenti L." shortname="Brighenti L." checkname="L.,BRIGHENTI" uni="81" gp="1" code="81">
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="Bartoccioni S." shortname="Bartoccioni S." checkname="S.,BARTOCCIONI" uni="86" gp="1" code="86"></player>
+  <player name="Barbaro A." shortname="Barbaro A." checkname="A.,BARBARO" uni="88" gp="1" code="88">
+   <ko no="8" yds="431" ob="1" tb="0"></ko>
+   <pat kickatt="6" kickmade="5"></pat>
+   <scoring patkick="5"></scoring>
+  </player>
+  <player name="Poglietelli A." shortname="Poglietelli A." checkname="A.,POGLIETELLI" uni="89" gp="1" code="89">
+   <defense tackua="3" tacka="0" tflua="1" tfla="0" tflyds="4" sackua="1" sacka="0" sackyds="4"></defense>
+  </player>
+  <player name="Parronchi G." shortname="Parronchi G." checkname="G.,PARRONCHI" uni="97" gp="1" code="97"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="SEA" name="Seamen Milano" record="5-2" conf-record="5-2" abb="S">
+  <linescore prds="4" line="21,21,14,0" score="56">
+   <lineprd prd="1" score="21"></lineprd>
+   <lineprd prd="2" score="21"></lineprd>
+   <lineprd prd="3" score="14"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="24" rush="5" pass="17" penalty="2"></firstdowns>
+   <penalties no="5" yds="36"></penalties>
+   <conversions thirdconv="3" thirdatt="6" fourthconv="0" fourthatt="1"></conversions>
+   <fumbles no="1" lost="0"></fumbles>
+   <misc yds="0" top="25:18" ona="0" onm="0"></misc>
+   <redzone att="3" scores="3" points="21" tdrush="1" tdpass="2" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="15" yds="77" gain="82" loss="5" td="1" long="16"></rush>
+   <pass comp="30" att="38" int="0" yds="528" td="7" long="61" sacks="1" sackyds="4"></pass>
+   <rcv no="30" yds="528" td="7" long="61"></rcv>
+   <punt no="2" yds="40" long="38" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="9" yds="481" ob="0" tb="1"></ko>
+   <pat kickatt="8" kickmade="8"></pat>
+   <defense tackua="51" tacka="14" tflua="6" tfla="2" tflyds="15" sacks="2" sackyds="9" ff="1" fr="1" fryds="0"></defense>
+   <kr no="7" yds="154" td="0" long="33"></kr>
+   <scoring td="8" patkick="8"></scoring>
+  </totals>
+  <player name="Ali S." shortname="Ali S." checkname="S.,ALI" uni="1" gp="1" code="1">
+   <defense tackua="2" tacka="0"></defense>
+   <kr no="2" yds="58" td="0" long="30"></kr>
+  </player>
+  <player name="Castle M." shortname="Castle M." checkname="M.,CASTLE" uni="2" gp="1" code="2">
+   <rcv no="12" yds="214" td="3" long="61"></rcv>
+   <defense tackua="1" tacka="0"></defense>
+   <scoring td="3"></scoring>
+  </player>
+  <player name="Aguirre A." shortname="Aguirre A." checkname="A.,AGUIRRE" uni="3" gp="1" code="3">
+   <defense tackua="3" tacka="1" ff="1"></defense>
+  </player>
+  <player name="Gallo E." shortname="Gallo E." checkname="E.,GALLO" uni="4" gp="1" code="4">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Khay K." shortname="Khay K." checkname="K.,KHAY" uni="6" gp="1" code="6">
+   <defense tackua="4" tacka="2"></defense>
+  </player>
+  <player name="Zahradka L." shortname="Zahradka L." checkname="L.,ZAHRADKA" uni="7" gp="1" code="7">
+   <rush att="5" yds="23" gain="27" loss="4" td="1" long="12"></rush>
+   <pass comp="30" att="38" int="0" yds="528" td="7" long="61" sacks="1" sackyds="4"></pass>
+   <punt no="1" yds="38" long="38" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Rivelli F." shortname="Rivelli F." checkname="F.,RIVELLI" uni="8" gp="1" code="8">
+   <defense tackua="3" tacka="0"></defense>
+  </player>
+  <player name="Fonti N." shortname="Fonti N." checkname="N.,FONTI" uni="9" gp="1" code="9">
+   <defense tackua="8" tacka="1"></defense>
+  </player>
+  <player name="Buccellato C." shortname="Buccellato C." checkname="C.,BUCCELLATO" uni="10" gp="1" code="10"></player>
+  <player name="Lamamra I." shortname="Lamamra I." checkname="I.,LAMAMRA" uni="11" gp="1" code="11">
+   <rcv no="3" yds="22" td="0" long="14"></rcv>
+  </player>
+  <player name="Bassi L." shortname="Bassi L." checkname="L.,BASSI" uni="12" gp="1" code="12">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+   <defense tackua="1" tacka="0"></defense>
+   <kr no="0" yds="-4" td="0" long="0"></kr>
+  </player>
+  <player name="Facino L." shortname="Facino L." checkname="L.,FACINO" uni="13" gp="1" code="13">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Calegari T." shortname="Calegari T." checkname="T.,CALEGARI" uni="14" gp="1" code="14">
+   <defense tackua="2" tacka="2"></defense>
+  </player>
+  <player name="Troni G." shortname="Troni G." checkname="G.,TRONI" uni="18" gp="1" code="18"></player>
+  <player name="Santagostino G." shortname="Santagostino G." checkname="G.,SANTAGOSTINO" uni="19" gp="1" code="19">
+   <rcv no="4" yds="53" td="1" long="31"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Mensah E." shortname="Mensah E." checkname="E.,MENSAH" uni="20" gp="1" code="20">
+   <defense tackua="0" tacka="2" tflua="0" tfla="1" tflyds="2" sackua="0" sacka="1" sackyds="2"></defense>
+  </player>
+  <player name="Nalin A." shortname="Nalin A." checkname="A.,NALIN" uni="24" gp="1" code="24"></player>
+  <player name="Ricco L." shortname="Ricco L." checkname="L.,RICCO" uni="25" gp="1" code="25"></player>
+  <player name="Yeboah B." shortname="Yeboah B." checkname="B.,YEBOAH" uni="26" gp="1" code="26"></player>
+  <player name="Paglicci L." shortname="Paglicci L." checkname="L.,PAGLICCI" uni="28" gp="1" code="28">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Garlaschelli A." shortname="Garlaschelli A." checkname="A.,GARLASCHELLI" uni="29" gp="1" code="29">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Querzola G." shortname="Querzola G." checkname="G.,QUERZOLA" uni="30" gp="1" code="30">
+   <rush att="5" yds="35" gain="35" loss="0" td="0" long="16"></rush>
+  </player>
+  <player name="Fonti I." shortname="Fonti I." checkname="I.,FONTI" uni="31" gp="1" code="31">
+   <defense tackua="3" tacka="0"></defense>
+  </player>
+  <player name="Piccinni F." shortname="Piccinni F." checkname="F.,PICCINNI" uni="36" gp="1" code="36">
+   <defense tackua="2" tacka="0" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Mancini L." shortname="Mancini L." checkname="L.,MANCINI" uni="37" gp="1" code="37"></player>
+  <player name="Ruffato G." shortname="Ruffato G." checkname="G.,RUFFATO" uni="41" gp="1" code="41">
+   <rush att="5" yds="19" gain="20" loss="1" td="0" long="9"></rush>
+   <ko no="6" yds="333" ob="0" tb="0"></ko>
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Gennaio Gran L." shortname="Gennaio Gran L." checkname="GRAN L.,GENNAIO" uni="50" gp="1" code="50"></player>
+  <player name="Scola A." shortname="Scola A." checkname="A.,SCOLA" uni="51" gp="1" code="51"></player>
+  <player name="Zini A." shortname="Zini A." checkname="A.,ZINI" uni="52" gp="1" code="52"></player>
+  <player name="Mauro S." shortname="Mauro S." checkname="S.,MAURO" uni="53" gp="1" code="53"></player>
+  <player name="Colombo M." shortname="Colombo M." checkname="M.,COLOMBO" uni="62" gp="1" code="62"></player>
+  <player name="Previtali R." shortname="Previtali R." checkname="R.,PREVITALI" uni="68" gp="1" code="68"></player>
+  <player name="Timotijevic I." shortname="Timotijevic I." checkname="I.,TIMOTIJEVIC" uni="69" gp="1" code="69">
+   <defense tackua="3" tacka="0"></defense>
+  </player>
+  <player name="Cesana L." shortname="Cesana L." checkname="L.,CESANA" uni="71" gp="1" code="71"></player>
+  <player name="Raffaele Al." shortname="Raffaele Al." checkname="AL.,RAFFAELE" uni="73" gp="1" code="73"></player>
+  <player name="Aletti M." shortname="Aletti M." checkname="M.,ALETTI" uni="77" gp="1" code="77"></player>
+  <player name="Flores Calde J." shortname="Flores Calde J." checkname="CALDE J.,FLORES" uni="81" gp="1" code="81">
+   <rcv no="6" yds="165" td="3" long="42"></rcv>
+   <punt no="1" yds="2" long="2" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="3" yds="148" ob="0" tb="1"></ko>
+   <pat kickatt="8" kickmade="8"></pat>
+   <scoring td="3" patkick="8"></scoring>
+  </player>
+  <player name="Fiammenghi F." shortname="Fiammenghi F." checkname="F.,FIAMMENGHI" uni="87" gp="1" code="87">
+   <rcv no="4" yds="66" td="0" long="28"></rcv>
+   <kr no="4" yds="100" td="0" long="33"></kr>
+  </player>
+  <player name="Freschi L." shortname="Freschi L." checkname="L.,FRESCHI" uni="89" gp="1" code="89"></player>
+  <player name="Perego S." shortname="Perego S." checkname="S.,PEREGO" uni="90" gp="1" code="90">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Cavallini S." shortname="Cavallini S." checkname="S.,CAVALLINI" uni="93" gp="1" code="93">
+   <defense tackua="5" tacka="1" tflua="2" tfla="0" tflyds="2"></defense>
+   <kr no="1" yds="0" td="0" long="0"></kr>
+  </player>
+  <player name="Taddia M." shortname="Taddia M." checkname="M.,TADDIA" uni="97" gp="1" code="97">
+   <defense tackua="2" tacka="2" tflua="1" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="5"></defense>
+  </player>
+  <player name="Nicola C." shortname="Nicola C." checkname="C.,NICOLA" uni="99" gp="1" code="99">
+   <defense tackua="4" tacka="2" tflua="2" tfla="1" tflyds="5" sackua="0" sacka="1" sackyds="2"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0"></defense>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="SEA" qtr="1" clock="11:14" type="TD" how="PASS" yds="61" scorer="Castle M." passer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="2" drive="70" top="0:46" vscore="0" hscore="7" driveindex="1"></score>
+  <score vh="V" team="GUE" qtr="1" clock="09:55" type="TD" how="PASS" yds="45" scorer="Gerbino J." passer="Fimiani A." patby="Barbaro A." pattype="KICK" patres="GOOD" plays="4" drive="69" top="1:13" vscore="7" hscore="7" driveindex="2"></score>
+  <score vh="H" team="SEA" qtr="1" clock="05:50" type="TD" how="PASS" yds="7" scorer="Castle M." passer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="7" drive="62" top="3:50" vscore="7" hscore="14" driveindex="3"></score>
+  <score vh="H" team="SEA" qtr="1" clock="02:53" type="TD" how="RUSH" yds="1" scorer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="6" drive="54" top="2:33" vscore="7" hscore="21" driveindex="5"></score>
+  <score vh="V" team="GUE" qtr="2" clock="11:27" type="TD" how="PASS" yds="24" scorer="Gerbino J." passer="Fimiani A." patby="Barbaro A." pattype="KICK" patres="GOOD" plays="10" drive="52" top="3:13" vscore="14" hscore="21" driveindex="6"></score>
+  <score vh="H" team="SEA" qtr="2" clock="09:45" type="TD" how="PASS" yds="40" scorer="Flores Calde J." passer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="4" drive="69" top="1:36" vscore="14" hscore="28" driveindex="7"></score>
+  <score vh="V" team="GUE" qtr="2" clock="07:36" type="TD" how="PASS" yds="26" scorer="Gerbino J." passer="Fimiani A." patby="Barbaro A." pattype="KICK" patres="GOOD" plays="5" drive="62" top="2:00" vscore="21" hscore="28" driveindex="8"></score>
+  <score vh="H" team="SEA" qtr="2" clock="06:24" type="TD" how="PASS" yds="59" scorer="Castle M." passer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="3" drive="73" top="1:06" vscore="21" hscore="35" driveindex="9"></score>
+  <score vh="V" team="GUE" qtr="2" clock="03:34" type="TD" how="RUSH" yds="1" scorer="Gerbino J." patby="Barbaro A." pattype="KICK" patres="GOOD" plays="8" drive="62" top="1:40" vscore="28" hscore="35" driveindex="10"></score>
+  <score vh="H" team="SEA" qtr="2" clock="01:10" type="TD" how="PASS" yds="30" scorer="Flores Calde J." passer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="6" drive="72" top="2:20" vscore="28" hscore="42" driveindex="11"></score>
+  <score vh="V" team="GUE" qtr="3" clock="10:36" type="TD" how="PASS" yds="30" scorer="Minnehan J." passer="Fimiani A." patby="Barbaro A." pattype="KICK" patres="GOOD" plays="5" drive="50" top="1:20" vscore="35" hscore="42" driveindex="13"></score>
+  <score vh="V" team="GUE" qtr="3" clock="07:29" type="TD" how="RUSH" yds="8" scorer="Fimiani A." patby="Barbaro A." pattype="KICK" patres="FAIL" plays="4" drive="45" top="1:25" vscore="41" hscore="42" driveindex="15"></score>
+  <score vh="H" team="SEA" qtr="3" clock="04:55" type="TD" how="PASS" yds="4" scorer="Santagostino G." passer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="5" drive="76" top="2:30" vscore="41" hscore="49" driveindex="16"></score>
+  <score vh="V" team="GUE" qtr="3" clock="02:48" type="TD" how="RUSH" yds="1" scorer="Gerbino J." patby="Gerbino J." pattype="PASS" patres="FAIL" plays="6" drive="62" top="2:02" vscore="47" hscore="49" driveindex="17"></score>
+  <score vh="H" team="SEA" qtr="3" clock="00:40" type="TD" how="PASS" yds="30" scorer="Flores Calde J." passer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="4" drive="65" top="2:05" vscore="47" hscore="56" driveindex="18"></score>
+ </scores>
+ <drives>
+  <drive vh="H" team="SEA" start="KO,1,12:00,30" end="TD,1,11:14,100" plays="2" yards="70" top="0:46" driveindex="1"></drive>
+  <drive vh="V" team="GUE" start="KO,1,11:08,31" end="TD,1,09:55,100" plays="4" yards="69" top="1:13" driveindex="2"></drive>
+  <drive vh="H" team="SEA" start="KO,1,09:40,38" end="TD,1,05:50,100" plays="7" yards="62" top="3:50" rz="1" driveindex="3"></drive>
+  <drive vh="V" team="GUE" start="KO,1,05:43,20" end="PUNT,1,05:26,20" plays="3" yards="0" top="0:17" driveindex="4"></drive>
+  <drive vh="H" team="SEA" start="PUNT,1,05:26,46" end="TD,1,02:53,100" plays="6" yards="54" top="2:33" rz="1" driveindex="5"></drive>
+  <drive vh="V" team="GUE" start="KO,1,02:40,48" end="TD,2,11:27,100" plays="10" yards="52" top="3:13" driveindex="6"></drive>
+  <drive vh="H" team="SEA" start="KO,2,11:21,31" end="TD,2,09:45,100" plays="4" yards="69" top="1:36" driveindex="7"></drive>
+  <drive vh="V" team="GUE" start="KO,2,09:36,38" end="TD,2,07:36,100" plays="5" yards="62" top="2:00" driveindex="8"></drive>
+  <drive vh="H" team="SEA" start="KO,2,07:30,27" end="TD,2,06:24,100" plays="3" yards="73" top="1:06" driveindex="9"></drive>
+  <drive vh="V" team="GUE" start="KO,2,05:14,38" end="TD,2,03:34,100" plays="8" yards="62" top="1:40" rz="1" driveindex="10"></drive>
+  <drive vh="H" team="SEA" start="KO,2,03:30,28" end="TD,2,01:10,100" plays="6" yards="72" top="2:20" driveindex="11"></drive>
+  <drive vh="V" team="GUE" start="KO,2,00:58,17" end="HALF,2,00:00,20" plays="5" yards="3" top="0:58" driveindex="12"></drive>
+  <drive vh="V" team="GUE" start="KO,3,11:56,50" end="TD,3,10:36,100" plays="5" yards="50" top="1:20" driveindex="13"></drive>
+  <drive vh="H" team="SEA" start="KO,3,10:30,35" end="PUNT,3,08:54,43" plays="3" yards="8" top="1:36" driveindex="14"></drive>
+  <drive vh="V" team="GUE" start="PUNT,3,08:54,55" end="TD,3,07:29,100" plays="4" yards="45" top="1:25" rz="1" driveindex="15"></drive>
+  <drive vh="H" team="SEA" start="KO,3,07:25,24" end="TD,3,04:55,100" plays="5" yards="76" top="2:30" rz="1" driveindex="16"></drive>
+  <drive vh="V" team="GUE" start="KO,3,04:50,38" end="TD,3,02:48,100" plays="6" yards="62" top="2:02" rz="1" driveindex="17"></drive>
+  <drive vh="H" team="SEA" start="KO,3,02:45,35" end="TD,3,00:40,100" plays="4" yards="65" top="2:05" driveindex="18"></drive>
+  <drive vh="V" team="GUE" start="KO,3,00:32,52" end="PUNT,4,09:06,38" plays="5" yards="-14" top="3:26" driveindex="19"></drive>
+  <drive vh="H" team="SEA" start="PUNT,4,09:06,40" end="DOWNS,4,06:04,63" plays="6" yards="23" top="3:02" driveindex="20"></drive>
+  <drive vh="V" team="GUE" start="DOWNS,4,06:04,37" end="FUMB,4,03:16,99" plays="6" yards="62" top="2:48" driveindex="21"></drive>
+  <drive vh="H" team="SEA" start="FUMB,4,03:16,1" end="PUNT,4,00:06,42" plays="7" yards="41" top="3:10" driveindex="22"></drive>
+  <drive vh="V" team="GUE" start="PUNT,4,00:06,27" end="HALF,4,00:00,32" plays="1" yards="5" top="0:06" driveindex="23"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V35" playid="0,1,0"
+      text="Seamen Milano win the coin toss, elect ro receive"></play>
+   <play context="V,1,10,V35" playid="0,2,1" type="K"
+      text="Barbaro A. kickoff 40 yards to the SEA25, out-of-bounds, SEA ball on SEA30."></play>
+   <drivestart poss="H,H30,12:00" vh="H" spot="H30" clock="12:00" driveindex="1,1"></drivestart>
+   <play context="H,1,10,H30" playid="1,1,2" type="P"
+      text="Zahradka L. pass complete to Castle M. for 9 yards to the SEA39, out-of-bounds."></play>
+   <play context="H,2,1,H39" playid="1,2,3" type="P" first="P" score="Y" clock="11:14"
+      text="Zahradka L. pass complete to Castle M. for 61 yards to the GUE0, 1ST DOWN SEA, TOUCHDOWN, clock 11:14."></play>
+   <play context="H,1,0,V03" playid="1,3,4" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="0" H="7"></score>
+   <drivesum plays="2" yards="70" top="0:46" driveindex="1" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="1,4,5" type="K"
+      text="Flores Calde J. kickoff 52 yards to the GUE13, Almeida Cabr D. return 18 yards to the GUE31 (Mensah E.;Calegari T.)."></play>
+   <drivestart poss="V,V31,11:14" vh="V" spot="V31" clock="11:14" driveindex="2,5"></drivestart>
+   <play context="V,1,10,V31" playid="2,1,6" clock="11:08"
+      text="GUELFI FIRENZE drive start at 11:08."></play>
+   <play context="V,1,10,V31" playid="2,2,7" type="P" first="P"
+      text="Fimiani A. pass complete to Gerbino J. for 14 yards to the GUE45, 1ST DOWN GUE (Fonti N.)."></play>
+   <play context="V,1,10,V45" playid="2,3,8" type="R"
+      text="Tanner A. rush for 8 yards to the SEA47 (Piccinni F.)."></play>
+   <play context="V,2,2,H47" playid="2,4,9" type="R" first="R"
+      text="Tanner A. rush for 2 yards to the SEA45, 1ST DOWN GUE (Fonti N.)."></play>
+   <play context="V,1,10,H45" playid="2,5,10" type="P" first="P" score="Y" clock="09:55"
+      text="Fimiani A. pass complete to Gerbino J. for 45 yards to the SEA0, 1ST DOWN GUE, TOUCHDOWN, clock 09:55."></play>
+   <play context="V,1,0,H03" playid="2,6,11" type="X" score="Y"
+      text="Barbaro A. kick attempt good."></play>
+   <score V="7" H="7"></score>
+   <drivesum plays="4" yards="69" top="1:13" driveindex="2" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="2,7,12" type="K"
+      text="Barbaro A. kickoff 23 yards to the SEA42, Cavallini S. return 0 yards to the SEA42, Bassi L. for loss of 4 yards to the SEA38 (TEAM)."></play>
+   <drivestart poss="H,H38,09:55" vh="H" spot="H38" clock="09:55" driveindex="3,12"></drivestart>
+   <play context="H,1,10,H38" playid="3,1,13" clock="09:40"
+      text="SEAMEN MILANO drive start at 09:40, SEA ball on SEA38."></play>
+   <play context="H,1,10,H38" playid="3,2,14" type="P"
+      text="Zahradka L. pass complete to Castle M. for 4 yards to the SEA42, out-of-bounds (Casati C.)."></play>
+   <play context="H,2,6,H42" playid="3,3,15" type="P"
+      text="Zahradka L. pass incomplete to Santagostino G.."></play>
+   <play context="H,3,6,H42" playid="3,4,16" type="P" first="P"
+      text="Zahradka L. pass complete to Flores Calde J. for 42 yards to the GUE16, 1ST DOWN SEA (Brighenti L.)."></play>
+   <play context="H,1,10,V16" playid="3,5,17" type="R"
+      text="Querzola G. rush for 3 yards to the GUE13 (TEAM)."></play>
+   <play context="H,2,7,V13" playid="3,6,18" type="E"
+      text="PENALTY SEA false start 5 yards to the GUE18."></play>
+   <play context="H,2,12,V18" playid="3,7,19" type="P"
+      text="Zahradka L. pass complete to Santagostino G. for 3 yards to the GUE15 (Scialdone G.)."></play>
+   <play context="H,3,9,V15" playid="3,8,20" type="E" first="E"
+      text="Zahradka L. pass incomplete to Lamamra I., PENALTY GUE holding 8 yards to the GUE7, 1ST DOWN SEA, NO PLAY."></play>
+   <play context="H,1,0,V07" playid="3,9,21" type="P"
+      text="Zahradka L. pass incomplete to Santagostino G.."></play>
+   <play context="H,2,0,V07" playid="3,10,22" type="P" score="Y" clock="05:50"
+      text="Zahradka L. pass complete to Castle M. for 7 yards to the GUE0, TOUCHDOWN, clock 05:50."></play>
+   <play context="H,1,0,V03" playid="3,11,23" type="X" score="Y"
+      text="Flores Calde J. kick attempt good, PENALTY GUE roughing the kicker 15 yards to the 50 yardline."></play>
+   <score V="7" H="14"></score>
+   <drivesum plays="7" yards="62" top="3:50" driveindex="3" complete="Y"></drivesum>
+   <play context="H,1,0,H50" playid="3,12,24" type="K"
+      text="Flores Calde J. kickoff 50 yards to the GUE0, touchback."></play>
+   <drivestart poss="V,V20,05:50" vh="V" spot="V20" clock="05:50" driveindex="4,24"></drivestart>
+   <play context="V,1,10,V20" playid="4,1,25" clock="05:43"
+      text="GUELFI FIRENZE drive start at 05:43."></play>
+   <play context="V,1,10,V20" playid="4,2,26" type="P"
+      text="Fimiani A. pass incomplete to Almeida Cabr D.."></play>
+   <play context="V,2,10,V20" playid="4,3,27" type="P"
+      text="Fimiani A. pass incomplete to Tanner A.."></play>
+   <play context="V,3,10,V20" playid="4,4,28" type="P"
+      text="Fimiani A. pass incomplete to Gerbino J.."></play>
+   <play context="V,4,10,V20" playid="4,5,29" type="U"
+      text="Gerbino J. punt 34 yards to the SEA46."></play>
+   <drivesum plays="3" yards="0" top="0:17" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,H46,05:43" vh="H" spot="H46" clock="05:43" driveindex="5,29"></drivestart>
+   <play context="H,1,10,H46" playid="5,1,30" clock="05:26"
+      text="SEAMEN MILANO drive start at 05:26."></play>
+   <play context="H,1,10,H46" playid="5,2,31" type="P" first="P"
+      text="Zahradka L. pass complete to Fiammenghi F. for 28 yards to the GUE26, 1ST DOWN SEA (Scialdone G.)."></play>
+   <play context="H,1,10,V26" playid="5,3,32" type="P"
+      text="Zahradka L. pass complete to Bassi L. for 8 yards to the GUE18 (Torelli L.)."></play>
+   <play context="H,2,2,V18" playid="5,4,33" type="P"
+      text="Zahradka L. pass incomplete to Bassi L.."></play>
+   <play context="H,3,2,V18" playid="5,5,34" type="R" first="R"
+      text="Querzola G. rush for 8 yards to the GUE10, 1ST DOWN SEA (Abera Jote M.;Chiusi L.)."></play>
+   <play context="H,1,0,V10" playid="5,6,35" type="P"
+      text="Zahradka L. pass complete to Castle M. for 9 yards to the GUE1 (Abera Jote M.;Pascolo S.)."></play>
+   <play context="H,2,0,V01" playid="5,7,36" type="R" score="Y" clock="02:53"
+      text="Zahradka L. rush for 1 yard to the GUE0, TOUCHDOWN, clock 02:53."></play>
+   <play context="H,1,0,V03" playid="5,8,37" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="7" H="21"></score>
+   <drivesum plays="6" yards="54" top="2:33" driveindex="5" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="5,9,38" type="K"
+      text="Flores Calde J. kickoff 46 yards to the GUE19, Almeida Cabr D. return 29 yards to the GUE48 (Ali S.)."></play>
+   <drivestart poss="V,V48,02:53" vh="V" spot="V48" clock="02:53" driveindex="6,38"></drivestart>
+   <play context="V,1,10,V48" playid="6,1,39" clock="02:40"
+      text="GUELFI FIRENZE drive start at 02:40."></play>
+   <play context="V,1,10,V48" playid="6,2,40" type="R"
+      text="Tanner A. rush for 4 yards to the SEA48 (Gallo E.)."></play>
+   <play context="V,2,6,H48" playid="6,3,41" type="R"
+      text="Fimiani A. rush for 1 yard to the SEA47 (Timotijevic I.)."></play>
+   <play context="V,3,5,H47" playid="6,4,42" type="R" first="R"
+      text="Gerbino J. rush for 7 yards to the SEA40, 1ST DOWN GUE (Garlaschelli A.)."></play>
+   <play context="V,1,10,H40" playid="6,5,43" type="R"
+      text="Fimiani A. rush for 6 yards to the SEA34 (Perego S.)."></play>
+   <play context="V,2,4,H34" playid="6,6,44" type="P"
+      text="Fimiani A. pass incomplete to Gerbino J.."></play>
+   <play context="V,3,4,H34" playid="6,7,45" type="R" first="R"
+      text="Gerbino J. rush for 7 yards to the SEA27, 1ST DOWN GUE (Taddia M.)."></play>
+   <play context="V,1,10,H27" playid="6,8,46" type="R"
+      text="Tanner A. rush for loss of 1 yard to the SEA28 (Nicola C.)."></play>
+   <play context="V,2,11,H28" playid="6,9,47" type="R"
+      text="Fimiani A. rush for loss of 2 yards to the SEA30 (Nicola C.)."></play>
+   <score qtr="1" V="7" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GUE">
+    <firstdowns no="5" rush="3" pass="2" penalty="0"></firstdowns>
+    <penalties no="2" yds="23"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:36"></misc>
+    <rush att="9" yds="32" gain="35" loss="3" td="0" long="8"></rush>
+    <pass comp="2" att="6" int="0" yds="59" td="1" long="45" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="59" td="1" long="45"></rcv>
+    <punt no="1" yds="34" long="34" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="63" ob="1" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="7" tacka="4" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="47" td="0" long="29"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="5" rush="1" pass="3" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:24"></misc>
+    <rush att="3" yds="12" gain="12" loss="0" td="1" long="8"></rush>
+    <pass comp="9" att="12" int="0" yds="171" td="2" long="61" sacks="0" sackyds="0"></pass>
+    <rcv no="9" yds="171" td="2" long="61"></rcv>
+    <ko no="3" yds="148" ob="0" tb="1"></ko>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="11" tacka="2" tflua="2" tfla="0" tflyds="3" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="-4" td="0" long="0"></kr>
+    <scoring td="3" patkick="3"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,3,13,H30" playid="6,10,48" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="V,3,13,H30" playid="6,11,49" type="R"
+      text="Fimiani A. rush for 6 yards to the SEA24 (Cavallini S.;Khay K.)."></play>
+   <play context="V,4,7,H24" playid="6,12,50" type="P" first="P" score="Y" clock="11:27"
+      text="Fimiani A. pass complete to Gerbino J. for 24 yards to the SEA0, 1ST DOWN GUE, TOUCHDOWN, clock 11:27."></play>
+   <play context="V,1,0,H03" playid="6,13,51" type="X" score="Y"
+      text="Barbaro A. kick attempt good."></play>
+   <score V="14" H="21"></score>
+   <drivesum plays="10" yards="52" top="3:13" driveindex="6" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="6,14,52" type="K"
+      text="Barbaro A. kickoff 62 yards to the SEA3, Ali S. return 28 yards to the SEA31 (Almeida Cabr D.)."></play>
+   <drivestart poss="H,H31,11:27" vh="H" spot="H31" clock="11:27" driveindex="7,52"></drivestart>
+   <play context="H,1,10,H31" playid="7,1,53" clock="11:21"
+      text="SEAMEN MILANO drive start at 11:21."></play>
+   <play context="H,1,10,H31" playid="7,2,54" type="P" first="P"
+      text="Zahradka L. pass complete to Castle M. for 17 yards to the SEA48, 1ST DOWN SEA (Rinaldi D.)."></play>
+   <play context="H,1,10,H48" playid="7,3,55" type="P"
+      text="Zahradka L. pass incomplete to Flores Calde J.."></play>
+   <play context="H,2,10,H48" playid="7,4,56" type="R" first="R"
+      text="Zahradka L. rush for 12 yards to the GUE40, 1ST DOWN SEA, out-of-bounds."></play>
+   <play context="H,1,10,V40" playid="7,5,57" type="P" first="P" score="Y" clock="09:45"
+      text="Zahradka L. pass complete to Flores Calde J. for 40 yards to the GUE0, 1ST DOWN SEA, TOUCHDOWN, clock 09:45."></play>
+   <play context="H,1,0,V03" playid="7,6,58" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="14" H="28"></score>
+   <drivesum plays="4" yards="69" top="1:36" driveindex="7" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="7,7,59" type="K"
+      text="Ruffato G. kickoff 54 yards to the GUE11, Almeida Cabr D. return 27 yards to the GUE38 (Ruffato G.)."></play>
+   <drivestart poss="V,V38,09:45" vh="V" spot="V38" clock="09:45" driveindex="8,59"></drivestart>
+   <play context="V,1,10,V38" playid="8,1,60" clock="09:36"
+      text="GUELFI FIRENZE drive start at 09:36."></play>
+   <play context="V,1,10,V38" playid="8,2,61" type="R"
+      text="Fimiani A. rush for 3 yards to the GUE41 (Khay K.)."></play>
+   <play context="V,2,7,V41" playid="8,3,62" type="P"
+      text="Fimiani A. pass complete to Gerbino J. for loss of 1 yard to the GUE40, out-of-bounds (Gallo E.)."></play>
+   <play context="V,3,8,V40" playid="8,4,63" type="R" first="R"
+      text="Fimiani A. rush for 28 yards to the SEA32, 1ST DOWN GUE (Khay K.)."></play>
+   <play context="V,1,10,H32" playid="8,5,64" type="R"
+      text="Tanner A. rush for 6 yards to the SEA26 (Taddia M.;Khay K.)."></play>
+   <play context="V,2,4,H26" playid="8,6,65" type="P" first="P" score="Y" clock="07:36"
+      text="Fimiani A. pass complete to Gerbino J. for 26 yards to the SEA0, 1ST DOWN GUE, TOUCHDOWN, clock 07:36."></play>
+   <play context="V,1,0,H03" playid="8,7,66" type="X" score="Y"
+      text="Barbaro A. kick attempt good."></play>
+   <score V="21" H="28"></score>
+   <drivesum plays="5" yards="62" top="2:00" driveindex="8" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="8,8,67" type="K"
+      text="Barbaro A. kickoff 64 yards to the SEA1, Fiammenghi F. return 26 yards to the SEA27 (Camilli C.)."></play>
+   <drivestart poss="H,H27,07:36" vh="H" spot="H27" clock="07:36" driveindex="9,67"></drivestart>
+   <play context="H,1,10,H27" playid="9,1,68" clock="07:30"
+      text="SEAMEN MILANO drive start at 07:30."></play>
+   <play context="H,1,10,H27" playid="9,2,69" type="P"
+      text="Zahradka L. pass incomplete to Fiammenghi F.."></play>
+   <play context="H,2,10,H27" playid="9,3,70" type="E" first="E"
+      text="Zahradka L. pass incomplete to Lamamra I., PENALTY GUE pass interference 10 yards to the SEA37, 1ST DOWN SEA, NO PLAY."></play>
+   <play context="H,1,10,H37" playid="9,4,71" type="R"
+      text="Querzola G. rush for 4 yards to the SEA41 (Abera Jote M.)."></play>
+   <play context="H,2,6,H41" playid="9,5,72" type="P" first="P" score="Y" clock="06:24"
+      text="Zahradka L. pass complete to Castle M. for 59 yards to the GUE0, 1ST DOWN SEA, TOUCHDOWN, clock 06:24."></play>
+   <play context="H,1,0,V03" playid="9,6,73" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="21" H="35"></score>
+   <drivesum plays="3" yards="73" top="1:06" driveindex="9" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="9,7,74" type="K"
+      text="Ruffato G. kickoff 53 yards to the GUE12, Almeida Cabr D. return 26 yards to the GUE38 (Bassi L.), PENALTY GUE unsportsmanlike conduct off-setting, PENALTY SEA unsportsmanlike conduct off-setting."></play>
+   <drivestart poss="V,V38,06:24" vh="V" spot="V38" clock="06:24" driveindex="10,74"></drivestart>
+   <play context="V,1,10,V38" playid="10,1,75" clock="05:14"
+      text="GUELFI FIRENZE drive start at 05:14."></play>
+   <play context="V,1,10,V38" playid="10,2,76" type="E"
+      text="Fimiani A. rush for 12 yards to the 50 yardline (Aguirre A.), PENALTY GUE holding 11 yards to the GUE27, NO PLAY."></play>
+   <play context="V,1,21,V27" playid="10,3,77" type="P"
+      text="Fimiani A. pass complete to Gerbino J. for 9 yards to the GUE36 (Khay K.)."></play>
+   <play context="V,2,12,V36" playid="10,4,78" type="P"
+      text="Fimiani A. pass incomplete to Vitti D.."></play>
+   <play context="V,3,12,V36" playid="10,5,79" type="R" first="R"
+      text="Fimiani A. rush for 24 yards to the SEA40, 1ST DOWN GUE (Fonti N.)."></play>
+   <play context="V,1,10,H40" playid="10,6,80" type="R"
+      text="Fimiani A. rush for 8 yards to the SEA32 (Nicola C.)."></play>
+   <play context="V,2,2,H32" playid="10,7,81" type="R" first="R"
+      text="Gerbino J. rush for 7 yards to the SEA25, 1ST DOWN GUE (Fonti N.)."></play>
+   <play context="V,1,10,H25" playid="10,8,82" type="R"
+      text="Gerbino J. rush for 7 yards to the SEA18 (Aguirre A.)."></play>
+   <play context="V,2,3,H18" playid="10,9,83" type="R" first="R"
+      text="Tanner A. rush for 17 yards to the SEA1, 1ST DOWN GUE (Rivelli F.)."></play>
+   <play context="V,1,0,H01" playid="10,10,84" type="R" score="Y" clock="03:34"
+      text="Gerbino J. rush for 1 yard to the SEA0, TOUCHDOWN, clock 03:34."></play>
+   <play context="V,1,0,H03" playid="10,11,85" type="X" score="Y"
+      text="Barbaro A. kick attempt good."></play>
+   <score V="28" H="35"></score>
+   <drivesum plays="8" yards="62" top="1:40" driveindex="10" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="10,12,86" type="K"
+      text="Barbaro A. kickoff 54 yards to the SEA11, Fiammenghi F. return 17 yards to the SEA28 (N'guessan K.)."></play>
+   <drivestart poss="H,H28,03:34" vh="H" spot="H28" clock="03:34" driveindex="11,86"></drivestart>
+   <play context="H,1,10,H28" playid="11,1,87" clock="03:30"
+      text="SEAMEN MILANO drive start at 03:30."></play>
+   <play context="H,1,10,H28" playid="11,2,88" type="P"
+      text="Zahradka L. pass complete to Lamamra I. for 8 yards to the SEA36 (Pascolo S.)."></play>
+   <play context="H,2,2,H36" playid="11,3,89" type="R" first="R"
+      text="Querzola G. rush for 16 yards to the GUE48, 1ST DOWN SEA (Pascolo S.)."></play>
+   <play context="H,1,10,V48" playid="11,4,90" type="P" first="P"
+      text="Zahradka L. pass complete to Lamamra I. for 14 yards to the GUE34, 1ST DOWN SEA."></play>
+   <play context="H,1,10,V34" playid="11,5,91" type="P"
+      text="Zahradka L. pass complete to Lamamra I. for no gain to the GUE34."></play>
+   <play context="H,2,10,V34" playid="11,6,92" type="R"
+      text="Querzola G. rush for 4 yards to the GUE30 (Abera Jote M.)."></play>
+   <play context="H,3,6,V30" playid="11,7,93" type="P" first="P" score="Y" clock="01:10"
+      text="Zahradka L. pass complete to Flores Calde J. for 30 yards to the GUE0, 1ST DOWN SEA, TOUCHDOWN, clock 01:10."></play>
+   <play context="H,1,0,V03" playid="11,8,94" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="28" H="42"></score>
+   <play context="H,1,0,H35" playid="11,9,95" type="#" clock="01:00"
+      text="Timeout Seamen Milano, clock 01:00."></play>
+   <drivesum plays="6" yards="72" top="2:20" driveindex="11" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="11,10,96" type="K"
+      text="Ruffato G. kickoff 55 yards to the GUE10, Casati C. return 7 yards to the GUE17 (Ali S.)."></play>
+   <drivestart poss="V,V17,01:00" vh="V" spot="V17" clock="01:00" driveindex="12,96"></drivestart>
+   <play context="V,1,10,V17" playid="12,1,97" clock="00:58"
+      text="GUELFI FIRENZE drive start at 00:58."></play>
+   <play context="V,1,10,V17" playid="12,2,98" type="R" first="R"
+      text="Minnehan J. rush for 12 yards to the GUE29, 1ST DOWN GUE (Cavallini S.)."></play>
+   <play context="V,1,10,V29" playid="12,3,99" type="P"
+      text="Fimiani A. pass incomplete to Gerbino J.."></play>
+   <play context="V,2,10,V29" playid="12,4,100" type="R"
+      text="Fimiani A. rush for 6 yards to the GUE35 (Timotijevic I.)."></play>
+   <play context="V,3,4,V35" playid="12,5,101" type="R" first="R"
+      text="Tanner A. rush for 5 yards to the GUE40, 1ST DOWN GUE, out-of-bounds (Fonti I.)."></play>
+   <play context="V,1,10,V40" playid="12,6,102" type="P"
+      text="Fimiani A. sacked for loss of 5 yards to the GUE35 (Taddia M.)."></play>
+   <play context="V,2,15,V35" playid="12,7,103" type="#" clock="00:06"
+      text="Timeout Seamen Milano, clock 00:06."></play>
+   <play context="V,2,15,V35" playid="12,8,104" type="E" first="E"
+      text="Fimiani A. rush for 21 yards to the SEA44 (Castle M.), PENALTY SEA unsportsmanlike conduct (Castle M.) 15 yards to the GUE20, 1ST DOWN GUE, NO PLAY."></play>
+   <play context="V,1,10,V20" playid="12,9,105" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="5" yards="33" top="0:58" driveindex="12" complete="Y"></drivesum>
+   <score qtr="2" V="28" H="42"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GUE">
+    <firstdowns no="9" rush="6" pass="2" penalty="1"></firstdowns>
+    <penalties no="2" yds="21"></penalties>
+    <conversions thirdconv="5" thirdatt="6" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:42"></misc>
+    <rush att="14" yds="125" gain="130" loss="5" td="1" long="20"></rush>
+    <pass comp="4" att="6" int="0" yds="58" td="2" long="0" sacks="1" sackyds="5"></pass>
+    <rcv no="4" yds="58" td="2" long="0"></rcv>
+    <ko no="3" yds="180" ob="0" tb="0"></ko>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="8" tacka="0" sacks="0" sackyds="0"></defense>
+    <kr no="3" yds="60" td="0" long="0"></kr>
+    <scoring td="3" patkick="3"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="8" rush="2" pass="5" penalty="1"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:18"></misc>
+    <rush att="4" yds="36" gain="36" loss="0" td="0" long="8"></rush>
+    <pass comp="7" att="9" int="0" yds="168" td="3" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="7" yds="168" td="3" long="0"></rcv>
+    <ko no="3" yds="162" ob="0" tb="0"></ko>
+    <pat kickatt="3" kickmade="3"></pat>
+    <defense tackua="16" tacka="4" tflua="2" tfla="0" tflyds="6" sacks="1" sackyds="5"></defense>
+    <kr no="3" yds="71" td="0" long="28"></kr>
+    <scoring td="3" patkick="3"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,1,10,V20" playid="12,10,106" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, SEA ball on SEA20."></play>
+   <play context="H,1,10,H20" playid="12,11,107" type="K"
+      text="Ruffato G. kickoff 56 yards to the GUE24, Casati C. return 26 yards to the 50 yardline (Facino L.)."></play>
+   <drivestart poss="V,V50,12:00" vh="V" spot="V50" clock="12:00" driveindex="13,107"></drivestart>
+   <play context="V,1,10,V50" playid="13,1,108" clock="11:56"
+      text="GUELFI FIRENZE drive start at 11:56."></play>
+   <play context="V,1,10,V50" playid="13,2,109" type="R"
+      text="Tanner A. rush for 5 yards to the SEA45 (Fonti N.)."></play>
+   <play context="V,2,5,H45" playid="13,3,110" type="R" first="R"
+      text="Tanner A. rush for 5 yards to the SEA40, 1ST DOWN GUE (Fonti N.;Perego S.)."></play>
+   <play context="V,1,10,H40" playid="13,4,111" type="R"
+      text="Gerbino J. rush for 9 yards to the SEA31 (Fonti I.)."></play>
+   <play context="V,2,1,H31" playid="13,5,112" type="R" first="R"
+      text="Fimiani A. rush for 1 yard to the SEA30, 1ST DOWN GUE (Cavallini S.)."></play>
+   <play context="V,1,10,H30" playid="13,6,113" type="P" first="P" score="Y" clock="10:36"
+      text="Fimiani A. pass complete to Minnehan J. for 30 yards to the SEA0, 1ST DOWN GUE, TOUCHDOWN, clock 10:36."></play>
+   <play context="V,1,0,H03" playid="13,7,114" type="X" score="Y"
+      text="Barbaro A. kick attempt good."></play>
+   <score V="35" H="42"></score>
+   <drivesum plays="5" yards="50" top="1:20" driveindex="13" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="13,8,115" type="K"
+      text="Barbaro A. kickoff 60 yards to the SEA5, Ali S. return 30 yards to the SEA35 (Vitti D.;Almeida Cabr D.)."></play>
+   <drivestart poss="H,H35,10:36" vh="H" spot="H35" clock="10:36" driveindex="14,115"></drivestart>
+   <play context="H,1,10,H35" playid="14,1,116" clock="10:30"
+      text="SEAMEN MILANO drive start at 10:30."></play>
+   <play context="H,1,10,H35" playid="14,2,117" type="P"
+      text="Zahradka L. pass complete to Flores Calde J. for 9 yards to the SEA44, out-of-bounds (Marcacci M.)."></play>
+   <play context="H,2,1,H44" playid="14,3,118" type="R"
+      text="Ruffato G. rush for loss of 1 yard to the SEA43 (Rinaldi D.)."></play>
+   <play context="H,3,2,H43" playid="14,4,119" type="P"
+      text="Zahradka L. pass incomplete to Castle M.."></play>
+   <play context="H,4,2,H43" playid="14,5,120" type="U"
+      text="Fumble by TEAM, Flores Calde J. punt 2 yards to the SEA45, downed."></play>
+   <drivesum plays="3" yards="8" top="1:36" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,H45,10:30" vh="V" spot="H45" clock="10:30" driveindex="15,120"></drivestart>
+   <play context="V,1,10,H45" playid="15,1,121" clock="08:54"
+      text="GUELFI FIRENZE drive start at 08:54."></play>
+   <play context="V,1,10,H45" playid="15,2,122" type="R"
+      text="Tanner A. rush for 4 yards to the SEA41 (Fonti N.)."></play>
+   <play context="V,2,6,H41" playid="15,3,123" type="R" first="R"
+      text="Fimiani A. rush for 24 yards to the SEA17, 1ST DOWN GUE (Khay K.)."></play>
+   <play context="V,1,10,H17" playid="15,4,124" type="R"
+      text="Gerbino J. rush for 9 yards to the SEA8 (Fonti I.)."></play>
+   <play context="V,2,1,H08" playid="15,5,125" type="R" first="R" score="Y" clock="07:29"
+      text="Fimiani A. rush for 8 yards to the SEA0, 1ST DOWN GUE, TOUCHDOWN, clock 07:29."></play>
+   <play context="V,1,0,H03" playid="15,6,126" type="X"
+      text="Barbaro A. kick attempt failed."></play>
+   <score V="41" H="42"></score>
+   <drivesum plays="4" yards="45" top="1:25" driveindex="15" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="15,7,127" type="K"
+      text="Barbaro A. kickoff 65 yards to the SEA0, Fiammenghi F. return 24 yards to the SEA24 (Mansani G.;Pinzauti D.)."></play>
+   <drivestart poss="H,H24,07:29" vh="H" spot="H24" clock="07:29" driveindex="16,127"></drivestart>
+   <play context="H,1,10,H24" playid="16,1,128" clock="07:25"
+      text="SEAMEN MILANO drive start at 07:25."></play>
+   <play context="H,1,10,H24" playid="16,2,129" type="P" first="P"
+      text="Zahradka L. pass complete to Santagostino G. for 31 yards to the GUE45, 1ST DOWN SEA (Rinaldi D.)."></play>
+   <play context="H,1,10,V45" playid="16,3,130" type="P" first="P"
+      text="Zahradka L. pass complete to Castle M. for 16 yards to the GUE29, 1ST DOWN SEA."></play>
+   <play context="H,1,10,V29" playid="16,4,131" type="R" first="R"
+      text="Zahradka L. rush for 10 yards to the GUE19, 1ST DOWN SEA, out-of-bounds."></play>
+   <play context="H,1,10,V19" playid="16,5,132" type="P" first="P"
+      text="Zahradka L. pass complete to Fiammenghi F. for 15 yards to the GUE4, 1ST DOWN SEA (Marcacci M.)."></play>
+   <play context="H,1,0,V04" playid="16,6,133" type="P" score="Y" clock="04:55"
+      text="Zahradka L. pass complete to Santagostino G. for 4 yards to the GUE0, TOUCHDOWN, clock 04:55."></play>
+   <play context="H,1,0,V03" playid="16,7,134" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="41" H="49"></score>
+   <drivesum plays="5" yards="76" top="2:30" driveindex="16" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="16,8,135" type="K"
+      text="Ruffato G. kickoff 60 yards to the GUE5, Corraddossi P. return 33 yards to the GUE38 (Rivelli F.)."></play>
+   <drivestart poss="V,V38,04:55" vh="V" spot="V38" clock="04:55" driveindex="17,135"></drivestart>
+   <play context="V,1,10,V38" playid="17,1,136" clock="04:50"
+      text="GUELFI FIRENZE drive start at 04:50."></play>
+   <play context="V,1,10,V38" playid="17,2,137" type="R" first="R"
+      text="Tanner A. rush for 15 yards to the SEA47, 1ST DOWN GUE (Paglicci L.)."></play>
+   <play context="V,1,10,H47" playid="17,3,138" type="R"
+      text="Fimiani A. rush for 3 yards to the SEA44 (Nicola C.)."></play>
+   <play context="V,2,7,H44" playid="17,4,139" type="R" first="R"
+      text="Tanner A. rush for 22 yards to the SEA22, 1ST DOWN GUE, out-of-bounds (Fonti N.)."></play>
+   <play context="V,1,10,H22" playid="17,5,140" type="R" first="R"
+      text="Fimiani A. rush for 13 yards to the SEA9, 1ST DOWN GUE, out-of-bounds (Calegari T.)."></play>
+   <play context="V,1,0,H09" playid="17,6,141" type="R"
+      text="Gerbino J. rush for 7 yards to the SEA2 (Fonti N.)."></play>
+   <play context="V,2,0,H02" playid="17,7,142" type="E"
+      text="Gerbino J. sacked for no gain to the SEA2 (Aguirre A.), PENALTY SEA face mask 1 yards to the SEA1, NO PLAY."></play>
+   <play context="V,2,0,H01" playid="17,8,143" type="R" score="Y" clock="02:48"
+      text="Gerbino J. rush for 1 yard to the SEA0, TOUCHDOWN, clock 02:48."></play>
+   <play context="V,1,0,H03" playid="17,9,144" type="#" clock="02:48"
+      text="Timeout Seamen Milano, clock 02:48."></play>
+   <play context="V,1,0,H03" playid="17,10,145" type="X"
+      text="Gerbino J. pass attempt failed."></play>
+   <score V="47" H="49"></score>
+   <drivesum plays="6" yards="62" top="2:02" driveindex="17" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="17,11,146" type="K"
+      text="Barbaro A. kickoff 63 yards to the SEA2, Fiammenghi F. return 33 yards to the SEA35 (Nimskov J.)."></play>
+   <drivestart poss="H,H35,02:48" vh="H" spot="H35" clock="02:48" driveindex="18,146"></drivestart>
+   <play context="H,1,10,H35" playid="18,1,147" clock="02:45"
+      text="SEAMEN MILANO drive start at 02:45."></play>
+   <play context="H,1,10,H35" playid="18,2,148" type="P" first="P"
+      text="Zahradka L. pass complete to Castle M. for 18 yards to the GUE47, 1ST DOWN SEA (Pascolo S.)."></play>
+   <play context="H,1,10,V47" playid="18,3,149" type="P" first="P"
+      text="Zahradka L. pass complete to Flores Calde J. for 14 yards to the GUE33, 1ST DOWN SEA (Marcacci M.)."></play>
+   <play context="H,1,10,V33" playid="18,4,150" type="P"
+      text="Zahradka L. pass complete to Castle M. for 3 yards to the GUE30."></play>
+   <play context="H,2,7,V30" playid="18,5,151" type="P" first="P" score="Y" clock="00:40"
+      text="Zahradka L. pass complete to Flores Calde J. for 30 yards to the GUE0, 1ST DOWN SEA, TOUCHDOWN, clock 00:40."></play>
+   <play context="H,1,0,V03" playid="18,6,152" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="47" H="56"></score>
+   <drivesum plays="4" yards="65" top="2:05" driveindex="18" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="18,7,153" type="K"
+      text="Ruffato G. kickoff 55 yards to the GUE10, Almeida Cabr D. return 42 yards to the SEA48 (Rivelli F.)."></play>
+   <drivestart poss="V,H48,00:40" vh="V" spot="H48" clock="00:40" driveindex="19,153"></drivestart>
+   <play context="V,1,10,H48" playid="19,1,154" clock="00:32"
+      text="GUELFI FIRENZE drive start at 00:32."></play>
+   <play context="V,1,10,H48" playid="19,2,155" type="R"
+      text="Fimiani A. rush for 3 yards to the SEA45 (Timotijevic I.)."></play>
+   <play context="V,2,7,H45" playid="19,3,156" type="P" first="P"
+      text="Fimiani A. pass complete to Gerbino J. for 10 yards to the SEA35, 1ST DOWN GUE (Calegari T.)."></play>
+   <score qtr="3" V="47" H="56"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GUE">
+    <firstdowns no="9" rush="7" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:36"></misc>
+    <rush att="15" yds="129" gain="129" loss="0" td="2" long="0"></rush>
+    <pass comp="2" att="2" int="0" yds="40" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="40" td="1" long="0"></rcv>
+    <ko no="3" yds="188" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="1" passatt="1" passmade="0"></pat>
+    <defense tackua="7" tacka="4" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0"></defense>
+    <kr no="3" yds="101" td="0" long="13"></kr>
+    <scoring td="3" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="7" rush="1" pass="6" penalty="0"></firstdowns>
+    <penalties no="1" yds="1"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="06:24"></misc>
+    <rush att="2" yds="9" gain="10" loss="1" td="0" long="0"></rush>
+    <pass comp="9" att="10" int="0" yds="140" td="2" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="9" yds="140" td="2" long="0"></rcv>
+    <punt no="1" yds="2" long="2" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="3" yds="171" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="16" tacka="2" sacks="1" sackyds="5"></defense>
+    <kr no="3" yds="87" td="0" long="5"></kr>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="V,1,10,H35" playid="19,4,157" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="V,1,10,H35" playid="19,5,158" type="P"
+      text="Fimiani A. sacked for loss of 4 yards to the SEA39 (Mensah E.;Nicola C.)."></play>
+   <play context="V,2,14,H39" playid="19,6,159" type="R"
+      text="Gerbino J. rush for 2 yards to the SEA37 (Taddia M.;Nicola C.)."></play>
+   <play context="V,3,12,H37" playid="19,7,160" type="E"
+      text="PENALTY GUE offside (Almeida Cabr D.) 5 yards to the SEA42."></play>
+   <play context="V,3,17,H42" playid="19,8,161" type="R"
+      text="Fimiani A. rush for loss of 1 yard to the SEA43 (Cavallini S.)."></play>
+   <play context="V,4,18,H43" playid="19,9,162" type="E"
+      text="PENALTY GUE delay of game 5 yards to the SEA48."></play>
+   <play context="V,4,23,H48" playid="19,10,163" type="E"
+      text="Gerbino J. punt 35 yards to the SEA13, PENALTY GUE illegal block 14 yards to the GUE38, NO PLAY."></play>
+   <play context="V,4,37,V38" playid="19,11,164" type="U"
+      text="Gerbino J. punt 22 yards to the SEA40, out-of-bounds."></play>
+   <drivesum plays="5" yards="-14" top="3:26" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,H40,12:00" vh="H" spot="H40" clock="12:00" driveindex="20,164"></drivestart>
+   <play context="H,1,10,H40" playid="20,1,165" clock="09:06"
+      text="SEAMEN MILANO drive start at 09:06."></play>
+   <play context="H,1,10,H40" playid="20,2,166" type="P" first="P"
+      text="Zahradka L. pass complete to Fiammenghi F. for 13 yards to the GUE47, 1ST DOWN SEA (Marcacci M.)."></play>
+   <play context="H,1,10,V47" playid="20,3,167" type="P" first="P"
+      text="Zahradka L. pass complete to Fiammenghi F. for 10 yards to the GUE37, 1ST DOWN SEA, out-of-bounds."></play>
+   <play context="H,1,10,V37" playid="20,4,168" type="P"
+      text="Zahradka L. sacked for loss of 4 yards to the GUE41 (Poglietelli A.)."></play>
+   <play context="H,2,14,V41" playid="20,5,169" type="P"
+      text="Zahradka L. pass complete to Castle M. for 4 yards to the GUE37 (Brighenti L.)."></play>
+   <play context="H,3,10,V37" playid="20,6,170" type="P"
+      text="Zahradka L. pass incomplete to Fiammenghi F.."></play>
+   <play context="H,4,10,V37" playid="20,7,171" type="P"
+      text="Zahradka L. pass incomplete to Castle M.."></play>
+   <drivesum plays="6" yards="23" top="3:02" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="V,V37,09:06" vh="V" spot="V37" clock="09:06" driveindex="21,171"></drivestart>
+   <play context="V,1,10,V37" playid="21,1,172" clock="06:04"
+      text="GUELFI FIRENZE drive start at 06:04."></play>
+   <play context="V,1,10,V37" playid="21,2,173" type="R"
+      text="Gerbino J. rush for 3 yards to the GUE40 (Cavallini S.)."></play>
+   <play context="V,2,7,V40" playid="21,3,174" type="P" first="P"
+      text="Fimiani A. pass complete to Vitti D. for 29 yards to the SEA31, 1ST DOWN GUE (Calegari T.;Aguirre A.)."></play>
+   <play context="V,1,10,H31" playid="21,4,175" type="R"
+      text="Fimiani A. rush for loss of 1 yard to the SEA32 (Cavallini S.)."></play>
+   <play context="V,2,11,H32" playid="21,5,176" type="P"
+      text="Fimiani A. pass complete to Gerbino J. for 2 yards to the SEA30 (TEAM)."></play>
+   <play context="V,3,9,H30" playid="21,6,177" type="P"
+      text="Fimiani A. pass complete to Almeida Cabr D. for 7 yards to the SEA23 (Aguirre A.)."></play>
+   <play context="V,4,2,H23" playid="21,7,178" type="R" turnover="F"
+      text="Gerbino J. rush for 3 yards to the SEA20, fumble forced by Aguirre A., fumble by Gerbino J. recovered by SEA Piccinni F. at SEA1."></play>
+   <drivesum plays="6" yards="62" top="2:48" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="H,H01,06:04" vh="H" spot="H01" clock="06:04" driveindex="22,178"></drivestart>
+   <play context="H,1,10,H01" playid="22,1,179" clock="03:16"
+      text="SEAMEN MILANO drive start at 03:16."></play>
+   <play context="H,1,10,H01" playid="22,2,180" type="P"
+      text="Zahradka L. pass complete to Castle M. for 7 yards to the SEA8 (Brighenti L.)."></play>
+   <play context="H,2,3,H08" playid="22,3,181" type="P" first="P"
+      text="Zahradka L. pass complete to Santagostino G. for 15 yards to the SEA23, 1ST DOWN SEA (Brighenti L.;Abera Jote M.)."></play>
+   <play context="H,1,10,H23" playid="22,4,182" type="#" clock="02:00"
+      text="Timeout Seamen Milano, clock 02:00."></play>
+   <play context="H,1,10,H23" playid="22,5,183" type="R"
+      text="Ruffato G. rush for 9 yards to the SEA32 (Casati C.)."></play>
+   <play context="H,2,1,H32" playid="22,6,184" type="R" first="R"
+      text="Zahradka L. rush for 4 yards to the SEA36, 1ST DOWN SEA."></play>
+   <play context="H,1,10,H36" playid="22,7,185" type="E"
+      text="PENALTY SEA delay of game 5 yards to the SEA31."></play>
+   <play context="H,1,15,H31" playid="22,8,186" type="R"
+      text="Ruffato G. rush for 6 yards to the SEA37 (Poglietelli A.)."></play>
+   <play context="H,2,9,H37" playid="22,9,187" type="#" clock="00:29"
+      text="Timeout GUELFI FIRENZE, clock 00:29."></play>
+   <play context="H,2,9,H37" playid="22,10,188" type="R"
+      text="Ruffato G. rush for no gain to the SEA37 (Poglietelli A.)."></play>
+   <play context="H,3,9,H37" playid="22,11,189" type="#" clock="00:24"
+      text="Timeout GUELFI FIRENZE, clock 00:24."></play>
+   <play context="H,3,9,H37" playid="22,12,190" type="R"
+      text="Ruffato G. rush for 5 yards to the SEA42 (Abera Jote M.)."></play>
+   <play context="H,4,4,H42" playid="22,13,191" type="#" clock="00:18"
+      text="Timeout GUELFI FIRENZE, clock 00:18."></play>
+   <play context="H,4,4,H42" playid="22,14,192" type="U"
+      text="Zahradka L. punt 38 yards to the GUE20, Casati C. return 17 yards to the GUE37 (Castle M.), PENALTY SEA holding 10 yards to the GUE27, 1st and 10, GUE ball on GUE27."></play>
+   <drivesum plays="7" yards="41" top="3:10" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="V,V27,00:18" vh="V" spot="V27" clock="00:18" driveindex="23,192"></drivestart>
+   <play context="V,1,10,V27" playid="23,1,193" clock="00:06"
+      text="GUELFI FIRENZE drive start at 00:06."></play>
+   <play context="V,1,10,V27" playid="23,2,194" type="P"
+      text="Fimiani A. pass complete to Vitti D. for 5 yards to the GUE32 (Piccinni F.)."></play>
+   <play context="V,2,5,V32" playid="23,3,195" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="1" yards="5" top="0:06" driveindex="23" complete="Y"></drivesum>
+   <score final="Y" V="47" H="56"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GUE">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="3" yds="24"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="05:48"></misc>
+    <rush att="6" yds="21" gain="27" loss="6" td="0" long="0"></rush>
+    <pass comp="4" att="4" int="0" yds="43" td="0" long="0" sacks="1" sackyds="4"></pass>
+    <rcv no="4" yds="43" td="0" long="0"></rcv>
+    <punt no="1" yds="22" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="8" tacka="2" tflua="1" tfla="0" tflyds="4" sacks="1" sackyds="4"></defense>
+    <pr no="1" yds="17" td="0" long="17"></pr>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="2" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:12"></misc>
+    <rush att="6" yds="20" gain="24" loss="4" td="0" long="0"></rush>
+    <pass comp="5" att="7" int="0" yds="49" td="0" long="0" sacks="1" sackyds="4"></pass>
+    <rcv no="5" yds="49" td="0" long="0"></rcv>
+    <punt no="1" yds="38" long="36" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="8" tacka="6" tflua="4" tfla="0" tflyds="10" sacks="2" sackyds="9" ff="1" fr="1" fryds="0"></defense>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="V,2,5,V32" qtr="4" clock="00:00" vtoh="3" htoh="2"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="GUE">
+ </dnp>
+ <dnp vh="H" id="SEA">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

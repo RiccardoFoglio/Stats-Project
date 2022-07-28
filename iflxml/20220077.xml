@@ -1,0 +1,895 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220077" visid="DOL" homeid="SEA" visname="DOLPHINS ANCONA" homename="Seamen Milano"
+      date="4/30/2022" location="Milano" stadium="Vigorelli"
+      start="18.00" end="20.38" leaguegame="Y"
+      duration="02.38" attend="300" temp="23 C" wind="No Wind" weather="Clear">
+  <officials ref="Sala M." ump="Camossa C." line="Tomaz C." lj="Cian L." bj="Parisetti B." fj="Pagani A." sj="Sartini / Tabal" sc="Gatti D."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="35" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="DOL" name="DOLPHINS ANCONA" record="3-3" conf-record="3-3" abb="D">
+  <linescore prds="4" line="6,7,0,0" score="13">
+   <lineprd prd="1" score="6"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="24" rush="2" pass="20" penalty="2"></firstdowns>
+   <penalties no="2" yds="31"></penalties>
+   <conversions thirdconv="5" thirdatt="15" fourthconv="0" fourthatt="4"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="-65" top="27:37" ona="0" onm="0"></misc>
+   <redzone att="3" scores="1" points="6" tdrush="1" tdpass="0" fgmade="0" endfga="2" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="20" yds="-10" gain="54" loss="64" td="1" long="13"></rush>
+   <pass comp="33" att="57" int="0" yds="326" td="1" long="35" sacks="8" sackyds="53"></pass>
+   <rcv no="33" yds="326" td="1" long="35"></rcv>
+   <punt no="2" yds="46" long="37" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <ko no="3" yds="155" ob="0" tb="0"></ko>
+   <fg made="0" att="2" long="0" blkd="1"></fg>
+   <pat kickatt="2" kickmade="1"></pat>
+   <defense tackua="26" tacka="8" tflua="5" tfla="2" tflyds="36" sacks="3" sackyds="27" brup="2" fr="1" fryds="0" int="2" intyds="19"></defense>
+   <kr no="5" yds="101" td="0" long="28"></kr>
+   <ir no="2" yds="19" td="0" long="19"></ir>
+   <scoring td="2" patkick="1"></scoring>
+  </totals>
+  <player name="Orlandini F." shortname="Orlandini F." checkname="F.,ORLANDINI" uni="1" gp="1" code="1">
+   <rcv no="5" yds="60" td="0" long="24"></rcv>
+  </player>
+  <player name="Lorenzi B." shortname="Lorenzi B." checkname="B.,LORENZI" uni="2" gp="1" code="2">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Quattrone Z." shortname="Quattrone Z." checkname="Z.,QUATTRONE" uni="4" gp="1" code="4">
+   <rcv no="6" yds="73" td="1" long="35"></rcv>
+   <punt no="2" yds="46" long="37" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+   <defense tackua="4" tacka="1" brup="1" int="1" intyds="19"></defense>
+   <ir no="1" yds="19" td="0" long="19"></ir>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Giardinieri Ka." shortname="Giardinieri Ka." checkname="KA.,GIARDINIERI" uni="9" gp="1" code="9"></player>
+  <player name="Giardinieri Kr." shortname="Giardinieri Kr." checkname="KR.,GIARDINIERI" uni="10" gp="1" code="10">
+   <defense tackua="3" tacka="3" tflua="0" tfla="1" tflyds="0"></defense>
+  </player>
+  <player name="Rotelli R." shortname="Rotelli R." checkname="R.,ROTELLI" uni="11" gp="1" code="11">
+   <defense tackua="5" tacka="1" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Bonci T." shortname="Bonci T." checkname="T.,BONCI" uni="14" gp="1" code="14"></player>
+  <player name="Di Galbo C." shortname="Di Galbo C." checkname="GALBO C.,DI" uni="15" gp="1" code="15">
+   <rush att="15" yds="-25" gain="37" loss="62" td="1" long="13"></rush>
+   <pass comp="33" att="57" int="0" yds="326" td="1" long="35" sacks="8" sackyds="53"></pass>
+   <fumbles no="1" lost="1"></fumbles>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Flamini T." shortname="Flamini T." checkname="T.,FLAMINI" uni="19" gp="1" code="19">
+   <rcv no="1" yds="2" td="0" long="2"></rcv>
+  </player>
+  <player name="Zoppi M." shortname="Zoppi M." checkname="M.,ZOPPI" uni="21" gp="1" code="21">
+   <rcv no="9" yds="113" td="0" long="33"></rcv>
+  </player>
+  <player name="Ragnetti S." shortname="Ragnetti S." checkname="S.,RAGNETTI" uni="22" gp="1" code="22">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Petrilli R." shortname="Petrilli R." checkname="R.,PETRILLI" uni="26" gp="1" code="26">
+   <defense tackua="2" tacka="0" brup="1"></defense>
+  </player>
+  <player name="Moretti Ma." shortname="Moretti Ma." checkname="MA.,MORETTI" uni="30" gp="1" code="30"></player>
+  <player name="Nocera A." shortname="Nocera A." checkname="A.,NOCERA" uni="35" gp="1" code="35">
+   <rcv no="3" yds="18" td="0" long="10"></rcv>
+   <kr no="3" yds="66" td="0" long="28"></kr>
+  </player>
+  <player name="La Porta N." shortname="La Porta N." checkname="PORTA N.,LA" uni="38" gp="1" code="38"></player>
+  <player name="Sherman D." shortname="Sherman D." checkname="D.,SHERMAN" uni="41" gp="1" code="41">
+   <rush att="1" yds="9" gain="9" loss="0" td="0" long="9"></rush>
+   <rcv no="3" yds="24" td="0" long="11"></rcv>
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="2" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Brancaccio C." shortname="Brancaccio C." checkname="C.,BRANCACCIO" uni="44" gp="1" code="44">
+   <ko no="3" yds="155" ob="0" tb="0"></ko>
+   <fg made="0" att="2" long="0" blkd="1"></fg>
+   <pat kickatt="2" kickmade="1"></pat>
+   <scoring patkick="1"></scoring>
+  </player>
+  <player name="Capponi S." shortname="Capponi S." checkname="S.,CAPPONI" uni="50" gp="1" code="50"></player>
+  <player name="Rosati G." shortname="Rosati G." checkname="G.,ROSATI" uni="52" gp="1" code="52"></player>
+  <player name="D'aloi E." shortname="D'aloi E." checkname="E.,D'ALOI" uni="54" gp="1" code="54"></player>
+  <player name="Moretti Mi." shortname="Moretti Mi." checkname="MI.,MORETTI" uni="60" gp="1" code="60"></player>
+  <player name="Gammelli A." shortname="Gammelli A." checkname="A.,GAMMELLI" uni="62" gp="1" code="62"></player>
+  <player name="Gambelli A." shortname="Gambelli A." checkname="A.,GAMBELLI" uni="65" gp="1" code="65">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Sesta G." shortname="Sesta G." checkname="G.,SESTA" uni="67" gp="1" code="67"></player>
+  <player name="Rossini D." shortname="Rossini D." checkname="D.,ROSSINI" uni="71" gp="1" code="71"></player>
+  <player name="Chiappini S." shortname="Chiappini S." checkname="S.,CHIAPPINI" uni="72" gp="1" code="72"></player>
+  <player name="Caruso G." shortname="Caruso G." checkname="G.,CARUSO" uni="75" gp="1" code="75"></player>
+  <player name="Albanese L." shortname="Albanese L." checkname="L.,ALBANESE" uni="79" gp="1" code="79"></player>
+  <player name="Bussaglia M." shortname="Bussaglia M." checkname="M.,BUSSAGLIA" uni="80" gp="1" code="80"></player>
+  <player name="Gianfelici R." shortname="Gianfelici R." checkname="R.,GIANFELICI" uni="81" gp="1" code="81">
+   <rcv no="1" yds="4" td="0" long="4"></rcv>
+  </player>
+  <player name="Domenicone P." shortname="Domenicone P." checkname="P.,DOMENICONE" uni="82" gp="1" code="82">
+   <defense tackua="4" tacka="2" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Nemo M." shortname="Nemo M." checkname="M.,NEMO" uni="85" gp="1" code="85"></player>
+  <player name="Gianfelici E." shortname="Gianfelici E." checkname="E.,GIANFELICI" uni="87" gp="1" code="87">
+   <rcv no="5" yds="32" td="0" long="10"></rcv>
+  </player>
+  <player name="Giuliani L." shortname="Giuliani L." checkname="L.,GIULIANI" uni="88" gp="1" code="88">
+   <rush att="4" yds="6" gain="8" loss="2" td="0" long="6"></rush>
+   <kr no="2" yds="35" td="0" long="19"></kr>
+  </player>
+  <player name="Luciani M." shortname="Luciani M." checkname="M.,LUCIANI" uni="90" gp="1" code="90">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="6"></defense>
+  </player>
+  <player name="Magara N." shortname="Magara N." checkname="N.,MAGARA" uni="91" gp="1" code="91">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="6" sackua="1" sacka="0" sackyds="6"></defense>
+  </player>
+  <player name="Evangelisti L." shortname="Evangelisti L." checkname="L.,EVANGELISTI" uni="95" gp="1" code="95">
+   <defense tackua="2" tacka="0" tflua="2" tfla="0" tflyds="21" sackua="2" sacka="0" sackyds="21"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198"></player>
+ </team>
+ <team vh="H" code="" id="SEA" name="Seamen Milano" record="5-0" conf-record="5-0" abb="S">
+  <linescore prds="4" line="14,7,0,14" score="35">
+   <lineprd prd="1" score="14"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="14"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="18" rush="6" pass="10" penalty="2"></firstdowns>
+   <penalties no="8" yds="70"></penalties>
+   <conversions thirdconv="4" thirdatt="8" fourthconv="0" fourthatt="1"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="20:23" ona="0" onm="0"></misc>
+   <redzone att="3" scores="2" points="14" tdrush="1" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="1" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="19" yds="10" gain="85" loss="75" td="1" long="16"></rush>
+   <pass comp="15" att="28" int="2" yds="246" td="3" long="43" sacks="3" sackyds="27"></pass>
+   <rcv no="15" yds="246" td="3" long="43"></rcv>
+   <punt no="3" yds="104" long="41" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+   <ko no="5" yds="251" ob="0" tb="0"></ko>
+   <pat kickatt="5" kickmade="5"></pat>
+   <defense tackua="44" tacka="12" tflua="9" tfla="4" tflyds="62" sacks="8" sackyds="53" brup="4" blkd="1" ff="1" fr="1" fryds="50"></defense>
+   <kr no="3" yds="86" td="0" long="43"></kr>
+   <pr no="1" yds="2" td="0" long="2"></pr>
+   <fr no="1" yds="50" td="1" long="50"></fr>
+   <scoring td="5" patkick="5"></scoring>
+  </totals>
+  <player name="Ali S." shortname="Ali S." checkname="S.,ALI" uni="1" gp="1" code="1">
+   <defense tackua="6" tacka="0"></defense>
+   <kr no="2" yds="75" td="0" long="43"></kr>
+  </player>
+  <player name="Castle M." shortname="Castle M." checkname="M.,CASTLE" uni="2" gp="1" code="2">
+   <rush att="1" yds="16" gain="16" loss="0" td="0" long="16"></rush>
+   <rcv no="5" yds="86" td="2" long="37"></rcv>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Aguirre A." shortname="Aguirre A." checkname="A.,AGUIRRE" uni="3" gp="1" code="3">
+   <defense tackua="3" tacka="1"></defense>
+  </player>
+  <player name="Gallo E." shortname="Gallo E." checkname="E.,GALLO" uni="4" gp="1" code="4">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="4" sackua="1" sacka="0" sackyds="4"></defense>
+  </player>
+  <player name="Khay K." shortname="Khay K." checkname="K.,KHAY" uni="6" gp="1" code="6">
+   <defense tackua="3" tacka="2" tflua="1" tfla="0" tflyds="11" sackua="1" sacka="0" sackyds="11"></defense>
+  </player>
+  <player name="Zahradka L." shortname="Zahradka L." checkname="L.,ZAHRADKA" uni="7" gp="1" code="7">
+   <rush att="5" yds="-23" gain="12" loss="35" td="0" long="12"></rush>
+   <pass comp="15" att="28" int="2" yds="246" td="3" long="43" sacks="3" sackyds="27"></pass>
+  </player>
+  <player name="Rivelli F." shortname="Rivelli F." checkname="F.,RIVELLI" uni="8" gp="1" code="8">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="5"></defense>
+  </player>
+  <player name="Fonti N." shortname="Fonti N." checkname="N.,FONTI" uni="9" gp="1" code="9">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Buccellato C." shortname="Buccellato C." checkname="C.,BUCCELLATO" uni="10" gp="1" code="10"></player>
+  <player name="Lamamra I." shortname="Lamamra I." checkname="I.,LAMAMRA" uni="11" gp="1" code="11">
+   <rush att="1" yds="7" gain="7" loss="0" td="0" long="7"></rush>
+   <rcv no="2" yds="7" td="0" long="7"></rcv>
+  </player>
+  <player name="Bassi L." shortname="Bassi L." checkname="L.,BASSI" uni="12" gp="1" code="12">
+   <rcv no="1" yds="31" td="0" long="31"></rcv>
+  </player>
+  <player name="Facino L." shortname="Facino L." checkname="L.,FACINO" uni="13" gp="1" code="13"></player>
+  <player name="Calegari T." shortname="Calegari T." checkname="T.,CALEGARI" uni="14" gp="1" code="14">
+   <defense tackua="3" tacka="0" tflua="1" tfla="0" tflyds="2" brup="1"></defense>
+  </player>
+  <player name="Timotijevic I." shortname="Timotijevic I." checkname="I.,TIMOTIJEVIC" uni="15" gp="1" code="15"></player>
+  <player name="Previtali P." shortname="Previtali P." checkname="P.,PREVITALI" uni="17" gp="1" code="17">
+   <punt no="3" yds="104" long="41" blkd="0" tb="0" fc="1" plus50="0" inside20="1"></punt>
+   <ko no="5" yds="251" ob="0" tb="0"></ko>
+  </player>
+  <player name="Santagostino G." shortname="Santagostino G." checkname="G.,SANTAGOSTINO" uni="19" gp="1" code="19">
+   <rcv no="4" yds="60" td="1" long="37"></rcv>
+   <defense brup="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Mensah E." shortname="Mensah E." checkname="E.,MENSAH" uni="20" gp="1" code="20">
+   <defense tackua="3" tacka="1" tflua="1" tfla="0" tflyds="6" sackua="1" sacka="0" sackyds="6"></defense>
+  </player>
+  <player name="Fusetti M." shortname="Fusetti M." checkname="M.,FUSETTI" uni="21" gp="1" code="21"></player>
+  <player name="Nalin A." shortname="Nalin A." checkname="A.,NALIN" uni="24" gp="1" code="24"></player>
+  <player name="Ricco L." shortname="Ricco L." checkname="L.,RICCO" uni="25" gp="1" code="25"></player>
+  <player name="Yeboah B." shortname="Yeboah B." checkname="B.,YEBOAH" uni="26" gp="1" code="26">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Paglicci L." shortname="Paglicci L." checkname="L.,PAGLICCI" uni="28" gp="1" code="28">
+   <defense tackua="3" tacka="0"></defense>
+  </player>
+  <player name="Garlaschelli A." shortname="Garlaschelli A." checkname="A.,GARLASCHELLI" uni="29" gp="1" code="29">
+   <defense tackua="2" tacka="1"></defense>
+  </player>
+  <player name="Querzola G." shortname="Querzola G." checkname="G.,QUERZOLA" uni="30" gp="1" code="30">
+   <rush att="8" yds="24" gain="27" loss="3" td="0" long="11"></rush>
+  </player>
+  <player name="Fonti I." shortname="Fonti I." checkname="I.,FONTI" uni="31" gp="1" code="31">
+   <defense tackua="4" tacka="2" tflua="0" tfla="1" tflyds="1" brup="1"></defense>
+  </player>
+  <player name="Piccinni F." shortname="Piccinni F." checkname="F.,PICCINNI" uni="36" gp="1" code="36">
+   <defense tackua="5" tacka="1" tflua="0" tfla="1" tflyds="1"></defense>
+   <pr no="1" yds="2" td="0" long="2"></pr>
+  </player>
+  <player name="Mancini L." shortname="Mancini L." checkname="L.,MANCINI" uni="37" gp="1" code="37"></player>
+  <player name="Ruffato G." shortname="Ruffato G." checkname="G.,RUFFATO" uni="41" gp="1" code="41">
+   <rush att="3" yds="17" gain="23" loss="6" td="1" long="15"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Giuliani Osa D." shortname="Giuliani Osa D." checkname="OSA D.,GIULIANI" uni="44" gp="1" code="44">
+   <defense tackua="5" tacka="0" tflua="3" tfla="0" tflyds="21" sackua="3" sacka="0" sackyds="21" ff="1"></defense>
+  </player>
+  <player name="Gennaio Gran L." shortname="Gennaio Gran L." checkname="GRAN L.,GENNAIO" uni="50" gp="1" code="50"></player>
+  <player name="Scola A." shortname="Scola A." checkname="A.,SCOLA" uni="51" gp="1" code="51"></player>
+  <player name="Mauro S." shortname="Mauro S." checkname="S.,MAURO" uni="53" gp="1" code="53"></player>
+  <player name="Grassi C." shortname="Grassi C." checkname="C.,GRASSI" uni="54" gp="1" code="54"></player>
+  <player name="Colombo M." shortname="Colombo M." checkname="M.,COLOMBO" uni="62" gp="1" code="62"></player>
+  <player name="Zini A." shortname="Zini A." checkname="A.,ZINI" uni="64" gp="1" code="64">
+   <kr no="1" yds="11" td="0" long="11"></kr>
+  </player>
+  <player name="Gandini D." shortname="Gandini D." checkname="D.,GANDINI" uni="68" gp="1" code="68"></player>
+  <player name="Sandonati E." shortname="Sandonati E." checkname="E.,SANDONATI" uni="70" gp="1" code="70"></player>
+  <player name="Cesana L." shortname="Cesana L." checkname="L.,CESANA" uni="71" gp="1" code="71"></player>
+  <player name="Raffaele Al." shortname="Raffaele Al." checkname="AL.,RAFFAELE" uni="73" gp="1" code="73"></player>
+  <player name="Flores Calde J." shortname="Flores Calde J." checkname="CALDE J.,FLORES" uni="81" gp="1" code="81">
+   <pat kickatt="5" kickmade="5"></pat>
+   <scoring patkick="5"></scoring>
+  </player>
+  <player name="Fiammenghi F." shortname="Fiammenghi F." checkname="F.,FIAMMENGHI" uni="87" gp="1" code="87">
+   <rcv no="3" yds="62" td="0" long="43"></rcv>
+  </player>
+  <player name="Freschi L." shortname="Freschi L." checkname="L.,FRESCHI" uni="89" gp="1" code="89"></player>
+  <player name="Perego S." shortname="Perego S." checkname="S.,PEREGO" uni="90" gp="1" code="90"></player>
+  <player name="Cavallini S." shortname="Cavallini S." checkname="S.,CAVALLINI" uni="93" gp="1" code="93">
+   <defense tackua="1" tacka="2" tflua="0" tfla="1" tflyds="3" fr="1" fryds="50"></defense>
+   <fr no="1" yds="50" td="1" long="50"></fr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Taddia M." shortname="Taddia M." checkname="M.,TADDIA" uni="97" gp="1" code="97">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Nicola C." shortname="Nicola C." checkname="C.,NICOLA" uni="99" gp="1" code="99">
+   <defense tackua="1" tacka="1" tflua="1" tfla="0" tflyds="6" sackua="1" sacka="0" sackyds="6" brup="1" blkd="1"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="1" yds="-31" gain="0" loss="31" td="0" long="0"></rush>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="DOL" qtr="1" clock="10:43" type="TD" how="RUSH" yds="1" scorer="Di Galbo C." patby="Brancaccio C." pattype="KICK" patres="FAIL" plays="1" drive="1" top="0:03" vscore="6" hscore="0" driveindex="2"></score>
+  <score vh="H" team="SEA" qtr="1" clock="07:21" type="TD" how="PASS" yds="37" scorer="Castle M." passer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="9" drive="64" top="3:19" vscore="6" hscore="7" driveindex="3"></score>
+  <score vh="H" team="SEA" qtr="1" clock="05:00" type="TD" how="PASS" yds="37" scorer="Santagostino G." passer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="1" drive="37" top="0:05" vscore="6" hscore="14" driveindex="5"></score>
+  <score vh="H" team="SEA" qtr="2" clock="08:09" type="TD" how="PASS" yds="17" scorer="Castle M." passer="Zahradka L." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="6" drive="54" top="2:30" vscore="6" hscore="21" driveindex="9"></score>
+  <score vh="V" team="DOL" qtr="2" clock="03:41" type="TD" how="PASS" yds="35" scorer="Quattrone Z." passer="Di Galbo C." patby="Brancaccio C." pattype="KICK" patres="GOOD" plays="10" drive="80" top="4:23" vscore="13" hscore="21" driveindex="10"></score>
+  <score vh="H" team="SEA" qtr="4" clock="01:11" type="TD" how="RUSH" yds="15" scorer="Ruffato G." patby="Flores Calde J." pattype="KICK" patres="GOOD" plays="2" drive="23" top="0:43" vscore="13" hscore="28" driveindex="21"></score>
+  <score vh="H" team="SEA" qtr="4" clock="00:00" type="TD" how="FUMB" yds="50" scorer="Cavallini S." patby="Flores Calde J." pattype="KICK" patres="GOOD" vscore="13" hscore="35" driveindex="23"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="DOL" kicker="Brancaccio C." qtr="2" clock="00:00" distance="27" result="blkd"></fga>
+  <fga vh="V" team="DOL" kicker="Brancaccio C." qtr="3" clock="07:38" distance="38" result="missed"></fga>
+ </fgas>
+ <drives>
+  <drive vh="H" team="SEA" start="KO,1,12:00,39" end="FUMB,1,10:46,1" plays="4" yards="-38" top="1:14" driveindex="1"></drive>
+  <drive vh="V" team="DOL" start="FUMB,1,10:46,99" end="TD,1,10:43,100" plays="1" yards="1" top="0:03" rz="1" driveindex="2"></drive>
+  <drive vh="H" team="SEA" start="KO,1,10:40,36" end="TD,1,07:21,100" plays="9" yards="64" top="3:19" driveindex="3"></drive>
+  <drive vh="V" team="DOL" start="KO,1,07:01,30" end="DOWNS,1,05:05,37" plays="4" yards="7" top="1:56" driveindex="4"></drive>
+  <drive vh="H" team="SEA" start="DOWNS,1,05:05,63" end="TD,1,05:00,100" plays="1" yards="37" top="0:05" driveindex="5"></drive>
+  <drive vh="V" team="DOL" start="KO,1,04:50,28" end="PUNT,1,03:00,34" plays="5" yards="6" top="1:50" driveindex="6"></drive>
+  <drive vh="H" team="SEA" start="PUNT,1,03:00,57" end="INT,1,02:24,69" plays="2" yards="12" top="0:36" driveindex="7"></drive>
+  <drive vh="V" team="DOL" start="INT,1,02:24,9" end="DOWNS,2,10:39,54" plays="10" yards="45" top="3:45" driveindex="8"></drive>
+  <drive vh="H" team="SEA" start="DOWNS,2,10:39,46" end="TD,2,08:09,100" plays="6" yards="54" top="2:30" rz="1" driveindex="9"></drive>
+  <drive vh="V" team="DOL" start="KO,2,08:04,20" end="TD,2,03:41,100" plays="10" yards="80" top="4:23" driveindex="10"></drive>
+  <drive vh="H" team="SEA" start="KO,2,03:30,51" end="PUNT,2,01:23,38" plays="4" yards="-13" top="2:07" driveindex="11"></drive>
+  <drive vh="V" team="DOL" start="PUNT,2,01:23,23" end="FGA,2,00:00,90" plays="9" yards="67" top="1:23" rz="1" driveindex="12"></drive>
+  <drive vh="H" team="SEA" start="FGA,2,00:00,75" end="HALF,2,00:00,75" plays="0" yards="0" top="0:00" driveindex="13"></drive>
+  <drive vh="V" team="DOL" start="KO,3,12:00,32" end="FGA,3,07:38,79" plays="10" yards="47" top="4:22" rz="1" driveindex="14"></drive>
+  <drive vh="H" team="SEA" start="FGA,3,07:38,21" end="INT,3,02:18,95" plays="8" yards="74" top="5:20" rz="1" driveindex="15"></drive>
+  <drive vh="V" team="DOL" start="INT,3,02:18,19" end="PUNT,3,00:45,24" plays="3" yards="5" top="1:33" driveindex="16"></drive>
+  <drive vh="H" team="SEA" start="PUNT,3,00:45,41" end="PUNT,3,00:35,41" plays="3" yards="0" top="0:10" driveindex="17"></drive>
+  <drive vh="V" team="DOL" start="PUNT,3,00:35,35" end="DOWNS,4,09:00,75" plays="10" yards="40" top="3:35" driveindex="18"></drive>
+  <drive vh="H" team="SEA" start="DOWNS,4,09:00,25" end="PUNT,4,04:55,54" plays="8" yards="29" top="4:05" driveindex="19"></drive>
+  <drive vh="V" team="DOL" start="PUNT,4,04:55,5" end="DOWNS,4,01:54,23" plays="8" yards="18" top="3:01" driveindex="20"></drive>
+  <drive vh="H" team="SEA" start="DOWNS,4,01:54,77" end="TD,4,01:11,100" plays="2" yards="23" top="0:43" rz="1" driveindex="21"></drive>
+  <drive vh="V" team="DOL" start="KO,4,00:56,25" end="FUMB,4,00:00,50" plays="7" yards="25" top="0:56" driveindex="22"></drive>
+  <drive vh="H" team="SEA" start="FUMB,4,00:00,50" end="TD,4,00:00,50" plays="0" yards="0" top="0:00" driveindex="23"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V35" playid="0,1,0"
+      text="Dolphins Ancona win the coin toss, defer to second half"></play>
+   <play context="V,1,10,V35" playid="0,2,1" type="K"
+      text="Brancaccio C. kickoff 58 yards to the SEA7, Ali S. return 32 yards to the SEA39 (Rotelli R.)."></play>
+   <drivestart poss="H,H39,12:00" vh="H" spot="H39" clock="12:00" driveindex="1,1"></drivestart>
+   <play context="H,1,10,H39" playid="1,1,2" type="P"
+      text="Zahradka L. pass incomplete to Castle M.."></play>
+   <play context="H,2,10,H39" playid="1,2,3" type="R"
+      text="Querzola G. rush for loss of 2 yards to the SEA37 (Sherman D.)."></play>
+   <play context="H,3,12,H37" playid="1,3,4" type="P"
+      text="Zahradka L. pass incomplete to Fiammenghi F. (Quattrone Z.)."></play>
+   <play context="H,4,12,H37" playid="1,4,5" type="E"
+      text="PENALTY SEA offside (Rivelli F.) 5 yards to the SEA32."></play>
+   <play context="H,4,17,H32" playid="1,5,6" type="R" turnover="F"
+      text="TEAM rush for loss of 31 yards to the SEA1, fumble by TEAM recovered by DOL Sherman D. at SEA1."></play>
+   <drivesum plays="4" yards="-38" top="1:14" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="V,H01,12:00" vh="V" spot="H01" clock="12:00" driveindex="2,6"></drivestart>
+   <play context="V,1,0,H01" playid="2,1,7" clock="10:46"
+      text="DOLPHINS ANCONA drive start at 10:46."></play>
+   <play context="V,1,0,H01" playid="2,2,8" type="R" score="Y" clock="10:43"
+      text="Di Galbo C. rush for 1 yard to the SEA0, TOUCHDOWN, clock 10:43."></play>
+   <play context="V,1,0,H03" playid="2,3,9" type="X"
+      text="Brancaccio C. kick attempt failed."></play>
+   <score V="6" H="0"></score>
+   <drivesum plays="1" yards="1" top="0:03" driveindex="2" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="2,4,10" type="K"
+      text="Brancaccio C. kickoff 40 yards to the SEA25, Zini A. return 11 yards to the SEA36 (Ragnetti S.)."></play>
+   <drivestart poss="H,H36,10:43" vh="H" spot="H36" clock="10:43" driveindex="3,10"></drivestart>
+   <play context="H,1,10,H36" playid="3,1,11" clock="10:40"
+      text="SEAMEN MILANO drive start at 10:40."></play>
+   <play context="H,1,10,H36" playid="3,2,12" type="P" first="P"
+      text="Zahradka L. pass complete to Santagostino G. for 11 yards to the SEA47, 1ST DOWN SEA, out-of-bounds."></play>
+   <play context="H,1,10,H47" playid="3,3,13" type="R"
+      text="Querzola G. rush for 4 yards to the DOL49 (Domenicone P.)."></play>
+   <play context="H,2,6,V49" playid="3,4,14" type="P"
+      text="Zahradka L. pass incomplete to Santagostino G.."></play>
+   <play context="H,3,6,V49" playid="3,5,15" type="R" first="R"
+      text="Lamamra I. rush for 7 yards to the DOL42, 1ST DOWN SEA (Rotelli R.)."></play>
+   <play context="H,1,10,V42" playid="3,6,16" type="P"
+      text="Zahradka L. pass incomplete to Santagostino G.."></play>
+   <play context="H,2,10,V42" playid="3,7,17" type="E"
+      text="PENALTY SEA offside (Sandonati E.) 5 yards to the DOL47."></play>
+   <play context="H,2,15,V47" playid="3,8,18" type="P"
+      text="Zahradka L. pass incomplete to Fiammenghi F.."></play>
+   <play context="H,3,15,V47" playid="3,9,19" type="E" first="E"
+      text="Zahradka L. pass incomplete to Castle M., PENALTY DOL pass interference 15 yards to the DOL32, 1ST DOWN SEA, NO PLAY."></play>
+   <play context="H,1,10,V32" playid="3,10,20" type="P"
+      text="Zahradka L. pass incomplete to Castle M.."></play>
+   <play context="H,2,10,V32" playid="3,11,21" type="E"
+      text="Zahradka L. pass complete to Querzola G. for no gain to the DOL32 (Giardinieri Kr.), PENALTY SEA holding 10 yards to the DOL42, NO PLAY."></play>
+   <play context="H,2,20,V42" playid="3,12,22" type="P"
+      text="Zahradka L. pass complete to Santagostino G. for 5 yards to the DOL37 (Giardinieri Kr.)."></play>
+   <play context="H,3,15,V37" playid="3,13,23" type="P" first="P" score="Y" clock="07:21"
+      text="Zahradka L. pass complete to Castle M. for 37 yards to the DOL0, 1ST DOWN SEA, TOUCHDOWN, clock 07:21."></play>
+   <play context="H,1,0,V03" playid="3,14,24" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="6" H="7"></score>
+   <drivesum plays="9" yards="64" top="3:19" driveindex="3" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="3,15,25" type="K"
+      text="Previtali P. kickoff 51 yards to the DOL14, Giuliani L. return 16 yards to the DOL30."></play>
+   <drivestart poss="V,V30,07:21" vh="V" spot="V30" clock="07:21" driveindex="4,25"></drivestart>
+   <play context="V,1,10,V30" playid="4,1,26" clock="07:01"
+      text="DOLPHINS ANCONA drive start at 07:01."></play>
+   <play context="V,1,10,V30" playid="4,2,27" type="R"
+      text="Giuliani L. rush for 1 yard to the DOL31 (Khay K.)."></play>
+   <play context="V,2,9,V31" playid="4,3,28" type="P"
+      text="Di Galbo C. pass complete to Sherman D. for 7 yards to the DOL38 (Piccinni F.)."></play>
+   <play context="V,3,2,V38" playid="4,4,29" type="R"
+      text="Giuliani L. rush for 1 yard to the DOL39 (Nicola C.;Khay K.)."></play>
+   <play context="V,4,1,V39" playid="4,5,30" type="#" clock="05:09"
+      text="Timeout DOLPHINS ANCONA, clock 05:09."></play>
+   <play context="V,4,1,V39" playid="4,6,31" type="R"
+      text="Di Galbo C. rush for loss of 2 yards to the DOL37 (Calegari T.)."></play>
+   <drivesum plays="4" yards="7" top="1:56" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,V37,05:09" vh="H" spot="V37" clock="05:09" driveindex="5,31"></drivestart>
+   <play context="H,1,10,V37" playid="5,1,32" clock="05:05"
+      text="SEAMEN MILANO drive start at 05:05."></play>
+   <play context="H,1,10,V37" playid="5,2,33" type="P" first="P" score="Y" clock="05:00"
+      text="Zahradka L. pass complete to Santagostino G. for 37 yards to the DOL0, 1ST DOWN SEA, TOUCHDOWN, clock 05:00."></play>
+   <play context="H,1,0,V03" playid="5,3,34" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="6" H="14"></score>
+   <drivesum plays="1" yards="37" top="0:05" driveindex="5" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="5,4,35" type="K"
+      text="Previtali P. kickoff 60 yards to the DOL5, Nocera A. return 23 yards to the DOL28 (Mensah E.)."></play>
+   <drivestart poss="V,V28,05:00" vh="V" spot="V28" clock="05:00" driveindex="6,35"></drivestart>
+   <play context="V,1,10,V28" playid="6,1,36" clock="04:50"
+      text="DOLPHINS ANCONA drive start at 04:50."></play>
+   <play context="V,1,10,V28" playid="6,2,37" type="P"
+      text="Di Galbo C. pass complete to Orlandini F. for 8 yards to the DOL36."></play>
+   <play context="V,2,2,V36" playid="6,3,38" type="P" first="P"
+      text="Di Galbo C. pass complete to Quattrone Z. for 9 yards to the DOL45, 1ST DOWN DOL, out-of-bounds (Fonti I.)."></play>
+   <play context="V,1,10,V45" playid="6,4,39" type="P"
+      text="Di Galbo C. pass incomplete to Brancaccio C.."></play>
+   <play context="V,2,10,V45" playid="6,5,40" type="P"
+      text="Di Galbo C. pass incomplete to Gianfelici E.."></play>
+   <play context="V,3,10,V45" playid="6,6,41" type="P"
+      text="Di Galbo C. sacked for loss of 11 yards to the DOL34 (Khay K.)."></play>
+   <play context="V,4,21,V34" playid="6,7,42" type="U"
+      text="Quattrone Z. punt 9 yards to the DOL43, out-of-bounds."></play>
+   <drivesum plays="5" yards="6" top="1:50" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,V43,04:50" vh="H" spot="V43" clock="04:50" driveindex="7,42"></drivestart>
+   <play context="H,1,10,V43" playid="7,1,43" clock="03:00"
+      text="SEAMEN MILANO drive start at 03:00."></play>
+   <play context="H,1,10,V43" playid="7,2,44" type="R" first="R"
+      text="Zahradka L. rush for 12 yards to the DOL31, 1ST DOWN SEA (Domenicone P.;Quattrone Z.)."></play>
+   <play context="H,1,10,V31" playid="7,3,45" type="P" turnover="I"
+      text="Zahradka L. pass intercepted by Rotelli R. at the DOL9, Rotelli R. return 0 yards to the DOL9."></play>
+   <drivesum plays="2" yards="12" top="0:36" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,V09,03:00" vh="V" spot="V09" clock="03:00" driveindex="8,45"></drivestart>
+   <play context="V,1,10,V09" playid="8,1,46" clock="02:24"
+      text="DOLPHINS ANCONA drive start at 02:24."></play>
+   <play context="V,1,10,V09" playid="8,2,47" type="R"
+      text="Giuliani L. rush for loss of 2 yards to the DOL7 (Fonti I.;Piccinni F.)."></play>
+   <play context="V,2,12,V07" playid="8,3,48" type="P"
+      text="Di Galbo C. pass complete to Zoppi M. for 6 yards to the DOL13 (Paglicci L.)."></play>
+   <play context="V,3,6,V13" playid="8,4,49" type="R" first="R"
+      text="Di Galbo C. rush for 13 yards to the DOL26, 1ST DOWN DOL (Paglicci L.)."></play>
+   <play context="V,1,10,V26" playid="8,5,50" type="P" first="P"
+      text="Di Galbo C. pass complete to Zoppi M. for 16 yards to the DOL42, 1ST DOWN DOL, out-of-bounds (Paglicci L.)."></play>
+   <play context="V,1,10,V42" playid="8,6,51" type="P"
+      text="Di Galbo C. pass incomplete to Zoppi M.."></play>
+   <play context="V,2,10,V42" playid="8,7,52" type="R" first="R"
+      text="Di Galbo C. rush for 11 yards to the SEA47, 1ST DOWN DOL (Khay K.;Cavallini S.)."></play>
+   <score qtr="1" V="6" H="14"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="DOL">
+    <firstdowns no="4" rush="2" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:43"></misc>
+    <rush att="8" yds="12" gain="27" loss="15" td="1" long="13"></rush>
+    <pass comp="5" att="8" int="0" yds="46" td="0" long="16" sacks="1" sackyds="11"></pass>
+    <rcv no="5" yds="46" td="0" long="16"></rcv>
+    <punt no="1" yds="9" long="9" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="98" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="6" tacka="2" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0" brup="1" fr="1" fryds="0" int="1" intyds="0"></defense>
+    <kr no="2" yds="39" td="0" long="23"></kr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="6" rush="2" pass="3" penalty="1"></firstdowns>
+    <penalties no="3" yds="20"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="05:17"></misc>
+    <rush att="5" yds="-10" gain="23" loss="33" td="0" long="12"></rush>
+    <pass comp="4" att="11" int="1" yds="90" td="2" long="37" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="90" td="2" long="37"></rcv>
+    <ko no="2" yds="111" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="9" tacka="6" tflua="4" tfla="0" tflyds="17" sacks="1" sackyds="11"></defense>
+    <kr no="2" yds="43" td="0" long="32"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,1,10,H47" playid="8,8,53" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="V,1,10,H47" playid="8,9,54" type="P"
+      text="Di Galbo C. pass complete to Quattrone Z. for 5 yards to the SEA42 (Fonti I.)."></play>
+   <play context="V,2,5,H42" playid="8,10,55" type="P"
+      text="Di Galbo C. sacked for loss of 13 yards to the DOL45 (Giuliani Osa D.)."></play>
+   <play context="V,3,18,V45" playid="8,11,56" type="P"
+      text="Di Galbo C. pass complete to Zoppi M. for 13 yards to the SEA42 (Giuliani Osa D.)."></play>
+   <play context="V,4,5,H42" playid="8,12,57" type="P"
+      text="Di Galbo C. sacked for loss of 4 yards to the SEA46 (Gallo E.)."></play>
+   <drivesum plays="10" yards="45" top="3:45" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="H,H46,12:00" vh="H" spot="H46" clock="12:00" driveindex="9,57"></drivestart>
+   <play context="H,1,10,H46" playid="9,1,58" clock="10:39"
+      text="SEAMEN MILANO drive start at 10:39."></play>
+   <play context="H,1,10,H46" playid="9,2,59" type="P" first="P"
+      text="Zahradka L. pass complete to Fiammenghi F. for 11 yards to the DOL43, 1ST DOWN SEA, out-of-bounds (Ragnetti S.)."></play>
+   <play context="H,1,10,V43" playid="9,3,60" type="R" first="R"
+      text="Querzola G. rush for 11 yards to the DOL32, 1ST DOWN SEA (Quattrone Z.)."></play>
+   <play context="H,1,10,V32" playid="9,4,61" type="P"
+      text="Zahradka L. pass complete to Fiammenghi F. for 8 yards to the DOL24 (Giardinieri Kr.;Rotelli R.)."></play>
+   <play context="H,2,2,V24" playid="9,5,62" type="P"
+      text="Zahradka L. pass incomplete to Fiammenghi F.."></play>
+   <play context="H,3,2,V24" playid="9,6,63" type="P" first="P"
+      text="Zahradka L. pass complete to Lamamra I. for 7 yards to the DOL17, 1ST DOWN SEA (Petrilli R.)."></play>
+   <play context="H,1,10,V17" playid="9,7,64" type="P" first="P" score="Y" clock="08:09"
+      text="Zahradka L. pass complete to Castle M. for 17 yards to the DOL0, 1ST DOWN SEA, TOUCHDOWN, clock 08:09."></play>
+   <play context="H,1,0,V03" playid="9,8,65" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="6" H="21"></score>
+   <drivesum plays="6" yards="54" top="2:30" driveindex="9" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="9,9,66" type="K"
+      text="Previtali P. kickoff 60 yards to the DOL5, Nocera A. return 15 yards to the DOL20 (Rivelli F.)."></play>
+   <drivestart poss="V,V20,08:09" vh="V" spot="V20" clock="08:09" driveindex="10,66"></drivestart>
+   <play context="V,1,10,V20" playid="10,1,67" clock="08:04"
+      text="DOLPHINS ANCONA drive start at 08:04."></play>
+   <play context="V,1,10,V20" playid="10,2,68" type="P"
+      text="Di Galbo C. pass incomplete to Gianfelici E. (Calegari T.)."></play>
+   <play context="V,2,10,V20" playid="10,3,69" type="P" first="P"
+      text="Di Galbo C. pass complete to Zoppi M. for 12 yards to the DOL32, 1ST DOWN DOL (Ali S.)."></play>
+   <play context="V,1,10,V32" playid="10,4,70" type="P"
+      text="Di Galbo C. pass complete to Sherman D. for 6 yards to the DOL38 (Aguirre A.;Mensah E.)."></play>
+   <play context="V,2,4,V38" playid="10,5,71" type="P"
+      text="Di Galbo C. pass incomplete to Zoppi M.."></play>
+   <play context="V,3,4,V38" playid="10,6,72" type="P" first="P"
+      text="Di Galbo C. pass complete to Orlandini F. for 6 yards to the DOL44, 1ST DOWN DOL, out-of-bounds (Calegari T.)."></play>
+   <play context="V,1,10,V44" playid="10,7,73" type="P"
+      text="Di Galbo C. pass complete to Gianfelici E. for 3 yards to the DOL47 (Garlaschelli A.;Fonti I.)."></play>
+   <play context="V,2,7,V47" playid="10,8,74" type="P" first="P"
+      text="Di Galbo C. pass complete to Zoppi M. for 8 yards to the SEA45, 1ST DOWN DOL (Ali S.)."></play>
+   <play context="V,1,10,H45" playid="10,9,75" type="E" first="E"
+      text="Di Galbo C. pass incomplete to Zoppi M., PENALTY SEA pass interference (Ali S.) 15 yards to the SEA30, 1ST DOWN DOL, NO PLAY."></play>
+   <play context="V,1,10,H30" playid="10,10,76" type="P"
+      text="Di Galbo C. sacked for loss of 5 yards to the SEA35 (Rivelli F.)."></play>
+   <play context="V,2,15,H35" playid="10,11,77" type="P"
+      text="Di Galbo C. pass incomplete to Zoppi M.."></play>
+   <play context="V,3,15,H35" playid="10,12,78" type="P" first="P" score="Y" clock="03:41"
+      text="Di Galbo C. pass complete to Quattrone Z. for 35 yards to the SEA0, 1ST DOWN DOL, TOUCHDOWN, clock 03:41."></play>
+   <play context="V,1,0,H03" playid="10,13,79" type="X" score="Y"
+      text="Brancaccio C. kick attempt good."></play>
+   <score V="13" H="21"></score>
+   <drivesum plays="10" yards="80" top="4:23" driveindex="10" complete="Y"></drivesum>
+   <play context="V,1,0,V35" playid="10,14,80" type="K"
+      text="Brancaccio C. kickoff 57 yards to the SEA8, Ali S. return 43 yards to the DOL49, out-of-bounds (Rotelli R.)."></play>
+   <drivestart poss="H,V49,03:41" vh="H" spot="V49" clock="03:41" driveindex="11,80"></drivestart>
+   <play context="H,1,10,V49" playid="11,1,81" clock="03:30"
+      text="SEAMEN MILANO drive start at 03:30."></play>
+   <play context="H,1,10,V49" playid="11,2,82" type="P" first="P"
+      text="Zahradka L. pass complete to Castle M. for 14 yards to the DOL35, 1ST DOWN SEA, out-of-bounds (Giardinieri Kr.)."></play>
+   <play context="H,1,10,V35" playid="11,3,83" type="R"
+      text="Querzola G. rush for 1 yard to the DOL34 (Domenicone P.)."></play>
+   <play context="H,2,9,V34" playid="11,4,84" type="P"
+      text="Zahradka L. sacked for loss of 12 yards to the DOL46 (Evangelisti L.)."></play>
+   <play context="H,3,21,V46" playid="11,5,85" type="E"
+      text="Zahradka L. pass complete to Castle M. for 21 yards to the DOL25 (Quattrone Z.;Sherman D.), PENALTY SEA holding 10 yards to the SEA44, NO PLAY."></play>
+   <play context="H,3,31,H44" playid="11,6,86" type="#" clock="01:41"
+      text="Timeout Seamen Milano, clock 01:41."></play>
+   <play context="H,3,31,H44" playid="11,7,87" type="P"
+      text="Zahradka L. sacked for loss of 6 yards to the SEA38 (Magara N.)."></play>
+   <play context="H,4,37,H38" playid="11,8,88" type="U"
+      text="Previtali P. punt 39 yards to the DOL23."></play>
+   <drivesum plays="4" yards="-13" top="2:07" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="V,V23,01:41" vh="V" spot="V23" clock="01:41" driveindex="12,88"></drivestart>
+   <play context="V,1,10,V23" playid="12,1,89" clock="01:23"
+      text="DOLPHINS ANCONA drive start at 01:23."></play>
+   <play context="V,1,10,V23" playid="12,2,90" type="P"
+      text="Di Galbo C. pass incomplete (Santagostino G.)."></play>
+   <play context="V,2,10,V23" playid="12,3,91" type="P"
+      text="Di Galbo C. pass complete to Gianfelici E. for 5 yards to the DOL28 (Garlaschelli A.)."></play>
+   <play context="V,3,5,V28" playid="12,4,92" type="P" first="P"
+      text="Di Galbo C. pass complete to Gianfelici E. for 10 yards to the DOL38, 1ST DOWN DOL, out-of-bounds (Cavallini S.)."></play>
+   <play context="V,1,10,V38" playid="12,5,93" type="P"
+      text="Di Galbo C. pass incomplete (Nicola C.)."></play>
+   <play context="V,2,10,V38" playid="12,6,94" type="P" first="P"
+      text="Di Galbo C. pass complete to Zoppi M. for 33 yards to the SEA29, 1ST DOWN DOL."></play>
+   <play context="V,1,10,H29" playid="12,7,95" type="P" first="P"
+      text="Di Galbo C. pass complete to Zoppi M. for 14 yards to the SEA15, 1ST DOWN DOL (Ali S.)."></play>
+   <play context="V,1,10,H15" playid="12,8,96" type="P"
+      text="Di Galbo C. pass complete to Zoppi M. for 5 yards to the SEA10, out-of-bounds."></play>
+   <play context="V,2,5,H10" playid="12,9,97" type="P"
+      text="Di Galbo C. pass incomplete to Sherman D.."></play>
+   <play context="V,3,5,H10" playid="12,10,98" type="P"
+      text="Di Galbo C. pass incomplete to Orlandini F.."></play>
+   <play context="V,4,5,H10" playid="12,11,99" type="#" clock="00:03"
+      text="Timeout DOLPHINS ANCONA, clock 00:03."></play>
+   <play context="V,4,5,H10" playid="12,12,100" type="F" clock="00:00"
+      text="Brancaccio C. field goal attempt from 27 BLOCKED, recovered by DOL Rotelli R. at DOL25 spot at DOL25, clock 00:00 (blocked by Nicola C.)."></play>
+   <drivesum plays="9" yards="67" top="1:23" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="H,V25,00:00" vh="H" spot="V25" clock="00:00" driveindex="13,100"></drivestart>
+   <play context="H,1,10,V25" playid="13,1,101" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="13" complete="Y"></drivesum>
+   <score qtr="2" V="13" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="DOL">
+    <firstdowns no="8" rush="0" pass="7" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="4" thirdatt="6" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="-65" top="07:12"></misc>
+    <rush att="3" yds="-22" gain="0" loss="22" td="0" long="0"></rush>
+    <pass comp="13" att="20" int="0" yds="155" td="1" long="19" sacks="3" sackyds="22"></pass>
+    <rcv no="13" yds="155" td="1" long="19"></rcv>
+    <ko no="1" yds="57" ob="0" tb="0"></ko>
+    <fg made="0" att="1" long="0" blkd="1"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="8" tacka="2" tflua="2" tfla="0" tflyds="18" sacks="2" sackyds="18"></defense>
+    <kr no="1" yds="15" td="0" long="0"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="5" rush="1" pass="4" penalty="0"></firstdowns>
+    <penalties no="2" yds="25"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:48"></misc>
+    <rush att="4" yds="-6" gain="12" loss="18" td="0" long="0"></rush>
+    <pass comp="5" att="6" int="0" yds="57" td="1" long="0" sacks="2" sackyds="18"></pass>
+    <rcv no="5" yds="57" td="1" long="0"></rcv>
+    <punt no="1" yds="39" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="60" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="12" tacka="4" tflua="3" tfla="0" tflyds="22" sacks="4" sackyds="33" brup="3" blkd="1"></defense>
+    <kr no="1" yds="43" td="0" long="11"></kr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="H,1,10,V25" playid="13,2,102" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00."></play>
+   <play context="H,1,10,V25" playid="13,3,103" type="K"
+      text="Previtali P. kickoff 21 yards to the DOL4, Nocera A. return 28 yards to the DOL32 (Yeboah B.)."></play>
+   <drivestart poss="V,V32,12:00" vh="V" spot="V32" clock="12:00" driveindex="14,103"></drivestart>
+   <play context="V,1,10,V32" playid="14,1,104" clock="12:00"
+      text="DOLPHINS ANCONA drive start at 12:00."></play>
+   <play context="V,1,10,V32" playid="14,2,105" type="P"
+      text="Di Galbo C. pass complete to Orlandini F. for 4 yards to the DOL36 (Piccinni F.)."></play>
+   <play context="V,2,6,V36" playid="14,3,106" type="P" first="P"
+      text="Di Galbo C. pass complete to Gianfelici E. for 6 yards to the DOL42, 1ST DOWN DOL (Garlaschelli A.)."></play>
+   <play context="V,1,10,V42" playid="14,4,107" type="P" first="P"
+      text="Di Galbo C. pass complete to Sherman D. for 11 yards to the SEA47, 1ST DOWN DOL, out-of-bounds (Calegari T.)."></play>
+   <play context="V,1,10,H47" playid="14,5,108" type="P"
+      text="Di Galbo C. pass incomplete to Brancaccio C.."></play>
+   <play context="V,2,10,H47" playid="14,6,109" type="P"
+      text="Di Galbo C. pass complete to Gianfelici R. for 4 yards to the SEA43 (Piccinni F.)."></play>
+   <play context="V,3,6,H43" playid="14,7,110" type="P"
+      text="Di Galbo C. pass incomplete to Giuliani L., dropped pass."></play>
+   <play context="V,4,6,H43" playid="14,8,111" type="E" first="E"
+      text="Di Galbo C. pass complete to Nocera A. for 8 yards to the SEA35, out-of-bounds (Calegari T.), PENALTY SEA holding 10 yards to the SEA33, 1ST DOWN DOL, NO PLAY."></play>
+   <play context="V,1,10,H33" playid="14,9,112" type="P" first="P"
+      text="Di Galbo C. pass complete to Orlandini F. for 18 yards to the SEA15, 1ST DOWN DOL (Aguirre A.)."></play>
+   <play context="V,1,10,H15" playid="14,10,113" type="P"
+      text="Di Galbo C. sacked for loss of 6 yards to the SEA21 (Nicola C.)."></play>
+   <play context="V,2,16,H21" playid="14,11,114" type="P"
+      text="Di Galbo C. pass incomplete to Gianfelici E.."></play>
+   <play context="V,3,16,H21" playid="14,12,115" type="P"
+      text="Di Galbo C. pass incomplete to Sherman D.."></play>
+   <play context="V,4,16,H21" playid="14,13,116" type="F" clock="07:38"
+      text="Brancaccio C. field goal attempt from 38 MISSED - short, spot at SEA21, clock 07:38."></play>
+   <drivesum plays="10" yards="47" top="4:22" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="H,H21,07:38" vh="H" spot="H21" clock="07:38" driveindex="15,116"></drivestart>
+   <play context="H,1,10,H21" playid="15,1,117" clock="07:38"
+      text="SEAMEN MILANO drive start at 07:38."></play>
+   <play context="H,1,10,H21" playid="15,2,118" type="P"
+      text="Zahradka L. pass complete to Castle M. for 4 yards to the SEA25, out-of-bounds (Quattrone Z.)."></play>
+   <play context="H,2,6,H25" playid="15,3,119" type="R"
+      text="Zahradka L. rush for loss of 8 yards to the SEA17."></play>
+   <play context="H,3,14,H17" playid="15,4,120" type="E"
+      text="Zahradka L. pass complete to Santagostino G. for 72 yards to the DOL11 (Quattrone Z.), PENALTY SEA holding 10 yards to the SEA7, NO PLAY."></play>
+   <play context="H,3,24,H07" playid="15,5,121" type="E" first="E"
+      text="Zahradka L. pass incomplete to Castle M. (Quattrone Z.), PENALTY DOL pass interference (Quattrone Z.) 16 yards to the SEA23, 1ST DOWN SEA, NO PLAY."></play>
+   <play context="H,1,10,H23" playid="15,6,122" type="R"
+      text="Querzola G. rush for loss of 1 yard to the SEA22 (Domenicone P.;Giardinieri Kr.)."></play>
+   <play context="H,2,11,H22" playid="15,7,123" type="P" first="P"
+      text="Zahradka L. pass complete to Fiammenghi F. for 43 yards to the DOL35, 1ST DOWN SEA (Giardinieri Kr.)."></play>
+   <play context="H,1,10,V35" playid="15,8,124" type="R" first="R"
+      text="Castle M. rush for 16 yards to the DOL19, 1ST DOWN SEA, out-of-bounds (Petrilli R.)."></play>
+   <play context="H,1,10,V19" playid="15,9,125" type="P"
+      text="Zahradka L. pass complete to Santagostino G. for 7 yards to the DOL12, out-of-bounds (Rotelli R.)."></play>
+   <play context="H,2,3,V12" playid="15,10,126" type="R" first="R"
+      text="Querzola G. rush for 7 yards to the DOL5, 1ST DOWN SEA (Giardinieri Kr.;Lorenzi B.)."></play>
+   <play context="H,1,0,V05" playid="15,11,127" type="P" turnover="I"
+      text="Zahradka L. pass intercepted by Quattrone Z. at the DOL0, Quattrone Z. return 19 yards to the DOL19 (Giuliani Osa D.)."></play>
+   <drivesum plays="8" yards="74" top="5:20" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V19,07:38" vh="V" spot="V19" clock="07:38" driveindex="16,127"></drivestart>
+   <play context="V,1,10,V19" playid="16,1,128" clock="02:18"
+      text="DOLPHINS ANCONA drive start at 02:18."></play>
+   <play context="V,1,10,V19" playid="16,2,129" type="P"
+      text="Di Galbo C. pass incomplete to Sherman D.."></play>
+   <play context="V,2,10,V19" playid="16,3,130" type="#" clock="01:50"
+      text="Timeout Seamen Milano, clock 01:50."></play>
+   <play context="V,2,10,V19" playid="16,4,131" type="P"
+      text="Di Galbo C. pass complete to Nocera A. for 5 yards to the DOL24."></play>
+   <play context="V,3,5,V24" playid="16,5,132" type="P"
+      text="Di Galbo C. pass incomplete."></play>
+   <play context="V,4,5,V24" playid="16,6,133" type="U"
+      text="Quattrone Z. punt 37 yards to the SEA39, Piccinni F. return 2 yards to the SEA41 (Gambelli A.)."></play>
+   <drivesum plays="3" yards="5" top="1:33" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="H,H41,01:50" vh="H" spot="H41" clock="01:50" driveindex="17,133"></drivestart>
+   <play context="H,1,10,H41" playid="17,1,134" clock="00:45"
+      text="SEAMEN MILANO drive start at 00:45."></play>
+   <play context="H,1,10,H41" playid="17,2,135" type="P"
+      text="Zahradka L. pass incomplete to Santagostino G.."></play>
+   <play context="H,2,10,H41" playid="17,3,136" type="P"
+      text="Zahradka L. pass incomplete to Lamamra I.."></play>
+   <play context="H,3,10,H41" playid="17,4,137" type="P"
+      text="Zahradka L. pass complete to Lamamra I. for no gain to the SEA41."></play>
+   <play context="H,4,10,H41" playid="17,5,138" type="U"
+      text="Previtali P. punt 24 yards to the DOL35, fair catch by Quattrone Z.."></play>
+   <drivesum plays="3" yards="0" top="0:10" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="V,V35,00:45" vh="V" spot="V35" clock="00:45" driveindex="18,138"></drivestart>
+   <play context="V,1,10,V35" playid="18,1,139" clock="00:35"
+      text="DOLPHINS ANCONA drive start at 00:35."></play>
+   <play context="V,1,10,V35" playid="18,2,140" type="P"
+      text="Di Galbo C. pass incomplete to Nocera A.."></play>
+   <play context="V,2,10,V35" playid="18,3,141" type="P" first="P"
+      text="Di Galbo C. pass complete to Orlandini F. for 24 yards to the SEA41, 1ST DOWN DOL (Aguirre A.)."></play>
+   <play context="V,1,10,H41" playid="18,4,142" type="P"
+      text="Di Galbo C. pass complete to Gianfelici E. for 8 yards to the SEA33 (Ali S.)."></play>
+   <score qtr="3" V="13" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="DOL">
+    <firstdowns no="5" rush="0" pass="4" penalty="1"></firstdowns>
+    <penalties no="1" yds="16"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:30"></misc>
+    <rush att="1" yds="-6" gain="0" loss="6" td="0" long="0"></rush>
+    <pass comp="8" att="15" int="0" yds="80" td="0" long="0" sacks="1" sackyds="6"></pass>
+    <rcv no="8" yds="80" td="0" long="0"></rcv>
+    <punt no="1" yds="37" long="28" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <defense tackua="5" tacka="4" tflua="2" tfla="0" tflyds="2" sacks="2" sackyds="18" int="1" intyds="19"></defense>
+    <kr no="1" yds="28" td="0" long="5"></kr>
+    <ir no="1" yds="19" td="0" long="19"></ir>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="4" rush="2" pass="1" penalty="1"></firstdowns>
+    <penalties no="2" yds="20"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:30"></misc>
+    <rush att="4" yds="14" gain="23" loss="9" td="0" long="4"></rush>
+    <pass comp="4" att="7" int="1" yds="54" td="0" long="6" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="54" td="0" long="6"></rcv>
+    <punt no="1" yds="24" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="21" ob="0" tb="0"></ko>
+    <defense tackua="10" tacka="0" tflua="1" tfla="0" tflyds="6" sacks="5" sackyds="39"></defense>
+    <pr no="1" yds="2" td="0" long="2"></pr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="V,2,2,H33" playid="18,5,143" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="V,2,2,H33" playid="18,6,144" type="P" first="P"
+      text="Di Galbo C. pass complete to Nocera A. for 3 yards to the SEA30, 1ST DOWN DOL (Piccinni F.)."></play>
+   <play context="V,1,10,H30" playid="18,7,145" type="R"
+      text="Di Galbo C. rush for 4 yards to the SEA26."></play>
+   <play context="V,2,6,H26" playid="18,8,146" type="P" first="P"
+      text="Di Galbo C. pass complete to Zoppi M. for 6 yards to the SEA20, 1ST DOWN DOL, out-of-bounds (Ali S.)."></play>
+   <play context="V,1,10,H20" playid="18,9,147" type="P"
+      text="Di Galbo C. pass incomplete to Gianfelici E.."></play>
+   <play context="V,2,10,H20" playid="18,10,148" type="P"
+      text="Di Galbo C. pass incomplete to Orlandini F. (Fonti I.)."></play>
+   <play context="V,3,10,H20" playid="18,11,149" type="R"
+      text="Di Galbo C. rush for loss of 5 yards to the SEA25 (Cavallini S.;Taddia M.)."></play>
+   <play context="V,4,15,H25" playid="18,12,150" type="#" clock="09:30"
+      text="Timeout Seamen Milano, clock 09:30."></play>
+   <play context="V,4,15,H25" playid="18,13,151" type="P"
+      text="Di Galbo C. pass incomplete."></play>
+   <drivesum plays="10" yards="40" top="3:35" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="H,H25,09:30" vh="H" spot="H25" clock="09:30" driveindex="19,151"></drivestart>
+   <play context="H,1,10,H25" playid="19,1,152" clock="09:00"
+      text="SEAMEN MILANO drive start at 09:00."></play>
+   <play context="H,1,10,H25" playid="19,2,153" type="R"
+      text="Querzola G. rush for 4 yards to the SEA29 (Domenicone P.)."></play>
+   <play context="H,2,6,H29" playid="19,3,154" type="P"
+      text="Zahradka L. pass incomplete to Fiammenghi F. (Petrilli R.)."></play>
+   <play context="H,3,6,H29" playid="19,4,155" type="P" first="P"
+      text="Zahradka L. pass complete to Bassi L. for 31 yards to the DOL40, 1ST DOWN SEA, out-of-bounds (Quattrone Z.)."></play>
+   <play context="H,1,10,V40" playid="19,5,156" type="R"
+      text="Querzola G. rush for no gain to the DOL40 (Domenicone P.)."></play>
+   <play context="H,2,10,V40" playid="19,6,157" type="P" first="P"
+      text="Zahradka L. pass complete to Castle M. for 14 yards to the DOL26, 1ST DOWN SEA (Quattrone Z.)."></play>
+   <play context="H,1,10,V26" playid="19,7,158" type="R"
+      text="Ruffato G. rush for loss of 6 yards to the DOL32 (Luciani M.)."></play>
+   <play context="H,2,16,V32" playid="19,8,159" type="P"
+      text="Zahradka L. sacked for loss of 9 yards to the DOL41 (Evangelisti L.)."></play>
+   <play context="H,3,25,V41" playid="19,9,160" type="P"
+      text="Zahradka L. pass incomplete to Fiammenghi F.."></play>
+   <play context="H,4,25,V41" playid="19,10,161" type="E"
+      text="PENALTY SEA offside 5 yards to the DOL46."></play>
+   <play context="H,4,30,V46" playid="19,11,162" type="U"
+      text="Previtali P. punt 41 yards to the DOL5."></play>
+   <drivesum plays="8" yards="29" top="4:05" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="V,V05,09:00" vh="V" spot="V05" clock="09:00" driveindex="20,162"></drivestart>
+   <play context="V,1,10,V05" playid="20,1,163" clock="04:55"
+      text="DOLPHINS ANCONA drive start at 04:55."></play>
+   <play context="V,1,10,V05" playid="20,2,164" type="R"
+      text="Sherman D. rush for 9 yards to the DOL14 (Fonti N.)."></play>
+   <play context="V,2,1,V14" playid="20,3,165" type="P"
+      text="Di Galbo C. pass incomplete to Sherman D.."></play>
+   <play context="V,3,1,V14" playid="20,4,166" type="P" first="P"
+      text="Di Galbo C. pass complete to Quattrone Z. for 3 yards to the DOL17, 1ST DOWN DOL, out-of-bounds (Fonti I.)."></play>
+   <play context="V,1,10,V17" playid="20,5,167" type="P" first="P"
+      text="Di Galbo C. pass complete to Nocera A. for 10 yards to the DOL27, 1ST DOWN DOL (Fonti I.)."></play>
+   <play context="V,1,10,V27" playid="20,6,168" type="R"
+      text="Giuliani L. rush for 6 yards to the DOL33 (Piccinni F.)."></play>
+   <play context="V,2,4,V33" playid="20,7,169" type="P"
+      text="Di Galbo C. sacked for loss of 6 yards to the DOL27 (Mensah E.)."></play>
+   <play context="V,3,10,V27" playid="20,8,170" type="P"
+      text="Di Galbo C. pass incomplete to Zoppi M.."></play>
+   <play context="V,4,10,V27" playid="20,9,171" type="P"
+      text="Di Galbo C. sacked for loss of 4 yards to the DOL23 (Giuliani Osa D.), PENALTY DOL holding declined."></play>
+   <drivesum plays="8" yards="18" top="3:01" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="H,V23,04:55" vh="H" spot="V23" clock="04:55" driveindex="21,171"></drivestart>
+   <play context="H,1,10,V23" playid="21,1,172" clock="01:54"
+      text="SEAMEN MILANO drive start at 01:54."></play>
+   <play context="H,1,10,V23" playid="21,2,173" type="R"
+      text="Ruffato G. rush for 8 yards to the DOL15 (Rotelli R.)."></play>
+   <play context="H,2,2,V15" playid="21,3,174" type="#" clock="01:17"
+      text="Timeout DOLPHINS ANCONA, clock 01:17."></play>
+   <play context="H,2,2,V15" playid="21,4,175" type="R" first="R" score="Y" clock="01:11"
+      text="Ruffato G. rush for 15 yards to the DOL0, 1ST DOWN SEA, TOUCHDOWN, clock 01:11."></play>
+   <play context="H,1,0,V03" playid="21,5,176" type="X" score="Y"
+      text="Flores Calde J. kick attempt good, PENALTY DOL illegal formation declined."></play>
+   <score V="13" H="28"></score>
+   <drivesum plays="2" yards="23" top="0:43" driveindex="21" complete="Y"></drivesum>
+   <play context="H,1,0,H35" playid="21,6,177" type="K"
+      text="Previtali P. kickoff 59 yards to the DOL6, Giuliani L. return 19 yards to the DOL25 (Mensah E.)."></play>
+   <drivestart poss="V,V25,01:11" vh="V" spot="V25" clock="01:11" driveindex="22,177"></drivestart>
+   <play context="V,1,10,V25" playid="22,1,178" clock="00:56"
+      text="DOLPHINS ANCONA drive start at 00:56."></play>
+   <play context="V,1,10,V25" playid="22,2,179" type="P" first="P"
+      text="Di Galbo C. pass complete to Quattrone Z. for 10 yards to the DOL35, 1ST DOWN DOL (Aguirre A.)."></play>
+   <play context="V,1,10,V35" playid="22,3,180" type="P" first="P"
+      text="Di Galbo C. pass complete to Quattrone Z. for 11 yards to the DOL46, 1ST DOWN DOL, out-of-bounds (Ali S.)."></play>
+   <play context="V,1,10,V46" playid="22,4,181" type="R"
+      text="Di Galbo C. rush for 8 yards to the SEA46, out-of-bounds."></play>
+   <play context="V,2,2,H46" playid="22,5,182" type="P" first="P"
+      text="Di Galbo C. pass complete to Flamini T. for 2 yards to the SEA44, 1ST DOWN DOL, out-of-bounds (Khay K.)."></play>
+   <play context="V,1,10,H44" playid="22,6,183" type="#" clock="00:12"
+      text="Timeout DOLPHINS ANCONA, clock 00:12."></play>
+   <play context="V,1,10,H44" playid="22,7,184" type="P"
+      text="Di Galbo C. pass incomplete to Zoppi M.."></play>
+   <play context="V,2,10,H44" playid="22,8,185" type="P"
+      text="Di Galbo C. pass incomplete to Zoppi M.."></play>
+   <play context="V,3,10,H44" playid="22,9,186" type="P" score="Y" turnover="F" clock="00:00"
+      text="Di Galbo C. sacked for loss of 4 yards to the SEA48 (Giuliani Osa D.), fumble by Di Galbo C. recovered by SEA Cavallini S. at 50 yardline, Cavallini S. for 50 yards to the DOL0, TOUCHDOWN, clock 00:00."></play>
+   <drivesum plays="7" yards="25" top="0:56" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="H,V03,00:00" vh="H" spot="V03" clock="00:00" driveindex="23,186"></drivestart>
+   <play context="H,1,0,V03" playid="23,1,187" type="X" score="Y"
+      text="Flores Calde J. kick attempt good."></play>
+   <score V="13" H="35"></score>
+   <play context="H,1,0,H35" playid="23,2,188" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="23" complete="Y"></drivesum>
+   <score final="Y" V="13" H="35"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="DOL">
+    <firstdowns no="7" rush="0" pass="7" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="2"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="07:12"></misc>
+    <rush att="8" yds="6" gain="27" loss="21" td="0" long="0"></rush>
+    <pass comp="7" att="14" int="0" yds="45" td="0" long="0" sacks="3" sackyds="14"></pass>
+    <rcv no="7" yds="45" td="0" long="0"></rcv>
+    <defense tackua="7" tacka="0" tflua="2" tfla="0" tflyds="15" sacks="3" sackyds="27" brup="1"></defense>
+    <kr no="1" yds="19" td="0" long="0"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:48"></misc>
+    <rush att="6" yds="12" gain="27" loss="15" td="1" long="0"></rush>
+    <pass comp="2" att="4" int="0" yds="45" td="0" long="0" sacks="1" sackyds="9"></pass>
+    <rcv no="2" yds="45" td="0" long="0"></rcv>
+    <punt no="1" yds="41" long="2" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="59" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="13" tacka="2" tflua="5" tfla="0" tflyds="24" sacks="8" sackyds="53" brup="1" ff="1" fr="1" fryds="50"></defense>
+    <fr no="1" yds="50" td="1" long="50"></fr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,1,0,H35" qtr="4" clock="00:00" vtoh="2" htoh="2"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="DOL">
+ </dnp>
+ <dnp vh="H" id="SEA">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

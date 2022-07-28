@@ -8,6 +8,10 @@
 
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/scoreboard.css">
+  <link rel="stylesheet" href="styles/scorebyquarters.css">
+  <link rel="stylesheet" href="styles/general-info+refs.css">
+
+
   <script src="script.js"></script>
   
 </head>
@@ -19,7 +23,6 @@
     <div id="homeScoreboard">
       <div id="homeTeam">
         <img src="" id="homeLogo">
-        <!--homeLogo-->
         <div id="homeName"></div>
         <div id="homeRecord"></div>
       </div>
@@ -28,7 +31,6 @@
     <div id="vs">-</div>
     <div id="visScoreboard">      
       <div id="visTeam">
-        <!--visLogo-->
         <img src="" id="visLogo">
         <div id="visName"></div>
         <div id="visRecord"></div>
@@ -52,17 +54,29 @@
 
 
   <div id="general-info">
-  <!-- location -->
-  <!-- date -->
-  <!-- attendance -->
+    <div class="row-one">
+      <div id="location"></div>
+      <div id="date"></div>
+      <div id="attendance"></div>
+    </div>
+    <div id="duration" class="row-two">
+      <div id="start"></div>
+      <div id="end"></div>
+      <div id="dur"></div>  
+    </div>
+    <div id="weather" class="row-three"></div>
+  </div>
+  
+  <hr>
 
-  <!-- duration -->
-  <!-- weather -->
+  <div id="referees">
+    Officials:
+    <ul id="ref-list"></ul>
   </div>
 
-  <div id="officials">
-    <!--list of officials-->
-  </div>
+  
+
+  <hr>
   
 
   

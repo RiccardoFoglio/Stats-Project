@@ -1,0 +1,835 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220052" visid="DEC" homeid="SAI" visname="Daemons Cernusco" homename="Saints Padova"
+      date="3/27/2022" location="Padova" stadium="Plebiscito"
+      start="14:30" end="17:10" leaguegame="Y"
+      duration="2:40" attend="100" temp="23 C" wind="NO wind" weather="Sunny">
+  <officials ref="Mancino L." ump="Tognoni A." line="Vitelli V." lj="D'Amato S." bj="Bernini S." sc="Stefani S."></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="DEC" name="Daemons Cernusco" record="1-2" conf-record="1-2" abb="D">
+  <linescore prds="4" line="7,7,0,0" score="14">
+   <lineprd prd="1" score="7"></lineprd>
+   <lineprd prd="2" score="7"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="12" rush="1" pass="10" penalty="1"></firstdowns>
+   <penalties no="6" yds="26"></penalties>
+   <conversions thirdconv="4" thirdatt="12" fourthconv="1" fourthatt="3"></conversions>
+   <fumbles no="4" lost="4"></fumbles>
+   <misc yds="0" top="18:32" ona="0" onm="0"></misc>
+   <redzone att="1" scores="1" points="7" tdrush="0" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="13" yds="-8" gain="28" loss="36" td="0" long="12"></rush>
+   <pass comp="18" att="42" int="0" yds="231" td="2" long="36" sacks="2" sackyds="20"></pass>
+   <rcv no="18" yds="231" td="2" long="36"></rcv>
+   <punt no="4" yds="146" long="55" blkd="0" tb="0" fc="0" plus50="1" inside20="1"></punt>
+   <ko no="3" yds="171" ob="0" tb="2"></ko>
+   <pat kickatt="2" kickmade="2"></pat>
+   <defense tackua="30" tacka="16" tflua="4" tfla="2" tflyds="20" sacks="0" sackyds="0" brup="3" blkd="1" int="1" intyds="0"></defense>
+   <kr no="1" yds="26" td="0" long="26"></kr>
+   <pr no="1" yds="3" td="0" long="3"></pr>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+   <scoring td="2" patkick="2"></scoring>
+  </totals>
+  <player name="Petreni L." shortname="Petreni L." checkname="L.,PETRENI" uni="15" gp="1" code="15">
+   <rcv no="5" yds="49" td="1" long="20"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Lupo A." shortname="Lupo A." checkname="A.,LUPO" uni="85" gp="1" code="85">
+   <rcv no="5" yds="18" td="0" long="8"></rcv>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Montana A." shortname="Montana A." checkname="A.,MONTANA" uni="16" gp="1" code="16">
+   <rcv no="3" yds="71" td="0" long="36"></rcv>
+   <kr no="1" yds="26" td="0" long="26"></kr>
+   <pr no="1" yds="3" td="0" long="3"></pr>
+   <fumbles no="2" lost="2"></fumbles>
+  </player>
+  <player name="Greselin L." shortname="Greselin L." checkname="L.,GRESELIN" uni="89" gp="1" code="89">
+   <rcv no="3" yds="49" td="1" long="24"></rcv>
+   <punt no="4" yds="146" long="55" blkd="0" tb="0" fc="0" plus50="1" inside20="1"></punt>
+   <ko no="3" yds="171" ob="0" tb="2"></ko>
+   <pat kickatt="2" kickmade="2"></pat>
+   <scoring td="1" patkick="2"></scoring>
+  </player>
+  <player name="Nuzzi L." shortname="Nuzzi L." checkname="L.,NUZZI" uni="49" gp="1" code="49">
+   <rush att="1" yds="12" gain="12" loss="0" td="0" long="12"></rush>
+   <rcv no="1" yds="36" td="0" long="36"></rcv>
+  </player>
+  <player name="Ballabio A." shortname="Ballabio A." checkname="A.,BALLABIO" uni="1" gp="1" code="1">
+   <rush att="8" yds="-7" gain="9" loss="16" td="0" long="3"></rush>
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="Zanicotti E." shortname="Zanicotti E." checkname="E.,ZANICOTTI" uni="9" gp="1" code="9"></player>
+  <player name="Sciacqua A." shortname="Sciacqua A." checkname="A.,SCIACQUA" uni="11" gp="1" code="11">
+   <defense tackua="3" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Iaconianni L." shortname="Iaconianni L." checkname="L.,IACONIANNI" uni="6" gp="1" code="6"></player>
+  <player name="Baidal Macia J." shortname="Baidal Macia J." checkname="MACIA J.,BAIDAL" uni="17" gp="1" code="17">
+   <rush att="2" yds="-20" gain="0" loss="20" td="0" long="0"></rush>
+   <pass comp="18" att="42" int="0" yds="231" td="2" long="36" sacks="2" sackyds="20"></pass>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Corvarola M." shortname="Corvarola M." checkname="M.,CORVAROLA" uni="5" gp="1" code="5"></player>
+  <player name="Mencarini R." shortname="Mencarini R." checkname="R.,MENCARINI" uni="19" gp="1" code="19"></player>
+  <player name="Prati A." shortname="Prati A." checkname="A.,PRATI" uni="21" gp="1" code="21">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Garbelli M." shortname="Garbelli M." checkname="M.,GARBELLI" uni="24" gp="1" code="24"></player>
+  <player name="Rossi R." shortname="Rossi R." checkname="R.,ROSSI" uni="25" gp="1" code="25">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="11"></defense>
+  </player>
+  <player name="D'alessandro M." shortname="D'alessandro M." checkname="M.,D'ALESSANDRO" uni="27" gp="1" code="27"></player>
+  <player name="Stefani J." shortname="Stefani J." checkname="J.,STEFANI" uni="32" gp="1" code="32">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Cerrone T." shortname="Cerrone T." checkname="T.,CERRONE" uni="33" gp="1" code="33"></player>
+  <player name="Baidal Macia L." shortname="Baidal Macia L." checkname="MACIA L.,BAIDAL" uni="34" gp="1" code="34"></player>
+  <player name="Villa D." shortname="Villa D." checkname="D.,VILLA" uni="42" gp="1" code="42">
+   <defense tackua="3" tacka="2"></defense>
+  </player>
+  <player name="Quadrio A." shortname="Quadrio A." checkname="A.,QUADRIO" uni="43" gp="1" code="43">
+   <defense tackua="1" tacka="2" brup="2" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="D'ovidio L." shortname="D'ovidio L." checkname="L.,D'OVIDIO" uni="45" gp="1" code="45">
+   <defense tackua="7" tacka="2" tflua="1" tfla="0" tflyds="1"></defense>
+  </player>
+  <player name="Vanni L." shortname="Vanni L." checkname="L.,VANNI" uni="46" gp="1" code="46">
+   <defense tackua="3" tacka="3"></defense>
+  </player>
+  <player name="Pulsinelli N." shortname="Pulsinelli N." checkname="N.,PULSINELLI" uni="4" gp="1" code="4"></player>
+  <player name="Formigari A." shortname="Formigari A." checkname="A.,FORMIGARI" uni="51" gp="1" code="51">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Vatieri M." shortname="Vatieri M." checkname="M.,VATIERI" uni="52" gp="1" code="52"></player>
+  <player name="Viscardi R." shortname="Viscardi R." checkname="R.,VISCARDI" uni="53" gp="1" code="53">
+   <defense tackua="2" tacka="0"></defense>
+  </player>
+  <player name="Origgi A." shortname="Origgi A." checkname="A.,ORIGGI" uni="54" gp="1" code="54"></player>
+  <player name="Pucci A." shortname="Pucci A." checkname="A.,PUCCI" uni="55" gp="1" code="55">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Sanchez Sant M." shortname="Sanchez Sant M." checkname="SANT M.,SANCHEZ" uni="60" gp="1" code="60"></player>
+  <player name="Baias I." shortname="Baias I." checkname="I.,BAIAS" uni="65" gp="1" code="65"></player>
+  <player name="Thiam E." shortname="Thiam E." checkname="E.,THIAM" uni="71" gp="1" code="71"></player>
+  <player name="Luna Cuero J." shortname="Luna Cuero J." checkname="CUERO J.,LUNA" uni="3" gp="1" code="3">
+   <defense tackua="5" tacka="2" tflua="1" tfla="1" tflyds="5"></defense>
+  </player>
+  <player name="Rivera Merca J." shortname="Rivera Merca J." checkname="MERCA J.,RIVERA" uni="75" gp="1" code="75">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Pasini M." shortname="Pasini M." checkname="M.,PASINI" uni="77" gp="1" code="77"></player>
+  <player name="Alberti M." shortname="Alberti M." checkname="M.,ALBERTI" uni="79" gp="1" code="79"></player>
+  <player name="Sangalli F." shortname="Sangalli F." checkname="F.,SANGALLI" uni="7" gp="1" code="7">
+   <defense tackua="1" tacka="1" tflua="1" tfla="0" tflyds="2"></defense>
+  </player>
+  <player name="Carminati F." shortname="Carminati F." checkname="F.,CARMINATI" uni="88" gp="1" code="88"></player>
+  <player name="Bertuccelli E." shortname="Bertuccelli E." checkname="E.,BERTUCCELLI" uni="74" gp="1" code="74">
+   <rush att="2" yds="7" gain="7" loss="0" td="0" long="5"></rush>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense blkd="1"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="SAI" name="Saints Padova" record="3-0" conf-record="3-0" abb="S">
+  <linescore prds="4" line="6,0,12,0" score="18">
+   <lineprd prd="1" score="6"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="12"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="12" rush="7" pass="4" penalty="1"></firstdowns>
+   <penalties no="4" yds="45"></penalties>
+   <conversions thirdconv="3" thirdatt="12" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="29:28" ona="0" onm="0"></misc>
+   <redzone att="4" scores="1" points="6" tdrush="1" tdpass="0" fgmade="0" endfga="2" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="40" yds="173" gain="195" loss="22" td="1" long="30"></rush>
+   <pass comp="7" att="17" int="1" yds="83" td="2" long="36" sacks="0" sackyds="0"></pass>
+   <rcv no="7" yds="83" td="2" long="36"></rcv>
+   <punt no="5" yds="179" long="50" blkd="0" tb="0" fc="1" plus50="1" inside20="2"></punt>
+   <ko no="4" yds="228" ob="0" tb="3"></ko>
+   <fg made="0" att="2" long="0" blkd="0"></fg>
+   <pat kickatt="2" kickmade="0" rushatt="1" rushmade="0"></pat>
+   <defense tackua="27" tacka="8" tflua="5" tfla="2" tflyds="41" sacks="2" sackyds="20" brup="5" ff="4" fr="4" fryds="0"></defense>
+   <kr no="1" yds="20" td="0" long="20"></kr>
+   <scoring td="3"></scoring>
+  </totals>
+  <player name="Danese D." shortname="Danese D." checkname="D.,DANESE" uni="86" gp="1" code="86">
+   <rcv no="3" yds="40" td="1" long="30"></rcv>
+   <kr no="1" yds="20" td="0" long="20"></kr>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Griggio M." shortname="Griggio M." checkname="M.,GRIGGIO" uni="43" gp="1" code="43">
+   <rush att="1" yds="-3" gain="0" loss="3" td="0" long="0"></rush>
+   <rcv no="1" yds="36" td="1" long="36"></rcv>
+   <defense tackua="6" tacka="2" tflua="2" tfla="0" tflyds="17" ff="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Sinigaglia A." shortname="Sinigaglia A." checkname="A.,SINIGAGLIA" uni="87" gp="1" code="87">
+   <rcv no="1" yds="4" td="0" long="4"></rcv>
+  </player>
+  <player name="Furlan A." shortname="Furlan A." checkname="A.,FURLAN" uni="12" gp="1" code="12">
+   <rcv no="1" yds="3" td="0" long="3"></rcv>
+  </player>
+  <player name="Turioni D." shortname="Turioni D." checkname="D.,TURIONI" uni="90" gp="1" code="90">
+   <rush att="19" yds="59" gain="65" loss="6" td="0" long="13"></rush>
+   <rcv no="1" yds="0" td="0" long="0"></rcv>
+   <pat rushatt="1" rushmade="0"></pat>
+   <defense tackua="6" tacka="0" brup="1" ff="1"></defense>
+  </player>
+  <player name="Patrignani M." shortname="Patrignani M." checkname="M.,PATRIGNANI" uni="28" gp="1" code="28">
+   <ko no="3" yds="180" ob="0" tb="3"></ko>
+   <fg made="0" att="2" long="0" blkd="0"></fg>
+   <pat kickatt="2" kickmade="0"></pat>
+   <defense fr="1" fryds="0"></defense>
+  </player>
+  <player name="Carella S." shortname="Carella S." checkname="S.,CARELLA" uni="31" gp="1" code="31"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="2" yds="-2" gain="0" loss="2" td="0" long="0"></rush>
+  </player>
+  <player name="Pezzani G." shortname="Pezzani G." checkname="G.,PEZZANI" uni="25" gp="1" code="25"></player>
+  <player name="Tripodi P." shortname="Tripodi P." checkname="P.,TRIPODI" uni="50" gp="1" code="50"></player>
+  <player name="Zabeo A." shortname="Zabeo A." checkname="A.,ZABEO" uni="54" gp="1" code="54"></player>
+  <player name="Capuano D." shortname="Capuano D." checkname="D.,CAPUANO" uni="56" gp="1" code="56"></player>
+  <player name="Molina A." shortname="Molina A." checkname="A.,MOLINA" uni="60" gp="1" code="60">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Cesaro M." shortname="Cesaro M." checkname="M.,CESARO" uni="73" gp="1" code="73">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Minazzato N." shortname="Minazzato N." checkname="N.,MINAZZATO" uni="75" gp="1" code="75">
+   <defense tackua="2" tacka="0" tflua="1" tfla="0" tflyds="4" sackua="1" sacka="0" sackyds="4" ff="1"></defense>
+  </player>
+  <player name="Fassina F." shortname="Fassina F." checkname="F.,FASSINA" uni="77" gp="1" code="77"></player>
+  <player name="Lievore M." shortname="Lievore M." checkname="M.,LIEVORE" uni="84" gp="1" code="84"></player>
+  <player name="Vecchiato M." shortname="Vecchiato M." checkname="M.,VECCHIATO" uni="9" gp="1" code="9">
+   <rush att="7" yds="14" gain="25" loss="11" td="0" long="12"></rush>
+   <pass comp="7" att="17" int="1" yds="83" td="2" long="36" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="Fantin A." shortname="Fantin A." checkname="A.,FANTIN" uni="40" gp="1" code="40">
+   <rush att="11" yds="105" gain="105" loss="0" td="1" long="30"></rush>
+   <punt no="5" yds="179" long="50" blkd="0" tb="0" fc="1" plus50="1" inside20="2"></punt>
+   <ko no="1" yds="48" ob="0" tb="0"></ko>
+   <defense tackua="3" tacka="3" tflua="0" tfla="1" tflyds="1" fr="2" fryds="0"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Nanula G." shortname="Nanula G." checkname="G.,NANULA" uni="89" gp="1" code="89"></player>
+  <player name="Contessa A." shortname="Contessa A." checkname="A.,CONTESSA" uni="3" gp="1" code="3">
+   <defense tackua="4" tacka="1" brup="2"></defense>
+  </player>
+  <player name="Turioni L." shortname="Turioni L." checkname="L.,TURIONI" uni="91" gp="1" code="91"></player>
+  <player name="Libero M." shortname="Libero M." checkname="M.,LIBERO" uni="99" gp="1" code="99">
+   <defense tackua="4" tacka="1" tflua="2" tfla="0" tflyds="18" sackua="1" sacka="0" sackyds="16" ff="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Zancan T." shortname="Zancan T." checkname="T.,ZANCAN" uni="22" gp="1" code="22">
+   <defense tackua="1" tacka="0" brup="2"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="DEC" qtr="1" clock="10:11" type="TD" how="PASS" yds="24" scorer="Greselin L." passer="Baidal Macia J." patby="Greselin L." pattype="KICK" patres="GOOD" plays="5" drive="70" top="1:49" vscore="7" hscore="0" driveindex="1"></score>
+  <score vh="H" team="SAI" qtr="1" clock="06:02" type="TD" how="PASS" yds="30" scorer="Danese D." passer="Vecchiato M." patby="Patrignani M." pattype="KICK" patres="BLKD" plays="8" drive="61" top="4:00" vscore="7" hscore="6" driveindex="2"></score>
+  <score vh="V" team="DEC" qtr="2" clock="04:52" type="TD" how="PASS" yds="3" scorer="Petreni L." passer="Baidal Macia J." patby="Greselin L." pattype="KICK" patres="GOOD" plays="11" drive="64" top="4:09" vscore="14" hscore="6" driveindex="9"></score>
+  <score vh="H" team="SAI" qtr="3" clock="01:27" type="TD" how="RUSH" yds="2" scorer="Fantin A." patby="Turioni D." pattype="RUSH" patres="FAIL" plays="5" drive="40" top="2:22" vscore="14" hscore="12" driveindex="16"></score>
+  <score vh="H" team="SAI" qtr="3" clock="00:23" type="TD" how="PASS" yds="36" scorer="Griggio M." passer="Vecchiato M." patby="Patrignani M." pattype="KICK" patres="FAIL" plays="2" drive="38" top="0:47" vscore="14" hscore="18" driveindex="18"></score>
+ </scores>
+ <fgas>
+  <fga vh="H" team="SAI" kicker="Patrignani M." qtr="4" clock="05:58" distance="40" result="missed"></fga>
+  <fga vh="H" team="SAI" kicker="Patrignani M." qtr="4" clock="03:51" distance="31" result="missed"></fga>
+ </fgas>
+ <drives>
+  <drive vh="V" team="DEC" start="KO,1,12:00,20" end="TD,1,10:11,90" plays="5" yards="70" top="1:49" driveindex="1"></drive>
+  <drive vh="H" team="SAI" start="KO,1,10:02,29" end="TD,1,06:02,90" plays="8" yards="61" top="4:00" driveindex="2"></drive>
+  <drive vh="V" team="DEC" start="KO,1,06:02,20" end="PUNT,1,05:38,20" plays="3" yards="0" top="0:24" driveindex="3"></drive>
+  <drive vh="H" team="SAI" start="PUNT,1,05:38,35" end="PUNT,1,04:15,42" plays="3" yards="7" top="1:23" driveindex="4"></drive>
+  <drive vh="V" team="DEC" start="PUNT,1,04:15,17" end="PUNT,1,03:46,17" plays="3" yards="0" top="0:29" driveindex="5"></drive>
+  <drive vh="H" team="SAI" start="PUNT,1,03:46,47" end="PUNT,1,01:37,55" plays="3" yards="8" top="2:09" driveindex="6"></drive>
+  <drive vh="V" team="DEC" start="PUNT,1,01:37,16" end="PUNT,2,10:50,38" plays="6" yards="22" top="2:47" driveindex="7"></drive>
+  <drive vh="H" team="SAI" start="PUNT,2,10:50,22" end="PUNT,2,09:01,20" plays="3" yards="-2" top="1:49" driveindex="8"></drive>
+  <drive vh="V" team="DEC" start="PUNT,2,09:01,26" end="TD,2,04:52,90" plays="11" yards="64" top="4:09" rz="1" driveindex="9"></drive>
+  <drive vh="H" team="SAI" start="KO,2,04:52,20" end="PUNT,2,01:24,18" plays="5" yards="-2" top="3:28" driveindex="10"></drive>
+  <drive vh="V" team="DEC" start="PUNT,2,01:24,22" end="HALF,2,00:00,13" plays="3" yards="-9" top="1:24" driveindex="11"></drive>
+  <drive vh="H" team="SAI" start="KO,3,12:00,20" end="INT,3,08:12,63" plays="9" yards="43" top="3:48" driveindex="12"></drive>
+  <drive vh="V" team="DEC" start="INT,3,08:12,20" end="PUNT,3,06:14,22" plays="3" yards="2" top="1:58" driveindex="13"></drive>
+  <drive vh="H" team="SAI" start="PUNT,3,06:14,13" end="PUNT,3,03:51,20" plays="3" yards="7" top="2:23" driveindex="14"></drive>
+  <drive vh="V" team="DEC" start="PUNT,3,03:51,38" end="FUMB,3,03:32,40" plays="1" yards="2" top="0:19" driveindex="15"></drive>
+  <drive vh="H" team="SAI" start="FUMB,3,03:32,50" end="TD,3,01:10,90" plays="5" yards="40" top="2:22" rz="1" driveindex="16"></drive>
+  <drive vh="V" team="DEC" start="KO,3,01:27,38" end="FUMB,3,01:10,38" plays="0" yards="0" top="0:17" driveindex="17"></drive>
+  <drive vh="H" team="SAI" start="FUMB,3,01:10,52" end="TD,3,00:23,90" plays="2" yards="38" top="0:47" driveindex="18"></drive>
+  <drive vh="V" team="DEC" start="KO,3,00:23,20" end="DOWNS,4,10:00,51" plays="8" yards="31" top="2:23" driveindex="19"></drive>
+  <drive vh="H" team="SAI" start="DOWNS,4,10:00,39" end="FGA,4,05:58,67" plays="7" yards="28" top="4:02" rz="1" driveindex="20"></drive>
+  <drive vh="V" team="DEC" start="FGA,4,05:58,23" end="FUMB,4,05:26,21" plays="3" yards="-2" top="0:32" driveindex="21"></drive>
+  <drive vh="H" team="SAI" start="FUMB,4,05:26,69" end="FGA,4,03:51,76" plays="3" yards="7" top="1:35" rz="1" driveindex="22"></drive>
+  <drive vh="V" team="DEC" start="FGA,4,03:51,20" end="DOWNS,4,02:18,14" plays="4" yards="-6" top="1:33" driveindex="23"></drive>
+  <drive vh="H" team="SAI" start="DOWNS,4,02:18,76" end="DOWNS,4,01:28,78" plays="4" yards="2" top="0:50" rz="1" driveindex="24"></drive>
+  <drive vh="V" team="DEC" start="DOWNS,4,01:28,12" end="FUMB,4,00:43,61" plays="5" yards="49" top="0:45" driveindex="25"></drive>
+  <drive vh="H" team="SAI" start="FUMB,4,00:43,29" end="HALF,4,00:00,27" plays="2" yards="-2" top="0:43" driveindex="26"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0"
+      text="Daemons Cernusco win the coin toss, elect to receive"></play>
+   <play context="V,1,10,V30" playid="0,2,1"
+      text="SAI ball on SAI30."></play>
+   <play context="H,1,10,H30" playid="0,3,2"
+      text="SAI ball on SAI30."></play>
+   <play context="H,1,10,H30" playid="0,4,3" type="K"
+      text="Patrignani M. kickoff 60 yards to the DEC0, touchback."></play>
+   <drivestart poss="V,V20,12:00" vh="V" spot="V20" clock="12:00" driveindex="1,3"></drivestart>
+   <play context="V,1,10,V20" playid="1,1,4" type="R" first="R"
+      text="Nuzzi L. rush for 12 yards to the DEC32, 1ST DOWN DEC (Contessa A.)."></play>
+   <play context="V,1,10,V32" playid="1,2,5" type="P"
+      text="Baidal Macia J. pass incomplete to Petreni L.."></play>
+   <play context="V,2,10,V32" playid="1,3,6" type="E"
+      text="Baidal Macia J. pass incomplete to Lupo A., PENALTY DEC ineligible downfield on pass 5 yards to the DEC27, NO PLAY."></play>
+   <play context="V,2,15,V27" playid="1,4,7" type="P" first="P"
+      text="Baidal Macia J. pass complete to Nuzzi L. for 36 yards to the SAI27, 1ST DOWN DEC (Griggio M.)."></play>
+   <play context="V,1,10,H27" playid="1,5,8" type="R"
+      text="Ballabio A. rush for 3 yards to the SAI24 (Molina A.)."></play>
+   <play context="V,2,7,H24" playid="1,6,9" type="P" first="P" score="Y" clock="10:11"
+      text="Baidal Macia J. pass complete to Greselin L. for 24 yards to the SAI0, 1ST DOWN DEC, TOUCHDOWN, clock 10:11."></play>
+   <play context="V,1,0,H03" playid="1,7,10" type="X" score="Y"
+      text="Greselin L. kick attempt good."></play>
+   <score V="7" H="0"></score>
+   <drivesum plays="5" yards="70" top="1:49" driveindex="1" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="1,8,11" type="K"
+      text="Greselin L. kickoff 51 yards to the SAI9, Danese D. return 20 yards to the SAI29 (Prati A.)."></play>
+   <drivestart poss="H,H29,10:11" vh="H" spot="H29" clock="10:11" driveindex="2,11"></drivestart>
+   <play context="H,1,10,H29" playid="2,1,12" clock="10:02"
+      text="SAINTS PADOVA drive start at 10:02."></play>
+   <play context="H,1,10,H29" playid="2,2,13" type="R"
+      text="Turioni D. rush for 5 yards to the SAI34 (D'ovidio L.)."></play>
+   <play context="H,2,5,H34" playid="2,3,14" type="P"
+      text="Vecchiato M. pass complete to Furlan A. for 3 yards to the SAI37, out-of-bounds (Sciacqua A.)."></play>
+   <play context="H,3,2,H37" playid="2,4,15" type="R"
+      text="Turioni D. rush for 1 yard to the SAI38 (D'ovidio L.)."></play>
+   <play context="H,4,1,H38" playid="2,5,16" type="#" clock="08:29"
+      text="Timeout Saints Padova, clock 08:29."></play>
+   <play context="H,4,1,H38" playid="2,6,17" type="R" first="R"
+      text="Vecchiato M. rush for 4 yards to the SAI42, 1ST DOWN SAI (Stefani J.)."></play>
+   <play context="H,1,10,H42" playid="2,7,18" type="R"
+      text="Fantin A. rush for 8 yards to the DEC40 (Viscardi R.)."></play>
+   <play context="H,2,2,V40" playid="2,8,19" type="P" first="P"
+      text="Vecchiato M. pass complete to Danese D. for 4 yards to the DEC36, 1ST DOWN SAI (Quadrio A.)."></play>
+   <play context="H,1,10,V36" playid="2,9,20" type="R"
+      text="Turioni D. rush for 6 yards to the DEC30 (Villa D.)."></play>
+   <play context="H,2,4,V30" playid="2,10,21" type="P" first="P" score="Y" clock="06:02"
+      text="Vecchiato M. pass complete to Danese D. for 30 yards to the DEC0, 1ST DOWN SAI, TOUCHDOWN, clock 06:02."></play>
+   <play context="H,1,0,V03" playid="2,11,22" type="#" clock="06:02"
+      text="Timeout Daemons Cernusco, clock 06:02."></play>
+   <play context="H,1,0,V03" playid="2,12,23" type="X"
+      text="Patrignani M. kick attempt failed (blocked) (blocked by TEAM)."></play>
+   <score V="7" H="6"></score>
+   <drivesum plays="8" yards="61" top="4:00" driveindex="2" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="2,13,24" type="K"
+      text="Patrignani M. kickoff 60 yards to the DEC0, touchback."></play>
+   <drivestart poss="V,V20,06:02" vh="V" spot="V20" clock="06:02" driveindex="3,24"></drivestart>
+   <play context="V,1,10,V20" playid="3,1,25" clock="06:02"
+      text="DAEMONS CERNUSCO drive start at 06:02."></play>
+   <play context="V,1,10,V20" playid="3,2,26" type="P"
+      text="Baidal Macia J. pass incomplete to Montana A.."></play>
+   <play context="V,2,10,V20" playid="3,3,27" type="P"
+      text="Baidal Macia J. pass incomplete to Montana A.."></play>
+   <play context="V,3,10,V20" playid="3,4,28" type="P"
+      text="Baidal Macia J. pass incomplete to Greselin L. (Zancan T.)."></play>
+   <play context="V,4,10,V20" playid="3,5,29" type="U"
+      text="Greselin L. punt 35 yards to the SAI35."></play>
+   <drivesum plays="3" yards="0" top="0:24" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,H35,06:02" vh="H" spot="H35" clock="06:02" driveindex="4,29"></drivestart>
+   <play context="H,1,10,H35" playid="4,1,30" clock="05:38"
+      text="SAINTS PADOVA drive start at 05:38."></play>
+   <play context="H,1,10,H35" playid="4,2,31" type="R"
+      text="Turioni D. rush for 3 yards to the SAI38 (Villa D.)."></play>
+   <play context="H,2,7,H38" playid="4,3,32" type="R"
+      text="Vecchiato M. rush for 4 yards to the SAI42, out-of-bounds."></play>
+   <play context="H,3,3,H42" playid="4,4,33" type="P"
+      text="Vecchiato M. pass incomplete to Furlan A.."></play>
+   <play context="H,4,3,H42" playid="4,5,34" type="U"
+      text="Fantin A. punt 31 yards to the DEC17, fair catch by Montana A.."></play>
+   <drivesum plays="3" yards="7" top="1:23" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V17,05:38" vh="V" spot="V17" clock="05:38" driveindex="5,34"></drivestart>
+   <play context="V,1,10,V17" playid="5,1,35" clock="04:15"
+      text="DAEMONS CERNUSCO drive start at 04:15."></play>
+   <play context="V,1,10,V17" playid="5,2,36" type="P"
+      text="Baidal Macia J. pass incomplete to Greselin L. (Zancan T.)."></play>
+   <play context="V,2,10,V17" playid="5,3,37" type="P"
+      text="Baidal Macia J. pass incomplete to Montana A., dropped pass."></play>
+   <play context="V,3,10,V17" playid="5,4,38" type="P"
+      text="Baidal Macia J. pass incomplete to Montana A.."></play>
+   <play context="V,4,10,V17" playid="5,5,39" type="U"
+      text="Greselin L. punt 26 yards to the DEC43."></play>
+   <drivesum plays="3" yards="0" top="0:29" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,V43,04:15" vh="H" spot="V43" clock="04:15" driveindex="6,39"></drivestart>
+   <play context="H,1,10,V43" playid="6,1,40" clock="03:46"
+      text="SAINTS PADOVA drive start at 03:46."></play>
+   <play context="H,1,10,V43" playid="6,2,41" type="R"
+      text="Turioni D. rush for 2 yards to the DEC41 (Luna Cuero J.)."></play>
+   <play context="H,2,8,V41" playid="6,3,42" type="P"
+      text="Vecchiato M. pass complete to Danese D. for 6 yards to the DEC35 (Quadrio A.;D'ovidio L.)."></play>
+   <play context="H,3,2,V35" playid="6,4,43" type="P"
+      text="Vecchiato M. pass incomplete to Sinigaglia A.."></play>
+   <play context="H,4,2,V35" playid="6,5,44" type="U"
+      text="Fantin A. punt 19 yards to the DEC16, out-of-bounds."></play>
+   <drivesum plays="3" yards="8" top="2:09" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,V16,03:46" vh="V" spot="V16" clock="03:46" driveindex="7,44"></drivestart>
+   <play context="V,1,10,V16" playid="7,1,45" clock="01:37"
+      text="DAEMONS CERNUSCO drive start at 01:37."></play>
+   <play context="V,1,10,V16" playid="7,2,46" type="R"
+      text="Ballabio A. rush for loss of 2 yards to the DEC14 (Fantin A.;Cesaro M.)."></play>
+   <play context="V,2,12,V14" playid="7,3,47" type="P"
+      text="Baidal Macia J. pass complete to Lupo A. for 8 yards to the DEC22 (Turioni D.)."></play>
+   <play context="V,3,4,V22" playid="7,4,48" type="P" first="P"
+      text="Baidal Macia J. pass complete to Greselin L. for 13 yards to the DEC35, 1ST DOWN DEC, out-of-bounds (Contessa A.)."></play>
+   <play context="V,1,10,V35" playid="7,5,49" type="R"
+      text="Ballabio A. rush for 1 yard to the DEC36 (Fantin A.)."></play>
+   <score qtr="1" V="7" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="DEC">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:19"></misc>
+    <rush att="4" yds="14" gain="16" loss="2" td="0" long="12"></rush>
+    <pass comp="4" att="11" int="0" yds="81" td="1" long="36" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="81" td="1" long="36"></rcv>
+    <punt no="2" yds="61" long="35" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="51" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="10" tacka="2" sacks="0" sackyds="0" blkd="1"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SAI">
+    <firstdowns no="3" rush="1" pass="2" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:41"></misc>
+    <rush att="8" yds="33" gain="33" loss="0" td="0" long="8"></rush>
+    <pass comp="4" att="6" int="0" yds="43" td="1" long="30" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="43" td="1" long="30"></rcv>
+    <punt no="2" yds="50" long="31" blkd="0" tb="0" fc="1" plus50="0" inside20="2"></punt>
+    <ko no="2" yds="120" ob="0" tb="2"></ko>
+    <pat kickatt="1" kickmade="0"></pat>
+    <defense tackua="6" tacka="2" tflua="2" tfla="0" tflyds="4" sacks="0" sackyds="0" brup="2"></defense>
+    <kr no="1" yds="20" td="0" long="20"></kr>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,2,9,V36" playid="7,6,50" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="V,2,9,V36" playid="7,7,51" type="R"
+      text="Ballabio A. rush for 2 yards to the DEC38 (Libero M.)."></play>
+   <play context="V,3,7,V38" playid="7,8,52" type="P"
+      text="Baidal Macia J. pass incomplete to Lupo A.."></play>
+   <play context="V,4,7,V38" playid="7,9,53" type="U"
+      text="Greselin L. punt 30 yards to the SAI22."></play>
+   <drivesum plays="6" yards="22" top="2:47" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H22,12:00" vh="H" spot="H22" clock="12:00" driveindex="8,53"></drivestart>
+   <play context="H,1,10,H22" playid="8,1,54" clock="10:50"
+      text="SAINTS PADOVA drive start at 10:50."></play>
+   <play context="H,1,10,H22" playid="8,2,55" type="R"
+      text="Turioni D. rush for loss of 2 yards to the SAI20 (Sangalli F.)."></play>
+   <play context="H,2,12,H20" playid="8,3,56" type="P"
+      text="Vecchiato M. pass incomplete to Danese D.."></play>
+   <play context="H,3,12,H20" playid="8,4,57" type="P"
+      text="Vecchiato M. pass complete to Turioni D. for no gain to the SAI20 (Villa D.)."></play>
+   <play context="H,4,12,H20" playid="8,5,58" type="U"
+      text="Fantin A. punt 44 yards to the DEC26."></play>
+   <drivesum plays="3" yards="-2" top="1:49" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,V26,10:50" vh="V" spot="V26" clock="10:50" driveindex="9,58"></drivestart>
+   <play context="V,1,10,V26" playid="9,1,59" clock="09:01"
+      text="DAEMONS CERNUSCO drive start at 09:01."></play>
+   <play context="V,1,10,V26" playid="9,2,60" type="R"
+      text="Ballabio A. rush for 3 yards to the DEC29 (Fantin A.)."></play>
+   <play context="V,2,7,V29" playid="9,3,61" type="P" first="P"
+      text="Baidal Macia J. pass complete to Montana A. for 21 yards to the SAI40, 1ST DOWN DEC (Libero M.)."></play>
+   <play context="V,1,10,H40" playid="9,4,62" type="P"
+      text="Baidal Macia J. pass incomplete to Greselin L.."></play>
+   <play context="V,2,10,H40" playid="9,5,63" type="P" first="P"
+      text="Baidal Macia J. pass complete to Petreni L. for 20 yards to the SAI20, 1ST DOWN DEC (Contessa A.)."></play>
+   <play context="V,1,10,H20" playid="9,6,64" type="P"
+      text="Baidal Macia J. pass incomplete to Petreni L.."></play>
+   <play context="V,2,10,H20" playid="9,7,65" type="P"
+      text="Baidal Macia J. pass complete to Lupo A. for 8 yards to the SAI12 (Turioni D.)."></play>
+   <play context="V,3,2,H12" playid="9,8,66" type="P" first="P"
+      text="Baidal Macia J. pass complete to Petreni L. for 9 yards to the SAI3, 1ST DOWN DEC (Griggio M.;Contessa A.)."></play>
+   <play context="V,1,0,H03" playid="9,9,67" type="P"
+      text="Baidal Macia J. pass incomplete to Petreni L.."></play>
+   <play context="V,2,0,H03" playid="9,10,68" type="P"
+      text="Baidal Macia J. pass incomplete to Lupo A.."></play>
+   <play context="V,3,0,H03" playid="9,11,69" type="#" clock="05:32"
+      text="Timeout Daemons Cernusco, clock 05:32."></play>
+   <play context="V,3,0,H03" playid="9,12,70" type="R"
+      text="Ballabio A. rush for no gain to the SAI3 (Turioni D.)."></play>
+   <play context="V,4,0,H03" playid="9,13,71" type="P" score="Y" clock="04:52"
+      text="Baidal Macia J. pass complete to Petreni L. for 3 yards to the SAI0, TOUCHDOWN, clock 04:52."></play>
+   <play context="V,1,0,H03" playid="9,14,72" type="X" score="Y"
+      text="Greselin L. kick attempt good."></play>
+   <score V="14" H="6"></score>
+   <drivesum plays="11" yards="64" top="4:09" driveindex="9" complete="Y"></drivesum>
+   <play context="V,1,0,V30" playid="9,15,73" type="K"
+      text="Greselin L. kickoff 60 yards to the SAI0, touchback."></play>
+   <drivestart poss="H,H20,04:52" vh="H" spot="H20" clock="04:52" driveindex="10,73"></drivestart>
+   <play context="H,1,10,H20" playid="10,1,74" clock="04:52"
+      text="SAINTS PADOVA drive start at 04:52."></play>
+   <play context="H,1,10,H20" playid="10,2,75" type="R"
+      text="Turioni D. rush for 7 yards to the SAI27 (Vanni L.;Sangalli F.)."></play>
+   <play context="H,2,3,H27" playid="10,3,76" type="P" first="P"
+      text="Vecchiato M. pass complete to Sinigaglia A. for 4 yards to the SAI31, 1ST DOWN SAI (Villa D.;Quadrio A.)."></play>
+   <play context="H,1,10,H31" playid="10,4,77" type="R"
+      text="Turioni D. rush for 2 yards to the SAI33 (Sciacqua A.)."></play>
+   <play context="H,2,8,H33" playid="10,5,78" type="E"
+      text="PENALTY SAI false start (Griggio M.) 5 yards to the SAI28."></play>
+   <play context="H,2,13,H28" playid="10,6,79" type="E"
+      text="Vecchiato M. pass complete to Griggio M. for 42 yards to the DEC20, out-of-bounds (Quadrio A.), PENALTY SAI holding (Tripodi P.) 10 yards to the SAI18, NO PLAY."></play>
+   <play context="H,2,23,H18" playid="10,7,80" type="P"
+      text="Vecchiato M. pass incomplete to Furlan A. (Sciacqua A.)."></play>
+   <play context="H,3,23,H18" playid="10,8,81" type="P"
+      text="Vecchiato M. pass incomplete to Danese D. (Quadrio A.)."></play>
+   <play context="H,4,23,H18" playid="10,9,82" type="U"
+      text="Fantin A. punt 50 yards to the DEC22."></play>
+   <drivesum plays="5" yards="-2" top="3:28" driveindex="10" complete="Y"></drivesum>
+   <drivestart poss="V,V22,04:52" vh="V" spot="V22" clock="04:52" driveindex="11,82"></drivestart>
+   <play context="V,1,10,V22" playid="11,1,83" clock="01:24"
+      text="DAEMONS CERNUSCO drive start at 01:24."></play>
+   <play context="V,1,10,V22" playid="11,2,84" type="R"
+      text="Ballabio A. rush for loss of 12 yards to the DEC10 (Griggio M.)."></play>
+   <play context="V,2,22,V10" playid="11,3,85" type="#" clock="00:43"
+      text="Timeout Daemons Cernusco, clock 00:43."></play>
+   <play context="V,2,22,V10" playid="11,4,86" type="P"
+      text="Baidal Macia J. pass complete to Petreni L. for 3 yards to the DEC13 (Turioni D.)."></play>
+   <play context="V,3,19,V13" playid="11,5,87" type="P"
+      text="Baidal Macia J. pass incomplete."></play>
+   <play context="V,4,19,V13" playid="11,6,88" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="3" yards="-9" top="1:24" driveindex="11" complete="Y"></drivesum>
+   <score qtr="2" V="14" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="DEC">
+    <firstdowns no="3" rush="0" pass="3" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:43"></misc>
+    <rush att="4" yds="-7" gain="5" loss="12" td="0" long="0"></rush>
+    <pass comp="6" att="12" int="0" yds="64" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="6" yds="64" td="1" long="0"></rcv>
+    <punt no="1" yds="30" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="60" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="3" tacka="4" tflua="1" tfla="0" tflyds="2" sacks="0" sackyds="0" brup="2"></defense>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SAI">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:17"></misc>
+    <rush att="3" yds="7" gain="9" loss="2" td="0" long="0"></rush>
+    <pass comp="2" att="5" int="0" yds="4" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="4" td="0" long="0"></rcv>
+    <punt no="2" yds="94" long="19" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+    <defense tackua="8" tacka="2" tflua="1" tfla="0" tflyds="12" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,4,19,V13" playid="11,7,89" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, DEC ball on DEC30."></play>
+   <play context="V,4,19,V30" playid="11,8,90" type="K"
+      text="Greselin L. kickoff 60 yards to the SAI0, touchback."></play>
+   <drivestart poss="H,H20,12:00" vh="H" spot="H20" clock="12:00" driveindex="12,90"></drivestart>
+   <play context="H,1,10,H20" playid="12,1,91" clock="12:00"
+      text="SAINTS PADOVA drive start at 12:00."></play>
+   <play context="H,1,10,H20" playid="12,2,92" type="R"
+      text="Turioni D. rush for 2 yards to the SAI22 (Formigari A.;D'ovidio L.)."></play>
+   <play context="H,2,8,H22" playid="12,3,93" type="R" first="R"
+      text="Fantin A. rush for 15 yards to the SAI37, 1ST DOWN SAI (Luna Cuero J.)."></play>
+   <play context="H,1,10,H37" playid="12,4,94" type="R"
+      text="Vecchiato M. rush for 1 yard to the SAI38, out-of-bounds."></play>
+   <play context="H,2,9,H38" playid="12,5,95" type="P"
+      text="Vecchiato M. pass incomplete to Danese D.."></play>
+   <play context="H,3,9,H38" playid="12,6,96" type="E"
+      text="Vecchiato M. pass incomplete to Danese D., PENALTY DEC offside defense 5 yards to the SAI43, NO PLAY."></play>
+   <play context="H,3,4,H43" playid="12,7,97" type="R" first="R"
+      text="Turioni D. rush for 7 yards to the DEC40, 1ST DOWN SAI (D'ovidio L.)."></play>
+   <play context="H,1,10,V40" playid="12,8,98" type="R"
+      text="Vecchiato M. rush for 2 yards to the DEC38, out-of-bounds."></play>
+   <play context="H,2,8,V38" playid="12,9,99" type="R" first="R"
+      text="Fantin A. rush for 8 yards to the DEC30, 1ST DOWN SAI (D'ovidio L.)."></play>
+   <play context="H,1,10,V30" playid="12,10,100" type="R"
+      text="Turioni D. rush for 3 yards to the DEC27 (Pucci A.)."></play>
+   <play context="H,2,7,V27" playid="12,11,101" type="P" turnover="I"
+      text="Vecchiato M. pass intercepted by Quadrio A. at the DEC0, Quadrio A. return 0 yards to the DEC0, touchback."></play>
+   <drivesum plays="9" yards="43" top="3:48" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V20,12:00" vh="V" spot="V20" clock="12:00" driveindex="13,101"></drivestart>
+   <play context="V,1,10,V20" playid="13,1,102" clock="08:12"
+      text="DAEMONS CERNUSCO drive start at 08:12."></play>
+   <play context="V,1,10,V20" playid="13,2,103" type="R"
+      text="Bertuccelli E. rush for 5 yards to the DEC25 (Fantin A.;Libero M.)."></play>
+   <play context="V,2,5,V25" playid="13,3,104" type="R"
+      text="Bertuccelli E. rush for 2 yards to the DEC27 (Griggio M.;Fantin A.)."></play>
+   <play context="V,3,3,V27" playid="13,4,105" type="P"
+      text="Baidal Macia J. pass incomplete to Montana A.."></play>
+   <play context="V,4,3,V27" playid="13,5,106" type="E"
+      text="Greselin L. punt 53 yards to the SAI10, out-of-bounds, PENALTY DEC illegal formation 5 yards to the DEC22, NO PLAY."></play>
+   <play context="V,4,8,V22" playid="13,6,107" type="U"
+      text="Greselin L. punt 55 yards to the SAI13."></play>
+   <drivesum plays="3" yards="2" top="1:58" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H13,08:12" vh="H" spot="H13" clock="08:12" driveindex="14,107"></drivestart>
+   <play context="H,1,10,H13" playid="14,1,108" clock="06:14"
+      text="SAINTS PADOVA drive start at 06:14."></play>
+   <play context="H,1,10,H13" playid="14,2,109" type="R"
+      text="Turioni D. rush for 1 yard to the SAI14 (Luna Cuero J.)."></play>
+   <play context="H,2,9,H14" playid="14,3,110" type="R"
+      text="Turioni D. rush for loss of 3 yards to the SAI11 (Luna Cuero J.;Rivera Merca J.)."></play>
+   <play context="H,3,12,H11" playid="14,4,111" type="R"
+      text="Fantin A. rush for 9 yards to the SAI20 (D'ovidio L.)."></play>
+   <play context="H,4,3,H20" playid="14,5,112" type="U"
+      text="Fantin A. punt 35 yards to the DEC35, Montana A. return 3 yards to the DEC38 (Griggio M.)."></play>
+   <drivesum plays="3" yards="7" top="2:23" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,V38,06:14" vh="V" spot="V38" clock="06:14" driveindex="15,112"></drivestart>
+   <play context="V,1,10,V38" playid="15,1,113" clock="03:51"
+      text="DAEMONS CERNUSCO drive start at 03:51."></play>
+   <play context="V,1,10,V38" playid="15,2,114" type="#" clock="03:40"
+      text="Timeout Saints Padova, clock 03:40."></play>
+   <play context="V,1,10,V38" playid="15,3,115" type="P" turnover="F"
+      text="Baidal Macia J. pass complete to Lupo A. for 2 yards to the DEC40, fumble forced by Turioni D., fumble by Lupo A. recovered by SAI Patrignani M. at DEC40."></play>
+   <drivesum plays="1" yards="2" top="0:19" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,V40,03:40" vh="H" spot="V40" clock="03:40" driveindex="16,115"></drivestart>
+   <play context="H,1,10,V40" playid="16,1,116" clock="03:32"
+      text="SAINTS PADOVA drive start at 03:32."></play>
+   <play context="H,1,10,V40" playid="16,2,117" type="R"
+      text="Vecchiato M. rush for 2 yards to the DEC38, out-of-bounds."></play>
+   <play context="H,2,8,V38" playid="16,3,118" type="R" first="R"
+      text="Fantin A. rush for 30 yards to the DEC8, 1ST DOWN SAI, out-of-bounds (Sciacqua A.), PENALTY DEC personal foul (Sciacqua A.) 4 yards to the DEC4, 1ST DOWN SAI."></play>
+   <play context="H,1,0,V04" playid="16,4,119"
+      text="1st and 7."></play>
+   <play context="H,1,0,V04" playid="16,5,120" type="E"
+      text="PENALTY SAI unsportsmanlike conduct (Fantin A.) 15 yards to the DEC19."></play>
+   <play context="H,1,0,V19" playid="16,6,121" type="R"
+      text="Turioni D. rush for 4 yards to the DEC15 (Rossi R.)."></play>
+   <play context="H,2,0,V15" playid="16,7,122" type="R"
+      text="Turioni D. rush for 13 yards to the DEC2 (D'ovidio L.)."></play>
+   <play context="H,3,0,V02" playid="16,8,123" type="R" score="Y" clock="01:27"
+      text="Fantin A. rush for 2 yards to the DEC0, TOUCHDOWN, clock 01:27."></play>
+   <play context="H,1,0,V03" playid="16,9,124" type="E"
+      text="Turioni D. rush attempt failed, PENALTY DEC offside defense 2 yards to the DEC1, NO PLAY."></play>
+   <play context="H,1,0,V01" playid="16,10,125" type="#" clock="01:27"
+      text="Timeout Saints Padova, clock 01:27."></play>
+   <play context="H,1,0,V01" playid="16,11,126" type="X"
+      text="Turioni D. rush attempt failed."></play>
+   <score V="14" H="12"></score>
+   <drivesum plays="5" yards="40" top="2:22" driveindex="16" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="16,12,127" type="K" turnover="F"
+      text="Fantin A. kickoff 48 yards to the DEC12, Montana A. return 26 yards to the DEC38, fumble forced by Minazzato N., fumble by Montana A. recovered by SAI Fantin A. at DEC38."></play>
+   <drivestart poss="H,V38,01:27" vh="H" spot="V38" clock="01:27" driveindex="18,127"></drivestart>
+   <play context="H,1,10,V38" playid="18,1,128" clock="01:10"
+      text="SAINTS PADOVA drive start at 01:10."></play>
+   <play context="H,1,10,V38" playid="18,2,129" type="R"
+      text="Turioni D. rush for 2 yards to the DEC36 (Luna Cuero J.;Pucci A.)."></play>
+   <play context="H,2,8,V36" playid="18,3,130" type="P" first="P" score="Y" clock="00:23"
+      text="Vecchiato M. pass complete to Griggio M. for 36 yards to the DEC0, 1ST DOWN SAI, TOUCHDOWN, clock 00:23."></play>
+   <play context="H,1,0,V03" playid="18,4,131" type="X"
+      text="Patrignani M. kick attempt failed."></play>
+   <score V="14" H="18"></score>
+   <drivesum plays="2" yards="38" top="0:47" driveindex="18" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="18,5,132" type="K"
+      text="Patrignani M. kickoff 60 yards to the DEC0, touchback."></play>
+   <drivestart poss="V,V20,00:23" vh="V" spot="V20" clock="00:23" driveindex="19,132"></drivestart>
+   <play context="V,1,10,V20" playid="19,1,133" clock="00:23"
+      text="DAEMONS CERNUSCO drive start at 00:23."></play>
+   <play context="V,1,10,V20" playid="19,2,134" type="E" first="E"
+      text="Baidal Macia J. pass incomplete to Greselin L., PENALTY SAI roughing passer (Minazzato N.) 15 yards to the DEC35, 1ST DOWN DEC, NO PLAY."></play>
+   <play context="V,1,10,V35" playid="19,3,135" type="P"
+      text="Baidal Macia J. pass incomplete to 86."></play>
+   <play context="V,2,10,V35" playid="19,4,136" type="P"
+      text="Baidal Macia J. pass incomplete to Montana A.."></play>
+   <play context="V,3,10,V35" playid="19,5,137" type="P" first="P"
+      text="Baidal Macia J. pass complete to Petreni L. for 14 yards to the SAI41, 1ST DOWN DEC (Fantin A.)."></play>
+   <score qtr="3" V="14" H="18"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="DEC">
+    <firstdowns no="2" rush="0" pass="1" penalty="1"></firstdowns>
+    <penalties no="4" yds="16"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="2" lost="2"></fumbles>
+    <misc yds="0" top="02:40"></misc>
+    <rush att="2" yds="7" gain="7" loss="0" td="0" long="0"></rush>
+    <pass comp="2" att="5" int="0" yds="16" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="16" td="0" long="0"></rcv>
+    <punt no="1" yds="55" long="20" blkd="0" tb="0" fc="0" plus50="1" inside20="1"></punt>
+    <ko no="1" yds="60" ob="0" tb="1"></ko>
+    <defense tackua="9" tacka="6" tflua="2" tfla="0" tflyds="6" sacks="0" sackyds="0" int="1" intyds="0"></defense>
+    <kr no="1" yds="26" td="0" long="26"></kr>
+    <pr no="1" yds="3" td="0" long="3"></pr>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <fumbles no="2" lost="2"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SAI">
+    <firstdowns no="6" rush="4" pass="1" penalty="1"></firstdowns>
+    <penalties no="2" yds="30"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:20"></misc>
+    <rush att="16" yds="98" gain="101" loss="3" td="1" long="22"></rush>
+    <pass comp="1" att="3" int="1" yds="36" td="1" long="6" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="36" td="1" long="6"></rcv>
+    <punt no="1" yds="35" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="2" yds="108" ob="0" tb="1"></ko>
+    <pat kickatt="1" kickmade="0" rushatt="1" rushmade="0"></pat>
+    <defense tackua="4" tacka="4" sacks="0" sackyds="0" ff="2" fr="2" fryds="0"></defense>
+    <scoring td="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="V,1,10,H41" playid="19,6,138" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="V,1,10,H41" playid="19,7,139" type="P" first="P"
+      text="Baidal Macia J. pass complete to Greselin L. for 12 yards to the SAI29, 1ST DOWN DEC (Zancan T.)."></play>
+   <play context="V,1,10,H29" playid="19,8,140" type="P"
+      text="Baidal Macia J. pass incomplete to Lupo A. (Contessa A.)."></play>
+   <play context="V,2,10,H29" playid="19,9,141" type="E"
+      text="PENALTY DEC false start 5 yards to the SAI34."></play>
+   <play context="V,2,15,H34" playid="19,10,142" type="P"
+      text="Baidal Macia J. pass incomplete to Greselin L.."></play>
+   <play context="V,3,15,H34" playid="19,11,143" type="#" clock="10:08"
+      text="Timeout Daemons Cernusco, clock 10:08."></play>
+   <play context="V,3,15,H34" playid="19,12,144" type="P"
+      text="Baidal Macia J. pass complete to Lupo A. for loss of 5 yards to the SAI39 (Griggio M.)."></play>
+   <play context="V,4,20,H39" playid="19,13,145" type="P"
+      text="Baidal Macia J. pass incomplete to Montana A. (Turioni D.)."></play>
+   <drivesum plays="8" yards="31" top="2:23" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,H39,10:08" vh="H" spot="H39" clock="10:08" driveindex="20,145"></drivestart>
+   <play context="H,1,10,H39" playid="20,1,146" clock="10:00"
+      text="SAINTS PADOVA drive start at 10:00."></play>
+   <play context="H,1,10,H39" playid="20,2,147" type="R"
+      text="Turioni D. rush for 5 yards to the SAI44 (Sciacqua A.;Vanni L.)."></play>
+   <play context="H,2,5,H44" playid="20,3,148" type="R"
+      text="Fantin A. rush for 3 yards to the DEC43 (Luna Cuero J.)."></play>
+   <play context="H,3,2,V43" playid="20,4,149" type="R" first="R"
+      text="Vecchiato M. rush for 12 yards to the DEC31, 1ST DOWN SAI."></play>
+   <play context="H,1,10,V31" playid="20,5,150" type="R" first="R"
+      text="Fantin A. rush for 16 yards to the DEC15, 1ST DOWN SAI (Villa D.;Vanni L.)."></play>
+   <play context="H,1,10,V15" playid="20,6,151" type="R"
+      text="Vecchiato M. rush for loss of 11 yards to the DEC26 (Rossi R.)."></play>
+   <play context="H,2,21,V26" playid="20,7,152" type="R"
+      text="Fantin A. rush for 3 yards to the DEC23 (Vanni L.)."></play>
+   <play context="H,3,18,V23" playid="20,8,153" type="P"
+      text="Vecchiato M. pass incomplete to Danese D.."></play>
+   <play context="H,4,18,V23" playid="20,9,154" type="F" clock="05:58"
+      text="Patrignani M. field goal attempt from 40 MISSED - wide right, spot at DEC23, clock 05:58."></play>
+   <drivesum plays="7" yards="28" top="4:02" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="V,V23,05:58" vh="V" spot="V23" clock="05:58" driveindex="21,154"></drivestart>
+   <play context="V,1,10,V23" playid="21,1,155" type="P" first="P"
+      text="Baidal Macia J. pass complete to Montana A. for 14 yards to the DEC37, 1ST DOWN DEC, out-of-bounds (Turioni D.)."></play>
+   <play context="V,1,10,V37" playid="21,2,156" type="P"
+      text="Baidal Macia J. pass incomplete to Lupo A.."></play>
+   <play context="V,2,10,V37" playid="21,3,157" type="P" turnover="F"
+      text="Baidal Macia J. sacked for loss of 16 yards to the DEC21 (Libero M.), fumble by Baidal Macia J. recovered by SAI Fantin A. at DEC21."></play>
+   <drivesum plays="3" yards="-2" top="0:32" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="H,V21,05:58" vh="H" spot="V21" clock="05:58" driveindex="22,157"></drivestart>
+   <play context="H,1,10,V21" playid="22,1,158" clock="05:26"
+      text="SAINTS PADOVA drive start at 05:26."></play>
+   <play context="H,1,10,V21" playid="22,2,159" type="R"
+      text="Turioni D. rush for 2 yards to the DEC19 (Viscardi R.)."></play>
+   <play context="H,2,8,V19" playid="22,3,160" type="R"
+      text="Fantin A. rush for 5 yards to the DEC14 (Vanni L.)."></play>
+   <play context="H,3,3,V14" playid="22,4,161" type="P"
+      text="Vecchiato M. pass incomplete to Danese D. (Quadrio A.)."></play>
+   <play context="H,4,3,V14" playid="22,5,162" type="F" clock="03:51"
+      text="Patrignani M. field goal attempt from 31 MISSED - wide left, spot at DEC20, clock 03:51."></play>
+   <drivesum plays="3" yards="7" top="1:35" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="V,V20,03:51" vh="V" spot="V20" clock="03:51" driveindex="23,162"></drivestart>
+   <play context="V,1,10,V20" playid="23,1,163" type="R"
+      text="Ballabio A. rush for loss of 2 yards to the DEC18 (Libero M.)."></play>
+   <play context="V,2,12,V18" playid="23,2,164" type="P"
+      text="Baidal Macia J. pass incomplete to Montana A.."></play>
+   <play context="V,3,12,V18" playid="23,3,165" type="E"
+      text="Baidal Macia J. pass incomplete to Greselin L., PENALTY DEC holding off-setting, PENALTY SAI pass interference off-setting, NO PLAY."></play>
+   <play context="V,3,12,V18" playid="23,4,166" type="P"
+      text="Baidal Macia J. pass incomplete to Lupo A. (Contessa A.)."></play>
+   <play context="V,4,12,V18" playid="23,5,167" type="P"
+      text="Baidal Macia J. sacked for loss of 4 yards to the DEC14 (Minazzato N.)."></play>
+   <drivesum plays="4" yards="-6" top="1:33" driveindex="23" complete="Y"></drivesum>
+   <drivestart poss="H,V14,03:51" vh="H" spot="V14" clock="03:51" driveindex="24,167"></drivestart>
+   <play context="H,1,10,V14" playid="24,1,168" clock="02:18"
+      text="SAINTS PADOVA drive start at 02:18."></play>
+   <play context="H,1,10,V14" playid="24,2,169" type="R"
+      text="Turioni D. rush for loss of 1 yard to the DEC15 (D'ovidio L.)."></play>
+   <play context="H,2,11,V15" playid="24,3,170" type="R"
+      text="Fantin A. rush for 6 yards to the DEC9 (Vanni L.)."></play>
+   <play context="H,3,5,V09" playid="24,4,171" type="#" clock="01:43"
+      text="Timeout Daemons Cernusco, clock 01:43."></play>
+   <play context="H,3,5,V09" playid="24,5,172" type="#" clock="01:43"
+      text="Timeout Saints Padova, clock 01:43."></play>
+   <play context="H,3,5,V09" playid="24,6,173" type="R"
+      text="Griggio M. rush for loss of 3 yards to the DEC12, out-of-bounds (Luna Cuero J.)."></play>
+   <play context="H,4,8,V12" playid="24,7,174" type="P"
+      text="Vecchiato M. pass incomplete to Griggio M.."></play>
+   <drivesum plays="4" yards="2" top="0:50" driveindex="24" complete="Y"></drivesum>
+   <drivestart poss="V,V12,01:43" vh="V" spot="V12" clock="01:43" driveindex="25,174"></drivestart>
+   <play context="V,1,10,V12" playid="25,1,175" clock="01:28"
+      text="DAEMONS CERNUSCO drive start at 01:28."></play>
+   <play context="V,1,10,V12" playid="25,2,176" type="P"
+      text="Baidal Macia J. pass complete to Lupo A. for 5 yards to the DEC17, out-of-bounds (Contessa A.)."></play>
+   <play context="V,2,5,V17" playid="25,3,177" type="P"
+      text="Baidal Macia J. pass incomplete to Montana A.."></play>
+   <play context="V,3,5,V17" playid="25,4,178" type="P" first="P"
+      text="Baidal Macia J. pass complete to Ballabio A. for 8 yards to the DEC25, 1ST DOWN DEC (Griggio M.)."></play>
+   <play context="V,1,10,V25" playid="25,5,179" type="P"
+      text="Baidal Macia J. pass incomplete to Lupo A., dropped pass."></play>
+   <play context="V,2,10,V25" playid="25,6,180" type="P" turnover="F"
+      text="Baidal Macia J. pass complete to Montana A. for 36 yards to the SAI29, fumble forced by Griggio M., fumble by Montana A. recovered by SAI Libero M. at SAI29."></play>
+   <drivesum plays="5" yards="49" top="0:45" driveindex="25" complete="Y"></drivesum>
+   <drivestart poss="H,H29,01:28" vh="H" spot="H29" clock="01:28" driveindex="26,180"></drivestart>
+   <play context="H,1,10,H29" playid="26,1,181" clock="00:43"
+      text="SAINTS PADOVA drive start at 00:43."></play>
+   <play context="H,1,10,H29" playid="26,2,182" type="R"
+      text="TEAM rush for loss of 1 yard to the SAI28."></play>
+   <play context="H,2,11,H28" playid="26,3,183" type="R"
+      text="TEAM rush for loss of 1 yard to the SAI27."></play>
+   <play context="H,3,12,H27" playid="26,4,184" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="2" yards="-2" top="0:43" driveindex="26" complete="Y"></drivesum>
+   <score final="Y" V="14" H="18"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="DEC">
+    <firstdowns no="3" rush="0" pass="3" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="4" fourthconv="0" fourthatt="2"></conversions>
+    <fumbles no="2" lost="2"></fumbles>
+    <misc yds="0" top="04:50"></misc>
+    <rush att="3" yds="-22" gain="0" loss="22" td="0" long="0"></rush>
+    <pass comp="6" att="14" int="0" yds="70" td="0" long="0" sacks="2" sackyds="20"></pass>
+    <rcv no="6" yds="70" td="0" long="0"></rcv>
+    <defense tackua="8" tacka="4" tflua="3" tfla="0" tflyds="15" sacks="0" sackyds="0" brup="1"></defense>
+    <fumbles no="2" lost="2"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SAI">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:10"></misc>
+    <rush att="13" yds="35" gain="52" loss="17" td="0" long="0"></rush>
+    <pass comp="0" att="3" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <fg made="0" att="2" long="0" blkd="0"></fg>
+    <defense tackua="9" tacka="0" tflua="4" tfla="0" tflyds="27" sacks="2" sackyds="20" brup="3" ff="2" fr="2" fryds="0"></defense>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,3,12,H27" qtr="4" clock="00:00" vtoh="2" htoh="3"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="DEC">
+ </dnp>
+ <dnp vh="H" id="SAI">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

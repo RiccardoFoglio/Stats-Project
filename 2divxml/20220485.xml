@@ -1,0 +1,774 @@
+<fbgame source="Tas Football" version="1.3.4" generated="7/28/2022">
+ <venue gameid="20220485" visid="AQU" homeid="PIR" visname="Aquile Ferrara" homename="Pirates Savona"
+      date="5/29/2022" location="Albisola Superiore" stadium="Luceto Albisola Supe"
+      start="15:00" end="17:30" leaguegame="Y" postseason="Y"
+      duration="02:30" attend="150" temp="15 C" wind="HEAVY" weather="CLOUDY">
+  <officials ref="M.Breglia" ump="R.Passalacqua" line="V.Pierotti" lj="M.Avagnina" bj="C.Camossa" fj="A.Pagani" sj="A.Avagnina" sc="E.M.Dolci"></officials>
+  <rules qtrs="4" mins="12" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="94" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="AQU" name="Aquile Ferrara" record="3-4" conf-record="3-4" abb="A">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+   <penalties no="7" yds="65"></penalties>
+   <conversions thirdconv="0" thirdatt="9" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="2" lost="1"></fumbles>
+   <misc yds="0" top="20:05" ona="0" onm="0"></misc>
+   <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="16" yds="-11" gain="16" loss="27" td="0" long="4"></rush>
+   <pass comp="4" att="12" int="2" yds="17" td="0" long="13" sacks="0" sackyds="0"></pass>
+   <rcv no="4" yds="17" td="0" long="13"></rcv>
+   <punt no="5" yds="143" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+   <ko no="2" yds="102" ob="0" tb="0"></ko>
+   <defense tackua="36" tacka="30" tflua="2" tfla="2" tflyds="8" sacks="0" sackyds="0" brup="1"></defense>
+   <kr no="5" yds="51" td="0" long="25"></kr>
+  </totals>
+  <player name="Medini M." shortname="Medini M." checkname="M.,MEDINI" uni="81" gp="1" code="81">
+   <rush att="1" yds="-3" gain="0" loss="3" td="0" long="0"></rush>
+   <pass comp="1" att="2" int="0" yds="3" td="0" long="2" sacks="0" sackyds="0"></pass>
+   <rcv no="2" yds="10" td="0" long="13"></rcv>
+   <kr no="1" yds="25" td="0" long="25"></kr>
+  </player>
+  <player name="Ferrari G." shortname="Ferrari G." checkname="G.,FERRARI" uni="9" gp="1" code="9">
+   <rush att="1" yds="-2" gain="0" loss="2" td="0" long="0"></rush>
+   <rcv no="1" yds="4" td="0" long="4"></rcv>
+   <kr no="1" yds="5" td="0" long="5"></kr>
+  </player>
+  <player name="Bindini J." shortname="Bindini J." checkname="J.,BINDINI" uni="12" gp="1" code="12">
+   <rcv no="1" yds="3" td="0" long="2"></rcv>
+   <defense tackua="8" tacka="3" tflua="1" tfla="1" tflyds="1"></defense>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Carulli G." shortname="Carulli G." checkname="G.,CARULLI" uni="2" gp="1" code="2">
+   <rush att="5" yds="4" gain="7" loss="3" td="0" long="4"></rush>
+  </player>
+  <player name="Masiero C." shortname="Masiero C." checkname="C.,MASIERO" uni="28" gp="1" code="28">
+   <rush att="2" yds="-4" gain="2" loss="6" td="0" long="2"></rush>
+  </player>
+  <player name="Romagnoli A." shortname="Romagnoli A." checkname="A.,ROMAGNOLI" uni="32" gp="1" code="32">
+   <rush att="3" yds="-13" gain="0" loss="13" td="0" long="0"></rush>
+   <punt no="5" yds="143" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Zucchelli R." shortname="Zucchelli R." checkname="R.,ZUCCHELLI" uni="1" gp="1" code="1">
+   <rush att="4" yds="7" gain="7" loss="0" td="0" long="3"></rush>
+   <defense tackua="2" tacka="2"></defense>
+  </player>
+  <player name="Pescerelli F." shortname="Pescerelli F." checkname="F.,PESCERELLI" uni="15" gp="1" code="15"></player>
+  <player name="Rizzo G." shortname="Rizzo G." checkname="G.,RIZZO" uni="17" gp="1" code="17"></player>
+  <player name="Capitozzo F." shortname="Capitozzo F." checkname="F.,CAPITOZZO" uni="21" gp="1" code="21">
+   <defense tackua="0" tacka="1"></defense>
+   <kr no="1" yds="20" td="0" long="20"></kr>
+  </player>
+  <player name="Zanella M." shortname="Zanella M." checkname="M.,ZANELLA" uni="23" gp="1" code="23">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Bottoni C." shortname="Bottoni C." checkname="C.,BOTTONI" uni="25" gp="1" code="25">
+   <defense tackua="5" tacka="1" brup="1"></defense>
+  </player>
+  <player name="Roversi G." shortname="Roversi G." checkname="G.,ROVERSI" uni="26" gp="1" code="26">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Melloni V." shortname="Melloni V." checkname="V.,MELLONI" uni="3" gp="1" code="3">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Quadretti A." shortname="Quadretti A." checkname="A.,QUADRETTI" uni="30" gp="1" code="30">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Peressotti P." shortname="Peressotti P." checkname="P.,PERESSOTTI" uni="31" gp="1" code="31">
+   <defense tackua="1" tacka="2"></defense>
+  </player>
+  <player name="Neodo L." shortname="Neodo L." checkname="L.,NEODO" uni="5" gp="1" code="5">
+   <defense tackua="2" tacka="2" tflua="1" tfla="0" tflyds="6"></defense>
+  </player>
+  <player name="Berti A." shortname="Berti A." checkname="A.,BERTI" uni="33" gp="1" code="33">
+   <defense tackua="4" tacka="2"></defense>
+   <kr no="2" yds="1" td="0" long="1"></kr>
+  </player>
+  <player name="Omietti G." shortname="Omietti G." checkname="G.,OMIETTI" uni="44" gp="1" code="44">
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="Orlandi L." shortname="Orlandi L." checkname="L.,ORLANDI" uni="51" gp="1" code="51"></player>
+  <player name="Lodi L." shortname="Lodi L." checkname="L.,LODI" uni="52" gp="1" code="52"></player>
+  <player name="Brunetti S." shortname="Brunetti S." checkname="S.,BRUNETTI" uni="56" gp="1" code="56">
+   <defense tackua="2" tacka="4" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Maccagnani G." shortname="Maccagnani G." checkname="G.,MACCAGNANI" uni="58" gp="1" code="58"></player>
+  <player name="La Torre M." shortname="La Torre M." checkname="TORRE M.,LA" uni="66" gp="1" code="66">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+  <player name="Cavicchi F." shortname="Cavicchi F." checkname="F.,CAVICCHI" uni="70" gp="1" code="70"></player>
+  <player name="Cellini S." shortname="Cellini S." checkname="S.,CELLINI" uni="71" gp="1" code="71"></player>
+  <player name="Giacomelli E." shortname="Giacomelli E." checkname="E.,GIACOMELLI" uni="72" gp="1" code="72"></player>
+  <player name="Zucchelli Z." shortname="Zucchelli Z." checkname="Z.,ZUCCHELLI" uni="4" gp="1" code="4">
+   <pass comp="3" att="10" int="2" yds="14" td="0" long="13" sacks="0" sackyds="0"></pass>
+  </player>
+  <player name="Sgambati F." shortname="Sgambati F." checkname="F.,SGAMBATI" uni="87" gp="1" code="87">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Baldoin E." shortname="Baldoin E." checkname="E.,BALDOIN" uni="88" gp="1" code="88">
+   <defense tackua="2" tacka="3"></defense>
+  </player>
+  <player name="Fondi P." shortname="Fondi P." checkname="P.,FONDI" uni="91" gp="1" code="91">
+   <defense tackua="3" tacka="5"></defense>
+  </player>
+  <player name="Solimine F." shortname="Solimine F." checkname="F.,SOLIMINE" uni="99" gp="1" code="99">
+   <ko no="2" yds="102" ob="0" tb="0"></ko>
+   <defense tackua="0" tacka="1"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <defense tackua="1" tacka="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="" id="PIR" name="Pirates Savona" record="5-2" conf-record="5-2" abb="P">
+  <linescore prds="4" line="9,13,7,14" score="43">
+   <lineprd prd="1" score="9"></lineprd>
+   <lineprd prd="2" score="13"></lineprd>
+   <lineprd prd="3" score="7"></lineprd>
+   <lineprd prd="4" score="14"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="21" rush="12" pass="5" penalty="4"></firstdowns>
+   <penalties no="10" yds="90"></penalties>
+   <conversions thirdconv="7" thirdatt="10" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="27:55" ona="0" onm="0"></misc>
+   <redzone att="8" scores="5" points="35" tdrush="4" tdpass="1" fgmade="0" endfga="1" enddowns="1" endint="0" endfumb="0" endhalf="1" endgame="0"></redzone>
+   <rush att="40" yds="196" gain="208" loss="12" td="4" long="16"></rush>
+   <pass comp="13" att="21" int="0" yds="160" td="1" long="31" sacks="0" sackyds="0"></pass>
+   <rcv no="13" yds="160" td="1" long="31"></rcv>
+   <ko no="7" yds="351" ob="0" tb="2"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <pat kickatt="6" kickmade="5"></pat>
+   <defense tackua="16" tacka="12" tflua="6" tfla="4" tflyds="30" sacks="0" sackyds="0" brup="2" saf="1" ff="1" fr="1" fryds="0" int="2" intyds="32"></defense>
+   <kr no="2" yds="26" td="0" long="14"></kr>
+   <pr no="4" yds="-2" td="0" long="3"></pr>
+   <ir no="2" yds="32" td="1" long="32"></ir>
+   <scoring td="6" saf="1" patkick="5"></scoring>
+  </totals>
+  <player name="Parodi L." shortname="Parodi L." checkname="L.,PARODI" uni="88" gp="1" code="88">
+   <rcv no="5" yds="54" td="1" long="22"></rcv>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Ruta M." shortname="Ruta M." checkname="M.,RUTA" uni="19" gp="1" code="19">
+   <rush att="1" yds="-1" gain="0" loss="1" td="0" long="0"></rush>
+   <rcv no="4" yds="56" td="0" long="31"></rcv>
+   <kr no="2" yds="26" td="0" long="14"></kr>
+   <pr no="3" yds="-5" td="0" long="0"></pr>
+  </player>
+  <player name="Prosetti G." shortname="Prosetti G." checkname="G.,PROSETTI" uni="81" gp="1" code="81">
+   <rcv no="3" yds="28" td="0" long="20"></rcv>
+  </player>
+  <player name="Maniezzi F." shortname="Maniezzi F." checkname="F.,MANIEZZI" uni="83" gp="1" code="83">
+   <rcv no="1" yds="22" td="0" long="22"></rcv>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="1" yds="-1" gain="0" loss="1" td="0" long="0"></rush>
+  </player>
+  <player name="Simonetti E." shortname="Simonetti E." checkname="E.,SIMONETTI" uni="18" gp="1" code="18"></player>
+  <player name="Aboulaye I." shortname="Aboulaye I." checkname="I.,ABOULAYE" uni="17" gp="1" code="17">
+   <defense tackua="2" tacka="0" fr="1" fryds="0"></defense>
+   <pr no="1" yds="3" td="0" long="3"></pr>
+  </player>
+  <player name="Navarra F." shortname="Navarra F." checkname="F.,NAVARRA" uni="20" gp="1" code="20"></player>
+  <player name="Micera Z." shortname="Micera Z." checkname="Z.,MICERA" uni="22" gp="1" code="22"></player>
+  <player name="Raffaelli S." shortname="Raffaelli S." checkname="S.,RAFFAELLI" uni="2" gp="1" code="2">
+   <ko no="7" yds="351" ob="0" tb="2"></ko>
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+   <pat kickatt="6" kickmade="5"></pat>
+   <defense tackua="3" tacka="1" tflua="1" tfla="1" tflyds="4" int="1" intyds="32"></defense>
+   <ir no="1" yds="32" td="1" long="32"></ir>
+   <scoring td="1" patkick="5"></scoring>
+  </player>
+  <player name="Canto A." shortname="Canto A." checkname="A.,CANTO" uni="42" gp="1" code="42">
+   <defense tackua="1" tacka="1" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Di Falco L." shortname="Di Falco L." checkname="FALCO L.,DI" uni="15" gp="1" code="15">
+  </player>
+  <player name="Reglioni E." shortname="Reglioni E." checkname="E.,REGLIONI" uni="46" gp="1" code="46">
+   <defense tackua="3" tacka="2" tflua="1" tfla="1" tflyds="1" brup="1" saf="1" ff="1"></defense>
+   <scoring saf="1"></scoring>
+  </player>
+  <player name="Bruno M." shortname="Bruno M." checkname="M.,BRUNO" uni="47" gp="1" code="47">
+   <defense tackua="0" tacka="3" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Danzo M." shortname="Danzo M." checkname="M.,DANZO" uni="52" gp="1" code="52"></player>
+  <player name="Barbieri A." shortname="Barbieri A." checkname="A.,BARBIERI" uni="54" gp="1" code="54"></player>
+  <player name="Montuori S." shortname="Montuori S." checkname="S.,MONTUORI" uni="59" gp="1" code="59"></player>
+  <player name="Novara M." shortname="Novara M." checkname="M.,NOVARA" uni="62" gp="1" code="62"></player>
+  <player name="Diamanti Y." shortname="Diamanti Y." checkname="Y.,DIAMANTI" uni="65" gp="1" code="65"></player>
+  <player name="Dervishi M." shortname="Dervishi M." checkname="M.,DERVISHI" uni="69" gp="1" code="69">
+   <defense tackua="2" tacka="1" tflua="1" tfla="0" tflyds="11"></defense>
+  </player>
+  <player name="Guelfi C." shortname="Guelfi C." checkname="C.,GUELFI" uni="70" gp="1" code="70"></player>
+  <player name="Di Bella A." shortname="Di Bella A." checkname="BELLA A.,DI" uni="74" gp="1" code="74"></player>
+  <player name="Bollo K." shortname="Bollo K." checkname="K.,BOLLO" uni="77" gp="1" code="77">
+   <defense tackua="2" tacka="1" tflua="1" tfla="0" tflyds="6"></defense>
+  </player>
+  <player name="Borbon Rodri B." shortname="Borbon Rodri B." checkname="RODRI B.,BORBON" uni="79" gp="1" code="79">
+   <defense tackua="2" tacka="1" tflua="1" tfla="0" tflyds="3"></defense>
+  </player>
+  <player name="Leoni D." shortname="Leoni D." checkname="D.,LEONI" uni="44" gp="1" code="44">
+   <rush att="8" yds="42" gain="43" loss="1" td="2" long="16"></rush>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Burato F." shortname="Burato F." checkname="F.,BURATO" uni="1" gp="1" code="1">
+   <rush att="16" yds="77" gain="86" loss="9" td="1" long="14"></rush>
+   <pass comp="13" att="21" int="0" yds="160" td="1" long="31" sacks="0" sackyds="0"></pass>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Longato F." shortname="Longato F." checkname="F.,LONGATO" uni="27" gp="1" code="27">
+   <rush att="14" yds="79" gain="79" loss="0" td="1" long="12"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Attias M." shortname="Attias M." checkname="M.,ATTIAS" uni="90" gp="1" code="90"></player>
+  <player name="Parodi D." shortname="Parodi D." checkname="D.,PARODI" uni="96" gp="1" code="96">
+   <defense tackua="1" tacka="1" brup="1" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Bologna A." shortname="Bologna A." checkname="A.,BOLOGNA" uni="99" gp="1" code="99"></player>
+  <player name="Andrade Cede G." shortname="Andrade Cede G." checkname="CEDE G.,ANDRADE" uni="4" gp="1" code="4">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="PIR" qtr="1" clock="07:54" type="TD" how="RUSH" yds="16" scorer="Leoni D." patby="Raffaelli S." pattype="KICK" patres="GOOD" plays="5" drive="34" top="0:49" vscore="0" hscore="7" driveindex="2"></score>
+  <score vh="H" team="PIR" qtr="1" clock="06:13" type="SAF" yds="1" scorer="Reglioni E." vscore="0" hscore="9" driveindex="3"></score>
+  <score vh="H" team="PIR" qtr="2" clock="05:07" type="TD" how="INT" yds="32" scorer="Raffaelli S." patby="Raffaelli S." pattype="KICK" patres="FAIL" vscore="0" hscore="15" driveindex="8"></score>
+  <score vh="H" team="PIR" qtr="2" clock="01:24" type="TD" how="RUSH" yds="6" scorer="Burato F." patby="Raffaelli S." pattype="KICK" patres="GOOD" plays="7" drive="37" top="2:47" vscore="0" hscore="22" driveindex="10"></score>
+  <score vh="H" team="PIR" qtr="3" clock="05:01" type="TD" how="RUSH" yds="6" scorer="Leoni D." patby="Raffaelli S." pattype="KICK" patres="GOOD" plays="13" drive="74" top="6:31" vscore="0" hscore="29" driveindex="13"></score>
+  <score vh="H" team="PIR" qtr="4" clock="10:35" type="TD" how="PASS" yds="16" scorer="Parodi L." passer="Burato F." patby="Raffaelli S." pattype="KICK" patres="GOOD" plays="11" drive="89" top="4:19" vscore="0" hscore="36" driveindex="15"></score>
+  <score vh="H" team="PIR" qtr="4" clock="07:01" type="TD" how="RUSH" yds="12" scorer="Longato F." patby="Raffaelli S." pattype="KICK" patres="GOOD" plays="1" drive="12" top="0:52" vscore="0" hscore="43" driveindex="17"></score>
+ </scores>
+ <fgas>
+  <fga vh="H" team="PIR" kicker="Raffaelli S." qtr="2" clock="06:06" distance="35" result="missed"></fga>
+ </fgas>
+ <drives>
+  <drive vh="V" team="AQU" start="KO,1,12:00,20" end="PUNT,1,08:43,21" plays="3" yards="1" top="3:17" driveindex="1"></drive>
+  <drive vh="H" team="PIR" start="PUNT,1,08:43,60" end="TD,1,07:54,94" plays="5" yards="34" top="0:49" rz="1" driveindex="2"></drive>
+  <drive vh="V" team="AQU" start="KO,1,07:43,20" end="SAF,1,06:13,0" plays="3" yards="-20" top="1:30" driveindex="3"></drive>
+  <drive vh="H" team="PIR" start="KO,1,05:46,42" end="DOWNS,1,03:24,75" plays="7" yards="33" top="2:22" rz="1" driveindex="4"></drive>
+  <drive vh="V" team="AQU" start="DOWNS,1,03:24,19" end="PUNT,1,00:26,32" plays="4" yards="13" top="2:58" driveindex="5"></drive>
+  <drive vh="H" team="PIR" start="PUNT,1,00:26,21" end="FGA,2,06:06,74" plays="12" yards="53" top="6:20" rz="1" driveindex="6"></drive>
+  <drive vh="V" team="AQU" start="FGA,2,06:06,20" end="INT,2,05:07,23" plays="3" yards="3" top="0:59" driveindex="7"></drive>
+  <drive vh="H" team="PIR" start="INT,2,05:07,94" end="TD,2,05:07,94" plays="0" yards="0" top="0:00" driveindex="8"></drive>
+  <drive vh="V" team="AQU" start="KO,2,04:42,40" end="FUMB,2,04:11,37" plays="3" yards="-3" top="0:31" driveindex="9"></drive>
+  <drive vh="H" team="PIR" start="FUMB,2,04:11,57" end="TD,2,01:24,94" plays="7" yards="37" top="2:47" rz="1" driveindex="10"></drive>
+  <drive vh="V" team="AQU" start="KO,2,00:34,41" end="PUNT,2,00:09,36" plays="3" yards="-5" top="0:25" driveindex="11"></drive>
+  <drive vh="H" team="PIR" start="PUNT,2,00:09,8" end="HALF,2,00:00,7" plays="1" yards="-1" top="0:09" driveindex="12"></drive>
+  <drive vh="H" team="PIR" start="KO,3,11:32,20" end="TD,3,05:01,94" plays="13" yards="74" top="6:31" rz="1" driveindex="13"></drive>
+  <drive vh="V" team="AQU" start="KO,3,04:56,40" end="PUNT,3,02:54,44" plays="3" yards="4" top="2:02" driveindex="14"></drive>
+  <drive vh="H" team="PIR" start="PUNT,3,02:54,5" end="TD,4,10:35,94" plays="11" yards="89" top="4:19" rz="1" driveindex="15"></drive>
+  <drive vh="V" team="AQU" start="KO,4,10:02,5" end="INT,4,07:53,10" plays="3" yards="5" top="2:09" driveindex="16"></drive>
+  <drive vh="H" team="PIR" start="INT,4,07:53,82" end="TD,4,07:01,94" plays="1" yards="12" top="0:52" rz="1" driveindex="17"></drive>
+  <drive vh="V" team="AQU" start="KO,4,06:54,22" end="PUNT,4,02:51,25" plays="3" yards="3" top="4:03" driveindex="18"></drive>
+  <drive vh="H" team="PIR" start="PUNT,4,02:51,53" end="HALF,4,00:00,78" plays="4" yards="25" top="2:51" rz="1" driveindex="19"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V30" playid="0,1,0"
+      text="PIRATES WIN THE COIN TOSS,DEFERE TO SECOND HALF"></play>
+   <play context="V,1,10,V30" playid="0,2,1"
+      text="PIR ball on PIR30."></play>
+   <play context="H,1,10,H30" playid="0,3,2" type="K"
+      text="Raffaelli S. kickoff 64 yards to the AQU0, touchback."></play>
+   <drivestart poss="V,V20,12:00" vh="V" spot="V20" clock="12:00" driveindex="1,2"></drivestart>
+   <play context="V,1,10,V20" playid="1,1,3" type="R"
+      text="Zucchelli R. rush for 2 yards to the AQU22 (Canto A.;Bollo K.)."></play>
+   <play context="V,2,8,V22" playid="1,2,4" type="R"
+      text="Medini M. rush for loss of 3 yards to the AQU19 (Borbon Rodri B.)."></play>
+   <play context="V,3,11,V19" playid="1,3,5" type="R"
+      text="Zucchelli R. rush for 2 yards to the AQU21 (Reglioni E.)."></play>
+   <play context="V,4,9,V21" playid="1,4,6" type="U"
+      text="Romagnoli A. punt 16 yards to the AQU37, Aboulaye I. return 3 yards to the AQU34 (Peressotti P.)."></play>
+   <drivesum plays="3" yards="1" top="3:17" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,V34,12:00" vh="H" spot="V34" clock="12:00" driveindex="2,6"></drivestart>
+   <play context="H,1,10,V34" playid="2,1,7" clock="08:43"
+      text="PIRATES SAVONA drive start at 08:43."></play>
+   <play context="H,1,10,V34" playid="2,2,8" type="R"
+      text="Burato F. rush for 4 yards to the AQU30, out-of-bounds (Neodo L.)."></play>
+   <play context="H,2,6,V30" playid="2,3,9" type="R"
+      text="Burato F. rush for 2 yards to the AQU28 (Brunetti S.)."></play>
+   <play context="H,3,4,V28" playid="2,4,10" type="P" first="P"
+      text="Burato F. pass complete to Parodi L. for 6 yards to the AQU22, 1ST DOWN PIR, out-of-bounds (Zanella M.)."></play>
+   <play context="H,1,10,V22" playid="2,5,11" type="P"
+      text="Burato F. pass complete to Ruta M. for 6 yards to the AQU16 (Bindini J.;Zanella M.)."></play>
+   <play context="H,2,4,V16" playid="2,6,12" type="R" first="R" score="Y" clock="07:54"
+      text="Leoni D. rush for 16 yards to the AQU0, 1ST DOWN PIR, TOUCHDOWN, clock 07:54."></play>
+   <play context="H,1,0,V03" playid="2,7,13" type="X" score="Y"
+      text="Raffaelli S. kick attempt good."></play>
+   <score V="0" H="7"></score>
+   <drivesum plays="5" yards="34" top="0:49" driveindex="2" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="2,8,14" type="K"
+      text="Raffaelli S. kickoff 64 yards to the AQU0, touchback."></play>
+   <drivestart poss="V,V20,07:54" vh="V" spot="V20" clock="07:54" driveindex="3,14"></drivestart>
+   <play context="V,1,10,V20" playid="3,1,15" clock="07:43"
+      text="AQUILE FERRARA drive start at 07:43."></play>
+   <play context="V,1,10,V20" playid="3,2,16" type="R"
+      text="Carulli G. rush for loss of 3 yards to the AQU17 (Canto A.)."></play>
+   <play context="V,2,13,V17" playid="3,3,17" type="E"
+      text="PENALTY AQU delay of game 5 yards to the AQU12."></play>
+   <play context="V,2,18,V12" playid="3,4,18" type="R"
+      text="Romagnoli A. rush for loss of 3 yards to the AQU9, fumble by Romagnoli A. recovered by AQU Romagnoli A. at AQU1 (Dervishi M.)."></play>
+   <play context="V,3,29,V01" playid="3,5,19" type="R" score="Y" clock="06:13"
+      text="Romagnoli A. rush for loss of 1 yard to the AQU0 (Reglioni E.), Reglioni E. safety, clock 06:13."></play>
+   <score V="0" H="9"></score>
+   <drivesum plays="3" yards="-20" top="1:30" driveindex="3" complete="Y"></drivesum>
+   <play context="V,1,0,V20" playid="3,6,20" type="K"
+      text="Solimine F. kickoff 44 yards to the PIR30, Ruta M. return 12 yards to the PIR42 (Omietti G.;Sgambati F.)."></play>
+   <drivestart poss="H,H42,06:13" vh="H" spot="H42" clock="06:13" driveindex="4,20"></drivestart>
+   <play context="H,1,10,H42" playid="4,1,21" clock="05:46"
+      text="PIRATES SAVONA drive start at 05:46."></play>
+   <play context="H,1,10,H42" playid="4,2,22" type="E"
+      text="PENALTY PIR delay of game 5 yards to the PIR37."></play>
+   <play context="H,1,15,H37" playid="4,3,23" type="R"
+      text="Leoni D. rush for 3 yards to the PIR40 (Brunetti S.)."></play>
+   <play context="H,2,12,H40" playid="4,4,24" type="P" first="P"
+      text="Burato F. pass complete to Prosetti G. for 20 yards to the AQU34, 1ST DOWN PIR, out-of-bounds (Bottoni C.)."></play>
+   <play context="H,1,10,V34" playid="4,5,25" type="P"
+      text="Burato F. pass complete to Parodi L. for 5 yards to the AQU29 (Roversi G.)."></play>
+   <play context="H,2,5,V29" playid="4,6,26" type="E" first="E"
+      text="PENALTY AQU IP 5 yards to the AQU24, 1ST DOWN PIR."></play>
+   <play context="H,1,10,V24" playid="4,7,27" type="R"
+      text="Leoni D. rush for 5 yards to the AQU19 (Fondi P.)."></play>
+   <play context="H,2,5,V19" playid="4,8,28" type="P"
+      text="Burato F. pass incomplete to Di Falco L.."></play>
+   <play context="H,3,5,V19" playid="4,9,29" type="P"
+      text="Burato F. pass complete to Prosetti G. for no gain to the AQU19 (Berti A.)."></play>
+   <play context="H,4,5,V19" playid="4,10,30" type="P"
+      text="Burato F. pass incomplete to Di Falco L., dropped pass."></play>
+   <drivesum plays="7" yards="33" top="2:22" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V19,05:46" vh="V" spot="V19" clock="05:46" driveindex="5,30"></drivestart>
+   <play context="V,1,10,V19" playid="5,1,31" clock="03:24"
+      text="AQUILE FERRARA drive start at 03:24."></play>
+   <play context="V,1,10,V19" playid="5,2,32" type="P" first="P"
+      text="Zucchelli Z. pass complete to Medini M. for 13 yards to the AQU32, 1ST DOWN AQU."></play>
+   <play context="V,1,10,V32" playid="5,3,33" type="R"
+      text="Carulli G. rush for 2 yards to the AQU34 (Bollo K.)."></play>
+   <play context="V,2,8,V34" playid="5,4,34" type="R"
+      text="Ferrari G. rush for loss of 2 yards to the AQU32 (Raffaelli S.;Andrade Cede G.)."></play>
+   <play context="V,3,10,V32" playid="5,5,35" type="#" clock="01:46"
+      text="Timeout Aquile Ferrara, clock 01:46."></play>
+   <play context="V,3,10,V32" playid="5,6,36" type="P"
+      text="Zucchelli Z. pass incomplete to Bindini J.."></play>
+   <play context="V,4,10,V32" playid="5,7,37" type="E"
+      text="Romagnoli A. punt 24 yards to the PIR38, PENALTY AQU IP off-setting, PENALTY PIR H off-setting, NO PLAY."></play>
+   <play context="V,4,10,V32" playid="5,8,38" type="U"
+      text="Romagnoli A. punt 39 yards to the PIR23, Ruta M. return -2 yards to the PIR21 (Melloni V.)."></play>
+   <drivesum plays="4" yards="13" top="2:58" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H21,01:46" vh="H" spot="H21" clock="01:46" driveindex="6,38"></drivestart>
+   <play context="H,1,10,H21" playid="6,1,39" clock="00:26"
+      text="PIRATES SAVONA drive start at 00:26."></play>
+   <play context="H,1,10,H21" playid="6,2,40" type="R"
+      text="Longato F. rush for 1 yard to the PIR22 (Peressotti P.;Berti A.), PENALTY PIR H (Novara M.) 10 yards to the PIR12."></play>
+   <play context="H,1,19,H12" playid="6,3,41"
+      text="1st and 19."></play>
+   <score qtr="1" V="0" H="9"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AQU">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="07:56"></misc>
+    <rush att="8" yds="-14" gain="6" loss="20" td="0" long="2"></rush>
+    <pass comp="1" att="2" int="0" yds="13" td="0" long="13" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="13" td="0" long="13"></rcv>
+    <punt no="2" yds="55" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="1" yds="44" ob="0" tb="0"></ko>
+    <defense tackua="10" tacka="6" sacks="0" sackyds="0"></defense>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PIR">
+    <firstdowns no="4" rush="1" pass="2" penalty="1"></firstdowns>
+    <penalties no="2" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:04"></misc>
+    <rush att="6" yds="31" gain="31" loss="0" td="1" long="16"></rush>
+    <pass comp="5" att="7" int="0" yds="37" td="0" long="20" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="37" td="0" long="20"></rcv>
+    <ko no="2" yds="128" ob="0" tb="2"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="6" tacka="4" tflua="6" tfla="0" tflyds="22" sacks="0" sackyds="0" saf="1"></defense>
+    <kr no="1" yds="12" td="0" long="12"></kr>
+    <pr no="2" yds="1" td="0" long="3"></pr>
+    <scoring td="1" saf="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="H,1,19,H12" playid="6,4,42" type="#" clock="12:00"
+      text="Start of 2nd quarter, clock 12:00."></play>
+   <play context="H,1,19,H12" playid="6,5,43" type="R"
+      text="Longato F. rush for 1 yard to the PIR13 (Berti A.)."></play>
+   <play context="H,2,18,H13" playid="6,6,44" type="R"
+      text="Longato F. rush for 9 yards to the PIR22 (Zucchelli R.;Neodo L.)."></play>
+   <play context="H,3,9,H22" playid="6,7,45" type="R" first="R"
+      text="Burato F. rush for 11 yards to the PIR33, 1ST DOWN PIR (Peressotti P.;Bottoni C.)."></play>
+   <play context="H,1,10,H33" playid="6,8,46" type="P"
+      text="Burato F. pass incomplete to Parodi L.."></play>
+   <play context="H,2,10,H33" playid="6,9,47" type="R" first="R"
+      text="Burato F. rush for 14 yards to the 47 yardline, 1ST DOWN PIR (Zucchelli R.)."></play>
+   <play context="H,1,10,H47" playid="6,10,48" type="E"
+      text="PENALTY AQU offside defense (Solimine F.) 5 yards to the AQU42."></play>
+   <play context="H,1,5,V42" playid="6,11,49" type="R" first="R"
+      text="Burato F. rush for 6 yards to the AQU36, 1ST DOWN PIR (Bindini J.)."></play>
+   <play context="H,1,10,V36" playid="6,12,50" type="R" first="E"
+      text="Longato F. rush for 7 yards to the AQU29 (Bindini J.), PENALTY AQU unsportsmanlike conduct (Peressotti P.) 15 yards to the AQU14, 1ST DOWN PIR."></play>
+   <play context="H,1,10,V14" playid="6,13,51"
+      text="1st and 10."></play>
+   <play context="H,1,10,V14" playid="6,14,52" type="R"
+      text="Longato F. rush for 5 yards to the AQU9 (Baldoin E.;Bindini J.), PENALTY PIR H (Parodi L.) 10 yards to the AQU19."></play>
+   <play context="H,1,15,V19" playid="6,15,53"
+      text="1st and 15."></play>
+   <play context="H,1,15,V19" playid="6,16,54" type="P"
+      text="Burato F. pass incomplete to Prosetti G.."></play>
+   <play context="H,2,15,V19" playid="6,17,55" type="R"
+      text="Burato F. rush for no gain to the AQU19 (Fondi P.)."></play>
+   <play context="H,3,15,V19" playid="6,18,56" type="#" clock="07:02"
+      text="Timeout Pirates Savona, clock 07:02."></play>
+   <play context="H,3,15,V19" playid="6,19,57" type="R"
+      text="Ruta M. rush for loss of 1 yard to the AQU20 (Bindini J.)."></play>
+   <play context="H,4,16,V20" playid="6,20,58" type="F" clock="06:06"
+      text="Raffaelli S. field goal attempt from 35 MISSED - wide left, spot at AQU20, clock 06:06."></play>
+   <drivesum plays="12" yards="53" top="6:20" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,V20,06:06" vh="V" spot="V20" clock="06:06" driveindex="7,58"></drivestart>
+   <play context="V,1,10,V20" playid="7,1,59" type="P"
+      text="Zucchelli Z. pass incomplete to Capitozzo F.."></play>
+   <play context="V,2,10,V20" playid="7,2,60" type="R"
+      text="Zucchelli R. rush for 3 yards to the AQU23 (Bruno M.;Parodi D.)."></play>
+   <play context="V,3,7,V23" playid="7,3,61" type="#" clock="05:19"
+      text="Timeout Aquile Ferrara, clock 05:19."></play>
+   <play context="V,3,7,V23" playid="7,4,62" type="P" score="Y" turnover="I" clock="05:07"
+      text="Zucchelli Z. pass intercepted by Raffaelli S. at the AQU32, Raffaelli S. return 32 yards to the AQU0, TOUCHDOWN, clock 05:07."></play>
+   <drivesum plays="3" yards="3" top="0:59" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,V03,05:07" vh="H" spot="V03" clock="05:07" driveindex="8,62"></drivestart>
+   <play context="H,1,0,V03" playid="8,1,63" type="X"
+      text="Raffaelli S. kick attempt failed."></play>
+   <score V="0" H="15"></score>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="8" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="8,2,64" type="K"
+      text="Raffaelli S. kickoff 24 yards to the AQU40, Berti A. return 0 yards to the AQU40."></play>
+   <drivestart poss="V,V40,05:07" vh="V" spot="V40" clock="05:07" driveindex="9,64"></drivestart>
+   <play context="V,1,10,V40" playid="9,1,65" clock="04:42"
+      text="AQUILE FERRARA drive start at 04:42."></play>
+   <play context="V,1,10,V40" playid="9,2,66" type="P"
+      text="Zucchelli Z. pass incomplete to Bindini J.."></play>
+   <play context="V,2,10,V40" playid="9,3,67" type="R"
+      text="Masiero C. rush for loss of 6 yards to the AQU34 (Bollo K.)."></play>
+   <play context="V,3,16,V34" playid="9,4,68" type="P" turnover="F"
+      text="Medini M. pass complete to Bindini J. for 2 yards to the AQU36, fumble forced by Reglioni E., fumble by Bindini J. recovered by PIR Aboulaye I. at AQU37."></play>
+   <drivesum plays="3" yards="-3" top="0:31" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,V37,04:42" vh="H" spot="V37" clock="04:42" driveindex="10,68"></drivestart>
+   <play context="H,1,10,V37" playid="10,1,69" clock="04:11"
+      text="PIRATES SAVONA drive start at 04:11."></play>
+   <play context="H,1,10,V37" playid="10,2,70" type="R"
+      text="Longato F. rush for 9 yards to the AQU28 (Zucchelli R.)."></play>
+   <play context="H,2,1,V28" playid="10,3,71" type="R" first="R"
+      text="Burato F. rush for 4 yards to the AQU24, 1ST DOWN PIR (Fondi P.;Solimine F.)."></play>
+   <play context="H,1,10,V24" playid="10,4,72" type="P"
+      text="Burato F. pass incomplete to Parodi L., PENALTY PIR illegal block (Novara M.) 15 yards to the AQU39."></play>
+   <play context="H,1,25,V39" playid="10,5,73"
+      text="1st and 25."></play>
+   <play context="H,1,25,V39" playid="10,6,74" type="R"
+      text="Longato F. rush for 9 yards to the AQU30 (Bindini J.)."></play>
+   <play context="H,2,16,V30" playid="10,7,75" type="#" clock="01:57"
+      text="Timeout Pirates Savona, clock 01:57."></play>
+   <play context="H,2,16,V30" playid="10,8,76" type="P"
+      text="Burato F. pass complete to Ruta M. for 14 yards to the AQU16, out-of-bounds (Bottoni C.)."></play>
+   <play context="H,3,2,V16" playid="10,9,77" type="R" first="R"
+      text="Longato F. rush for 10 yards to the AQU6, 1ST DOWN PIR (Capitozzo F.;Baldoin E.)."></play>
+   <play context="H,1,0,V06" playid="10,10,78" type="R" score="Y" clock="01:24"
+      text="Burato F. rush for 6 yards to the AQU0, TOUCHDOWN, clock 01:24."></play>
+   <play context="H,1,0,V03" playid="10,11,79" type="E"
+      text="Raffaelli S. kick attempt good, PENALTY PIR H (Leoni D.) 10 yards to the AQU13, NO PLAY."></play>
+   <play context="H,1,0,V13" playid="10,12,80" type="X" score="Y"
+      text="Raffaelli S. kick attempt good."></play>
+   <score V="0" H="22"></score>
+   <drivesum plays="7" yards="37" top="2:47" driveindex="10" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="10,13,81" type="K"
+      text="Raffaelli S. kickoff 48 yards to the AQU16, Medini M. return 25 yards to the AQU41, out-of-bounds."></play>
+   <drivestart poss="V,V41,01:24" vh="V" spot="V41" clock="01:24" driveindex="11,81"></drivestart>
+   <play context="V,1,10,V41" playid="11,1,82" clock="00:34"
+      text="AQUILE FERRARA drive start at 00:34."></play>
+   <play context="V,1,10,V41" playid="11,2,83" type="E"
+      text="PENALTY AQU delay of game 5 yards to the AQU36."></play>
+   <play context="V,1,15,V36" playid="11,3,84" type="R"
+      text="Carulli G. rush for no gain to the AQU36 (Dervishi M.;Borbon Rodri B.)."></play>
+   <play context="V,2,15,V36" playid="11,4,85" type="P"
+      text="Zucchelli Z. pass incomplete to Capitozzo F. (Reglioni E.)."></play>
+   <play context="V,3,15,V36" playid="11,5,86" type="P"
+      text="Zucchelli Z. pass incomplete to Ferrari G., dropped pass."></play>
+   <play context="V,4,15,V36" playid="11,6,87" type="U"
+      text="Romagnoli A. punt 33 yards to the PIR25, Ruta M. return -2 yards to the PIR23 (Sgambati F.), PENALTY PIR personal foul (Raffaelli S.) 15 yards to the PIR8, 1st and 10, PIR ball on PIR8."></play>
+   <drivesum plays="3" yards="-5" top="0:25" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,H08,00:34" vh="H" spot="H08" clock="00:34" driveindex="12,87"></drivestart>
+   <play context="H,1,10,H08" playid="12,1,88" clock="00:09"
+      text="PIRATES SAVONA drive start at 00:09."></play>
+   <play context="H,1,10,H08" playid="12,2,89" type="R"
+      text="TEAM rush for loss of 1 yard to the PIR7."></play>
+   <play context="H,2,11,H07" playid="12,3,90" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="1" yards="-1" top="0:09" driveindex="12" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="22"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AQU">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="25"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="03:10"></misc>
+    <rush att="3" yds="-3" gain="3" loss="6" td="0" long="1"></rush>
+    <pass comp="1" att="6" int="1" yds="3" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="3" td="0" long="0"></rcv>
+    <punt no="1" yds="33" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="10" tacka="10" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0"></defense>
+    <kr no="2" yds="25" td="0" long="25"></kr>
+    <fumbles no="1" lost="1"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PIR">
+    <firstdowns no="6" rush="5" pass="0" penalty="1"></firstdowns>
+    <penalties no="4" yds="50"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="08:50"></misc>
+    <rush att="15" yds="89" gain="91" loss="2" td="1" long="0"></rush>
+    <pass comp="1" att="4" int="0" yds="14" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="14" td="0" long="0"></rcv>
+    <ko no="2" yds="72" ob="0" tb="0"></ko>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <pat kickatt="2" kickmade="1"></pat>
+    <defense tackua="2" tacka="4" tflua="1" tfla="0" tflyds="6" sacks="0" sackyds="0" brup="1" ff="1" fr="1" fryds="0" int="1" intyds="32"></defense>
+    <pr no="1" yds="-2" td="0" long="0"></pr>
+    <ir no="1" yds="32" td="1" long="32"></ir>
+    <scoring td="2" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="H,2,11,H07" playid="12,4,91" type="#" clock="12:00"
+      text="Start of 3rd quarter, clock 12:00, AQU ball on AQU30."></play>
+   <play context="V,2,11,V30" playid="12,5,92" type="K"
+      text="Solimine F. kickoff 58 yards to the PIR6, Ruta M. return 14 yards to the PIR20 (Baldoin E.)."></play>
+   <drivestart poss="H,H20,12:00" vh="H" spot="H20" clock="12:00" driveindex="13,92"></drivestart>
+   <play context="H,1,10,H20" playid="13,1,93" clock="11:32"
+      text="PIRATES SAVONA drive start at 11:32."></play>
+   <play context="H,1,10,H20" playid="13,2,94" type="R"
+      text="Leoni D. rush for 4 yards to the PIR24 (Fondi P.;Brunetti S.)."></play>
+   <play context="H,2,6,H24" playid="13,3,95" type="R"
+      text="Leoni D. rush for 2 yards to the PIR26 (Fondi P.;Zucchelli R.)."></play>
+   <play context="H,3,4,H26" playid="13,4,96" type="R" first="R"
+      text="Burato F. rush for 9 yards to the PIR35, 1ST DOWN PIR (Bottoni C.), PENALTY AQU personal foul 15 yards to the AQU44, 1ST DOWN PIR."></play>
+   <play context="H,1,10,V44" playid="13,5,97"
+      text="1st and 10."></play>
+   <play context="H,1,10,V44" playid="13,6,98" type="R"
+      text="Burato F. rush for loss of 3 yards to the 47 yardline."></play>
+   <play context="H,2,13,H47" playid="13,7,99" type="R"
+      text="Leoni D. rush for 7 yards to the AQU40 (Neodo L.;Fondi P.)."></play>
+   <play context="H,3,6,V40" playid="13,8,100" type="R"
+      text="Longato F. rush for 4 yards to the AQU36, out-of-bounds (Bindini J.)."></play>
+   <play context="H,4,2,V36" playid="13,9,101" type="R" first="R"
+      text="Burato F. rush for 3 yards to the AQU33, 1ST DOWN PIR (TEAM)."></play>
+   <play context="H,1,10,V33" playid="13,10,102" type="P"
+      text="Burato F. pass complete to Ruta M. for 5 yards to the AQU28."></play>
+   <play context="H,2,5,V28" playid="13,11,103" type="R"
+      text="Longato F. rush for 4 yards to the AQU24 (Quadretti A.)."></play>
+   <play context="H,3,1,V24" playid="13,12,104" type="R" first="R"
+      text="Burato F. rush for 6 yards to the AQU18, 1ST DOWN PIR (Brunetti S.;Fondi P.)."></play>
+   <play context="H,1,10,V18" playid="13,13,105" type="#" clock="06:13"
+      text="Timeout Pirates Savona, clock 06:13."></play>
+   <play context="H,1,10,V18" playid="13,14,106" type="R"
+      text="Burato F. rush for 1 yard to the AQU17 (Fondi P.)."></play>
+   <play context="H,2,9,V17" playid="13,15,107" type="R" first="R"
+      text="Burato F. rush for 11 yards to the AQU6, 1ST DOWN PIR (Bindini J.)."></play>
+   <play context="H,1,0,V06" playid="13,16,108" type="R" score="Y" clock="05:01"
+      text="Leoni D. rush for 6 yards to the AQU0, TOUCHDOWN, clock 05:01."></play>
+   <play context="H,1,0,V03" playid="13,17,109" type="X" score="Y"
+      text="Raffaelli S. kick attempt good."></play>
+   <score V="0" H="29"></score>
+   <drivesum plays="13" yards="74" top="6:31" driveindex="13" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="13,18,110" type="K"
+      text="Raffaelli S. kickoff 25 yards to the AQU39, Berti A. return 1 yards to the AQU40 (Aboulaye I.)."></play>
+   <drivestart poss="V,V40,05:01" vh="V" spot="V40" clock="05:01" driveindex="14,110"></drivestart>
+   <play context="V,1,10,V40" playid="14,1,111" clock="04:56"
+      text="AQUILE FERRARA drive start at 04:56."></play>
+   <play context="V,1,10,V40" playid="14,2,112" type="E"
+      text="PENALTY PIR IP 5 yards to the AQU45."></play>
+   <play context="V,1,5,V45" playid="14,3,113" type="R"
+      text="Zucchelli R. rush for no gain to the AQU45 (Raffaelli S.)."></play>
+   <play context="V,2,5,V45" playid="14,4,114" type="R"
+      text="Romagnoli A. rush for loss of 1 yard to the AQU44 (Bruno M.;Reglioni E.)."></play>
+   <play context="V,3,6,V44" playid="14,5,115" type="P"
+      text="Medini M. pass incomplete to Romagnoli A. (Parodi D.)."></play>
+   <play context="V,4,6,V44" playid="14,6,116" type="#" clock="03:31"
+      text="Timeout Aquile Ferrara, clock 03:31."></play>
+   <play context="V,4,6,V44" playid="14,7,117" type="U"
+      text="Romagnoli A. punt 39 yards to the PIR11, Ruta M. return -1 yards to the PIR10 (Berti A.;Roversi G.), PENALTY PIR H (Aboulaye I.) 5 yards to the PIR5, 1st and 10, PIR ball on PIR5."></play>
+   <drivesum plays="3" yards="4" top="2:02" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="H,H05,03:31" vh="H" spot="H05" clock="03:31" driveindex="15,117"></drivestart>
+   <play context="H,1,10,H05" playid="15,1,118" clock="02:54"
+      text="PIRATES SAVONA drive start at 02:54."></play>
+   <play context="H,1,10,H05" playid="15,2,119" type="R"
+      text="Burato F. rush for 9 yards to the PIR14 (Bottoni C.)."></play>
+   <play context="H,2,1,H14" playid="15,3,120" type="R" first="R"
+      text="Longato F. rush for 4 yards to the PIR18, 1ST DOWN PIR (Brunetti S.;Baldoin E.)."></play>
+   <play context="H,1,10,H18" playid="15,4,121" type="P"
+      text="Burato F. pass incomplete to Ruta M.."></play>
+   <play context="H,2,10,H18" playid="15,5,122" type="P"
+      text="Burato F. pass complete to Prosetti G. for 8 yards to the PIR26 (Berti A.)."></play>
+   <play context="H,3,2,H26" playid="15,6,123" type="E" first="E"
+      text="PENALTY AQU unsportsmanlike conduct (Fondi P.) 15 yards to the PIR41, 1ST DOWN PIR."></play>
+   <play context="H,1,10,H41" playid="15,7,124" type="P"
+      text="Burato F. pass complete to Parodi L. for 5 yards to the PIR46 (Bindini J.)."></play>
+   <play context="H,2,5,H46" playid="15,8,125" type="R"
+      text="Longato F. rush for 4 yards to the AQU44 (Baldoin E.)."></play>
+   <play context="H,3,1,V44" playid="15,9,126" type="E"
+      text="PENALTY PIR false start (Dervishi M.) 5 yards to the PIR45."></play>
+   <score qtr="3" V="0" H="29"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AQU">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="2" yds="30"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="02:07"></misc>
+    <rush att="2" yds="-1" gain="0" loss="1" td="0" long="0"></rush>
+    <pass comp="0" att="1" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <punt no="1" yds="39" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1"></punt>
+    <ko no="1" yds="58" ob="0" tb="0"></ko>
+    <defense tackua="11" tacka="12" sacks="0" sackyds="0"></defense>
+    <kr no="1" yds="1" td="0" long="0"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PIR">
+    <firstdowns no="7" rush="5" pass="0" penalty="2"></firstdowns>
+    <penalties no="3" yds="15"></penalties>
+    <conversions thirdconv="2" thirdatt="3" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="09:53"></misc>
+    <rush att="15" yds="71" gain="74" loss="3" td="1" long="0"></rush>
+    <pass comp="3" att="4" int="0" yds="18" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="18" td="0" long="0"></rcv>
+    <ko no="1" yds="25" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="2" tacka="2" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="1" yds="14" td="0" long="2"></kr>
+    <pr no="1" yds="-1" td="0" long="0"></pr>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="H,3,6,H45" playid="15,10,127" type="#" clock="12:00"
+      text="Start of 4th quarter, clock 12:00."></play>
+   <play context="H,3,6,H45" playid="15,11,128" type="P" first="P"
+      text="Burato F. pass complete to Parodi L. for 22 yards to the AQU27, 1ST DOWN PIR (Bindini J.)."></play>
+   <play context="H,1,10,V27" playid="15,12,129" type="R"
+      text="Leoni D. rush for loss of 1 yard to the AQU28 (Brunetti S.;Bindini J.)."></play>
+   <play context="H,2,11,V28" playid="15,13,130" type="P"
+      text="Burato F. pass incomplete to Ruta M.."></play>
+   <play context="H,3,11,V28" playid="15,14,131" type="P" first="P"
+      text="Burato F. pass complete to Maniezzi F. for 22 yards to the AQU6, 1ST DOWN PIR (Berti A.)."></play>
+   <play context="H,1,0,V06" playid="15,15,132" type="E" clock="11:00"
+      text="Longato F. rush for 6 yards to the AQU0, clock 11:00, PENALTY PIR H (Bollo K.) 10 yards to the AQU16, NO PLAY."></play>
+   <play context="H,1,0,V16" playid="15,16,133" type="P" score="Y" clock="10:35"
+      text="Burato F. pass complete to Parodi L. for 16 yards to the AQU0, TOUCHDOWN, clock 10:35."></play>
+   <play context="H,1,0,V03" playid="15,17,134" type="X" score="Y"
+      text="Raffaelli S. kick attempt good."></play>
+   <score V="0" H="36"></score>
+   <drivesum plays="11" yards="89" top="4:19" driveindex="15" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="15,18,135" type="K"
+      text="Raffaelli S. kickoff 64 yards to the AQU0, Ferrari G. return 5 yards to the AQU5 (Parodi D.)."></play>
+   <drivestart poss="V,V05,10:35" vh="V" spot="V05" clock="10:35" driveindex="16,135"></drivestart>
+   <play context="V,1,10,V05" playid="16,1,136" clock="10:02"
+      text="AQUILE FERRARA drive start at 10:02."></play>
+   <play context="V,1,10,V05" playid="16,2,137" type="R"
+      text="Carulli G. rush for 4 yards to the AQU9 (Bruno M.;Reglioni E.)."></play>
+   <play context="V,2,6,V09" playid="16,3,138" type="R"
+      text="Carulli G. rush for 1 yard to the AQU10 (Dervishi M.)."></play>
+   <play context="V,3,5,V10" playid="16,4,139" type="P" turnover="I"
+      text="Zucchelli Z. pass intercepted by Parodi D. at the AQU12, Parodi D. return 0 yards to the AQU12."></play>
+   <drivesum plays="3" yards="5" top="2:09" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="H,V12,10:02" vh="H" spot="V12" clock="10:02" driveindex="17,139"></drivestart>
+   <play context="H,1,10,V12" playid="17,1,140" clock="07:53"
+      text="PIRATES SAVONA drive start at 07:53."></play>
+   <play context="H,1,10,V12" playid="17,2,141" type="#" clock="07:09"
+      text="Timeout Aquile Ferrara, clock 07:09."></play>
+   <play context="H,1,10,V12" playid="17,3,142" type="R" first="R" score="Y" clock="07:01"
+      text="Longato F. rush for 12 yards to the AQU0, 1ST DOWN PIR, TOUCHDOWN, clock 07:01."></play>
+   <play context="H,1,0,V03" playid="17,4,143" type="X" score="Y"
+      text="Raffaelli S. kick attempt good."></play>
+   <score V="0" H="43"></score>
+   <drivesum plays="1" yards="12" top="0:52" driveindex="17" complete="Y"></drivesum>
+   <play context="H,1,0,H30" playid="17,5,144" type="K"
+      text="Raffaelli S. kickoff 62 yards to the AQU2, Capitozzo F. return 20 yards to the AQU22 (Aboulaye I.)."></play>
+   <drivestart poss="V,V22,07:01" vh="V" spot="V22" clock="07:01" driveindex="18,144"></drivestart>
+   <play context="V,1,10,V22" playid="18,1,145" clock="06:54"
+      text="AQUILE FERRARA drive start at 06:54."></play>
+   <play context="V,1,10,V22" playid="18,2,146" type="R"
+      text="Masiero C. rush for 2 yards to the AQU24 (Borbon Rodri B.)."></play>
+   <play context="V,2,8,V24" playid="18,3,147" type="P"
+      text="Zucchelli Z. pass complete to Ferrari G. for 4 yards to the AQU28 (Raffaelli S.)."></play>
+   <play context="V,3,4,V28" playid="18,4,148" type="P"
+      text="Zucchelli Z. pass complete to Medini M. for loss of 3 yards to the AQU25 (Raffaelli S.)."></play>
+   <play context="V,4,7,V25" playid="18,5,149" type="U"
+      text="Romagnoli A. punt 16 yards to the AQU41."></play>
+   <drivesum plays="3" yards="3" top="4:03" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="H,V41,06:54" vh="H" spot="V41" clock="06:54" driveindex="19,149"></drivestart>
+   <play context="H,1,10,V41" playid="19,1,150" clock="02:51"
+      text="PIRATES SAVONA drive start at 02:51."></play>
+   <play context="H,1,10,V41" playid="19,2,151" type="R"
+      text="Burato F. rush for loss of 6 yards to the 47 yardline (Neodo L.)."></play>
+   <comment text="TWO MINUTES WARNING"></comment>
+   <play context="H,2,16,H47" playid="19,3,153" type="P" first="P"
+      text="Burato F. pass complete to Ruta M. for 31 yards to the AQU16, 1ST DOWN PIR (Bottoni C.), PENALTY AQU H declined."></play>
+   <play context="H,1,10,V16" playid="19,4,154" type="R"
+      text="Longato F. rush for no gain to the AQU16 (La Torre M.)."></play>
+   <play context="H,2,10,V16" playid="19,5,155" type="P"
+      text="Burato F. pass incomplete to Simonetti E. (Bottoni C.)."></play>
+   <play context="H,3,10,V16" playid="19,6,156" type="#" clock="00:00"
+      text="End of game, clock 00:00."></play>
+   <drivesum plays="4" yards="25" top="2:51" driveindex="19" complete="Y"></drivesum>
+   <score final="Y" V="0" H="43"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="AQU">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="06:52"></misc>
+    <rush att="3" yds="7" gain="7" loss="0" td="0" long="1"></rush>
+    <pass comp="2" att="3" int="1" yds="1" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="1" td="0" long="0"></rcv>
+    <punt no="1" yds="16" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <defense tackua="5" tacka="2" tflua="3" tfla="0" tflyds="8" sacks="0" sackyds="0" brup="1"></defense>
+    <kr no="2" yds="25" td="0" long="0"></kr>
+   </qtrsummary>
+   <qtrsummary vh="H" id="PIR">
+    <firstdowns no="4" rush="1" pass="3" penalty="0"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="2" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:08"></misc>
+    <rush att="4" yds="5" gain="12" loss="7" td="1" long="0"></rush>
+    <pass comp="4" att="6" int="0" yds="91" td="1" long="11" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="91" td="1" long="11"></rcv>
+    <ko no="2" yds="126" ob="0" tb="0"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="6" tacka="2" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0" int="1" intyds="0"></defense>
+    <ir no="1" yds="0" td="0" long="0"></ir>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,3,10,V16" qtr="4" clock="00:00" vtoh="2" htoh="1"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="AQU">
+ </dnp>
+ <dnp vh="H" id="PIR">
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>
