@@ -1,4 +1,4 @@
-b<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,21 +7,19 @@ b<!DOCTYPE html>
   <title>Document</title>
 
   <link rel="stylesheet" href="styles/general.css">
-  <link rel="stylesheet" href="styles/scoreboard.css">
-  <link rel="stylesheet" href="styles/scorebyquarters.css">
+  <link rel="stylesheet" href="styles/headAndFoot.css">
+  <link rel="stylesheet" href="styles/generalTables.css">
   <link rel="stylesheet" href="styles/general-info+refs.css">
-  <link rel="stylesheet" href="styles/navbar.css">
-
-
-
   <script src="script.js"></script>
-  
 </head>
+
+
+
 <body>
-
 <main>
+<header id="headerPage">
 
-  <header id="scoreboard">
+  <div id="scoreboard" onclick="backToTop()">
     <div id="homeScoreboard">
       <div id="homeTeam">
         <img src="" id="homeLogo">
@@ -31,7 +29,7 @@ b<!DOCTYPE html>
       <div id="homeScore"></div>
     </div>
     <div id="vs">-</div>
-    <div id="visScoreboard">      
+    <div id="visScoreboard">
       <div id="visTeam">
         <img src="" id="visLogo">
         <div id="visName"></div>
@@ -39,10 +37,23 @@ b<!DOCTYPE html>
       </div>
       <div id="visScore"></div>
     </div>
-  </header>
+  </div>
 
-  <div id="score-by-quarters">
-    <table id="score-qrt-table">
+  <div class="navBox">
+    <button class="button" onclick="toggleText('teamTotals')">Team Statistics</button>
+    <button class="button" onclick="toggleText('individualOffense')">Individual Statistics</button>
+    <button class="button" onclick="toggleText('driveChart')">Drive Chart</button>
+    <button class="button" onclick="toggleText('defenseStats')">Defensive Statistics</button>
+    <button class="button" onclick="toggleText('rosters')">Rosters</button>
+    <button class="button" onclick="toggleText('play-by-play')">Play-by-Play</button>
+  </div>
+</header>
+  
+
+
+
+  <div id="score-by-quarters" class="tableDiv">
+    <table id="score-qrt-table" class="tableTable">
       <tr id="head-score-by-quarters-table">
         <th>TEAMS</th>
       </tr>
@@ -51,10 +62,24 @@ b<!DOCTYPE html>
     </table>
   </div>
 
-  
-  <!--
-  scoring summary  
-  -->
+  <div id="scoring-summary" class="tableDiv">
+    <table id="scoring-summary-table" class="tableTable">
+      <thead>
+        <tr id="head-scoring-summary">
+          <th colspan="4">SCORING SUMMARY</th>
+          <!--home-vis ADDED-->
+        </tr>
+      </thead>
+      
+      <tbody id="scoring-summary-table-body">
+        <!-- each row has QRT TIME TEAM (PLAY TOT-Drive) and SCORE-->
+        <!--score has rowspan 2!!!!!!!! -->
+      </tbody>
+      
+
+    </table>
+  </div>
+
 
 
   <div id="general-info">
@@ -78,17 +103,10 @@ b<!DOCTYPE html>
     <ul id="ref-list"></ul>
   </div>
 
-  <hr>
+  
 
-<div class="navBox">
-  <button class="button" onclick="toggleText('teamTotals')">Team Statistics</button>
-  <button class="button" onclick="toggleText('individualOffense')">Individual Statistics</button>
-  <button class="button" onclick="toggleText('driveChart')">Drive Chart</button>
-  <button class="button" onclick="toggleText('defenseStats')">Defensive Statistics</button>
-  <button class="button" onclick="toggleText('rosters')">Rosters</button>
-  <button class="button" onclick="toggleText('play-by-play')">Play-by-Play</button>
-</div>
 
+<hr id="contentSeparator">
 
 <div id="contentBox">
   <div class="contentDiv" id="teamTotals"> TeamTotals </div>
@@ -101,9 +119,18 @@ b<!DOCTYPE html>
 
 
 
-<button class="backToTopButton" onclick="backToTop()"><img src="UI_v.webp"></button>
+<div class="backToTopDiv">
+  <button class="backToTopButton" onclick="backToTop()"><img src="UI_v.webp"></button>
+</div>
+
+
+
+
+
+
+
+
 </main>
-    
 </body>
 </html>
 

@@ -1,0 +1,99 @@
+.tableDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableTable {
+    border-spacing: 0;
+    border-collapse: separate;
+    border: solid black 2px;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 0;
+    background-color: white;
+}
+
+.tableTable th {
+    border-top: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(190, 190, 190);
+    padding: 8px ;
+}
+
+.tableTable tr:first-child, td:first-child, th:first-child {
+    border-left: none;
+}
+
+/* SCORE QRT TABLE */
+
+#score-by-quarter-table  tr, th, td {
+    border-left: solid black 2px;
+    border-top: solid black 2px;
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#score-qrt-table {
+    text-transform: uppercase;
+}
+
+/*
+#score-qrt-table tr:hover {
+    background-color: rgb(230, 210, 0);
+    cursor: pointer;
+}
+*/
+
+.teamNameEntry {
+    padding: 10px 20px;
+}
+
+.finalScore {
+    font-weight: bold;
+}
+
+
+/* SCORING SUMMARY TABLE */
+
+#scoring-summary-table{
+    width: 60%;
+    font-size: 16px;
+}
+
+.tableTable img {
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#scoring-summary-table .playDiv, .playDivND{
+    margin: 0;
+    font-size: 16px;
+}
+#scoring-summary-table .playDiv {
+    padding-top: 15px;
+}
+
+#scoring-summary-table  .driveDiv {
+    border-top: 0;
+    border-left: 2px solid black;
+    text-align: right;
+    font-size: 14px;
+    color: grey;
+    padding: 0px 12px 6px 0px;
+    margin: 0;
+}
+
+#scoring-summary-table td {
+    width:fit-content;
+    padding: 5px 8px;
+}
+
+#scoring-summary-table .scoreVal {
+    font-style: italic;
+    font-weight: 500;
+}

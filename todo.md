@@ -2,14 +2,15 @@
 
 ## Subdivision of the page
 
-- Scoreboard (teams, records, score, logos, teamIDs)
-- infos about game (location, date, attendance, refs)
-- Scoring summary
-- Team Total Stats
-- Individual Stats Offense
-- Drives (by Team and by Quarter)
-- Individual Stats Defense
-- Rosters
-- Box Score (?)
-- Play-by-Play
-- Play Breakdown Summary (?)
+- [x] Scoreboard (teams, records, score, logos, teamIDs)
+- [x] infos about game (location, date, attendance, refs)
+- [x] Scoring summary
+- [] Team Total Stats
+- [] Individual Stats Offense
+- [] Drives (by Team and by Quarter)
+- [] Individual Stats Defense
+- [] Rosters
+- [] Play_by_Play
+
+- [] Box Score (?)
+- [] Play Breakdown Summary (?)

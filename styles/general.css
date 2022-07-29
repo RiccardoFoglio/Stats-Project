@@ -1,17 +1,24 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 3000px;
-  padding-top: 80px;
+  padding-top: 180px;
+  margin-bottom: 500px;  
   background-color: rgb(235, 235, 235);
   font-size: 18px;
 }
 
+.backToTopDiv {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  bottom: 30px;
+  right: 30px;
+  
+}
 
 .backToTopButton{
-  position: fixed;
-  bottom: 20;
-  right: 20;
-
+  position: relative;
+  margin-right: 20px;
   border: 2px solid black;
   border-radius: 50%;
 
@@ -20,8 +27,8 @@ body {
 }
 
 .backToTopButton img {
-  height: 50px;
-  position: fixed;
-  bottom: 17.5;
-  right: 17.5;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  height: 53px;
 }

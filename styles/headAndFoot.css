@@ -1,23 +1,35 @@
+#headerPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  padding-top: 10px;
+
+  background-color: white;
+  border-bottom: 1px solid rgb(225, 225, 225);
+  box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.15);
+}
+
 #scoreboard {
   height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  background-color: white;
-  border-bottom: 1px solid rgb(225, 225, 225);
-  box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 #scoreboard img {
   height: 60px;
   margin: 10px 20px;
 }
+
 
 #homeScoreboard, #visScoreboard { 
   width: 50%;
@@ -82,4 +94,38 @@
 
 #homeLogo {
   order: 1;
+}
+
+.navBox {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0;
+  background-color: white;
+}
+
+.button {
+  height: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  outline: 2px solid rgb(190, 190, 190);
+  padding: 20px 40px;
+  overflow: hidden;
+  transition: color 0.15s;
+  transition: background-color 0.15s;
+  cursor: pointer;
+
+  margin: 5px 10px;
+}
+
+.button:hover {
+  color: white;
+  background-color: blueviolet;
+}
+
+.contentDiv {
+  display: none;
 }
