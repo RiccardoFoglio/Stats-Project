@@ -48,9 +48,6 @@
     <button class="button" onclick="toggleText('play-by-play')">Play-by-Play</button>
   </div>
 </header>
-  
-
-
 
   <div id="score-by-quarters" class="tableDiv">
     <table id="score-qrt-table" class="tableTable">
@@ -66,21 +63,14 @@
     <table id="scoring-summary-table" class="tableTable">
       <thead>
         <tr id="head-scoring-summary">
-          <th colspan="4">SCORING SUMMARY</th>
+          <th colspan="5">SCORING SUMMARY</th>
           <!--home-vis ADDED-->
         </tr>
       </thead>
-      
       <tbody id="scoring-summary-table-body">
-        <!-- each row has QRT TIME TEAM (PLAY TOT-Drive) and SCORE-->
-        <!--score has rowspan 2!!!!!!!! -->
       </tbody>
-      
-
     </table>
   </div>
-
-
 
   <div id="general-info">
     <div class="row-one">
@@ -101,15 +91,41 @@
   <div id="referees">
     Officials:
     <ul id="ref-list"></ul>
+    Scorer:
+    <ul id="scorer-list"></ul>
   </div>
-
   
 
 
 <hr id="contentSeparator">
 
 <div id="contentBox">
-  <div class="contentDiv" id="teamTotals"> TeamTotals </div>
+  <div class="contentDiv" id="teamTotals">
+    <!--CONTAINER FOR TEAM TOTALS-->
+
+
+    <!--TABLE COMPLETE-->
+    <table id="teamTotalsComplete-table" class="tableTable">
+      <thead>
+        <tr id="teamTotalsComplete-table-head">
+          <th>TEAM TOTALS</th>
+        </tr>
+      </thead>
+      <tbody id="teamTotalsComplete-table-body">
+
+
+
+
+
+
+
+      </tbody>
+    </table>
+  </div>
+
+
+
+
   <div class="contentDiv" id="individualOffense"> IndividualOffense </div>
   <div class="contentDiv" id="driveChart"> DriveChart (complete and by quarter) </div>
   <div class="contentDiv" id="defenseStats"> Defense Stats </div>
@@ -122,13 +138,6 @@
 <div class="backToTopDiv">
   <button class="backToTopButton" onclick="backToTop()"><img src="UI_v.webp"></button>
 </div>
-
-
-
-
-
-
-
 
 </main>
 </body>

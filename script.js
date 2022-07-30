@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
     buildScoringSummary(xml)
     buildGeneralInfo(xml)
     buildReferees(xml)
+
+    buildTotalStats(xml)
   })
 })
 
@@ -242,7 +244,7 @@ function buildScoringSummary(x) {
   const idTeamH = x.getElementsByTagName('team')[1].getAttribute('id')
   const idTeamV = x.getElementsByTagName('team')[0].getAttribute('id')
 
-  createElementHTML('th', `${idTeamH} - ${idTeamV}`, headScoringSummary)
+  //createElementHTML('th', `${idTeamH} - ${idTeamV}`, headScoringSummary)
 
   let lastPrinted = 0
   let toPrintQRT = true
@@ -259,7 +261,6 @@ function buildScoringSummary(x) {
       createElementAttr('td', ' ', 'rowspan', '2', scoreRow)
     }
         
-    
     createElementAttr('td', attrArray.getNamedItem('clock').value, 'rowspan', '2', scoreRow)
 
     const logoTd = document.createElement('td')
@@ -336,14 +337,416 @@ function buildGeneralInfo(x){
 }
 
 function buildReferees(x) {
-  officialList = document.getElementById('ref-list')
+  const officialList = document.getElementById('ref-list')
+  const scorerList = document.getElementById('scorer-list')
 
-  officials = x.getElementsByTagName('officials')[0]
-
-  for(j=0; j<officials.attributes.length; j++){
-    const refLi = document.createElement('li')
+  const officials = x.getElementsByTagName('officials')[0]
+  let refLi
+  for(j=0; j<officials.attributes.length-1; j++){
+    refLi = document.createElement('li')
     refLi.textContent = `${refToReferee(officials.attributes[j].name)}: ${officials.attributes[j].value}`
     officialList.appendChild(refLi)
   }
+
+  refLi = document.createElement('li')
+  refLi.textContent = `${officials.attributes[officials.attributes.length-1].value}`
+  scorerList.appendChild(refLi)
+
+
+  
 }
 
+function buildTotalStats(x) {
+  
+  const teamH = x.getElementsByTagName('team')[1]
+  const teamV = x.getElementsByTagName('team')[0]
+
+  createElementHTML('th', teamH.getAttribute('id'), document.getElementById('teamTotalsComplete-table-head'))
+  createElementHTML('th', teamV.getAttribute('id'), document.getElementById('teamTotalsComplete-table-head'))
+
+  const totalsH = teamH.getElementsByTagName('totals')[0]
+  const totalsV = teamV.getElementsByTagName('totals')[0]
+
+  let rowEntry
+  const contentTable = document.getElementById('teamTotalsComplete-table-body')
+
+  const firstdownsV = extractElem('firstdowns', totalsV)
+  const penaltiesV = extractElem('penalties', totalsV)
+  const conversionsV = extractElem('conversions', totalsV)
+  const fumblesV = extractElem('fumbles', totalsV)
+  const miscV = extractElem('misc', totalsV)
+  const redzoneV = extractElem('redzone', totalsV)
+  const rushV = extractElem('rush', totalsV)
+  const passV = extractElem('pass', totalsV)
+  const rcvV = extractElem('rcv', totalsV)
+  const puntV = extractElem('punt', totalsV)
+  const koV = extractElem('ko', totalsV)
+  const fgV = extractElem('fg', totalsV)
+  const patV = extractElem('pat', totalsV)
+  const defenseV = extractElem('defense', totalsV)
+  const krV = extractElem('kr', totalsV)
+  const prV = extractElem('pr', totalsV)
+  const irV = extractElem('ir', totalsV)
+
+  const firstdownsH = extractElem('firstdowns', totalsH)
+  const penaltiesH = extractElem('penalties', totalsH)
+  const conversionsH = extractElem('conversions', totalsH)
+  const fumblesH = extractElem('fumbles', totalsH)
+  const miscH = extractElem('misc', totalsH)
+  const redzoneH = extractElem('redzone', totalsH)
+  const rushH = extractElem('rush', totalsH)
+  const passH= extractElem('pass', totalsH)
+  const rcvH = extractElem('rcv', totalsH)
+  const puntH = extractElem('punt', totalsH)
+  const koH = extractElem('ko', totalsH)
+  const fgH= extractElem('fg', totalsH)
+  const patH = extractElem('pat', totalsH)
+  const defenseH = extractElem('defense', totalsH)
+  const krH = extractElem('kr', totalsH)
+  const prH = extractElem('pr', totalsH)
+  const irH = extractElem('ir', totalsH)
+
+   
+
+  singleDatumTitle('FIRST DOWNS', firstdownsH, firstdownsV, 'no', contentTable)
+  singleDatum('Rushing', firstdownsH, firstdownsV, 'rush', contentTable)
+  singleDatum('Passing', firstdownsH, firstdownsV, 'pass', contentTable)
+  singleDatum('Penalty', firstdownsH, firstdownsV, 'penalty', contentTable)
+
+  singleDatumTitle('NET YARDS RUSHING', rushH, rushV, 'yds', contentTable)
+  singleDatum('Rushing Attempts', rushH, rushV, 'att', contentTable)
+  singleAvgDatum('Average Per Rush', rushH, rushV, 'yds', 'att', contentTable)
+  singleDatum('Rushing TDs', rushH, rushV, 'td', contentTable)
+  singleDatum('Yds Gained Rushing', rushH, rushV, 'gain', contentTable)
+  singleDatum('Yds Lost Rushing', rushH, rushV, 'loss', contentTable)
+
+  singleDatumTitle('NET YARDS PASSING', passH, passV, 'yds', contentTable)
+  tripleDatum('Comp-Att-Int', passH, passV, 'comp', 'att', 'int', contentTable)
+  singleAvgDatum('Average Per Attempt', passH, passV, 'yds', 'att', contentTable)
+  singleAvgDatum('Average Per Completition', passH, passV, 'yds', 'comp', contentTable)
+  singleDatum('Passing TDs', passH, passV, 'td', contentTable)
+
+  rowEntry = document.createElement('tr')
+  createElementAttr('td', 'TOTAL OFFENSE', 'class', 'titleCell', rowEntry)
+  createElementHTML('td', parseFloat(rushH.getAttribute('yds'))+ parseFloat(passH.getAttribute('yds')), rowEntry)
+  createElementHTML('td', parseFloat(rushV.getAttribute('yds'))+ parseFloat(passV.getAttribute('yds')), rowEntry)
+  contentTable.appendChild(rowEntry)
+
+  rowEntry = document.createElement('tr')
+  createElementHTML('td', 'Total Offense Plays', rowEntry)
+  createElementHTML('td', parseFloat(rushH.getAttribute('att'))+ parseFloat(passH.getAttribute('att')), rowEntry)
+  createElementHTML('td', parseFloat(rushV.getAttribute('att'))+ parseFloat(passV.getAttribute('att')), rowEntry)
+  contentTable.appendChild(rowEntry)
+
+  rowEntry = document.createElement('tr')
+  createElementHTML('td', 'Average Gain Per Play', rowEntry)
+  let totydsH = parseFloat(rushH.getAttribute('yds')) + parseFloat(passH.getAttribute('yds'))
+  let totydsV = parseFloat(rushV.getAttribute('yds')) + parseFloat(passV.getAttribute('yds'))
+  let totplaysV = parseFloat(rushH.getAttribute('att')) + parseFloat(passH.getAttribute('att'))
+  let totplaysH = parseFloat(rushV.getAttribute('att')) + parseFloat(passV.getAttribute('att'))
+  createElementHTML('td', (totydsH / totplaysH).toFixed(1), rowEntry)
+  createElementHTML('td', (totydsV / totplaysV).toFixed(1), rowEntry)
+  contentTable.appendChild(rowEntry)
+
+  doubleDatum('FUMBLES: Num-Lost', fumblesH, fumblesV, 'no', 'lost', contentTable)
+  doubleDatum('PENALTIES: Num-Lost', penaltiesH, penaltiesV, 'no', 'yds', contentTable)
+
+  doubleDatum('PUNTS: Yds', puntH, puntV, 'no', 'yds', contentTable)
+  singleAvgDatum('Average Yards Per Punt', puntH, puntV, 'yds', 'no', contentTable)
+
+  netAverage('Punt', puntH, puntV, prH, prV, contentTable)
+
+  singleDatum('Inside 20', puntH, puntV, 'inside20', contentTable)
+  singleDatum('+50 Yards', puntH, puntV, 'plus50', contentTable)
+  singleDatum('Touchbacks', puntH, puntV, 'tb', contentTable)
+  singleDatum('Fair Catches', puntH, puntV, 'fc', contentTable)
+
+  doubleDatum('KICKOFF - YARDS', koH, koV, 'no', 'yds', contentTable)
+  singleAvgDatum('Average Yards Per Kickoff', koH, koV, 'yds', 'no', contentTable)
+  netAverage('Kickoff', koH, koV, krH, krV, contentTable)
+  singleDatum('Touchbacks', koH, koV, 'tb', contentTable)
+
+  tripleDatumTitle('PUNT RETURNS: Num-Yards-TD', prH, prV, 'no', 'yds', 'td', contentTable)
+  singleAvgDatum('Average Per Return', prH, prV, 'yds', 'no', contentTable)
+
+  tripleDatumTitle('KICKOFF RETURNS: Num-Yards-TD', krH, krV, 'no', 'yds', 'td', contentTable)
+  singleAvgDatum('Average Per Return', krH, krV, 'yds', 'no', contentTable)
+
+  tripleDatumTitle('INTERCEPTIONS: Num-Yards-TD', irH, irV, 'no', 'yds', 'td', contentTable)
+  tripleDatumTitle('FUMBLE RETURNS: Num-Yards-TD', defenseH, defenseV, 'fr', 'fryds', 'frtd', contentTable)
+
+  singleDatumTitle('MISCELLANEOUS Yards', miscH, miscV, 'yds', contentTable)
+  singleDatumTitle('POSSESSION', miscH, miscV, 'top', contentTable)
+
+  const numOfQrts = x.getElementsByTagName('plays')[0].getElementsByTagName('qtr').length
+  for(i=0; i<numOfQrts; i++){
+    const qrtH = x.getElementsByTagName('plays')[0].getElementsByTagName('qtr')[i].getElementsByTagName('qtrsummary')[1]
+    const qrtV = x.getElementsByTagName('plays')[0].getElementsByTagName('qtr')[i].getElementsByTagName('qtrsummary')[0]
+    const miscByQrtH = qrtH.getElementsByTagName('misc')[0]
+    const miscByQrtV = qrtV.getElementsByTagName('misc')[0]   
+
+    switch (i) {
+      case 0:
+        singleDatum('1st Quarter', miscByQrtH, miscByQrtV, 'top', contentTable)
+        break;
+      case 1:
+        singleDatum('2nd Quarter', miscByQrtH, miscByQrtV, 'top', contentTable)
+        break;
+      case 2:
+        singleDatum('3rd Quarter', miscByQrtH, miscByQrtV, 'top', contentTable)
+        break;
+      case 3:
+        singleDatum('4th Quarter', miscByQrtH, miscByQrtV, 'top', contentTable)
+        break;
+      case 4:
+        singleDatum('Overtime', miscByQrtH, miscByQrtV, 'top', contentTable)
+      default:
+        break;
+    }
+  }
+
+  doubleDatumOF('THIRD-DOWN Conversions', conversionsH, conversionsV, 'thirdconv', 'thirdatt', contentTable)
+  doubleDatumOF('FOURTH-DOWN Conversions', conversionsH, conversionsV, 'fourthconv', 'fourthatt', contentTable)
+
+  doubleDatum('RED-ZONE Scores-Chances', redzoneH, redzoneV, 'scores', 'att', contentTable)
+  doubleDatum('SACKS: Num-Yards', defenseH, defenseV, 'sacks', 'sackyds', contentTable)
+  doubleDatum('PAT Kicks', patH, patV, 'kickmade', 'kickatt', contentTable)
+  doubleDatum('FIELD GOALS', fgH, fgV, 'made', 'att', contentTable)
+}
+
+
+
+function netAverage(type, fromH, fromV, retH, retV, whereto) {
+  rowEntry = document.createElement('tr')
+  createElementHTML('td', 'Net Yards Per '+type, rowEntry)
+  let ydsH = parseFloat(fromH.getAttribute('yds'))
+  let ydsV = parseFloat(fromV.getAttribute('yds'))
+  let retYdsH, retYdsV, touchBackPartialH, touchBackPartialV, noH, noV, netH, netV
+  if (retH !== '##EMPTY##') {
+    retYdsH = parseFloat(retH.getAttribute('yds'))
+  } else {
+    retYdsH = 0
+  }
+  if (retV !== '##EMPTY##') {
+    retYdsV = parseFloat(retV.getAttribute('yds'))
+  } else {
+    retYdsV = 0
+  }
+
+  if(fromH !== '##EMPTY##') {
+    touchBackPartialH = 20 * parseFloat(fromH.getAttribute('tb'))
+    noH = parseFloat(fromH.getAttribute('no'))
+    netH = ydsH - retYdsV - touchBackPartialH
+    createElementHTML('td', (netH / noH).toFixed(1), rowEntry)
+  } else {
+    createElementHTML('td', '0.0', rowEntry)
+  }
+
+  if(fromV !== '##EMPTY##') {
+    touchBackPartialV = 20 * parseFloat(fromV.getAttribute('tb'))
+    noV = parseFloat(fromV.getAttribute('no'))
+    netV = ydsV - retYdsH - touchBackPartialV
+    createElementHTML('td', (netV / noV).toFixed(1), rowEntry)
+  } else {
+    createElementHTML('td', '0.0', rowEntry)
+  }
+
+  whereto.appendChild(rowEntry)
+}
+
+function extractElem(what, from) {
+  if(from.getElementsByTagName(what).length !== 0) {
+    return from.getElementsByTagName(what)[0]
+  } else {
+    return '##EMPTY##'
+  }
+}
+
+function singleDatumTitle(cont, wherefromH, wherefromV, attrib, whereto){
+  let rowEntry = document.createElement('tr')
+  createElementAttr('td', cont, 'class', 'titleCell', rowEntry)
+
+  if(wherefromH !== '##EMPTY##'){
+    createElementHTML('td', wherefromH.getAttribute(attrib), rowEntry)
+  } else {
+    createElementHTML('td', '0', rowEntry)
+  }
+  if(wherefromV !== '##EMPTY##'){
+    createElementHTML('td', wherefromV.getAttribute(attrib), rowEntry)
+  } else {
+    createElementHTML('td', '0', rowEntry)
+  }
+  
+  whereto.appendChild(rowEntry)
+}
+
+function singleDatum(cont, wherefromH, wherefromV, attrib, whereto){
+  let rowEntry = document.createElement('tr')
+  createElementHTML('td', cont, rowEntry)
+  
+  if(wherefromH !== '##EMPTY##'){
+    createElementHTML('td', wherefromH.getAttribute(attrib), rowEntry)
+  } else {
+    createElementHTML('td', '0', rowEntry)
+  }
+  if(wherefromV !== '##EMPTY##'){
+    createElementHTML('td', wherefromV.getAttribute(attrib), rowEntry)
+  } else {
+    createElementHTML('td', '0', rowEntry)
+  }
+  
+  whereto.appendChild(rowEntry)
+}
+
+function doubleDatum(cont, wherefromH, wherefromV, a1, a2, whereto){
+  let rowEntry = document.createElement('tr')
+  createElementAttr('td', cont, 'class', 'titleCell', rowEntry)
+
+  if(wherefromH !== '##EMPTY##'){
+    createElementHTML('td', `${wherefromH.getAttribute(a1)}-${wherefromH.getAttribute(a2)}`, rowEntry)
+  } else {
+    createElementHTML('td', '0-0', rowEntry)
+  }
+  if(wherefromV !== '##EMPTY##'){
+    createElementHTML('td', `${wherefromV.getAttribute(a1)}-${wherefromV.getAttribute(a2)}`, rowEntry)
+  } else {
+    createElementHTML('td', '0-0', rowEntry)
+  }
+
+  whereto.appendChild(rowEntry)
+}
+
+function doubleDatumOF(cont, wherefromH, wherefromV, a1, a2, whereto){
+  let rowEntry = document.createElement('tr')
+  createElementAttr('td', cont, 'class', 'titleCell', rowEntry)
+
+  if(wherefromH !== '##EMPTY##'){
+    createElementHTML('td', `${wherefromH.getAttribute(a1)} of ${wherefromH.getAttribute(a2)}`, rowEntry)
+  } else {
+    createElementHTML('td', '0 of 0', rowEntry)
+  }
+  if(wherefromV !== '##EMPTY##'){
+    createElementHTML('td', `${wherefromV.getAttribute(a1)} of ${wherefromV.getAttribute(a2)}`, rowEntry)
+  } else {
+    createElementHTML('td', '0 of 0', rowEntry)
+  }
+
+  whereto.appendChild(rowEntry)
+}
+
+function tripleDatum(cont, wherefromH, wherefromV, a1, a2, a3, whereto){
+let rowEntry = document.createElement('tr')
+  let valH1, valH2, valH3, valV1, valV2, valV3
+  
+  if(wherefromH !== '##EMPTY##'){
+    if(wherefromH.getAttribute(a1) === null){
+    valH1 = 0
+    } else {
+      valH1 = wherefromH.getAttribute(a1)
+    }
+    if(wherefromH.getAttribute(a2) === null){
+      valH2 = 0
+    } else {
+      valH2 = wherefromH.getAttribute(a2)
+    }
+    if(wherefromH.getAttribute(a3) === null){
+      valH3 = 0
+    } else {
+      valH3 = wherefromH.getAttribute(a3)
+    }
+  } else {
+      valH1 = valH2 = valH3 = 0
+  }
+
+  if (wherefromV !== '##EMPTY##') {
+    if(wherefromV.getAttribute(a1) === null){
+    valV1 = 0
+    } else {
+      valV1 = wherefromV.getAttribute(a1)
+    }
+    if(wherefromV.getAttribute(a2) === null){
+      valV2 = 0
+    } else {
+      valV2 = wherefromV.getAttribute(a2)
+    }
+    if(wherefromV.getAttribute(a3) === null){
+      valV3 = 0
+    } else {
+      valV3 = wherefromV.getAttribute(a3)
+    }
+  } else {
+    valV1 = valV2 = valV3 = 0
+  }
+  
+  createElementHTML('td', cont, rowEntry)
+  createElementHTML('td', `${valH1}-${valH2}-${valH3}`, rowEntry)
+  createElementHTML('td', `${valV1}-${valV2}-${valV3}`, rowEntry)
+  whereto.appendChild(rowEntry)
+}
+
+function singleAvgDatum(cont, wherefromH, wherefromV, attUp, attOver, whereto){
+  rowEntry = document.createElement('tr')
+  createElementHTML('td', cont, rowEntry)
+  if(wherefromH !== '##EMPTY##'){
+    createElementHTML('td', parseFloat(wherefromH.getAttribute(attUp) / wherefromH.getAttribute(attOver)).toFixed(1), rowEntry)
+  } else {
+    createElementHTML('td','0.0', rowEntry)
+  }
+  if(wherefromV !== '##EMPTY##'){
+    createElementHTML('td', parseFloat(wherefromV.getAttribute(attUp) / wherefromV.getAttribute(attOver)).toFixed(1), rowEntry)
+  } else {
+    createElementHTML('td','0.0', rowEntry)
+  }
+  whereto.appendChild(rowEntry)
+}
+
+function tripleDatumTitle(cont, wherefromH, wherefromV, a1, a2, a3, whereto){
+
+  let rowEntry = document.createElement('tr')
+  let valH1, valH2, valH3, valV1, valV2, valV3
+  
+  if(wherefromH !== '##EMPTY##'){
+    if(wherefromH.getAttribute(a1) === null){
+    valH1 = 0
+    } else {
+      valH1 = wherefromH.getAttribute(a1)
+    }
+    if(wherefromH.getAttribute(a2) === null){
+      valH2 = 0
+    } else {
+      valH2 = wherefromH.getAttribute(a2)
+    }
+    if(wherefromH.getAttribute(a3) === null){
+      valH3 = 0
+    } else {
+      valH3 = wherefromH.getAttribute(a3)
+    }
+  } else {
+      valH1 = valH2 = valH3 = 0
+  }
+
+  if (wherefromV !== '##EMPTY##') {
+    if(wherefromV.getAttribute(a1) === null){
+    valV1 = 0
+    } else {
+      valV1 = wherefromV.getAttribute(a1)
+    }
+    if(wherefromV.getAttribute(a2) === null){
+      valV2 = 0
+    } else {
+      valV2 = wherefromV.getAttribute(a2)
+    }
+    if(wherefromV.getAttribute(a3) === null){
+      valV3 = 0
+    } else {
+      valV3 = wherefromV.getAttribute(a3)
+    }
+  } else {
+    valV1 = valV2 = valV3 = 0
+  }
+  
+  createElementAttr('td', cont, 'class', 'titleCell', rowEntry)
+  createElementHTML('td', `${valH1}-${valH2}-${valH3}`, rowEntry)
+  createElementHTML('td', `${valV1}-${valV2}-${valV3}`, rowEntry)
+  whereto.appendChild(rowEntry)
+}
