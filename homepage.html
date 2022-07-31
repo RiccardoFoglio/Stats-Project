@@ -103,24 +103,34 @@
   <div class="contentDiv" id="teamTotals">
     <!--CONTAINER FOR TEAM TOTALS-->
 
+    <div id="navBoxTotals">
+      <button class="button" onclick="toggleTextSingle('teamTotalsCompleteDiv')">Complete</button>
+      <button class="button" onclick="toggleTextSingle('teamTotalsCompactDiv')">Compact</button>
+    </div>
 
-    <!--TABLE COMPLETE-->
-    <table id="teamTotalsComplete-table" class="tableTable">
-      <thead>
-        <tr id="teamTotalsComplete-table-head">
-          <th>TEAM TOTALS</th>
-        </tr>
-      </thead>
-      <tbody id="teamTotalsComplete-table-body">
+    <div id="teamTotalsCompleteDiv">
+      <table id="teamTotalsComplete-table" class="tableTable">
+        <thead>
+          <tr id="teamTotalsComplete-table-head">
+            <th>TEAM TOTALS</th>
+          </tr>
+        </thead>
+        <tbody id="teamTotalsComplete-table-body"></tbody>
+      </table>
+    </div>
+    
+    <div id="teamTotalsCompactDiv">
+      <table id="teamTotalsCompact-table" class="tableTable">
+        <thead>
+          <tr id="teamTotalsCompact-table-head">
+            <th>TEAM TOTALS</th>
+          </tr>
+        </thead>
+        <tbody id="teamTotalsCompact-table-body"></tbody>
+      </table>
+    </div>
+    
 
-
-
-
-
-
-
-      </tbody>
-    </table>
   </div>
 
 

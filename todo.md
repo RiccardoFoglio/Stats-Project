@@ -5,7 +5,8 @@
 - [x] Scoreboard (teams, records, score, logos, teamIDs)
 - [x] infos about game (location, date, attendance, refs)
 - [x] Scoring summary
-- [] Team Total Stats
+- [x] Team Total Stats Complete
+- [] Team Total Stats Compact
 - [] Individual Stats Offense
 - [] Drives (by Team and by Quarter)
 - [] Individual Stats Defense
