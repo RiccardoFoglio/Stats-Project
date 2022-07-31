@@ -33,7 +33,6 @@ function toggleText(id){
 
   window.scrollTo({top: offset  - 180, behavior: 'smooth'})
   allDivs = document.getElementsByClassName('contentDiv')
-  console.log(allDivs[1])
   for(i=0; i<allDivs.length; i++){
     if (allDivs.id !== id)
       allDivs[i].style.display = 'none';
@@ -46,7 +45,13 @@ function toggleText(id){
   }
 }
 
-function toggleTextSingle(id){  
+function toggleTextSingle(id){
+  
+  let allDivs = document.getElementsByClassName('totalsContainer')
+  for(i=0; i<allDivs.length; i++){
+    if (allDivs.id !== id)
+      allDivs[i].style.display = 'none';
+  }
 
   var x = document.getElementById(id);
   if (x.style.display === "none") {

@@ -107,3 +107,12 @@
 #teamTotalsCompact-table-body td {
     font-weight: 400;
 }
+
+#teamTotalsContainer, #navBoxTotals {
+    display: flex;
+    justify-content: center;
+}
+
+#teamTotalsCompleteDiv, #teamTotalsCompactDiv{
+    display: none;
+}
