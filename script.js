@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     buildTotalStatsComplete(xml)
     buildTotalStatsCompact(xml)
+
+
+    buildRosters(xml)
   })
 })
 
@@ -850,4 +853,44 @@ function buildTotalStatsCompact(x) {
   doubleDatumOF('Fourth-Down Conversions', conversionsH, conversionsV, 'fourthconv', 'fourthatt', contentTable)
   doubleDatum('Red-Zone Scores-Chances', redzoneH, redzoneV, 'scores', 'att', contentTable)
   doubleDatum('Sacks By: Num-Yards', defenseH, defenseV, 'sacks', 'sackyds', contentTable)
+}
+
+
+function buildRosters(x) {
+
+  for (let i = 0; i < x.getElementsByTagName('team').length; i++) {
+    let team =  x.getElementsByTagName('team')[i];
+    let rowEntry, roster
+
+    if (i === 0) {
+      roster = document.getElementById('teamRosterVis-table-body')
+
+      rowEntry = document.createElement('th')
+    	rowEntry.textContent = `${team.getAttribute('name')} Roster`
+    	rowEntry.setAttribute('colspan', '2')
+    	document.getElementById('teamRosterVis-table-head').appendChild(rowEntry)
+      	
+    } else {
+      roster = document.getElementById('teamRosterHome-table-body')
+
+      rowEntry = document.createElement('th')
+    	rowEntry.textContent = `${team.getAttribute('name')} Roster`
+    	rowEntry.setAttribute('colspan', '2')
+    	document.getElementById('teamRosterHome-table-head').appendChild(rowEntry)
+    } 
+
+      for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
+        const player = team.getElementsByTagName('player')[j];
+
+        player.getAttribute('name')
+        player.getAttribute('uni')
+
+        rowEntry = document.createElement('tr')
+        if (player.getAttribute('name') !== 'TEAM') {
+          createElementAttr('td', player.getAttribute('name'), 'class', 'playerName', rowEntry)
+          createElementAttr('td', player.getAttribute('uni'), 'class', 'playerNum', rowEntry)  
+        }
+        roster.appendChild(rowEntry)
+    }
+  }
 }

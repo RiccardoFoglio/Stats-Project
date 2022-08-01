@@ -116,3 +116,19 @@
 #teamTotalsCompleteDiv, #teamTotalsCompactDiv{
     display: none;
 }
+
+/*ROSTERS*/
+
+.contentDiv {
+    display: none;
+}
+
+#rosterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.rosterDiv {
+    margin: 20px;
+}
