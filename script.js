@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     buildTotalStatsComplete(xml)
     buildTotalStatsCompact(xml)
 
+    buildIndOffense(xml)
 
     buildRosters(xml)
   })
@@ -193,25 +194,24 @@ function scoreToString (attributes) {
   return `${scoreH} - ${scoreV}`
 }
 
-
 function netAverage(type, fromH, fromV, retH, retV, whereto) {
   rowEntry = document.createElement('tr')
   createElementHTML('td', 'Net Yards Per '+type, rowEntry)
   let ydsH = parseFloat(fromH.getAttribute('yds'))
   let ydsV = parseFloat(fromV.getAttribute('yds'))
   let retYdsH, retYdsV, touchBackPartialH, touchBackPartialV, noH, noV, netH, netV
-  if (retH !== '##EMPTY##') {
+  if (retH) {
     retYdsH = parseFloat(retH.getAttribute('yds'))
   } else {
     retYdsH = 0
   }
-  if (retV !== '##EMPTY##') {
+  if (retV) {
     retYdsV = parseFloat(retV.getAttribute('yds'))
   } else {
     retYdsV = 0
   }
 
-  if(fromH !== '##EMPTY##') {
+  if(fromH) {
     touchBackPartialH = 20 * parseFloat(fromH.getAttribute('tb'))
     noH = parseFloat(fromH.getAttribute('no'))
     netH = ydsH - retYdsV - touchBackPartialH
@@ -220,7 +220,7 @@ function netAverage(type, fromH, fromV, retH, retV, whereto) {
     createElementHTML('td', '0.0', rowEntry)
   }
 
-  if(fromV !== '##EMPTY##') {
+  if(fromV) {
     touchBackPartialV = 20 * parseFloat(fromV.getAttribute('tb'))
     noV = parseFloat(fromV.getAttribute('no'))
     netV = ydsV - retYdsH - touchBackPartialV
@@ -232,24 +232,17 @@ function netAverage(type, fromH, fromV, retH, retV, whereto) {
   whereto.appendChild(rowEntry)
 }
 
-function extractElem(what, from) {
-  if(from.getElementsByTagName(what).length !== 0) {
-    return from.getElementsByTagName(what)[0]
-  } else {
-    return '##EMPTY##'
-  }
-}
 
 function singleDatumTitle(cont, wherefromH, wherefromV, attrib, whereto){
   let rowEntry = document.createElement('tr')
   createElementAttr('td', cont, 'class', 'titleCell', rowEntry)
 
-  if(wherefromH !== '##EMPTY##'){
+  if(wherefromH){
     createElementHTML('td', wherefromH.getAttribute(attrib), rowEntry)
   } else {
     createElementHTML('td', '0', rowEntry)
   }
-  if(wherefromV !== '##EMPTY##'){
+  if(wherefromV){
     createElementHTML('td', wherefromV.getAttribute(attrib), rowEntry)
   } else {
     createElementHTML('td', '0', rowEntry)
@@ -262,12 +255,12 @@ function singleDatum(cont, wherefromH, wherefromV, attrib, whereto){
   let rowEntry = document.createElement('tr')
   createElementHTML('td', cont, rowEntry)
   
-  if(wherefromH !== '##EMPTY##'){
+  if(wherefromH){
     createElementHTML('td', wherefromH.getAttribute(attrib), rowEntry)
   } else {
     createElementHTML('td', '0', rowEntry)
   }
-  if(wherefromV !== '##EMPTY##'){
+  if(wherefromV){
     createElementHTML('td', wherefromV.getAttribute(attrib), rowEntry)
   } else {
     createElementHTML('td', '0', rowEntry)
@@ -281,7 +274,7 @@ function doubleDatum(cont, wherefromH, wherefromV, a1, a2, whereto){
   let rowEntry = document.createElement('tr')
   let valH1, valH2, valV1, valV2
   
-  if(wherefromH !== '##EMPTY##'){
+  if(wherefromH){
     if(wherefromH.getAttribute(a1) === null){
     valH1 = 0
     } else {
@@ -296,7 +289,7 @@ function doubleDatum(cont, wherefromH, wherefromV, a1, a2, whereto){
       valH1 = valH2 = 0
   }
 
-  if (wherefromV !== '##EMPTY##') {
+  if (wherefromV) {
     if(wherefromV.getAttribute(a1) === null){
     valV1 = 0
     } else {
@@ -321,12 +314,12 @@ function doubleDatumOF(cont, wherefromH, wherefromV, a1, a2, whereto){
   let rowEntry = document.createElement('tr')
   createElementAttr('td', cont, 'class', 'titleCell', rowEntry)
 
-  if(wherefromH !== '##EMPTY##'){
+  if(wherefromH){
     createElementHTML('td', `${wherefromH.getAttribute(a1)} of ${wherefromH.getAttribute(a2)}`, rowEntry)
   } else {
     createElementHTML('td', '0 of 0', rowEntry)
   }
-  if(wherefromV !== '##EMPTY##'){
+  if(wherefromV){
     createElementHTML('td', `${wherefromV.getAttribute(a1)} of ${wherefromV.getAttribute(a2)}`, rowEntry)
   } else {
     createElementHTML('td', '0 of 0', rowEntry)
@@ -339,7 +332,7 @@ function tripleDatum(cont, wherefromH, wherefromV, a1, a2, a3, whereto){
 let rowEntry = document.createElement('tr')
   let valH1, valH2, valH3, valV1, valV2, valV3
   
-  if(wherefromH !== '##EMPTY##'){
+  if(wherefromH){
     if(wherefromH.getAttribute(a1) === null){
     valH1 = 0
     } else {
@@ -359,7 +352,7 @@ let rowEntry = document.createElement('tr')
       valH1 = valH2 = valH3 = 0
   }
 
-  if (wherefromV !== '##EMPTY##') {
+  if (wherefromV) {
     if(wherefromV.getAttribute(a1) === null){
     valV1 = 0
     } else {
@@ -388,12 +381,12 @@ let rowEntry = document.createElement('tr')
 function singleAvgDatum(cont, wherefromH, wherefromV, attUp, attOver, whereto){
   rowEntry = document.createElement('tr')
   createElementHTML('td', cont, rowEntry)
-  if(wherefromH !== '##EMPTY##'){
+  if(wherefromH){
     createElementHTML('td', parseFloat(wherefromH.getAttribute(attUp) / wherefromH.getAttribute(attOver)).toFixed(1), rowEntry)
   } else {
     createElementHTML('td','0.0', rowEntry)
   }
-  if(wherefromV !== '##EMPTY##'){
+  if(wherefromV){
     createElementHTML('td', parseFloat(wherefromV.getAttribute(attUp) / wherefromV.getAttribute(attOver)).toFixed(1), rowEntry)
   } else {
     createElementHTML('td','0.0', rowEntry)
@@ -406,7 +399,7 @@ function tripleDatumTitle(cont, wherefromH, wherefromV, a1, a2, a3, whereto){
   let rowEntry = document.createElement('tr')
   let valH1, valH2, valH3, valV1, valV2, valV3
   
-  if(wherefromH !== '##EMPTY##'){
+  if(wherefromH){
     if(wherefromH.getAttribute(a1) === null){
     valH1 = 0
     } else {
@@ -426,7 +419,7 @@ function tripleDatumTitle(cont, wherefromH, wherefromV, a1, a2, a3, whereto){
       valH1 = valH2 = valH3 = 0
   }
 
-  if (wherefromV !== '##EMPTY##') {
+  if (wherefromV) {
     if(wherefromV.getAttribute(a1) === null){
     valV1 = 0
     } else {
@@ -452,6 +445,206 @@ function tripleDatumTitle(cont, wherefromH, wherefromV, a1, a2, a3, whereto){
   whereto.appendChild(rowEntry)
 }
 
+function sortTable(id, pos) {
+  let table, rows, switching, i, x, y, shouldSwitch;
+  table = document.getElementById(id);
+  switching = true;
+  
+  while (switching) {
+    switching = false;
+    rows = table.rows;
+    for (i = 1; i < (rows.length - 1); i++) {
+      shouldSwitch = false;
+
+      x = rows[i].getElementsByTagName("TD")[pos];
+      y = rows[i + 1].getElementsByTagName("TD")[pos];
+
+      if (Number(x.innerHTML) < Number(y.innerHTML) ) {
+        shouldSwitch = true;
+        break;
+      }
+      //x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()
+      //xlog = x.innerHTML.match(/\d+/g);
+    }
+    if (shouldSwitch) {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+    }
+  }
+}
+
+function insertTotalRow(id, type) {
+  let table, rows, rowEntry
+  table = document.getElementById(id);
+  rows = table.rows;
+  rowEntry = document.createElement('tr')
+  
+  createElementHTML('td', 'Totals...', rowEntry)
+
+  switch (type) {
+    case "pass":
+      for (let c = 1; c <= (rows[0].cells.length - 1); c++) {
+        let totComp = 0, totAtt = 0, totInt = 0, max = 0, total = 0
+        for (let r = 1; r <= (rows.length - 1); r++) {
+          let cell = table.rows[r].cells[c].innerHTML
+          if (c === 1){
+            totComp += parseInt(cell.match(/\d+/g)[0])
+            totAtt += parseInt(cell.match(/\d+/g)[1])
+            totInt += parseInt(cell.match(/\d+/g)[2])
+          } else if (c === 4) {
+            if (Number(cell) > max){
+              max = Number(cell)
+            }
+          } else {
+            total += parseInt(cell)
+          }
+        }
+      if (c === 1){
+        createElementHTML('td', `${totComp}-${totAtt}-${totInt}`, rowEntry)
+      } else if (c === 4) {
+        createElementHTML('td', max, rowEntry)
+      } else {
+        createElementHTML('td', total, rowEntry)
+        }
+      }
+      break;
+
+    case "rush":
+      for (let c = 1; c <= (rows[0].cells.length - 1); c++) {
+        let max = 0, total = 0, avg = 0.0, totYds = 0, totNo = 0
+        for (let r = 1; r <= (rows.length - 1); r++) {
+          let cell = table.rows[r].cells[c].innerHTML
+          if (c === 7){
+            totYds += parseInt(table.rows[r].cells[4].innerHTML)
+            totNo += parseInt(table.rows[r].cells[1].innerHTML)
+            avg = parseFloat(totYds / totNo).toFixed(1)
+          } else if (c === 6) {
+            if (Number(cell) > max){
+              max = Number(cell)
+            }
+          } else {
+            total += parseInt(cell)
+          }
+        }
+        if (c === 7){
+          createElementHTML('td', avg, rowEntry)
+        } else if (c === 6) {
+          createElementHTML('td', max, rowEntry)
+        } else {
+          createElementHTML('td', total, rowEntry)
+        }
+      }
+      break;
+
+    case 'rec':
+      for (let c = 1; c <= (rows[0].cells.length - 1); c++) {
+        let max = 0, total = 0
+        for (let r = 1; r <= (rows.length - 1); r++) {
+          let cell = table.rows[r].cells[c].innerHTML
+          if (c === 4) {
+            if (Number(cell) > max){
+              max = Number(cell)
+            }
+          } else {
+            total += parseInt(cell)
+          }
+        }
+        if (c === 4) {
+          createElementHTML('td', max, rowEntry)
+        } else {
+          createElementHTML('td', total, rowEntry)
+        }
+      }
+      break;
+
+    case 'punt':
+      for (let c = 1; c <= (rows[0].cells.length - 1); c++) {
+        let max = 0, total = 0, avg = 0.0, totYds = 0, totNo = 0
+        for (let r = 1; r <= (rows.length - 1); r++) {
+          let cell = table.rows[r].cells[c].innerHTML
+          if (c === 3){
+            totYds += parseInt(table.rows[r].cells[2].innerHTML)
+            totNo += parseInt(table.rows[r].cells[1].innerHTML)
+
+            avg = parseFloat(totYds / totNo).toFixed(1)
+          } else if (c === 4) {
+            if (Number(cell) > max){
+              max = Number(cell)
+            }
+          } else {
+            total += parseInt(cell)
+          }
+        }
+        if (c === 3){
+          createElementHTML('td', avg, rowEntry)
+        } else if (c === 4) {
+          createElementHTML('td', max, rowEntry)
+        } else {
+          createElementHTML('td', total, rowEntry)
+        }
+      }
+      break;
+
+    case 'allRet':
+      for (let c = 1; c <= (rows[1].cells.length - 1); c++) {
+        let max = 0, total = 0
+        for (let r = 2; r <= (rows.length - 1); r++) {
+          let cell = table.rows[r].cells[c].innerHTML
+          if (c === 3 || c === 6 || c === 9) {
+            if (Number(cell) > max){
+              max = Number(cell)
+            }
+          } else {
+            total += parseInt(cell)
+          }
+        }
+        if (c === 3 || c === 6 || c === 9) {
+          createElementHTML('td', max, rowEntry)
+        } else {
+          createElementHTML('td', total, rowEntry)
+        }
+      }
+      break;
+
+    case 'allPurp':
+      for (let c = 1; c <= (rows[0].cells.length - 1); c++) {
+        let max = 0, total = 0
+        for (let r = 1; r <= (rows.length - 1); r++) {
+          let cell = table.rows[r].cells[c].innerHTML
+          total += parseInt(cell)
+        }
+        createElementHTML('td', total, rowEntry)
+      }
+      break;
+
+    case 'ko':
+      for (let c = 1; c <= (rows[0].cells.length - 1); c++) {
+        let max = 0, total = 0, avg = 0.0, totYds = 0, totNo = 0
+        for (let r = 1; r <= (rows.length - 1); r++) {
+          let cell = table.rows[r].cells[c].innerHTML
+          if (c === 5){
+            totYds += parseInt(table.rows[r].cells[2].innerHTML)
+            totNo += parseInt(table.rows[r].cells[1].innerHTML)
+            avg = parseFloat(totYds / totNo).toFixed(1)
+          } else {
+            total += parseInt(cell)
+          }
+        }
+        if (c === 5){
+          createElementHTML('td', avg, rowEntry)
+        } else {
+          createElementHTML('td', total, rowEntry)
+        }
+      }
+      break;
+  
+    default:
+      break;
+      }  
+
+  tableBody = id + '-body'
+  document.getElementById(tableBody).appendChild(rowEntry)
+}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////BUILD FUNCTIONS//////////////////////////////////////////////////////////////
@@ -636,39 +829,40 @@ function buildTotalStatsComplete(x) {
   let rowEntry
   const contentTable = document.getElementById('teamTotalsComplete-table-body')
 
-  const firstdownsV = extractElem('firstdowns', totalsV)
-  const penaltiesV = extractElem('penalties', totalsV)
-  const conversionsV = extractElem('conversions', totalsV)
-  const fumblesV = extractElem('fumbles', totalsV)
-  const miscV = extractElem('misc', totalsV)
-  const redzoneV = extractElem('redzone', totalsV)
-  const rushV = extractElem('rush', totalsV)
-  const passV = extractElem('pass', totalsV)
-  const puntV = extractElem('punt', totalsV)
-  const koV = extractElem('ko', totalsV)
-  const fgV = extractElem('fg', totalsV)
-  const patV = extractElem('pat', totalsV)
-  const defenseV = extractElem('defense', totalsV)
-  const krV = extractElem('kr', totalsV)
-  const prV = extractElem('pr', totalsV)
-  const irV = extractElem('ir', totalsV)
+  const firstdownsV = totalsV?.getElementsByTagName('firstdowns')[0]
+  const penaltiesV = totalsV?.getElementsByTagName('penalties')[0]
+  const conversionsV = totalsV?.getElementsByTagName('conversions')[0]
+  const fumblesV = totalsV?.getElementsByTagName('fumbles')[0]
+  const miscV = totalsV?.getElementsByTagName('misc')[0]
+  const redzoneV = totalsV?.getElementsByTagName('redzone')[0]
+  const rushV = totalsV?.getElementsByTagName('rush')[0]
+  const passV = totalsV?.getElementsByTagName('pass')[0]
+  const puntV = totalsV?.getElementsByTagName('punt')[0]
+  const koV = totalsV?.getElementsByTagName('ko')[0]
+  const fgV= totalsV?.getElementsByTagName('fg')[0]
+  const patV = totalsV?.getElementsByTagName('pat')[0]
+  const defenseV = totalsV?.getElementsByTagName('defense')[0]
+  const krV = totalsV?.getElementsByTagName('kr')[0]
+  const prV = totalsV?.getElementsByTagName('pr')[0]
+  const irV = totalsV?.getElementsByTagName('ir')[0]
 
-  const firstdownsH = extractElem('firstdowns', totalsH)
-  const penaltiesH = extractElem('penalties', totalsH)
-  const conversionsH = extractElem('conversions', totalsH)
-  const fumblesH = extractElem('fumbles', totalsH)
-  const miscH = extractElem('misc', totalsH)
-  const redzoneH = extractElem('redzone', totalsH)
-  const rushH = extractElem('rush', totalsH)
-  const passH= extractElem('pass', totalsH)
-  const puntH = extractElem('punt', totalsH)
-  const koH = extractElem('ko', totalsH)
-  const fgH= extractElem('fg', totalsH)
-  const patH = extractElem('pat', totalsH)
-  const defenseH = extractElem('defense', totalsH)
-  const krH = extractElem('kr', totalsH)
-  const prH = extractElem('pr', totalsH)
-  const irH = extractElem('ir', totalsH)
+  const firstdownsH = totalsH?.getElementsByTagName('firstdowns')[0]
+  const penaltiesH = totalsH?.getElementsByTagName('penalties')[0]
+  const conversionsH = totalsH?.getElementsByTagName('conversions')[0]
+  const fumblesH = totalsH?.getElementsByTagName('fumbles')[0]
+  const miscH = totalsH?.getElementsByTagName('misc')[0]
+  const redzoneH = totalsH?.getElementsByTagName('redzone')[0]
+  const rushH = totalsH?.getElementsByTagName('rush')[0]
+  const passH= totalsH?.getElementsByTagName('pass')[0]
+  const puntH = totalsH?.getElementsByTagName('punt')[0]
+  const koH = totalsH?.getElementsByTagName('ko')[0]
+  const fgH= totalsH?.getElementsByTagName('fg')[0]
+  const patH = totalsH?.getElementsByTagName('pat')[0]
+  const defenseH = totalsH?.getElementsByTagName('defense')[0]
+  const krH = totalsH?.getElementsByTagName('kr')[0]
+  const prH = totalsH?.getElementsByTagName('pr')[0]
+  const irH = totalsH?.getElementsByTagName('ir')[0]
+
 
   singleDatumTitle('FIRST DOWNS', firstdownsH, firstdownsV, 'no', contentTable)
   singleDatum('Rushing', firstdownsH, firstdownsV, 'rush', contentTable)
@@ -779,33 +973,33 @@ function buildTotalStatsCompact(x) {
   let rowEntry
   const contentTable = document.getElementById('teamTotalsCompact-table-body')
 
-  const firstdownsV = extractElem('firstdowns', totalsV)
-  const penaltiesV = extractElem('penalties', totalsV)
-  const conversionsV = extractElem('conversions', totalsV)
-  const fumblesV = extractElem('fumbles', totalsV)
-  const miscV = extractElem('misc', totalsV)
-  const redzoneV = extractElem('redzone', totalsV)
-  const rushV = extractElem('rush', totalsV)
-  const passV = extractElem('pass', totalsV)
-  const puntV = extractElem('punt', totalsV)
-  const defenseV = extractElem('defense', totalsV)
-  const krV = extractElem('kr', totalsV)
-  const prV = extractElem('pr', totalsV)
-  const irV = extractElem('ir', totalsV)
+  const firstdownsV = totalsV?.getElementsByTagName('firstdowns')[0]
+  const penaltiesV = totalsV?.getElementsByTagName('penalties')[0]
+  const conversionsV = totalsV?.getElementsByTagName('conversions')[0]
+  const fumblesV = totalsV?.getElementsByTagName('fumbles')[0]
+  const miscV = totalsV?.getElementsByTagName('misc')[0]
+  const redzoneV = totalsV?.getElementsByTagName('redzone')[0]
+  const rushV = totalsV?.getElementsByTagName('rush')[0]
+  const passV = totalsV?.getElementsByTagName('pass')[0]
+  const puntV = totalsV?.getElementsByTagName('punt')[0]
+  const defenseV = totalsV?.getElementsByTagName('defense')[0]
+  const krV = totalsV?.getElementsByTagName('kr')[0]
+  const prV = totalsV?.getElementsByTagName('pr')[0]
+  const irV = totalsV?.getElementsByTagName('ir')[0]
 
-  const firstdownsH = extractElem('firstdowns', totalsH)
-  const penaltiesH = extractElem('penalties', totalsH)
-  const conversionsH = extractElem('conversions', totalsH)
-  const fumblesH = extractElem('fumbles', totalsH)
-  const miscH = extractElem('misc', totalsH)
-  const redzoneH = extractElem('redzone', totalsH)
-  const rushH = extractElem('rush', totalsH)
-  const passH= extractElem('pass', totalsH)
-  const puntH = extractElem('punt', totalsH)
-  const defenseH = extractElem('defense', totalsH)
-  const krH = extractElem('kr', totalsH)
-  const prH = extractElem('pr', totalsH)
-  const irH = extractElem('ir', totalsH)
+  const firstdownsH = totalsH?.getElementsByTagName('firstdowns')[0]
+  const penaltiesH = totalsH?.getElementsByTagName('penalties')[0]
+  const conversionsH = totalsH?.getElementsByTagName('conversions')[0]
+  const fumblesH = totalsH?.getElementsByTagName('fumbles')[0]
+  const miscH = totalsH?.getElementsByTagName('misc')[0]
+  const redzoneH = totalsH?.getElementsByTagName('redzone')[0]
+  const rushH = totalsH?.getElementsByTagName('rush')[0]
+  const passH= totalsH?.getElementsByTagName('pass')[0]
+  const puntH = totalsH?.getElementsByTagName('punt')[0]
+  const defenseH = totalsH?.getElementsByTagName('defense')[0]
+  const krH = totalsH?.getElementsByTagName('kr')[0]
+  const prH = totalsH?.getElementsByTagName('pr')[0]
+  const irH = totalsH?.getElementsByTagName('ir')[0]
 
   singleDatum('First Downs', firstdownsH, firstdownsV, 'no', contentTable)
   doubleDatum('Rushes - Yards (NET)', rushH, rushV, 'att', 'yds', contentTable)
@@ -830,14 +1024,14 @@ function buildTotalStatsCompact(x) {
 
   rowEntry = document.createElement('tr')
   createElementHTML('td', 'Punts (Number-Avg)', rowEntry)
-  if(puntH !== '##EMPTY##'){
+  if(puntH){
     const numH = puntH.getAttribute('no')
     let avgH = parseFloat(puntH.getAttribute('yds') / numH)
     createElementHTML('td', `${numH}-${avgH.toFixed(1)}`, rowEntry)
   } else {
     createElementHTML('td','0-0', rowEntry)
   }
-  if(puntV !== '##EMPTY##'){
+  if(puntV){
     let numV = puntH.getAttribute('no')
     let avgV = parseFloat(puntV.getAttribute('yds') / numV)
     createElementHTML('td', `${numV}-${avgV.toFixed(1)}`, rowEntry)
@@ -854,7 +1048,6 @@ function buildTotalStatsCompact(x) {
   doubleDatum('Red-Zone Scores-Chances', redzoneH, redzoneV, 'scores', 'att', contentTable)
   doubleDatum('Sacks By: Num-Yards', defenseH, defenseV, 'sacks', 'sackyds', contentTable)
 }
-
 
 function buildRosters(x) {
 
@@ -882,15 +1075,268 @@ function buildRosters(x) {
       for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
         const player = team.getElementsByTagName('player')[j];
 
-        player.getAttribute('name')
-        player.getAttribute('uni')
-
         rowEntry = document.createElement('tr')
         if (player.getAttribute('name') !== 'TEAM') {
-          createElementAttr('td', player.getAttribute('name'), 'class', 'playerName', rowEntry)
           createElementAttr('td', player.getAttribute('uni'), 'class', 'playerNum', rowEntry)  
+          createElementAttr('td', player.getAttribute('name'), 'class', 'playerName', rowEntry)
         }
         roster.appendChild(rowEntry)
     }
   }
+}
+
+function buildIndOffense(x) {
+
+  const passingTableBodyHome = document.getElementById('passingStatsHome-table-body')
+  const rushingTableBodyHome = document.getElementById('rushingStatsHome-table-body')
+  const receivingTableBodyHome = document.getElementById('receivingStatsHome-table-body')
+  const puntingTableBodyHome = document.getElementById('puntingStatsHome-table-body')
+  const allReturnsTableBodyHome = document.getElementById('allReturnsStatsHome-table-body')
+  const allPurposeTableBodyHome = document.getElementById('allPurposeStatsHome-table-body')
+  const fieldGoalTableBodyHome = document.getElementById('fieldGoalStatsHome-table-body')
+  const kickoffTableBodyHome = document.getElementById('kickoffStatsHome-table-body')
+
+  const passingTableBodyVis = document.getElementById('passingStatsVis-table-body')
+  const rushingTableBodyVis = document.getElementById('rushingStatsVis-table-body')
+  const receivingTableBodyVis = document.getElementById('receivingStatsVis-table-body')
+  const puntingTableBodyVis = document.getElementById('puntingStatsVis-table-body')
+  const allReturnsTableBodyVis = document.getElementById('allReturnsStatsVis-table-body')
+  const allPurposeTableBodyVis = document.getElementById('allPurposeStatsVis-table-body')
+  const fieldGoalTableBodyVis = document.getElementById('fieldGoalStatsVis-table-body')
+  const kickoffTableBodyVis = document.getElementById('kickoffStatsVis-table-body')
+
+  const fgas = x.getElementsByTagName('fgas')[0]
+  for (let k = 0; k < fgas.getElementsByTagName('fga').length; k++) {
+    let fga = fgas.getElementsByTagName('fga')[k]
+    let fgAtt = document.createElement('tr')
+    
+    createElementHTML('td', fga.getAttribute('kicker'), fgAtt)
+    createElementHTML('td', fga.getAttribute('qtr'), fgAtt)
+    createElementHTML('td', fga.getAttribute('clock'), fgAtt)
+    createElementHTML('td', fga.getAttribute('distance'), fgAtt)
+    createElementHTML('td', fga.getAttribute('result'), fgAtt)
+  
+    if (fga.getAttribute('vh') === 'V') {
+      fieldGoalTableBodyVis.appendChild(fgAtt)
+    } else {
+      fieldGoalTableBodyHome.appendChild(fgAtt)
+    }
+  }
+
+  for (let i = 0; i < x.getElementsByTagName('team').length; i++) {
+    let team = x.getElementsByTagName('team')[i];
+
+    for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
+      let player = team.getElementsByTagName('player')[j];
+     let rowEntry
+
+     let pass = player?.getElementsByTagName('pass')[0]
+      if (pass) {
+        rowEntry = document.createElement('tr')
+        createElementHTML('td', player.getAttribute('name'), rowEntry)
+        createElementHTML('td', `${pass.getAttribute('comp')}-${pass.getAttribute('att')}-${pass.getAttribute('int')}`, rowEntry)
+        createElementHTML('td', pass.getAttribute('yds'), rowEntry)
+        createElementHTML('td', pass.getAttribute('td'), rowEntry)
+        createElementHTML('td', pass.getAttribute('long'), rowEntry)
+        createElementHTML('td', pass.getAttribute('sacks'), rowEntry)
+       if (team.getAttribute('vh') === 'V') {
+          passingTableBodyVis.appendChild(rowEntry)
+        } else {
+          passingTableBodyHome.appendChild(rowEntry)
+        }
+      }
+
+      let rush = player?.getElementsByTagName('rush')[0]
+      if (rush) {
+       rowEntry = document.createElement('tr')
+        createElementHTML('td', player.getAttribute('name'), rowEntry)
+        createElementHTML('td', rush.getAttribute('att'), rowEntry)
+        createElementHTML('td', rush.getAttribute('gain'), rowEntry)
+        createElementHTML('td', rush.getAttribute('loss'), rowEntry)
+        net = parseFloat(rush.getAttribute('gain') - rush.getAttribute('loss'))
+        createElementHTML('td', net, rowEntry)
+        createElementHTML('td', rush.getAttribute('td'), rowEntry)
+        createElementHTML('td', rush.getAttribute('long'), rowEntry)
+        avg = parseFloat(net / rush.getAttribute('att')).toFixed(1)
+        createElementHTML('td', avg, rowEntry)
+       if (team.getAttribute('vh') === 'V') {
+          rushingTableBodyVis.appendChild(rowEntry)
+        } else {
+          rushingTableBodyHome.appendChild(rowEntry)
+        }
+      }
+     let rcv = player?.getElementsByTagName('rcv')[0]
+      if (rcv) {
+       rowEntry = document.createElement('tr')
+       createElementHTML('td', player.getAttribute('name'), rowEntry)
+        createElementHTML('td', rcv.getAttribute('no'), rowEntry)
+        createElementHTML('td', rcv.getAttribute('yds'), rowEntry)
+        createElementHTML('td', rcv.getAttribute('td'), rowEntry)
+        createElementHTML('td', rcv.getAttribute('long'), rowEntry)
+       if (team.getAttribute('vh') === 'V') {
+          receivingTableBodyVis.appendChild(rowEntry)
+        } else {
+          receivingTableBodyHome.appendChild(rowEntry)
+        }
+      }
+     let punt = player?.getElementsByTagName('punt')[0]
+      if (punt) {
+        rowEntry = document.createElement('tr')
+        createElementHTML('td', player.getAttribute('name'), rowEntry)
+        createElementHTML('td', punt.getAttribute('no'), rowEntry)
+        createElementHTML('td', punt.getAttribute('yds'), rowEntry)
+        avg = parseFloat(punt.getAttribute('yds') / punt.getAttribute('no')).toFixed(1)
+        createElementHTML('td', avg, rowEntry)
+        createElementHTML('td', punt.getAttribute('long'), rowEntry)
+        createElementHTML('td', punt.getAttribute('inside20'), rowEntry)
+        createElementHTML('td', punt.getAttribute('tb'), rowEntry)
+      
+        if (team.getAttribute('vh') === 'V') {
+          puntingTableBodyVis.appendChild(rowEntry)
+        } else {
+          puntingTableBodyHome.appendChild(rowEntry)
+        }
+      }
+      let pr = player?.getElementsByTagName('pr')[0]
+      let kr = player?.getElementsByTagName('kr')[0]
+      let ir = player?.getElementsByTagName('ir')[0]
+      
+      if (pr || kr || ir ) {
+        if (pr){
+          rowEntry = document.createElement('tr')
+          createElementHTML('td', player.getAttribute('name'), rowEntry)
+          createElementHTML('td', pr.getAttribute('no'), rowEntry)
+          createElementHTML('td', pr.getAttribute('yds'), rowEntry)
+          createElementHTML('td', pr.getAttribute('long'), rowEntry)
+        } else {
+          rowEntry = document.createElement('tr')
+          createElementHTML('td', player.getAttribute('name'), rowEntry)
+          createElementHTML('td', 0, rowEntry)
+          createElementHTML('td', 0, rowEntry)
+          createElementHTML('td', 0, rowEntry)
+        }
+      
+        if (kr){
+          createElementHTML('td', kr.getAttribute('no'), rowEntry)
+          createElementHTML('td', kr.getAttribute('yds'), rowEntry)
+          createElementHTML('td', kr.getAttribute('long'), rowEntry)
+        } else {
+          createElementHTML('td', 0, rowEntry)
+          createElementHTML('td', 0, rowEntry)
+          createElementHTML('td', 0, rowEntry)
+        }
+      
+        if (ir){
+          createElementHTML('td', ir.getAttribute('no'), rowEntry)
+          createElementHTML('td', ir.getAttribute('yds'), rowEntry)
+          createElementHTML('td', ir.getAttribute('long'), rowEntry)
+        } else {
+          createElementHTML('td', 0, rowEntry)
+          createElementHTML('td', 0, rowEntry)
+          createElementHTML('td', 0, rowEntry)
+        }
+       if (team.getAttribute('vh') === 'V') {
+          allReturnsTableBodyVis.appendChild(rowEntry)
+        } else {
+          allReturnsTableBodyHome.appendChild(rowEntry)
+        }
+      }
+     if (rush || rcv || kr || pr || ir) {
+        let total = 0
+        rowEntry = document.createElement('tr')
+        createElementHTML('td', player.getAttribute('name'), rowEntry)
+       if (rush){
+          createElementHTML('td', rush.getAttribute('yds'), rowEntry)
+          total += parseInt(rush.getAttribute('yds'))
+        } else {
+          createElementHTML('td', 0, rowEntry)
+        }
+       if (rcv){
+          createElementHTML('td', rcv.getAttribute('yds'), rowEntry)
+          total += parseInt(rcv.getAttribute('yds'))
+        } else {
+          createElementHTML('td', 0, rowEntry)
+        }
+       if (kr){
+          createElementHTML('td', kr.getAttribute('yds'), rowEntry)
+          total += parseInt(kr.getAttribute('yds'))
+        } else {
+          createElementHTML('td', 0, rowEntry)
+        }
+       if (pr){
+          createElementHTML('td', pr.getAttribute('yds'), rowEntry)
+          total += parseInt(pr.getAttribute('yds'))
+        } else {
+          createElementHTML('td', 0, rowEntry)
+        }
+       if (ir){
+          createElementHTML('td', ir.getAttribute('yds'), rowEntry)
+          total += parseInt(ir.getAttribute('yds'))
+        } else {
+          createElementHTML('td', 0, rowEntry)
+        }
+       createElementHTML('td', total, rowEntry)
+       if (team.getAttribute('vh') === 'V') {
+          allPurposeTableBodyVis.appendChild(rowEntry)
+        } else {
+          allPurposeTableBodyHome.appendChild(rowEntry)
+        }
+      }
+      const ko = player?.getElementsByTagName('ko')[0]
+      if (ko){
+        rowEntry = document.createElement('tr')
+        createElementHTML('td', player.getAttribute('name'), rowEntry)
+        createElementHTML('td', ko.getAttribute('no'), rowEntry)
+        createElementHTML('td', ko.getAttribute('yds'), rowEntry)
+        createElementHTML('td', ko.getAttribute('tb'), rowEntry)
+        createElementHTML('td', ko.getAttribute('ob'), rowEntry)
+        avg = parseFloat(ko.getAttribute('yds') / ko.getAttribute('no')).toFixed(1)
+        createElementHTML('td', avg, rowEntry)
+      
+        if (team.getAttribute('vh') === 'V') {
+          kickoffTableBodyVis.appendChild(rowEntry)
+        } else {
+          kickoffTableBodyHome.appendChild(rowEntry)
+        }
+      }
+      
+      //const fumbles = player?.getElementsByTagName('fumbles')[0]
+      //if (fumbles){
+      //  // create a fumble log
+      //}
+    }
+  }
+
+  sortTable('passingStatsHome-table', 2)
+  insertTotalRow('passingStatsHome-table', 'pass')
+  sortTable('passingStatsVis-table',  2)
+  insertTotalRow('passingStatsVis-table', 'pass')
+
+  sortTable('rushingStatsHome-table', 4)
+  insertTotalRow('rushingStatsHome-table', 'rush')
+  sortTable('rushingStatsVis-table', 4)
+  insertTotalRow('rushingStatsVis-table', 'rush')
+
+  sortTable('receivingStatsHome-table', 1)
+  insertTotalRow('receivingStatsHome-table', 'rec')
+  sortTable('receivingStatsVis-table', 1)
+  insertTotalRow('receivingStatsVis-table', 'rec')
+
+  sortTable('puntingStatsHome-table', 2)
+  insertTotalRow('puntingStatsHome-table', 'punt')
+  sortTable('puntingStatsVis-table', 2)
+  insertTotalRow('puntingStatsVis-table', 'punt')
+
+  insertTotalRow('allReturnsStatsHome-table', 'allRet')
+  insertTotalRow('allReturnsStatsVis-table', 'allRet')
+  
+  sortTable('allPurposeStatsHome-table', 6)
+  insertTotalRow('allPurposeStatsHome-table', 'allPurp')
+  sortTable('allPurposeStatsVis-table', 6)
+  insertTotalRow('allPurposeStatsVis-table', 'allPurp')
+
+  sortTable('kickoffStatsHome-table', 2)
+  insertTotalRow('kickoffStatsHome-table', 'ko')
+  sortTable('kickoffStatsVis-table', 2)
+  insertTotalRow('kickoffStatsVis-table', 'ko')
 }

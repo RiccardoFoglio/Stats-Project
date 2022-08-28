@@ -13,8 +13,6 @@
   <script src="script.js"></script>
 </head>
 
-
-
 <body>
 <main>
 <header id="headerPage">
@@ -95,11 +93,10 @@
     <ul id="scorer-list"></ul>
   </div>
   
-
-
 <hr id="contentSeparator">
 
 <div id="contentBox">
+
   <div class="contentDiv" id="teamTotals">
     <!--CONTAINER FOR TEAM TOTALS-->
 
@@ -134,15 +131,316 @@
     </div>
   </div>
 
-  <div class="contentDiv" id="individualOffense"> IndividualOffense </div>
+  <div class="contentDiv" id="individualOffense">
+    <!-- OFFENSE INVIDIVUAL STATS CONTAINER-->
+
+    <!-- PASSING STATS -->
+    <div class="row">
+      <div class="column">
+        <table id="passingStatsHome-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>PASSING</th>
+              <th>Comp-Att-Int</th>
+              <th>Yds</th>
+              <th>TD</th>
+              <th>Long</th>
+              <th>Sack</th>
+            </tr>
+          </thead>
+          <tbody id="passingStatsHome-table-body"></tbody>
+        </table>
+      </div>
+      <div class="column">
+        <table id="passingStatsVis-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>PASSING</th>
+              <th>Comp-Att-Int</th>
+              <th>Yds</th>
+              <th>TD</th>
+              <th>Long</th>
+              <th>Sack</th>
+            </tr>
+          </thead>
+          <tbody id="passingStatsVis-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- RUSHING STATS -->
+    <div class="row">
+      <div class="column">
+        <table id="rushingStatsHome-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>RUSHING</th>
+              <th>No.</th>
+              <th>Gain</th>
+              <th>Loss</th>
+              <th>Net</th>
+              <th>TD</th>
+              <th>Lg</th>
+              <th>Avg</th>
+            </tr>
+          </thead>
+          <tbody id="rushingStatsHome-table-body"></tbody>
+        </table>
+      </div>
+      <div class="column">
+        <table id="rushingStatsVis-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>RUSHING</th>
+              <th>No.</th>
+              <th>Gain</th>
+              <th>Loss</th>
+              <th>Net</th>
+              <th>TD</th>
+              <th>Lg</th>
+              <th>Avg</th>
+            </tr>
+          </thead>
+          <tbody id="rushingStatsVis-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- RECEIVING STATS -->
+    <div class="row">
+      <div class="column">      
+        <table id="receivingStatsHome-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>RECEIVING</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>TD</th>
+              <th>Lg</th>
+            </tr>
+          </thead>
+          <tbody id="receivingStatsHome-table-body"></tbody>
+        </table>
+      </div>
+      <div class="column">
+        <table id="receivingStatsVis-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>RECEIVING</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>TD</th>
+              <th>Lg</th>
+            </tr>
+          </thead>
+          <tbody id="receivingStatsVis-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+    
+    <!-- PUNTING STATS -->
+    <div class="row">
+      <div class="column">
+        <table id="puntingStatsHome-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>PUNTING</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>Avg</th>
+              <th>Long</th>
+              <th>in20</th>
+              <th>TB</th>
+            </tr>
+          </thead>
+          <tbody id="puntingStatsHome-table-body"></tbody>
+        </table>
+      </div>
+      <div class="column">
+        <table id="puntingStatsVis-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>PUNTING</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>Avg</th>
+              <th>Long</th>
+              <th>in20</th>
+              <th>TB</th>
+            </tr>
+          </thead>
+          <tbody id="puntingStatsVis-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <!-- ALL RETURNS STATS -->
+    <div class="row">
+      <div class="column">
+        <table id="allReturnsStatsHome-table" class="tableTable">
+          <thead>
+            <tr>
+              <th></th>
+              <th colspan="3">Punts</th>
+              <th colspan="3">Kickoffs</th>
+              <th colspan="3">Intercept</th>
+            </tr>
+            <tr>
+              <th>ALL RETURNS</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>Lg</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>Lg</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>Lg</th>
+            </tr>
+          </thead>
+          <tbody id="allReturnsStatsHome-table-body"></tbody>
+        </table>
+      </div>
+      <div class="column">
+        <table id="allReturnsStatsVis-table" class="tableTable">
+          <thead>
+            <tr>
+              <th></th>
+              <th colspan="3">Punts</th>
+              <th colspan="3">Kickoffs</th>
+              <th colspan="3">Intercept</th>
+            </tr>
+            <tr>
+              <th>ALL RETURNS</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>Lg</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>Lg</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>Lg</th>
+            </tr>
+          </thead>
+          <tbody id="allReturnsStatsVis-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ALL PURPOSE STATS -->
+    <div class="row">
+      <div class="column">
+        <table id="allPurposeStatsHome-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>ALL PURPOSE</th>
+              <th>Rush</th>
+              <th>Rcv</th>
+              <th>KR</th>
+              <th>PR</th>
+              <th>IR</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody id="allPurposeStatsHome-table-body"></tbody>
+        </table>
+      </div>
+      <div class="column">
+        <table id="allPurposeStatsVis-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>ALL PURPOSE</th>
+              <th>Rush</th>
+              <th>Rcv</th>
+              <th>KR</th>
+              <th>PR</th>
+              <th>IR</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody id="allPurposeStatsVis-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- FIELD GOALS STATS -->
+    <div class="row">
+      <div class="column fieldgoal">
+        <table id="fieldGoalStatsHome-table" class="tableTable">
+          <thead>
+            <tr>
+              <th colspan="5">FIELD GOAL ATTEMPTS</th>
+            </tr>
+          </thead>
+          <tbody id="fieldGoalStatsHome-table-body"></tbody>
+        </table>
+      </div>
+      <div class="column fieldgoal">
+        <table id="fieldGoalStatsVis-table" class="tableTable">
+          <thead>
+            <tr>
+              <th colspan="5">FIELD GOAL ATTEMPTS</th>
+            </tr>
+          </thead>
+          <tbody id="fieldGoalStatsVis-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- KICKOFFS STATS -->
+    <div class="row">
+      <div class="column">
+        <table id="kickoffStatsHome-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>KICKOFFS</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>TB</th>
+              <th>OB</th>
+              <th>Avg</th>
+            </tr>
+          </thead>
+          <tbody id="kickoffStatsHome-table-body"></tbody>
+        </table>
+      </div>
+      <div class="column">
+        <table id="kickoffStatsVis-table" class="tableTable">
+          <thead>
+            <tr>
+              <th>KICKOFFS</th>
+              <th>No.</th>
+              <th>Yds</th>
+              <th>TB</th>
+              <th>OB</th>
+              <th>Avg</th>
+            </tr>
+          </thead>
+          <tbody id="kickoffStatsVis-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
   <div class="contentDiv" id="driveChart"> DriveChart (complete and by quarter) </div>
+
+
+
+
+
+
+
+
+
   <div class="contentDiv" id="defenseStats"> Defense Stats </div>
   
   
   <div class="contentDiv" id="rosters">
-    
     <div id="rosterContainer">
     <!--CONTAINER FOR TEAM ROSTERS-->
+    
       <div id="rosterHomeDiv" class="rosterDiv">
         <table id="rosterHomeTable" class="tableTable">
           <thead>
@@ -152,7 +450,6 @@
             <tbody id="teamRosterHome-table-body"></tbody>
         </table>
       </div>
-
 
       <div id="rosterVisDiv" class="rosterContainer">
         <table id="rosterVisTable" class="tableTable">
@@ -170,9 +467,19 @@
 
 
   <div class="contentDiv" id="play-by-play"> Play-by-play </div>
+
+
+
+
+
+
+
+
+
+
+  
+
 </div>
-
-
 
 <div class="backToTopDiv">
   <button class="backToTopButton" onclick="backToTop()"><img src="UI_v.webp"></button>

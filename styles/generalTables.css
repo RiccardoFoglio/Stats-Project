@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: auto;
 }
 
 .tableTable {
@@ -127,8 +128,29 @@
     display: flex;
     justify-content: center;
     align-items: baseline;
+    column-gap: 80px;
 }
 
 .rosterDiv {
     margin: 20px;
+}
+
+/*INDIVIDUAL STATS*/
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    overflow-x: auto;
+}
+
+.column table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row :not(.fieldgoal) .tableTable tr:last-child {
+    background-color: rgb(230, 230, 230);
 }

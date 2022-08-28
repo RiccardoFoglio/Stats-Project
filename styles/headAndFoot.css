@@ -106,13 +106,12 @@
 }
 
 .button {
-  height: 60px;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: black;
   outline: 2px solid rgb(190, 190, 190);
-  padding: 20px 40px;
+  padding: 18px 36px;
   overflow: hidden;
   transition: color 0.15s;
   transition: background-color 0.15s;
@@ -128,4 +127,9 @@
 
 .contentDiv {
   display: none;
+}
+
+.indStatContainer {
+  display: flex;
+  justify-content: space-evenly;
 }
