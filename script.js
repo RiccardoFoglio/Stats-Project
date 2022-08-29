@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     buildIndOffense(xml)
 
+    buildDrivesComplete(xml)
+    buildDrivesQuarter(xml)
+
     buildRosters(xml)
   })
 })
@@ -51,7 +54,7 @@ function toggleText(id){
 
 function toggleTextSingle(id){
   
-  let allDivs = document.getElementsByClassName('totalsContainer')
+  let allDivs = document.getElementsByClassName('ContainerDisappear')
   for(i=0; i<allDivs.length; i++){
     if (allDivs.id !== id)
       allDivs[i].style.display = 'none';
@@ -231,7 +234,6 @@ function netAverage(type, fromH, fromV, retH, retV, whereto) {
 
   whereto.appendChild(rowEntry)
 }
-
 
 function singleDatumTitle(cont, wherefromH, wherefromV, attrib, whereto){
   let rowEntry = document.createElement('tr')
@@ -644,6 +646,85 @@ function insertTotalRow(id, type) {
 
   tableBody = id + '-body'
   document.getElementById(tableBody).appendChild(rowEntry)
+}
+
+function yardsToSpot(x, val, field, team) {
+  let hTeam = x.getElementsByTagName('team')[1].getAttribute('id')
+  let vTeam = x.getElementsByTagName('team')[0].getAttribute('id')
+  let num
+
+  if (hTeam.charAt(0) !== vTeam.charAt(0)){
+    if (val < parseInt(field/2)) {
+      num = val
+      if (team === hTeam){
+        return hTeam.charAt(0)+num
+      } else {
+        return vTeam.charAt(0)+num
+      }
+      
+    } else {
+      num = field - val
+      if (team === hTeam){
+        return vTeam.charAt(0)+num
+      } else {
+        return hTeam.charAt(0)+num
+      }
+    }
+  } else {
+    if (val < parseInt(field/2)) {
+      num = val
+      if (team === hTeam){
+        return 'H'+num
+      } else {
+        return 'V'+num
+      }
+    } else {
+      num = field - val
+      if (team === hTeam){
+        return 'H'+num
+      } else {
+        return 'V'+num
+      }
+    }
+  }
+}
+
+function typeToPlay(type){
+  switch (type) {
+    case 'KO':
+      return 'Kickoff'
+    case 'PUNT':
+      return 'Punt'
+    case 'INT':
+      return 'Interception'
+    case 'FGA':
+      return 'Missed FG'
+    case 'DOWNS':
+      return 'Downs'
+    case 'FUMB': 
+      return 'Fumble'
+    case 'FG': 
+      return 'FIELDGOAL'
+    case 'TD': 
+      return 'TOUCHDOWN'
+    case 'HALF': 
+      return 'End of half'
+    
+    default:
+      return null   
+  }
+}
+
+function AddBefore(rowId, newElement){
+    let target = document.getElementById(rowId);
+    target.parentNode.insertBefore(newElement, target);
+    return newElement;
+}
+
+function AddAfter(rowId, newElement){
+    let target = document.getElementById(rowId);
+    target.parentNode.insertBefore(newElement, target.nextSibling );
+    return newElement;
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1339,4 +1420,90 @@ function buildIndOffense(x) {
   insertTotalRow('kickoffStatsHome-table', 'ko')
   sortTable('kickoffStatsVis-table', 2)
   insertTotalRow('kickoffStatsVis-table', 'ko')
+}
+
+function buildDrivesQuarter(x) {
+  const driveTable = document.getElementById('driveQuarterTable-body')
+  const drives = x.getElementsByTagName('drives')[0]
+  let rowEntry, prevQtr = 1
+
+  for (let i = 0; i < drives.getElementsByTagName('drive').length; i++) {
+    const drive = drives.getElementsByTagName('drive')[i]
+    const fieldLength = x.getElementsByTagName('rules')[0].getAttribute('field')
+    const vh = drive?.getAttribute('vh')
+    const team = drive?.getAttribute('team')
+    const start = drive?.getAttribute('start').split(',')
+    const end = drive?.getAttribute('end').split(',')
+    const plays = drive?.getAttribute('plays')
+    const yards = drive?.getAttribute('yards')
+    const top = drive?.getAttribute('top')
+    const rx = drive?.getAttribute('rx')
+    const driveindex = drive?.getAttribute('driveindex')
+    
+    rowEntry = document.createElement('tr')
+    createElementHTML('td', team, rowEntry)
+    createElementHTML('td', numToQRT(start[1]), rowEntry)
+    createElementHTML('td', yardsToSpot(x, start[3], fieldLength, team), rowEntry)
+    createElementHTML('td', start[2], rowEntry)
+    createElementHTML('td', typeToPlay(start[0]), rowEntry)
+    createElementHTML('td', yardsToSpot(x, end[3], fieldLength, team), rowEntry)
+    createElementHTML('td', end[2], rowEntry)
+    createElementHTML('td', typeToPlay(end[0]), rowEntry)
+    createElementHTML('td', `${plays}-${yards}`, rowEntry)
+    createElementHTML('td', top, rowEntry)
+
+    if (prevQtr !== Number(start[1])){
+      prevQtr = Number(start[1])
+      const blankEntry = document.createElement('tr')
+      blankEntry.setAttribute('class', 'blank_row')
+      createElementAttr('td', '', 'colspan', '10', blankEntry)
+      driveTable.appendChild(blankEntry)
+    }
+
+    driveTable.appendChild(rowEntry)  
+  }
+}
+
+ function buildDrivesComplete(x) {
+  const driveTable = document.getElementById('driveCompleteTable-body')
+  const drives = x.getElementsByTagName('drives')[0]
+  let rowEntry
+
+  const blankEntry = document.createElement('tr')
+  blankEntry.setAttribute('class', 'blank_row')
+  blankEntry.setAttribute('id', 'blankRow')
+  createElementAttr('td', '', 'colspan', '10', blankEntry)
+  driveTable.appendChild(blankEntry)
+
+  for (let i = 0; i < drives.getElementsByTagName('drive').length; i++) {
+    const drive = drives.getElementsByTagName('drive')[i]
+    const fieldLength = x.getElementsByTagName('rules')[0].getAttribute('field')
+    const vh = drive?.getAttribute('vh')
+    const team = drive?.getAttribute('team')
+    const start = drive?.getAttribute('start').split(',')
+    const end = drive?.getAttribute('end').split(',')
+    const plays = drive?.getAttribute('plays')
+    const yards = drive?.getAttribute('yards')
+    const top = drive?.getAttribute('top')
+    const rx = drive?.getAttribute('rx')
+    const driveindex = drive?.getAttribute('driveindex')
+    
+    rowEntry = document.createElement('tr')
+    createElementHTML('td', team, rowEntry)
+    createElementHTML('td', numToQRT(start[1]), rowEntry)
+    createElementHTML('td', yardsToSpot(x, start[3], fieldLength, team), rowEntry)
+    createElementHTML('td', start[2], rowEntry)
+    createElementHTML('td', typeToPlay(start[0]), rowEntry)
+    createElementHTML('td', yardsToSpot(x, end[3], fieldLength, team), rowEntry)
+    createElementHTML('td', end[2], rowEntry)
+    createElementHTML('td', typeToPlay(end[0]), rowEntry)
+    createElementHTML('td', `${plays}-${yards}`, rowEntry)
+    createElementHTML('td', top, rowEntry)
+
+    if (vh === 'H'){
+      AddBefore('blankRow', rowEntry)
+    } else {
+      AddAfter('blankRow', rowEntry)
+    }  
+  }
 }

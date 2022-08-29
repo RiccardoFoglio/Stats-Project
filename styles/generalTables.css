@@ -57,7 +57,6 @@
     font-weight: bold;
 }
 
-
 /* SCORING SUMMARY TABLE */
 
 #scoring-summary-table{
@@ -153,4 +152,23 @@
 
 .row :not(.fieldgoal) .tableTable tr:last-child {
     background-color: rgb(230, 230, 230);
+}
+
+/*DRIVES*/
+
+.blank_row {
+    height: 10px !important;
+    /* overwrites any other rules */
+    background-color: #FFFFFF;
+}
+
+#driveCompleteDiv, #driveQuartertDiv {
+    display: none;
+}
+
+#driveContainer,
+#navBoxDrives {
+    display: flex;
+    justify-content: center;
+    
 }
