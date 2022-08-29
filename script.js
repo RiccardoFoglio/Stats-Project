@@ -20,7 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
     buildDrivesComplete(xml)
     buildDrivesQuarter(xml)
 
+    buildDefense(xml)
+
     buildRosters(xml)
+
+    buildPlays(xml)
   })
 })
 
@@ -649,44 +653,26 @@ function insertTotalRow(id, type) {
 }
 
 function yardsToSpot(x, val, field, team) {
-  let hTeam = x.getElementsByTagName('team')[1].getAttribute('id')
-  let vTeam = x.getElementsByTagName('team')[0].getAttribute('id')
+  let hTeam = x.getElementsByTagName('team')[1].getAttribute('abb')
+  let vTeam = x.getElementsByTagName('team')[0].getAttribute('abb')
   let num
 
-  if (hTeam.charAt(0) !== vTeam.charAt(0)){
-    if (val < parseInt(field/2)) {
+  if (val < parseInt(field/2)) {
       num = val
       if (team === hTeam){
-        return hTeam.charAt(0)+num
+        return hTeam+num
       } else {
-        return vTeam.charAt(0)+num
+        return vTeam+num
       }
       
     } else {
       num = field - val
       if (team === hTeam){
-        return vTeam.charAt(0)+num
+        return vTeam+num
       } else {
-        return hTeam.charAt(0)+num
+        return hTeam+num
       }
     }
-  } else {
-    if (val < parseInt(field/2)) {
-      num = val
-      if (team === hTeam){
-        return 'H'+num
-      } else {
-        return 'V'+num
-      }
-    } else {
-      num = field - val
-      if (team === hTeam){
-        return 'H'+num
-      } else {
-        return 'V'+num
-      }
-    }
-  }
 }
 
 function typeToPlay(type){
@@ -1130,42 +1116,6 @@ function buildTotalStatsCompact(x) {
   doubleDatum('Sacks By: Num-Yards', defenseH, defenseV, 'sacks', 'sackyds', contentTable)
 }
 
-function buildRosters(x) {
-
-  for (let i = 0; i < x.getElementsByTagName('team').length; i++) {
-    let team =  x.getElementsByTagName('team')[i];
-    let rowEntry, roster
-
-    if (i === 0) {
-      roster = document.getElementById('teamRosterVis-table-body')
-
-      rowEntry = document.createElement('th')
-    	rowEntry.textContent = `${team.getAttribute('name')} Roster`
-    	rowEntry.setAttribute('colspan', '2')
-    	document.getElementById('teamRosterVis-table-head').appendChild(rowEntry)
-      	
-    } else {
-      roster = document.getElementById('teamRosterHome-table-body')
-
-      rowEntry = document.createElement('th')
-    	rowEntry.textContent = `${team.getAttribute('name')} Roster`
-    	rowEntry.setAttribute('colspan', '2')
-    	document.getElementById('teamRosterHome-table-head').appendChild(rowEntry)
-    } 
-
-      for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
-        const player = team.getElementsByTagName('player')[j];
-
-        rowEntry = document.createElement('tr')
-        if (player.getAttribute('name') !== 'TEAM') {
-          createElementAttr('td', player.getAttribute('uni'), 'class', 'playerNum', rowEntry)  
-          createElementAttr('td', player.getAttribute('name'), 'class', 'playerName', rowEntry)
-        }
-        roster.appendChild(rowEntry)
-    }
-  }
-}
-
 function buildIndOffense(x) {
 
   const passingTableBodyHome = document.getElementById('passingStatsHome-table-body')
@@ -1506,4 +1456,191 @@ function buildDrivesQuarter(x) {
       AddAfter('blankRow', rowEntry)
     }  
   }
+}
+
+function buildDefense(x){
+  document.getElementById('DefenseH').innerHTML = x.getElementsByTagName('team')[1].getAttribute('name')
+  document.getElementById('DefenseV').innerHTML = x.getElementsByTagName('team')[0].getAttribute('name')
+
+  const defenseTableH = document.getElementById('DefenseTableH-body')
+  const defenseTableV = document.getElementById('DefenseTableV-body')
+
+  for (let i = 0; i < x.getElementsByTagName('team').length; i++) {
+    const team = x.getElementsByTagName('team')[i];
+
+    for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
+      const player = team.getElementsByTagName('player')[j];
+      let rowEntry
+
+      const defense = player?.getElementsByTagName('defense')[0]
+      if (defense) {
+        rowEntry = document.createElement('tr')
+
+        createElementHTML('td', player.getAttribute('uni'), rowEntry)
+        createElementHTML('td', player.getAttribute('name'), rowEntry)
+
+        const tackua = defense?.getAttribute('tackua')
+        const tacka = defense?.getAttribute('tacka')
+        let total = 0.0
+
+        if (tackua && Number(tackua) !== 0) {
+          createElementHTML('td', tackua, rowEntry)
+          total += parseFloat(tackua)
+        } else {
+          createElementHTML('td', '.', rowEntry)
+        }
+
+        if (tacka && Number(tacka) !== 0) {
+          createElementHTML('td', tacka, rowEntry)
+          total += (parseFloat(tacka) * 0.5)
+        } else {
+          createElementHTML('td', '.', rowEntry)
+        }
+
+        createElementHTML('td', total.toFixed(1), rowEntry)        
+
+        const tflua = defense?.getAttribute('tflua')
+        const tfla = defense?.getAttribute('tfla')
+        const tflyds = defense?.getAttribute('tflyds')
+        let tflTot = '.'
+        
+        if (tflua || tfla) {
+          if (tflua && tfla) {
+            tflTot = Number(tflua) + (Number(tfla)*0.5)
+          } else if (tflua) {
+            tflTot = Number(tflua)
+          } else if (tfla) {
+            tflTot = Number(tfla) * 0.5
+          }
+          createElementHTML('td', `${tflTot.toFixed(1)}/${tflyds}`, rowEntry)
+        } else {
+          createElementHTML('td', '.', rowEntry)
+        }
+
+        const ff = defense?.getAttribute('ff')
+        if (ff) {
+          createElementHTML('td', ff, rowEntry)
+        } else {
+          createElementHTML('td', '.', rowEntry)
+        }
+
+        const fr = defense?.getAttribute('fr')
+        const fryds = defense?.getAttribute('fryds')
+
+        if (fr) {
+          createElementHTML('td', `${fr}-${fryds}`, rowEntry)
+        } else {
+          createElementHTML('td', '.', rowEntry)
+        }
+
+        const int = defense?.getAttribute('int')
+        const intyds = defense?.getAttribute('intyds')
+
+        if (int) {
+          createElementHTML('td', `${int}-${intyds}`, rowEntry)
+        } else {
+          createElementHTML('td', '.', rowEntry)
+        }
+
+        const brup = defense?.getAttribute('brup')
+
+        if (brup) {
+          createElementHTML('td', brup, rowEntry)
+        } else {
+          createElementHTML('td', '.', rowEntry)
+        }
+
+        const blkd = defense?.getAttribute('blkd')
+
+        if (blkd) {
+          createElementHTML('td', blkd, rowEntry)
+        } else {
+          createElementHTML('td', '.', rowEntry)
+        }
+
+        const sackua = defense?.getAttribute('sackua')
+        const sacka = defense?.getAttribute('sacka')
+        const sackyds = defense?.getAttribute('sackyds')
+        let sackTot = '.'
+        if (sackua || sacka) {
+          if (sackua && sacka) {
+            sackTot = Number(sackua) + (Number(sacka)*0.5)
+          } else if (sackua) {
+            sackTot = Number(sackua)
+          } else if (sacka) {
+            sackTot = Number(sacka) * 0.5
+          }
+          createElementHTML('td', `${sackTot.toFixed(1)}/${sackyds}`, rowEntry)
+        } else {
+          createElementHTML('td', '.', rowEntry)
+        }
+
+        const qbh = defense?.getAttribute('qbh')
+        if (qbh) {
+          createElementHTML('td', qbh, rowEntry)
+        } else {
+          createElementHTML('td', '.', rowEntry)
+        }
+
+        if (team.getAttribute('vh') === 'H') {
+          defenseTableH.appendChild(rowEntry)
+        } else {
+          defenseTableV.appendChild(rowEntry)
+        }
+      }
+    }
+    sortTable('DefenseTableH', 4)
+    sortTable('DefenseTableV', 4)
+  }
+
+
+  
+
+
+
+
+
+
+
+
+}
+
+function buildRosters(x) {
+
+  for (let i = 0; i < x.getElementsByTagName('team').length; i++) {
+    let team =  x.getElementsByTagName('team')[i];
+    let rowEntry, roster
+
+    if (i === 0) {
+      roster = document.getElementById('teamRosterVis-table-body')
+
+      rowEntry = document.createElement('th')
+    	rowEntry.textContent = `${team.getAttribute('name')} Roster`
+    	rowEntry.setAttribute('colspan', '2')
+    	document.getElementById('teamRosterVis-table-head').appendChild(rowEntry)
+      	
+    } else {
+      roster = document.getElementById('teamRosterHome-table-body')
+
+      rowEntry = document.createElement('th')
+    	rowEntry.textContent = `${team.getAttribute('name')} Roster`
+    	rowEntry.setAttribute('colspan', '2')
+    	document.getElementById('teamRosterHome-table-head').appendChild(rowEntry)
+    } 
+
+      for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
+        const player = team.getElementsByTagName('player')[j];
+
+        rowEntry = document.createElement('tr')
+        if (player.getAttribute('name') !== 'TEAM') {
+          createElementAttr('td', player.getAttribute('uni'), 'class', 'playerNum', rowEntry)  
+          createElementAttr('td', player.getAttribute('name'), 'class', 'playerName', rowEntry)
+        }
+        roster.appendChild(rowEntry)
+    }
+  }
+}
+
+function buildPlays(x){
+
 }

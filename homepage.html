@@ -423,7 +423,7 @@
     <div class="contentDiv" id="driveChart">
       
       <div id="navBoxTotals">
-        <button class="button" onclick="toggleTextSingle('driveCompleteDiv')">Complete</button>
+        <button class="button" onclick="toggleTextSingle('driveCompleteDiv')">By Team</button>
         <button class="button" onclick="toggleTextSingle('driveQuarterDiv')">By Quarter</button>
       </div>
 
@@ -486,7 +486,54 @@
 
     </div>
 
-    <div class="contentDiv" id="defenseStats"> Defense Stats </div>
+    <div class="contentDiv" id="defenseStats">
+      <div id="DefenseStatsContainer">
+        <div id="teamVDef">
+        <table id="DefenseTableV" class="tableTable">
+          <thead>
+            <tr>
+              <th>##</th>
+              <th id="DefenseV"></th>
+              <th>Solo</th>
+              <th>Ast</th>
+              <th>Total</th>
+              <th>TFL/Yds</th>
+              <th>FF</th>
+              <th>FR-Yds</th>
+              <th>Int-Yds</th>
+              <th>BrUp</th>
+              <th>Blkd</th>
+              <th>Sack/Yds</th>
+              <th>QBH</th>
+            </tr>
+          </thead>
+          <tbody id="DefenseTableV-body"></tbody>
+        </table>
+        </div>
+        <div id="teamHDef">
+          <table id="DefenseTableH" class="tableTable">
+            <thead>
+              <tr>
+                <th>##</th>
+                <th id="DefenseH"></th>
+                <th>Solo</th>
+                <th>Ast</th>
+                <th>Total</th>
+                <th>TFL/Yds</th>
+                <th>FF</th>
+                <th>FR-Yds</th>
+                <th>Int-Yds</th>
+                <th>BrUp</th>
+                <th>Blkd</th>
+                <th>Sack/Yds</th>
+                <th>QBH</th>
+              </tr>
+            </thead>
+            <tbody id="DefenseTableH-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
     
 
 
@@ -544,5 +591,8 @@
 
 </main>
 </body>
+
+<footer></footer>
+
 </html>
 
