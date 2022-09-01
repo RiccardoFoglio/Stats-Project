@@ -11,19 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
     buildScoringSummary(xml)
     buildGeneralInfo(xml)
     buildReferees(xml)
-
+    //buttons
     buildTotalStatsComplete(xml)
     buildTotalStatsCompact(xml)
-
     buildIndOffense(xml)
-
     buildDrivesComplete(xml)
     buildDrivesQuarter(xml)
-
     buildDefense(xml)
-
     buildRosters(xml)
-
     buildPlays(xml)
   })
 })
@@ -1642,5 +1637,166 @@ function buildRosters(x) {
 }
 
 function buildPlays(x){
+  const qtrs = x.getElementsByTagName('plays')[0].getElementsByTagName('qtr')
 
+  if (qtrs.length > 4){
+    const OTDiv = document.createElement('div')
+    OTDiv.setAttribute('id', 'OTPlays')
+
+    const button = document.createElement('button')
+    button.setAttribute('class', 'button')
+    button.setAttribute('onclick', "toggleTextSingle('OTPlays')")
+
+    document.getElementById('navBoxPlays').appendChild(button)
+    document.getElementById('PlaysContainer').appendChild(OTDiv)
+  }
+
+  for (let nq = 0; nq < qtrs.length; nq++) {
+    const qtr = qtrs[nq];
+
+    const plays = qtr.getElementsByTagName('play')
+    const drivestart  = qtr.getElementsByTagName('drivestart')
+    const score  = qtr.getElementsByTagName('score')
+    const drivesum  = qtr.getElementsByTagName('drivesum')
+
+    let starthalf = false
+    let rowEntry
+    let currentTable, headerTable, bodyTable, quarterDiv, scoreCounter=0, i=0, j=0, k=0
+
+    rowEntry = document.createElement('tr')
+    switch (nq) {
+      case 0:
+        quarterDiv = document.getElementById('1stQtrPlays')
+        starthalf = true
+        createElementHTML('th', 'Start of 1st Half', rowEntry)
+        break;
+      case 1:
+        quarterDiv = document.getElementById('2ndQtrPlays')
+        createElementHTML('th', 'Start of Quarter #2', rowEntry)
+        break;
+      case 2:
+        quarterDiv = document.getElementById('3rdQtrPlays')
+        starthalf = true
+        createElementHTML('th', 'Start of 2nd Half', rowEntry)
+        break;
+      case 3:
+        quarterDiv = document.getElementById('4thQtrPlays')
+        createElementHTML('th', 'Start of Quarter #4', rowEntry)
+        break;
+      case 4:
+        quarterDiv = document.getElementById('OTPlays')
+        createElementHTML('th', 'Start of Overtime', rowEntry)
+        break;
+    
+      default:
+        break;
+    }
+
+    // PLAYID drive num - play in drive - play total
+    // DRIVESTART >> DRIVEINDEX drivenum - last play total
+    // DRIVESUM >> DRIVEINDEX drivenum
+
+    const firstDriveQtr = plays[0].getAttribute('playid').split(',')[0] 
+    const lastDriveQtr = plays[plays.length-1].getAttribute('playid').split(',')[0]
+
+    const firstPlayQtr = plays[0].getAttribute('playid').split(',')[2]
+    const lastPlayQtr = plays[plays.length-1].getAttribute('playid').split(',')[2]
+
+    for (let nd = Number(firstDriveQtr); nd <= Number(lastDriveQtr); nd++) {
+      currentTable = document.createElement('table')
+      currentTable.setAttribute('id', `driveTable${nq}-${nd}`)
+
+      headerTable = document.createElement('thead')
+      bodyTable = document.createElement('tbody')
+
+      if (nd === Number(firstDriveQtr)){
+        headerTable.appendChild(rowEntry)
+        currentTable.appendChild(headerTable)
+
+        if (starthalf){
+          while (Number(plays[i].getAttribute('playid').split(',')[0]) === Number(firstDriveQtr)){
+            rowEntry = document.createElement('tr')
+            createElementHTML('td', plays[i].getAttribute('text'), rowEntry)
+            i += 1
+            bodyTable.appendChild(rowEntry)
+          }
+        } else {
+          //PLAYS
+          while (Number(plays[i].getAttribute('playid').split(',')[0]) === Number(firstDriveQtr)){
+            rowEntry = document.createElement('tr')
+            let down = numToQRT(plays[i].getAttribute('context').split(',')[1])
+            let distance = plays[i].getAttribute('context').split(',')[2]
+            let spot = plays[i].getAttribute('context').split(',')[3][0] === 'V' ? x.getElementsByTagName('team')[0].getAttribute('id') + plays[i].getAttribute('context').split(',')[3].slice(1) : x.getElementsByTagName('team')[1].getAttribute('id') + plays[i].getAttribute('context').split(',')[3].slice(1)
+            createElementHTML('td', `${down} and ${distance} at ${spot}`, rowEntry)
+            createElementHTML('td', plays[i].getAttribute('text'), rowEntry)
+            bodyTable.appendChild(rowEntry)
+            
+            //SCORE
+            if (plays[i]?.getAttribute('score') === 'Y'){
+              rowEntry = document.createElement('tr')
+              let str = `${x.getElementsByTagName('team')[0].getAttribute('name')} ${score[scoreCounter].getAttribute('V')}-${score[scoreCounter].getAttribute('H')} ${x.getElementsByTagName('team')[1].getAttribute('name')}`
+              createElementAttr('td', str, 'colspan', '2', rowEntry)
+              bodyTable.appendChild(rowEntry)
+              scoreCounter += 1
+            }       
+            i += 1
+          }
+        }
+        currentTable.appendChild(bodyTable)
+        currentTable.setAttribute('class', 'tableTable')
+        quarterDiv.appendChild(currentTable)
+
+      } else {
+
+        rowEntry = document.createElement('tr')
+        while(nd !== Number(drivestart[j].getAttribute('driveindex').split(',')[0])){
+          j += 1
+        }
+        let teamPoss = drivestart[j].getAttribute('poss')[0]
+        if (teamPoss === 'V'){
+          createElementHTML('th', `${x.getElementsByTagName('team')[0].getAttribute('name')} at ${drivestart[j].getAttribute('poss').split(',')[2]}`, rowEntry)
+        } else {
+          createElementHTML('th', `${x.getElementsByTagName('team')[1].getAttribute('name')} at ${drivestart[j].getAttribute('poss').split(',')[2]}`, rowEntry)
+        }
+        headerTable.appendChild(rowEntry)
+        currentTable.appendChild(headerTable)
+      
+        while(Number(plays[k].getAttribute('playid').split(',')[0]) !== nd){
+          k += 1
+        }
+      
+        for (k; Number(plays[k]?.getAttribute('playid').split(',')[0]) === nd; k++){
+          //PLAYS
+          rowEntry = document.createElement('tr')
+          let down = numToQRT(plays[k].getAttribute('context').split(',')[1])
+          let distance = plays[k].getAttribute('context').split(',')[2]
+          let spot = plays[k].getAttribute('context').split(',')[3][0] === 'V' ? x.getElementsByTagName('team')[0].getAttribute('id') + plays[k].getAttribute('context').split(',')[3].slice(1) : x.getElementsByTagName('team')[1].getAttribute('id') + plays[k].getAttribute('context').split(',')[3].slice(1)
+          createElementHTML('td', `${down} and ${distance} at ${spot}`, rowEntry)
+          createElementHTML('td', plays[k].getAttribute('text'), rowEntry)
+          bodyTable.appendChild(rowEntry)
+      
+          //SCORES
+          if (plays[k]?.getAttribute('score') === 'Y'){
+            rowEntry = document.createElement('tr')
+            let str = `${x.getElementsByTagName('team')[0].getAttribute('name')} ${score[scoreCounter].getAttribute('V')}-${score[scoreCounter].getAttribute('H')} ${x.getElementsByTagName('team')[1].getAttribute('name')}`
+            createElementAttr('td', str, 'colspan', '2', rowEntry)
+            bodyTable.appendChild(rowEntry)
+            scoreCounter += 1
+          }
+      
+          //FINALPLAY SCORE
+          if (plays[k]?.getAttribute('playid').split(',')[2] === lastPlayQtr){
+            rowEntry = document.createElement('tr')
+            let str = `${x.getElementsByTagName('team')[0].getAttribute('name')} ${score[scoreCounter].getAttribute('V')}-${score[scoreCounter].getAttribute('H')} ${x.getElementsByTagName('team')[1].getAttribute('name')}`
+            createElementAttr('td', str, 'colspan', '2', rowEntry)
+            bodyTable.appendChild(rowEntry)
+            scoreCounter += 1   
+          }
+        }
+        currentTable.appendChild(bodyTable)
+        currentTable.setAttribute('class', 'tableTable')
+        quarterDiv.appendChild(currentTable)
+      }
+    }
+  }
 }

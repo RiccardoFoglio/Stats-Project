@@ -15,36 +15,36 @@
 
 <body>
 <main>
-<header id="headerPage">
-  <div id="scoreboard" onclick="backToTop()">
-    <div id="homeScoreboard">
-      <div id="homeTeam">
-        <img src="" id="homeLogo">
-        <div id="homeName"></div>
-        <div id="homeRecord"></div>
+  <header id="headerPage">
+    <div id="scoreboard" onclick="backToTop()">
+      <div id="homeScoreboard">
+        <div id="homeTeam">
+          <img src="" id="homeLogo">
+          <div id="homeName"></div>
+          <div id="homeRecord"></div>
+        </div>
+        <div id="homeScore"></div>
       </div>
-      <div id="homeScore"></div>
-    </div>
-    <div id="vs">-</div>
-    <div id="visScoreboard">
-      <div id="visTeam">
-        <img src="" id="visLogo">
-        <div id="visName"></div>
-        <div id="visRecord"></div>
+      <div id="vs">-</div>
+      <div id="visScoreboard">
+        <div id="visTeam">
+          <img src="" id="visLogo">
+          <div id="visName"></div>
+          <div id="visRecord"></div>
+        </div>
+        <div id="visScore"></div>
       </div>
-      <div id="visScore"></div>
     </div>
-  </div>
 
-  <div class="navBox">
-    <button class="button" onclick="toggleText('teamTotals')">Team Statistics</button>
-    <button class="button" onclick="toggleText('individualOffense')">Individual Statistics</button>
-    <button class="button" onclick="toggleText('driveChart')">Drive Chart</button>
-    <button class="button" onclick="toggleText('defenseStats')">Defensive Statistics</button>
-    <button class="button" onclick="toggleText('rosters')">Rosters</button>
-    <button class="button" onclick="toggleText('play-by-play')">Play-by-Play</button>
-  </div>
-</header>
+    <div class="navBox">
+      <button class="button" onclick="toggleText('teamTotals')">Team Statistics</button>
+      <button class="button" onclick="toggleText('individualOffense')">Individual Statistics</button>
+      <button class="button" onclick="toggleText('driveChart')">Drive Chart</button>
+      <button class="button" onclick="toggleText('defenseStats')">Defensive Statistics</button>
+      <button class="button" onclick="toggleText('rosters')">Rosters</button>
+      <button class="button" onclick="toggleText('play-by-play')">Play-by-Play</button>
+    </div>
+  </header>
 
   <div id="score-by-quarters" class="tableDiv">
     <table id="score-qrt-table" class="tableTable">
@@ -97,7 +97,7 @@
     <div class="contentDiv" id="teamTotals">
       <!--CONTAINER FOR TEAM TOTALS-->
 
-      <div id="navBoxTotals">
+      <div id="navBoxTotals" class="navbox">
         <button class="button" onclick="toggleTextSingle('teamTotalsCompleteDiv')">Complete</button>
         <button class="button" onclick="toggleTextSingle('teamTotalsCompactDiv')">Compact</button>
       </div>
@@ -422,7 +422,7 @@
 
     <div class="contentDiv" id="driveChart">
       
-      <div id="navBoxTotals">
+      <div id="navBoxDrives" class="navbox">
         <button class="button" onclick="toggleTextSingle('driveCompleteDiv')">By Team</button>
         <button class="button" onclick="toggleTextSingle('driveQuarterDiv')">By Quarter</button>
       </div>
@@ -534,16 +534,6 @@
         </div>
       </div>
     </div>
-    
-
-
-
-
-
-
-
-
-
 
     <div class="contentDiv" id="rosters">
       <div id="rosterContainer">
@@ -571,7 +561,32 @@
       </div>
     </div>
 
-    <div class="contentDiv" id="play-by-play"> Play-by-play </div>
+    <div class="contentDiv" id="play-by-play">
+
+      <div id="navBoxPlays" class="navbox">
+        <button class="button" onclick="toggleTextSingle('1stQtrPlays')">1ST</button>
+        <button class="button" onclick="toggleTextSingle('2ndQtrPlays')">2ND</button>
+        <button class="button" onclick="toggleTextSingle('3rdQtrPlays')">3RD</button>
+        <button class="button" onclick="toggleTextSingle('4thQtrPlays')">4TH</button>
+      </div>
+
+      <div id="PlaysContainer">
+        <div id="1stQtrPlays">
+
+
+
+
+        </div>
+
+
+
+
+        <div id="2ndQtrPlays"></div>
+        <div id="3rdQtrPlays"></div>
+        <div id="4thQtrPlays"></div>
+
+      </div>
+    </div>
 
 
 
@@ -591,8 +606,4 @@
 
 </main>
 </body>
-
-<footer></footer>
-
 </html>
-
