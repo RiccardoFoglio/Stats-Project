@@ -1,3 +1,22 @@
+function responsiveMenu() {
+  let x = document.getElementById("topNavbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+$(document).ready(function () {
+  $('ul.navbar-nav > li')
+      .click(function (e) {
+    $('ul.navbar-nav > li')
+      .removeClass('active'); 
+    $(this).addClass('active');
+  });
+});
+
+
 document.addEventListener('DOMContentLoaded', () => {
   const url = "iflxml/20220644.xml"
   //20220644
@@ -7,23 +26,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const parser = new DOMParser()
     const xml = parser.parseFromString(data, "application/xml")
     
-    buildScoreboard(xml)
+    buildBoxScore(xml)
 
-    buildScoreByQuarters(xml)
-    buildScoringSummary(xml)
 
-    buildGeneralInfo(xml)
-    buildReferees(xml)
-    //buttons
-    buildTotalStatsComplete(xml)
-    buildTotalStatsCompact(xml)
+    //buildTotalStatsComplete(xml)
+    //buildTotalStatsCompact(xml)
 
-    buildIndOffense(xml)
-    buildDrivesComplete(xml)
-    buildDrivesQuarter(xml)
-    buildDefense(xml)
-    buildRosters(xml)
-    buildPlays(xml)
+    //buildIndOffense(xml)
+    //buildDrivesComplete(xml)
+    //buildDrivesQuarter(xml)
+    //buildDefense(xml)
+    //buildRosters(xml)
+    //buildPlays(xml)
   })
 })
 
@@ -142,8 +156,11 @@ function numToQRT(val){
 }
 
 function capitalize(str){
-  const lower = str.toLowerCase()
-  return str.charAt(0).toUpperCase() + lower.slice(1)
+  const words = str.toLowerCase().split(' ')
+  for (let i = 0; i < words.length; i++) {
+    words[i] = words[i][0].toUpperCase() + words[i].substr(1)
+  }
+  return words.join(' ')
 }
 
 function playToString (attributes) {
@@ -178,26 +195,13 @@ function playToString (attributes) {
 }
 
 function driveToString (attributes) {
-  const plays = attributes.getNamedItem('plays')
-  const drive = attributes.getNamedItem('drive')
-  const top = attributes.getNamedItem('top')
-
-  let driveString = ' '
+  const plays = attributes?.getNamedItem('plays')
+  const drive = attributes?.getNamedItem('drive')
+  const top = attributes?.getNamedItem('top')
   
-  if (attributes.getNamedItem('plays') !== null){
-    driveString = `${plays.value} plays, ${drive.value} yds, TOP: ${top.value}`
-  } else {
-    driveString = ' '
+  if (plays){
+    return `${plays.value} plays, ${drive.value} yds, TOP: ${top.value}`
   }
-  
-  return driveString
-}
-
-function scoreToString (attributes) {
-  const scoreH = attributes.getNamedItem('hscore').value
-  const scoreV = attributes.getNamedItem('vscore').value
-
-  return `${scoreH} - ${scoreV}`
 }
 
 function netAverage(type, fromH, fromV, retH, retV, whereto) {
@@ -716,169 +720,174 @@ function AddAfter(rowId, newElement){
 //////////////////////////////////////////////////////////BUILD FUNCTIONS//////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function buildScoreboard(x) {
-  let team = x.getElementsByTagName('team')
-  let linescore = x.getElementsByTagName('linescore')
-
-  for(i=0; i<team.length; i++){
-    const visOrHome = team[i].getAttribute('vh')
-    const team_id = team[i].getAttribute('id')
-    const team_name = team[i].getAttribute('name')
-    const record = team[i].getAttribute('record')
-    const score = linescore[i].getAttribute('score')
-    const logopath = 'logos/'+team_id+'.jpg'
-    
-    if (visOrHome === 'V') {
-      document.getElementById('visLogo').src = logopath
-      document.getElementById('visName').textContent = team_name
-      document.getElementById('visRecord').textContent = `(${record})`
-      document.getElementById('visScore').textContent = score
-      
-    } else {
-      document.getElementById('homeLogo').src = logopath
-      document.getElementById('homeName').textContent = team_name
-      document.getElementById('homeRecord').textContent = `(${record})`
-      document.getElementById('homeScore').textContent = score
-    }
-  }
-}
-
-function buildScoreByQuarters(x){
-  const headScoreByQuarterTable = document.getElementById('head-score-by-quarters-table')
-  const homeScoreByQuarter = document.getElementById('home-team-scores-by-quarter')
-  const visScoreByQuarter = document.getElementById('vis-team-scores-by-quarter')
-  
+function buildBoxScore(x){
   const teamV = x.getElementsByTagName('team')[0]
   const teamH = x.getElementsByTagName('team')[1]
 
-  createElementAttr('td', teamV.getAttribute('name'), 'class', 'teamNameEntry', visScoreByQuarter)
-  for(i=0; i<teamV.childNodes[1].attributes[0].value; i++){
-    let scoreqrt = teamV.childNodes[1].attributes[1].value.split(',')[i]
-    if (i===4){
-      createElementHTML('th', 'OT', headScoreByQuarterTable)
-    } else {
-      createElementHTML('th', i+1, headScoreByQuarterTable)
-    }
-    createElementAttr('td', scoreqrt, 'class', 'scoreEntry', visScoreByQuarter)
+  // box-score-graphic
+  document.getElementById('awayLogo').src = `logos/${teamV.getAttribute('id')}.jpg`
+  document.getElementById('awayLogo').alt = `${capitalize(teamV.getAttribute('name'))} logo`
+  document.getElementById('homeLogo').src = `logos/${teamH.getAttribute('id')}.jpg`
+  document.getElementById('homeLogo').alt = `${capitalize(teamH.getAttribute('name'))} logo`
+
+  document.getElementById('awayScore').innerHTML = teamV.getElementsByTagName('linescore')[0].getAttribute('score')
+  document.getElementById('homeScore').innerHTML = teamH.getElementsByTagName('linescore')[0].getAttribute('score')
+
+  if (teamV.getElementsByTagName('linescore')[0].getAttribute('score') > teamH.getElementsByTagName('linescore')[0].getAttribute('score')) {
+    document.getElementById('awayScore').classList.add('winner')
+    document.getElementById('homeScore').classList.add('loser')
+  } else {
+    document.getElementById('awayScore').classList.add('loser')
+    document.getElementById('homeScore').classList.add('winner')
   }
-  createElementAttr('td', teamV.childNodes[1].attributes[2].value, 'class', 'finalScore', visScoreByQuarter)
 
-  createElementAttr('td', teamH.getAttribute('name'), 'class', 'teamNameEntry', homeScoreByQuarter)
-  for(i=0; i<teamH.childNodes[1].attributes[0].value; i++){
-    let scoreqrt = teamH.childNodes[1].attributes[1].value.split(',')[i]
-    createElementAttr('td', scoreqrt, 'class', 'scoreEntry', homeScoreByQuarter)
+  //box-score-graphic-caption TITLE
+  const caption = document.getElementById('box-score-graphic-caption')
+  const title = document.createElement('h4')
+  title.innerHTML = `${capitalize(teamV.getAttribute('name'))} (${teamV.getAttribute('record')}) -VS- ${capitalize(teamH.getAttribute('name'))} (${teamH.getAttribute('record')})`.toUpperCase()
+  title.classList.add('main-heading')
+  
+  //box-score-graphic-caption TABLE
+  const tableHead = document.getElementById('score-qrt-table-head')
+  const table = document.getElementById('score-qrt-table')
+  let rowEntry
+
+  table.before(title)
+
+  rowEntry = document.createElement('tr')
+  createElementHTML('th', '', rowEntry)
+  for (let i = 0; i < Number(teamV.getElementsByTagName('linescore')[0].getAttribute('prds')); i++) {
+    createElementHTML('th', numToQRT(String(i+1)), rowEntry)
   }
-  createElementAttr('td', teamH.childNodes[1].attributes[2].value, 'class', 'finalScore', homeScoreByQuarter)
-  createElementHTML('th', 'SCORE', headScoreByQuarterTable)
-}
+  createElementHTML('th', 'Final', rowEntry)
+  tableHead.appendChild(rowEntry)
 
-function buildScoringSummary(x) {
-  const scoringSummaryTable = document.getElementById('scoring-summary-table-body')
-  const scores = x.getElementsByTagName('scores')[0].getElementsByTagName('score')
-
-  let lastPrinted = 0
-  let toPrintQRT = true
-
-  for (let i = 0; i < scores.length; i++) {
-    const attrArray = scores[i].attributes
-    let scoreRow = document.createElement('tr')
-
-    if(toPrintQRT || lastPrinted !== attrArray.getNamedItem('qtr').value){
-      lastPrinted = attrArray.getNamedItem('qtr').value
-      toPrintQRT = false
-      createElementAttr('td', numToQRT(attrArray.getNamedItem('qtr').value), 'rowspan', '2', scoreRow)
-    } else {
-      createElementAttr('td', ' ', 'rowspan', '2', scoreRow)
-    }
-        
-    createElementAttr('td', attrArray.getNamedItem('clock').value, 'rowspan', '2', scoreRow)
-
-    const logoTd = document.createElement('td')
-    const logoImg = document.createElement('img')
-    logoImg.src = 'logos/' + attrArray[1].value + '.jpg'
-    logoTd.appendChild(logoImg)
-    
-    logoTd.setAttribute('class', 'logoTeam')
-    logoTd.setAttribute('rowspan', '2')
-    scoreRow.appendChild(logoTd)
-
-    const play = playToString(attrArray)
-    const drive = driveToString(attrArray)
-    const scoreVal = scoreToString(attrArray)
-    
-    if (drive !== ' '){
-      createElementAttr('td', play, 'class', 'playDiv', scoreRow)
-    } else {
-      createElementAttr('td', play, 'class', 'playDivND', scoreRow)
-    }
-
-    const entry = document.createElement('td')
-    entry.textContent = scoreVal
-    entry.setAttribute('rowspan', '2')
-    entry.setAttribute('class', 'scoreVal')
-    scoreRow.appendChild(entry)
-    scoringSummaryTable.appendChild(scoreRow)
-    
-    scoreRow = document.createElement('tr')
-    if (drive !== ' '){
-      entryDiv = document.createElement('td')
-      entryDiv.textContent = drive
-      entryDiv.setAttribute('class', 'driveDiv')
-      scoreRow.appendChild(entryDiv)
-    }
-    scoringSummaryTable.appendChild(scoreRow)
+  rowEntry = document.createElement('tr')
+  createElementHTML('th', capitalize(teamV.getAttribute('name')), rowEntry)
+  for (let i = 0; i < Number(teamV.getElementsByTagName('linescore')[0].getAttribute('prds')); i++) {
+    createElementHTML('th', teamV.getElementsByTagName('linescore')[0].getAttribute('line').split(',')[i], rowEntry)
   }
+  createElementHTML('th', teamV.getElementsByTagName('linescore')[0].getAttribute('score'), rowEntry)
+  table.appendChild(rowEntry)
+
+  rowEntry = document.createElement('tr')
+  createElementHTML('th', capitalize(teamH.getAttribute('name')), rowEntry)
+  for (let i = 0; i < Number(teamH.getElementsByTagName('linescore')[0].getAttribute('prds')); i++) {
+    createElementHTML('th', teamH.getElementsByTagName('linescore')[0].getAttribute('line').split(',')[i], rowEntry)
+  }
+  createElementHTML('th', teamH.getElementsByTagName('linescore')[0].getAttribute('score'), rowEntry)
+  table.appendChild(rowEntry)
+
+  // General info list
+  buildGeneralInfo(x)
+
+  // Scoring Summary
+  buildScoringSummary(x)
+
+  // Refs
+  buildReferees(x)
+
 }
 
 function buildGeneralInfo(x){
   const venue = x.getElementsByTagName('venue')[0]
   
   const date = venue.getAttribute('date')
-  const location = venue.getAttribute('location')
+  const site = venue.getAttribute('location')
   const stadium = venue.getAttribute('stadium')
-  const start_time = venue.getAttribute('start')
-  const end_time = venue.getAttribute('end')
+  const attendance = venue.getAttribute('attend')
+  const kickoff_time = venue.getAttribute('start')
+  const end_of_game = venue.getAttribute('end')
   const duration = venue.getAttribute('duration')
-  const attend = venue.getAttribute('attend')
-  const temp = venue.getAttribute('temp')
+  const temperature = venue.getAttribute('temp')
   const wind = venue.getAttribute('wind')
   const weather = venue.getAttribute('weather')
-  
-  const dateDiv = document.getElementById('date')
-  dateDiv.textContent = `Date: ${date}`
 
-  const locationDiv = document.getElementById('location')
-  locationDiv.textContent = `Location: ${location} - ${stadium}`
+  let generalInfo = document.getElementById('general-info')
 
-  const attendanceDiv = document.getElementById('attendance')
-  attendanceDiv.textContent = `Attendance: ${attend}`
+  createElementHTML('dt', 'Date:', generalInfo)
+  createElementHTML('dd', date, generalInfo)
+  createElementHTML('dt', 'Site:', generalInfo)
+  createElementHTML('dd', site, generalInfo)
+  createElementHTML('dt', 'Stadium:', generalInfo)
+  createElementHTML('dd', stadium, generalInfo)
+  createElementHTML('dt', 'Attendance:', generalInfo)
+  createElementHTML('dd', attendance, generalInfo)
+  createElementHTML('dt', 'Kickoff Time:', generalInfo)
+  createElementHTML('dd', kickoff_time, generalInfo)
+  createElementHTML('dt', 'End of Game:', generalInfo)
+  createElementHTML('dd', end_of_game, generalInfo)
+  createElementHTML('dt', 'Duration:', generalInfo)
+  createElementHTML('dd', duration, generalInfo)
+  createElementHTML('dt', 'Temperature:', generalInfo)
+  createElementHTML('dd', temperature, generalInfo)
+  createElementHTML('dt', 'Wind:', generalInfo)
+  createElementHTML('dd', wind, generalInfo)
+  createElementHTML('dt', 'Weather:', generalInfo)
+  createElementHTML('dd', weather, generalInfo)
+}
 
-  let timeDiv = document.getElementById('start')
-  timeDiv.textContent = `Start: ${start_time}`
-  timeDiv = document.getElementById('end')
-  timeDiv.textContent = `End: ${end_time}`
-  timeDiv = document.getElementById('dur')
-  timeDiv.textContent = `Duration: ${duration} h`
+function buildScoringSummary(x) {
 
-  const weatherDiv = document.getElementById('weather')
-  weatherDiv.textContent = `Weather: ${weather} - ${wind} - ${temp}`
+  const head = document.getElementById('scoring-summary-table-head')
+  const body = document.getElementById('scoring-summary-table-body')
+  const foot = document.getElementById('scoring-summary-table-foot')
+
+  let rowEntry
+
+  rowEntry = document.createElement('tr')
+  createElementHTML('th', '', rowEntry)
+  createElementHTML('th', '', rowEntry)
+  createElementHTML('th', '', rowEntry)
+  createElementHTML('th', x.getElementsByTagName('team')[0].getAttribute('id'), rowEntry)
+  createElementHTML('th', x.getElementsByTagName('team')[1].getAttribute('id'), rowEntry)
+  head.appendChild(rowEntry)
+
+  const scores = x.getElementsByTagName('scores')[0].getElementsByTagName('score')
+
+  for (let i = 0; i < scores.length; i++) {
+    let score = scores[i]
+    const attrArray = scores[i].attributes
+
+    const play = playToString(attrArray)
+    const drive = driveToString(attrArray)
+
+    rowEntry = document.createElement('tr')
+    createElementHTML('td', numToQRT(score.getAttribute('qtr')), rowEntry)
+    createElementHTML('td', score.getAttribute('clock'), rowEntry)
+    let str = `${play} - ${drive}`
+    createElementHTML('td', str, rowEntry)
+    createElementHTML('td', score.getAttribute('vscore'), rowEntry)
+    createElementHTML('td', score.getAttribute('hscore'), rowEntry)
+
+    body.appendChild(rowEntry)
+
+    if (i === scores.length-1) {
+      rowEntry = document.createElement('tr')
+      createElementHTML('th', '', rowEntry)
+      createElementHTML('th', '', rowEntry)
+      createElementHTML('th', '', rowEntry)
+      createElementHTML('td', score.getAttribute('vscore'), rowEntry)
+      createElementHTML('td', score.getAttribute('hscore'), rowEntry)
+      foot.appendChild(rowEntry)
+    }
+  }
 }
 
 function buildReferees(x) {
-  const officialList = document.getElementById('ref-list')
-  const scorerList = document.getElementById('scorer-list')
-
+  const table = document.getElementById('refs-table-foot')
   const officials = x.getElementsByTagName('officials')[0]
-  let refLi
-  for(j=0; j<officials.attributes.length-1; j++){
-    refLi = document.createElement('li')
-    refLi.textContent = `${refToReferee(officials.attributes[j].name)}: ${officials.attributes[j].value}`
-    officialList.appendChild(refLi)
+  let rowEntry, refPos = 0
+  for (let i = 0; i < Math.round(officials.attributes.length / 3); i++) {
+    rowEntry = document.createElement('tr')
+    for (let j = 0; j < 3; j++) {
+      if (officials.attributes[refPos]?.name){
+        createElementHTML('td', `${refToReferee(officials.attributes[refPos]?.name)}: ${officials.attributes[refPos]?.value}`, rowEntry)
+      }
+      refPos += 1
+    }
+    table.appendChild(rowEntry)
   }
-
-  refLi = document.createElement('li')
-  refLi.textContent = `${officials.attributes[officials.attributes.length-1].value}`
-  scorerList.appendChild(refLi)
 }
 
 function buildTotalStatsComplete(x) {

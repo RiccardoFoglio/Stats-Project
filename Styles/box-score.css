@@ -1,0 +1,380 @@
+.panel {
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-score {
+    position: relative;
+    color: #494949;
+    /* Tables */
+
+}
+
+.box-score>h1:first-of-type:not(.hide),
+.box-score .main-heading {
+    font-size: 1.5em;
+    line-height: 1.3;
+    margin: 1em 0;
+    padding: 0;
+    border: none;
+    position: static;
+
+}
+
+.box-score>h1:first-of-type:not(.hide) span,
+.box-score .main-heading span {
+    color: black;
+}
+
+.box-score .sub-heading {
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 2;
+    border-bottom: 5px solid black;
+    margin: 0 0 10px 0;
+}
+
+.box-score .order-of-finish {
+    font-weight: bold;
+}
+
+.box-score table {
+    margin-bottom: 0;
+}
+
+.box-score table caption {
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 2;
+    border-bottom: 5px solid black;
+    text-align: left;
+}
+
+.box-score table tbody tr td.substitute,
+.box-score table tbody tr th.substitute {
+    padding-left: 20px;
+}
+
+.box-score table tbody tr th.winner:before,
+.box-score table tbody tr .boxscore-winner:before {
+    content: '\e861';
+    font-family: sidearm_font;
+    margin-right: 5px;
+}
+
+.box-score table tbody tr td.display-score {
+    position: absolute;
+    left: 0;
+    top: auto;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    background-color: #891216;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.box-score table tbody tr:hover td.display-score:not(:empty) {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.box-score table tfoot tr.percentages td,
+.box-score table tfoot tr.percentages th {
+    color: black;
+}
+
+.box-score table tfoot tr.percentages td:not(:empty):before,
+.box-score table tfoot tr.percentages th:not(:empty):before {
+    content: '\e84f';
+    font-family: sidearm_font;
+    margin-right: 5px;
+    float: none;
+    width: auto;
+    display: inline;
+}
+
+.box-score table tfoot th {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.box-score table tfoot th.hide {
+    text-indent: -9999px;
+    display: block !important;
+}
+
+.box-score table tfoot td,
+.box-score table tfoot th {
+    border-right: 1px solid #cccccc;
+}
+
+.box-score table tfoot td:last-of-type {
+    border-right: 0;
+}
+
+.box-score table tr.emphasize,
+.box-score table td.emphasize {
+    background-color: #e5e5e5;
+    font-weight: bold;
+}
+
+.box-score table.play-by-play span {
+    color: black;
+}
+
+.box-score table.scoring-summary td.play,
+.box-score table.scoring-summary th.play {
+    width: 5px !important;
+}
+
+.box-score table.scoring-summary td.play.team,
+.box-score table.scoring-summary th.play.team {
+    background-color: #891216;
+}
+
+.box-score table.scoring-summary tfoot tr {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.box-score table.highlight-hover tbody tr:hover th:not([scope=colgroup]),
+.box-score table.highlight-hover tbody tr:hover td {
+    background-color: #e5e5e5;
+}
+
+.box-score table.highlight-column-hover {
+    overflow: hidden;
+    z-index: 0;
+}
+
+.box-score table.highlight-column-hover tbody th:not([scope=row]),
+.box-score table.highlight-column-hover tbody td {
+    position: relative;
+}
+
+.box-score table.highlight-column-hover tbody th:not([scope=row]):hover:after,
+.box-score table.highlight-column-hover tbody td:hover:after {
+    content: '';
+    position: absolute;
+    background-color: #e5e5e5;
+    left: 0;
+    top: -9999px;
+    height: 99999px;
+    width: 100%;
+    z-index: -1;
+}
+
+.box-score table.overall-stats {
+    position: relative;
+    margin-top: 20px;
+}
+
+.box-score table.overall-stats caption {
+    font-size: 1em;
+    border: none;
+    line-height: 1.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px;
+    font-style: italic;
+}
+
+.box-score table.overall-stats thead th {
+    line-height: 1.2;
+}
+
+.box-score table.overall-stats thead th[rowspan] {
+    vertical-align: bottom;
+}
+
+.box-score table.overall-stats tbody tr th.header-group {
+    background-color: #e5e5e5;
+    color: #494949;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.box-score table.overall-stats tfoot th {
+    text-align: left;
+}
+
+.box-score table.overall-stats.full {
+    margin-top: 0;
+}
+
+.box-score table.overall-stats.full caption {
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 2;
+    border-bottom: 5px solid black;
+    text-align: left;
+    position: static;
+    font-style: normal;
+    text-transform: none;
+}
+
+.box-score table.overall-stats.centered-caption caption {
+    position: static;
+    text-align: center;
+    background-color: #e5e5e5;
+    color: #494949;
+    border-bottom: 1px solid #cccccc;
+}
+
+.box-score table.overall-stats.hide-caption caption {
+    position: absolute !important;
+    left: -9999px;
+}
+
+.box-score table.overall-stats.no-margin {
+    margin-top: 0;
+}
+
+.box-score table[sortable-table] {
+    width: 100% !important;
+}
+
+.box-score table[sortable-table] thead th[class*=sort] {
+    cursor: pointer;
+}
+
+.box-score table[sortable-table] thead th[class*=sort]:hover {
+    text-decoration: underline;
+}
+
+.box-score table[sortable-table] thead th.sorting_desc,
+.box-score table[sortable-table] thead th.sorting_asc {
+    background: #656565;
+    color: white;
+}
+
+.box-score table[sortable-table] thead th[scope=colgroup] {
+    background-color: white;
+}
+
+.box-score dl {
+    margin: 0;
+    padding: 0;
+    *zoom: 1;
+}
+
+.box-score dl:before,
+.box-score dl:after {
+    content: "";
+    display: table;
+}
+
+.box-score dl:after {
+    clear: both;
+}
+
+.box-score dl dt,
+.box-score dl dd {
+    display: block;
+}
+
+.box-score dl dt {
+    float: left;
+    clear: left;
+}
+
+.box-score dl dt {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 0;
+}
+
+.box-score dl dd dl {
+    clear: both;
+}
+
+.box-score dl dd dt {
+    color: #891216;
+}
+
+.box-score dl.special-stats {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e5e5e5;
+}
+
+.box-score dl.special-stats dt {
+    color: #494949;
+    padding: 5px 5px 0 0;
+}
+
+.box-score dl.special-stats dd {
+    border-bottom: 1px solid white;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 5px 5px;
+}
+
+.box-score dl.special-stats dd dt {
+    padding-top: 0;
+}
+
+.box-score dl.special-stats dd dd {
+    border-bottom: none;
+    padding: 0;
+}
+
+.box-score dl.special-stats.multi-columns {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+}
+
+.box-score dl.special-stats.multi-columns dd {
+    break-before: avoid;
+    -webkit-column-break-before: avoid;
+    -webkit-column-break-inside: avoid;
+}
+
+.box-score dl.inline dt,
+.box-score dl.inline dd {
+    float: none;
+    clear: none;
+    display: inline;
+    margin-left: 0;
+}
+
+.box-score dl.inline dd {
+    margin: 0 10px 0 2px;
+}
+
+.box-score dl.emphasize {
+    background-color: #e5e5e5;
+    padding: 5px 10px;
+}
+
+.box-score dl.emphasize.primary {
+    background-color: #891216;
+}
+
+.box-score dl.emphasize.primary dt,
+.box-score dl.emphasize.primary dd {
+    color: white;
+    border: none;
+}
+
+.box-score section+section:not(.ui-tabs-panel) {
+    margin-top: 20px;
+}
