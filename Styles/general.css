@@ -1,8 +1,11 @@
 body {
-    scroll-behavior: smooth;
-    font-family: roboto;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  text-rendering: auto;
+  padding: 24px;
+  color: black;
+  font-size: 1rem;
+  line-height: 2;
+  font-family: 'Roboto', sans-serif;
 }
 
 article,
@@ -17,5 +20,100 @@ main,
 nav,
 section,
 summary {
-    display: block;
+  display: block;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.highlight-hover tr:hover {
+  background-color: #e5e5e5;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+dl {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+dt {
+  display: block;
+}
+
+dd {
+  display: block;
+  margin-inline-start: 40px;
+}
+
+div {
+  display: block;
+}
+
+caption {
+  display: table-caption;
+  text-align: -webkit-center;
+}
+
+tfoot {
+  display: table-footer-group;
+  vertical-align: middle;
+  border-color: inherit;
 }

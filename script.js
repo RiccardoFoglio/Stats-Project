@@ -742,14 +742,16 @@ function buildBoxScore(x){
   }
 
   //box-score-graphic-caption TITLE
-  const caption = document.getElementById('box-score-graphic-caption')
   const title = document.createElement('h4')
   title.innerHTML = `${capitalize(teamV.getAttribute('name'))} (${teamV.getAttribute('record')}) -VS- ${capitalize(teamH.getAttribute('name'))} (${teamH.getAttribute('record')})`.toUpperCase()
-  title.classList.add('main-heading')
+  title.classList.add('main-heading', 'text-center', 'text-uppercase')
+
   
   //box-score-graphic-caption TABLE
-  const tableHead = document.getElementById('score-qrt-table-head')
   const table = document.getElementById('score-qrt-table')
+  const tableHead = document.getElementById('score-qrt-table-head')
+  const tableBody = document.getElementById('score-qrt-table-body')
+
   let rowEntry
 
   table.before(title)
@@ -765,18 +767,18 @@ function buildBoxScore(x){
   rowEntry = document.createElement('tr')
   createElementHTML('th', capitalize(teamV.getAttribute('name')), rowEntry)
   for (let i = 0; i < Number(teamV.getElementsByTagName('linescore')[0].getAttribute('prds')); i++) {
-    createElementHTML('th', teamV.getElementsByTagName('linescore')[0].getAttribute('line').split(',')[i], rowEntry)
+    createElementHTML('td', teamV.getElementsByTagName('linescore')[0].getAttribute('line').split(',')[i], rowEntry)
   }
-  createElementHTML('th', teamV.getElementsByTagName('linescore')[0].getAttribute('score'), rowEntry)
-  table.appendChild(rowEntry)
+  createElementAttr('td', teamV.getElementsByTagName('linescore')[0].getAttribute('score'), 'class', 'emphasize', rowEntry)
+  tableBody.appendChild(rowEntry)
 
   rowEntry = document.createElement('tr')
   createElementHTML('th', capitalize(teamH.getAttribute('name')), rowEntry)
   for (let i = 0; i < Number(teamH.getElementsByTagName('linescore')[0].getAttribute('prds')); i++) {
-    createElementHTML('th', teamH.getElementsByTagName('linescore')[0].getAttribute('line').split(',')[i], rowEntry)
+    createElementHTML('td', teamH.getElementsByTagName('linescore')[0].getAttribute('line').split(',')[i], rowEntry)
   }
-  createElementHTML('th', teamH.getElementsByTagName('linescore')[0].getAttribute('score'), rowEntry)
-  table.appendChild(rowEntry)
+  createElementAttr('td', teamH.getElementsByTagName('linescore')[0].getAttribute('score'), 'class', 'emphasize', rowEntry)
+  tableBody.appendChild(rowEntry)
 
   // General info list
   buildGeneralInfo(x)
@@ -855,10 +857,10 @@ function buildScoringSummary(x) {
     rowEntry = document.createElement('tr')
     createElementHTML('td', numToQRT(score.getAttribute('qtr')), rowEntry)
     createElementHTML('td', score.getAttribute('clock'), rowEntry)
-    let str = `${play} - ${drive}`
+    let str = drive ? `${play} - ${drive}` : `${play}` 
     createElementHTML('td', str, rowEntry)
-    createElementHTML('td', score.getAttribute('vscore'), rowEntry)
-    createElementHTML('td', score.getAttribute('hscore'), rowEntry)
+    createElementAttr('td', score.getAttribute('vscore'), 'class', 'text-center', rowEntry)
+      createElementAttr('td', score.getAttribute('hscore'), 'class', 'text-center', rowEntry)
 
     body.appendChild(rowEntry)
 
@@ -867,8 +869,8 @@ function buildScoringSummary(x) {
       createElementHTML('th', '', rowEntry)
       createElementHTML('th', '', rowEntry)
       createElementHTML('th', '', rowEntry)
-      createElementHTML('td', score.getAttribute('vscore'), rowEntry)
-      createElementHTML('td', score.getAttribute('hscore'), rowEntry)
+      createElementAttr('td', score.getAttribute('vscore'), 'class', 'text-center', rowEntry)
+      createElementAttr('td', score.getAttribute('hscore'), 'class', 'text-center', rowEntry)
       foot.appendChild(rowEntry)
     }
   }

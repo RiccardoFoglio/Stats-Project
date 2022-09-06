@@ -21,81 +21,93 @@
   <link rel="stylesheet" href="Styles/navbar.css">
   <link rel="stylesheet" href="Styles/box-score.css">
 
+
   <script src="script.js"></script>
   
 </head>
 <body>
+  <main>
+    <article class="box-score football">     
 
-  <ul class="navbar-nav" id="topNavbar">
-    <li class="nav-item active"><a href="#box-score">Box Score</a></li>
-    <li class="nav-item"><a href="#team-stats">Team</a></li>
-    <li class="nav-item"><a href="#individual-stats">Individual</a></li>
-    <li class="nav-item"><a href="#drive-chart">Drive Chart</a></li>
-    <li class="nav-item"><a href="#play-by-play">Play-By-Play</a></li>
-    <li class="nav-item"><a href="#roster">Roster</a></li>
-    <li class="nav-item"><a href="javascript:void(0);" class="icon" onclick="responsiveMenu()"><i class="fa fa-bars"></i></a></li>
-  </ul>
+      <ul class="navbar-nav" id="topNavbar">
+        <li class="nav-item active"><a href="#box-score">Box Score</a></li>
+        <li class="nav-item"><a href="#team-stats">Team</a></li>
+        <li class="nav-item"><a href="#individual-stats">Individual</a></li>
+        <li class="nav-item"><a href="#drive-chart">Drive Chart</a></li>
+        <li class="nav-item"><a href="#play-by-play">Play-By-Play</a></li>
+        <li class="nav-item"><a href="#roster">Roster</a></li>
+        <li class="nav-item"><a href="javascript:void(0);" class="icon" onclick="responsiveMenu()"><i class="fa fa-bars"></i></a></li>
+      </ul>
 
-  <section id="box-score" aria-label="Box Score" style="display: block;">
-    <header class="panel">
-      <div class="row pad">
-        <figure class="box-score-header">
-          <div class="box-score-graphic" id="box-score-graphic">
+      <section id="box-score" aria-label="Box Score" style="display: block;">
+        <header class="panel">
+          <div class="row pad">
+            <figure class="box-score-header">
+              <div class="box-score-graphic" id="box-score-graphic">
 
-            <div class="team away text-center">
-              <div><img id="awayLogo" src="" alt=""></div>
-              <span id="awayScore" class="score"></span>
-            </div>
+                <div class="team away text-center">
+                  <div><img id="awayLogo" src="" alt=""></div>
+                  <span id="awayScore" class="score"></span>
+                </div>
 
-            <div class="bracket">
-              <span>vs</span>
-            </div>
+                <div class="bracket">
+                  <span>vs</span>
+                </div>
 
-            <div class="team home text-center">
-              <div><img id="homeLogo" src="" alt=""></div>
-              <span id="homeScore" class="score"></span>
+                <div class="team home text-center">
+                  <div><img id="homeLogo" src="" alt=""></div>
+                  <span id="homeScore" class="score"></span>
+                </div>
+              </div>
+
+
+              <figcaption id="box-score-graphic-caption">
+                <!--title h4 element-->
+
+                <!--table-->
+                <table class="sidearm-table" id="score-qrt-table">
+                  <thead id="score-qrt-table-head"></thead>
+                  <tbody id="score-qrt-table-body" class="highlight-hover"></tbody>
+                </table>
+              </figcaption>
+            </figure>
+
+            <dl id="general-info" class="text-center inline">
+            </dl>
+          </div>
+        </header>
+
+        <section class="panel" aria-label="Scoring Summary">
+          <h4 class="hide">Scoring Summary</h4>
+          <div class="row">
+            <div class="column">
+              <table id="scoring-summary-table" class="sidearm-table scoring-summary">
+                <caption>Scoring Summary</caption>
+                <thead id="scoring-summary-table-head"></thead>
+                <tbody id="scoring-summary-table-body" class="highlight-hover"></tbody>
+                <tfoot id="scoring-summary-table-foot"></tfoot>
+              </table>
+              <br>
+              <table id="refs-table" class="sidearm-table special-stats">
+                <tfoot id="refs-table-foot"></tfoot>
+              </table>
             </div>
           </div>
+          
 
+        </section>
+      </section>
 
-          <figcaption id="box-score-graphic-caption">
-            <!--title-->
+      <section id="team-stats" style="display: block;">
+      
+      </section>
 
-            <!--table-->
-            <table class="sidearm-table" id="score-qrt-table">
-              <thead id="score-qrt-table-head"></thead>
-              <tbody></tbody>
-            </table>
-          </figcaption>
-        </figure>
+      <section id="individual-stats" style="display: none;"></section>
+      <section id="drive-chart" style="display: none;"></section>
+      <section id="play-by-play" style="display: none;"></section>
+      <section id="roster" style="display: none;"></section>
 
-        <dl id="general-info">
-        </dl>
-      </div>
-    </header>
-
-    <section class="panel" aria-label="Scoring Summary">
-
-      <table id="scoring-summary-table">
-        <caption>Scoring Summary</caption>
-        <thead id="scoring-summary-table-head"></thead>
-        <tbody id="scoring-summary-table-body"></tbody>
-        <tfoot id="scoring-summary-table-foot"></tfoot>
-      </table>
-
-      <table id="refs-table">
-        <tfoot id="refs-table-foot"></tfoot>
-      </table>
-
-    </section>
-  </section>
-
-
-  <section id="team-stats" style="display: none;"></section>
-  <section id="individual-stats" style="display: none;"></section>
-  <section id="drive-chart" style="display: none;"></section>
-  <section id="play-by-play" style="display: none;"></section>
-  <section id="roster" style="display: none;"></section>
-  
+  </article>
+  </main>
 </body>
 </html>
