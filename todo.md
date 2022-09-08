@@ -8,10 +8,16 @@
 - [x] Team Total Stats Complete
 - [x] Team Total Stats Compact
 - [x] Individual Stats Offense
-- [] Drives (by Team and by Quarter)
-- [] Individual Stats Defense
-- [] Rosters
-- [] Play_by_Play
+- [x] Drives (by Team and by Quarter)
+- [x] Individual Stats Defense
+- [x] Rosters
+- [x] Play-by-Play
 
-- [] Box Score (?)
-- [] Play Breakdown Summary (?)
+## Page Migration
+- [x] Box score
+- [x] Team stats
+- [x] Ind stats
+  - [] PAT TABLE!!!
+- [] drive chart
+- [] play-by-play
+- [] roster

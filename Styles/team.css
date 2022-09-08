@@ -1,0 +1,130 @@
+.box-score table.overall-stats.full {
+    margin-top: 0;
+}
+
+.box-score table.overall-stats {
+    position: relative;
+    margin-top: 20px;
+}
+
+.box-score table {
+    margin-bottom: 0;
+}
+
+.sidearm-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.box-score table.overall-stats.full caption {
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 2;
+    border-bottom: 5px solid black;
+    text-align: left;
+    position: static;
+    font-style: normal;
+    text-transform: none;
+}
+
+.box-score table.overall-stats caption {
+    font-size: 1em;
+    border: none;
+    line-height: 1.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px;
+    font-style: italic;
+}
+
+.box-score table caption {
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 2;
+    border-bottom: 5px solid black;
+    text-align: left;
+}
+
+.sidearm-table thead {
+    background: none;
+}
+
+.box-score table.overall-stats thead th {
+    line-height: 1.2;
+}
+
+.sidearm-table thead th {
+    font-weight: bold;
+    padding: 4px 8px;
+    font-style: italic;
+    color: #494949;
+    vertical-align: bottom;
+}
+
+.sidearm-table th,
+.sidearm-table td {
+    word-break: normal;
+    font-size: 0.9em;
+}
+
+.sidearm-table tbody tr {
+    border-top: 1px solid #cccccc;
+    background: none;
+}
+
+.box-score table.overall-stats tbody tr th.header-group {
+    background-color: #e5e5e5;
+    color: #494949;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.sidearm-table tbody tr td:last-child,
+.sidearm-table tbody tr th:last-child {
+    border-right: none;
+}
+
+.sidearm-table tbody tr td:first-child,
+.sidearm-table tbody tr th:first-child {
+    border-left: none;
+}
+
+.sidearm-table tfoot tr td:last-child,
+.sidearm-table tfoot tr th:last-child {
+    border-right: none;
+}
+
+.sidearm-table tfoot tr td:first-child,
+.sidearm-table tfoot tr th:first-child {
+    border-left: none;
+}
+
+.sidearm-table tbody tr th[scope=colgroup] {
+    background-color: #e5e5e5;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.sidearm-table tbody tr td,
+.sidearm-table tbody tr th {
+    padding: 4px 8px;
+    color: #494949;
+    border: 1px solid #cccccc;
+    vertical-align: top;
+}
+
+.sidearm-table tbody tr th {
+    text-align: left;
+    font-weight: normal;
+}
+
+
+.sidearm-table th,
+.sidearm-table td {
+    word-break: normal;
+    font-size: 0.9em;
+}

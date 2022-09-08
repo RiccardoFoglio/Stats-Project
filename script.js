@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const xml = parser.parseFromString(data, "application/xml")
     
     buildBoxScore(xml)
-
+    buildTeamStats(xml)
+    buildIndStats(xml)
 
     //buildTotalStatsComplete(xml)
     //buildTotalStatsCompact(xml)
@@ -206,7 +207,7 @@ function driveToString (attributes) {
 
 function netAverage(type, fromH, fromV, retH, retV, whereto) {
   rowEntry = document.createElement('tr')
-  createElementHTML('td', 'Net Yards Per '+type, rowEntry)
+  createElementHTML('td', 'Net Avg. / '+type, rowEntry)
   let ydsH = parseFloat(fromH.getAttribute('yds'))
   let ydsV = parseFloat(fromV.getAttribute('yds'))
   let retYdsH, retYdsV, touchBackPartialH, touchBackPartialV, noH, noV, netH, netV
@@ -225,56 +226,47 @@ function netAverage(type, fromH, fromV, retH, retV, whereto) {
     touchBackPartialH = 20 * parseFloat(fromH.getAttribute('tb'))
     noH = parseFloat(fromH.getAttribute('no'))
     netH = ydsH - retYdsV - touchBackPartialH
-    createElementHTML('td', (netH / noH).toFixed(1), rowEntry)
+    createElementAttr('td', (netH / noH).toFixed(1), 'class', 'text-center', rowEntry)
   } else {
-    createElementHTML('td', '0.0', rowEntry)
+    createElementAttr('td', '0.0', 'class', 'text-center', rowEntry)
   }
 
   if(fromV) {
     touchBackPartialV = 20 * parseFloat(fromV.getAttribute('tb'))
     noV = parseFloat(fromV.getAttribute('no'))
     netV = ydsV - retYdsH - touchBackPartialV
-    createElementHTML('td', (netV / noV).toFixed(1), rowEntry)
+    createElementAttr('td', (netV / noV).toFixed(1), 'class', 'text-center', rowEntry)
   } else {
-    createElementHTML('td', '0.0', rowEntry)
+    createElementAttr('td', '0.0', 'class', 'text-center', rowEntry)
   }
 
   whereto.appendChild(rowEntry)
 }
 
-function singleDatumTitle(cont, wherefromH, wherefromV, attrib, whereto){
+function headerRow(cont, whereto){
   let rowEntry = document.createElement('tr')
-  createElementAttr('td', cont, 'class', 'titleCell', rowEntry)
-
-  if(wherefromH){
-    createElementHTML('td', wherefromH.getAttribute(attrib), rowEntry)
-  } else {
-    createElementHTML('td', '0', rowEntry)
-  }
-  if(wherefromV){
-    createElementHTML('td', wherefromV.getAttribute(attrib), rowEntry)
-  } else {
-    createElementHTML('td', '0', rowEntry)
-  }
-  
+  let th = document.createElement('th')
+  th.textContent = cont
+  th.classList.add('header-group')
+  th.setAttribute('colspan', 3)
+  rowEntry.appendChild(th)
   whereto.appendChild(rowEntry)
 }
 
 function singleDatum(cont, wherefromH, wherefromV, attrib, whereto){
   let rowEntry = document.createElement('tr')
-  createElementHTML('td', cont, rowEntry)
-  
+  createElementHTML('th', cont, rowEntry)
+
   if(wherefromH){
-    createElementHTML('td', wherefromH.getAttribute(attrib), rowEntry)
+    createElementAttr('td', wherefromH.getAttribute(attrib), 'class', 'text-center', rowEntry)
   } else {
-    createElementHTML('td', '0', rowEntry)
+    createElementAttr('td', '0', 'class', 'text-center', rowEntry)
   }
   if(wherefromV){
-    createElementHTML('td', wherefromV.getAttribute(attrib), rowEntry)
+    createElementAttr('td', wherefromV.getAttribute(attrib), 'class', 'text-center', rowEntry)
   } else {
-    createElementHTML('td', '0', rowEntry)
+    createElementAttr('td', '0', 'class', 'text-center', rowEntry)
   }
-  
   whereto.appendChild(rowEntry)
 }
 
@@ -313,25 +305,25 @@ function doubleDatum(cont, wherefromH, wherefromV, a1, a2, whereto){
     valV1 = valV2  = 0
   }
   
-  createElementAttr('td', cont, 'class', 'titleCell', rowEntry)
-  createElementHTML('td', `${valH1}-${valH2}`, rowEntry)
-  createElementHTML('td', `${valV1}-${valV2}`, rowEntry)
+  createElementAttr('th', cont, 'class', 'titleCell', rowEntry)
+  createElementAttr('td', `${valH1}-${valH2}`, 'class', 'text-center', rowEntry)
+  createElementAttr('td', `${valV1}-${valV2}`, 'class', 'text-center', rowEntry)
   whereto.appendChild(rowEntry)
 }
 
 function doubleDatumOF(cont, wherefromH, wherefromV, a1, a2, whereto){
   let rowEntry = document.createElement('tr')
-  createElementAttr('td', cont, 'class', 'titleCell', rowEntry)
+  createElementAttr('th', cont, 'class', 'titleCell', rowEntry)
 
   if(wherefromH){
-    createElementHTML('td', `${wherefromH.getAttribute(a1)} of ${wherefromH.getAttribute(a2)}`, rowEntry)
+    createElementAttr('td', `${wherefromH.getAttribute(a1)} of ${wherefromH.getAttribute(a2)}`, 'class', 'text-center', rowEntry)
   } else {
-    createElementHTML('td', '0 of 0', rowEntry)
+    createElementAttr('td', '0 of 0', 'class', 'text-center', rowEntry)
   }
   if(wherefromV){
-    createElementHTML('td', `${wherefromV.getAttribute(a1)} of ${wherefromV.getAttribute(a2)}`, rowEntry)
+    createElementAttr('td', `${wherefromV.getAttribute(a1)} of ${wherefromV.getAttribute(a2)}`, 'class', 'text-center', rowEntry)
   } else {
-    createElementHTML('td', '0 of 0', rowEntry)
+    createElementAttr('td', '0 of 0', 'class', 'text-center', rowEntry)
   }
 
   whereto.appendChild(rowEntry)
@@ -381,29 +373,29 @@ let rowEntry = document.createElement('tr')
     valV1 = valV2 = valV3 = 0
   }
   
-  createElementHTML('td', cont, rowEntry)
-  createElementHTML('td', `${valH1}-${valH2}-${valH3}`, rowEntry)
-  createElementHTML('td', `${valV1}-${valV2}-${valV3}`, rowEntry)
+  createElementHTML('th', cont, rowEntry)
+  createElementAttr('td', `${valH1}-${valH2}-${valH3}`, 'class', 'text-center', rowEntry)
+  createElementAttr('td', `${valV1}-${valV2}-${valV3}`, 'class', 'text-center', rowEntry)
   whereto.appendChild(rowEntry)
 }
 
 function singleAvgDatum(cont, wherefromH, wherefromV, attUp, attOver, whereto){
   rowEntry = document.createElement('tr')
-  createElementHTML('td', cont, rowEntry)
+  createElementHTML('th', cont, rowEntry)
   if(wherefromH){
-    createElementHTML('td', parseFloat(wherefromH.getAttribute(attUp) / wherefromH.getAttribute(attOver)).toFixed(1), rowEntry)
+    createElementAttr('td', parseFloat(wherefromH.getAttribute(attUp) / wherefromH.getAttribute(attOver)).toFixed(1), 'class', 'text-center', rowEntry)
   } else {
-    createElementHTML('td','0.0', rowEntry)
+    createElementAttr('td','0.0', 'class', 'text-center', rowEntry)
   }
   if(wherefromV){
-    createElementHTML('td', parseFloat(wherefromV.getAttribute(attUp) / wherefromV.getAttribute(attOver)).toFixed(1), rowEntry)
+    createElementAttr('td', parseFloat(wherefromV.getAttribute(attUp) / wherefromV.getAttribute(attOver)).toFixed(1), 'class', 'text-center', rowEntry)
   } else {
-    createElementHTML('td','0.0', rowEntry)
+    createElementAttr('td','0.0', 'class', 'text-center', rowEntry)
   }
   whereto.appendChild(rowEntry)
 }
 
-function tripleDatumTitle(cont, wherefromH, wherefromV, a1, a2, a3, whereto){
+function tripleDatum(cont, wherefromH, wherefromV, a1, a2, a3, whereto){
 
   let rowEntry = document.createElement('tr')
   let valH1, valH2, valH3, valV1, valV2, valV3
@@ -448,9 +440,9 @@ function tripleDatumTitle(cont, wherefromH, wherefromV, a1, a2, a3, whereto){
     valV1 = valV2 = valV3 = 0
   }
   
-  createElementAttr('td', cont, 'class', 'titleCell', rowEntry)
-  createElementHTML('td', `${valH1}-${valH2}-${valH3}`, rowEntry)
-  createElementHTML('td', `${valV1}-${valV2}-${valV3}`, rowEntry)
+  createElementHTML('th', cont, rowEntry)
+  createElementAttr('td', `${valH1}-${valH2}-${valH3}`, 'class', 'text-center', rowEntry)
+  createElementAttr('td', `${valV1}-${valV2}-${valV3}`, 'class', 'text-center', rowEntry)
   whereto.appendChild(rowEntry)
 }
 
@@ -465,8 +457,8 @@ function sortTable(id, pos) {
     for (i = 1; i < (rows.length - 1); i++) {
       shouldSwitch = false;
 
-      x = rows[i].getElementsByTagName("TD")[pos];
-      y = rows[i + 1].getElementsByTagName("TD")[pos];
+      x = rows[i].getElementsByTagName("td")[pos];
+      y = rows[i + 1].getElementsByTagName("td")[pos];
 
       if (Number(x.innerHTML) < Number(y.innerHTML) ) {
         shouldSwitch = true;
@@ -485,22 +477,19 @@ function sortTable(id, pos) {
 function insertTotalRow(id, type) {
   let table, rows, rowEntry
   table = document.getElementById(id);
+  foot = document.getElementById(`${id}-foot`)
   rows = table.rows;
   rowEntry = document.createElement('tr')
   
-  createElementHTML('td', 'Totals...', rowEntry)
+  createElementHTML('th', 'TOTALS', rowEntry)
 
   switch (type) {
     case "pass":
       for (let c = 1; c <= (rows[0].cells.length - 1); c++) {
-        let totComp = 0, totAtt = 0, totInt = 0, max = 0, total = 0
+        let max = 0, total = 0
         for (let r = 1; r <= (rows.length - 1); r++) {
           let cell = table.rows[r].cells[c].innerHTML
-          if (c === 1){
-            totComp += parseInt(cell.match(/\d+/g)[0])
-            totAtt += parseInt(cell.match(/\d+/g)[1])
-            totInt += parseInt(cell.match(/\d+/g)[2])
-          } else if (c === 4) {
+          if (c === 4) {
             if (Number(cell) > max){
               max = Number(cell)
             }
@@ -508,12 +497,10 @@ function insertTotalRow(id, type) {
             total += parseInt(cell)
           }
         }
-      if (c === 1){
-        createElementHTML('td', `${totComp}-${totAtt}-${totInt}`, rowEntry)
-      } else if (c === 4) {
-        createElementHTML('td', max, rowEntry)
+      if (c === 4) {
+        createElementAttr('td', max, 'class', 'text-center', rowEntry)
       } else {
-        createElementHTML('td', total, rowEntry)
+        createElementAttr('td', total, 'class', 'text-center', rowEntry)
         }
       }
       break;
@@ -536,11 +523,11 @@ function insertTotalRow(id, type) {
           }
         }
         if (c === 7){
-          createElementHTML('td', avg, rowEntry)
+          createElementAttr('td', avg, 'class', 'text-center', rowEntry)
         } else if (c === 6) {
-          createElementHTML('td', max, rowEntry)
+          createElementAttr('td', max, 'class', 'text-center', rowEntry)
         } else {
-          createElementHTML('td', total, rowEntry)
+          createElementAttr('td', total, 'class', 'text-center', rowEntry)
         }
       }
       break;
@@ -559,9 +546,9 @@ function insertTotalRow(id, type) {
           }
         }
         if (c === 4) {
-          createElementHTML('td', max, rowEntry)
+          createElementAttr('td', max, 'class', 'text-center', rowEntry)
         } else {
-          createElementHTML('td', total, rowEntry)
+          createElementAttr('td', total, 'class', 'text-center', rowEntry)
         }
       }
       break;
@@ -585,11 +572,11 @@ function insertTotalRow(id, type) {
           }
         }
         if (c === 3){
-          createElementHTML('td', avg, rowEntry)
+          createElementAttr('td', avg, 'class', 'text-center', rowEntry)
         } else if (c === 4) {
-          createElementHTML('td', max, rowEntry)
+          createElementAttr('td', max, 'class', 'text-center', rowEntry)
         } else {
-          createElementHTML('td', total, rowEntry)
+          createElementAttr('td', total, 'class', 'text-center', rowEntry)
         }
       }
       break;
@@ -608,9 +595,9 @@ function insertTotalRow(id, type) {
           }
         }
         if (c === 3 || c === 6 || c === 9) {
-          createElementHTML('td', max, rowEntry)
+          createElementAttr('td', max, 'class', 'text-center', rowEntry)
         } else {
-          createElementHTML('td', total, rowEntry)
+          createElementAttr('td', total, 'class', 'text-center', rowEntry)
         }
       }
       break;
@@ -622,7 +609,7 @@ function insertTotalRow(id, type) {
           let cell = table.rows[r].cells[c].innerHTML
           total += parseInt(cell)
         }
-        createElementHTML('td', total, rowEntry)
+        createElementAttr('td', total, 'class', 'text-center', rowEntry)
       }
       break;
 
@@ -640,9 +627,9 @@ function insertTotalRow(id, type) {
           }
         }
         if (c === 5){
-          createElementHTML('td', avg, rowEntry)
+          createElementAttr('td', avg, 'class', 'text-center', rowEntry)
         } else {
-          createElementHTML('td', total, rowEntry)
+          createElementAttr('td', total, 'class', 'text-center', rowEntry)
         }
       }
       break;
@@ -651,8 +638,8 @@ function insertTotalRow(id, type) {
       break;
       }  
 
-  tableBody = id + '-body'
-  document.getElementById(tableBody).appendChild(rowEntry)
+  foot = id + '-foot'
+  document.getElementById(foot).appendChild(rowEntry)
 }
 
 function yardsToSpot(x, val, field, team) {
@@ -791,6 +778,7 @@ function buildBoxScore(x){
 
 }
 
+
 function buildGeneralInfo(x){
   const venue = x.getElementsByTagName('venue')[0]
   
@@ -892,20 +880,23 @@ function buildReferees(x) {
   }
 }
 
-function buildTotalStatsComplete(x) {
-  
+
+function buildTeamStats(x) {
+  const tableHead = document.getElementById('teamTotalsComplete-table-head')
+  const contentTable = document.getElementById('teamTotalsComplete-table-body')
+
   const teamH = x.getElementsByTagName('team')[1]
   const teamV = x.getElementsByTagName('team')[0]
 
-  createElementHTML('th', teamH.getAttribute('id'), document.getElementById('teamTotalsComplete-table-head'))
-  createElementHTML('th', teamV.getAttribute('id'), document.getElementById('teamTotalsComplete-table-head'))
+  createElementHTML('th', '', tableHead)
+  createElementAttr('th', teamH.getAttribute('id'), 'class', 'text-center', tableHead)
+  createElementAttr('th', teamV.getAttribute('id'), 'class', 'text-center', tableHead)
 
   const totalsH = teamH.getElementsByTagName('totals')[0]
   const totalsV = teamV.getElementsByTagName('totals')[0]
 
   let rowEntry
-  const contentTable = document.getElementById('teamTotalsComplete-table-body')
-
+  
   const firstdownsV = totalsV?.getElementsByTagName('firstdowns')[0]
   const penaltiesV = totalsV?.getElementsByTagName('penalties')[0]
   const conversionsV = totalsV?.getElementsByTagName('conversions')[0]
@@ -940,67 +931,88 @@ function buildTotalStatsComplete(x) {
   const prH = totalsH?.getElementsByTagName('pr')[0]
   const irH = totalsH?.getElementsByTagName('ir')[0]
 
-
-  singleDatumTitle('FIRST DOWNS', firstdownsH, firstdownsV, 'no', contentTable)
+  headerRow('FIRST DOWNS', contentTable)
+  singleDatum('Total', firstdownsH, firstdownsV, 'no', contentTable)
   singleDatum('Rushing', firstdownsH, firstdownsV, 'rush', contentTable)
   singleDatum('Passing', firstdownsH, firstdownsV, 'pass', contentTable)
   singleDatum('Penalty', firstdownsH, firstdownsV, 'penalty', contentTable)
-  singleDatumTitle('NET YARDS RUSHING', rushH, rushV, 'yds', contentTable)
-  singleDatum('Rushing Attempts', rushH, rushV, 'att', contentTable)
-  singleAvgDatum('Average Per Rush', rushH, rushV, 'yds', 'att', contentTable)
+
+  headerRow('RUSHING', contentTable)
+  singleDatum('Total (Net)', rushH, rushV, 'yds', contentTable)
+  singleDatum('Attempts', rushH, rushV, 'att', contentTable)
+  singleAvgDatum('Avg. Per Rush', rushH, rushV, 'yds', 'att', contentTable)
   singleDatum('Rushing TDs', rushH, rushV, 'td', contentTable)
-  singleDatum('Yds Gained Rushing', rushH, rushV, 'gain', contentTable)
-  singleDatum('Yds Lost Rushing', rushH, rushV, 'loss', contentTable)
-  singleDatumTitle('NET YARDS PASSING', passH, passV, 'yds', contentTable)
-  tripleDatum('Comp-Att-Int', passH, passV, 'comp', 'att', 'int', contentTable)
-  singleAvgDatum('Average Per Attempt', passH, passV, 'yds', 'att', contentTable)
-  singleAvgDatum('Average Per Completition', passH, passV, 'yds', 'comp', contentTable)
-  singleDatum('Passing TDs', passH, passV, 'td', contentTable)
+  singleDatum('Yds. Gained', rushH, rushV, 'gain', contentTable)
+  singleDatum('Yds. Lost', rushH, rushV, 'loss', contentTable)
 
+  headerRow('PASSING', contentTable)
+  singleDatum('Total (Net)', passH, passV, 'yds', contentTable)
+  tripleDatum('Comp.-Att.-Int.', passH, passV, 'comp', 'att', 'int', contentTable)
+  singleAvgDatum('Avg. / Att.', passH, passV, 'yds', 'att', contentTable)
+  singleAvgDatum('Avg. / Comp.', passH, passV, 'yds', 'comp', contentTable)
+  singleDatum('TDs', passH, passV, 'td', contentTable)
+
+  headerRow('TOTAL OFFENSE', contentTable)
   rowEntry = document.createElement('tr')
-  createElementAttr('td', 'TOTAL OFFENSE', 'class', 'titleCell', rowEntry)
-  createElementHTML('td', parseFloat(rushH.getAttribute('yds'))+ parseFloat(passH.getAttribute('yds')), rowEntry)
-  createElementHTML('td', parseFloat(rushV.getAttribute('yds'))+ parseFloat(passV.getAttribute('yds')), rowEntry)
+  createElementAttr('td', 'Yards', 'class', 'titleCell', rowEntry)
+  createElementAttr('td', parseFloat(rushH.getAttribute('yds'))+ parseFloat(passH.getAttribute('yds')), 'class', 'text-center', rowEntry)
+  createElementAttr('td', parseFloat(rushV.getAttribute('yds'))+ parseFloat(passV.getAttribute('yds')), 'class', 'text-center', rowEntry)
   contentTable.appendChild(rowEntry)
 
   rowEntry = document.createElement('tr')
-  createElementHTML('td', 'Total Offense Plays', rowEntry)
-  createElementHTML('td', parseFloat(rushH.getAttribute('att'))+ parseFloat(passH.getAttribute('att')), rowEntry)
-  createElementHTML('td', parseFloat(rushV.getAttribute('att'))+ parseFloat(passV.getAttribute('att')), rowEntry)
+  createElementHTML('td', 'Plays', rowEntry)
+  createElementAttr('td', parseFloat(rushH.getAttribute('att'))+ parseFloat(passH.getAttribute('att')), 'class', 'text-center', rowEntry)
+  createElementAttr('td', parseFloat(rushV.getAttribute('att'))+ parseFloat(passV.getAttribute('att')), 'class', 'text-center', rowEntry)
   contentTable.appendChild(rowEntry)
 
   rowEntry = document.createElement('tr')
-  createElementHTML('td', 'Average Gain Per Play', rowEntry)
+  createElementHTML('td', 'Avg. / Play', rowEntry)
   let totydsH = parseFloat(rushH.getAttribute('yds')) + parseFloat(passH.getAttribute('yds'))
   let totydsV = parseFloat(rushV.getAttribute('yds')) + parseFloat(passV.getAttribute('yds'))
   let totplaysV = parseFloat(rushH.getAttribute('att')) + parseFloat(passH.getAttribute('att'))
   let totplaysH = parseFloat(rushV.getAttribute('att')) + parseFloat(passV.getAttribute('att'))
-  createElementHTML('td', (totydsH / totplaysH).toFixed(1), rowEntry)
-  createElementHTML('td', (totydsV / totplaysV).toFixed(1), rowEntry)
+  createElementAttr('td', (totydsH / totplaysH).toFixed(1), 'class', 'text-center', rowEntry)
+  createElementAttr('td', (totydsV / totplaysV).toFixed(1), 'class', 'text-center', rowEntry)
   contentTable.appendChild(rowEntry)
 
-  doubleDatum('FUMBLES: Num-Lost', fumblesH, fumblesV, 'no', 'lost', contentTable)
-  doubleDatum('PENALTIES: Num-Lost', penaltiesH, penaltiesV, 'no', 'yds', contentTable)
-  doubleDatum('PUNTS: Yds', puntH, puntV, 'no', 'yds', contentTable)
-  singleAvgDatum('Average Yards Per Punt', puntH, puntV, 'yds', 'no', contentTable)
+  doubleDatum('Fumbles - Lost', fumblesH, fumblesV, 'no', 'lost', contentTable)
+  doubleDatum('Penalties - Lost', penaltiesH, penaltiesV, 'no', 'yds', contentTable)
+
+  headerRow('PUNTING', contentTable)
+  doubleDatum('Punts - Yds.', puntH, puntV, 'no', 'yds', contentTable)
+  singleAvgDatum('Avg. / Punt', puntH, puntV, 'yds', 'no', contentTable)
   netAverage('Punt', puntH, puntV, prH, prV, contentTable)
   singleDatum('Inside 20', puntH, puntV, 'inside20', contentTable)
-  singleDatum('+50 Yards', puntH, puntV, 'plus50', contentTable)
+  singleDatum('50+ Yds.', puntH, puntV, 'plus50', contentTable)
   singleDatum('Touchbacks', puntH, puntV, 'tb', contentTable)
-  singleDatum('Fair Catches', puntH, puntV, 'fc', contentTable)
-  doubleDatum('KICKOFF - YARDS', koH, koV, 'no', 'yds', contentTable)
-  singleAvgDatum('Average Yards Per Kickoff', koH, koV, 'yds', 'no', contentTable)
+  singleDatum('Fair Catch', puntH, puntV, 'fc', contentTable)
+
+  headerRow('KICKOFFS', contentTable)
+  doubleDatum('Total - Yds.', koH, koV, 'no', 'yds', contentTable)
+  singleAvgDatum('Avg. Yds. / Kickoff', koH, koV, 'yds', 'no', contentTable)
   netAverage('Kickoff', koH, koV, krH, krV, contentTable)
   singleDatum('Touchbacks', koH, koV, 'tb', contentTable)
-  tripleDatumTitle('PUNT RETURNS: Num-Yards-TD', prH, prV, 'no', 'yds', 'td', contentTable)
-  singleAvgDatum('Average Per Return', prH, prV, 'yds', 'no', contentTable)
-  tripleDatumTitle('KICKOFF RETURNS: Num-Yards-TD', krH, krV, 'no', 'yds', 'td', contentTable)
-  singleAvgDatum('Average Per Return', krH, krV, 'yds', 'no', contentTable)
-  tripleDatumTitle('INTERCEPTIONS: Num-Yards-TD', irH, irV, 'no', 'yds', 'td', contentTable)
-  tripleDatumTitle('FUMBLE RETURNS: Num-Yards-TD', defenseH, defenseV, 'fr', 'fryds', 'frtd', contentTable)
-  singleDatumTitle('MISCELLANEOUS Yards', miscH, miscV, 'yds', contentTable)
-  singleDatumTitle('POSSESSION', miscH, miscV, 'top', contentTable)
 
+  headerRow('RETURNS', contentTable)
+  tripleDatum('Punt: Total-Yds.-TDs', prH, prV, 'no', 'yds', 'td', contentTable)
+  singleAvgDatum('Punt: Avg. / Return', prH, prV, 'yds', 'no', contentTable)
+  tripleDatum('Kickoff: Total-Yds.-TDs', krH, krV, 'no', 'yds', 'td', contentTable)
+  singleAvgDatum('Kickoff: Avg. / Return', krH, krV, 'yds', 'no', contentTable)
+  tripleDatum('INT: Total-Yds.-TDs', irH, irV, 'no', 'yds', 'td', contentTable)
+  tripleDatum('Fumble: Total-Yds.-TDs', defenseH, defenseV, 'fr', 'fryds', 'frtd', contentTable)
+  
+  headerRow('MISCELLANEOUS', contentTable)
+  singleDatum('Misc. Yards', miscH, miscV, 'yds', contentTable)
+  
+  doubleDatumOF('3rd. Down Conv.', conversionsH, conversionsV, 'thirdconv', 'thirdatt', contentTable)
+  doubleDatumOF('4th. Down Conv', conversionsH, conversionsV, 'fourthconv', 'fourthatt', contentTable)
+  doubleDatum('Red-Zone: Scores - Chances', redzoneH, redzoneV, 'scores', 'att', contentTable)
+  doubleDatum('Sacks: Total - Yds.', defenseH, defenseV, 'sacks', 'sackyds', contentTable)
+  doubleDatum('PAT: Total - Made', patH, patV, 'kickmade', 'kickatt', contentTable)
+  doubleDatum('Field Goals: Total - Made', fgH, fgV, 'made', 'att', contentTable)
+
+  headerRow('POSSESSION', contentTable)
+  singleDatum('Poss. Time', miscH, miscV, 'top', contentTable)
   const numOfQrts = x.getElementsByTagName('plays')[0].getElementsByTagName('qtr').length
   for(i=0; i<numOfQrts; i++){
     const qrtH = x.getElementsByTagName('plays')[0].getElementsByTagName('qtr')[i].getElementsByTagName('qtrsummary')[1]
@@ -1027,159 +1039,49 @@ function buildTotalStatsComplete(x) {
         break;
     }
   }
-
-  doubleDatumOF('THIRD-DOWN Conversions', conversionsH, conversionsV, 'thirdconv', 'thirdatt', contentTable)
-  doubleDatumOF('FOURTH-DOWN Conversions', conversionsH, conversionsV, 'fourthconv', 'fourthatt', contentTable)
-  doubleDatum('RED-ZONE Scores-Chances', redzoneH, redzoneV, 'scores', 'att', contentTable)
-  doubleDatum('SACKS: Num-Yards', defenseH, defenseV, 'sacks', 'sackyds', contentTable)
-  doubleDatum('PAT Kicks', patH, patV, 'kickmade', 'kickatt', contentTable)
-  doubleDatum('FIELD GOALS', fgH, fgV, 'made', 'att', contentTable)
 }
 
-function buildTotalStatsCompact(x) {
 
-  const teamH = x.getElementsByTagName('team')[1]
-  const teamV = x.getElementsByTagName('team')[0]
-
-  createElementHTML('th', teamH.getAttribute('id'), document.getElementById('teamTotalsCompact-table-head'))
-  createElementHTML('th', teamV.getAttribute('id'), document.getElementById('teamTotalsCompact-table-head'))
-
-  const totalsH = teamH.getElementsByTagName('totals')[0]
-  const totalsV = teamV.getElementsByTagName('totals')[0]
-
-  let rowEntry
-  const contentTable = document.getElementById('teamTotalsCompact-table-body')
-
-  const firstdownsV = totalsV?.getElementsByTagName('firstdowns')[0]
-  const penaltiesV = totalsV?.getElementsByTagName('penalties')[0]
-  const conversionsV = totalsV?.getElementsByTagName('conversions')[0]
-  const fumblesV = totalsV?.getElementsByTagName('fumbles')[0]
-  const miscV = totalsV?.getElementsByTagName('misc')[0]
-  const redzoneV = totalsV?.getElementsByTagName('redzone')[0]
-  const rushV = totalsV?.getElementsByTagName('rush')[0]
-  const passV = totalsV?.getElementsByTagName('pass')[0]
-  const puntV = totalsV?.getElementsByTagName('punt')[0]
-  const defenseV = totalsV?.getElementsByTagName('defense')[0]
-  const krV = totalsV?.getElementsByTagName('kr')[0]
-  const prV = totalsV?.getElementsByTagName('pr')[0]
-  const irV = totalsV?.getElementsByTagName('ir')[0]
-
-  const firstdownsH = totalsH?.getElementsByTagName('firstdowns')[0]
-  const penaltiesH = totalsH?.getElementsByTagName('penalties')[0]
-  const conversionsH = totalsH?.getElementsByTagName('conversions')[0]
-  const fumblesH = totalsH?.getElementsByTagName('fumbles')[0]
-  const miscH = totalsH?.getElementsByTagName('misc')[0]
-  const redzoneH = totalsH?.getElementsByTagName('redzone')[0]
-  const rushH = totalsH?.getElementsByTagName('rush')[0]
-  const passH= totalsH?.getElementsByTagName('pass')[0]
-  const puntH = totalsH?.getElementsByTagName('punt')[0]
-  const defenseH = totalsH?.getElementsByTagName('defense')[0]
-  const krH = totalsH?.getElementsByTagName('kr')[0]
-  const prH = totalsH?.getElementsByTagName('pr')[0]
-  const irH = totalsH?.getElementsByTagName('ir')[0]
-
-  singleDatum('First Downs', firstdownsH, firstdownsV, 'no', contentTable)
-  doubleDatum('Rushes - Yards (NET)', rushH, rushV, 'att', 'yds', contentTable)
-  singleDatum('Passing Yards (NET)', passH, passV, 'yds', contentTable)
-  tripleDatum('Passes Comp-Att-Int', passH, passV, 'comp', 'att', 'int', contentTable)
-
-  let totydsH = parseFloat(rushH.getAttribute('yds'))+ parseFloat(passH.getAttribute('yds'))
-  let totydsV = parseFloat(rushV.getAttribute('yds'))+ parseFloat(passV.getAttribute('yds'))
-  let totplaysH = parseFloat(rushH.getAttribute('att'))+ parseFloat(passH.getAttribute('att'))
-  let totplaysV = parseFloat(rushV.getAttribute('att'))+ parseFloat(passV.getAttribute('att'))
-
-  rowEntry = document.createElement('tr')
-  createElementHTML('td', 'Total Offense Plays-Yards', rowEntry)
-  createElementHTML('td', `${totplaysH}-${totydsH}`, rowEntry)
-  createElementHTML('td', `${totplaysV}-${totydsV}`, rowEntry)
-  contentTable.appendChild(rowEntry)
-
-  doubleDatum('Fumble Returns-Yards', defenseH, defenseV, 'fr', 'fryds', contentTable)
-  doubleDatum('Punt Returns-Yards', prH, prV, 'no', 'yds', contentTable)
-  doubleDatum('Kickoff Returns-Yards', krH, krV, 'no', 'yds', contentTable)
-  doubleDatum('Interception Returns-Yards', irH, irV, 'no', 'yds', contentTable)
-
-  rowEntry = document.createElement('tr')
-  createElementHTML('td', 'Punts (Number-Avg)', rowEntry)
-  if(puntH){
-    const numH = puntH.getAttribute('no')
-    let avgH = parseFloat(puntH.getAttribute('yds') / numH)
-    createElementHTML('td', `${numH}-${avgH.toFixed(1)}`, rowEntry)
-  } else {
-    createElementHTML('td','0-0', rowEntry)
-  }
-  if(puntV){
-    let numV = puntH.getAttribute('no')
-    let avgV = parseFloat(puntV.getAttribute('yds') / numV)
-    createElementHTML('td', `${numV}-${avgV.toFixed(1)}`, rowEntry)
-  } else {
-    createElementHTML('td','0-0', rowEntry)
-  }
-  contentTable.appendChild(rowEntry)
-
-  doubleDatum('Fumbles-Lost', fumblesH, fumblesV, 'no', 'lost', contentTable)
-  doubleDatum('Penalties-Yards', penaltiesH, penaltiesV, 'no', 'yds', contentTable)
-  singleDatumTitle('Possession', miscH, miscV, 'top', contentTable)
-  doubleDatumOF('Third-Down Conversions', conversionsH, conversionsV, 'thirdconv', 'thirdatt', contentTable)
-  doubleDatumOF('Fourth-Down Conversions', conversionsH, conversionsV, 'fourthconv', 'fourthatt', contentTable)
-  doubleDatum('Red-Zone Scores-Chances', redzoneH, redzoneV, 'scores', 'att', contentTable)
-  doubleDatum('Sacks By: Num-Yards', defenseH, defenseV, 'sacks', 'sackyds', contentTable)
+function buildIndStats(x){
+  buildIndOffense(x)
+  buildDefense(x)
+  buildSpecialTeams(x)
 }
 
 function buildIndOffense(x) {
+  document.getElementById('V-pass').innerHTML = `${x.getElementsByTagName('team')[0].getAttribute('id')} - Passing`
+  document.getElementById('H-pass').innerHTML = `${x.getElementsByTagName('team')[1].getAttribute('id')} - Passing`
+  document.getElementById('V-rush').innerHTML = `${x.getElementsByTagName('team')[0].getAttribute('id')} - Rushing`
+  document.getElementById('H-rush').innerHTML = `${x.getElementsByTagName('team')[1].getAttribute('id')} - Rushing`
+  document.getElementById('V-rec').innerHTML = `${x.getElementsByTagName('team')[0].getAttribute('id')} - Receiving`
+  document.getElementById('H-rec').innerHTML = `${x.getElementsByTagName('team')[1].getAttribute('id')} - Receiving`
 
   const passingTableBodyHome = document.getElementById('passingStatsHome-table-body')
   const rushingTableBodyHome = document.getElementById('rushingStatsHome-table-body')
   const receivingTableBodyHome = document.getElementById('receivingStatsHome-table-body')
-  const puntingTableBodyHome = document.getElementById('puntingStatsHome-table-body')
-  const allReturnsTableBodyHome = document.getElementById('allReturnsStatsHome-table-body')
-  const allPurposeTableBodyHome = document.getElementById('allPurposeStatsHome-table-body')
-  const fieldGoalTableBodyHome = document.getElementById('fieldGoalStatsHome-table-body')
-  const kickoffTableBodyHome = document.getElementById('kickoffStatsHome-table-body')
-
+  
   const passingTableBodyVis = document.getElementById('passingStatsVis-table-body')
   const rushingTableBodyVis = document.getElementById('rushingStatsVis-table-body')
   const receivingTableBodyVis = document.getElementById('receivingStatsVis-table-body')
-  const puntingTableBodyVis = document.getElementById('puntingStatsVis-table-body')
-  const allReturnsTableBodyVis = document.getElementById('allReturnsStatsVis-table-body')
-  const allPurposeTableBodyVis = document.getElementById('allPurposeStatsVis-table-body')
-  const fieldGoalTableBodyVis = document.getElementById('fieldGoalStatsVis-table-body')
-  const kickoffTableBodyVis = document.getElementById('kickoffStatsVis-table-body')
-
-  const fgas = x.getElementsByTagName('fgas')[0]
-  for (let k = 0; k < fgas?.getElementsByTagName('fga').length; k++) {
-    let fga = fgas.getElementsByTagName('fga')[k]
-    let fgAtt = document.createElement('tr')
-    
-    createElementHTML('td', fga.getAttribute('kicker'), fgAtt)
-    createElementHTML('td', fga.getAttribute('qtr'), fgAtt)
-    createElementHTML('td', fga.getAttribute('clock'), fgAtt)
-    createElementHTML('td', fga.getAttribute('distance'), fgAtt)
-    createElementHTML('td', fga.getAttribute('result'), fgAtt)
   
-    if (fga.getAttribute('vh') === 'V') {
-      fieldGoalTableBodyVis.appendChild(fgAtt)
-    } else {
-      fieldGoalTableBodyHome.appendChild(fgAtt)
-    }
-  }
-
   for (let i = 0; i < x.getElementsByTagName('team').length; i++) {
     let team = x.getElementsByTagName('team')[i];
 
     for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
       let player = team.getElementsByTagName('player')[j];
-     let rowEntry
+      let rowEntry
 
      let pass = player?.getElementsByTagName('pass')[0]
       if (pass) {
         rowEntry = document.createElement('tr')
-        createElementHTML('td', player.getAttribute('name'), rowEntry)
-        createElementHTML('td', `${pass.getAttribute('comp')}-${pass.getAttribute('att')}-${pass.getAttribute('int')}`, rowEntry)
-        createElementHTML('td', pass.getAttribute('yds'), rowEntry)
-        createElementHTML('td', pass.getAttribute('td'), rowEntry)
-        createElementHTML('td', pass.getAttribute('long'), rowEntry)
-        createElementHTML('td', pass.getAttribute('sacks'), rowEntry)
+        createElementHTML('th', player.getAttribute('name'), rowEntry)
+        createElementAttr('td', pass.getAttribute('comp'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', pass.getAttribute('att'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', pass.getAttribute('yds'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', pass.getAttribute('td'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', pass.getAttribute('int'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', pass.getAttribute('long'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', pass.getAttribute('sacks'), 'class', 'text-center', rowEntry)
        if (team.getAttribute('vh') === 'V') {
           passingTableBodyVis.appendChild(rowEntry)
         } else {
@@ -1190,16 +1092,16 @@ function buildIndOffense(x) {
       let rush = player?.getElementsByTagName('rush')[0]
       if (rush) {
        rowEntry = document.createElement('tr')
-        createElementHTML('td', player.getAttribute('name'), rowEntry)
-        createElementHTML('td', rush.getAttribute('att'), rowEntry)
-        createElementHTML('td', rush.getAttribute('gain'), rowEntry)
-        createElementHTML('td', rush.getAttribute('loss'), rowEntry)
+        createElementHTML('th', player.getAttribute('name'), rowEntry)
+        createElementAttr('td', rush.getAttribute('att'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', rush.getAttribute('gain'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', rush.getAttribute('loss'), 'class', 'text-center', rowEntry)
         net = parseFloat(rush.getAttribute('gain') - rush.getAttribute('loss'))
-        createElementHTML('td', net, rowEntry)
-        createElementHTML('td', rush.getAttribute('td'), rowEntry)
-        createElementHTML('td', rush.getAttribute('long'), rowEntry)
+        createElementAttr('td', net, 'class', 'text-center', rowEntry)
+        createElementAttr('td', rush.getAttribute('td'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', rush.getAttribute('long'), 'class', 'text-center', rowEntry)
         avg = parseFloat(net / rush.getAttribute('att')).toFixed(1)
-        createElementHTML('td', avg, rowEntry)
+        createElementAttr('td', avg, 'class', 'text-center', rowEntry)
        if (team.getAttribute('vh') === 'V') {
           rushingTableBodyVis.appendChild(rowEntry)
         } else {
@@ -1208,143 +1110,18 @@ function buildIndOffense(x) {
       }
      let rcv = player?.getElementsByTagName('rcv')[0]
       if (rcv) {
-       rowEntry = document.createElement('tr')
-       createElementHTML('td', player.getAttribute('name'), rowEntry)
-        createElementHTML('td', rcv.getAttribute('no'), rowEntry)
-        createElementHTML('td', rcv.getAttribute('yds'), rowEntry)
-        createElementHTML('td', rcv.getAttribute('td'), rowEntry)
-        createElementHTML('td', rcv.getAttribute('long'), rowEntry)
+        rowEntry = document.createElement('tr')
+        createElementHTML('th', player.getAttribute('name'), rowEntry)
+        createElementAttr('td', rcv.getAttribute('no'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', rcv.getAttribute('yds'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', rcv.getAttribute('td'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', rcv.getAttribute('long'), 'class', 'text-center', rowEntry)
        if (team.getAttribute('vh') === 'V') {
           receivingTableBodyVis.appendChild(rowEntry)
         } else {
           receivingTableBodyHome.appendChild(rowEntry)
         }
       }
-     let punt = player?.getElementsByTagName('punt')[0]
-      if (punt) {
-        rowEntry = document.createElement('tr')
-        createElementHTML('td', player.getAttribute('name'), rowEntry)
-        createElementHTML('td', punt.getAttribute('no'), rowEntry)
-        createElementHTML('td', punt.getAttribute('yds'), rowEntry)
-        avg = parseFloat(punt.getAttribute('yds') / punt.getAttribute('no')).toFixed(1)
-        createElementHTML('td', avg, rowEntry)
-        createElementHTML('td', punt.getAttribute('long'), rowEntry)
-        createElementHTML('td', punt.getAttribute('inside20'), rowEntry)
-        createElementHTML('td', punt.getAttribute('tb'), rowEntry)
-      
-        if (team.getAttribute('vh') === 'V') {
-          puntingTableBodyVis.appendChild(rowEntry)
-        } else {
-          puntingTableBodyHome.appendChild(rowEntry)
-        }
-      }
-      let pr = player?.getElementsByTagName('pr')[0]
-      let kr = player?.getElementsByTagName('kr')[0]
-      let ir = player?.getElementsByTagName('ir')[0]
-      
-      if (pr || kr || ir ) {
-        if (pr){
-          rowEntry = document.createElement('tr')
-          createElementHTML('td', player.getAttribute('name'), rowEntry)
-          createElementHTML('td', pr.getAttribute('no'), rowEntry)
-          createElementHTML('td', pr.getAttribute('yds'), rowEntry)
-          createElementHTML('td', pr.getAttribute('long'), rowEntry)
-        } else {
-          rowEntry = document.createElement('tr')
-          createElementHTML('td', player.getAttribute('name'), rowEntry)
-          createElementHTML('td', 0, rowEntry)
-          createElementHTML('td', 0, rowEntry)
-          createElementHTML('td', 0, rowEntry)
-        }
-      
-        if (kr){
-          createElementHTML('td', kr.getAttribute('no'), rowEntry)
-          createElementHTML('td', kr.getAttribute('yds'), rowEntry)
-          createElementHTML('td', kr.getAttribute('long'), rowEntry)
-        } else {
-          createElementHTML('td', 0, rowEntry)
-          createElementHTML('td', 0, rowEntry)
-          createElementHTML('td', 0, rowEntry)
-        }
-      
-        if (ir){
-          createElementHTML('td', ir.getAttribute('no'), rowEntry)
-          createElementHTML('td', ir.getAttribute('yds'), rowEntry)
-          createElementHTML('td', ir.getAttribute('long'), rowEntry)
-        } else {
-          createElementHTML('td', 0, rowEntry)
-          createElementHTML('td', 0, rowEntry)
-          createElementHTML('td', 0, rowEntry)
-        }
-       if (team.getAttribute('vh') === 'V') {
-          allReturnsTableBodyVis.appendChild(rowEntry)
-        } else {
-          allReturnsTableBodyHome.appendChild(rowEntry)
-        }
-      }
-     if (rush || rcv || kr || pr || ir) {
-        let total = 0
-        rowEntry = document.createElement('tr')
-        createElementHTML('td', player.getAttribute('name'), rowEntry)
-       if (rush){
-          createElementHTML('td', rush.getAttribute('yds'), rowEntry)
-          total += parseInt(rush.getAttribute('yds'))
-        } else {
-          createElementHTML('td', 0, rowEntry)
-        }
-       if (rcv){
-          createElementHTML('td', rcv.getAttribute('yds'), rowEntry)
-          total += parseInt(rcv.getAttribute('yds'))
-        } else {
-          createElementHTML('td', 0, rowEntry)
-        }
-       if (kr){
-          createElementHTML('td', kr.getAttribute('yds'), rowEntry)
-          total += parseInt(kr.getAttribute('yds'))
-        } else {
-          createElementHTML('td', 0, rowEntry)
-        }
-       if (pr){
-          createElementHTML('td', pr.getAttribute('yds'), rowEntry)
-          total += parseInt(pr.getAttribute('yds'))
-        } else {
-          createElementHTML('td', 0, rowEntry)
-        }
-       if (ir){
-          createElementHTML('td', ir.getAttribute('yds'), rowEntry)
-          total += parseInt(ir.getAttribute('yds'))
-        } else {
-          createElementHTML('td', 0, rowEntry)
-        }
-       createElementHTML('td', total, rowEntry)
-       if (team.getAttribute('vh') === 'V') {
-          allPurposeTableBodyVis.appendChild(rowEntry)
-        } else {
-          allPurposeTableBodyHome.appendChild(rowEntry)
-        }
-      }
-      const ko = player?.getElementsByTagName('ko')[0]
-      if (ko){
-        rowEntry = document.createElement('tr')
-        createElementHTML('td', player.getAttribute('name'), rowEntry)
-        createElementHTML('td', ko.getAttribute('no'), rowEntry)
-        createElementHTML('td', ko.getAttribute('yds'), rowEntry)
-        createElementHTML('td', ko.getAttribute('tb'), rowEntry)
-        createElementHTML('td', ko.getAttribute('ob'), rowEntry)
-        avg = parseFloat(ko.getAttribute('yds') / ko.getAttribute('no')).toFixed(1)
-        createElementHTML('td', avg, rowEntry)
-      
-        if (team.getAttribute('vh') === 'V') {
-          kickoffTableBodyVis.appendChild(rowEntry)
-        } else {
-          kickoffTableBodyHome.appendChild(rowEntry)
-        }
-      }
-      
-      //const fumbles = player?.getElementsByTagName('fumbles')[0]
-      //if (fumbles){
-      //  // create a fumble log
-      //}
     }
   }
 
@@ -1363,6 +1140,333 @@ function buildIndOffense(x) {
   sortTable('receivingStatsVis-table', 1)
   insertTotalRow('receivingStatsVis-table', 'rec')
 
+}
+
+function buildDefense(x){
+  
+  document.getElementById('AwayDefense_button').innerHTML = capitalize(x.getElementsByTagName('team')[0].getAttribute('name'))
+  document.getElementById('HomeDefense_button').innerHTML = capitalize(x.getElementsByTagName('team')[1].getAttribute('name')) 
+  
+  document.getElementById('AwayDefense').getElementsByClassName('sub-heading')[0].innerHTML = `${capitalize(x.getElementsByTagName('team')[0].getAttribute('name'))} - Individual Defensive Statistics`
+  document.getElementById('HomeDefense').getElementsByClassName('sub-heading')[0].innerHTML = `${capitalize(x.getElementsByTagName('team')[1].getAttribute('name'))} - Individual Defensive Statistics`
+
+
+  const defenseTableH = document.getElementById('DefenseTableH-body')
+  const defenseTableV = document.getElementById('DefenseTableV-body')
+
+  for (let i = 0; i < x.getElementsByTagName('team').length; i++) {
+    const team = x.getElementsByTagName('team')[i];
+
+    for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
+      const player = team.getElementsByTagName('player')[j];
+      let rowEntry
+
+      const defense = player?.getElementsByTagName('defense')[0]
+      if (defense) {
+        rowEntry = document.createElement('tr')
+
+        createElementAttr('td', player.getAttribute('uni'), 'class', 'text-center', rowEntry)
+        createElementHTML('th', player.getAttribute('name'), rowEntry)
+
+        const tackua = defense?.getAttribute('tackua')
+        const tacka = defense?.getAttribute('tacka')
+        let total = 0.0
+
+        if (tackua && Number(tackua) !== 0) {
+          createElementAttr('td', tackua, 'class', 'text-center', rowEntry)
+          total += parseFloat(tackua)
+        } else {
+          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+        }
+
+        if (tacka && Number(tacka) !== 0) {
+          createElementAttr('td', tacka, 'class', 'text-center', rowEntry)
+          total += (parseFloat(tacka) * 0.5)
+        } else {
+          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+        }
+
+        createElementAttr('td', total.toFixed(1), 'class', 'text-center', rowEntry)        
+
+        const tflua = defense?.getAttribute('tflua')
+        const tfla = defense?.getAttribute('tfla')
+        const tflyds = defense?.getAttribute('tflyds')
+        let tflTot = '-'
+        if (tflua || tfla) {
+          if (tflua && tfla) {
+            tflTot = Number(tflua) + (Number(tfla)*0.5)
+          } else if (tflua) {
+            tflTot = Number(tflua)
+          } else if (tfla) {
+            tflTot = Number(tfla) * 0.5
+          }
+          createElementAttr('td', `${tflTot.toFixed(1)}/${tflyds}`, 'class', 'text-center', rowEntry)
+        } else {
+          createElementAttr('td', '-/-', 'class', 'text-center', rowEntry)
+        }
+
+        const sackua = defense?.getAttribute('sackua')
+        const sacka = defense?.getAttribute('sacka')
+        const sackyds = defense?.getAttribute('sackyds')
+        let sackTot = '.'
+        if (sackua || sacka) {
+          if (sackua && sacka) {
+            sackTot = Number(sackua) + (Number(sacka)*0.5)
+          } else if (sackua) {
+            sackTot = Number(sackua)
+          } else if (sacka) {
+            sackTot = Number(sacka) * 0.5
+          }
+          createElementAttr('td', `${sackTot.toFixed(1)}/${sackyds}`, 'class', 'text-center', rowEntry)
+        } else {
+          createElementAttr('td', '-/-', 'class', 'text-center', rowEntry)
+        }
+
+        const ff = defense?.getAttribute('ff')
+        if (ff) {
+          createElementAttr('td', ff, 'class', 'text-center', rowEntry)
+        } else {
+          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+        }
+
+        const fr = defense?.getAttribute('fr')
+        const fryds = defense?.getAttribute('fryds')
+        if (fr) {
+          createElementAttr('td', `${fr}-${fryds}`, 'class', 'text-center', rowEntry)
+        } else {
+          createElementAttr('td', '-/-', 'class', 'text-center', rowEntry)
+        }
+
+        const int = defense?.getAttribute('int')
+        const intyds = defense?.getAttribute('intyds')
+        if (int) {
+          createElementAttr('td', `${int}-${intyds}`, 'class', 'text-center', rowEntry)
+        } else {
+          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+        }
+
+        const brup = defense?.getAttribute('brup')
+        if (brup) {
+          createElementAttr('td', brup, 'class', 'text-center', rowEntry)
+        } else {
+          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+        }
+
+        const blkd = defense?.getAttribute('blkd')
+        if (blkd) {
+          createElementAttr('td', blkd, 'class', 'text-center', rowEntry)
+        } else {
+          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+        }
+
+        const qbh = defense?.getAttribute('qbh')
+        if (qbh) {
+          createElementAttr('td', qbh, 'class', 'text-center', rowEntry)
+        } else {
+          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+        }
+
+        if (team.getAttribute('vh') === 'H') {
+          defenseTableH.appendChild(rowEntry)
+        } else {
+          defenseTableV.appendChild(rowEntry)
+        }
+      }
+    }
+    sortTable('DefenseTableH', 4)
+    sortTable('DefenseTableV', 4)
+  }
+}
+
+function buildSpecialTeams(x){
+
+  document.getElementById('V-allpurp').innerHTML = `${x.getElementsByTagName('team')[0].getAttribute('id')} - All Purpose`
+  document.getElementById('H-allpurp').innerHTML = `${x.getElementsByTagName('team')[1].getAttribute('id')} - All Purpose`
+
+  document.getElementById('V-punt').innerHTML = `${x.getElementsByTagName('team')[0].getAttribute('id')} - Punting`
+  document.getElementById('H-punt').innerHTML = `${x.getElementsByTagName('team')[1].getAttribute('id')} - Punting`
+  document.getElementById('V-allret').innerHTML = `${x.getElementsByTagName('team')[0].getAttribute('id')} - All Returns`
+  document.getElementById('H-allret').innerHTML = `${x.getElementsByTagName('team')[1].getAttribute('id')} - All Returns`
+  document.getElementById('V-fieldgoal').innerHTML = `${x.getElementsByTagName('team')[0].getAttribute('id')} - Field Goals`
+  document.getElementById('H-fieldgoal').innerHTML = `${x.getElementsByTagName('team')[1].getAttribute('id')} - Field Goals`
+  document.getElementById('V-kickoff').innerHTML = `${x.getElementsByTagName('team')[0].getAttribute('id')} - Kickoffs`
+  document.getElementById('H-kickoff').innerHTML = `${x.getElementsByTagName('team')[1].getAttribute('id')} - Kickoffs`
+  //document.getElementById('V-pat').innerHTML = `${x.getElementsByTagName('team')[0].getAttribute('id')} - PATs`
+  //document.getElementById('H-pat').innerHTML = `${x.getElementsByTagName('team')[1].getAttribute('id')} - PATs`
+
+  const allPurposeTableBodyHome = document.getElementById('allPurposeStatsHome-table-body')
+  const allPurposeTableBodyVis = document.getElementById('allPurposeStatsVis-table-body')
+
+
+  const puntingTableBodyHome = document.getElementById('puntingStatsHome-table-body')
+  const allReturnsTableBodyHome = document.getElementById('allReturnsStatsHome-table-body')
+  const fieldGoalTableBodyHome = document.getElementById('fieldGoalStatsHome-table-body')
+  const kickoffTableBodyHome = document.getElementById('kickoffStatsHome-table-body')
+  
+  const puntingTableBodyVis = document.getElementById('puntingStatsVis-table-body')
+  const allReturnsTableBodyVis = document.getElementById('allReturnsStatsVis-table-body')
+  const fieldGoalTableBodyVis = document.getElementById('fieldGoalStatsVis-table-body')
+  const kickoffTableBodyVis = document.getElementById('kickoffStatsVis-table-body')
+
+  const fgas = x.getElementsByTagName('fgas')[0]
+  for (let k = 0; k < fgas?.getElementsByTagName('fga').length; k++) {
+    let fga = fgas.getElementsByTagName('fga')[k]
+    let fgAtt = document.createElement('tr')
+    
+    createElementHTML('td', fga.getAttribute('kicker'), fgAtt)
+    createElementAttr('td', fga.getAttribute('qtr'), 'class', 'text-center', fgAtt)
+    createElementAttr('td', fga.getAttribute('clock'), 'class', 'text-center', fgAtt)
+    createElementAttr('td', fga.getAttribute('distance'), 'class', 'text-center', fgAtt)
+    createElementAttr('td', fga.getAttribute('result'), 'class', 'text-center', fgAtt)
+  
+    if (fga.getAttribute('vh') === 'V') {
+      fieldGoalTableBodyVis.appendChild(fgAtt)
+    } else {
+      fieldGoalTableBodyHome.appendChild(fgAtt)
+    }
+  }
+
+  for (let i = 0; i < x.getElementsByTagName('team').length; i++) {
+    let team = x.getElementsByTagName('team')[i];
+
+    for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
+      let player = team.getElementsByTagName('player')[j];
+      let rowEntry
+
+      let rush = player?.getElementsByTagName('rush')[0]
+      let rcv = player?.getElementsByTagName('rcv')[0]
+
+     let punt = player?.getElementsByTagName('punt')[0]
+      if (punt) {
+        rowEntry = document.createElement('tr')
+        createElementHTML('td', player.getAttribute('name'), rowEntry)
+        createElementAttr('td', punt.getAttribute('no'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', punt.getAttribute('yds'), 'class', 'text-center', rowEntry)
+        avg = parseFloat(punt.getAttribute('yds') / punt.getAttribute('no')).toFixed(1)
+        createElementAttr('td', avg, 'class', 'text-center', rowEntry)
+        createElementAttr('td', punt.getAttribute('long'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', punt.getAttribute('inside20'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', punt.getAttribute('tb'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', punt.getAttribute('plus50'), 'class', 'text-center', rowEntry)
+      
+        if (team.getAttribute('vh') === 'V') {
+          puntingTableBodyVis.appendChild(rowEntry)
+        } else {
+          puntingTableBodyHome.appendChild(rowEntry)
+        }
+      }
+      let pr = player?.getElementsByTagName('pr')[0]
+      let kr = player?.getElementsByTagName('kr')[0]
+      let ir = player?.getElementsByTagName('ir')[0]
+      
+      if (pr || kr || ir ) {
+        if (pr){
+          rowEntry = document.createElement('tr')
+          createElementHTML('td', player.getAttribute('name'), rowEntry)
+          createElementAttr('td', pr.getAttribute('no'), 'class', 'text-center', rowEntry)
+          createElementAttr('td', pr.getAttribute('yds'), 'class', 'text-center', rowEntry)
+          createElementAttr('td', pr.getAttribute('long'), 'class', 'text-center', rowEntry)
+        } else {
+          rowEntry = document.createElement('tr')
+          createElementHTML('td', player.getAttribute('name'), rowEntry)
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+        }
+      
+        if (kr){
+          createElementAttr('td', kr.getAttribute('no'), 'class', 'text-center', rowEntry)
+          createElementAttr('td', kr.getAttribute('yds'), 'class', 'text-center', rowEntry)
+          createElementAttr('td', kr.getAttribute('long'), 'class', 'text-center', rowEntry)
+        } else {
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+        }
+      
+        if (ir){
+          createElementAttr('td', ir.getAttribute('no'), 'class', 'text-center', rowEntry)
+          createElementAttr('td', ir.getAttribute('yds'), 'class', 'text-center', rowEntry)
+          createElementAttr('td', ir.getAttribute('long'), 'class', 'text-center', rowEntry)
+        } else {
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+        }
+       if (team.getAttribute('vh') === 'V') {
+          allReturnsTableBodyVis.appendChild(rowEntry)
+        } else {
+          allReturnsTableBodyHome.appendChild(rowEntry)
+        }
+      }
+
+      if (rush || rcv || kr || pr || ir) {
+        let total = 0
+        rowEntry = document.createElement('tr')
+        createElementHTML('td', player.getAttribute('name'), rowEntry)
+        if (rush){
+          createElementAttr('td', rush.getAttribute('yds'), 'class', 'text-center', rowEntry)
+          total += parseInt(rush.getAttribute('yds'))
+        } else {
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+        }
+        if (rcv){
+          createElementAttr('td', rcv.getAttribute('yds'), 'class', 'text-center', rowEntry)
+          total += parseInt(rcv.getAttribute('yds'))
+        } else {
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+        }
+        if (kr){
+          createElementAttr('td', kr.getAttribute('yds'), 'class', 'text-center', rowEntry)
+          total += parseInt(kr.getAttribute('yds'))
+        } else {
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+        }
+        if (pr){
+          createElementAttr('td', pr.getAttribute('yds'), 'class', 'text-center', rowEntry)
+          total += parseInt(pr.getAttribute('yds'))
+        } else {
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+        }
+        if (ir){
+          createElementAttr('td', ir.getAttribute('yds'), 'class', 'text-center', rowEntry)
+          total += parseInt(ir.getAttribute('yds'))
+        } else {
+          createElementAttr('td', 0, 'class', 'text-center', rowEntry)
+        }
+        createElementAttr('td', total, 'class', 'text-center', rowEntry)
+        if (team.getAttribute('vh') === 'V') {
+          allPurposeTableBodyVis.appendChild(rowEntry)
+        } else {
+          allPurposeTableBodyHome.appendChild(rowEntry)
+        }
+      }
+
+      const ko = player?.getElementsByTagName('ko')[0]
+      if (ko){
+        rowEntry = document.createElement('tr')
+        createElementHTML('td', player.getAttribute('name'), rowEntry)
+        createElementAttr('td', ko.getAttribute('no'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', ko.getAttribute('yds'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', ko.getAttribute('tb'), 'class', 'text-center', rowEntry)
+        createElementAttr('td', ko.getAttribute('ob'), 'class', 'text-center', rowEntry)
+        avg = parseFloat(ko.getAttribute('yds') / ko.getAttribute('no')).toFixed(1)
+        createElementAttr('td', avg, 'class', 'text-center', rowEntry)
+      
+        if (team.getAttribute('vh') === 'V') {
+          kickoffTableBodyVis.appendChild(rowEntry)
+        } else {
+          kickoffTableBodyHome.appendChild(rowEntry)
+        }
+      }
+    }
+  }
+
+  sortTable('allPurposeStatsHome-table', 6)
+  insertTotalRow('allPurposeStatsHome-table', 'allPurp')
+  sortTable('allPurposeStatsVis-table', 6)
+  insertTotalRow('allPurposeStatsVis-table', 'allPurp')
+
   sortTable('puntingStatsHome-table', 2)
   insertTotalRow('puntingStatsHome-table', 'punt')
   sortTable('puntingStatsVis-table', 2)
@@ -1371,16 +1475,15 @@ function buildIndOffense(x) {
   insertTotalRow('allReturnsStatsHome-table', 'allRet')
   insertTotalRow('allReturnsStatsVis-table', 'allRet')
   
-  sortTable('allPurposeStatsHome-table', 6)
-  insertTotalRow('allPurposeStatsHome-table', 'allPurp')
-  sortTable('allPurposeStatsVis-table', 6)
-  insertTotalRow('allPurposeStatsVis-table', 'allPurp')
-
   sortTable('kickoffStatsHome-table', 2)
   insertTotalRow('kickoffStatsHome-table', 'ko')
   sortTable('kickoffStatsVis-table', 2)
   insertTotalRow('kickoffStatsVis-table', 'ko')
+
 }
+
+
+
 
 function buildDrivesQuarter(x) {
   const driveTable = document.getElementById('driveQuarterTable-body')
@@ -1466,153 +1569,6 @@ function buildDrivesQuarter(x) {
       AddAfter('blankRow', rowEntry)
     }  
   }
-}
-
-function buildDefense(x){
-  document.getElementById('DefenseH').innerHTML = x.getElementsByTagName('team')[1].getAttribute('name')
-  document.getElementById('DefenseV').innerHTML = x.getElementsByTagName('team')[0].getAttribute('name')
-
-  const defenseTableH = document.getElementById('DefenseTableH-body')
-  const defenseTableV = document.getElementById('DefenseTableV-body')
-
-  for (let i = 0; i < x.getElementsByTagName('team').length; i++) {
-    const team = x.getElementsByTagName('team')[i];
-
-    for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
-      const player = team.getElementsByTagName('player')[j];
-      let rowEntry
-
-      const defense = player?.getElementsByTagName('defense')[0]
-      if (defense) {
-        rowEntry = document.createElement('tr')
-
-        createElementHTML('td', player.getAttribute('uni'), rowEntry)
-        createElementHTML('td', player.getAttribute('name'), rowEntry)
-
-        const tackua = defense?.getAttribute('tackua')
-        const tacka = defense?.getAttribute('tacka')
-        let total = 0.0
-
-        if (tackua && Number(tackua) !== 0) {
-          createElementHTML('td', tackua, rowEntry)
-          total += parseFloat(tackua)
-        } else {
-          createElementHTML('td', '.', rowEntry)
-        }
-
-        if (tacka && Number(tacka) !== 0) {
-          createElementHTML('td', tacka, rowEntry)
-          total += (parseFloat(tacka) * 0.5)
-        } else {
-          createElementHTML('td', '.', rowEntry)
-        }
-
-        createElementHTML('td', total.toFixed(1), rowEntry)        
-
-        const tflua = defense?.getAttribute('tflua')
-        const tfla = defense?.getAttribute('tfla')
-        const tflyds = defense?.getAttribute('tflyds')
-        let tflTot = '.'
-        
-        if (tflua || tfla) {
-          if (tflua && tfla) {
-            tflTot = Number(tflua) + (Number(tfla)*0.5)
-          } else if (tflua) {
-            tflTot = Number(tflua)
-          } else if (tfla) {
-            tflTot = Number(tfla) * 0.5
-          }
-          createElementHTML('td', `${tflTot.toFixed(1)}/${tflyds}`, rowEntry)
-        } else {
-          createElementHTML('td', '.', rowEntry)
-        }
-
-        const ff = defense?.getAttribute('ff')
-        if (ff) {
-          createElementHTML('td', ff, rowEntry)
-        } else {
-          createElementHTML('td', '.', rowEntry)
-        }
-
-        const fr = defense?.getAttribute('fr')
-        const fryds = defense?.getAttribute('fryds')
-
-        if (fr) {
-          createElementHTML('td', `${fr}-${fryds}`, rowEntry)
-        } else {
-          createElementHTML('td', '.', rowEntry)
-        }
-
-        const int = defense?.getAttribute('int')
-        const intyds = defense?.getAttribute('intyds')
-
-        if (int) {
-          createElementHTML('td', `${int}-${intyds}`, rowEntry)
-        } else {
-          createElementHTML('td', '.', rowEntry)
-        }
-
-        const brup = defense?.getAttribute('brup')
-
-        if (brup) {
-          createElementHTML('td', brup, rowEntry)
-        } else {
-          createElementHTML('td', '.', rowEntry)
-        }
-
-        const blkd = defense?.getAttribute('blkd')
-
-        if (blkd) {
-          createElementHTML('td', blkd, rowEntry)
-        } else {
-          createElementHTML('td', '.', rowEntry)
-        }
-
-        const sackua = defense?.getAttribute('sackua')
-        const sacka = defense?.getAttribute('sacka')
-        const sackyds = defense?.getAttribute('sackyds')
-        let sackTot = '.'
-        if (sackua || sacka) {
-          if (sackua && sacka) {
-            sackTot = Number(sackua) + (Number(sacka)*0.5)
-          } else if (sackua) {
-            sackTot = Number(sackua)
-          } else if (sacka) {
-            sackTot = Number(sacka) * 0.5
-          }
-          createElementHTML('td', `${sackTot.toFixed(1)}/${sackyds}`, rowEntry)
-        } else {
-          createElementHTML('td', '.', rowEntry)
-        }
-
-        const qbh = defense?.getAttribute('qbh')
-        if (qbh) {
-          createElementHTML('td', qbh, rowEntry)
-        } else {
-          createElementHTML('td', '.', rowEntry)
-        }
-
-        if (team.getAttribute('vh') === 'H') {
-          defenseTableH.appendChild(rowEntry)
-        } else {
-          defenseTableV.appendChild(rowEntry)
-        }
-      }
-    }
-    sortTable('DefenseTableH', 4)
-    sortTable('DefenseTableV', 4)
-  }
-
-
-  
-
-
-
-
-
-
-
-
 }
 
 function buildRosters(x) {
