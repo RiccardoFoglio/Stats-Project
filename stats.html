@@ -19,15 +19,14 @@
 
   <link rel="stylesheet" href="Styles/general.css">
   <link rel="stylesheet" href="Styles/navbar.css">
+  <link rel="stylesheet" href="Styles/elements.css">
+  <link rel="stylesheet" href="Styles/tables.css">
   <link rel="stylesheet" href="Styles/box-score.css">
   <link rel="stylesheet" href="Styles/team.css">
-  <link rel="stylesheet" href="Styles/individual.css">
-  <link rel="stylesheet" href="Styles/drives.css">
-
 
   <script src="script.js"></script>
-  
 </head>
+
 <body>
   <main>
     <article class="box-score football">     
@@ -44,7 +43,7 @@
 
       <section id="box-score" aria-label="Box Score" style="display: none;">
         <header class="panel">
-          <div class="row pad">
+          <div class="row pad-grid">
             <figure class="box-score-header">
               <div class="box-score-graphic" id="box-score-graphic">
 
@@ -116,7 +115,7 @@
       <section id="individual-stats" style="display: none;">
 
         <section class="panel" aria-label="Offensive">
-          <div > <!-- class="row pad" -->
+          <div class="row pad">
             <h4 class="sub-heading">Offensive</h4>
             <section id="individual-passing">
               <div class="row">
@@ -298,7 +297,7 @@
         </section>
 
         <section class="panel" aria-label="Defensive">
-          <div><!-- class="row pad" -->
+          <div class="row pad">
             <h4 class="sub-heading">Defensive</h4>
             <div class="sidearm-responsive-tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
               <ul class="navbar-nav">
@@ -360,7 +359,7 @@
         </section>
 
         <section class="panel" aria-label="Special Teams">
-          <div><!-- class="row pad" -->
+          <div class="row pad">
             <h4 class="sub-heading">Special Teams</h4>
             <section id="individual-punting">
               <div class="row">
@@ -572,15 +571,164 @@
         </section>
       </section>
       
-      <section id="drive-chart" style="display: block;">
-        
+      <section id="drive-chart" class="panel" style="display: none;">
+        <div class="row pad">
+          <h3 class="sub-heading">Drive Chart</h3>
+          <div class="sidearm-responsive-tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
+
+            <ul class="navbar-nav" id="driveNavbar">
+              <li class="nav-item active"><a href="#all-drives">All</a></li>
+              <li class="nav-item"><a id="awayDrive_button" href="#away-drives"></a></li>
+              <li class="nav-item"><a id="homeDrive_button" href="#home-drives"></a></li>
+            </ul>
+
+            <section id="all-drives" class="ui-tabs-select">
+              <table id="driveQuarterTable" class="sidearm-table overall-stats">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th class="text-center" colspan="4">Drive Started</th>
+                    <th class="text-center" colspan="3">Drive Ended</th>
+                    <th class="text-center" colspan="2">Consumed</th>
+                  </tr>
+                  <tr>
+                    <th class="text-center">Team</th>
+                    <th class="text-center">Qtr</th>
+                    <th class="text-center">Spot</th>
+                    <th class="text-center">Time</th>
+                    <th class="text-center">Obtained</th>
+                    <th class="text-center">Spot</th>
+                    <th class="text-center">Time</th>
+                    <th class="text-center">How Lost</th>
+                    <th class="text-center">Pl-Yds</th>
+                    <th class="text-center">TOP</th>
+                  </tr>
+                </thead>
+                <tbody id="driveQuarterTable-body" class="highlight-hover"></tbody>
+              </table>
+            </section>
+
+            <section id="away-drives" class="ui-tabs-select">
+              <table id="driveTableAway" class="sidearm-table overall-stats">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th class="text-center" colspan="4">Drive Started</th>
+                    <th class="text-center" colspan="3">Drive Ended</th>
+                    <th class="text-center" colspan="2">Consumed</th>
+                  </tr>
+                  <tr>
+                    <th class="text-center">Team</th>
+                    <th class="text-center">Qtr</th>
+                    <th class="text-center">Spot</th>
+                    <th class="text-center">Time</th>
+                    <th class="text-center">Obtained</th>
+                    <th class="text-center">Spot</th>
+                    <th class="text-center">Time</th>
+                    <th class="text-center">How Lost</th>
+                    <th class="text-center">Pl-Yds</th>
+                    <th class="text-center">TOP</th>
+                  </tr>
+                </thead>
+                <tbody id="driveTableAway-body" class="highlight-hover"></tbody>
+              </table>
+            </section>
+
+            <section id="home-drives" class="ui-tabs-select">
+              <table id="driveTableHome" class="sidearm-table overall-stats">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th class="text-center" colspan="4">Drive Started</th>
+                    <th class="text-center" colspan="3">Drive Ended</th>
+                    <th class="text-center" colspan="2">Consumed</th>
+                  </tr>
+                  <tr>
+                    <th class="text-center">Team</th>
+                    <th class="text-center">Qtr</th>
+                    <th class="text-center">Spot</th>
+                    <th class="text-center">Time</th>
+                    <th class="text-center">Obtained</th>
+                    <th class="text-center">Spot</th>
+                    <th class="text-center">Time</th>
+                    <th class="text-center">How Lost</th>
+                    <th class="text-center">Pl-Yds</th>
+                    <th class="text-center">TOP</th>
+                  </tr>
+                </thead>
+                <tbody id="driveTableHome-body" class="highlight-hover"></tbody>
+              </table>
+            </section>
+
+          </div>
+        </div>
         
 
       </section>
 
-      
-      <section id="play-by-play" style="display: none;"></section>
-      <section id="roster" style="display: none;"></section>
+      <section id="play-by-play" class="panel" style="display: none;">
+        <div class="row pad">
+          <h3 class="sub-heading">Play By Play</h3>
+          <div class="sidearm-responsive-tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
+            <ul class="navbar-nav">
+              <li class="nav-item active"><a href="#1st">1ST</a></li>
+              <li class="nav-item"><a href="#2nd">2ND</a></li>
+              <li class="nav-item"><a href="#3rd">3RD</a></li>
+              <li class="nav-item"><a href="#4th">4TH</a></li>
+              <li class="nav-item hide"><OT href="#ot">OT</a></li>
+            </ul>
+
+            <section id="1st" class="ui-tabs-select">
+
+            </section>
+
+            <section id="2nd" class="ui-tabs-select"></section>
+
+            <section id="3rd" class="ui-tabs-select"></section>
+
+            <section id="4th" class="ui-tabs-select"></section>
+
+            <section id="ot" class="ui-tabs-select hide"></section>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="roster" style="display: none;">
+        <div class="row pad">
+          <h4 class="sub-heading">Player Participation</h4>
+        </div>
+        <div class="row">
+          <div class="large-6 columns">
+            <div class="dataTables_wrapper">
+              <table id="rosterVisTable" class="sidearm-table overall-stats centered-caption dataTable roster">
+                <caption id="V-roster"></caption>
+                <thead>
+                  <tr>
+                    <th class="text-center">#</th>
+                    <th>Player</th>
+                  </tr>
+                </thead>
+                <tbody id="teamRosterVis-table-body" class="highlight-hover"></tbody>
+              </table>
+            </div>
+          </div>
+          <div class="large-6 columns">
+            <div class="dataTables_wrapper">
+              <table id="rosterHomeTable" class="sidearm-table overall-stats centered-caption dataTable roster">
+                <caption id="H-roster"></caption>
+                <thead>
+                  <tr>
+                    <th class="text-center">#</th>
+                    <th>Player</th>
+                  </tr>
+                </thead>
+                <tbody id="teamRosterHome-table-body" class="highlight-hover"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
 
   </article>
   </main>

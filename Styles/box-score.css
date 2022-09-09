@@ -1,40 +1,6 @@
-.panel {
-  background-color: white;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 0;
-    padding-right: 0;
-    border: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-/*HEADER*/
 .box-score {
   position: relative;
   color: #494949;
-}
-
-.row.pad {
-  padding-left: 24px;
-  padding-right: 24px;
-
-  display: grid;
-  align-items: center;
-  justify-content: center;
-}
-
-.row {
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  *zoom: 1;
-}
-
-.row:before,
-.row:after {
-  content: "";
-  display: table;
 }
 
 .box-score-header {
@@ -168,27 +134,13 @@
   position: static;
 }
 
-.box-score table {
-  margin-bottom: 0px;
-}
-
-.sidearm-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
 .info-graphic table caption,
 figure.box-score-header table caption {
   display: none !important;
 }
 
-.box-score table caption {
-  font-weight: bold;
-  font-size: 1.4em;
-  line-height: 2;
-  border-bottom: 5px solid black;
-  text-align: left;
-}
+
+
 
 /*THEAD*/
 figure.box-score-header table thead {
@@ -198,10 +150,6 @@ figure.box-score-header table thead {
 .info-graphic table thead,
 figure.box-score-header table thead {
   border-bottom: 2px solid black;
-  background: none;
-}
-
-.sidearm-table thead {
   background: none;
 }
 
@@ -226,28 +174,10 @@ figure.box-score-header table thead th {
   vertical-align: bottom;
 }
 
-.sidearm-table thead th {
-  font-weight: bold;
-  padding: 4px 8px;
-  font-style: italic;
-  color: #494949;
-  vertical-align: bottom;
-}
-
-.sidearm-table th, .sidearm-table td {
-  word-break: normal;
-  font-size: 14px;
-}
-
 /*TBODY*/
 .info-graphic table tbody tr,
 figure.box-score-header table tbody tr {
   border-bottom: 1px solid #cccccc;
-}
-
-.sidearm-table tbody tr {
-  border-top: 1px solid #cccccc;
-  background: none;
 }
 
 figure.box-score-header table tbody tr td:first-child,
@@ -261,7 +191,6 @@ figure.box-score-header table tbody tr th {
   border-right: 1px solid #cccccc;
 }
 
-
 .info-graphic table tbody td,
 figure.box-score-header table tbody td,
 .info-graphic table tbody th,
@@ -272,25 +201,6 @@ figure.box-score-header table tbody th {
   color: #494949;
 }
 
-.sidearm-table tbody tr td,
-.sidearm-table tbody tr th {
-  padding: 4px 8px;
-  color: #494949;
-  border: 1px solid #cccccc;
-  vertical-align: top;
-}
-
-.sidearm-table tbody tr th {
-  text-align: left;
-  font-weight: normal;
-}
-
-.sidearm-table th,
-.sidearm-table td {
-  word-break: normal;
-  font-size: 0.9em;
-}
-
 .info-graphic table tbody td+td,
 figure.box-score-header table tbody td+td,
 .info-graphic table tbody th+td,
@@ -298,21 +208,7 @@ figure.box-score-header table tbody th+td {
   text-align: right;
 }
 
-.sidearm-table tbody tr td.emphasize,
-.sidearm-table tbody tr th.emphasize {
-  background-color: #e5e5e5;
-  font-weight: bold;
-}
-
-
-.box-score table tr.emphasize,
-.box-score table td.emphasize {
-  background-color: #e5e5e5;
-  font-weight: bold;
-}
-
 /*DL*/
-
 .football header dl,
 .sfootball header dl {
   padding: 10px;
@@ -365,70 +261,11 @@ figure.box-score-header table tbody th+td {
   margin: 0 10px 0 2px;
 }
 
-.row:after {
-  clear: both;
-}
-
-.row:before,
-.row:after {
-  content: "";
-  display: table;
-}
-
-/*SECTION*/
-
-.column,
-.columns {
-  padding-left: 8px;
-  padding-right: 8px;
-  width: 100%;
-  float: left;
-  min-height: 1px;
-
-  display: flex;
-  flex-direction: column;
-}
-
 /*SCORING SUMMARY*/
-
-
-.box-score table caption {
-  font-weight: bold;
-  font-size: 1.4em;
-  line-height: 2;
-  border-bottom: 5px solid black;
-  text-align: left;
-  caption-side: top;
-}
 
 .box-score table.scoring-summary tfoot tr {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
-}
-
-.sidearm-table tfoot tr:nth-child(odd),
-.sidearm-table tfoot tr:nth-child(even) {
-  background-color: #e5e5e5;
-}
-
-.sidearm-table tfoot tr {
-  background-color: #e5e5e5;
-  border-top: 1px solid white;
-}
-
-
-.sidearm-table tfoot th, 
-.sidearm-table tfoot td {
-    padding: 4px 8px;
-    font-weight: bold;
-    color: #494949;
-    text-align: left;
-}
-
-.sidearm-table th,
-.sidearm-table td {
-  word-break: normal;
-  font-size: 0.9em;
 }
 
 .scoring-summary td:not(td:nth-child(3)){
@@ -437,33 +274,4 @@ figure.box-score-header table tbody th+td {
 
 .scoring-summary th {
   text-align: center;
-}
-
-/*REFS*/
-
-.sidearm-table tfoot tr:nth-child(odd),
-.sidearm-table tfoot tr:nth-child(even) {
-  background-color: #e5e5e5;
-}
-
-.sidearm-table tfoot tr {
-  background-color: #e5e5e5;
-  border-top: 1px solid white;
-}
-
-.box-score table tfoot td,
-.box-score table tfoot th {
-  border-right: 1px solid #cccccc;
-}
-
-.sidearm-table tfoot th,
-.sidearm-table tfoot td {
-  padding: 4px 8px;
-  font-weight: bold;
-  color: #494949;
-  text-align: left;
-}
-
-.sidearm-table tr td span {
-  font-weight: 400 !important;
 }

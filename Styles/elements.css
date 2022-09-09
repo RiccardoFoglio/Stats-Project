@@ -1,0 +1,73 @@
+.box-score .sub-heading {
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 2;
+  border-bottom: 5px solid black;
+  margin: 0 0 10px 0;
+}
+
+.panel {
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row.pad {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.row.pad-grid {
+  padding-left: 24px;
+  padding-right: 24px;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  *zoom: 1;
+}
+
+.row .row {
+  margin-left: -12px;
+  margin-right: -12px;
+  max-width: none;
+  *zoom: 1;
+}
+
+.row .large-6 {
+  width: 50%;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+
+.column,
+.columns {
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 100%;
+  float: left;
+  min-height: 1px;
+
+  display: flex;
+  flex-direction: column;
+}
