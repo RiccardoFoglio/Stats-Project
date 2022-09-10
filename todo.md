@@ -18,6 +18,10 @@
 - [x] Team stats
 - [x] Ind stats
   - [] PAT TABLE!!!
-- [] drive chart
-- [] play-by-play
-- [] roster
+- [x] drive chart
+- [x] play-by-play
+- [x] roster
+- [x] menu
+- [ ] responsive
+- [ ] plays double score TD, XP
+- [x] all Names in capitalize

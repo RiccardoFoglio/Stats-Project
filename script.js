@@ -3,20 +3,39 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 $(document).ready(function () {
-  $('ul.navbar-nav > li')
-      .click(function (e) {
-    $('ul.navbar-nav > li')
-      .removeClass('active'); 
+
+  menuCall('topNavbar')
+  $('#topNavbar.navbar-nav > li').click(function (e) {
+    $('#topNavbar.navbar-nav > li').removeClass('active');
     $(this).addClass('active');
+    menuCall('topNavbar') 
+  });
+
+  menuCall('defenseNavbar')
+  $('#individual-stats ul.navbar-nav > li').click(function (e) {
+    $('#individual-stats ul.navbar-nav > li').removeClass('active');
+    $(this).addClass('active');
+    menuCall('defenseNavbar')
+  });
+
+  menuCall('driveNavbar')
+  $('#drive-chart ul.navbar-nav > li').click(function (e) {
+    $('#drive-chart ul.navbar-nav > li').removeClass('active');
+    $(this).addClass('active');
+    menuCall('driveNavbar')
+  });
+
+  menuCall('playsNavbar')
+  $('#play-by-play ul.navbar-nav > li').click(function (e) {
+    $('#play-by-play ul.navbar-nav > li').removeClass('active');
+    $(this).addClass('active');
+    menuCall('playsNavbar')
   });
 });
 
 
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
-  const url = "iflxml/20220644.xml"
+  const url = "2divxml/20220046.xml"
   //20220644
   fetch(url)
   .then(response=>response.text())
@@ -37,43 +56,16 @@ document.addEventListener('DOMContentLoaded', () => {
 ////////////////////////////////////////////////////////AUXILIARY FUNCTIONS////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function backToTop(){
-  window.scrollTo({top: 0, behavior: 'smooth'})
-}
-
-function toggleText(id){
-  var element = document.getElementById('contentSeparator'),
-      bodyRect = document.body.getBoundingClientRect(),
-      elemRect = element.getBoundingClientRect(),
-      offset   = elemRect.top - bodyRect.top;
-
-  window.scrollTo({top: offset  - 180, behavior: 'smooth'})
-  allDivs = document.getElementsByClassName('contentDiv')
-  for(i=0; i<allDivs.length; i++){
-    if (allDivs.id !== id)
-      allDivs[i].style.display = 'none';
-  }
-  var x = document.getElementById(id);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-
-function toggleTextSingle(id){
-  
-  let allDivs = document.getElementsByClassName('ContainerDisappear')
-  for(i=0; i<allDivs.length; i++){
-    if (allDivs.id !== id)
-      allDivs[i].style.display = 'none';
-  }
-
-  var x = document.getElementById(id);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+function menuCall(id){
+  let sections = document.getElementById(id).getElementsByTagName('li')
+  for (let i = 0; i < sections.length; i++) {
+    const element = sections[i];
+    let id = element.getElementsByTagName('a')[0].getAttribute('href').slice(1)
+    if (element.classList.contains('active')) {
+      document.getElementById(id).style.display = 'block'
+    } else {
+      document.getElementById(id).style.display = 'none'
+    }
   }
 }
 
@@ -148,7 +140,7 @@ function numToQRT(val){
 }
 
 function capitalize(str){
-  const words = str.toLowerCase().split(' ')
+  const words = str.toLowerCase().split('.').join(' ').split(' ')
   for (let i = 0; i < words.length; i++) {
     words[i] = words[i][0].toUpperCase() + words[i].substr(1)
   }
@@ -437,7 +429,7 @@ function tripleDatum(cont, wherefromH, wherefromV, a1, a2, a3, whereto){
   whereto.appendChild(rowEntry)
 }
 
-function sortTable(id, pos) {
+function sortTable(id, pos, order) {
   let table, rows, switching, i, x, y, shouldSwitch;
   table = document.getElementById(id);
   switching = true;
@@ -451,10 +443,18 @@ function sortTable(id, pos) {
       x = rows[i].getElementsByTagName("td")[pos];
       y = rows[i + 1].getElementsByTagName("td")[pos];
 
-      if (Number(x.innerHTML) < Number(y.innerHTML) ) {
-        shouldSwitch = true;
-        break;
+      if (order === 'low'){
+        if (Number(x.innerHTML) > Number(y.innerHTML) ) {
+          shouldSwitch = true;
+          break;
+        }
+      } else if (order === 'high'){
+        if (Number(x.innerHTML) < Number(y.innerHTML) ) {
+          shouldSwitch = true;
+          break;
+        }
       }
+      
       //x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()
       //xlog = x.innerHTML.match(/\d+/g);
     }
@@ -968,7 +968,7 @@ function buildPlays(x){
     const firstDriveQtr = plays[0].getAttribute('playid').split(',')[0] 
     const lastDriveQtr = plays[plays.length-1].getAttribute('playid').split(',')[0]
 
-    const firstPlayQtr = plays[0].getAttribute('playid').split(',')[2]
+    //const firstPlayQtr = plays[0].getAttribute('playid').split(',')[2]
     const lastPlayQtr = plays[plays.length-1].getAttribute('playid').split(',')[2]
 
     for (let nd = Number(firstDriveQtr); nd <= Number(lastDriveQtr); nd++) {
@@ -981,6 +981,7 @@ function buildPlays(x){
 
       rowEntry = document.createElement('tr')
       if (nd === Number(firstDriveQtr)){
+        let th
         switch (nq) {
           case 0:
             quarterDiv = document.getElementById('1st')
@@ -989,7 +990,11 @@ function buildPlays(x){
             break;
           case 1:
             quarterDiv = document.getElementById('2nd')
-            createElementAttr('th', 'Start of Quarter #2', 'class', 'text-center', rowEntry)
+            th = document.createElement('th')
+            th.textContent = 'Start of Quarter #2'
+            th.setAttribute('colspan', '2')
+            th.classList.add('text-center')
+            rowEntry.appendChild(th)
             break;
           case 2:
             quarterDiv = document.getElementById('3rd')
@@ -998,7 +1003,11 @@ function buildPlays(x){
             break;
           case 3:
             quarterDiv = document.getElementById('4th')
-            createElementAttr('th', 'Start of Quarter #4', 'class', 'text-center', rowEntry)
+            th = document.createElement('th')
+            th.textContent = 'Start of Quarter #4'
+            th.setAttribute('colspan', '2')
+            th.classList.add('text-center')
+            rowEntry.appendChild(th)
             break;
           case 4:
             quarterDiv = document.getElementById('ot')
@@ -1134,12 +1143,15 @@ function buildRosters(x) {
 
         rowEntry = document.createElement('tr')
         if (player.getAttribute('name') !== 'TEAM') {
-          createElementAttr('td', player.getAttribute('uni'), 'class', 'text-center', rowEntry)  
+          createElementAttr('td', Number(player.getAttribute('uni')), 'class', 'text-center', rowEntry)  
           createElementHTML('td', player.getAttribute('name'), rowEntry)
         }
         roster.appendChild(rowEntry)
     }
   }
+
+  sortTable('teamRosterVis-table', 0, 'low')
+  sortTable('teamRosterHome-table', 0, 'low')
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1239,7 +1251,7 @@ function buildReferees(x) {
     rowEntry = document.createElement('tr')
     for (let j = 0; j < 3; j++) {
       if (officials.attributes[refPos]?.name){
-        createElementHTML('td', `${refToReferee(officials.attributes[refPos]?.name)}: ${officials.attributes[refPos]?.value}`, rowEntry)
+        createElementHTML('td', `${refToReferee(officials.attributes[refPos]?.name)}: ${capitalize(officials.attributes[refPos]?.value)}`, rowEntry)
       }
       refPos += 1
     }
@@ -1324,19 +1336,19 @@ function buildIndOffense(x) {
     }
   }
 
-  sortTable('passingStatsHome-table', 2)
+  sortTable('passingStatsHome-table', 2, 'high')
   insertTotalRow('passingStatsHome-table', 'pass')
-  sortTable('passingStatsVis-table',  2)
+  sortTable('passingStatsVis-table',  2, 'high')
   insertTotalRow('passingStatsVis-table', 'pass')
 
-  sortTable('rushingStatsHome-table', 4)
+  sortTable('rushingStatsHome-table', 4, 'high')
   insertTotalRow('rushingStatsHome-table', 'rush')
-  sortTable('rushingStatsVis-table', 4)
+  sortTable('rushingStatsVis-table', 4, 'high')
   insertTotalRow('rushingStatsVis-table', 'rush')
 
-  sortTable('receivingStatsHome-table', 1)
+  sortTable('receivingStatsHome-table', 1, 'high')
   insertTotalRow('receivingStatsHome-table', 'rec')
-  sortTable('receivingStatsVis-table', 1)
+  sortTable('receivingStatsVis-table', 1, 'high')
   insertTotalRow('receivingStatsVis-table', 'rec')
 
 }
@@ -1468,8 +1480,8 @@ function buildDefense(x){
         }
       }
     }
-    sortTable('DefenseTableH', 4)
-    sortTable('DefenseTableV', 4)
+    sortTable('DefenseTableH', 4, 'high')
+    sortTable('DefenseTableV', 4, 'high')
   }
 }
 
@@ -1657,22 +1669,22 @@ function buildSpecialTeams(x){
     }
   }
 
-  sortTable('allPurposeStatsHome-table', 6)
+  sortTable('allPurposeStatsHome-table', 6, 'high')
   insertTotalRow('allPurposeStatsHome-table', 'allPurp')
-  sortTable('allPurposeStatsVis-table', 6)
+  sortTable('allPurposeStatsVis-table', 6, 'high')
   insertTotalRow('allPurposeStatsVis-table', 'allPurp')
 
-  sortTable('puntingStatsHome-table', 2)
+  sortTable('puntingStatsHome-table', 2, 'high')
   insertTotalRow('puntingStatsHome-table', 'punt')
-  sortTable('puntingStatsVis-table', 2)
+  sortTable('puntingStatsVis-table', 2, 'high')
   insertTotalRow('puntingStatsVis-table', 'punt')
 
   insertTotalRow('allReturnsStatsHome-table', 'allRet')
   insertTotalRow('allReturnsStatsVis-table', 'allRet')
   
-  sortTable('kickoffStatsHome-table', 2)
+  sortTable('kickoffStatsHome-table', 2, 'high')
   insertTotalRow('kickoffStatsHome-table', 'ko')
-  sortTable('kickoffStatsVis-table', 2)
+  sortTable('kickoffStatsVis-table', 2, 'high')
   insertTotalRow('kickoffStatsVis-table', 'ko')
 
 }
