@@ -1,165 +1,218 @@
 .box-score table {
-    margin-bottom: 0;
-    width: 100% !important;
+  margin-bottom: 0;
+  width: 100% !important;
 }
 
 .box-score table.overall-stats {
-    position: relative;
-    margin-top: 20px;
+  position: relative;
+  margin-top: 20px;
 }
 
 .box-score table.overall-stats.centered-caption caption {
-    position: static;
-    text-align: center;
-    background-color: #e5e5e5;
-    color: #494949;
-    border-bottom: 1px solid #cccccc;
+  position: static;
+  text-align: center;
+  background-color: #e5e5e5;
+  color: #494949;
+  border-bottom: 1px solid #cccccc;
 }
 
 .box-score table.overall-stats caption {
-    font-size: 1em;
-    border: none;
-    line-height: 1.2;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 5px;
-    font-style: italic;
+  font-size: 1em;
+  border: none;
+  line-height: 1.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5px;
+  font-style: italic;
 }
 
 
 .box-score table caption {
-    font-weight: bold;
-    font-size: 1.4em;
-    line-height: 2;
-    border-bottom: 5px solid black;
-    text-align: left;
-    caption-side: top;
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 2;
+  border-bottom: 5px solid black;
+  text-align: left;
+  caption-side: top;
 }
 
 
 .sidearm-table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 .sidearm-table thead {
-    background: none;
+  background: none;
 }
 
 .sidearm-table thead th {
-    font-weight: bold;
-    padding: 4px 8px;
-    font-style: italic;
-    color: #494949;
-    vertical-align: bottom;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-style: italic;
+  color: #494949;
+  vertical-align: bottom;
 }
 
 .sidearm-table th,
 .sidearm-table td {
-    word-break: normal;
-    font-size: 0.9em;
+  word-break: normal;
+  font-size: 0.9em;
 }
 
 .sidearm-table tbody tr {
-    border-top: 1px solid #cccccc;
-    background: none;
+  border-top: 1px solid #cccccc;
+  background: none;
 }
 
 .sidearm-table tbody tr td,
 .sidearm-table tbody tr th {
-    padding: 4px 8px;
-    color: #494949;
-    border: 1px solid #cccccc;
-    vertical-align: top;
+  padding: 4px 8px;
+  color: #494949;
+  border: 1px solid #cccccc;
+  vertical-align: top;
 }
 
 .sidearm-table tbody tr th {
-    text-align: left;
-    font-weight: normal;
+  text-align: left;
+  font-weight: normal;
 }
 
 .sidearm-table th,
 .sidearm-table td {
-    word-break: normal;
-    font-size: 0.9em;
+  word-break: normal;
+  font-size: 0.9em;
 }
 
 .sidearm-table tbody tr td.emphasize,
 .sidearm-table tbody tr th.emphasize {
-    background-color: #e5e5e5;
-    font-weight: bold;
+  background-color: #e5e5e5;
+  font-weight: bold;
 }
 
 .sidearm-table tbody tr td:last-child,
 .sidearm-table tbody tr th:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .sidearm-table tbody tr td:first-child,
 .sidearm-table tbody tr th:first-child {
-    border-left: none;
+  border-left: none;
 }
 
 .sidearm-table tbody tr th[scope=colgroup] {
-    background-color: #e5e5e5;
-    font-weight: bold;
-    font-style: italic;
-    text-transform: uppercase;
+  background-color: #e5e5e5;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
 }
 
 .box-score table tr.emphasize,
 .box-score table td.emphasize {
-    background-color: #e5e5e5;
-    font-weight: bold;
+  background-color: #e5e5e5;
+  font-weight: bold;
 }
 
 .sidearm-table tfoot tr:nth-child(odd),
 .sidearm-table tfoot tr:nth-child(even) {
-    background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .sidearm-table tfoot tr td:last-child,
 .sidearm-table tfoot tr th:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .sidearm-table tfoot tr td:first-child,
 .sidearm-table tfoot tr th:first-child {
-    border-left: none;
+  border-left: none;
 }
 
 .sidearm-table tfoot tr {
-    background-color: #e5e5e5;
-    border-top: 1px solid white;
+  background-color: #e5e5e5;
+  border-top: 1px solid white;
 }
 
 .sidearm-table tfoot th,
 .sidearm-table tfoot td {
-    padding: 4px 8px;
-    font-weight: bold;
-    color: #494949;
-    text-align: left;
+  padding: 4px 8px;
+  font-weight: bold;
+  color: #494949;
+  text-align: left;
 }
 
 .box-score table tfoot td,
 .box-score table tfoot th {
-    border-right: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
 }
 
 .sidearm-table tr td span {
-    font-weight: 400 !important;
-}
-
-.plays td:first-child {
-    width: 15%;
+  font-weight: 400 !important;
 }
 
 .plays td.emphasize.primary {
-    background-color: rgb(0, 0, 139);
-    color: white;
+  background-color: rgb(0, 0, 139);
+  color: white;
 }
 
 .roster td:first-child {
-    width: 15%;
+  width: 15%;
+}
+
+
+.sidearm-table[class*="collapse"] thead {
+  display: none;
+}
+
+.sidearm-table[class*="collapse"] tbody,
+.sidearm-table[class*="collapse"] tfoot,
+.sidearm-table[class*="collapse"] tr,
+.sidearm-table[class*="collapse"] td,
+.sidearm-table[class*="collapse"] th,
+.sidearm-table[class*="collapse"] caption {
+  display: block;
+}
+
+.sidearm-table[class*="collapse"] tbody tr td[data-label]:before,
+.sidearm-table[class*="collapse"] tfoot tr td[data-label]:before,
+.sidearm-table[class*="collapse"] tbody tr th[data-label]:before,
+.sidearm-table[class*="collapse"] tfoot tr th[data-label]:before {
+  text-align: left !important;
+  content: attr(data-label);
+  display: block;
+  width: 50%;
+  float: left;
+  clear: both;
+}
+
+.sidearm-table[class*="collapse"] tbody tr td+td,
+.sidearm-table[class*="collapse"] tfoot tr td+td,
+.sidearm-table[class*="collapse"] tbody tr th+td,
+.sidearm-table[class*="collapse"] tfoot tr th+td,
+.sidearm-table[class*="collapse"] tbody tr td+th,
+.sidearm-table[class*="collapse"] tfoot tr td+th,
+.sidearm-table[class*="collapse"] tbody tr th+th,
+.sidearm-table[class*="collapse"] tfoot tr th+th {
+  border: none;
+}
+
+.sidearm-table[class*="collapse"] tbody tr td[data-label],
+.sidearm-table[class*="collapse"] tfoot tr td[data-label],
+.sidearm-table[class*="collapse"] tbody tr th[data-label],
+.sidearm-table[class*="collapse"] tfoot tr th[data-label] {
+  text-align: right !important;
+}
+
+.sidearm-table[class*="collapse"] tbody tr:before,
+.sidearm-table[class*="collapse"] tfoot tr:before,
+.sidearm-table[class*="collapse"] tbody tr:after,
+.sidearm-table[class*="collapse"] tfoot tr:after {
+  content: "";
+  display: table;
+}
+
+.sidearm-table[class*="collapse"] tbody tr:after,
+.sidearm-table[class*="collapse"] tfoot tr:after {
+  clear: both;
 }

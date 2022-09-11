@@ -11,717 +11,731 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sen:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="Styles/general.css">
   <link rel="stylesheet" href="Styles/navbar.css">
+
+  <link rel="stylesheet" href="Styles/general.css">
   <link rel="stylesheet" href="Styles/elements.css">
   <link rel="stylesheet" href="Styles/tables.css">
   <link rel="stylesheet" href="Styles/box-score.css">
   <link rel="stylesheet" href="Styles/team.css">
+  
+  <link rel="stylesheet" href="Styles/nmstateresponsive.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script src="script.js"></script>
 </head>
 
 <body>
-  <main>
-    <article class="box-score football">     
+  <main class="main-content-placeholder">
+    <article class="box-score football sidearm-responsive">     
+      <div class="siderarm-responsive-tabs main-tabs ui-tabs ui-corner-all ui-widget ui-widget-content" ui-tabs tabs-mobile-select>
+        
+        <ul class="navbar-nav hide-on-medium-dowm" id="topNavbar" role="tablist">
+          <li role="tab" class="nav-item active"><a role="presentation" href="#box-score" onclick="return false">Box Score</a></li>
+          <li role="tab" class="nav-item"><a role="presentation" href="#team-stats" onclick="return false">Team</a></li>
+          <li role="tab" class="nav-item"><a role="presentation" href="#individual-stats" onclick="return false">Individual</a></li>
+          <li role="tab" class="nav-item"><a role="presentation" href="#drive-chart" onclick="return false">Drive Chart</a></li>
+          <li role="tab" class="nav-item"><a role="presentation" href="#play-by-play" onclick="return false">Play-By-Play</a></li>
+          <li role="tab" class="nav-item"><a role="presentation" href="#roster" onclick="return false">Roster</a></li>          
+        </ul>
 
-      <ul class="navbar-nav" id="topNavbar">
-        <li class="nav-item active"><a href="#box-score" onclick="return false">Box Score</a></li>
-        <li class="nav-item"><a href="#team-stats" onclick="return false">Team</a></li>
-        <li class="nav-item"><a href="#individual-stats" onclick="return false">Individual</a></li>
-        <li class="nav-item"><a href="#drive-chart" onclick="return false">Drive Chart</a></li>
-        <li class="nav-item"><a href="#play-by-play" onclick="return false">Play-By-Play</a></li>
-        <li class="nav-item"><a href="#roster" onclick="return false">Roster</a></li>
-      </ul>
-
-      <section id="box-score" aria-label="Box Score">
-        <header class="panel">
-          <div class="row pad-grid">
-            <figure class="box-score-header">
-              <div class="box-score-graphic" id="box-score-graphic">
-
-                <div class="team away text-center">
-                  <div><img id="awayLogo" src="" alt=""></div>
-                  <span id="awayScore" class="score"></span>
+        <select id="box-score-select" class="ui-tabs-select hide-on-large">
+          <option value="#box-score">Box Score</option>
+          <option value="#team-stats">Team</option>
+          <option value="#individual-stats">Individual</option>
+          <option value="#drive-chart">Drive Chart</option>
+          <option value="#play-by-play">Play-By-Play</option>
+          <option value="#roster">Roster</option>
+        </select>
+  
+        <section id="box-score" aria-label="Box Score" aria-label="Box Score" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
+          <header class="panel">
+            <div class="row pad-grid">
+              <figure class="box-score-header">
+                <div class="box-score-graphic" id="box-score-graphic">
+                  <div class="team away text-center">
+                    <div><img id="awayLogo" src="" alt=""></div>
+                    <span id="awayScore" class="score"></span>
+                  </div>
+                  <div class="bracket">
+                    <span>vs</span>
+                  </div>
+                  <div class="team home text-center">
+                    <div><img id="homeLogo" src="" alt=""></div>
+                    <span id="homeScore" class="score"></span>
+                  </div>
                 </div>
-
-                <div class="bracket">
-                  <span>vs</span>
-                </div>
-
-                <div class="team home text-center">
-                  <div><img id="homeLogo" src="" alt=""></div>
-                  <span id="homeScore" class="score"></span>
-                </div>
-              </div>
-
-
-              <figcaption id="box-score-graphic-caption">
-                <!--title h4 element-->
-
-                <!--table-->
-                <table class="sidearm-table" id="score-qrt-table">
-                  <thead id="score-qrt-table-head"></thead>
-                  <tbody id="score-qrt-table-body" class="highlight-hover"></tbody>
+                <figcaption id="box-score-graphic-caption">
+                  <!--title h4 element-->
+                  <table class="sidearm-table highlight-hover" id="score-qrt-table">
+                    <thead id="score-qrt-table-head"></thead>
+                    <tbody id="score-qrt-table-body"></tbody>
+                  </table>
+                </figcaption>
+              </figure>
+              <dl id="general-info" class="text-center inline">
+              </dl>
+            </div>
+          </header>
+          <section class="panel" aria-label="Scoring Summary">
+            <h4 class="hide">Scoring Summary</h4>
+            <div class="row">
+              <div class="columns">
+                <table id="scoring-summary-table" class="sidearm-table scoring-summary collapse-on-medium highlight-hover">
+                  <caption>Scoring Summary</caption>
+                  <thead id="scoring-summary-table-head"></thead>
+                  <tbody id="scoring-summary-table-body"></tbody>
+                  <tfoot id="scoring-summary-table-foot"></tfoot>
                 </table>
-              </figcaption>
-            </figure>
-
-            <dl id="general-info" class="text-center inline">
-            </dl>
-          </div>
-        </header>
-
-        <section class="panel" aria-label="Scoring Summary">
-          <h4 class="hide">Scoring Summary</h4>
+                <br>
+                <table id="refs-table" class="sidearm-table special-stats" style="margin-top: 10px;">
+                  <tfoot id="refs-table-foot"></tfoot>
+                </table>
+              </div>
+            </div>
+          </section>
+        </section>
+        
+        <section id="team-stats" class="panel ui-tabs-panel ui-corner-bottom ui-widget-content">
           <div class="row">
-            <div class="column">
-              <table id="scoring-summary-table" class="sidearm-table scoring-summary">
-                <caption>Scoring Summary</caption>
-                <thead id="scoring-summary-table-head"></thead>
-                <tbody id="scoring-summary-table-body" class="highlight-hover"></tbody>
-                <tfoot id="scoring-summary-table-foot"></tfoot>
-              </table>
-              <br>
-              <table id="refs-table" class="sidearm-table special-stats">
-                <tfoot id="refs-table-foot"></tfoot>
+            <div class="columns">
+              <table id="teamTotalsComplete-table" class="sidearm-table overall-stats highlight-hover full">
+                <caption>Team Statistics</caption>
+                <thead id="teamTotalsComplete-table-head"></thead>
+                <tbody id="teamTotalsComplete-table-body"></tbody>
               </table>
             </div>
           </div>
-          
-
         </section>
-      </section>
+        
+        <section id="individual-stats" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
+        
+          <section class="panel" aria-label="Offensive">
+            <div>
+              <h4 class="sub-heading">Offensive</h4>
+              <section id="individual-passing">
+                <div class="row">
+                  <div class="large-6 columns">
+                    <div class="dataTables_wrapper">
+                      <table id="passingStatsVis-table" class="sidearm-table overall-stats centered-caption dataTable highlight-hover">
+                        <caption id="V-pass"></caption>
+                        <thead>
+                          <tr role="row">
+                            <th scope="col" class="text-hide">Player</th>
+                            <th scope="col" class="text-center">Cmp.</th>
+                            <th scope="col" class="text-center">Att.</th>
+                            <th scope="col" class="text-center">Yds.</th>
+                            <th scope="col" class="text-center">TD</th>
+                            <th scope="col" class="text-center">INT</th>
+                            <th scope="col" class="text-center">Long</th>
+                            <th scope="col" class="text-center">Sack</th>
+                          </tr>
+                        </thead>
+                        <tbody id="passingStatsVis-table-body"></tbody>
+                        <tfoot id="passingStatsVis-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="large-6 columns">
+                    <div class="dataTables_wrapper">
+                      <table id="passingStatsHome-table" class="sidearm-table overall-stats centered-caption dataTable highlight-hover">
+                        <caption id="H-pass"></caption>
+                        <thead>
+                          <tr role="row">
+                            <th scope="col" class="text-hide">Player</th>
+                            <th scope="col" class="text-center">Cmp.</th>
+                            <th scope="col" class="text-center">Att.</th>
+                            <th scope="col" class="text-center">Yds.</th>
+                            <th scope="col" class="text-center">TD</th>
+                            <th scope="col" class="text-center">INT</th>
+                            <th scope="col" class="text-center">Long</th>
+                            <th scope="col" class="text-center">Sack</th>
+                          </tr>
+                        </thead>
+                        <tbody id="passingStatsHome-table-body"></tbody>
+                        <tfoot id="passingStatsHome-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="individual-rushing">
+                <div class="row">
+                  <div class="large-6 columns">
+                    <div class="dataTables_wrapper">
+                      <table id="rushingStatsVis-table" class="sidearm-table overall-stats centered-caption dataTable highlight-hover">
+                        <caption id="V-rush"></caption>
+                        <thead>
+                          <tr role="row">
+                            <th scope="col" class="text-hide">Player</th>
+                            <th scope="col" class="text-center">Att.</th>
+                            <th scope="col" class="text-center">Gain</th>
+                            <th scope="col" class="text-center">Loss</th>
+                            <th scope="col" class="text-center">Net</th>
+                            <th scope="col" class="text-center">TD</th>
+                            <th scope="col" class="text-center">Lg.</th>
+                            <th scope="col" class="text-center">Avg.</th>
+                          </tr>
+                        </thead>
+                        <tbody id="rushingStatsVis-table-body"></tbody>
+                        <tfoot id="rushingStatsVis-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="large-6 columns">
+                    <div class="dataTables_wrapper">
+                      <table id="rushingStatsHome-table" class="sidearm-table overall-stats centered-caption dataTable highlight-hover">
+                        <caption id="H-rush"></caption>
+                        <thead>
+                          <tr role="row">
+                            <th scope="col" class="text-hide">Player</th>
+                            <th scope="col" class="text-center">Att.</th>
+                            <th scope="col" class="text-center">Gain</th>
+                            <th scope="col" class="text-center">Loss</th>
+                            <th scope="col" class="text-center">Net</th>
+                            <th scope="col" class="text-center">TD</th>
+                            <th scope="col" class="text-center">Lg.</th>
+                            <th scope="col" class="text-center">Avg.</th>
+                          </tr>
+                        </thead>
+                        <tbody id="rushingStatsHome-table-body"></tbody>
+                        <tfoot id="rushingStatsHome-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="individual-receiving">
+                <div class="row">
+                  <div class="large-6 columns">
+                    <div class="dataTables_wrapper">
+                      <table id="receivingStatsVis-table" class="sidearm-table overall-stats centered-caption dataTable highlight-hover">
+                        <caption id="V-rec"></caption>
+                        <thead>
+                          <tr role="row">
+                            <th scope="col" class="text-hide">Player</th>
+                            <th scope="col" class="text-center">No.</th>
+                            <th scope="col" class="text-center">Yds</th>
+                            <th scope="col" class="text-center">TD</th>
+                            <th scope="col" class="text-center">Lg</th>
+                          </tr>
+                        </thead>
+                        <tbody id="receivingStatsVis-table-body"></tbody>
+                        <tfoot id="receivingStatsVis-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="large-6 columns">
+                    <div class="dataTables_wrapper">
+                      <table id="receivingStatsHome-table" class="sidearm-table overall-stats centered-caption dataTable highlight-hover">
+                        <caption id="H-rec"></caption>
+                        <thead>
+                          <tr role="row">
+                            <th scope="col" class="text-hide">Player</th>
+                            <th scope="col" class="text-center">No.</th>
+                            <th scope="col" class="text-center">Yds</th>
+                            <th scope="col" class="text-center">TD</th>
+                            <th scope="col" class="text-center">Lg</th>
+                          </tr>
+                        </thead>
+                        <tbody id="receivingStatsHome-table-body"></tbody>
+                        <tfoot id="receivingStatsHome-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="individual-allpurpose">
+                <div class="row">
+                  <div class="large-6 columns">
+                    <div class="dataTables_wrapper">
+                      <table id="allPurposeStatsVis-table" class="sidearm-table overall-stats centered-caption dataTable highlight-hover">
+                        <caption id="V-allpurp"></caption>
+                        <thead>
+                          <tr role="row">
+                            <th scope="col" class="text-hide">Player</th>
+                            <th scope="col" class="text-center">Rush</th>
+                            <th scope="col" class="text-center">Rcv</th>
+                            <th scope="col" class="text-center">KR</th>
+                            <th scope="col" class="text-center">PR</th>
+                            <th scope="col" class="text-center">IR</th>
+                            <th scope="col" class="text-center">Total</th>
+                          </tr>
+                        </thead>
+                        <tbody id="allPurposeStatsVis-table-body"></tbody>
+                        <tfoot id="allPurposeStatsVis-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="large-6 columns">
+                    <div class="dataTables_wrapper">
+                      <table id="allPurposeStatsHome-table" class="sidearm-table overall-stats centered-caption dataTable highlight-hover">
+                        <caption id="H-allpurp"></caption>
+                        <thead>
+                          <tr role="row">
+                            <th scope="col" class="text-hide">Player</th>
+                            <th scope="col" class="text-center">Rush</th>
+                            <th scope="col" class="text-center">Rcv</th>
+                            <th scope="col" class="text-center">KR</th>
+                            <th scope="col" class="text-center">PR</th>
+                            <th scope="col" class="text-center">IR</th>
+                            <th scope="col" class="text-center">Total</th>
+                          </tr>
+                        </thead>
+                        <tbody id="allPurposeStatsHome-table-body"></tbody>
+                        <tfoot id="allPurposeStatsHome-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+        
+          <section class="panel" aria-label="Defensive">
+            <div>
+              <h4 class="sub-heading">Defensive</h4>
+              <div class="sidearm-responsive-tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
 
-      <section id="team-stats" class="panel">
-        <div class="row">
-          <div class="column">
-            <table id="teamTotalsComplete-table" class="sidearm-table overall-stats full">
-              <caption>Team Statistics</caption>
-              <thead id="teamTotalsComplete-table-head"></thead>
-              <tbody id="teamTotalsComplete-table-body" class="highlight-hover"></tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <section id="individual-stats" class="panel">
-
-        <section class="panel" aria-label="Offensive">
-          <div>
-            <h4 class="sub-heading">Offensive</h4>
-            <section id="individual-passing">
-              <div class="row">
-                <div class="large-6 columns">
-                  <div class="dataTables_wrapper">
-                    <table id="passingStatsVis-table" class="sidearm-table overall-stats centered-caption dataTable">
-                      <caption id="V-pass"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Cmp.</th>
-                          <th class="text-center">Att.</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">TD</th>
-                          <th class="text-center">INT</th>
-                          <th class="text-center">Long</th>
-                          <th class="text-center">Sack</th>
-                        </tr>
-                      </thead>
-                      <tbody id="passingStatsVis-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="passingStatsVis-table-foot"></tfoot>
-                    </table>
-                  </div>
-                </div>
-                <div class="large-6 columns">
-                  <div class="dataTables_wrapper">
-                    <table id="passingStatsHome-table" class="sidearm-table overall-stats centered-caption dataTable">
-                      <caption id="H-pass"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Cmp.</th>
-                          <th class="text-center">Att.</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">TD</th>
-                          <th class="text-center">INT</th>
-                          <th class="text-center">Long</th>
-                          <th class="text-center">Sack</th>
-                        </tr>
-                      </thead>
-                      <tbody id="passingStatsHome-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="passingStatsHome-table-foot"></tfoot>
-                    </table>
-                  </div>
-                </div>
+                <ul class="navbar-nav" id="defenseNavbar">
+                  <li class="nav-item active"><a id="AwayDefense_button" href="#AwayDefense" onclick="return false"></a></li>
+                  <li class="nav-item"><a id="HomeDefense_button" href="#HomeDefense" onclick="return false"></a></li>
+                </ul>
+        
+                <section id="AwayDefense">
+                  <h5 class="sub-heading"></h5>
+                  <table id="DefenseTableV" class="sidearm-table overall-stats highlight-hover">
+                    <thead>
+                      <tr role="row">
+                        <th scope="col" class="text-center">##</th>
+                        <th scope="col" class="text-hide" id="DefenseV">Player</th>
+                        <th scope="col" class="text-center">Solo</th>
+                        <th scope="col" class="text-center hide-on-x-small-down">Ast</th>
+                        <th scope="col" class="text-center">Tot</th>
+                        <th scope="col" class="text-center hide-on-small-down">TFL/Yds</th>
+                        <th scope="col" class="text-center hide-on-medium">TFL</th>
+                        <th scope="col" class="text-center hide-on-small-down">Sack/Yds</th>
+                        <th scope="col" class="text-center hide-on-medium">Sacks</th>
+                        <th scope="col" class="text-center hide-on-small-down">FF</th>
+                        <th scope="col" class="text-center hide-on-small-down">FR-Yds</th>
+                        <th scope="col" class="text-center hide-on-medium">Fumbl</th>
+                        <th scope="col" class="text-center hide-on-small-down">INT</th>
+                        <th scope="col" class="text-center hide-on-medium">INT</th>
+                        <th scope="col" class="text-center hide-on-small-down">BrUp</th>
+                        <th scope="col" class="text-center hide-on-small-down">Blkd</th>
+                        <th scope="col" class="text-center hide-on-small-down">QH</th>
+                      </tr>
+                    </thead>
+                    <tbody id="DefenseTableV-body"></tbody>
+                  </table>
+                </section>
+                <section id="HomeDefense">
+                  <h5 class="sub-heading"></h5>
+                  <table id="DefenseTableH" class="sidearm-table overall-stats highlight-hover">
+                    <thead>
+                      <tr role="row">
+                        <th scope="col" class="text-center">##</th>
+                        <th scope="col" class="text-hide" id="DefenseH">Player</th>
+                        <th scope="col" class="text-center">Solo</th>
+                        <th scope="col" class="text-center hide-on-x-small-down">Ast</th>
+                        <th scope="col" class="text-center">Tot</th>
+                        <th scope="col" class="text-center hide-on-small-down">TFL/Yds</th>
+                        <th scope="col" class="text-center hide-on-medium">TFL</th>
+                        <th scope="col" class="text-center hide-on-small-down">Sack/Yds</th>
+                        <th scope="col" class="text-center hide-on-medium">Sacks</th>
+                        <th scope="col" class="text-center hide-on-small-down">FF</th>
+                        <th scope="col" class="text-center hide-on-small-down">FR-Yds</th>
+                        <th scope="col" class="text-center hide-on-medium">Fumbl</th>
+                        <th scope="col" class="text-center hide-on-small-down">INT</th>
+                        <th scope="col" class="text-center hide-on-medium">INT</th>
+                        <th scope="col" class="text-center hide-on-small-down">BrUp</th>
+                        <th scope="col" class="text-center hide-on-small-down">Blkd</th>
+                        <th scope="col" class="text-center hide-on-small-down">QH</th>
+                      </tr>
+                    </thead>
+                    <tbody id="DefenseTableH-body"></tbody>
+                  </table>
+        
+        
+                </section>
               </div>
-            </section>
-            <section id="individual-rushing">
-              <div class="row">
-                <div class="large-6 columns">
-                  <div class="dataTables_wrapper">
-                    <table id="rushingStatsVis-table" class="sidearm-table overall-stats centered-caption dataTable">
-                      <caption id="V-rush"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Att.</th>
-                          <th class="text-center">Gain</th>
-                          <th class="text-center">Loss</th>
-                          <th class="text-center">Net</th>
-                          <th class="text-center">TD</th>
-                          <th class="text-center">Lg.</th>
-                          <th class="text-center">Avg.</th>
-                        </tr>
-                      </thead>
-                      <tbody id="rushingStatsVis-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="rushingStatsVis-table-foot"></tfoot>
-                    </table>
+            </div>
+          </section>
+        
+          <section class="panel" aria-label="Special Teams">
+            <div>
+              <h4 class="sub-heading">Special Teams</h4>
+              <section id="individual-punting">
+                <div class="row">
+                  <div class="large-6 columns">
+                    <div class="dataTable_wrapper">
+                      <table id="puntingStatsVis-table" class="sidearm-table overall-stats centered-caption highlight-hover">
+                        <caption id="V-punt"></caption>
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th class="text-center">Punts</th>
+                            <th class="text-center">Yds.</th>
+                            <th class="text-center">Avg.</th>
+                            <th class="text-center">Long</th>
+                            <th class="text-center">In. 20</th>
+                            <th class="text-center">TB</th>
+                            <th class="text-center">50+ Yds.</th>
+                          </tr>
+                        </thead>
+                        <tbody id="puntingStatsVis-table-body"></tbody>
+                        <tfoot id="puntingStatsVis-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="large-6 columns">
+                    <div class="dataTable_wrapper">
+                      <table id="puntingStatsHome-table" class="sidearm-table overall-stats centered-caption highlight-hover">
+                        <caption id="H-punt"></caption>
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th class="text-center">Punts</th>
+                            <th class="text-center">Yds.</th>
+                            <th class="text-center">Avg.</th>
+                            <th class="text-center">Long</th>
+                            <th class="text-center">In. 20</th>
+                            <th class="text-center">TB</th>
+                            <th class="text-center">50+ Yds.</th>
+                          </tr>
+                        </thead>
+                        <tbody id="puntingStatsHome-table-body"></tbody>
+                        <tfoot id="puntingStatsHome-table-foot"></tfoot>
+                      </table>
+                    </div>
                   </div>
                 </div>
-                <div class="large-6 columns">
-                  <div class="dataTables_wrapper">
-                    <table id="rushingStatsHome-table" class="sidearm-table overall-stats centered-caption dataTable">
-                      <caption id="H-rush"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Att.</th>
-                          <th class="text-center">Gain</th>
-                          <th class="text-center">Loss</th>
-                          <th class="text-center">Net</th>
-                          <th class="text-center">TD</th>
-                          <th class="text-center">Lg.</th>
-                          <th class="text-center">Avg.</th>
-                        </tr>
-                      </thead>
-                      <tbody id="rushingStatsHome-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="rushingStatsHome-table-foot"></tfoot>
-                    </table>
+              </section>
+              <section id="individual-allreturns">
+                <div class="row">
+                  <div class="large-6 columns">
+                    <div class="dataTable_wrapper">
+                      <table id="allReturnsStatsVis-table" class="sidearm-table overall-stats centered-caption highlight-hover">
+                        <caption id="V-allret"></caption>
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th class="text-center" colspan="3">Punts</th>
+                            <th class="text-center" colspan="3">Kickoffs</th>
+                            <th class="text-center" colspan="3">Interceptions</th>
+                          </tr>
+                          <tr>
+                            <th></th>
+                            <th class="text-center">Ret.</th>
+                            <th class="text-center">Yds.</th>
+                            <th class="text-center">Lg</th>
+                            <th class="text-center">Ret.</th>
+                            <th class="text-center">Yds.</th>
+                            <th class="text-center">Lg</th>
+                            <th class="text-center">Ret.</th>
+                            <th class="text-center">Yds.</th>
+                            <th class="text-center">Lg</th>
+                          </tr>
+                        </thead>
+                        <tbody id="allReturnsStatsVis-table-body"></tbody>
+                        <tfoot id="allReturnsStatsVis-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="large-6 columns">
+                    <div class="dataTable_wrapper">
+                      <table id="allReturnsStatsHome-table" class="sidearm-table overall-stats centered-caption highlight-hover">
+                        <caption id="H-allret"></caption>
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th class="text-center" colspan="3">Punts</th>
+                            <th class="text-center" colspan="3">Kickoffs</th>
+                            <th class="text-center" colspan="3">Interceptions</th>
+                          </tr>
+                          <tr>
+                            <th></th>
+                            <th class="text-center">Ret.</th>
+                            <th class="text-center">Yds.</th>
+                            <th class="text-center">Lg</th>
+                            <th class="text-center">Ret.</th>
+                            <th class="text-center">Yds.</th>
+                            <th class="text-center">Lg</th>
+                            <th class="text-center">Ret.</th>
+                            <th class="text-center">Yds.</th>
+                            <th class="text-center">Lg</th>
+                          </tr>
+                        </thead>
+                        <tbody id="allReturnsStatsHome-table-body"></tbody>
+                        <tfoot id="allReturnsStatsHome-table-foot"></tfoot>
+                      </table>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </section>
-            <section id="individual-receiving">
-              <div class="row">
-                <div class="large-6 columns">
-                  <div class="dataTables_wrapper">
-                    <table id="receivingStatsVis-table" class="sidearm-table overall-stats centered-caption dataTable">
-                      <caption id="V-rec"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">No.</th>
-                          <th class="text-center">Yds</th>
-                          <th class="text-center">TD</th>
-                          <th class="text-center">Lg</th>
-                        </tr>
-                      </thead>
-                      <tbody id="receivingStatsVis-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="receivingStatsVis-table-foot"></tfoot>
-                    </table>
+              </section>
+              <section id="individual-fieldgoals">
+                <div class="row">
+                  <div class="large-6 columns">
+                    <div class="dataTable_wrapper">
+                      <table id="fieldGoalStatsVis-table" class="sidearm-table overall-stats centered-caption highlight-hover">
+                        <caption id="V-fieldgoal"></caption>
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th class="text-center">Qtr.</th>
+                            <th class="text-center">Clock</th>
+                            <th class="text-center">Yds.</th>
+                            <th class="text-center">Result</th>
+                          </tr>
+                        </thead>
+                        <tbody id="fieldGoalStatsVis-table-body"></tbody>
+                        <tfoot id="fieldGoalStatsVis-table-foot"></tfoot>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="large-6 columns">
+                    <div class="dataTable_wrapper">
+                      <table id="fieldGoalStatsHome-table" class="sidearm-table overall-stats centered-caption highlight-hover">
+                        <caption id="H-fieldgoal"></caption>
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th class="text-center">Qtr.</th>
+                            <th class="text-center">Clock</th>
+                            <th class="text-center">Yds.</th>
+                            <th class="text-center">Result</th>
+                          </tr>
+                        </thead>
+                        <tbody id="fieldGoalStatsHome-table-body"></tbody>
+                        <tfoot id="fieldGoalStatsHome-table-foot"></tfoot>
+        
+                      </table>
+                    </div>
                   </div>
                 </div>
-                <div class="large-6 columns">
-                  <div class="dataTables_wrapper">
-                    <table id="receivingStatsHome-table" class="sidearm-table overall-stats centered-caption dataTable">
-                      <caption id="H-rec"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">No.</th>
-                          <th class="text-center">Yds</th>
-                          <th class="text-center">TD</th>
-                          <th class="text-center">Lg</th>
-                        </tr>
-                      </thead>
-                      <tbody id="receivingStatsHome-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="receivingStatsHome-table-foot"></tfoot>
-                    </table>
+              </section>
+              <section id="individual-kickoffs">
+                <div class="row">
+                  <div class="large-6 columns">
+                    <div class="dataTable_wrapper">
+                      <table id="kickoffStatsVis-table" class="sidearm-table overall-stats centered-caption highlight-hover">
+                        <caption id="V-kickoff"></caption>
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th class="text-center">No.</th>
+                            <th class="text-center">Yds</th>
+                            <th class="text-center">TB</th>
+                            <th class="text-center">OB</th>
+                            <th class="text-center">Avg.</th>
+                          </tr>
+                        </thead>
+                        <tbody id="kickoffStatsVis-table-body"></tbody>
+                        <tfoot id="kickoffStatsVis-table-foot"></tfoot>
+        
+                      </table>
+                    </div>
+                  </div>
+                  <div class="large-6 columns">
+                    <div class="dataTable_wrapper">
+                      <table id="kickoffStatsHome-table" class="sidearm-table overall-stats centered-caption highlight-hover">
+                        <caption id="H-kickoff"></caption>
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th class="text-center">No.</th>
+                            <th class="text-center">Yds</th>
+                            <th class="text-center">TB</th>
+                            <th class="text-center">OB</th>
+                            <th class="text-center">Avg.</th>
+                          </tr>
+                        </thead>
+                        <tbody id="kickoffStatsHome-table-body"></tbody>
+                        <tfoot id="kickoffStatsHome-table-foot"></tfoot>
+                      </table>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </section>
-            <section id="individual-allpurpose">
-              <div class="row">
-                <div class="large-6 columns">
-                  <div class="dataTables_wrapper">
-                    <table id="allPurposeStatsVis-table" class="sidearm-table overall-stats centered-caption dataTable">
-                      <caption id="V-allpurp"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Rush</th>
-                          <th class="text-center">Rcv</th>
-                          <th class="text-center">KR</th>
-                          <th class="text-center">PR</th>
-                          <th class="text-center">IR</th>
-                          <th class="text-center">Total</th>
-                        </tr>
-                      </thead>
-                      <tbody id="allPurposeStatsVis-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="allPurposeStatsVis-table-foot"></tfoot>
-                    </table>
+              </section>
+              <section id="individual-pat">
+                <div class="row">
+                  <div class="large-6 columns">
+                    <div class="dataTable_wrapper">
+        
+                    </div>
+                  </div>
+                  <div class="large-6 columns">
+                    <div class="dataTable_wrapper">
+        
+                    </div>
                   </div>
                 </div>
-                <div class="large-6 columns">
-                  <div class="dataTables_wrapper">
-                    <table id="allPurposeStatsHome-table" class="sidearm-table overall-stats centered-caption dataTable">
-                      <caption id="H-allpurp"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Rush</th>
-                          <th class="text-center">Rcv</th>
-                          <th class="text-center">KR</th>
-                          <th class="text-center">PR</th>
-                          <th class="text-center">IR</th>
-                          <th class="text-center">Total</th>
-                        </tr>
-                      </thead>
-                      <tbody id="allPurposeStatsHome-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="allPurposeStatsHome-table-foot"></tfoot>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
+              </section>
+            </div>
+          </section>
         </section>
-
-        <section class="panel" aria-label="Defensive">
+        
+        <section id="drive-chart" class="panel">
           <div>
-            <h4 class="sub-heading">Defensive</h4>
+            <h3 class="sub-heading">Drive Chart</h3>
             <div class="sidearm-responsive-tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
-              <ul class="navbar-nav" id="defenseNavbar">
-                <li class="nav-item active"><a id="AwayDefense_button" href="#AwayDefense" onclick="return false"></a></li>
-                <li class="nav-item"><a id="HomeDefense_button" href="#HomeDefense" onclick="return false"></a></li>
+        
+              <ul class="navbar-nav" id="driveNavbar">
+                <li class="nav-item active"><a href="#all-drives" onclick="return false">All</a></li>
+                <li class="nav-item"><a id="awayDrive_button" href="#away-drives" onclick="return false"></a></li>
+                <li class="nav-item"><a id="homeDrive_button" href="#home-drives" onclick="return false"></a></li>
               </ul>
-                 
-              <section id="AwayDefense">
-                <h5 class="sub-heading"></h5>
-                <table id="DefenseTableV" class="sidearm-table overall-stats">
+        
+              <section id="all-drives" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
+                <table id="driveQuarterTable" class="sidearm-table overall-stats highlight-hover collapse-on-medium">
                   <thead>
                     <tr>
-                      <th class="text-center">##</th>
-                      <th class="text-center" id="DefenseV"></th>
-                      <th class="text-center">Solo</th>
-                      <th class="text-center">Ast</th>
-                      <th class="text-center">Tot</th>
-                      <th class="text-center">TFL/Yds</th>
-                      <th class="text-center">Sack/Yds</th>
-                      <th class="text-center">FF</th>
-                      <th class="text-center">FR-Yds</th>
-                      <th class="text-center">INT</th>
-                      <th class="text-center">BrUp</th>
-                      <th class="text-center">Blkd</th>
-                      <th class="text-center">QH</th>
+                      <th></th>
+                      <th class="text-center" colspan="4">Drive Started</th>
+                      <th class="text-center" colspan="3">Drive Ended</th>
+                      <th class="text-center" colspan="2">Consumed</th>
+                    </tr>
+                    <tr>
+                      <th class="text-center">Team</th>
+                      <th class="text-center">Qtr</th>
+                      <th class="text-center">Spot</th>
+                      <th class="text-center">Time</th>
+                      <th class="text-center">Obtained</th>
+                      <th class="text-center">Spot</th>
+                      <th class="text-center">Time</th>
+                      <th class="text-center">How Lost</th>
+                      <th class="text-center">Pl-Yds</th>
+                      <th class="text-center">TOP</th>
                     </tr>
                   </thead>
-                  <tbody id="DefenseTableV-body" class="highlight-hover"></tbody>
+                  <tbody id="driveQuarterTable-body"></tbody>
                 </table>
               </section>
-              <section id="HomeDefense">
-                <h5 class="sub-heading"></h5>
-                <table id="DefenseTableH" class="sidearm-table overall-stats">
+        
+              <section id="away-drives" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
+                <table id="driveTableAway" class="sidearm-table overall-stats highlight-hover collapse-on-medium">
                   <thead>
                     <tr>
-                      <th class="text-center">##</th>
-                      <th class="text-center" id="DefenseH"></th>
-                      <th class="text-center">Solo</th>
-                      <th class="text-center">Ast</th>
-                      <th class="text-center">Total</th>
-                      <th class="text-center">TFL/Yds</th>
-                      <th class="text-center">Sack/Yds</th>
-                      <th class="text-center">FF</th>
-                      <th class="text-center">FR-Yds</th>
-                      <th class="text-center">Int-Yds</th>
-                      <th class="text-center">BrUp</th>
-                      <th class="text-center">Blkd</th>
-                      <th class="text-center">QBH</th>
+                      <th></th>
+                      <th class="text-center" colspan="4">Drive Started</th>
+                      <th class="text-center" colspan="3">Drive Ended</th>
+                      <th class="text-center" colspan="2">Consumed</th>
+                    </tr>
+                    <tr>
+                      <th class="text-center">Team</th>
+                      <th class="text-center">Qtr</th>
+                      <th class="text-center">Spot</th>
+                      <th class="text-center">Time</th>
+                      <th class="text-center">Obtained</th>
+                      <th class="text-center">Spot</th>
+                      <th class="text-center">Time</th>
+                      <th class="text-center">How Lost</th>
+                      <th class="text-center">Pl-Yds</th>
+                      <th class="text-center">TOP</th>
                     </tr>
                   </thead>
-                  <tbody id="DefenseTableH-body" class="highlight-hover"></tbody>
+                  <tbody id="driveTableAway-body"></tbody>
                 </table>
-
-
+              </section>
+        
+              <section id="home-drives" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
+                <table id="driveTableHome" class="sidearm-table overall-stats highlight-hover collapse-on-medium">
+                  <thead>
+                    <tr>
+                      <th rowspan="2" scope="col" class="hide-on-large emphasize">Team - Yardline - Time</th>
+                      <th class="text-center" scope="col" rowspan="2" style="vertical-align: bottom;">Team</th>
+                      <th class="text-center" scope="col" rowspan="2" style="vertical-align: bottom;">Qtr.</th>
+                      <th class="text-center" scope="colgroup" colspan="3">Drive Started</th>
+                      <th class="text-center" scope="colgroup" colspan="3">Drive Ended</th>
+                      <th class="text-center" scope="colgroup" colspan="2">Consumed</th>
+                    </tr>
+                    <tr>
+                      <th scope="col" class="text-center">Spot</th>
+                      <th scope="col" class="text-center">Time</th>
+                      <th scope="col" class="text-center">Obtained</th>
+                      <th scope="col" class="text-center">Spot</th>
+                      <th scope="col" class="text-center">Time</th>
+                      <th scope="col" class="text-center">How Lost</th>
+                      <th scope="col" class="text-center">Plays-Yds.</th>
+                      <th scope="col" class="text-center">TOP</th>
+                    </tr>
+                  </thead>
+                  <tbody id="driveTableHome-body"></tbody>
+                </table>
               </section>
             </div>
           </div>
         </section>
-
-        <section class="panel" aria-label="Special Teams">
+        
+        <section id="play-by-play" class="panel">
           <div>
-            <h4 class="sub-heading">Special Teams</h4>
-            <section id="individual-punting">
-              <div class="row">
-                <div class="large-6 columns">
-                  <div class="dataTable_wrapper">
-                    <table id="puntingStatsVis-table" class="sidearm-table overall-stats centered-caption">
-                      <caption id="V-punt"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Punts</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">Avg.</th>
-                          <th class="text-center">Long</th>
-                          <th class="text-center">In. 20</th>
-                          <th class="text-center">TB</th>
-                          <th class="text-center">50+ Yds.</th>
-                        </tr>
-                      </thead>
-                      <tbody id="puntingStatsVis-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="puntingStatsVis-table-foot"></tfoot>
-                    </table>
-                  </div>
-                </div>
-                <div class="large-6 columns">
-                  <div class="dataTable_wrapper">
-                    <table id="puntingStatsHome-table" class="sidearm-table overall-stats centered-caption">
-                      <caption id="H-punt"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Punts</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">Avg.</th>
-                          <th class="text-center">Long</th>
-                          <th class="text-center">In. 20</th>
-                          <th class="text-center">TB</th>
-                          <th class="text-center">50+ Yds.</th>
-                        </tr>
-                      </thead>
-                      <tbody id="puntingStatsHome-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="puntingStatsHome-table-foot"></tfoot>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section id="individual-allreturns">
-              <div class="row">
-                <div class="large-6 columns">
-                  <div class="dataTable_wrapper">
-                    <table id="allReturnsStatsVis-table" class="sidearm-table overall-stats centered-caption">
-                      <caption id="V-allret"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center" colspan="3">Punts</th>
-                          <th class="text-center" colspan="3">Kickoffs</th>
-                          <th class="text-center" colspan="3">Interceptions</th>
-                        </tr>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Ret.</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">Lg</th>
-                          <th class="text-center">Ret.</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">Lg</th>
-                          <th class="text-center">Ret.</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">Lg</th>
-                        </tr>
-                      </thead>
-                      <tbody id="allReturnsStatsVis-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="allReturnsStatsVis-table-foot"></tfoot>
-                    </table>
-                  </div>
-                </div>
-                <div class="large-6 columns">
-                  <div class="dataTable_wrapper">
-                    <table id="allReturnsStatsHome-table" class="sidearm-table overall-stats centered-caption">
-                      <caption id="H-allret"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center" colspan="3">Punts</th>
-                          <th class="text-center" colspan="3">Kickoffs</th>
-                          <th class="text-center" colspan="3">Interceptions</th>
-                        </tr>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Ret.</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">Lg</th>
-                          <th class="text-center">Ret.</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">Lg</th>
-                          <th class="text-center">Ret.</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">Lg</th>
-                        </tr>
-                      </thead>
-                      <tbody id="allReturnsStatsHome-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="allReturnsStatsHome-table-foot"></tfoot>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section id="individual-fieldgoals">
-              <div class="row">
-                <div class="large-6 columns">
-                  <div class="dataTable_wrapper">
-                    <table id="fieldGoalStatsVis-table" class="sidearm-table overall-stats centered-caption">
-                      <caption id="V-fieldgoal"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Qtr.</th>
-                          <th class="text-center">Clock</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">Result</th>
-                        </tr>
-                      </thead>
-                      <tbody id="fieldGoalStatsVis-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="fieldGoalStatsVis-table-foot"></tfoot>
-                    </table>
-                  </div>
-                </div>
-                <div class="large-6 columns">
-                  <div class="dataTable_wrapper">
-                    <table id="fieldGoalStatsHome-table" class="sidearm-table overall-stats centered-caption">
-                      <caption id="H-fieldgoal"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">Qtr.</th>
-                          <th class="text-center">Clock</th>
-                          <th class="text-center">Yds.</th>
-                          <th class="text-center">Result</th>
-                        </tr>
-                      </thead>
-                      <tbody id="fieldGoalStatsHome-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="fieldGoalStatsHome-table-foot"></tfoot>
-
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section id="individual-kickoffs">
-              <div class="row">
-                <div class="large-6 columns">
-                  <div class="dataTable_wrapper">
-                    <table id="kickoffStatsVis-table" class="sidearm-table overall-stats centered-caption">
-                      <caption id="V-kickoff"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">No.</th>
-                          <th class="text-center">Yds</th>
-                          <th class="text-center">TB</th>
-                          <th class="text-center">OB</th>
-                          <th class="text-center">Avg.</th>
-                        </tr>
-                      </thead>
-                      <tbody id="kickoffStatsVis-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="kickoffStatsVis-table-foot"></tfoot>
-
-                    </table>
-                  </div>
-                </div>
-                <div class="large-6 columns">
-                  <div class="dataTable_wrapper">
-                    <table id="kickoffStatsHome-table" class="sidearm-table overall-stats centered-caption">
-                      <caption id="H-kickoff"></caption>
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th class="text-center">No.</th>
-                          <th class="text-center">Yds</th>
-                          <th class="text-center">TB</th>
-                          <th class="text-center">OB</th>
-                          <th class="text-center">Avg.</th>
-                        </tr>
-                      </thead>
-                      <tbody id="kickoffStatsHome-table-body" class="highlight-hover"></tbody>
-                      <tfoot id="kickoffStatsHome-table-foot"></tfoot>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section id="individual-pat">
-              <div class="row">
-                <div class="large-6 columns">
-                  <div class="dataTable_wrapper">
-                    
-                  </div>
-                </div>
-                <div class="large-6 columns">
-                  <div class="dataTable_wrapper">
-                    
-                  </div>
-                </div>
-              </div>
-            </section>
+            <h4 class="sub-heading">Play By Play</h4>
+            <div class="sidearm-responsive-tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
+              <ul class="navbar-nav" id="playsNavbar">
+                <li class="nav-item active"><a href="#1st" onclick="return false">1ST</a></li>
+                <li class="nav-item"><a href="#2nd" onclick="return false">2ND</a></li>
+                <li class="nav-item"><a href="#3rd" onclick="return false">3RD</a></li>
+                <li class="nav-item"><a href="#4th" onclick="return false">4TH</a></li>
+                <li class="nav-item hide"><a href="#ot" onclick="return false">OT</a></li>
+              </ul>
+        
+              <section id="1st" class="ui-tabs-panel ui-corner-bottom ui-widget-content"></section>
+        
+              <section id="2nd" class="ui-tabs-panel ui-corner-bottom ui-widget-content"></section>
+        
+              <section id="3rd" class="ui-tabs-panel ui-corner-bottom ui-widget-content"></section>
+        
+              <section id="4th" class="ui-tabs-panel ui-corner-bottom ui-widget-content"></section>
+        
+              <section id="ot" class="ui-tabs-panel ui-corner-bottom ui-widget-content hide"></section>
+            </div>
           </div>
         </section>
-      </section>
-      
-      <section id="drive-chart" class="panel">
-        <div>
-          <h3 class="sub-heading">Drive Chart</h3>
-          <div class="sidearm-responsive-tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
-
-            <ul class="navbar-nav" id="driveNavbar">
-              <li class="nav-item active"><a href="#all-drives" onclick="return false">All</a></li>
-              <li class="nav-item"><a id="awayDrive_button" href="#away-drives" onclick="return false"></a></li>
-              <li class="nav-item"><a id="homeDrive_button" href="#home-drives" onclick="return false"></a></li>
-            </ul>
-
-            <section id="all-drives" class="ui-tabs-select">
-              <table id="driveQuarterTable" class="sidearm-table overall-stats">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th class="text-center" colspan="4">Drive Started</th>
-                    <th class="text-center" colspan="3">Drive Ended</th>
-                    <th class="text-center" colspan="2">Consumed</th>
-                  </tr>
-                  <tr>
-                    <th class="text-center">Team</th>
-                    <th class="text-center">Qtr</th>
-                    <th class="text-center">Spot</th>
-                    <th class="text-center">Time</th>
-                    <th class="text-center">Obtained</th>
-                    <th class="text-center">Spot</th>
-                    <th class="text-center">Time</th>
-                    <th class="text-center">How Lost</th>
-                    <th class="text-center">Pl-Yds</th>
-                    <th class="text-center">TOP</th>
-                  </tr>
-                </thead>
-                <tbody id="driveQuarterTable-body" class="highlight-hover"></tbody>
-              </table>
-            </section>
-
-            <section id="away-drives" class="ui-tabs-select">
-              <table id="driveTableAway" class="sidearm-table overall-stats">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th class="text-center" colspan="4">Drive Started</th>
-                    <th class="text-center" colspan="3">Drive Ended</th>
-                    <th class="text-center" colspan="2">Consumed</th>
-                  </tr>
-                  <tr>
-                    <th class="text-center">Team</th>
-                    <th class="text-center">Qtr</th>
-                    <th class="text-center">Spot</th>
-                    <th class="text-center">Time</th>
-                    <th class="text-center">Obtained</th>
-                    <th class="text-center">Spot</th>
-                    <th class="text-center">Time</th>
-                    <th class="text-center">How Lost</th>
-                    <th class="text-center">Pl-Yds</th>
-                    <th class="text-center">TOP</th>
-                  </tr>
-                </thead>
-                <tbody id="driveTableAway-body" class="highlight-hover"></tbody>
-              </table>
-            </section>
-
-            <section id="home-drives" class="ui-tabs-select">
-              <table id="driveTableHome" class="sidearm-table overall-stats">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th class="text-center" colspan="4">Drive Started</th>
-                    <th class="text-center" colspan="3">Drive Ended</th>
-                    <th class="text-center" colspan="2">Consumed</th>
-                  </tr>
-                  <tr>
-                    <th class="text-center">Team</th>
-                    <th class="text-center">Qtr</th>
-                    <th class="text-center">Spot</th>
-                    <th class="text-center">Time</th>
-                    <th class="text-center">Obtained</th>
-                    <th class="text-center">Spot</th>
-                    <th class="text-center">Time</th>
-                    <th class="text-center">How Lost</th>
-                    <th class="text-center">Pl-Yds</th>
-                    <th class="text-center">TOP</th>
-                  </tr>
-                </thead>
-                <tbody id="driveTableHome-body" class="highlight-hover"></tbody>
-              </table>
-            </section>
+        
+        <section id="roster" class="panel">
+          <div class="row pad">
+            <h4 class="sub-heading">Player Participation</h4>
           </div>
-        </div>
-      </section>
-
-      <section id="play-by-play" class="panel">
-        <div>
-          <h4 class="sub-heading">Play By Play</h4>
-          <div class="sidearm-responsive-tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
-            <ul class="navbar-nav" id="playsNavbar">
-              <li class="nav-item active"><a href="#1st" onclick="return false">1ST</a></li>
-              <li class="nav-item"><a href="#2nd" onclick="return false">2ND</a></li>
-              <li class="nav-item"><a href="#3rd" onclick="return false">3RD</a></li>
-              <li class="nav-item"><a href="#4th" onclick="return false">4TH</a></li>
-              <li class="nav-item hide"><a href="#ot" onclick="return false">OT</a></li>
-            </ul>
-
-            <section id="1st" class="ui-tabs-select"></section>
-
-            <section id="2nd" class="ui-tabs-select"></section>
-
-            <section id="3rd" class="ui-tabs-select"></section>
-
-            <section id="4th" class="ui-tabs-select"></section>
-
-            <section id="ot" class="ui-tabs-select hide"></section>
-          </div>
-        </div>
-      </section>
-
-      <section id="roster" class="panel">
-        <div class="row pad">
-          <h4 class="sub-heading">Player Participation</h4>
-        </div>
-        <div class="row">
-          <div class="large-6 columns">
-            <div class="dataTables_wrapper">
-              <table id="teamRosterVis-table" class="sidearm-table overall-stats centered-caption dataTable roster">
-                <caption id="V-roster"></caption>
-                <thead>
-                  <tr>
-                    <th class="text-center">#</th>
-                    <th>Player</th>
-                  </tr>
-                </thead>
-                <tbody id="teamRosterVis-table-body" class="highlight-hover"></tbody>
-              </table>
+          <div class="row">
+            <div class="large-6 columns">
+              <div class="dataTables_wrapper">
+                <table id="teamRosterVis-table" class="sidearm-table overall-stats centered-caption dataTable roster">
+                  <caption id="V-roster"></caption>
+                  <thead>
+                    <tr>
+                      <th class="text-center">#</th>
+                      <th>Player</th>
+                    </tr>
+                  </thead>
+                  <tbody id="teamRosterVis-table-body" class="highlight-hover"></tbody>
+                </table>
+              </div>
+            </div>
+            <div class="large-6 columns">
+              <div class="dataTables_wrapper">
+                <table id="teamRosterHome-table" class="sidearm-table overall-stats centered-caption dataTable roster">
+                  <caption id="H-roster"></caption>
+                  <thead>
+                    <tr>
+                      <th class="text-center">#</th>
+                      <th>Player</th>
+                    </tr>
+                  </thead>
+                  <tbody id="teamRosterHome-table-body" class="highlight-hover"></tbody>
+                </table>
+              </div>
             </div>
           </div>
-          <div class="large-6 columns">
-            <div class="dataTables_wrapper">
-              <table id="teamRosterHome-table" class="sidearm-table overall-stats centered-caption dataTable roster">
-                <caption id="H-roster"></caption>
-                <thead>
-                  <tr>
-                    <th class="text-center">#</th>
-                    <th>Player</th>
-                  </tr>
-                </thead>
-                <tbody id="teamRosterHome-table-body" class="highlight-hover"></tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
+      </div>
   </article>
   </main>
 </body>

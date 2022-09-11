@@ -22,6 +22,12 @@
 - [x] play-by-play
 - [x] roster
 - [x] menu
-- [ ] responsive
 - [ ] plays double score TD, XP
 - [x] all Names in capitalize
+
+## Responsive
+- [ ] RESPONSIVE NAV BAR
+- [x] tables on each other
+- [x] box-score view
+- [x] plays new view
+- [x] add small-medium-large system

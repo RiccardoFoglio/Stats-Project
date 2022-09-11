@@ -35,8 +35,7 @@
   display: inline-block;
   vertical-align: bottom;
   max-width: 100%;
-  height: 200px;
-  width: 200px;
+  height: auto;
 }
 
 .box-score-graphic .team .score {
@@ -275,4 +274,25 @@ figure.box-score-header table tbody th+td {
 
 .scoring-summary th {
   text-align: center;
+}
+
+
+
+
+
+
+.sidearm-table[class*="collapse"] {
+  display: block;
+  display: block;
+}
+.sidearm-table[class*="collapse"] thead {
+  display: none;
+}
+.sidearm-table[class*="collapse"] tbody,
+.sidearm-table[class*="collapse"] tfoot,
+.sidearm-table[class*="collapse"] tr,
+.sidearm-table[class*="collapse"] td,
+.sidearm-table[class*="collapse"] th,
+.sidearm-table[class*="collapse"] caption {
+  display: block;
 }

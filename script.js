@@ -2,6 +2,15 @@
 /////////////////////////////////////////////////////////CONTROL FUNCTIONS/////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+function myFunction() {
+  var x = document.getElementById("topNavbar");
+  if (x.className === "navbar-nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar-nav";
+  }
+}
+
 $(document).ready(function () {
 
   menuCall('topNavbar')
@@ -35,7 +44,7 @@ $(document).ready(function () {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  const url = "2divxml/20220046.xml"
+  const url = "iflxml/20220644.xml"
   //20220644
   fetch(url)
   .then(response=>response.text())
@@ -140,7 +149,7 @@ function numToQRT(val){
 }
 
 function capitalize(str){
-  const words = str.toLowerCase().split('.').join(' ').split(' ')
+  const words = str.toLowerCase().split(' ')
   for (let i = 0; i < words.length; i++) {
     words[i] = words[i][0].toUpperCase() + words[i].substr(1)
   }
@@ -444,12 +453,12 @@ function sortTable(id, pos, order) {
       y = rows[i + 1].getElementsByTagName("td")[pos];
 
       if (order === 'low'){
-        if (Number(x.innerHTML) > Number(y.innerHTML) ) {
+        if (Number(x?.innerHTML) > Number(y?.innerHTML) ) {
           shouldSwitch = true;
           break;
         }
       } else if (order === 'high'){
-        if (Number(x.innerHTML) < Number(y.innerHTML) ) {
+        if (Number(x?.innerHTML) < Number(y?.innerHTML) ) {
           shouldSwitch = true;
           break;
         }
@@ -725,22 +734,42 @@ function buildBoxScore(x){
   title.innerHTML = `${capitalize(teamV.getAttribute('name'))} (${teamV.getAttribute('record')}) -VS- ${capitalize(teamH.getAttribute('name'))} (${teamH.getAttribute('record')})`.toUpperCase()
   title.classList.add('main-heading', 'text-center', 'text-uppercase')
 
-  
   //box-score-graphic-caption TABLE
   const table = document.getElementById('score-qrt-table')
   const tableHead = document.getElementById('score-qrt-table-head')
   const tableBody = document.getElementById('score-qrt-table-body')
 
-  let rowEntry
+  let rowEntry, th, span
 
   table.before(title)
 
   rowEntry = document.createElement('tr')
   createElementHTML('th', '', rowEntry)
+
   for (let i = 0; i < Number(teamV.getElementsByTagName('linescore')[0].getAttribute('prds')); i++) {
-    createElementHTML('th', numToQRT(String(i+1)), rowEntry)
+    th = document.createElement('th')
+    span = document.createElement('span')
+    span.innerHTML = i+1
+    span.classList.add('hide-on-medium')
+    th.appendChild(span)
+    span = document.createElement('span')
+    span.innerHTML = numToQRT(String(i+1))
+    span.classList.add('hide-on-small-down')
+    th.appendChild(span)
+    th.setAttribute('scope', 'col')
+    rowEntry.appendChild(th)
   }
-  createElementHTML('th', 'Final', rowEntry)
+  th = document.createElement('th')
+  span = document.createElement('span')
+  span.innerHTML = 'F'
+  span.classList.add('hide-on-medium')
+  th.appendChild(span)
+  span = document.createElement('span')
+  span.innerHTML = 'Final'
+  span.classList.add('hide-on-small-down')
+  th.appendChild(span)
+  th.setAttribute('scope', 'col')
+  rowEntry.appendChild(th)
   tableHead.appendChild(rowEntry)
 
   rowEntry = document.createElement('tr')
@@ -773,19 +802,26 @@ function buildBoxScore(x){
 function buildTeamStats(x) {
   const tableHead = document.getElementById('teamTotalsComplete-table-head')
   const contentTable = document.getElementById('teamTotalsComplete-table-body')
-
   const teamH = x.getElementsByTagName('team')[1]
   const teamV = x.getElementsByTagName('team')[0]
 
+  let rowEntry, th
+
   createElementHTML('th', '', tableHead)
-  createElementAttr('th', teamH.getAttribute('id'), 'class', 'text-center', tableHead)
-  createElementAttr('th', teamV.getAttribute('id'), 'class', 'text-center', tableHead)
+  th = document.createElement('th')
+  th.innerHTML = teamH.getAttribute('id')
+  th.classList.add('text-center')
+  th.setAttribute('scope', 'col')
+  tableHead.appendChild(th)
+  th = document.createElement('th')
+  th.innerHTML = teamV.getAttribute('id')
+  th.classList.add('text-center')
+  th.setAttribute('scope', 'col')
+  tableHead.appendChild(th)
 
   const totalsH = teamH.getElementsByTagName('totals')[0]
   const totalsV = teamV.getElementsByTagName('totals')[0]
 
-  let rowEntry
-  
   const firstdownsV = totalsV?.getElementsByTagName('firstdowns')[0]
   const penaltiesV = totalsV?.getElementsByTagName('penalties')[0]
   const conversionsV = totalsV?.getElementsByTagName('conversions')[0]
@@ -892,7 +928,6 @@ function buildTeamStats(x) {
   
   headerRow('MISCELLANEOUS', contentTable)
   singleDatum('Misc. Yards', miscH, miscV, 'yds', contentTable)
-  
   doubleDatumOF('3rd. Down Conv.', conversionsH, conversionsV, 'thirdconv', 'thirdatt', contentTable)
   doubleDatumOF('4th. Down Conv', conversionsH, conversionsV, 'fourthconv', 'fourthatt', contentTable)
   doubleDatum('Red-Zone: Scores - Chances', redzoneH, redzoneV, 'scores', 'att', contentTable)
@@ -958,7 +993,7 @@ function buildPlays(x){
     const score  = qtr.getElementsByTagName('score')
 
     let starthalf = false
-    let rowEntry
+    let rowEntry, th, td
     let currentTable, headerTable, bodyTable, quarterDiv, scoreCounter=0, i=0, j=0, k=0, scoreFlag = false
 
     // PLAYID drive num - play in drive - play total
@@ -973,15 +1008,14 @@ function buildPlays(x){
 
     for (let nd = Number(firstDriveQtr); nd <= Number(lastDriveQtr); nd++) {
       currentTable = document.createElement('table')
-      currentTable.classList.add('sidearm-table', 'overall-stats', 'plays')
+      currentTable.classList.add('sidearm-table', 'overall-stats', 'plays', 'highlight-hover', 'collapse-on-small')
       currentTable.setAttribute('id', `driveTable${nq}-${nd}`)
       headerTable = document.createElement('thead')
       bodyTable = document.createElement('tbody')
-      bodyTable.classList.add('highlight-hover')
 
+      //SET START OF QUARTER
       rowEntry = document.createElement('tr')
       if (nd === Number(firstDriveQtr)){
-        let th
         switch (nq) {
           case 0:
             quarterDiv = document.getElementById('1st')
@@ -1017,11 +1051,12 @@ function buildPlays(x){
           default:
             break;
         }
-
         headerTable.appendChild(rowEntry)
         currentTable.appendChild(headerTable)
 
+        // BODY TABLE OPTIONS
         if (starthalf){
+          //coin toss, Kickoff etc...
           while (Number(plays[i].getAttribute('playid').split(',')[0]) === Number(firstDriveQtr)){
             rowEntry = document.createElement('tr')
             createElementHTML('td', plays[i].getAttribute('text'), rowEntry)
@@ -1035,7 +1070,12 @@ function buildPlays(x){
             let down = numToQRT(plays[i].getAttribute('context').split(',')[1])
             let distance = plays[i].getAttribute('context').split(',')[2]
             let spot = plays[i].getAttribute('context').split(',')[3][0] === 'V' ? x.getElementsByTagName('team')[0].getAttribute('id') + plays[i].getAttribute('context').split(',')[3].slice(1) : x.getElementsByTagName('team')[1].getAttribute('id') + plays[i].getAttribute('context').split(',')[3].slice(1)
-            createElementHTML('td', `${down} and ${distance} at ${spot}`, rowEntry)
+            
+            td = document.createElement('td')
+            td.textContent = `${down} and ${distance} at ${spot}`
+            td.classList.add('text-italic-on-small-down')
+            rowEntry.appendChild(td)
+
             createElementHTML('td', plays[i].getAttribute('text'), rowEntry)
             bodyTable.appendChild(rowEntry)
             
@@ -1045,7 +1085,7 @@ function buildPlays(x){
               rowEntry = document.createElement('tr')
               let str = `${capitalize(x.getElementsByTagName('team')[1]?.getAttribute('name'))} ${score[scoreCounter]?.getAttribute('H')}-${score[scoreCounter]?.getAttribute('V')} ${capitalize(x.getElementsByTagName('team')[0]?.getAttribute('name'))}`
               
-              let td = document.createElement('td')
+              td = document.createElement('td')
               td.textContent = str
               td.setAttribute('colspan', '2')
               td.classList.add('text-center', 'special-stats', 'emphasize', 'primary', 'inline')
@@ -1057,24 +1097,51 @@ function buildPlays(x){
             i += 1
           }
         }
+
         currentTable.appendChild(bodyTable)
         quarterDiv.appendChild(currentTable)
+
       } else {
 
-        rowEntry = document.createElement('tr')
         while(nd !== Number(drivestart[j].getAttribute('driveindex').split(',')[0])){
           j += 1
         }
         let teamPoss = drivestart[j].getAttribute('poss')[0]
         
-        let th = document.createElement('th')
+        rowEntry = document.createElement('tr')
+        th = document.createElement('th')
         th.textContent = teamPoss === 'V' ? `${capitalize(x.getElementsByTagName('team')[0].getAttribute('name'))} at ${drivestart[j].getAttribute('poss').split(',')[2]}` : `${capitalize(x.getElementsByTagName('team')[1].getAttribute('name'))} at ${drivestart[j].getAttribute('poss').split(',')[2]}`
         th.setAttribute('colspan', '2')
+        th.setAttribute('scope', 'colgroup')
         th.classList.add('text-center')
         rowEntry.appendChild(th)
         headerTable.appendChild(rowEntry)
+
+        rowEntry = document.createElement('tr')
+        rowEntry.classList.add('hide')
+        th = document.createElement('th')
+        th.setAttribute('scope', 'col')
+        th.innerHTML = 'Down & Distance'
+        rowEntry.appendChild(th)
+        th = document.createElement('th')
+        th.setAttribute('scope', 'col')
+        th.innerHTML = 'Play'
+        rowEntry.appendChild(th)
+        headerTable.appendChild(rowEntry)
+
         currentTable.appendChild(headerTable)
-      
+        
+
+        rowEntry = document.createElement('tr')
+        td = document.createElement('td')
+        td.textContent = teamPoss === 'V' ? `${capitalize(x.getElementsByTagName('team')[0].getAttribute('name'))} at ${drivestart[j].getAttribute('poss').split(',')[2]}` : `${capitalize(x.getElementsByTagName('team')[1].getAttribute('name'))} at ${drivestart[j].getAttribute('poss').split(',')[2]}`
+        td.setAttribute('colspan', '2')
+        td.classList.add('text-center', 'emphasize', 'hide-on-medium')
+        rowEntry.appendChild(td)
+        bodyTable.appendChild(rowEntry)
+
+
+
         while(Number(plays[k].getAttribute('playid').split(',')[0]) !== nd){
           k += 1
         }
@@ -1085,7 +1152,12 @@ function buildPlays(x){
           let down = numToQRT(plays[k].getAttribute('context').split(',')[1])
           let distance = plays[k].getAttribute('context').split(',')[2]
           let spot = plays[k].getAttribute('context').split(',')[3][0] === 'V' ? x.getElementsByTagName('team')[0].getAttribute('id') + plays[k].getAttribute('context').split(',')[3].slice(1) : x.getElementsByTagName('team')[1].getAttribute('id') + plays[k].getAttribute('context').split(',')[3].slice(1)
-          createElementHTML('td', `${down} and ${distance} at ${spot}`, rowEntry)
+          
+          td = document.createElement('td')
+          td.textContent = `${down} and ${distance} at ${spot}`
+          td.classList.add('text-italic-on-small-down')
+          rowEntry.appendChild(td)
+                   
           createElementHTML('td', plays[k].getAttribute('text'), rowEntry)
           bodyTable.appendChild(rowEntry)
       
@@ -1093,13 +1165,11 @@ function buildPlays(x){
           if (plays[k]?.getAttribute('score') === 'Y' ){ //&& plays[k+1]?.getAttribute('type') !== 'X'){
             rowEntry = document.createElement('tr')
             let str = `${capitalize(x.getElementsByTagName('team')[1]?.getAttribute('name'))} ${score[scoreCounter]?.getAttribute('H')}-${score[scoreCounter]?.getAttribute('V')} ${capitalize(x.getElementsByTagName('team')[0]?.getAttribute('name'))}`
-            
             let td = document.createElement('td')
             td.textContent = str
             td.setAttribute('colspan', '2')
             td.classList.add('text-center', 'special-stats', 'emphasize', 'primary', 'inline')
             rowEntry.appendChild(td)
-            
             bodyTable.appendChild(rowEntry)
             scoreCounter += 1
           }
@@ -1202,7 +1272,7 @@ function buildScoringSummary(x) {
   const body = document.getElementById('scoring-summary-table-body')
   const foot = document.getElementById('scoring-summary-table-foot')
 
-  let rowEntry
+  let rowEntry, td
 
   rowEntry = document.createElement('tr')
   createElementHTML('th', '', rowEntry)
@@ -1222,22 +1292,66 @@ function buildScoringSummary(x) {
     const drive = driveToString(attrArray)
 
     rowEntry = document.createElement('tr')
-    createElementHTML('td', numToQRT(score.getAttribute('qtr')), rowEntry)
-    createElementHTML('td', score.getAttribute('clock'), rowEntry)
+
+    td = document.createElement('td')
+    td.innerHTML = `${numToQRT(score.getAttribute('qtr'))} - ${score.getAttribute('clock')}`
+    td.classList.add('hide-on-large', 'emphasize', 'hide-label')
+    td.setAttribute('data-label', '')
+    rowEntry.appendChild(td)
+    
+
+    td = document.createElement('td')
+    td.innerHTML = numToQRT(score.getAttribute('qtr'))
+    td.classList.add('hide-on-medium-down')
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.innerHTML = score.getAttribute('clock')
+    td.classList.add('hide-on-medium-down', 'text-center')
+    rowEntry.appendChild(td)
+
     let str = drive ? `${play} - ${drive}` : `${play}` 
     createElementHTML('td', str, rowEntry)
-    createElementAttr('td', score.getAttribute('vscore'), 'class', 'text-center', rowEntry)
-      createElementAttr('td', score.getAttribute('hscore'), 'class', 'text-center', rowEntry)
+
+    td = document.createElement('td')
+    td.innerHTML = score.getAttribute('vscore')
+    td.classList.add('text-normal-on-large', 'text-center', 'text-bold')
+    td.setAttribute('data-label', x.getElementsByTagName('team')[0].getAttribute('id'))
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.innerHTML = score.getAttribute('hscore')
+    td.classList.add('text-normal-on-large', 'text-center', 'text-bold')
+    td.setAttribute('data-label', x.getElementsByTagName('team')[1].getAttribute('id'))
+    rowEntry.appendChild(td)
 
     body.appendChild(rowEntry)
 
     if (i === scores.length-1) {
       rowEntry = document.createElement('tr')
-      createElementHTML('th', '', rowEntry)
-      createElementHTML('th', '', rowEntry)
-      createElementHTML('th', '', rowEntry)
-      createElementAttr('td', score.getAttribute('vscore'), 'class', 'text-center', rowEntry)
-      createElementAttr('td', score.getAttribute('hscore'), 'class', 'text-center', rowEntry)
+
+      td = document.createElement('td')
+      td.classList.add('hide-on-medium-down')
+      rowEntry.appendChild(td)
+      td = document.createElement('td')
+      td.classList.add('hide-on-medium-down')
+      rowEntry.appendChild(td)
+      td = document.createElement('td')
+      td.classList.add('hide-on-medium-down')
+      rowEntry.appendChild(td)
+
+      td = document.createElement('td')
+      td.innerHTML = score.getAttribute('vscore')
+      td.classList.add('text-normal-on-large', 'text-center', 'text-bold')
+      td.setAttribute('data-label', x.getElementsByTagName('team')[0].getAttribute('name'))
+      rowEntry.appendChild(td)
+
+      td = document.createElement('td')
+      td.innerHTML = score.getAttribute('hscore')
+      td.classList.add('text-normal-on-large', 'text-center', 'text-bold')
+      td.setAttribute('data-label', x.getElementsByTagName('team')[1].getAttribute('name'))
+      rowEntry.appendChild(td)
+
       foot.appendChild(rowEntry)
     }
   }
@@ -1357,7 +1471,6 @@ function buildDefense(x){
   document.getElementById('AwayDefense').getElementsByClassName('sub-heading')[0].innerHTML = `${capitalize(x.getElementsByTagName('team')[0].getAttribute('name'))} - Individual Defensive Statistics`
   document.getElementById('HomeDefense').getElementsByClassName('sub-heading')[0].innerHTML = `${capitalize(x.getElementsByTagName('team')[1].getAttribute('name'))} - Individual Defensive Statistics`
 
-
   const defenseTableH = document.getElementById('DefenseTableH-body')
   const defenseTableV = document.getElementById('DefenseTableV-body')
 
@@ -1366,7 +1479,7 @@ function buildDefense(x){
 
     for (let j = 0; j < team.getElementsByTagName('player').length; j++) {
       const player = team.getElementsByTagName('player')[j];
-      let rowEntry
+      let rowEntry, td
 
       const defense = player?.getElementsByTagName('defense')[0]
       if (defense) {
@@ -1374,7 +1487,7 @@ function buildDefense(x){
 
         createElementAttr('td', player.getAttribute('uni'), 'class', 'text-center', rowEntry)
         createElementHTML('th', player.getAttribute('name'), rowEntry)
-
+        
         const tackua = defense?.getAttribute('tackua')
         const tacka = defense?.getAttribute('tacka')
         let total = 0.0
@@ -1385,12 +1498,17 @@ function buildDefense(x){
         } else {
           createElementAttr('td', '-', 'class', 'text-center', rowEntry)
         }
-
         if (tacka && Number(tacka) !== 0) {
-          createElementAttr('td', tacka, 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = tacka
+          td.classList.add('text-center', 'hide-on-x-small-down')
+          rowEntry.appendChild(td)
           total += (parseFloat(tacka) * 0.5)
         } else {
-          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = '-'
+          td.classList.add('text-center', 'hide-on-x-small-down')
+          rowEntry.appendChild(td)
         }
 
         createElementAttr('td', total.toFixed(1), 'class', 'text-center', rowEntry)        
@@ -1407,9 +1525,23 @@ function buildDefense(x){
           } else if (tfla) {
             tflTot = Number(tfla) * 0.5
           }
-          createElementAttr('td', `${tflTot.toFixed(1)}/${tflyds}`, 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = `${tflTot.toFixed(1)}/${tflyds}`
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
+          td = document.createElement('td')
+          td.innerHTML = `${tflTot.toFixed(1)}/${tflyds}`
+          td.classList.add('text-center', 'hide-on-medium')
+          rowEntry.appendChild(td)
         } else {
-          createElementAttr('td', '-/-', 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = '-/-'
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
+          td = document.createElement('td')
+          td.innerHTML = '-'
+          td.classList.add('text-center', 'hide-on-medium')
+          rowEntry.appendChild(td)
         }
 
         const sackua = defense?.getAttribute('sackua')
@@ -1424,53 +1556,120 @@ function buildDefense(x){
           } else if (sacka) {
             sackTot = Number(sacka) * 0.5
           }
-          createElementAttr('td', `${sackTot.toFixed(1)}/${sackyds}`, 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = `${sackTot.toFixed(1)}/${sackyds}`
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
+          td = document.createElement('td')
+          td.innerHTML = sackTot.toFixed(1)
+          td.classList.add('text-center', 'hide-on-medium')
+          rowEntry.appendChild(td)
         } else {
-          createElementAttr('td', '-/-', 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = '-/-'
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
+          td = document.createElement('td')
+          td.innerHTML = '-'
+          td.classList.add('text-center', 'hide-on-medium')
+          rowEntry.appendChild(td)
         }
 
         const ff = defense?.getAttribute('ff')
         if (ff) {
-          createElementAttr('td', ff, 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = ff
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
         } else {
-          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = '-'
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
         }
 
         const fr = defense?.getAttribute('fr')
         const fryds = defense?.getAttribute('fryds')
         if (fr) {
-          createElementAttr('td', `${fr}-${fryds}`, 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = `${fr}-${fryds}`
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
+          td = document.createElement('td')
+          td.innerHTML = `${fr}-${fryds}`
+          td.classList.add('text-center', 'hide-on-medium')
+          rowEntry.appendChild(td)
         } else {
-          createElementAttr('td', '-/-', 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = '-/-'
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
+          td = document.createElement('td')
+          td.innerHTML = '0-0'
+          td.classList.add('text-center', 'hide-on-medium')
+          rowEntry.appendChild(td)
         }
 
         const int = defense?.getAttribute('int')
         const intyds = defense?.getAttribute('intyds')
         if (int) {
-          createElementAttr('td', `${int}-${intyds}`, 'class', 'text-center', rowEntry)
+
+          td = document.createElement('td')
+          td.innerHTML = `${int}-${intyds}`
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
+          td = document.createElement('td')
+          td.innerHTML = int
+          td.classList.add('text-center', 'hide-on-medium')
+          rowEntry.appendChild(td)
         } else {
-          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = '-'
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
+          td = document.createElement('td')
+          td.innerHTML = '-'
+          td.classList.add('text-center', 'hide-on-medium')
+          rowEntry.appendChild(td)
         }
 
         const brup = defense?.getAttribute('brup')
         if (brup) {
-          createElementAttr('td', brup, 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = brup
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
         } else {
-          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = '-'
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
         }
 
         const blkd = defense?.getAttribute('blkd')
         if (blkd) {
-          createElementAttr('td', blkd, 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = blkd
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
         } else {
-          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = '-'
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
         }
 
         const qbh = defense?.getAttribute('qbh')
         if (qbh) {
-          createElementAttr('td', qbh, 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = qbh
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
         } else {
-          createElementAttr('td', '-', 'class', 'text-center', rowEntry)
+          td = document.createElement('td')
+          td.innerHTML = '-'
+          td.classList.add('text-center', 'hide-on-small-down')
+          rowEntry.appendChild(td)
         }
 
         if (team.getAttribute('vh') === 'H') {
@@ -1692,7 +1891,7 @@ function buildSpecialTeams(x){
 function buildDrivesQuarter(x) {
   const driveTable = document.getElementById('driveQuarterTable-body')
   const drives = x.getElementsByTagName('drives')[0]
-  let rowEntry, prevQtr = 1
+  let rowEntry, td
 
   for (let i = 0; i < drives.getElementsByTagName('drive').length; i++) {
     const drive = drives.getElementsByTagName('drive')[i]
@@ -1708,24 +1907,72 @@ function buildDrivesQuarter(x) {
     const driveindex = drive?.getAttribute('driveindex')
     
     rowEntry = document.createElement('tr')
-    createElementAttr('td', team, 'class', 'text-center', rowEntry)
-    createElementAttr('td', numToQRT(start[1]), 'class', 'text-center', rowEntry)
-    createElementAttr('td', yardsToSpot(x, start[3], fieldLength, team), 'class', 'text-center', rowEntry)
-    createElementAttr('td', start[2], 'class', 'text-center', rowEntry)
-    createElementAttr('td', typeToPlay(start[0]), 'class', 'text-center', rowEntry)
-    createElementAttr('td', yardsToSpot(x, end[3], fieldLength, team), 'class', 'text-center', rowEntry)
-    createElementAttr('td', end[2], 'class', 'text-center', rowEntry)
-    createElementAttr('td', typeToPlay(end[0]), 'class', 'text-center', rowEntry)
-    createElementAttr('td', `${plays}-${yards}`, 'class', 'text-center', rowEntry)
-    createElementAttr('td', top, 'class', 'text-center', rowEntry)
+    
+    td = document.createElement('td')
+    td.classList.add('hide-on-large', 'emphasize')
+    td.setAttribute('data-label', `${team} - ${yardsToSpot(x, start[3], fieldLength, team)}`)
+    td.innerHTML = `${numToQRT(start[1])}/${start[2]}`
+    rowEntry.appendChild(td)
 
-    //if (prevQtr !== Number(start[1])){
-    //  prevQtr = Number(start[1])
-    //  const blankEntry = document.createElement('tr')
-    //  blankEntry.setAttribute('class', 'blank_row')
-    //  createElementAttr('td', '', 'colspan', '10', blankEntry)
-    //  driveTable.appendChild(blankEntry)
-    //}
+    td = document.createElement('td')
+    td.classList.add('text-center', 'hide-on-medium-down')
+    td.setAttribute('data-label', 'Team')
+    td.innerHTML = team
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center', 'hide-on-medium-down')
+    td.setAttribute('data-label', 'Started: Qtr')
+    td.innerHTML = numToQRT(start[1])
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center', 'hide-on-medium-down')
+    td.setAttribute('data-label', 'Started: Spot')
+    td.innerHTML = yardsToSpot(x, start[3], fieldLength, team)
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center', 'hide-on-medium-down')
+    td.setAttribute('data-label', 'Started: Time')
+    td.innerHTML = start[2]
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'Started: How')
+    td.innerHTML = typeToPlay(start[0])
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'Ended: Spot')
+    td.innerHTML = yardsToSpot(x, end[3], fieldLength, team)
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'Ended: Time')
+    td.innerHTML = end[2]
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'Ended: How')
+    td.innerHTML = typeToPlay(end[0])
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'Plays - Yds.')
+    td.innerHTML = `${plays}-${yards}`
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'TOP')
+    td.innerHTML = top
+    rowEntry.appendChild(td)
 
     driveTable.appendChild(rowEntry)  
   }
@@ -1735,13 +1982,7 @@ function buildDrivesQuarter(x) {
   const driveTableV = document.getElementById('driveTableAway-body')
   const driveTableH = document.getElementById('driveTableHome-body')
   const drives = x.getElementsByTagName('drives')[0]
-  let rowEntry
-
-  //const blankEntry = document.createElement('tr')
-  //blankEntry.setAttribute('class', 'blank_row')
-  //blankEntry.setAttribute('id', 'blankRow')
-  //createElementAttr('td', '', 'colspan', '10', blankEntry)
-  //driveTable.appendChild(blankEntry)
+  let rowEntry, td
 
   for (let i = 0; i < drives.getElementsByTagName('drive').length; i++) {
     const drive = drives.getElementsByTagName('drive')[i]
@@ -1757,16 +1998,72 @@ function buildDrivesQuarter(x) {
     const driveindex = drive?.getAttribute('driveindex')
     
     rowEntry = document.createElement('tr')
-    createElementAttr('td', team, 'class', 'text-center', rowEntry)
-    createElementAttr('td', numToQRT(start[1]), 'class', 'text-center', rowEntry)
-    createElementAttr('td', yardsToSpot(x, start[3], fieldLength, team), 'class', 'text-center', rowEntry)
-    createElementAttr('td', start[2], 'class', 'text-center', rowEntry)
-    createElementAttr('td', typeToPlay(start[0]), 'class', 'text-center', rowEntry)
-    createElementAttr('td', yardsToSpot(x, end[3], fieldLength, team), 'class', 'text-center', rowEntry)
-    createElementAttr('td', end[2], 'class', 'text-center', rowEntry)
-    createElementAttr('td', typeToPlay(end[0]), 'class', 'text-center', rowEntry)
-    createElementAttr('td', `${plays}-${yards}`, 'class', 'text-center', rowEntry)
-    createElementAttr('td', top, 'class', 'text-center', rowEntry)
+    
+    td = document.createElement('td')
+    td.classList.add('hide-on-large', 'emphasize')
+    td.setAttribute('data-label', `${team} - ${yardsToSpot(x, start[3], fieldLength, team)}`)
+    td.innerHTML = `${numToQRT(start[1])}/${start[2]}`
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center', 'hide-on-medium-down')
+    td.setAttribute('data-label', 'Team')
+    td.innerHTML = team
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center', 'hide-on-medium-down')
+    td.setAttribute('data-label', 'Started: Qtr')
+    td.innerHTML = numToQRT(start[1])
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center', 'hide-on-medium-down')
+    td.setAttribute('data-label', 'Started: Spot')
+    td.innerHTML = yardsToSpot(x, start[3], fieldLength, team)
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center', 'hide-on-medium-down')
+    td.setAttribute('data-label', 'Started: Time')
+    td.innerHTML = start[2]
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'Started: How')
+    td.innerHTML = typeToPlay(start[0])
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'Ended: Spot')
+    td.innerHTML = yardsToSpot(x, end[3], fieldLength, team)
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'Ended: Time')
+    td.innerHTML = end[2]
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'Ended: How')
+    td.innerHTML = typeToPlay(end[0])
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'Plays - Yds.')
+    td.innerHTML = `${plays}-${yards}`
+    rowEntry.appendChild(td)
+
+    td = document.createElement('td')
+    td.classList.add('text-center')
+    td.setAttribute('data-label', 'TOP')
+    td.innerHTML = top
+    rowEntry.appendChild(td)
 
     if (vh === 'H'){
       driveTableH.appendChild(rowEntry)

@@ -1,0 +1,403 @@
+@media print,
+screen and (max-width: 767px) {
+  .box-score-header {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 540px){
+  .hide-on-medium,
+  .hide-on-medium-down {
+    display: none !important;
+  }
+} 
+
+@media screen and (min-width: 768px) {
+
+  .column,
+  .columns {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .sidearm-table.collapse-on-medium {
+    display: table;
+  }
+
+  .sidearm-table.collapse-on-medium caption {
+    display: table-caption;
+  }
+
+  .sidearm-table.collapse-on-medium thead {
+    display: table-header-group;
+  }
+
+  .sidearm-table.collapse-on-medium tr {
+    display: table-row;
+  }
+
+  .sidearm-table.collapse-on-medium td,
+  .sidearm-table.collapse-on-medium th {
+    display: table-cell;
+  }
+
+  .sidearm-table.collapse-on-medium tbody tr td+td,
+  .sidearm-table.collapse-on-medium tfoot tr td+td,
+  .sidearm-table.collapse-on-medium tbody tr th+td,
+  .sidearm-table.collapse-on-medium tfoot tr th+td,
+  .sidearm-table.collapse-on-medium tbody tr td+th,
+  .sidearm-table.collapse-on-medium tfoot tr td+th,
+  .sidearm-table.collapse-on-medium tbody tr th+th,
+  .sidearm-table.collapse-on-medium tfoot tr th+th {
+    border-left: 1px solid #cccccc;
+  }
+
+
+
+  .sidearm-table th,
+  .sidearm-table td {
+    font-size: 1em;
+  }
+
+  td.hide-on-medium-down,
+  td.large-unflex,
+  th.hide-on-medium-down,
+  th.large-unflex {
+    display: table-cell !important;
+  }
+
+  th.hide-on-medium-down,
+  th.large-unflex {
+    display: inline !important;
+  }
+
+  td.hide-on-medium-down,
+  td.large-unflex,
+  th.hide-on-medium-down,
+  th.large-unflex {
+    display: table-cell !important;
+  }
+
+  th.hide-on-medium-down,
+  th.large-unflex {
+    display: inline !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print,
+screen and (max-width: 767px) {
+  .info-graphic.logos-on-side {
+    padding: 0;
+  }
+
+  .info-graphic.logos-on-side>.row {
+    position: relative;
+  }
+
+  .info-graphic.logos-on-side .team {
+    position: relative !important;
+    display: table;
+    top: auto;
+    height: auto;
+  }
+
+  .info-graphic.logos-on-side .team.away {
+    left: auto;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+  }
+
+  .info-graphic.logos-on-side .team.home {
+    left: 33.3333%;
+    right: auto;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+  }
+
+  .info-graphic.logos-on-side .team span {
+    display: table-cell !important;
+  }
+
+  .box-score-header {
+    display: block;
+  }
+
+  .box-score-header figcaption {
+    flex: 1;
+    -webkit-flex: 1;
+    min-width: 1px;
+    min-height: 1px;
+    flex: 1;
+    -webkit-flex: 1;
+    min-width: 1px;
+    min-height: 1px;
+  }
+
+  .football .box-score-graphic .team,
+  .sfootball .box-score-graphic .team {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    align-items: center;
+    -webkit-align-items: center;
+  }
+
+  .football .box-score-graphic .team:last-child div,
+  .sfootball .box-score-graphic .team:last-child div {
+    order: 2;
+    -webkit-order: 2;
+  }
+
+  .football .box-score-graphic .team:last-child span,
+  .sfootball .box-score-graphic .team:last-child span {
+    order: 1;
+    -webkit-order: 1;
+  }
+
+  table.collapse-on-medium.highlight-hover tbody tr:hover th:not([scope=colgroup]),
+  table.collapse-on-medium.highlight-hover tbody tr:hover td {
+    background-color: inherit;
+  }
+
+  .box-score dl.special-stats.multi-columns {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+  }
+
+}
+
+@media print,
+screen and (max-width: 539px) {
+  .info-graphic .team span {
+    font-size: 1.5em;
+  }
+
+  .football .box-score-graphic .team,
+  .sfootball .box-score-graphic .team {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+
+  .football .box-score-graphic .team:last-child div,
+  .sfootball .box-score-graphic .team:last-child div {
+    order: 1;
+    -webkit-order: 1;
+  }
+
+  .football .box-score-graphic .team:last-child span,
+  .sfootball .box-score-graphic .team:last-child span {
+    order: 2;
+    -webkit-order: 2;
+  }
+
+  .box-score dl.special-stats.multi-columns {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+  }
+}
+
+@media print {
+  .game-details-container.columns:after {
+    display: none;
+  }
+
+  .clean .sidearm-table {
+    page-break-inside: avoid;
+  }
+
+  .clean .sidearm-table[class*="collapse"] {
+    display: table;
+  }
+
+  .clean .sidearm-table[class*="collapse"] thead {
+    display: table-header-group;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tbody {
+    display: table-row-group;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tfoot {
+    display: table-footer-group;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tr {
+    display: table-row;
+  }
+
+  .clean .sidearm-table[class*="collapse"] td,
+  .clean .sidearm-table[class*="collapse"] th {
+    display: table-cell;
+  }
+
+  .clean .sidearm-table[class*="collapse"] caption {
+    display: table-caption;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tbody tr td,
+  .clean .sidearm-table[class*="collapse"] tfoot tr td,
+  .clean .sidearm-table[class*="collapse"] tbody tr th,
+  .clean .sidearm-table[class*="collapse"] tfoot tr th {
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tbody tr td[data-label],
+  .clean .sidearm-table[class*="collapse"] tfoot tr td[data-label],
+  .clean .sidearm-table[class*="collapse"] tbody tr th[data-label],
+  .clean .sidearm-table[class*="collapse"] tfoot tr th[data-label] {
+    text-align: left !important;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tbody tr td[data-label]:before,
+  .clean .sidearm-table[class*="collapse"] tfoot tr td[data-label]:before,
+  .clean .sidearm-table[class*="collapse"] tbody tr th[data-label]:before,
+  .clean .sidearm-table[class*="collapse"] tfoot tr th[data-label]:before {
+    display: none;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tbody tr td[data-label].text-right,
+  .clean .sidearm-table[class*="collapse"] tfoot tr td[data-label].text-right,
+  .clean .sidearm-table[class*="collapse"] tbody tr th[data-label].text-right,
+  .clean .sidearm-table[class*="collapse"] tfoot tr th[data-label].text-right {
+    text-align: right !important;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tbody tr td[data-label].text-center,
+  .clean .sidearm-table[class*="collapse"] tfoot tr td[data-label].text-center,
+  .clean .sidearm-table[class*="collapse"] tbody tr th[data-label].text-center,
+  .clean .sidearm-table[class*="collapse"] tfoot tr th[data-label].text-center {
+    text-align: center !important;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tbody tr td+td,
+  .clean .sidearm-table[class*="collapse"] tfoot tr td+td,
+  .clean .sidearm-table[class*="collapse"] tbody tr th+td,
+  .clean .sidearm-table[class*="collapse"] tfoot tr th+td,
+  .clean .sidearm-table[class*="collapse"] tbody tr td+th,
+  .clean .sidearm-table[class*="collapse"] tfoot tr td+th,
+  .clean .sidearm-table[class*="collapse"] tbody tr th+th,
+  .clean .sidearm-table[class*="collapse"] tfoot tr th+th {
+    border-left: 1px solid #cccccc;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tbody tr:before,
+  .clean .sidearm-table[class*="collapse"] tfoot tr:before,
+  .clean .sidearm-table[class*="collapse"] tbody tr:after,
+  .clean .sidearm-table[class*="collapse"] tfoot tr:after {
+    display: none;
+  }
+
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr {
+    height: auto;
+    cursor: auto;
+  }
+
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr th:not([scope=colgroup]):after,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr th:not([scope=colgroup]):after {
+    content: '';
+    border: none;
+    display: inline;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr.expanded,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr.expanded {
+    background-color: inherit;
+  }
+
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr.expanded td,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr.expanded td,
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr.expanded th,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr.expanded th {
+    color: #494949;
+    font-weight: normal;
+    border: 1px solid #cccccc;
+  }
+
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr.expanded td:first-child,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr.expanded td:first-child,
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr.expanded th:first-child,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr.expanded th:first-child {
+    border-left: none;
+  }
+
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr.expanded td:last-child,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr.expanded td:last-child,
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr.expanded th:last-child,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr.expanded th:last-child {
+    border-right: none;
+  }
+
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr.expanded td a,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr.expanded td a,
+  .clean .sidearm-table[class*="collapse"].accordion tbody tr.expanded th a,
+  .clean .sidearm-table[class*="collapse"].accordion tfoot tr.expanded th a {
+    color: black;
+  }
+
+  .clean .sidearm-table[class*="collapse"] thead th {
+    padding: 2px 4px;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tbody tr td,
+  .clean .sidearm-table[class*="collapse"] tbody tr th {
+    padding: 2px 4px;
+  }
+
+  .clean .sidearm-table[class*="collapse"] tfoot th,
+  .clean .sidearm-table[class*="collapse"] tfoot td {
+    padding: 2px 4px;
+  }
+
+  .clean .sidearm-responsive-tabs>ul {
+    display: none;
+  }
+
+  .clean .sidearm-responsive-tabs .ui-tabs-hide {
+    display: block !important;
+    position: static !important;
+  }
+
+  .clean .sidearm-responsive-tabs.main-tabs>section {
+    page-break-after: always;
+  }
+}
