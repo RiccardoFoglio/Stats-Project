@@ -22,7 +22,7 @@
 - [x] play-by-play
 - [x] roster
 - [x] menu
-- [ ] plays double score TD, XP
+- [x] plays double score TD, XP
 - [x] all Names in capitalize
 
 ## Responsive
@@ -31,3 +31,4 @@
 - [x] box-score view
 - [x] plays new view
 - [x] add small-medium-large system
+- [ ] implement input file
