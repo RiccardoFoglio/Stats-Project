@@ -1,6 +1,6 @@
 # STATS WEBPAGE
 
-## Subdivision of the page
+## Subdivision of the Page
 - [x] Scoreboard (teams, records, score, logos, teamIDs)
 - [x] infos about game (location, date, attendance, refs)
 - [x] Scoring summary
@@ -16,7 +16,7 @@
 - [x] Box score
 - [x] Team stats
 - [x] Ind stats
-  - [] PAT TABLE
+  - [ ] PAT TABLE
 - [x] drive chart
 - [x] play-by-play
 - [x] roster
