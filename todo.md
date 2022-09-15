@@ -26,9 +26,12 @@
 - [x] all Names in capitalize
 
 ## Responsive
-- [ ] RESPONSIVE NAV BAR
+- [x] RESPONSIVE NAV BAR
 - [x] tables on each other
 - [x] box-score view
 - [x] plays new view
 - [x] add small-medium-large system
+- [x] make select options work
 - [ ] implement input file
+- [ ] implement OT hide-remove on 5th quarter (all elements in file!)
+- [ ] implement update on div show

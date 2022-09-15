@@ -46,7 +46,7 @@
           <li role="tab" class="nav-item"><a role="presentation" href="#roster" onclick="return false">Roster</a></li>          
         </ul>
 
-        <select id="box-score-select" class="ui-tabs-select hide-on-large">
+        <select id="box-score-select" class="ui-tabs-select hide-on-large" onchange="update('box-score-select')">
           <option value="#box-score">Box Score</option>
           <option value="#team-stats">Team</option>
           <option value="#individual-stats">Individual</option>
@@ -308,6 +308,11 @@
                   <li class="nav-item active"><a id="AwayDefense_button" href="#AwayDefense" onclick="return false"></a></li>
                   <li class="nav-item"><a id="HomeDefense_button" href="#HomeDefense" onclick="return false"></a></li>
                 </ul>
+
+                <select id="defense-select" class="ui-tabs-select hide-on-large"  onchange="update('defense-select')">
+                  <option value="#AwayDefense" id="AwayDefense_option"></option>
+                  <option value="#HomeDefense" id="HomeDefense_option"></option>
+                </select>
         
                 <section id="AwayDefense">
                   <h5 class="sub-heading"></h5>
@@ -592,6 +597,12 @@
                 <li class="nav-item"><a id="awayDrive_button" href="#away-drives" onclick="return false"></a></li>
                 <li class="nav-item"><a id="homeDrive_button" href="#home-drives" onclick="return false"></a></li>
               </ul>
+
+              <select id="drives-select" class="ui-tabs-select hide-on-large" onchange="update('drives-select')">
+                <option value="#all-drives">All</option>
+                <option value="#away-drives" id="awayDrive_option"></option>
+                <option value="#home-drives" id="homeDrive_option"></option>
+              </select>
         
               <section id="all-drives" class="ui-tabs-panel ui-corner-bottom ui-widget-content">
                 <table id="driveQuarterTable" class="sidearm-table overall-stats highlight-hover collapse-on-medium">
@@ -685,6 +696,14 @@
                 <li class="nav-item"><a href="#4th" onclick="return false">4TH</a></li>
                 <li class="nav-item hide"><a href="#ot" onclick="return false">OT</a></li>
               </ul>
+
+              <select id="plays-select" class="ui-tabs-select hide-on-large" onchange="update('plays-select')">
+                <option value="#1st">1st</option>
+                <option value="#2nd">2nd</option>
+                <option value="#3rd">3rd</option>
+                <option value="#4th">4th</option>
+                <option value="#ot" class="hide">OT</option>
+              </select>
         
               <section id="1st" class="ui-tabs-panel ui-corner-bottom ui-widget-content"></section>
         

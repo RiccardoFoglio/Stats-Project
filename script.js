@@ -3,13 +3,12 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 $(document).ready(function () {
-
   menuCall('topNavbar')
   $('#topNavbar.navbar-nav > li').click(function (e) {
     $('#topNavbar.navbar-nav > li').removeClass('active');
     $(this).addClass('active');
     menuCall('topNavbar') 
-  });  
+  });
   
   menuCall('defenseNavbar')
   $('#individual-stats ul.navbar-nav > li').click(function (e) {
@@ -31,11 +30,21 @@ $(document).ready(function () {
     $(this).addClass('active');
     menuCall('playsNavbar')
   });
+
+  document.getElementById('box-score-select').onchange = function(){update('box-score-select')};
+  document.getElementById('defense-select').onchange = function(){update('defense-select')};
+  document.getElementById('drives-select').onchange = function(){update('drives-select')};
+  document.getElementById('plays-select').onchange = function(){update('plays-select')};
+
+  //updateDivShow()
+  //function updateDivShow(){
+  //}
+
 });
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  const url = "iflxml/20220644.xml"
+  const url = "iflxml/20220642.xml"
   //20220644
   fetch(url)
   .then(response=>response.text())
@@ -50,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     buildPlays(xml)
     buildRosters(xml)
   })
-})
+});
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////AUXILIARY FUNCTIONS////////////////////////////////////////////////////////////
@@ -68,6 +77,26 @@ function menuCall(id){
     }
   }
 }
+
+function update(id){
+  let select = document.getElementById(id)
+  let selectedOption = select.options[select.selectedIndex].value.slice(1)
+  let siblings = []
+  for (let i = 0; i < select.options.length; i++) {
+    const idOption = select.options[i].value.slice(1);
+    siblings.push(document.getElementById(idOption))  
+  }
+  for (let i = 0; i < siblings.length; i++) {
+    const div = siblings[i]
+    if (div.getAttribute('id') === selectedOption) {
+      div.style.display = 'block'
+    } else {
+      div.style.display = 'none'
+    }
+  }
+}
+
+
 
 function createElementHTML(type, content, whereto){
   const entry = document.createElement(type)
@@ -960,6 +989,10 @@ function buildIndStats(x){
   document.getElementById('AwayDefense_button').innerHTML = capitalize(x.getElementsByTagName('team')[0].getAttribute('name'))
   document.getElementById('HomeDefense_button').innerHTML = capitalize(x.getElementsByTagName('team')[1].getAttribute('name'))
 
+  document.getElementById('AwayDefense_option').innerHTML = capitalize(x.getElementsByTagName('team')[0].getAttribute('name'))
+  document.getElementById('HomeDefense_option').innerHTML = capitalize(x.getElementsByTagName('team')[1].getAttribute('name'))
+
+
   buildIndOffense(x)
   buildDefense(x)
   buildSpecialTeams(x)
@@ -968,6 +1001,9 @@ function buildIndStats(x){
 function buildDriveChart(x){
   document.getElementById('awayDrive_button').innerHTML = capitalize(x.getElementsByTagName('team')[0].getAttribute('name'))
   document.getElementById('homeDrive_button').innerHTML = capitalize(x.getElementsByTagName('team')[1].getAttribute('name'))
+
+  document.getElementById('awayDrive_option').innerHTML = capitalize(x.getElementsByTagName('team')[0].getAttribute('name'))
+  document.getElementById('homeDrive_option').innerHTML = capitalize(x.getElementsByTagName('team')[1].getAttribute('name'))
 
   buildDrivesQuarter(x)
   buildDrivesTeams(x)
@@ -1157,14 +1193,14 @@ function buildPlays(x){
               //PRINT EXTRA POINT ENTRY
               k += 1
               rowEntry = document.createElement('tr')
-              let down = numToQRT(plays[i].getAttribute('context').split(',')[1])
-              let distance = plays[i].getAttribute('context').split(',')[2]
-              let spot = plays[i].getAttribute('context').split(',')[3][0] === 'V' ? x.getElementsByTagName('team')[0].getAttribute('id') + plays[i].getAttribute('context').split(',')[3].slice(1) : x.getElementsByTagName('team')[1].getAttribute('id') + plays[i].getAttribute('context').split(',')[3].slice(1)
+              let down = numToQRT(plays[k].getAttribute('context').split(',')[1])
+              let distance = plays[k].getAttribute('context').split(',')[2]
+              let spot = plays[k].getAttribute('context').split(',')[3][0] === 'V' ? x.getElementsByTagName('team')[0].getAttribute('id') + plays[k].getAttribute('context').split(',')[3].slice(1) : x.getElementsByTagName('team')[1].getAttribute('id') + plays[k].getAttribute('context').split(',')[3].slice(1)
               td = document.createElement('td')
               td.textContent = `${down} and ${distance} at ${spot}`
               td.classList.add('text-italic-on-small-down')
               rowEntry.appendChild(td)
-              createElementHTML('td', plays[i].getAttribute('text'), rowEntry)
+              createElementHTML('td', plays[k].getAttribute('text'), rowEntry)
               bodyTable.appendChild(rowEntry)
             }
             //SCORE ENTRY
