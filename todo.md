@@ -1,7 +1,6 @@
 # STATS WEBPAGE
 
 ## Subdivision of the page
-
 - [x] Scoreboard (teams, records, score, logos, teamIDs)
 - [x] infos about game (location, date, attendance, refs)
 - [x] Scoring summary
@@ -17,7 +16,7 @@
 - [x] Box score
 - [x] Team stats
 - [x] Ind stats
-  - [] PAT TABLE!!!
+  - [] PAT TABLE
 - [x] drive chart
 - [x] play-by-play
 - [x] roster
@@ -31,7 +30,10 @@
 - [x] box-score view
 - [x] plays new view
 - [x] add small-medium-large system
+
+## Improvements on the Page
 - [x] make select options work
 - [ ] implement input file
 - [ ] implement OT hide-remove on 5th quarter (all elements in file!)
 - [ ] implement update on div show
+- [ ] last plays of qtr doesn't show score
