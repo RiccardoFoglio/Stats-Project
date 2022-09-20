@@ -23,9 +23,9 @@
 }
 
 .box-score-graphic .team {
-  flex: 2;
   min-width: 1px;
   min-height: 1px;
+  flex: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,8 +34,11 @@
 .box-score-graphic .team img {
   display: inline-block;
   vertical-align: bottom;
-  max-width: 100%;
-  height: auto;
+  /*max-width: 100%;
+  height: auto;*/
+  width: 200px;
+  height: 200px;
+  object-fit:contain;
 }
 
 .box-score-graphic .team .score {
@@ -275,11 +278,6 @@ figure.box-score-header table tbody th+td {
 .scoring-summary th {
   text-align: center;
 }
-
-
-
-
-
 
 .sidearm-table[class*="collapse"] {
   display: block;

@@ -44,7 +44,7 @@ $(document).ready(function () {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  const url = "iflxml/20220642.xml"
+  const url = "3divxml/20220640.xml"
   //20220644
   fetch(url)
   .then(response=>response.text())
@@ -711,18 +711,6 @@ function typeToPlay(type){
   }
 }
 
-function AddBefore(rowId, newElement){
-    let target = document.getElementById(rowId);
-    target.parentNode.insertBefore(newElement, target);
-    return newElement;
-}
-
-function AddAfter(rowId, newElement){
-    let target = document.getElementById(rowId);
-    target.parentNode.insertBefore(newElement, target.nextSibling );
-    return newElement;
-}
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////BUILD FUNCTIONS//////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1067,7 +1055,15 @@ function buildPlays(x){
             break;
           case 4:
             quarterDiv = document.getElementById('ot')
-            createElementAttr('th', 'Start of Overtime', 'class', 'text-center', rowEntry)
+            th = document.createElement('th')
+            th.textContent = 'Start of Overtime'
+            th.setAttribute('colspan', '2')
+            th.classList.add('text-center')
+            rowEntry.appendChild(th)
+
+            $('#playsNavbar li:last-child').removeClass('hide')
+            $('#plays-select option:last-child').removeClass('hide')
+            $('#play-by-play #ot').removeClass('hide')
             break;
           default:
             break;
@@ -1132,7 +1128,9 @@ function buildPlays(x){
         }
         currentTable.appendChild(bodyTable)
         quarterDiv.appendChild(currentTable)
+
       } else {
+
         while(nd !== Number(drivestart[j].getAttribute('driveindex').split(',')[0])){
           j += 1
         }
@@ -1172,7 +1170,6 @@ function buildPlays(x){
         while(Number(plays[k].getAttribute('playid').split(',')[0]) !== nd){k += 1}
         
         while (Number(plays[k]?.getAttribute('playid').split(',')[0]) === nd) {
-        //for (k; Number(plays[k]?.getAttribute('playid').split(',')[0]) === nd; k++){
           //PLAYS
           rowEntry = document.createElement('tr')
           let down = numToQRT(plays[k].getAttribute('context').split(',')[1])
@@ -1204,15 +1201,17 @@ function buildPlays(x){
               bodyTable.appendChild(rowEntry)
             }
             //SCORE ENTRY
-            rowEntry = document.createElement('tr')
-            let str = `${capitalize(x.getElementsByTagName('team')[1]?.getAttribute('name'))} ${score[scoreCounter]?.getAttribute('H')}-${score[scoreCounter]?.getAttribute('V')} ${capitalize(x.getElementsByTagName('team')[0]?.getAttribute('name'))}`
-            td = document.createElement('td')
-            td.textContent = str
-            td.setAttribute('colspan', '2')
-            td.classList.add('text-center', 'special-stats', 'emphasize', 'primary', 'inline')
-            rowEntry.appendChild(td)
-            bodyTable.appendChild(rowEntry)
-            scoreCounter += 1
+            if (plays[k].getAttribute('playid').split(',')[2] !== lastPlayQtr) { // not last play = score, would repeat score entry twice
+              rowEntry = document.createElement('tr')
+              let str = `${capitalize(x.getElementsByTagName('team')[1]?.getAttribute('name'))} ${score[scoreCounter]?.getAttribute('H')}-${score[scoreCounter]?.getAttribute('V')} ${capitalize(x.getElementsByTagName('team')[0]?.getAttribute('name'))}`
+              td = document.createElement('td')
+              td.textContent = str
+              td.setAttribute('colspan', '2')
+              td.classList.add('text-center', 'special-stats', 'emphasize', 'primary', 'inline')
+              rowEntry.appendChild(td)
+              bodyTable.appendChild(rowEntry)
+              scoreCounter += 1
+            }
           }
       
           //FINALPLAY SCORE
@@ -1497,9 +1496,9 @@ function buildIndOffense(x) {
   sortTable('passingStatsVis-table',  2, 'high')
   insertTotalRow('passingStatsVis-table', 'pass')
 
-  sortTable('rushingStatsHome-table', 4, 'high')
+  sortTable('rushingStatsHome-table', 3, 'high')
   insertTotalRow('rushingStatsHome-table', 'rush')
-  sortTable('rushingStatsVis-table', 4, 'high')
+  sortTable('rushingStatsVis-table', 3, 'high')
   insertTotalRow('rushingStatsVis-table', 'rush')
 
   sortTable('receivingStatsHome-table', 1, 'high')
@@ -1721,13 +1720,13 @@ function buildDefense(x){
         }
       }
     }
-    sortTable('DefenseTableH', 4, 'high')
-    sortTable('DefenseTableV', 4, 'high')
+
+    sortTable('DefenseTableH', 3, 'high')
+    sortTable('DefenseTableV', 3, 'high')
   }
 }
 
 function buildSpecialTeams(x){
-
   document.getElementById('V-allpurp').innerHTML = `${x.getElementsByTagName('team')[0].getAttribute('id')} - All Purpose`
   document.getElementById('H-allpurp').innerHTML = `${x.getElementsByTagName('team')[1].getAttribute('id')} - All Purpose`
 
@@ -1744,7 +1743,6 @@ function buildSpecialTeams(x){
 
   const allPurposeTableBodyHome = document.getElementById('allPurposeStatsHome-table-body')
   const allPurposeTableBodyVis = document.getElementById('allPurposeStatsVis-table-body')
-
 
   const puntingTableBodyHome = document.getElementById('puntingStatsHome-table-body')
   const allReturnsTableBodyHome = document.getElementById('allReturnsStatsHome-table-body')
@@ -1821,7 +1819,6 @@ function buildSpecialTeams(x){
           createElementAttr('td', 0, 'class', 'text-center', rowEntry)
           createElementAttr('td', 0, 'class', 'text-center', rowEntry)
         }
-      
         if (kr){
           createElementAttr('td', kr.getAttribute('no'), 'class', 'text-center', rowEntry)
           createElementAttr('td', kr.getAttribute('yds'), 'class', 'text-center', rowEntry)
@@ -1831,7 +1828,6 @@ function buildSpecialTeams(x){
           createElementAttr('td', 0, 'class', 'text-center', rowEntry)
           createElementAttr('td', 0, 'class', 'text-center', rowEntry)
         }
-      
         if (ir){
           createElementAttr('td', ir.getAttribute('no'), 'class', 'text-center', rowEntry)
           createElementAttr('td', ir.getAttribute('yds'), 'class', 'text-center', rowEntry)
@@ -1927,7 +1923,6 @@ function buildSpecialTeams(x){
   insertTotalRow('kickoffStatsHome-table', 'ko')
   sortTable('kickoffStatsVis-table', 2, 'high')
   insertTotalRow('kickoffStatsVis-table', 'ko')
-
 }
 
 function buildDrivesQuarter(x) {

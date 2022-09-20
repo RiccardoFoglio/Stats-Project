@@ -34,6 +34,11 @@
 ## Improvements on the Page
 - [x] make select options work
 - [ ] implement input file
-- [ ] implement OT hide-remove on 5th quarter (all elements in file!)
+- [x] implement OT hide-remove on 5th quarter (all elements in file!)
 - [ ] implement update on div show
-- [ ] last plays of qtr doesn't show score
+- [x] last plays of qtr doesn't show score
+- [x] team logos same size
+
+
+
+/* 20220640 3div OT case */
