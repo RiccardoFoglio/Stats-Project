@@ -45,7 +45,13 @@ $(document).ready(function () {
 
 document.addEventListener('DOMContentLoaded', () => {
   const url = "3divxml/20220640.xml"
-  //20220644
+
+  //FIRST PAGE
+  // <a href="stats.html?game=20220640.xml">
+  //STATS PAGE
+  //const urlParams = new URLSearchParams(window.location.search);
+  //const url = urlParams.get('game');
+
   fetch(url)
   .then(response=>response.text())
   .then(data=>{
@@ -95,8 +101,6 @@ function update(id){
     }
   }
 }
-
-
 
 function createElementHTML(type, content, whereto){
   const entry = document.createElement(type)

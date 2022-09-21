@@ -33,11 +33,11 @@
 
 ## Improvements on the Page
 - [x] make select options work
-- [ ] implement input file
+- [x] implement input file
 - [x] implement OT hide-remove on 5th quarter (all elements in file!)
-- [ ] implement update on div show
 - [x] last plays of qtr doesn't show score
 - [x] team logos same size
+- [ ] implement update on div show
 
 
 
