@@ -1,6 +1,8 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////CONTROL FUNCTIONS/////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* 
+  Copyright © 2022 Riccardo Foglio <riccardo.fogliopara@gmail.com>
+  Free for personal use; see 'LICENSE.md' for details.
+  https://github.com/RiccardoFoglio/Stats-Project
+*/
 
 $(document).ready(function () {
   menuCall('topNavbar')
@@ -36,16 +38,14 @@ $(document).ready(function () {
   document.getElementById('drives-select').onchange = function(){update('drives-select')};
   document.getElementById('plays-select').onchange = function(){update('plays-select')};
 
+  //function updateDivShow(){ }
   //updateDivShow()
-  //function updateDivShow(){
-  //}
 
 });
 
 
 document.addEventListener('DOMContentLoaded', () => {
   //const url = "3divxml/20220640.xml"
-
   //FIRST PAGE
   // <a href="stats.html?game=20220640 target='_blank'">
   //STATS PAGE
@@ -53,7 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const urlParams = new URLSearchParams(window.location.search);
   const url =  `${urlParams.get('game')}.xml` ;
   
-
   fetch(url)
   .then(response=>response.text())
   .then(data=>{
@@ -789,8 +788,20 @@ function buildBoxScore(x){
   rowEntry.appendChild(th)
   tableHead.appendChild(rowEntry)
 
+  let spanWinner = document.createElement('span')
+  spanWinner.classList.add('boxscore-winner')
+
   rowEntry = document.createElement('tr')
-  createElementHTML('th', capitalize(teamV.getAttribute('name')), rowEntry)
+  span = document.createElement('span')
+  span.innerHTML = capitalize(teamV.getAttribute('name'))
+
+  th = document.createElement('th') 
+  if (Number(teamV.getElementsByTagName('linescore')[0].getAttribute('score')) > Number(teamH.getElementsByTagName('linescore')[0].getAttribute('score'))) {
+    th.appendChild(spanWinner)
+  }
+  th.appendChild(span)
+  rowEntry.appendChild(th)
+
   for (let i = 0; i < Number(teamV.getElementsByTagName('linescore')[0].getAttribute('prds')); i++) {
     createElementHTML('td', teamV.getElementsByTagName('linescore')[0].getAttribute('line').split(',')[i], rowEntry)
   }
@@ -798,7 +809,16 @@ function buildBoxScore(x){
   tableBody.appendChild(rowEntry)
 
   rowEntry = document.createElement('tr')
-  createElementHTML('th', capitalize(teamH.getAttribute('name')), rowEntry)
+  span = document.createElement('span')
+  span.innerHTML = capitalize(teamH.getAttribute('name'))
+
+  th = document.createElement('th') 
+  if (Number(teamH.getElementsByTagName('linescore')[0].getAttribute('score')) > Number(teamV.getElementsByTagName('linescore')[0].getAttribute('score'))) {
+    th.appendChild(spanWinner)
+  }
+  th.appendChild(span)
+  rowEntry.appendChild(th)
+
   for (let i = 0; i < Number(teamH.getElementsByTagName('linescore')[0].getAttribute('prds')); i++) {
     createElementHTML('td', teamH.getElementsByTagName('linescore')[0].getAttribute('line').split(',')[i], rowEntry)
   }
@@ -1025,7 +1045,7 @@ function buildPlays(x){
     //const firstPlayQtr = plays[0].getAttribute('playid').split(',')[2]
     const lastPlayQtr = plays[plays.length-1].getAttribute('playid').split(',')[2]
 
-    for (let nd = Number(firstDriveQtr); nd <= Number(lastDriveQtr); nd++) {
+    main: for (let nd = Number(firstDriveQtr); nd <= Number(lastDriveQtr); nd++) {
       currentTable = document.createElement('table')
       currentTable.classList.add('sidearm-table', 'overall-stats', 'plays', 'highlight-hover', 'collapse-on-small')
       currentTable.setAttribute('id', `driveTable${nq}-${nd}`)
@@ -1040,6 +1060,10 @@ function buildPlays(x){
             quarterDiv = document.getElementById('1st')
             starthalf = true
             createElementAttr('th', 'Start of 1st Half', 'class', 'text-center', rowEntry)
+
+            $('#playsNavbar li:last-child').addClass('hide')
+            $('#plays-select option:last-child').addClass('hide')
+            $('#play-by-play #ot').addClass('hide')
             break;
           case 1:
             quarterDiv = document.getElementById('2nd')
@@ -1139,10 +1163,16 @@ function buildPlays(x){
         quarterDiv.appendChild(currentTable)
 
       } else {
+        // NOT FIRST DRIVE
 
         while(nd !== Number(drivestart[j].getAttribute('driveindex').split(',')[0])){
+          //Skipping driveindex problem in xml file (from 11 to 13, drive 12 doesn't exist)
+          if (Number(drivestart[j].getAttribute('driveindex').split(',')[0]) > nd) {
+            continue main;
+          }
           j += 1
         }
+                     
         let teamPoss = drivestart[j].getAttribute('poss')[0]
         
         //TABLE HEADER
@@ -1410,12 +1440,19 @@ function buildScoringSummary(x) {
 function buildReferees(x) {
   const table = document.getElementById('refs-table-foot')
   const officials = x.getElementsByTagName('officials')[0]
-  let rowEntry, refPos = 0
+  let rowEntry, refPos = 0, span, bold, td
   for (let i = 0; i < Math.round(officials.attributes.length / 3); i++) {
     rowEntry = document.createElement('tr')
     for (let j = 0; j < 3; j++) {
       if (officials.attributes[refPos]?.name){
-        createElementHTML('td', `${refToReferee(officials.attributes[refPos]?.name)}: ${capitalize(officials.attributes[refPos]?.value)}`, rowEntry)
+        td = document.createElement('td')
+        bold = document.createElement('b')
+        bold.innerHTML = refToReferee(officials.attributes[refPos]?.name)
+        td.appendChild(bold)
+        span = document.createElement('span')
+        span.innerHTML = `: ${capitalize(officials.attributes[refPos]?.value)}`
+        td.appendChild(span)
+        rowEntry.appendChild(td)
       }
       refPos += 1
     }

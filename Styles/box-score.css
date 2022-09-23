@@ -1,3 +1,9 @@
+/*
+  Copyright © 2022 Riccardo Foglio <riccardo.fogliopara@gmail.com>
+  Free for personal use; see 'LICENSE.md' for details.
+  https://github.com/RiccardoFoglio/Stats-Project
+*/
+
 .box-score {
   position: relative;
   color: #494949;
@@ -141,9 +147,6 @@
 figure.box-score-header table caption {
   display: none !important;
 }
-
-
-
 
 /*THEAD*/
 figure.box-score-header table thead {
@@ -293,4 +296,10 @@ figure.box-score-header table tbody th+td {
 .sidearm-table[class*="collapse"] th,
 .sidearm-table[class*="collapse"] caption {
   display: block;
+}
+
+.boxscore-winner::before {
+  margin-right: 5px;
+  box-sizing: border-box;
+  content: '\25B6';
 }

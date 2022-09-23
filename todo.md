@@ -1,4 +1,4 @@
-# STATS WEBPAGE
+# Game Stats To-Do List
 
 ## Subdivision of the Page
 - [x] Scoreboard (teams, records, score, logos, teamIDs)
@@ -37,8 +37,12 @@
 - [x] implement OT hide-remove on 5th quarter (all elements in file!)
 - [x] last plays of qtr doesn't show score
 - [x] team logos same size
+- [x] triangle winning team
+- [x] ref names not bold
+- [x] missing drive exception
+- [x] OT select shows on tablet mode
+- [x] footer powered by:
 - [ ] implement update on div show
-- [ ] error handling
 
 
 /* 20220640 3div OT case */

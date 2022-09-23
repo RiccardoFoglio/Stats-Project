@@ -1,37 +1,37 @@
+<!--
+  Copyright © 2022 Riccardo Foglio <riccardo.fogliopara@gmail.com>
+  Free for personal use; see 'LICENSE.md' for details.
+  https://github.com/RiccardoFoglio/Stats-Project
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title id="title"></title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sen:wght@400;700&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sen:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css" />
+
+  <link rel="stylesheet" href="Styles/general.css">
+  <link rel="stylesheet" href="Styles/navbar.css">
+  <link rel="stylesheet" href="Styles/box-score.css">
+  <link rel="stylesheet" href="Styles/elements.css">
+  <link rel="stylesheet" href="Styles/tables.css">
+  <link rel="stylesheet" href="Styles/team.css">
+  <link rel="stylesheet" href="Styles/responsive2.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-
-  <link rel="stylesheet" href="Styles/navbar.css">
-
-  <link rel="stylesheet" href="Styles/general.css">
-  <link rel="stylesheet" href="Styles/elements.css">
-  <link rel="stylesheet" href="Styles/tables.css">
-  <link rel="stylesheet" href="Styles/box-score.css">
-  <link rel="stylesheet" href="Styles/team.css">
-  
-  <link rel="stylesheet" href="Styles/nmstateresponsive.css">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <script src="script.js"></script>
 </head>
-
 <body>
   <main class="main-content-placeholder">
     <article class="box-score football sidearm-responsive">     
@@ -694,7 +694,7 @@
                 <li class="nav-item"><a href="#2nd" onclick="return false">2ND</a></li>
                 <li class="nav-item"><a href="#3rd" onclick="return false">3RD</a></li>
                 <li class="nav-item"><a href="#4th" onclick="return false">4TH</a></li>
-                <li class="nav-item hide"><a href="#ot" onclick="return false">OT</a></li>
+                <li class="nav-item"><a href="#ot" onclick="return false">OT</a></li>
               </ul>
 
               <select id="plays-select" class="ui-tabs-select hide-on-large" onchange="update('plays-select')">
@@ -702,7 +702,7 @@
                 <option value="#2nd">2nd</option>
                 <option value="#3rd">3rd</option>
                 <option value="#4th">4th</option>
-                <option value="#ot" class="hide">OT</option>
+                <option value="#ot">OT</option>
               </select>
         
               <section id="1st" class="ui-tabs-panel ui-corner-bottom ui-widget-content"></section>
@@ -713,7 +713,7 @@
         
               <section id="4th" class="ui-tabs-panel ui-corner-bottom ui-widget-content"></section>
         
-              <section id="ot" class="ui-tabs-panel ui-corner-bottom ui-widget-content hide"></section>
+              <section id="ot" class="ui-tabs-panel ui-corner-bottom ui-widget-content"></section>
             </div>
           </div>
         </section>
@@ -758,4 +758,7 @@
   </article>
   </main>
 </body>
+<footer>
+  <p>Powered by: Riccardo Foglio</p>
+</footer>
 </html>
