@@ -730,9 +730,9 @@ function buildBoxScore(x){
   const teamH = x.getElementsByTagName('team')[1]
 
   // box-score-graphic
-  document.getElementById('awayLogo').src = `logos/${teamV.getAttribute('id')}.jpg`
+  document.getElementById('awayLogo').src = `logos/${teamV.getAttribute('id').toLowerCase()}.jpg`
   document.getElementById('awayLogo').alt = `${capitalize(teamV.getAttribute('name'))} logo`
-  document.getElementById('homeLogo').src = `logos/${teamH.getAttribute('id')}.jpg`
+  document.getElementById('homeLogo').src = `logos/${teamH.getAttribute('id').toLowerCase()}.jpg`
   document.getElementById('homeLogo').alt = `${capitalize(teamH.getAttribute('name'))} logo`
 
   document.getElementById('awayScore').innerHTML = teamV.getElementsByTagName('linescore')[0].getAttribute('score')
