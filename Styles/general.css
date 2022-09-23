@@ -139,7 +139,7 @@ summary {
   display: none !important;
 }
 
-.highlight-hover tr:hover {
+.highlight-hover :not(thead) tr:hover {
   background-color: #e5e5e5;
 }
 

@@ -228,8 +228,8 @@ function driveToString (attributes) {
 function netAverage(type, fromH, fromV, retH, retV, whereto) {
   rowEntry = document.createElement('tr')
   createElementHTML('td', 'Net Avg. / '+type, rowEntry)
-  let ydsH = parseFloat(fromH.getAttribute('yds'))
-  let ydsV = parseFloat(fromV.getAttribute('yds'))
+  let ydsH = parseFloat(fromH?.getAttribute('yds'))
+  let ydsV = parseFloat(fromV?.getAttribute('yds'))
   let retYdsH, retYdsV, touchBackPartialH, touchBackPartialV, noH, noV, netH, netV
   if (retH) {
     retYdsH = parseFloat(retH.getAttribute('yds'))
