@@ -44,13 +44,15 @@ $(document).ready(function () {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  const url = "3divxml/20220640.xml"
+  //const url = "3divxml/20220640.xml"
 
   //FIRST PAGE
-  // <a href="stats.html?game=20220640.xml">
+  // <a href="stats.html?game=20220640 target='_blank'">
   //STATS PAGE
-  //const urlParams = new URLSearchParams(window.location.search);
-  //const url = urlParams.get('game');
+  //xml must be in same directory as stats page
+  const urlParams = new URLSearchParams(window.location.search);
+  const url =  `${urlParams.get('game')}.xml` ;
+  
 
   fetch(url)
   .then(response=>response.text())
@@ -58,12 +60,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const parser = new DOMParser()
     const xml = parser.parseFromString(data, "application/xml")
     
+    const title = document.getElementById('title')
+    title.innerHTML = `${xml.getElementsByTagName('team')[0].getAttribute('name').toUpperCase()} vs ${xml.getElementsByTagName('team')[1].getAttribute('name').toUpperCase()}`
+
     buildBoxScore(xml)
     buildTeamStats(xml)
     buildIndStats(xml)
     buildDriveChart(xml)
-    buildPlays(xml)
     buildRosters(xml)
+    buildPlays(xml)
   })
 });
 

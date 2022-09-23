@@ -38,7 +38,7 @@
 - [x] last plays of qtr doesn't show score
 - [x] team logos same size
 - [ ] implement update on div show
-
+- [ ] error handling
 
 
 /* 20220640 3div OT case */
