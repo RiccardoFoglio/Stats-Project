@@ -38,14 +38,14 @@ $(document).ready(function () {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  const url = "20221023.xml"
+  //const url = "20221023.xml"
   //FIRST PAGE   20221023.xml    3divxml/20220100.xml
   // <a href="stats.html?game=20220640 target='_blank'">
   //STATS PAGE
   //xml must be in same directory as stats page
 
-  //const urlParams = new URLSearchParams(window.location.search);
-  //const url =  `${urlParams.get('game')}.xml` ;
+  const urlParams = new URLSearchParams(window.location.search);
+  const url =  `${urlParams.get('game')}.xml` ;
   fetch(url)
   .then(response=>response.text())
   .then(data=>{
