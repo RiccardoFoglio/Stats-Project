@@ -58,8 +58,6 @@ screen and (max-width: 767px) {
     border-left: 1px solid #cccccc;
   }
 
-
-
   .sidearm-table th,
   .sidearm-table td {
     font-size: 1em;
@@ -139,22 +137,22 @@ screen and (max-width: 767px) {
     min-height: 1px;
   }
 
-  .football .box-score-graphic .team,
-  .sfootball .box-score-graphic .team {
+  .box-score-graphic .team,
+  .box-score-graphic .team {
     flex-direction: row;
     -webkit-flex-direction: row;
     align-items: center;
     -webkit-align-items: center;
   }
 
-  .football .box-score-graphic .team:last-child div,
-  .sfootball .box-score-graphic .team:last-child div {
+  .box-score-graphic .team:last-child div,
+   .box-score-graphic .team:last-child div {
     order: 2;
     -webkit-order: 2;
   }
 
-  .football .box-score-graphic .team:last-child span,
-  .sfootball .box-score-graphic .team:last-child span {
+   .box-score-graphic .team:last-child span,
+   .box-score-graphic .team:last-child span {
     order: 1;
     -webkit-order: 1;
   }
@@ -178,29 +176,22 @@ screen and (max-width: 539px) {
     font-size: 1.5em;
   }
 
-  .football .box-score-graphic .team,
-  .sfootball .box-score-graphic .team {
+  .box-score-graphic .team {
     flex-direction: column;
-    -webkit-flex-direction: column;
   }
 
-  .football .box-score-graphic .team:last-child div,
-  .sfootball .box-score-graphic .team:last-child div {
+  .box-score-graphic .team:last-child div {
     order: 1;
-    -webkit-order: 1;
   }
 
-  .football .box-score-graphic .team:last-child span,
-  .sfootball .box-score-graphic .team:last-child span {
+  .box-score-graphic .team:last-child span {
     order: 2;
-    -webkit-order: 2;
   }
 
   .box-score dl.special-stats.multi-columns {
-    -webkit-columns: 1;
-    -moz-columns: 1;
     columns: 1;
   }
+
 }
 
 @media print {

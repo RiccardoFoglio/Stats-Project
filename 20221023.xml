@@ -1,0 +1,722 @@
+<fbgame source="Tas Football" version="1.3.4" generated="10/19/2022">
+ <venue gameid="20221023" visid="GIT" homeid="SEA" visname="GIAGUARI Torino" homename="SEAMEN Milano"
+      date="10/167/2022" location="Milano" stadium="Vigorelli"
+      start="14:05" end="16:25" leaguegame="Y"
+      duration="02:20" attend="100" temp="24" wind="no" weather="sunny">
+  <officials ref="L. Mancino" ump="P. Buondonno" line="E. Crescenzi" lj="P. Mazzia" sc="A. Germinetti"></officials>
+  <rules qtrs="4" mins="10" downs="4" yds="10" kospot="25" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="" id="GIT" name="GIAGUARI Torino" record="0-1" conf-record="0-1" abb="G">
+  <linescore prds="4" line="6,14,6,6" score="32">
+   <lineprd prd="1" score="6"></lineprd>
+   <lineprd prd="2" score="14"></lineprd>
+   <lineprd prd="3" score="6"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="18" rush="12" pass="5" penalty="1"></firstdowns>
+   <penalties no="5" yds="38"></penalties>
+   <conversions thirdconv="2" thirdatt="6" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="3" lost="1"></fumbles>
+   <misc yds="0" top="22:54" ona="0" onm="0"></misc>
+   <redzone att="3" scores="3" points="20" tdrush="2" tdpass="1" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="31" yds="190" gain="237" loss="47" td="3" long="38"></rush>
+   <pass comp="8" att="17" int="0" yds="131" td="2" long="29" sacks="1" sackyds="10"></pass>
+   <rcv no="8" yds="131" td="2" long="29"></rcv>
+   <punt no="4" yds="182" long="66" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+   <ko no="6" yds="290" ob="0" tb="0"></ko>
+   <pat rushatt="4" rushmade="1" passatt="1" passmade="0"></pat>
+   <defense tackua="16" tacka="10" tflua="1" tfla="6" tflyds="21" sacks="2" sackyds="11" brup="3" ff="1" fr="1" fryds="0"></defense>
+   <scoring td="5" patrush="1"></scoring>
+  </totals>
+  <player name="Piacentini E." shortname="Piacentini E." checkname="E.,PIACENTINI" uni="44" gp="1" code="44">
+   <rush att="8" yds="80" gain="82" loss="2" td="3" long="24"></rush>
+   <pass comp="2" att="3" int="0" yds="29" td="0" long="17" sacks="0" sackyds="0"></pass>
+   <rcv no="4" yds="60" td="2" long="24"></rcv>
+   <pat passatt="1" passmade="0"></pat>
+   <defense tackua="6" tacka="2"></defense>
+   <fumbles no="1" lost="0"></fumbles>
+   <scoring td="5"></scoring>
+  </player>
+  <player name="Klemmer T." shortname="Klemmer T." checkname="T.,KLEMMER" uni="1" gp="1" code="1">
+   <rcv no="3" yds="59" td="0" long="29"></rcv>
+   <defense tackua="1" tacka="2" tflua="0" tfla="2" tflyds="5" sackua="0" sacka="1" sackyds="2" brup="1"></defense>
+  </player>
+  <player name="Longo E." shortname="Longo E." checkname="E.,LONGO" uni="18" gp="1" code="18">
+   <rush att="7" yds="11" gain="27" loss="16" td="0" long="13"></rush>
+  </player>
+  <player name="Brancaleoni R." shortname="Brancaleoni R." checkname="R.,BRANCALEONI" uni="21" gp="1" code="21">
+   <rush att="10" yds="64" gain="79" loss="15" td="0" long="38"></rush>
+   <pass comp="6" att="14" int="0" yds="102" td="2" long="29" sacks="1" sackyds="10"></pass>
+   <rcv no="1" yds="12" td="0" long="12"></rcv>
+   <pat rushatt="1" rushmade="1"></pat>
+   <defense tackua="2" tacka="0"></defense>
+   <scoring patrush="1"></scoring>
+  </player>
+  <player name="Papeo M." shortname="Papeo M." checkname="M.,PAPEO" uni="13" gp="1" code="13">
+   <pat rushatt="1" rushmade="0"></pat>
+  </player>
+  <player name="Onesti E." shortname="Onesti E." checkname="E.,ONESTI" uni="3" gp="1" code="3"></player>
+  <player name="Fontana F." shortname="Fontana F." checkname="F.,FONTANA" uni="41" gp="1" code="41">
+   <rush att="6" yds="35" gain="49" loss="14" td="0" long="29"></rush>
+   <pat rushatt="2" rushmade="0"></pat>
+   <defense tackua="3" tacka="4" tflua="1" tfla="3" tflyds="13" sackua="0" sacka="2" sackyds="6" ff="1" fr="1" fryds="0"></defense>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Vito M." shortname="Vito M." checkname="M.,VITO" uni="33" gp="1" code="33">
+   <defense tackua="3" tacka="0"></defense>
+  </player>
+  <player name="Giardina V." shortname="Giardina V." checkname="V.,GIARDINA" uni="35" gp="1" code="35">
+   <defense tackua="1" tacka="1" brup="2"></defense>
+  </player>
+  <player name="Messina L." shortname="Messina L." checkname="L.,MESSINA" uni="36" gp="1" code="36"></player>
+  <player name="Vanzo A." shortname="Vanzo A." checkname="A.,VANZO" uni="12" gp="1" code="12"></player>
+  <player name="Aviano R." shortname="Aviano R." checkname="R.,AVIANO" uni="50" gp="1" code="50"></player>
+  <player name="Moccia M." shortname="Moccia M." checkname="M.,MOCCIA" uni="59" gp="1" code="59"></player>
+  <player name="Ghisio E." shortname="Ghisio E." checkname="E.,GHISIO" uni="70" gp="1" code="70"></player>
+  <player name="Silletta G." shortname="Silletta G." checkname="G.,SILLETTA" uni="75" gp="1" code="75">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="3" sackua="0" sacka="1" sackyds="3"></defense>
+  </player>
+  <player name="Schwarz N." shortname="Schwarz N." checkname="N.,SCHWARZ" uni="95" gp="1" code="95"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <punt no="4" yds="182" long="66" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+   <ko no="6" yds="290" ob="0" tb="0"></ko>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+ </team>
+ <team vh="H" code="" id="SEA" name="SEAMEN Milano" record="1-0" conf-record="1-0" abb="S">
+  <linescore prds="4" line="0,6,16,14" score="36">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="6"></lineprd>
+   <lineprd prd="3" score="16"></lineprd>
+   <lineprd prd="4" score="14"></lineprd>
+  </linescore>
+  <totals>
+   <firstdowns no="13" rush="4" pass="7" penalty="2"></firstdowns>
+   <penalties no="4" yds="35"></penalties>
+   <conversions thirdconv="1" thirdatt="7" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="1" lost="1"></fumbles>
+   <misc yds="0" top="17:06" ona="0" onm="0"></misc>
+   <redzone att="3" scores="3" points="22" tdrush="1" tdpass="2" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="17" yds="96" gain="117" loss="21" td="2" long="59"></rush>
+   <pass comp="13" att="28" int="0" yds="245" td="3" long="70" sacks="2" sackyds="11"></pass>
+   <rcv no="13" yds="245" td="3" long="70"></rcv>
+   <punt no="4" yds="208" long="57" blkd="0" tb="0" fc="0" plus50="2" inside20="0"></punt>
+   <ko no="5" yds="240" ob="0" tb="0"></ko>
+   <pat rushatt="3" rushmade="1" passatt="2" passmade="2" rcvatt="2" rcvmade="2"></pat>
+   <defense tackua="28" tacka="12" tflua="9" tfla="2" tflyds="40" sacks="1" sackyds="10" brup="1" ff="2" fr="1" fryds="0"></defense>
+   <scoring td="5" patrush="1" patrcv="2"></scoring>
+  </totals>
+  <player name="Marciano' F." shortname="Marciano' F." checkname="F.,MARCIANO'" uni="14" gp="1" code="14">
+   <rcv no="5" yds="98" td="1" long="70"></rcv>
+   <defense tackua="4" tacka="1" brup="1"></defense>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="De Mio G." shortname="De Mio G." checkname="MIO G.,DE" uni="18" gp="1" code="18">
+   <rush att="4" yds="88" gain="88" loss="0" td="1" long="59"></rush>
+   <rcv no="8" yds="147" td="2" long="67"></rcv>
+   <pat rcvatt="2" rcvmade="2"></pat>
+   <scoring td="3" patrcv="2"></scoring>
+  </player>
+  <player name="Laguzzi F." shortname="Laguzzi F." checkname="F.,LAGUZZI" uni="11" gp="1" code="11">
+   <rush att="2" yds="2" gain="2" loss="0" td="0" long="2"></rush>
+  </player>
+  <player name="Cavallo S." shortname="Cavallo S." checkname="S.,CAVALLO" uni="26" gp="1" code="26">
+   <rush att="1" yds="-5" gain="0" loss="5" td="0" long="0"></rush>
+   <defense tackua="6" tacka="0" tflua="4" tfla="0" tflyds="23" sackua="1" sacka="0" sackyds="10"></defense>
+   <fumbles no="1" lost="1"></fumbles>
+  </player>
+  <player name="Troni C." shortname="Troni C." checkname="C.,TRONI" uni="8" gp="1" code="8">
+   <rush att="5" yds="4" gain="15" loss="11" td="1" long="8"></rush>
+   <pass comp="13" att="28" int="0" yds="245" td="3" long="70" sacks="2" sackyds="11"></pass>
+   <pat rushatt="3" rushmade="1" passatt="2" passmade="2"></pat>
+   <scoring td="1" patrush="1"></scoring>
+  </player>
+  <player name="Arroyave Pos S." shortname="Arroyave Pos S." checkname="POS S.,ARROYAVE" uni="1" gp="1" code="1"></player>
+  <player name="Bassi F." shortname="Bassi F." checkname="F.,BASSI" uni="19" gp="1" code="19">
+   <defense tackua="3" tacka="3" ff="1"></defense>
+  </player>
+  <player name="Sala P." shortname="Sala P." checkname="P.,SALA" uni="21" gp="1" code="21">
+   <defense tackua="4" tacka="1"></defense>
+  </player>
+  <player name="Pozzetto G." shortname="Pozzetto G." checkname="G.,POZZETTO" uni="12" gp="1" code="12"></player>
+  <player name="Quarato L." shortname="Quarato L." checkname="L.,QUARATO" uni="27" gp="1" code="27"></player>
+  <player name="Gerolin D." shortname="Gerolin D." checkname="D.,GEROLIN" uni="31" gp="1" code="31">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Guerini L." shortname="Guerini L." checkname="L.,GUERINI" uni="5" gp="1" code="5">
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+  <player name="Orioli S." shortname="Orioli S." checkname="S.,ORIOLI" uni="44" gp="1" code="44"></player>
+  <player name="Mazzitelli A." shortname="Mazzitelli A." checkname="A.,MAZZITELLI" uni="46" gp="1" code="46"></player>
+  <player name="Fortis M." shortname="Fortis M." checkname="M.,FORTIS" uni="47" gp="1" code="47"></player>
+  <player name="Giugliano A." shortname="Giugliano A." checkname="A.,GIUGLIANO" uni="50" gp="1" code="50"></player>
+  <player name="Schiavoni G." shortname="Schiavoni G." checkname="G.,SCHIAVONI" uni="52" gp="1" code="52">
+   <defense tackua="7" tacka="3" tflua="4" tfla="1" tflyds="10" ff="1" fr="1" fryds="0"></defense>
+  </player>
+  <player name="Mazzoleni L." shortname="Mazzoleni L." checkname="L.,MAZZOLENI" uni="54" gp="1" code="54"></player>
+  <player name="Solazzo M." shortname="Solazzo M." checkname="M.,SOLAZZO" uni="55" gp="1" code="55"></player>
+  <player name="Castelli P." shortname="Castelli P." checkname="P.,CASTELLI" uni="62" gp="1" code="62"></player>
+  <player name="Congiu M." shortname="Congiu M." checkname="M.,CONGIU" uni="66" gp="1" code="66"></player>
+  <player name="Elgharabawi S." shortname="Elgharabawi S." checkname="S.,ELGHARABAWI" uni="75" gp="1" code="75">
+   <defense tackua="1" tacka="0" tflua="1" tfla="0" tflyds="6"></defense>
+  </player>
+  <player name="Orlando M." shortname="Orlando M." checkname="M.,ORLANDO" uni="83" gp="1" code="83"></player>
+  <player name="Leoniddi C." shortname="Leoniddi C." checkname="C.,LEONIDDI" uni="85" gp="1" code="85">
+   <defense tackua="0" tacka="1" tflua="0" tfla="1" tflyds="1"></defense>
+  </player>
+  <player name="Blasio A." shortname="Blasio A." checkname="A.,BLASIO" uni="90" gp="1" code="90"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <punt no="4" yds="208" long="57" blkd="0" tb="0" fc="0" plus50="2" inside20="0"></punt>
+   <ko no="5" yds="240" ob="0" tb="0"></ko>
+  </player>
+  <player name="Iddas G." shortname="Iddas G." checkname="G.,IDDAS" uni="38" gp="1" code="38">
+   <rush att="5" yds="7" gain="12" loss="5" td="0" long="6"></rush>
+   <defense tackua="1" tacka="1"></defense>
+  </player>
+ </team>
+ <scores>
+  <score vh="V" team="GIT" qtr="1" clock="00:24" type="TD" how="RUSH" yds="3" scorer="Piacentini E." patby="Piacentini E." pattype="PASS" patres="FAIL" plays="6" drive="75" top="1:51" vscore="6" hscore="0" driveindex="7"></score>
+  <score vh="V" team="GIT" qtr="2" clock="07:40" type="TD" how="PASS" yds="9" scorer="Piacentini E." passer="Brancaleoni R." patby="Brancaleoni R." pattype="RUSH" patres="GOOD" plays="4" drive="20" top="1:50" vscore="14" hscore="0" driveindex="9"></score>
+  <score vh="H" team="SEA" qtr="2" clock="06:20" type="TD" how="PASS" yds="70" scorer="Marciano' F." passer="Troni C." patby="Troni C." pattype="RUSH" patres="FAIL" plays="3" drive="75" top="0:36" vscore="14" hscore="6" driveindex="10"></score>
+  <score vh="V" team="GIT" qtr="2" clock="05:14" type="TD" how="PASS" yds="22" scorer="Piacentini E." passer="Brancaleoni R." patby="Papeo M." pattype="RUSH" patres="FAIL" plays="4" drive="75" top="0:57" vscore="20" hscore="6" driveindex="11"></score>
+  <score vh="H" team="SEA" qtr="3" clock="08:28" type="TD" how="RUSH" yds="59" scorer="De Mio G." patby="De Mio G." pattype="PASS" patres="GOOD" plays="3" drive="75" top="1:32" vscore="20" hscore="14" driveindex="16"></score>
+  <score vh="V" team="GIT" qtr="3" clock="04:27" type="TD" how="RUSH" yds="24" scorer="Piacentini E." patby="Fontana F." pattype="RUSH" patres="FAIL" plays="7" drive="75" top="4:01" vscore="26" hscore="14" driveindex="17"></score>
+  <score vh="H" team="SEA" qtr="3" clock="02:57" type="TD" how="PASS" yds="19" scorer="De Mio G." passer="Troni C." patby="Troni C." pattype="RUSH" patres="GOOD" plays="8" drive="75" top="1:30" vscore="26" hscore="22" driveindex="18"></score>
+  <score vh="H" team="SEA" qtr="4" clock="06:20" type="TD" how="PASS" yds="17" scorer="De Mio G." passer="Troni C." patby="De Mio G." pattype="PASS" patres="GOOD" plays="8" drive="32" top="5:16" vscore="26" hscore="30" driveindex="20"></score>
+  <score vh="V" team="GIT" qtr="4" clock="01:57" type="TD" how="RUSH" yds="6" scorer="Piacentini E." patby="Fontana F." pattype="RUSH" patres="FAIL" plays="9" drive="75" top="0:00" vscore="32" hscore="30" driveindex="21"></score>
+  <score vh="H" team="SEA" qtr="4" clock="00:01" type="TD" how="RUSH" yds="2" scorer="Troni C." patby="Troni C." pattype="RUSH" patres="FAIL" plays="5" drive="75" top="1:57" vscore="32" hscore="36" driveindex="22"></score>
+ </scores>
+ <drives>
+  <drive vh="V" team="GIT" start="KO,1,10:00,25" end="PUNT,1,06:35,37" plays="5" yards="12" top="3:25" driveindex="1"></drive>
+  <drive vh="H" team="SEA" start="PUNT,1,00:00,25" end="PUNT,1,06:35,27" plays="3" yards="2" top="0:00" driveindex="2"></drive>
+  <drive vh="V" team="GIT" start="PUNT,1,06:35,25" end="PUNT,1,04:41,9" plays="3" yards="-16" top="1:54" driveindex="3"></drive>
+  <drive vh="H" team="SEA" start="PUNT,1,04:41,25" end="PUNT,1,03:53,27" plays="3" yards="2" top="0:48" driveindex="4"></drive>
+  <drive vh="V" team="GIT" start="PUNT,1,03:53,25" end="PUNT,1,02:42,27" plays="3" yards="2" top="1:11" driveindex="5"></drive>
+  <drive vh="H" team="SEA" start="PUNT,1,02:42,25" end="PUNT,1,02:15,18" plays="3" yards="-7" top="0:27" driveindex="6"></drive>
+  <drive vh="V" team="GIT" start="PUNT,1,02:15,25" end="TD,1,00:24,100" plays="6" yards="75" top="1:51" rz="1" driveindex="7"></drive>
+  <drive vh="H" team="SEA" start="KO,2,10:00,25" end="FUMB,2,09:30,20" plays="1" yards="-5" top="0:30" driveindex="8"></drive>
+  <drive vh="V" team="GIT" start="FUMB,2,09:30,80" end="TD,2,07:40,100" plays="4" yards="20" top="1:50" rz="1" driveindex="9"></drive>
+  <drive vh="H" team="SEA" start="KO,2,06:56,25" end="TD,2,06:20,100" plays="3" yards="75" top="0:36" driveindex="10"></drive>
+  <drive vh="V" team="GIT" start="KO,2,06:11,25" end="TD,2,05:14,100" plays="4" yards="75" top="0:57" driveindex="11"></drive>
+  <drive vh="H" team="SEA" start="KO,2,05:14,25" end="DOWNS,2,02:15,50" plays="5" yards="25" top="2:59" driveindex="12"></drive>
+  <drive vh="V" team="GIT" start="DOWNS,2,02:15,50" end="PUNT,2,01:37,45" plays="3" yards="-5" top="0:38" driveindex="13"></drive>
+  <drive vh="H" team="SEA" start="PUNT,2,01:37,25" end="PUNT,2,01:14,20" plays="3" yards="-5" top="0:23" driveindex="14"></drive>
+  <drive vh="V" team="GIT" start="PUNT,2,01:14,25" end="HALF,2,00:00,26" plays="2" yards="1" top="1:14" driveindex="15"></drive>
+  <drive vh="H" team="SEA" start="KO,3,10:00,25" end="TD,3,08:28,100" plays="3" yards="75" top="1:32" driveindex="16"></drive>
+  <drive vh="V" team="GIT" start="KO,3,08:28,25" end="TD,3,04:27,100" plays="7" yards="75" top="4:01" driveindex="17"></drive>
+  <drive vh="H" team="SEA" start="KO,3,04:27,25" end="TD,3,02:57,100" plays="8" yards="75" top="1:30" rz="1" driveindex="18"></drive>
+  <drive vh="V" team="GIT" start="KO,3,02:57,25" end="FUMB,3,01:36,32" plays="2" yards="7" top="1:21" driveindex="19"></drive>
+  <drive vh="H" team="SEA" start="FUMB,3,01:36,68" end="TD,4,06:20,100" plays="8" yards="32" top="5:16" rz="1" driveindex="20"></drive>
+  <drive vh="V" team="GIT" start="KO,4,01:57,25" end="TD,4,01:57,100" plays="9" yards="75" top="0:00" rz="1" driveindex="21"></drive>
+  <drive vh="H" team="SEA" start="KO,4,01:57,25" end="TD,4,00:00,100" plays="5" yards="75" top="1:57" rz="1" driveindex="22"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play context="V,1,10,V25" playid="0,1,0"
+      text="Seamen win the coin toss, defer to attack second half"></play>
+   <play context="V,1,10,V25" playid="0,2,1"
+      text="SEA ball on SEA35."></play>
+   <play context="H,1,10,H35" playid="0,3,2" type="K"
+      text="TEAM kickoff 40 yards to the GIT25, downed."></play>
+   <drivestart poss="V,V25,10:00" vh="V" spot="V25" clock="10:00" driveindex="1,2"></drivestart>
+   <play context="V,1,10,V25" playid="1,1,3" clock="10:00"
+      text="GIAGUARI TORINO drive start at 10:00."></play>
+   <play context="V,1,10,V25" playid="1,2,4" type="R"
+      text="Longo E. rush for loss of 6 yards to the GIT19 (Elgharabawi S.)."></play>
+   <play context="V,2,16,V19" playid="1,3,5" type="R" first="R"
+      text="Brancaleoni R. rush for 16 yards to the GIT35, 1ST DOWN GIT, out-of-bounds (Schiavoni G.), PENALTY SEA illegal defense declined."></play>
+   <play context="V,1,10,V35" playid="1,4,6" type="R"
+      text="Brancaleoni R. rush for loss of 3 yards to the GIT32, out-of-bounds (Schiavoni G.)."></play>
+   <play context="V,2,13,V32" playid="1,5,7" type="P"
+      text="Brancaleoni R. pass complete to Piacentini E. for 5 yards to the GIT37, out-of-bounds (Bassi F.)."></play>
+   <play context="V,3,8,V37" playid="1,6,8" type="P" clock="08:51"
+      text="Brancaleoni R. pass incomplete, timeout GIAGUARI Torino, clock 08:51."></play>
+   <play context="V,4,8,V37" playid="1,7,9" type="U"
+      text="TEAM punt 38 yards to the SEA25, downed."></play>
+   <drivesum plays="5" yards="12" top="3:25" driveindex="1" complete="Y"></drivesum>
+   <drivestart poss="H,H25,08:51" vh="H" spot="H25" clock="08:51" driveindex="2,9"></drivestart>
+   <play context="H,1,10,H25" playid="2,1,10" type="R"
+      text="Laguzzi F. rush for 2 yards to the SEA27 (Piacentini E.)."></play>
+   <play context="H,2,8,H27" playid="2,2,11" type="R"
+      text="Iddas G. rush for no gain to the SEA27."></play>
+   <play context="H,3,8,H27" playid="2,3,12" type="P"
+      text="Troni C. pass incomplete to De Mio G. (Giardina V.)."></play>
+   <play context="H,4,8,H27" playid="2,4,13" type="U"
+      text="TEAM punt 48 yards to the GIT25, downed."></play>
+   <drivesum plays="3" yards="2" top="0:00" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,V25,08:51" vh="V" spot="V25" clock="08:51" driveindex="3,13"></drivestart>
+   <play context="V,1,10,V25" playid="3,1,14" clock="06:35"
+      text="GIAGUARI TORINO drive start at 06:35."></play>
+   <play context="V,1,10,V25" playid="3,2,15" type="P"
+      text="Brancaleoni R. pass incomplete to Piacentini E.."></play>
+   <play context="V,2,10,V25" playid="3,3,16" type="R"
+      text="Longo E. rush for loss of 6 yards to the GIT19 (Cavallo S.)."></play>
+   <play context="V,3,16,V19" playid="3,4,17" type="P"
+      text="Brancaleoni R. sacked for loss of 10 yards to the GIT9 (Cavallo S.), PENALTY GIT holding declined."></play>
+   <play context="V,4,26,V09" playid="3,5,18" type="U"
+      text="TEAM punt 66 yards to the SEA25, downed."></play>
+   <drivesum plays="3" yards="-16" top="1:54" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,H25,06:35" vh="H" spot="H25" clock="06:35" driveindex="4,18"></drivestart>
+   <play context="H,1,10,H25" playid="4,1,19" clock="04:41"
+      text="SEAMEN MILANO drive start at 04:41."></play>
+   <play context="H,1,10,H25" playid="4,2,20" type="R"
+      text="De Mio G. rush for 2 yards to the SEA27 (Klemmer T.)."></play>
+   <play context="H,2,8,H27" playid="4,3,21" type="P"
+      text="Troni C. pass incomplete to Cavallo S.."></play>
+   <play context="H,3,8,H27" playid="4,4,22" type="#" clock="03:59"
+      text="Timeout SEAMEN Milano, clock 03:59."></play>
+   <play context="H,3,8,H27" playid="4,5,23" type="P"
+      text="Troni C. pass incomplete to Marciano' F.."></play>
+   <play context="H,4,8,H27" playid="4,6,24" type="U"
+      text="TEAM punt 48 yards to the GIT25, downed."></play>
+   <drivesum plays="3" yards="2" top="0:48" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V25,03:59" vh="V" spot="V25" clock="03:59" driveindex="5,24"></drivestart>
+   <play context="V,1,10,V25" playid="5,1,25" clock="03:53"
+      text="GIAGUARI TORINO drive start at 03:53."></play>
+   <play context="V,1,10,V25" playid="5,2,26" type="R"
+      text="Longo E. rush for 2 yards to the GIT27 (Bassi F.;Gerolin D.)."></play>
+   <play context="V,2,8,V27" playid="5,3,27" type="P"
+      text="Brancaleoni R. pass incomplete to Piacentini E.."></play>
+   <play context="V,3,8,V27" playid="5,4,28" type="P"
+      text="Fumble by TEAM, Brancaleoni R. pass incomplete to Longo E.."></play>
+   <play context="V,4,8,V27" playid="5,5,29" type="U"
+      text="TEAM punt 48 yards to the SEA25, downed."></play>
+   <drivesum plays="3" yards="2" top="1:11" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H25,03:53" vh="H" spot="H25" clock="03:53" driveindex="6,29"></drivestart>
+   <play context="H,1,10,H25" playid="6,1,30" clock="02:42"
+      text="SEAMEN MILANO drive start at 02:42."></play>
+   <play context="H,1,10,H25" playid="6,2,31" type="P"
+      text="Troni C. pass incomplete to Marciano' F.."></play>
+   <play context="H,2,10,H25" playid="6,3,32" type="P"
+      text="Troni C. pass incomplete to Cavallo S.."></play>
+   <play context="H,3,10,H25" playid="6,4,33" type="P"
+      text="Troni C. sacked for loss of 7 yards to the SEA18 (Fontana F.;Silletta G.)."></play>
+   <play context="H,4,17,H18" playid="6,5,34" type="U"
+      text="TEAM punt 57 yards to the GIT25, downed."></play>
+   <drivesum plays="3" yards="-7" top="0:27" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="V,V25,02:42" vh="V" spot="V25" clock="02:42" driveindex="7,34"></drivestart>
+   <play context="V,1,10,V25" playid="7,1,35" clock="02:15"
+      text="GIAGUARI TORINO drive start at 02:15."></play>
+   <play context="V,1,10,V25" playid="7,2,36" type="P"
+      text="Brancaleoni R. pass incomplete to Klemmer T.."></play>
+   <play context="V,2,10,V25" playid="7,3,37" type="R" first="R"
+      text="Longo E. rush for 12 yards to the GIT37, 1ST DOWN GIT (Sala P.)."></play>
+   <play context="V,1,10,V37" playid="7,4,38" type="R"
+      text="Brancaleoni R. rush for 9 yards to the GIT46, out-of-bounds (Guerini L.)."></play>
+   <play context="V,2,1,V46" playid="7,5,39" type="R" first="R" clock="00:38"
+      text="Longo E. rush for 13 yards to the SEA41, 1ST DOWN GIT (Sala P.;Bassi F.), timeout GIAGUARI Torino, clock 00:38."></play>
+   <play context="V,1,10,H41" playid="7,6,40" type="R" first="R"
+      text="Brancaleoni R. rush for 38 yards to the SEA3, 1ST DOWN GIT, out-of-bounds (Sala P.)."></play>
+   <play context="V,1,0,H03" playid="7,7,41" type="R" score="Y" clock="00:24"
+      text="Piacentini E. rush for 3 yards to the SEA0, TOUCHDOWN, clock 00:24."></play>
+   <play context="V,1,0,H03" playid="7,8,42" type="X"
+      text="Piacentini E. pass attempt failed."></play>
+   <score V="6" H="0"></score>
+   <score qtr="1" V="6" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GIT">
+    <firstdowns no="4" rush="4" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="08:21"></misc>
+    <rush att="11" yds="68" gain="93" loss="25" td="1" long="38"></rush>
+    <pass comp="1" att="6" int="0" yds="5" td="0" long="5" sacks="1" sackyds="10"></pass>
+    <rcv no="1" yds="5" td="0" long="5"></rcv>
+    <punt no="3" yds="152" long="66" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="2" tacka="2" tflua="2" tfla="0" tflyds="14" sacks="1" sackyds="7" brup="1"></defense>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="01:39"></misc>
+    <rush att="4" yds="-3" gain="4" loss="7" td="0" long="2"></rush>
+    <pass comp="0" att="5" int="0" yds="0" td="0" long="0" sacks="1" sackyds="7"></pass>
+    <punt no="3" yds="153" long="57" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+    <ko no="1" yds="40" ob="0" tb="0"></ko>
+    <defense tackua="9" tacka="4" tflua="4" tfla="0" tflyds="25" sacks="1" sackyds="10"></defense>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play context="V,1,0,V25" playid="7,9,43" type="#" clock="10:00"
+      text="Start of 2nd quarter, clock 10:00."></play>
+   <drivesum plays="6" yards="75" top="1:51" driveindex="7" complete="Y"></drivesum>
+   <play context="V,1,0,V25" playid="7,10,44" type="K"
+      text="TEAM kickoff 50 yards to the SEA25, downed."></play>
+   <drivestart poss="H,H25,10:00" vh="H" spot="H25" clock="10:00" driveindex="8,44"></drivestart>
+   <play context="H,1,10,H25" playid="8,1,45" clock="10:00"
+      text="SEAMEN MILANO drive start at 10:00."></play>
+   <play context="H,1,10,H25" playid="8,2,46" type="R" turnover="F"
+      text="Cavallo S. rush for loss of 5 yards to the SEA20, fumble forced by Fontana F., fumble by Cavallo S. recovered by GIT Fontana F. at SEA20."></play>
+   <drivesum plays="1" yards="-5" top="0:30" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,H20,10:00" vh="V" spot="H20" clock="10:00" driveindex="9,46"></drivestart>
+   <play context="V,1,10,H20" playid="9,1,47" clock="09:30"
+      text="GIAGUARI TORINO drive start at 09:30."></play>
+   <play context="V,1,10,H20" playid="9,2,48" type="R"
+      text="Piacentini E. rush for loss of 2 yards to the SEA22 (Leoniddi C.;Schiavoni G.)."></play>
+   <play context="V,2,12,H22" playid="9,3,49" type="P" first="P"
+      text="Brancaleoni R. pass complete to Klemmer T. for 13 yards to the SEA9, 1ST DOWN GIT (Sala P.)."></play>
+   <play context="V,1,0,H09" playid="9,4,50" type="R"
+      text="Brancaleoni R. rush for no gain to the SEA9 (Cavallo S.)."></play>
+   <play context="V,2,0,H09" playid="9,5,51" type="P" score="Y" clock="07:40"
+      text="Brancaleoni R. pass complete to Piacentini E. for 9 yards to the SEA0, TOUCHDOWN, clock 07:40."></play>
+   <play context="V,1,0,H03" playid="9,6,52" type="X" score="Y"
+      text="Brancaleoni R. rush attempt good."></play>
+   <score V="14" H="0"></score>
+   <drivesum plays="4" yards="20" top="1:50" driveindex="9" complete="Y"></drivesum>
+   <play context="V,1,0,V25" playid="9,7,53" type="K"
+      text="TEAM kickoff 50 yards to the SEA25, downed."></play>
+   <drivestart poss="H,H25,07:40" vh="H" spot="H25" clock="07:40" driveindex="10,53"></drivestart>
+   <play context="H,1,10,H25" playid="10,1,54" clock="06:56"
+      text="SEAMEN MILANO drive start at 06:56."></play>
+   <play context="H,1,10,H25" playid="10,2,55" type="R" clock="06:56"
+      text="Laguzzi F. rush for no gain to the SEA25 (Piacentini E.), timeout SEAMEN Milano, clock 06:56."></play>
+   <play context="H,2,10,H25" playid="10,3,56" type="R"
+      text="Troni C. rush for 5 yards to the SEA30 (Piacentini E.)."></play>
+   <play context="H,3,5,H30" playid="10,4,57" type="P" first="P" score="Y" clock="06:20"
+      text="Troni C. pass complete to Marciano' F. for 70 yards to the GIT0, 1ST DOWN SEA, TOUCHDOWN, clock 06:20."></play>
+   <play context="H,1,0,V03" playid="10,5,58" type="X"
+      text="Troni C. rush attempt failed, PENALTY SEA holding declined."></play>
+   <score V="14" H="6"></score>
+   <drivesum plays="3" yards="75" top="0:36" driveindex="10" complete="Y"></drivesum>
+   <play context="H,1,0,H25" playid="10,6,59" type="K"
+      text="TEAM kickoff 50 yards to the GIT25, downed."></play>
+   <drivestart poss="V,V25,06:20" vh="V" spot="V25" clock="06:20" driveindex="11,59"></drivestart>
+   <play context="V,1,10,V25" playid="11,1,60" clock="06:11"
+      text="GIAGUARI TORINO drive start at 06:11."></play>
+   <play context="V,1,10,V25" playid="11,2,61" type="P" first="P"
+      text="Brancaleoni R. pass complete to Piacentini E. for 24 yards to the GIT49, 1ST DOWN GIT (Sala P.)."></play>
+   <play context="V,1,10,V49" playid="11,3,62" type="P" first="P"
+      text="Brancaleoni R. pass complete to Klemmer T. for 29 yards to the SEA22, 1ST DOWN GIT."></play>
+   <play context="V,1,10,H22" playid="11,4,63" type="P"
+      text="Brancaleoni R. pass incomplete to Klemmer T.."></play>
+   <play context="V,2,10,H22" playid="11,5,64" type="P" first="P" score="Y" clock="05:14"
+      text="Brancaleoni R. pass complete to Piacentini E. for 22 yards to the SEA0, 1ST DOWN GIT, TOUCHDOWN, clock 05:14."></play>
+   <play context="V,1,0,H03" playid="11,6,65" type="X" clock="05:14"
+      text="Timeout GIAGUARI Torino, clock 05:14, Papeo M. rush attempt failed."></play>
+   <score V="20" H="6"></score>
+   <drivesum plays="4" yards="75" top="0:57" driveindex="11" complete="Y"></drivesum>
+   <play context="V,1,0,V25" playid="11,7,66" type="K"
+      text="TEAM kickoff 50 yards to the SEA25, downed."></play>
+   <drivestart poss="H,H25,05:14" vh="H" spot="H25" clock="05:14" driveindex="12,66"></drivestart>
+   <play context="H,1,10,H25" playid="12,1,67" clock="05:14"
+      text="SEAMEN MILANO drive start at 05:14."></play>
+   <play context="H,1,10,H25" playid="12,2,68" type="R" first="E"
+      text="Iddas G. rush for 6 yards to the SEA31 (Fontana F.;Piacentini E.), PENALTY GIT face mask (Giardina V.) 15 yards to the SEA46, 1ST DOWN SEA."></play>
+   <play context="H,1,10,H46" playid="12,3,69"
+      text="1st and 10."></play>
+   <play context="H,1,10,H46" playid="12,4,70" type="P"
+      text="Troni C. pass incomplete to De Mio G.."></play>
+   <play context="H,2,10,H46" playid="12,5,71" type="P"
+      text="Troni C. sacked for loss of 4 yards to the SEA42 (Klemmer T.;Fontana F.)."></play>
+   <play context="H,3,14,H42" playid="12,6,72" type="P"
+      text="Troni C. pass complete to De Mio G. for 8 yards to the 50 yardline (Giardina V.)."></play>
+   <play context="H,4,6,H50" playid="12,7,73" type="P"
+      text="Troni C. pass incomplete to Marciano' F.."></play>
+   <drivesum plays="5" yards="25" top="2:59" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,V50,05:14" vh="V" spot="V50" clock="05:14" driveindex="13,73"></drivestart>
+   <play context="V,1,10,V50" playid="13,1,74" clock="02:15"
+      text="GIAGUARI TORINO drive start at 02:15."></play>
+   <play context="V,1,10,V50" playid="13,2,75" type="R"
+      text="Longo E. rush for loss of 3 yards to the GIT47 (Cavallo S.)."></play>
+   <play context="V,2,13,V47" playid="13,3,76" type="R"
+      text="Brancaleoni R. rush for loss of 2 yards to the GIT45, out-of-bounds (Schiavoni G.)."></play>
+   <play context="V,3,15,V45" playid="13,4,77" type="P"
+      text="Brancaleoni R. pass incomplete to Klemmer T.."></play>
+   <play context="V,4,15,V45" playid="13,5,78" type="U"
+      text="TEAM punt 30 yards to the SEA25, downed."></play>
+   <drivesum plays="3" yards="-5" top="0:38" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,H25,02:15" vh="H" spot="H25" clock="02:15" driveindex="14,78"></drivestart>
+   <play context="H,1,10,H25" playid="14,1,79" clock="01:37"
+      text="SEAMEN MILANO drive start at 01:37."></play>
+   <play context="H,1,10,H25" playid="14,2,80" type="P"
+      text="Troni C. pass incomplete to Marciano' F.."></play>
+   <play context="H,2,10,H25" playid="14,3,81" type="P"
+      text="Troni C. pass incomplete."></play>
+   <play context="H,3,10,H25" playid="14,4,82" type="E"
+      text="PENALTY SEA delay of game (Troni C.) 5 yards to the SEA20."></play>
+   <play context="H,3,15,H20" playid="14,5,83" type="P"
+      text="Troni C. pass incomplete to De Mio G.."></play>
+   <play context="H,4,15,H20" playid="14,6,84" type="U"
+      text="TEAM punt 55 yards to the GIT25, downed."></play>
+   <drivesum plays="3" yards="-5" top="0:23" driveindex="14" complete="Y"></drivesum>
+   <drivestart poss="V,V25,01:37" vh="V" spot="V25" clock="01:37" driveindex="15,84"></drivestart>
+   <play context="V,1,10,V25" playid="15,1,85" clock="01:14"
+      text="GIAGUARI TORINO drive start at 01:14."></play>
+   <play context="V,1,10,V25" playid="15,2,86" type="R"
+      text="Longo E. rush for loss of 1 yard to the GIT24 (Schiavoni G.)."></play>
+   <play context="V,2,11,V24" playid="15,3,87" type="R"
+      text="Brancaleoni R. rush for 2 yards to the GIT26 (Schiavoni G.)."></play>
+   <play context="V,3,9,V26" playid="15,4,88" type="#" clock="00:00"
+      text="End of half, clock 00:00."></play>
+   <drivesum plays="2" yards="1" top="1:14" driveindex="15" complete="Y"></drivesum>
+   <score qtr="2" V="20" H="6"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GIT">
+    <firstdowns no="4" rush="0" pass="4" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:48"></misc>
+    <rush att="6" yds="-6" gain="2" loss="8" td="0" long="0"></rush>
+    <pass comp="5" att="7" int="0" yds="97" td="2" long="24" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="97" td="2" long="24"></rcv>
+    <punt no="1" yds="30" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0"></punt>
+    <ko no="3" yds="150" ob="0" tb="0"></ko>
+    <pat rushatt="2" rushmade="1"></pat>
+    <defense tackua="4" tacka="4" tflua="3" tfla="0" tflyds="13" sacks="2" sackyds="11" ff="1" fr="1" fryds="0"></defense>
+    <scoring td="2" patrush="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="2" rush="0" pass="1" penalty="1"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="05:12"></misc>
+    <rush att="5" yds="2" gain="11" loss="9" td="0" long="4"></rush>
+    <pass comp="2" att="7" int="0" yds="78" td="1" long="70" sacks="1" sackyds="4"></pass>
+    <rcv no="2" yds="78" td="1" long="70"></rcv>
+    <punt no="1" yds="55" long="0" blkd="0" tb="0" fc="0" plus50="1" inside20="0"></punt>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="0"></pat>
+    <defense tackua="7" tacka="2" tflua="5" tfla="0" tflyds="10" sacks="1" sackyds="10"></defense>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play context="V,3,9,V26" playid="15,5,89" type="#" clock="10:00"
+      text="Start of 3rd quarter, clock 10:00, GIT ball on GIT35."></play>
+   <play context="V,3,9,V35" playid="15,6,90" type="K"
+      text="TEAM kickoff 40 yards to the SEA25, downed."></play>
+   <drivestart poss="H,H25,10:00" vh="H" spot="H25" clock="10:00" driveindex="16,90"></drivestart>
+   <play context="H,1,10,H25" playid="16,1,91" clock="10:00"
+      text="SEAMEN MILANO drive start at 10:00."></play>
+   <play context="H,1,10,H25" playid="16,2,92" type="P"
+      text="Troni C. pass complete to Marciano' F. for 6 yards to the SEA31."></play>
+   <play context="H,2,4,H31" playid="16,3,93" type="P" first="P"
+      text="Troni C. pass complete to Marciano' F. for 10 yards to the SEA41, 1ST DOWN SEA."></play>
+   <play context="H,1,10,H41" playid="16,4,94" type="R" first="R" score="Y" clock="08:28"
+      text="De Mio G. rush for 59 yards to the GIT0, 1ST DOWN SEA, TOUCHDOWN, clock 08:28."></play>
+   <play context="H,1,0,V03" playid="16,5,95" type="X" score="Y"
+      text="Troni C. pass attempt to De Mio G. good."></play>
+   <score V="20" H="14"></score>
+   <drivesum plays="3" yards="75" top="1:32" driveindex="16" complete="Y"></drivesum>
+   <play context="H,1,0,H25" playid="16,6,96" type="K"
+      text="TEAM kickoff 50 yards to the GIT25, downed."></play>
+   <drivestart poss="V,V25,08:28" vh="V" spot="V25" clock="08:28" driveindex="17,96"></drivestart>
+   <play context="V,1,10,V25" playid="17,1,97" clock="08:28"
+      text="GIAGUARI TORINO drive start at 08:28."></play>
+   <play context="V,1,10,V25" playid="17,2,98" type="E"
+      text="Piacentini E. rush for no gain to the GIT25 (Guerini L.;Sala P.), PENALTY GIT holding (Vito M.) 10 yards to the GIT15, NO PLAY."></play>
+   <play context="V,1,20,V15" playid="17,3,99" type="P"
+      text="Piacentini E. pass complete to Brancaleoni R. for 12 yards to the GIT27 (Bassi F.)."></play>
+   <play context="V,2,8,V27" playid="17,4,100" type="R"
+      text="Fontana F. rush for 2 yards to the GIT29 (Iddas G.;Schiavoni G.)."></play>
+   <play context="V,3,6,V29" playid="17,5,101" type="R" first="R"
+      text="Piacentini E. rush for 8 yards to the GIT37, 1ST DOWN GIT (Marciano' F.)."></play>
+   <play context="V,1,10,V37" playid="17,6,102" type="R" first="R"
+      text="Fontana F. rush for 29 yards to the SEA34, 1ST DOWN GIT, out-of-bounds (Iddas G.)."></play>
+   <play context="V,1,10,H34" playid="17,7,103" type="R"
+      text="Fontana F. rush for 3 yards to the SEA31 (Schiavoni G.;Marciano' F.)."></play>
+   <play context="V,2,7,H31" playid="17,8,104" type="R" first="R"
+      text="Piacentini E. rush for 7 yards to the SEA24, 1ST DOWN GIT, out-of-bounds (Marciano' F.)."></play>
+   <play context="V,1,10,H24" playid="17,9,105" type="X" first="R" score="Y" clock="04:27"
+      text="Piacentini E. rush for 24 yards to the SEA0, 1ST DOWN GIT, TOUCHDOWN, clock 04:27, Fontana F. rush attempt failed."></play>
+   <score V="26" H="14"></score>
+   <drivesum plays="7" yards="75" top="4:01" driveindex="17" complete="Y"></drivesum>
+   <play context="V,1,0,V25" playid="17,10,106" type="K"
+      text="TEAM kickoff 50 yards to the SEA25, downed."></play>
+   <drivestart poss="H,H25,04:27" vh="H" spot="H25" clock="04:27" driveindex="18,106"></drivestart>
+   <play context="H,1,10,H25" playid="18,1,107" clock="04:27"
+      text="SEAMEN MILANO drive start at 04:27."></play>
+   <play context="H,1,10,H25" playid="18,2,108" type="P" first="P"
+      text="Troni C. pass complete to De Mio G. for 13 yards to the SEA38, 1ST DOWN SEA (Piacentini E.;Giardina V.)."></play>
+   <play context="H,1,10,H38" playid="18,3,109" type="P"
+      text="Troni C. pass complete to De Mio G. for no gain to the SEA38 (Piacentini E.), PENALTY SEA illegal procedure off-setting, PENALTY GIT face mask off-setting."></play>
+   <play context="H,2,10,H38" playid="18,4,110" type="R" first="R"
+      text="De Mio G. rush for 19 yards to the GIT43, 1ST DOWN SEA (Vito M.), PENALTY GIT holding declined."></play>
+   <play context="H,1,10,V43" playid="18,5,111" type="P"
+      text="Troni C. pass incomplete to Marciano' F.."></play>
+   <play context="H,2,10,V43" playid="18,6,112" type="P" first="P"
+      text="Troni C. pass complete to De Mio G. for 12 yards to the GIT31, 1ST DOWN SEA (Vito M.)."></play>
+   <play context="H,1,10,V31" playid="18,7,113" type="P" first="P" clock="02:57"
+      text="Troni C. pass complete to De Mio G. for 11 yards to the GIT20, 1ST DOWN SEA (Vito M.), timeout GIAGUARI Torino, clock 02:57."></play>
+   <play context="H,1,10,V20" playid="18,8,114" type="R"
+      text="Iddas G. rush for 1 yard to the GIT19 (Brancaleoni R.)."></play>
+   <play context="H,2,9,V19" playid="18,9,115" type="X" first="P" score="Y" clock="02:57"
+      text="Troni C. pass complete to De Mio G. for 19 yards to the GIT0, 1ST DOWN SEA, TOUCHDOWN, clock 02:57, Troni C. rush attempt good."></play>
+   <score V="26" H="22"></score>
+   <drivesum plays="8" yards="75" top="1:30" driveindex="18" complete="Y"></drivesum>
+   <play context="H,1,0,H25" playid="18,10,116" type="K"
+      text="TEAM kickoff 50 yards to the GIT25, downed."></play>
+   <drivestart poss="V,V25,02:57" vh="V" spot="V25" clock="02:57" driveindex="19,116"></drivestart>
+   <play context="V,1,10,V25" playid="19,1,117" type="P" first="P" clock="02:57"
+      text="GIAGUARI TORINO drive start at 02:57, Piacentini E. pass complete to Klemmer T. for 17 yards to the GIT42, 1ST DOWN GIT (Guerini L.;Bassi F.)."></play>
+   <play context="V,1,10,V42" playid="19,2,118" type="R" turnover="F"
+      text="Fontana F. rush for loss of 3 yards to the GIT39, fumble forced by Schiavoni G., fumble by Fontana F. recovered by SEA Schiavoni G. at GIT32."></play>
+   <drivesum plays="2" yards="7" top="1:21" driveindex="19" complete="Y"></drivesum>
+   <drivestart poss="H,V32,02:57" vh="H" spot="V32" clock="02:57" driveindex="20,118"></drivestart>
+   <play context="H,1,10,V32" playid="20,1,119" clock="01:36"
+      text="SEAMEN MILANO drive start at 01:36."></play>
+   <play context="H,1,10,V32" playid="20,2,120" type="R"
+      text="De Mio G. rush for 8 yards to the GIT24, out-of-bounds (Piacentini E.)."></play>
+   <play context="H,2,2,V24" playid="20,3,121" type="R" first="R"
+      text="Iddas G. rush for 5 yards to the GIT19, 1ST DOWN SEA (Fontana F.)."></play>
+   <play context="H,1,10,V19" playid="20,4,122" type="P"
+      text="Troni C. pass complete to Marciano' F. for 4 yards to the GIT15 (Brancaleoni R.)."></play>
+   <score qtr="3" V="26" H="22"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GIT">
+    <firstdowns no="5" rush="4" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="05:22"></misc>
+    <rush att="7" yds="63" gain="73" loss="10" td="1" long="0"></rush>
+    <pass comp="2" att="2" int="0" yds="29" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="29" td="0" long="0"></rcv>
+    <ko no="2" yds="90" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="0"></pat>
+    <defense tackua="8" tacka="2" sacks="2" sackyds="11"></defense>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="8" rush="3" pass="5" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:38"></misc>
+    <rush att="5" yds="92" gain="92" loss="0" td="1" long="53"></rush>
+    <pass comp="8" att="9" int="0" yds="75" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="8" yds="75" td="1" long="0"></rcv>
+    <ko no="2" yds="100" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="1" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="5" tacka="6" tflua="1" tfla="0" tflyds="3" sacks="1" sackyds="10" ff="1" fr="1" fryds="0"></defense>
+    <scoring td="2" patrush="1" patrcv="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play context="H,2,6,V15" playid="20,5,123" type="#" clock="10:00"
+      text="Start of 4th quarter, clock 10:00."></play>
+   <play context="H,2,6,V15" playid="20,6,124" type="R" first="R"
+      text="Troni C. rush for 8 yards to the GIT7, 1ST DOWN SEA (Fontana F.), PENALTY GIT holding declined."></play>
+   <play context="H,1,0,V07" playid="20,7,125" type="#" clock="08:40"
+      text="Timeout SEAMEN Milano, clock 08:40."></play>
+   <play context="H,1,0,V07" playid="20,8,126" type="E"
+      text="Troni C. rush for no gain to the GIT7 (Fontana F.), PENALTY SEA holding off-setting, PENALTY GIT unsportsmanlike conduct off-setting, NO PLAY."></play>
+   <play context="H,1,0,V07" playid="20,9,127" type="P"
+      text="Troni C. pass incomplete (Klemmer T.)."></play>
+   <play context="H,2,0,V07" playid="20,10,128" type="R"
+      text="Iddas G. rush for loss of 5 yards to the GIT12 (Klemmer T.;Fontana F.)."></play>
+   <play context="H,3,0,V12" playid="20,11,129" type="P"
+      text="Troni C. pass incomplete to De Mio G. (Giardina V.)."></play>
+   <play context="H,4,0,V12" playid="20,12,130" type="E"
+      text="PENALTY SEA delay of game 5 yards to the GIT17."></play>
+   <play context="H,4,0,V17" playid="20,13,131" type="P" score="Y" clock="06:20"
+      text="Troni C. pass complete to De Mio G. for 17 yards to the GIT0, TOUCHDOWN, clock 06:20."></play>
+   <play context="H,1,0,V03" playid="20,14,132" type="X" score="Y"
+      text="Troni C. pass attempt to De Mio G. good."></play>
+   <score V="26" H="30"></score>
+   <drivesum plays="8" yards="32" top="5:16" driveindex="20" complete="Y"></drivesum>
+   <play context="H,1,0,H25" playid="20,15,133" type="K"
+      text="TEAM kickoff 50 yards to the GIT25, downed."></play>
+   <drivestart poss="V,V25,06:20" vh="V" spot="V25" clock="06:20" driveindex="21,133"></drivestart>
+   <play context="V,1,10,V25" playid="21,1,134" type="P"
+      text="Piacentini E. pass incomplete to Klemmer T., dropped pass."></play>
+   <play context="V,2,10,V25" playid="21,2,135" type="R" first="R"
+      text="Piacentini E. rush for 11 yards to the GIT36, 1ST DOWN GIT (Schiavoni G.), PENALTY SEA personal foul 15 yards to the SEA49, 1ST DOWN GIT."></play>
+   <play context="V,1,10,H49" playid="21,3,136" type="R" first="R"
+      text="Brancaleoni R. rush for 12 yards to the SEA37, 1ST DOWN GIT, out-of-bounds (Cavallo S.)."></play>
+   <play context="V,1,10,H37" playid="21,4,137" type="R"
+      text="Fontana F. rush for loss of 4 yards to the SEA41 (Cavallo S.)."></play>
+   <play context="V,2,14,H41" playid="21,5,138" type="P"
+      text="Brancaleoni R. pass incomplete to Piacentini E., dropped pass (Marciano' F.)."></play>
+   <play context="V,3,14,H41" playid="21,6,139" type="R" first="R"
+      text="Piacentini E. rush for no gain to the SEA41, fumble forced by Bassi F., fumble by Piacentini E. recovered by GIT Piacentini E. at SEA41, Piacentini E. for 23 yards to the SEA18, 1ST DOWN GIT (Gerolin D.)."></play>
+   <play context="V,1,10,H18" playid="21,7,140" type="R" first="R"
+      text="Fontana F. rush for 15 yards to the SEA3, 1ST DOWN GIT (Marciano' F.)."></play>
+   <play context="V,1,0,H03" playid="21,8,141" type="R"
+      text="Brancaleoni R. rush for 2 yards to the SEA1, out-of-bounds (Marciano' F.)."></play>
+   <play context="V,2,0,H01" playid="21,9,142" type="E"
+      text="Brancaleoni R. rush for loss of 5 yards to the SEA6 (Schiavoni G.), PENALTY GIT TD (Piacentini E.) 5 yards to the SEA6, NO PLAY."></play>
+   <play context="V,2,0,H06" playid="21,10,143" type="X" score="Y" clock="01:57"
+      text="Piacentini E. rush for 6 yards to the SEA0, TOUCHDOWN, clock 01:57, Fontana F. rush attempt failed."></play>
+   <score V="32" H="30"></score>
+   <drivesum plays="9" yards="75" top="0:00" driveindex="21" complete="Y"></drivesum>
+   <play context="V,1,0,V25" playid="21,11,144" type="K"
+      text="TEAM kickoff 50 yards to the SEA25, downed."></play>
+   <drivestart poss="H,H25,01:57" vh="H" spot="H25" clock="01:57" driveindex="22,144"></drivestart>
+   <play context="H,1,10,H25" playid="22,1,145" clock="01:57"
+      text="SEAMEN MILANO drive start at 01:57."></play>
+   <play context="H,1,10,H25" playid="22,2,146" type="P"
+      text="Troni C. pass incomplete to De Mio G.."></play>
+   <play context="H,2,10,H25" playid="22,3,147" type="#" clock="01:49"
+      text="Timeout GIAGUARI Torino, clock 01:49."></play>
+   <play context="H,2,10,H25" playid="22,4,148" type="E" first="E" clock="01:30"
+      text="Troni C. pass intercepted by Brancaleoni R. at the SEA27, Brancaleoni R. return to the SEA0, clock 01:30, PENALTY GIT holding (Brancaleoni R.) 3 yards to the SEA28, 1ST DOWN SEA, NO PLAY."></play>
+   <play context="H,1,10,H28" playid="22,5,149" type="P"
+      text="Troni C. pass incomplete to De Mio G., dropped pass."></play>
+   <play context="H,2,10,H28" playid="22,6,150" type="E"
+      text="Troni C. pass incomplete to De Mio G., PENALTY GIT offside defense 5 yards to the SEA33, NO PLAY."></play>
+   <play context="H,2,5,H33" playid="22,7,151" type="E"
+      text="Troni C. pass incomplete to Marciano' F., PENALTY SEA holding 10 yards to the SEA23, NO PLAY."></play>
+   <play context="H,2,15,H23" playid="22,8,152" type="P" first="P"
+      text="Troni C. pass complete to De Mio G. for 67 yards to the GIT10, 1ST DOWN SEA (Piacentini E.)."></play>
+   <play context="H,1,0,V10" playid="22,9,153" type="P"
+      text="Troni C. pass complete to Marciano' F. for 8 yards to the GIT2."></play>
+   <play context="H,2,0,V02" playid="22,10,154" type="R" score="Y" clock="00:01"
+      text="Troni C. rush for 2 yards to the GIT0, TOUCHDOWN, clock 00:01."></play>
+   <play context="H,1,0,V03" playid="22,11,155" type="X" clock="00:00"
+      text="Troni C. rush attempt failed, end of game, clock 00:00."></play>
+   <score V="32" H="36"></score>
+   <drivesum plays="5" yards="75" top="1:57" driveindex="22" complete="Y"></drivesum>
+   <score final="Y" V="32" H="36"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="GIT">
+    <firstdowns no="5" rush="4" pass="0" penalty="1"></firstdowns>
+    <penalties no="3" yds="13"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="04:23"></misc>
+    <rush att="7" yds="65" gain="69" loss="4" td="1" long="0"></rush>
+    <pass comp="0" att="2" int="0" yds="0" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="0"></pat>
+    <defense tackua="2" tacka="2" tflua="2" tfla="0" tflyds="10" sacks="2" sackyds="11" brup="2"></defense>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="SEA">
+    <firstdowns no="3" rush="1" pass="1" penalty="1"></firstdowns>
+    <penalties no="3" yds="30"></penalties>
+    <conversions thirdconv="0" thirdatt="1" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:37"></misc>
+    <rush att="3" yds="5" gain="10" loss="5" td="1" long="0"></rush>
+    <pass comp="3" att="7" int="0" yds="92" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="3" yds="92" td="1" long="0"></rcv>
+    <ko no="1" yds="50" ob="0" tb="0"></ko>
+    <pat rushatt="1" rushmade="0" passatt="1" passmade="1" rcvatt="1" rcvmade="1"></pat>
+    <defense tackua="7" tacka="0" tflua="1" tfla="0" tflyds="4" sacks="1" sackyds="10" brup="1" ff="1"></defense>
+    <scoring td="2" patrcv="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo context="H,1,0,H25" qtr="4" clock="00:00" vtoh="2" htoh="1"></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="GIT">
+ </dnp>
+ <dnp vh="H" id="SEA">
+ </dnp>
+ <longplays thresh="70">
+  <longplay vh="H" id="SEA" yds="70" play="PASS" players="Troni C. to Marciano' F." td="Y"></longplay>
+ </longplays>
+</fbgame>

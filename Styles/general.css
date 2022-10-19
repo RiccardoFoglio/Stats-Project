@@ -67,17 +67,12 @@ h5 {
 }
 
 input,
-select,
 textarea {
   color: #494949;
   border-radius: 2px;
   border: 1px solid #cccccc;
   width: 100%;
   padding: 4px 8px;
-}
-
-select:focus {
-  border-color: black;
 }
 
 textarea {
@@ -298,6 +293,8 @@ select {
   border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
   border-image: initial;
   border-radius: 0px;
+
+  margin-top: 24px;
 }
 
 footer {

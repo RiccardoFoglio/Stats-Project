@@ -42,6 +42,8 @@
 - [x] missing drive exception
 - [x] OT select shows on tablet mode
 - [x] footer powered by:
+- [x] solved bug on OT select option
+- [x] solved box-score display bug
 - [ ] implement update on div show
 
 

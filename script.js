@@ -38,13 +38,14 @@ $(document).ready(function () {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  //const url = "3divxml/20220640.xml"
-  //FIRST PAGE
+  const url = "20221023.xml"
+  //FIRST PAGE   20221023.xml    3divxml/20220100.xml
   // <a href="stats.html?game=20220640 target='_blank'">
   //STATS PAGE
   //xml must be in same directory as stats page
-  const urlParams = new URLSearchParams(window.location.search);
-  const url =  `${urlParams.get('game')}.xml` ;
+
+  //const urlParams = new URLSearchParams(window.location.search);
+  //const url =  `${urlParams.get('game')}.xml` ;
   fetch(url)
   .then(response=>response.text())
   .then(data=>{
@@ -58,6 +59,12 @@ document.addEventListener('DOMContentLoaded', () => {
     buildDriveChart(xml)
     buildRosters(xml)
     buildPlays(xml)
+
+    let nquarter = Number(xml.getElementsByTagName('team')[0].getElementsByTagName('linescore')[0].getAttribute('prds'))
+    console.log(xml.getElementsByTagName('team'))
+    if (nquarter != 5){
+      document.getElementById("plays-select").getElementsByTagName('option')[4].remove();
+    }
   })
 });
 
@@ -965,7 +972,6 @@ function buildPlays(x){
             starthalf = true
             createElementAttr('th', 'Start of 1st Half', 'class', 'text-center', rowEntry)
             $('#playsNavbar li:last-child').addClass('hide')
-            $('#plays-select option:last-child').addClass('hide')
             $('#play-by-play #ot').addClass('hide')
             break;
           case 1:
@@ -997,7 +1003,6 @@ function buildPlays(x){
             th.classList.add('text-center')
             rowEntry.appendChild(th)
             $('#playsNavbar li:last-child').removeClass('hide')
-            $('#plays-select option:last-child').removeClass('hide')
             $('#play-by-play #ot').removeClass('hide')
             break;
           default:
