@@ -1,0 +1,946 @@
+<fbgame source="Tas Football" version="1.3.4" generated="11/7/2022">
+ <venue gameid="20221031" visid="FRG" homeid="GIT" visname="Frogs Legnano" homename="Giaguari Torino"
+      date="11/5/2022" location="Torino" stadium="Primo Nebiolo"
+      start="16:30" end="18:15" leaguegame="Y"
+      duration="1:45" attend="50" temp="18 C" wind="NO Wind" weather="Sunny">
+  <officials ref="F. Garlaschi" ump="P. Buondonno" line="A. Minasso" lj="O. Arnone" sc="R. Balma"></officials>
+  <rules qtrs="4" mins="10" downs="4" yds="10" kospot="30" tbspot="20" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="90" toh="3" sackrush="Y" fgaplay="N" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="FRG" id="FRG" name="Frogs Legnano" record="0-2" conf-record="0-2" abb="F">
+  <linescore prds="4" line="0,0,0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+   <lineprd prd="3" score="0"></lineprd>
+   <lineprd prd="4" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="39" totoff_yards="34" totoff_avg="0.9">
+   <firstdowns no="6" rush="3" pass="2" penalty="1"></firstdowns>
+   <penalties no="6" yds="30"></penalties>
+   <conversions thirdconv="1" thirdatt="9" fourthconv="1" fourthatt="2"></conversions>
+   <fumbles no="1" lost="0"></fumbles>
+   <misc yds="0" top="20:38" ona="0" onm="0"></misc>
+   <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="17" yds="-4" gain="48" loss="52" td="0" long="23"></rush>
+   <pass comp="6" att="22" int="3" yds="38" td="0" long="27" sacks="0" sackyds="0"></pass>
+   <rcv no="6" yds="38" td="0" long="27"></rcv>
+   <punt no="4" yds="162" long="56" blkd="0" tb="0" fc="0" plus50="1" inside20="0" avg="40.5"></punt>
+   <ko no="1" yds="35" ob="0" tb="0"></ko>
+   <defense tackua="26" tacka="4" tot_tack="30" sacks="0" sackyds="0" ff="2" fr="1" fryds="0"></defense>
+  </totals>
+  <player name="Gallo F." shortname="Gallo F." checkname="F.,GALLO" uni="13" gp="1" code="13">
+   <rush att="5" yds="-1" gain="8" loss="9" td="0" long="6"></rush>
+   <rcv no="4" yds="13" td="0" long="27"></rcv>
+   <defense tackua="5" tacka="0" tot_tack="5" ff="1"></defense>
+  </player>
+  <player name="Longoni A." shortname="Longoni A." checkname="A.,LONGONI" uni="24" gp="1" code="24">
+   <rush att="6" yds="-7" gain="11" loss="18" td="0" long="8"></rush>
+   <rcv no="1" yds="19" td="0" long="19"></rcv>
+   <defense tackua="9" tacka="2" tot_tack="11" ff="1"></defense>
+  </player>
+  <player name="Belloni D." shortname="Belloni D." checkname="D.,BELLONI" uni="86" gp="1" code="86">
+   <rcv no="1" yds="6" td="0" long="6"></rcv>
+   <defense tackua="7" tacka="2" tot_tack="9"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <rush att="1" yds="-8" gain="0" loss="8" td="0" long="0"></rush>
+   <punt no="4" yds="162" long="56" blkd="0" tb="0" fc="0" plus50="1" inside20="0" avg="40.5"></punt>
+   <ko no="1" yds="35" ob="0" tb="0"></ko>
+   <fumbles no="1" lost="0"></fumbles>
+  </player>
+  <player name="Sommacal E." shortname="Sommacal E." checkname="E.,SOMMACAL" uni="80" gp="1" code="80">
+   <rush att="1" yds="-10" gain="0" loss="10" td="0" long="0"></rush>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Bernasconi S." shortname="Bernasconi S." checkname="S.,BERNASCONI" uni="72" gp="1" code="72"></player>
+  <player name="Fumarola C." shortname="Fumarola C." checkname="C.,FUMAROLA" uni="77" gp="1" code="77">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Rossato C." shortname="Rossato C." checkname="C.,ROSSATO" uni="79" gp="1" code="79"></player>
+  <player name="Antuono A." shortname="Antuono A." checkname="A.,ANTUONO" uni="52" gp="1" code="52"></player>
+  <player name="Gallo R." shortname="Gallo R." checkname="R.,GALLO" uni="15" gp="1" code="15">
+   <rush att="4" yds="22" gain="29" loss="7" td="0" long="23"></rush>
+   <pass comp="6" att="22" int="3" yds="38" td="0" long="27" sacks="0" sackyds="0"></pass>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Cozzi A." shortname="Cozzi A." checkname="A.,COZZI" uni="8" gp="1" code="8">
+   <defense tackua="2" tacka="0" tot_tack="2" fr="1" fryds="0"></defense>
+  </player>
+ </team>
+ <team vh="H" code="GIT" id="GIT" name="Giaguari Torino" record="1-2" conf-record="1-2" abb="G">
+  <linescore prds="4" line="14,16,20,6" score="56">
+   <lineprd prd="1" score="14"></lineprd>
+   <lineprd prd="2" score="16"></lineprd>
+   <lineprd prd="3" score="20"></lineprd>
+   <lineprd prd="4" score="6"></lineprd>
+  </linescore>
+  <totals totoff_plays="35" totoff_yards="380" totoff_avg="10.9">
+   <firstdowns no="21" rush="21" pass="0" penalty="0"></firstdowns>
+   <penalties no="5" yds="45"></penalties>
+   <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="2" lost="1"></fumbles>
+   <misc yds="0" top="19:22" ona="0" onm="0"></misc>
+   <redzone att="5" scores="5" points="36" tdrush="5" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="35" yds="380" gain="380" loss="0" td="7" long="45"></rush>
+   <ko no="9" yds="315" ob="0" tb="0"></ko>
+   <pat rushatt="7" rushmade="4" passatt="1" passmade="0"></pat>
+   <defense tackua="15" tacka="6" tot_tack="21" tflua="9" tfla="2" tflyds="54" sacks="0" sackyds="0" brup="4" int="3" intyds="58"></defense>
+   <ir no="3" yds="58" td="1" long="30"></ir>
+   <scoring td="8" patrush="4"></scoring>
+  </totals>
+  <player name="Papeo M." shortname="Papeo M." checkname="M.,PAPEO" uni="9" gp="1" code="9">
+   <rush att="22" yds="208" gain="208" loss="0" td="2" long="18"></rush>
+   <pat rushatt="5" rushmade="2"></pat>
+   <scoring td="2" patrush="2"></scoring>
+  </player>
+  <player name="Vito M." shortname="Vito M." checkname="M.,VITO" uni="27" gp="1" code="27">
+   <rush att="11" yds="165" gain="165" loss="0" td="3" long="45"></rush>
+   <pat rushatt="2" rushmade="2"></pat>
+   <defense tackua="2" tacka="1" tot_tack="3" tflua="2" tfla="0" tflyds="6" int="1" intyds="28"></defense>
+   <ir no="1" yds="28" td="0" long="28"></ir>
+   <fumbles no="2" lost="1"></fumbles>
+   <scoring td="3" patrush="2"></scoring>
+  </player>
+  <player name="Fontana F." shortname="Fontana F." checkname="F.,FONTANA" uni="45" gp="1" code="45">
+   <rush att="2" yds="7" gain="7" loss="0" td="1" long="5"></rush>
+   <defense tackua="1" tacka="1" tot_tack="2" brup="1" int="1" intyds="30"></defense>
+   <ir no="1" yds="30" td="1" long="30"></ir>
+   <scoring td="2"></scoring>
+  </player>
+  <player name="Brancaleoni R." shortname="Brancaleoni R." checkname="R.,BRANCALEONI" uni="19" gp="1" code="19">
+   <defense tackua="4" tacka="1" tot_tack="5" tflua="3" tfla="1" tflyds="18" int="1" intyds="0"></defense>
+   <ir no="1" yds="0" td="0" long="0"></ir>
+  </player>
+  <player name="Aviano R." shortname="Aviano R." checkname="R.,AVIANO" uni="14" gp="1" code="14">
+   <pat passatt="1" passmade="0"></pat>
+  </player>
+  <player name="Messina L." shortname="Messina L." checkname="L.,MESSINA" uni="11" gp="1" code="11"></player>
+  <player name="Ferrando A." shortname="Ferrando A." checkname="A.,FERRANDO" uni="54" gp="1" code="54">
+   <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="2"></defense>
+  </player>
+  <player name="Silletta G." shortname="Silletta G." checkname="G.,SILLETTA" uni="67" gp="1" code="67">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="Ghisio E." shortname="Ghisio E." checkname="E.,GHISIO" uni="71" gp="1" code="71">
+   <rush att="0" yds="0" gain="0" loss="0" td="1" long="0"></rush>
+   <scoring td="1"></scoring>
+  </player>
+  <player name="Moccia M." shortname="Moccia M." checkname="M.,MOCCIA" uni="77" gp="1" code="77">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Schwarz N." shortname="Schwarz N." checkname="N.,SCHWARZ" uni="88" gp="1" code="88">
+   <defense tackua="2" tacka="0" tot_tack="2" brup="3"></defense>
+  </player>
+  <player name="Onesti E." shortname="Onesti E." checkname="E.,ONESTI" uni="91" gp="1" code="91">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="Klemmer T." shortname="Klemmer T." checkname="T.,KLEMMER" uni="97" gp="1" code="97">
+   <defense tackua="5" tacka="0" tot_tack="5" tflua="4" tfla="0" tflyds="28"></defense>
+  </player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" gp="1" code="198">
+   <ko no="9" yds="315" ob="0" tb="0"></ko>
+  </player>
+ </team>
+ <scores>
+  <score vh="H" team="GIT" qtr="1" clock="07:38" type="TD" how="RUSH" yds="24" scorer="Vito M." patby="Papeo M." pattype="RUSH" patres="FAIL" plays="6" drive="65" top="2:22" vscore="0" hscore="6" driveindex="1"></score>
+  <score vh="H" team="GIT" qtr="1" clock="06:27" type="TD" how="RUSH" yds="18" scorer="Papeo M." patby="Vito M." pattype="RUSH" patres="GOOD" plays="1" drive="18" top="0:07" vscore="0" hscore="14" driveindex="3"></score>
+  <score vh="H" team="GIT" qtr="2" clock="07:38" type="TD" how="FUMB" yds="0" scorer="Ghisio E." patby="Papeo M." pattype="RUSH" patres="GOOD" plays="6" drive="65" top="2:22" vscore="0" hscore="22" driveindex="5"></score>
+  <score vh="H" team="GIT" qtr="2" clock="00:10" type="TD" how="RUSH" yds="2" scorer="Fontana F." patby="Papeo M." pattype="RUSH" patres="GOOD" plays="3" drive="17" top="0:50" vscore="0" hscore="30" driveindex="9"></score>
+  <score vh="H" team="GIT" qtr="3" clock="05:11" type="TD" how="RUSH" yds="45" scorer="Vito M." patby="Vito M." pattype="RUSH" patres="GOOD" plays="4" drive="65" top="3:29" vscore="0" hscore="38" driveindex="12"></score>
+  <score vh="H" team="GIT" qtr="3" clock="00:40" type="TD" how="RUSH" yds="17" scorer="Papeo M." patby="Papeo M." pattype="RUSH" patres="FAIL" plays="2" drive="28" top="2:03" vscore="0" hscore="44" driveindex="14"></score>
+  <score vh="H" team="GIT" qtr="3" clock="00:00" type="TD" how="INT" yds="30" scorer="Fontana F." patby="Papeo M." pattype="RUSH" patres="FAIL" vscore="0" hscore="50" driveindex="16"></score>
+  <score vh="H" team="GIT" qtr="4" clock="03:40" type="TD" how="RUSH" yds="18" scorer="Vito M." patby="Aviano R." pattype="PASS" patres="FAIL" plays="6" drive="65" top="4:58" vscore="0" hscore="56" driveindex="18"></score>
+ </scores>
+ <drives>
+  <drive vh="H" team="GIT" start="KO,1,10:00,25" end="TD,1,07:38,90" plays="6" yards="65" top="2:22" start_how="KO" start_qtr="1" start_time="10:00" start_spot="GIT25" end_how="TD" end_qtr="1" end_time="07:38" end_spot="FRG00" driveindex="1"></drive>
+  <drive vh="V" team="FRG" start="KO,1,07:38,25" end="INT,1,06:34,42" plays="3" yards="17" top="1:04" start_how="KO" start_qtr="1" start_time="07:38" start_spot="FRG25" end_how="INT" end_qtr="1" end_time="06:34" end_spot="FRG42" driveindex="2"></drive>
+  <drive vh="H" team="GIT" start="INT,1,06:34,72" end="TD,1,06:27,90" plays="1" yards="18" top="0:07" start_how="INT" start_qtr="1" start_time="06:34" start_spot="FRG18" end_how="TD" end_qtr="1" end_time="06:27" end_spot="FRG00" rz="1" driveindex="3"></drive>
+  <drive vh="V" team="FRG" start="KO,1,06:27,25" end="PUNT,1,00:00,39" plays="10" yards="14" top="6:27" start_how="KO" start_qtr="1" start_time="06:27" start_spot="FRG25" end_how="PUNT" end_qtr="1" end_time="00:00" end_spot="FRG39" driveindex="4"></drive>
+  <drive vh="H" team="GIT" start="PUNT,2,10:00,25" end="TD,2,07:38,90" plays="6" yards="65" top="2:22" start_how="PUNT" start_qtr="2" start_time="10:00" start_spot="GIT25" end_how="TD" end_qtr="2" end_time="07:38" end_spot="FRG00" rz="1" driveindex="5"></drive>
+  <drive vh="V" team="FRG" start="KO,2,07:38,25" end="PUNT,2,05:22,9" plays="3" yards="-16" top="2:16" start_how="KO" start_qtr="2" start_time="07:38" start_spot="FRG25" end_how="PUNT" end_qtr="2" end_time="05:22" end_spot="FRG09" driveindex="6"></drive>
+  <drive vh="H" team="GIT" start="PUNT,2,05:22,25" end="FUMB,2,02:11,72" plays="7" yards="47" top="3:11" start_how="PUNT" start_qtr="2" start_time="05:22" start_spot="GIT25" end_how="FUMB" end_qtr="2" end_time="02:11" end_spot="FRG18" driveindex="7"></drive>
+  <drive vh="V" team="FRG" start="FUMB,2,02:11,18" end="DOWNS,2,01:00,17" plays="4" yards="-1" top="1:11" start_how="FUMB" start_qtr="2" start_time="02:11" start_spot="FRG18" end_how="DOWNS" end_qtr="2" end_time="01:00" end_spot="FRG17" driveindex="8"></drive>
+  <drive vh="H" team="GIT" start="DOWNS,2,01:00,73" end="TD,2,00:10,90" plays="3" yards="17" top="0:50" start_how="DOWNS" start_qtr="2" start_time="01:00" start_spot="FRG17" end_how="TD" end_qtr="2" end_time="00:10" end_spot="FRG00" rz="1" driveindex="9"></drive>
+  <drive vh="V" team="FRG" start="KO,2,00:10,25" end="HALF,2,00:00,44" plays="1" yards="19" top="0:10" start_how="KO" start_qtr="2" start_time="00:10" start_spot="FRG25" end_how="HALF" end_qtr="2" end_time="00:00" end_spot="FRG44" driveindex="10"></drive>
+  <drive vh="V" team="FRG" start="KO,3,10:00,25" end="PUNT,3,08:40,30" plays="5" yards="5" top="1:20" start_how="KO" start_qtr="3" start_time="10:00" start_spot="FRG25" end_how="PUNT" end_qtr="3" end_time="08:40" end_spot="FRG30" driveindex="11"></drive>
+  <drive vh="H" team="GIT" start="PUNT,3,08:40,25" end="TD,3,05:11,90" plays="4" yards="65" top="3:29" start_how="PUNT" start_qtr="3" start_time="08:40" start_spot="GIT25" end_how="TD" end_qtr="3" end_time="05:11" end_spot="FRG00" driveindex="12"></drive>
+  <drive vh="V" team="FRG" start="KO,3,05:11,25" end="INT,3,02:43,20" plays="3" yards="-5" top="2:28" start_how="KO" start_qtr="3" start_time="05:11" start_spot="FRG25" end_how="INT" end_qtr="3" end_time="02:43" end_spot="FRG20" driveindex="13"></drive>
+  <drive vh="H" team="GIT" start="INT,3,02:43,62" end="TD,3,00:40,90" plays="2" yards="28" top="2:03" start_how="INT" start_qtr="3" start_time="02:43" start_spot="FRG28" end_how="TD" end_qtr="3" end_time="00:40" end_spot="FRG00" rz="1" driveindex="14"></drive>
+  <drive vh="V" team="FRG" start="KO,3,00:40,25" end="INT,3,00:00,19" plays="2" yards="-6" top="0:40" start_how="KO" start_qtr="3" start_time="00:40" start_spot="FRG25" end_how="INT" end_qtr="3" end_time="00:00" end_spot="FRG19" driveindex="15"></drive>
+  <drive vh="H" team="GIT" start="INT,4,10:00,90" end="TD,3,00:00,90" plays="0" yards="0" top="0:00" start_how="INT" start_qtr="4" start_time="10:00" start_spot="FRG00" end_how="TD" end_qtr="3" end_time="00:00" end_spot="FRG00" driveindex="16"></drive>
+  <drive vh="V" team="FRG" start="KO,4,10:00,25" end="PUNT,4,08:38,20" plays="3" yards="-5" top="1:22" start_how="KO" start_qtr="4" start_time="10:00" start_spot="FRG25" end_how="PUNT" end_qtr="4" end_time="08:38" end_spot="FRG20" driveindex="17"></drive>
+  <drive vh="H" team="GIT" start="PUNT,4,08:38,25" end="TD,4,03:40,90" plays="6" yards="65" top="4:58" start_how="PUNT" start_qtr="4" start_time="08:38" start_spot="GIT25" end_how="TD" end_qtr="4" end_time="03:40" end_spot="FRG00" rz="1" driveindex="18"></drive>
+  <drive vh="V" team="FRG" start="KO,4,03:40,25" end="HALF,4,00:00,32" plays="5" yards="7" top="3:40" start_how="KO" start_qtr="4" start_time="03:40" start_spot="FRG25" end_how="HALF" end_qtr="4" end_time="00:00" end_spot="FRG32" driveindex="19"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="FRG" down="1" togo="10" spot="FRG30" context="V,1,10,V30" playid="0,1,0"
+      text="Giaguari Torino win the coin toss, elect to receive" newcontext="V,1,10,V30">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG30" context="V,1,10,V30" playid="0,2,1" type="K"
+      text="TEAM kickoff 35 yards to the GIT25, downed." newcontext="H,1,10,H25">
+    <p_ko vh="V" name="TEAM" gain="35"></p_ko>
+   </play>
+   <drivestart poss="H,H25,10:00" vh="H" spot="H25" clock="10:00" driveindex="1,1"></drivestart>
+   <play hasball="GIT" down="1" togo="10" spot="GIT25" context="H,1,10,H25" playid="1,1,2" type="R" first="R"
+      text="Papeo M. rush for 10 yards to the GIT35, 1ST DOWN GIT (Gallo F.)." newcontext="H,1,10,H35">
+    <p_ru vh="H" name="Papeo M." gain="10"></p_ru>
+    <p_tk vh="V" name="Gallo F."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="GIT35" context="H,1,10,H35" playid="1,2,3" type="R"
+      text="Papeo M. rush for 7 yards to the GIT42 (Belloni D.)." newcontext="H,2,3,H42">
+    <p_ru vh="H" name="Papeo M." gain="7"></p_ru>
+    <p_tk vh="V" name="Belloni D."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="3" spot="GIT42" context="H,2,3,H42" playid="1,3,4" type="R" first="R"
+      text="Vito M. rush for 7 yards to the FRG41, 1ST DOWN GIT (Belloni D.;Longoni A.)." newcontext="H,1,10,V41">
+    <p_ru vh="H" name="Vito M." gain="7"></p_ru>
+    <p_tk vh="V" name="Belloni D." assist="Y"></p_tk>
+    <p_tk vh="V" name="Longoni A." assist="Y"></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG41" context="H,1,10,V41" playid="1,4,5" type="R"
+      text="Papeo M. rush for 5 yards to the FRG36 (Gallo R.)." newcontext="H,2,5,V36">
+    <p_ru vh="H" name="Papeo M." gain="5"></p_ru>
+    <p_tk vh="V" name="Gallo R."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="5" spot="FRG36" context="H,2,5,V36" playid="1,5,6" type="R" first="R"
+      text="Papeo M. rush for 12 yards to the FRG24, 1ST DOWN GIT (Gallo F.)." newcontext="H,1,10,V24">
+    <p_ru vh="H" name="Papeo M." gain="12"></p_ru>
+    <p_tk vh="V" name="Gallo F."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG24" context="H,1,10,V24" playid="1,6,7" type="R" first="R" score="Y" clock="07:38"
+      text="Vito M. rush for 24 yards to the FRG0, 1ST DOWN GIT, TOUCHDOWN, clock 07:38." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Vito M." gain="24"></p_ru>
+   </play>
+   <play hasball="GIT" down="1" togo="0" spot="FRG03" context="H,1,0,V03" playid="1,7,8" type="X"
+      text="Papeo M. rush attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Papeo M." qb="Papeo M." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="0" H="6"></score>
+   <drivesum plays="6" yards="65" top="2:22" driveindex="1" complete="Y"></drivesum>
+   <play hasball="GIT" down="1" togo="0" spot="GIT30" context="H,1,0,H30" playid="1,8,9" type="K"
+      text="TEAM kickoff 35 yards to the FRG25, downed." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="TEAM" gain="35"></p_ko>
+   </play>
+   <drivestart poss="V,V25,07:38" vh="V" spot="V25" clock="07:38" driveindex="2,9"></drivestart>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="2,1,10" clock="07:38"
+      text="FROGS LEGNANO drive start at 07:38." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="2,2,11" type="R" first="R"
+      text="Gallo R. rush for 23 yards to the GIT42, 1ST DOWN FRG (Fontana F.)." newcontext="V,1,10,H42">
+    <p_ru vh="V" name="Gallo R." gain="23"></p_ru>
+    <p_tk vh="H" name="Fontana F."></p_tk>
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="GIT42" context="V,1,10,H42" playid="2,3,12" type="#" clock="06:51"
+      text="Timeout Giaguari Torino, clock 06:51." newcontext="V,1,10,H42">
+    <p_to vh="H" team="Giaguari Torino"></p_to>
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="GIT42" context="V,1,10,H42" playid="2,4,13" type="R"
+      text="Longoni A. rush for loss of 6 yards to the FRG42 (Klemmer T.), PENALTY FRG illegal procedure declined." newcontext="V,2,16,V42">
+    <p_ru vh="V" name="Longoni A." gain="-6"></p_ru>
+    <p_tk vh="H" name="Klemmer T." tfl="Y"></p_tk>
+    <p_pn vh="V" code="PR" type="illegal procedure" result="DECLINE"></p_pn>
+   </play>
+   <play hasball="FRG" down="2" togo="16" spot="FRG42" context="V,2,16,V42" playid="2,5,14" type="P" turnover="I"
+      text="Gallo R. pass intercepted by Vito M. at the GIT44, Vito M. return 28 yards to the FRG18 (Belloni D.)." newcontext="H,1,10,V18">
+    <p_pa vh="V" qb="Gallo R." result="INT"></p_pa>
+    <p_ir vh="H" name="Vito M." at="H44" gain="28"></p_ir>
+    <p_tk vh="V" name="Belloni D."></p_tk>
+   </play>
+   <drivesum plays="3" yards="17" top="1:04" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="H,V18,06:51" vh="H" spot="V18" clock="06:51" driveindex="3,14"></drivestart>
+   <play hasball="GIT" down="1" togo="10" spot="FRG18" context="H,1,10,V18" playid="3,1,15" clock="06:34"
+      text="GIAGUARI TORINO drive start at 06:34." newcontext="H,1,10,V18">
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG18" context="H,1,10,V18" playid="3,2,16" type="R" first="R" score="Y" clock="06:27"
+      text="Papeo M. rush for 18 yards to the FRG0, 1ST DOWN GIT, TOUCHDOWN, clock 06:27." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Papeo M." gain="18"></p_ru>
+   </play>
+   <play hasball="GIT" down="1" togo="0" spot="FRG03" context="H,1,0,V03" playid="3,3,17" type="X" score="Y"
+      text="Vito M. rush attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Vito M." qb="Vito M." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="14"></score>
+   <drivesum plays="1" yards="18" top="0:07" driveindex="3" complete="Y"></drivesum>
+   <play hasball="GIT" down="1" togo="0" spot="GIT30" context="H,1,0,H30" playid="3,4,18" type="K"
+      text="TEAM kickoff 35 yards to the FRG25, downed." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="TEAM" gain="35"></p_ko>
+   </play>
+   <drivestart poss="V,V25,06:27" vh="V" spot="V25" clock="06:27" driveindex="4,18"></drivestart>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="4,1,19" clock="06:27"
+      text="FROGS LEGNANO drive start at 06:27." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="4,2,20" type="R"
+      text="Gallo F. rush for 6 yards to the FRG31, out-of-bounds (Schwarz N.)." ob="Y" newcontext="V,2,4,V31">
+    <p_ru vh="V" name="Gallo F." gain="6"></p_ru>
+    <p_tk vh="H" name="Schwarz N."></p_tk>
+   </play>
+   <play hasball="FRG" down="2" togo="4" spot="FRG31" context="V,2,4,V31" playid="4,3,21" type="R"
+      text="Gallo F. rush for loss of 3 yards to the FRG28 (Vito M.)." newcontext="V,3,7,V28">
+    <p_ru vh="V" name="Gallo F." gain="-3"></p_ru>
+    <p_tk vh="H" name="Vito M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="3" togo="7" spot="FRG28" context="V,3,7,V28" playid="4,4,22" type="E"
+      text="TEAM rush for no gain to the FRG28, fumble by TEAM recovered by FRG Gallo F. at FRG24, PENALTY GIT offside 5 yards to the FRG33, NO PLAY." newcontext="V,3,2,V33">
+    <p_fumb vh="V" name="TEAM" at="V24" frvh="V" frname="Gallo F."></p_fumb>
+    <p_pn vh="H" code="OS" type="offside" result="ACCEPT" at="V28" yards="5"></p_pn>
+   </play>
+   <play hasball="FRG" down="3" togo="2" spot="FRG33" context="V,3,2,V33" playid="4,5,23" type="E"
+      text="Gallo R. rush for 2 yards to the FRG35, out-of-bounds (Fontana F.), PENALTY FRG illegal procedure 5 yards to the FRG28, NO PLAY." ob="Y" newcontext="V,3,7,V28">
+    <p_pn vh="V" code="PR" type="illegal procedure" result="ACCEPT" at="V33" yards="5"></p_pn>
+   </play>
+   <play hasball="FRG" down="3" togo="7" spot="FRG28" context="V,3,7,V28" playid="4,6,24" type="R"
+      text="Gallo R. rush for 6 yards to the FRG34, out-of-bounds (Schwarz N.)." ob="Y" newcontext="V,4,1,V34">
+    <p_ru vh="V" name="Gallo R." gain="6"></p_ru>
+    <p_tk vh="H" name="Schwarz N."></p_tk>
+   </play>
+   <play hasball="FRG" down="4" togo="1" spot="FRG34" context="V,4,1,V34" playid="4,7,25" type="R" first="R"
+      text="Gallo F. rush for 2 yards to the FRG36, 1ST DOWN FRG (Moccia M.;Vito M.)." newcontext="V,1,10,V36">
+    <p_ru vh="V" name="Gallo F." gain="2"></p_ru>
+    <p_tk vh="H" name="Moccia M." assist="Y"></p_tk>
+    <p_tk vh="H" name="Vito M." assist="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG36" context="V,1,10,V36" playid="4,8,26" type="P"
+      text="Gallo R. pass complete to Belloni D. for 6 yards to the FRG42 (Fontana F.;Onesti E.)." newcontext="V,2,4,V42">
+    <p_pa vh="V" qb="Gallo R." result="COMP" rcv="Belloni D." gain="6"></p_pa>
+    <p_tk vh="H" name="Fontana F." assist="Y"></p_tk>
+    <p_tk vh="H" name="Onesti E." assist="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="2" togo="4" spot="FRG42" context="V,2,4,V42" playid="4,9,27" type="E"
+      text="PENALTY FRG false start 5 yards to the FRG37." newcontext="V,2,9,V37">
+    <p_pn vh="V" code="FS" type="false start" result="ACCEPT" at="V42" yards="5"></p_pn>
+   </play>
+   <play hasball="FRG" down="2" togo="9" spot="FRG37" context="V,2,9,V37" playid="4,10,28" type="R"
+      text="Longoni A. rush for 8 yards to the 45 yardline, out-of-bounds." ob="Y" newcontext="V,3,1,V45">
+    <p_ru vh="V" name="Longoni A." gain="8"></p_ru>
+   </play>
+   <play hasball="FRG" down="3" togo="1" spot="FRG45" context="V,3,1,V45" playid="4,11,29" type="R" first="R"
+      text="Longoni A. rush for 3 yards to the GIT42, 1ST DOWN FRG (Klemmer T.)." newcontext="V,1,10,H42">
+    <p_ru vh="V" name="Longoni A." gain="3"></p_ru>
+    <p_tk vh="H" name="Klemmer T."></p_tk>
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="GIT42" context="V,1,10,H42" playid="4,12,30" type="E"
+      text="TEAM rush for no gain to the GIT42, fumble by TEAM recovered by FRG Longoni A. at FRG44, PENALTY FRG illegal procedure 5 yards to the FRG43, NO PLAY." newcontext="V,1,15,V43">
+    <p_fumb vh="V" name="TEAM" at="V44" frvh="V" frname="Longoni A."></p_fumb>
+    <p_pn vh="V" code="PR" type="illegal procedure" result="ACCEPT" at="H42" yards="5"></p_pn>
+   </play>
+   <play hasball="FRG" down="1" togo="15" spot="FRG43" context="V,1,15,V43" playid="4,13,31" type="#" clock="01:34"
+      text="Timeout Frogs Legnano, clock 01:34." newcontext="V,1,15,V43">
+    <p_to vh="V" team="Frogs Legnano"></p_to>
+   </play>
+   <play hasball="FRG" down="1" togo="15" spot="FRG43" context="V,1,15,V43" playid="4,14,32" type="R"
+      text="Gallo F. rush for loss of 3 yards to the FRG40, out-of-bounds (Vito M.)." ob="Y" newcontext="V,2,18,V40">
+    <p_ru vh="V" name="Gallo F." gain="-3"></p_ru>
+    <p_tk vh="H" name="Vito M." tfl="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="2" togo="18" spot="FRG40" context="V,2,18,V40" playid="4,15,33" type="R"
+      text="Gallo R. rush for loss of 1 yard to the FRG39, out-of-bounds." ob="Y" newcontext="V,3,19,V39">
+    <p_ru vh="V" name="Gallo R." gain="-1"></p_ru>
+   </play>
+   <play hasball="FRG" down="3" togo="19" spot="FRG39" context="V,3,19,V39" playid="4,16,34" type="P"
+      text="Gallo R. pass incomplete to Sommacal E. (Schwarz N.)." newcontext="V,4,19,V39">
+    <p_pa vh="V" qb="Gallo R." result="BRUP" rcv="Sommacal E."></p_pa>
+    <p_bu vh="H" name="Schwarz N."></p_bu>
+   </play>
+   <play hasball="FRG" down="4" togo="19" spot="FRG39" context="V,4,19,V39" playid="4,17,35" type="U"
+      text="TEAM punt 26 yards to the GIT25, downed." newcontext="H,1,10,H25">
+    <p_pu vh="V" name="TEAM" gain="26"></p_pu>
+   </play>
+   <drivesum plays="10" yards="14" top="6:27" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="H,H25,01:34" vh="H" spot="H25" clock="01:34" driveindex="5,35"></drivestart>
+   <play hasball="GIT" down="1" togo="10" spot="GIT25" context="H,1,10,H25" playid="5,1,36" clock="00:00"
+      text="GIAGUARI TORINO drive start at 00:00." newcontext="H,1,10,H25">
+   </play>
+   <score qtr="1" V="0" H="14"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="FRG">
+    <firstdowns no="3" rush="3" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="15"></penalties>
+    <conversions thirdconv="1" thirdatt="3" fourthconv="1" fourthatt="1"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="07:31"></misc>
+    <rush att="10" yds="35" gain="48" loss="13" td="0" long="23"></rush>
+    <pass comp="1" att="3" int="1" yds="6" td="0" long="6" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="6" td="0" long="6"></rcv>
+    <punt no="1" yds="26" long="26" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="26.0"></punt>
+    <ko no="1" yds="35" ob="0" tb="0"></ko>
+    <defense tackua="5" tacka="2" tot_tack="7" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIT">
+    <firstdowns no="5" rush="5" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="02:29"></misc>
+    <rush att="7" yds="83" gain="83" loss="0" td="2" long="24"></rush>
+    <ko no="2" yds="70" ob="0" tb="0"></ko>
+    <pat rushatt="2" rushmade="1"></pat>
+    <defense tackua="7" tacka="4" tot_tack="11" tflua="3" tfla="0" tflyds="12" sacks="0" sackyds="0" brup="1" int="1" intyds="28"></defense>
+    <ir no="1" yds="28" td="0" long="28"></ir>
+    <scoring td="2" patrush="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="GIT" down="1" togo="10" spot="GIT25" context="H,1,10,H25" playid="5,2,37" type="#" clock="10:00"
+      text="Start of 2nd quarter, clock 10:00." newcontext="H,1,10,H25">
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="GIT25" context="H,1,10,H25" playid="5,3,38" type="R" first="R"
+      text="Papeo M. rush for 18 yards to the GIT43, 1ST DOWN GIT (Gallo F.)." newcontext="H,1,10,H43">
+    <p_ru vh="H" name="Papeo M." gain="18"></p_ru>
+    <p_tk vh="V" name="Gallo F."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="GIT43" context="H,1,10,H43" playid="5,4,39" type="R"
+      text="Papeo M. rush for 5 yards to the FRG42 (Longoni A.)." newcontext="H,2,5,V42">
+    <p_ru vh="H" name="Papeo M." gain="5"></p_ru>
+    <p_tk vh="V" name="Longoni A."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="5" spot="FRG42" context="H,2,5,V42" playid="5,5,40" type="R" first="R"
+      text="Papeo M. rush for 13 yards to the FRG29, 1ST DOWN GIT (Longoni A.)." newcontext="H,1,10,V29">
+    <p_ru vh="H" name="Papeo M." gain="13"></p_ru>
+    <p_tk vh="V" name="Longoni A."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG29" context="H,1,10,V29" playid="5,6,41" type="R" first="R"
+      text="Vito M. rush for 15 yards to the FRG14, 1ST DOWN GIT (Belloni D.;Longoni A.)." newcontext="H,1,10,V14">
+    <p_ru vh="H" name="Vito M." gain="15"></p_ru>
+    <p_tk vh="V" name="Belloni D." assist="Y"></p_tk>
+    <p_tk vh="V" name="Longoni A." assist="Y"></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG14" context="H,1,10,V14" playid="5,7,42" type="#" clock="08:17"
+      text="Timeout Frogs Legnano, clock 08:17." newcontext="H,1,10,V14">
+    <p_to vh="V" team="Frogs Legnano"></p_to>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG14" context="H,1,10,V14" playid="5,8,43" type="R"
+      text="Papeo M. rush for 8 yards to the FRG6 (Fumarola C.)." newcontext="H,2,2,V06">
+    <p_ru vh="H" name="Papeo M." gain="8"></p_ru>
+    <p_tk vh="V" name="Fumarola C."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="2" spot="FRG06" context="H,2,2,V06" playid="5,9,44" type="R" first="R" score="Y" clock="07:38"
+      text="Vito M. rush for 4 yards to the FRG2, fumble forced by Gallo F., fumble by Vito M. recovered by GIT Ghisio E. at FRG0, 1ST DOWN GIT, TOUCHDOWN, clock 07:38." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Vito M." gain="4"></p_ru>
+    <p_fumb vh="H" name="Vito M." at="V00" frvh="H" frname="Ghisio E."></p_fumb>
+    <p_tk vh="V" name="Gallo F." ff="Y"></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="0" spot="FRG03" context="H,1,0,V03" playid="5,10,45" type="X" score="Y"
+      text="Papeo M. rush attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Papeo M." qb="Papeo M." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="22"></score>
+   <drivesum plays="6" yards="65" top="2:22" driveindex="5" complete="Y"></drivesum>
+   <play hasball="GIT" down="1" togo="0" spot="GIT30" context="H,1,0,H30" playid="5,11,46" type="K"
+      text="TEAM kickoff 35 yards to the FRG25, downed." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="TEAM" gain="35"></p_ko>
+   </play>
+   <drivestart poss="V,V25,07:38" vh="V" spot="V25" clock="07:38" driveindex="6,46"></drivestart>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="6,1,47" clock="07:38"
+      text="FROGS LEGNANO drive start at 07:38." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="6,2,48" type="R"
+      text="Gallo F. rush for loss of 3 yards to the FRG22." newcontext="V,2,13,V22">
+    <p_ru vh="V" name="Gallo F." gain="-3"></p_ru>
+   </play>
+   <play hasball="FRG" down="2" togo="13" spot="FRG22" context="V,2,13,V22" playid="6,3,49" type="R"
+      text="TEAM rush for no gain to the FRG22, fumble by TEAM recovered by FRG Gallo F. at FRG14." newcontext="V,3,21,V14">
+    <p_ru vh="V" name="TEAM" gain="0"></p_ru>
+    <p_fumb vh="V" name="TEAM" at="V14" frvh="V" frname="Gallo F."></p_fumb>
+   </play>
+   <play hasball="FRG" down="3" togo="21" spot="FRG14" context="V,3,21,V14" playid="6,4,50" type="E"
+      text="PENALTY FRG false start (Cozzi A.) 5 yards to the FRG9." newcontext="V,3,26,V09">
+    <p_pn vh="V" code="FS" type="false start" name="Cozzi A." result="ACCEPT" at="V14" yards="5"></p_pn>
+   </play>
+   <play hasball="FRG" down="3" togo="26" spot="FRG09" context="V,3,26,V09" playid="6,5,51" type="P"
+      text="Gallo R. pass incomplete to Sommacal E., dropped pass." newcontext="V,4,26,V09">
+    <p_pa vh="V" qb="Gallo R." result="DROP" rcv="Sommacal E."></p_pa>
+   </play>
+   <play hasball="FRG" down="4" togo="26" spot="FRG09" context="V,4,26,V09" playid="6,6,52" type="U"
+      text="TEAM punt 56 yards to the GIT25, downed." newcontext="H,1,10,H25">
+    <p_pu vh="V" name="TEAM" gain="56"></p_pu>
+   </play>
+   <drivesum plays="3" yards="-16" top="2:16" driveindex="6" complete="Y"></drivesum>
+   <drivestart poss="H,H25,07:38" vh="H" spot="H25" clock="07:38" driveindex="7,52"></drivestart>
+   <play hasball="GIT" down="1" togo="10" spot="GIT25" context="H,1,10,H25" playid="7,1,53" clock="05:22"
+      text="GIAGUARI TORINO drive start at 05:22." newcontext="H,1,10,H25">
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="GIT25" context="H,1,10,H25" playid="7,2,54" type="R"
+      text="Vito M. rush for 6 yards to the GIT31 (Sommacal E.)." newcontext="H,2,4,H31">
+    <p_ru vh="H" name="Vito M." gain="6"></p_ru>
+    <p_tk vh="V" name="Sommacal E."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="4" spot="GIT31" context="H,2,4,H31" playid="7,3,55" type="R" first="R"
+      text="Papeo M. rush for 6 yards to the GIT37, 1ST DOWN GIT (Cozzi A.)." newcontext="H,1,10,H37">
+    <p_ru vh="H" name="Papeo M." gain="6"></p_ru>
+    <p_tk vh="V" name="Cozzi A."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="GIT37" context="H,1,10,H37" playid="7,4,56" type="R"
+      text="Vito M. rush for 3 yards to the GIT40 (Belloni D.)." newcontext="H,2,7,H40">
+    <p_ru vh="H" name="Vito M." gain="3"></p_ru>
+    <p_tk vh="V" name="Belloni D."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="7" spot="GIT40" context="H,2,7,H40" playid="7,5,57" type="R"
+      text="Papeo M. rush for 5 yards to the 45 yardline (Longoni A.)." newcontext="H,3,2,H45">
+    <p_ru vh="H" name="Papeo M." gain="5"></p_ru>
+    <p_tk vh="V" name="Longoni A."></p_tk>
+   </play>
+   <play hasball="GIT" down="3" togo="2" spot="GIT45" context="H,3,2,H45" playid="7,6,58" type="R" first="R"
+      text="Papeo M. rush for 6 yards to the FRG39, 1ST DOWN GIT." newcontext="H,1,10,V39">
+    <p_ru vh="H" name="Papeo M." gain="6"></p_ru>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG39" context="H,1,10,V39" playid="7,7,59" type="R" first="R"
+      text="Papeo M. rush for 14 yards to the FRG25, 1ST DOWN GIT (Belloni D.)." newcontext="H,1,10,V25">
+    <p_ru vh="H" name="Papeo M." gain="14"></p_ru>
+    <p_tk vh="V" name="Belloni D."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG25" context="H,1,10,V25" playid="7,8,60" type="R" turnover="F"
+      text="Vito M. rush for 5 yards to the FRG20, fumble forced by Longoni A., fumble by Vito M. recovered by FRG Cozzi A. at FRG18." newcontext="V,1,10,V18">
+    <p_ru vh="H" name="Vito M." gain="5"></p_ru>
+    <p_fumb vh="H" name="Vito M." at="V18" frvh="V" frname="Cozzi A."></p_fumb>
+    <p_tk vh="V" name="Longoni A." ff="Y"></p_tk>
+   </play>
+   <drivesum plays="7" yards="47" top="3:11" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="V,V18,05:22" vh="V" spot="V18" clock="05:22" driveindex="8,60"></drivestart>
+   <play hasball="FRG" down="1" togo="10" spot="FRG18" context="V,1,10,V18" playid="8,1,61" clock="02:11"
+      text="FROGS LEGNANO drive start at 02:11." newcontext="V,1,10,V18">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG18" context="V,1,10,V18" playid="8,2,62" type="R"
+      text="Longoni A. rush for loss of 1 yard to the FRG17 (Klemmer T.)." newcontext="V,2,11,V17">
+    <p_ru vh="V" name="Longoni A." gain="-1"></p_ru>
+    <p_tk vh="H" name="Klemmer T." tfl="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="2" togo="11" spot="FRG17" context="V,2,11,V17" playid="8,3,63" type="R"
+      text="Longoni A. rush for no gain to the FRG17 (Silletta G.)." newcontext="V,3,11,V17">
+    <p_ru vh="V" name="Longoni A." gain="0"></p_ru>
+    <p_tk vh="H" name="Silletta G."></p_tk>
+   </play>
+   <play hasball="FRG" down="3" togo="11" spot="FRG17" context="V,3,11,V17" playid="8,4,64" type="P"
+      text="Gallo R. pass incomplete to Longoni A. (Fontana F.)." newcontext="V,4,11,V17">
+    <p_pa vh="V" qb="Gallo R." result="BRUP" rcv="Longoni A."></p_pa>
+    <p_bu vh="H" name="Fontana F."></p_bu>
+   </play>
+   <play hasball="FRG" down="4" togo="11" spot="FRG17" context="V,4,11,V17" playid="8,5,65" type="#" clock="01:04"
+      text="Timeout Giaguari Torino, clock 01:04." newcontext="V,4,11,V17">
+    <p_to vh="H" team="Giaguari Torino"></p_to>
+   </play>
+   <play hasball="FRG" down="4" togo="11" spot="FRG17" context="V,4,11,V17" playid="8,6,66" type="P"
+      text="Gallo R. pass incomplete to Longoni A., dropped pass." newcontext="H,1,10,V17">
+    <p_pa vh="V" qb="Gallo R." result="DROP" rcv="Longoni A."></p_pa>
+   </play>
+   <drivesum plays="4" yards="-1" top="1:11" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="H,V17,01:04" vh="H" spot="V17" clock="01:04" driveindex="9,66"></drivestart>
+   <play hasball="GIT" down="1" togo="10" spot="FRG17" context="H,1,10,V17" playid="9,1,67" clock="01:00"
+      text="GIAGUARI TORINO drive start at 01:00." newcontext="H,1,10,V17">
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG17" context="H,1,10,V17" playid="9,2,68" type="R"
+      text="Fontana F. rush for 5 yards to the FRG12 (Longoni A.)." newcontext="H,2,5,V12">
+    <p_ru vh="H" name="Fontana F." gain="5"></p_ru>
+    <p_tk vh="V" name="Longoni A."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="5" spot="FRG12" context="H,2,5,V12" playid="9,3,69" type="#" clock="00:47"
+      text="Timeout Giaguari Torino, clock 00:47." newcontext="H,2,5,V12">
+    <p_to vh="H" team="Giaguari Torino"></p_to>
+   </play>
+   <play hasball="GIT" down="2" togo="5" spot="FRG12" context="H,2,5,V12" playid="9,4,70" type="R" first="R"
+      text="Papeo M. rush for 10 yards to the FRG2, 1ST DOWN GIT, out-of-bounds (Longoni A.)." ob="Y" newcontext="H,1,0,V02">
+    <p_ru vh="H" name="Papeo M." gain="10"></p_ru>
+    <p_tk vh="V" name="Longoni A."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="0" spot="FRG02" context="H,1,0,V02" playid="9,5,71" type="R" score="Y" clock="00:10"
+      text="Fontana F. rush for 2 yards to the FRG0, TOUCHDOWN, clock 00:10." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Fontana F." gain="2"></p_ru>
+   </play>
+   <play hasball="GIT" down="1" togo="0" spot="FRG03" context="H,1,0,V03" playid="9,6,72" type="X" score="Y"
+      text="Papeo M. rush attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Papeo M." qb="Papeo M." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <comment text="Running clock"></comment>
+   <score V="0" H="30"></score>
+   <drivesum plays="3" yards="17" top="0:50" driveindex="9" complete="Y"></drivesum>
+   <play hasball="GIT" down="1" togo="0" spot="GIT30" context="H,1,0,H30" playid="9,7,74" type="K"
+      text="TEAM kickoff 35 yards to the FRG25, downed." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="TEAM" gain="35"></p_ko>
+   </play>
+   <drivestart poss="V,V25,00:10" vh="V" spot="V25" clock="00:10" driveindex="10,74"></drivestart>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="10,1,75" clock="00:10"
+      text="FROGS LEGNANO drive start at 00:10." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="10,2,76" type="#" clock="00:10"
+      text="Timeout Frogs Legnano, clock 00:10." newcontext="V,1,10,V25">
+    <p_to vh="V" team="Frogs Legnano"></p_to>
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="10,3,77" type="P" first="P"
+      text="Gallo R. pass complete to Longoni A. for 19 yards to the FRG44, 1ST DOWN FRG (Brancaleoni R.)." newcontext="V,1,10,V44">
+    <p_pa vh="V" qb="Gallo R." result="COMP" rcv="Longoni A." gain="19"></p_pa>
+    <p_tk vh="H" name="Brancaleoni R."></p_tk>
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG44" context="V,1,10,V44" playid="10,4,78" type="#" clock="00:00"
+      text="End of half, clock 00:00." newcontext="V,1,10,V44">
+   </play>
+   <drivesum plays="1" yards="19" top="0:10" driveindex="10" complete="Y"></drivesum>
+   <score qtr="2" V="0" H="30"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="FRG">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="03:37"></misc>
+    <rush att="4" yds="-12" gain="0" loss="12" td="0" long="0"></rush>
+    <pass comp="1" att="4" int="0" yds="19" td="0" long="13" sacks="0" sackyds="0"></pass>
+    <rcv no="1" yds="19" td="0" long="13"></rcv>
+    <punt no="1" yds="56" long="30" blkd="0" tb="0" fc="0" plus50="1" inside20="0" avg="56.0"></punt>
+    <defense tackua="13" tacka="2" tot_tack="15" sacks="0" sackyds="0" ff="2" fr="1" fryds="0"></defense>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIT">
+    <firstdowns no="8" rush="8" pass="0" penalty="0"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="1" thirdatt="1" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="2" lost="1"></fumbles>
+    <misc yds="0" top="06:23"></misc>
+    <rush att="16" yds="129" gain="129" loss="0" td="2" long="0"></rush>
+    <ko no="2" yds="70" ob="0" tb="0"></ko>
+    <pat rushatt="2" rushmade="2"></pat>
+    <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="1" sacks="0" sackyds="0" brup="1"></defense>
+    <fumbles no="2" lost="1"></fumbles>
+    <scoring td="2" patrush="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="FRG" down="1" togo="10" spot="FRG44" context="V,1,10,V44" playid="10,5,79" type="#" clock="10:00"
+      text="Start of 3rd quarter, clock 10:00, GIT ball on GIT30." newcontext="H,1,10,H30">
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="GIT30" context="H,1,10,H30" playid="10,6,80" type="K"
+      text="TEAM kickoff 35 yards to the FRG25, downed." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="TEAM" gain="35"></p_ko>
+   </play>
+   <drivestart poss="V,V25,10:00" vh="V" spot="V25" clock="10:00" driveindex="11,80"></drivestart>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="11,1,81" clock="10:00"
+      text="FROGS LEGNANO drive start at 10:00." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="11,2,82" type="E"
+      text="PENALTY FRG false start (Belloni D.) 5 yards to the FRG20." newcontext="V,1,15,V20">
+    <p_pn vh="V" code="FS" type="false start" name="Belloni D." result="ACCEPT" at="V25" yards="5"></p_pn>
+   </play>
+   <play hasball="FRG" down="1" togo="15" spot="FRG20" context="V,1,15,V20" playid="11,3,83" type="P"
+      text="Gallo R. pass incomplete." newcontext="V,2,15,V20">
+    <p_pa vh="V" qb="Gallo R." result="INC"></p_pa>
+   </play>
+   <play hasball="FRG" down="2" togo="15" spot="FRG20" context="V,2,15,V20" playid="11,4,84" type="P" first="P"
+      text="Gallo R. pass complete to Gallo F. for 27 yards to the GIT43, 1ST DOWN FRG, out-of-bounds." ob="Y" newcontext="V,1,10,H43">
+    <p_pa vh="V" qb="Gallo R." result="COMP" rcv="Gallo F." gain="27"></p_pa>
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="GIT43" context="V,1,10,H43" playid="11,5,85" type="R"
+      text="Longoni A. rush for loss of 11 yards to the FRG36 (Klemmer T.)." newcontext="V,2,21,V36">
+    <p_ru vh="V" name="Longoni A." gain="-11"></p_ru>
+    <p_tk vh="H" name="Klemmer T." tfl="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="2" togo="21" spot="FRG36" context="V,2,21,V36" playid="11,6,86" type="P"
+      text="Gallo R. pass complete to Gallo F. for loss of 6 yards to the FRG30 (Brancaleoni R.)." newcontext="V,3,27,V30">
+    <p_pa vh="V" qb="Gallo R." result="COMP" rcv="Gallo F." gain="-6"></p_pa>
+    <p_tk vh="H" name="Brancaleoni R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="3" togo="27" spot="FRG30" context="V,3,27,V30" playid="11,7,87" type="P"
+      text="Gallo R. pass incomplete to Gallo F., dropped pass." newcontext="V,4,27,V30">
+    <p_pa vh="V" qb="Gallo R." result="DROP" rcv="Gallo F."></p_pa>
+   </play>
+   <play hasball="FRG" down="4" togo="27" spot="FRG30" context="V,4,27,V30" playid="11,8,88" type="U"
+      text="TEAM punt 35 yards to the GIT25, downed." newcontext="H,1,10,H25">
+    <p_pu vh="V" name="TEAM" gain="35"></p_pu>
+   </play>
+   <drivesum plays="5" yards="5" top="1:20" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,H25,10:00" vh="H" spot="H25" clock="10:00" driveindex="12,88"></drivestart>
+   <play hasball="GIT" down="1" togo="10" spot="GIT25" context="H,1,10,H25" playid="12,1,89" clock="08:40"
+      text="GIAGUARI TORINO drive start at 08:40." newcontext="H,1,10,H25">
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="GIT25" context="H,1,10,H25" playid="12,2,90" type="R"
+      text="Papeo M. rush for 2 yards to the GIT27 (Longoni A.)." newcontext="H,2,8,H27">
+    <p_ru vh="H" name="Papeo M." gain="2"></p_ru>
+    <p_tk vh="V" name="Longoni A."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="8" spot="GIT27" context="H,2,8,H27" playid="12,3,91" type="R" first="R"
+      text="Papeo M. rush for 12 yards to the GIT39, 1ST DOWN GIT (Belloni D.)." newcontext="H,1,10,H39">
+    <p_ru vh="H" name="Papeo M." gain="12"></p_ru>
+    <p_tk vh="V" name="Belloni D."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="GIT39" context="H,1,10,H39" playid="12,4,92" type="R"
+      text="Papeo M. rush for 6 yards to the 45 yardline (Gallo F.)." newcontext="H,2,4,H45">
+    <p_ru vh="H" name="Papeo M." gain="6"></p_ru>
+    <p_tk vh="V" name="Gallo F."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="4" spot="GIT45" context="H,2,4,H45" playid="12,5,93" type="R" first="R" score="Y" clock="05:11"
+      text="Vito M. rush for 45 yards to the FRG0, 1ST DOWN GIT, TOUCHDOWN, clock 05:11." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Vito M." gain="45"></p_ru>
+   </play>
+   <play hasball="GIT" down="1" togo="0" spot="FRG03" context="H,1,0,V03" playid="12,6,94" type="X" score="Y"
+      text="Vito M. rush attempt good." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Vito M." qb="Vito M." type="R" result="GOOD" score="Y"></p_pat>
+   </play>
+   <score V="0" H="38"></score>
+   <drivesum plays="4" yards="65" top="3:29" driveindex="12" complete="Y"></drivesum>
+   <play hasball="GIT" down="1" togo="0" spot="GIT30" context="H,1,0,H30" playid="12,7,95" type="K"
+      text="TEAM kickoff 35 yards to the FRG25, downed." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="TEAM" gain="35"></p_ko>
+   </play>
+   <drivestart poss="V,V25,05:11" vh="V" spot="V25" clock="05:11" driveindex="13,95"></drivestart>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="13,1,96" clock="05:11"
+      text="FROGS LEGNANO drive start at 05:11." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="13,2,97" type="P"
+      text="Gallo R. pass incomplete to Longoni A. (Schwarz N.)." newcontext="V,2,10,V25">
+    <p_pa vh="V" qb="Gallo R." result="BRUP" rcv="Longoni A."></p_pa>
+    <p_bu vh="H" name="Schwarz N."></p_bu>
+   </play>
+   <play hasball="FRG" down="2" togo="10" spot="FRG25" context="V,2,10,V25" playid="13,3,98" type="E"
+      text="PENALTY FRG false start (Belloni D.) 5 yards to the FRG20." newcontext="V,2,15,V20">
+    <p_pn vh="V" code="FS" type="false start" name="Belloni D." result="ACCEPT" at="V25" yards="5"></p_pn>
+   </play>
+   <play hasball="FRG" down="2" togo="15" spot="FRG20" context="V,2,15,V20" playid="13,4,99" type="P"
+      text="Gallo R. pass incomplete to Longoni A. (Schwarz N.)." newcontext="V,3,15,V20">
+    <p_pa vh="V" qb="Gallo R." result="BRUP" rcv="Longoni A."></p_pa>
+    <p_bu vh="H" name="Schwarz N."></p_bu>
+   </play>
+   <play hasball="FRG" down="3" togo="15" spot="FRG20" context="V,3,15,V20" playid="13,5,100" type="P" turnover="I"
+      text="Gallo R. pass intercepted by Brancaleoni R. at the FRG28, Brancaleoni R. return 0 yards to the FRG28." newcontext="H,1,10,V28">
+    <p_pa vh="V" qb="Gallo R." result="INT"></p_pa>
+    <p_ir vh="H" name="Brancaleoni R." at="V28" gain="0"></p_ir>
+   </play>
+   <drivesum plays="3" yards="-5" top="2:28" driveindex="13" complete="Y"></drivesum>
+   <drivestart poss="H,V28,05:11" vh="H" spot="V28" clock="05:11" driveindex="14,100"></drivestart>
+   <play hasball="GIT" down="1" togo="10" spot="FRG28" context="H,1,10,V28" playid="14,1,101" clock="02:43"
+      text="GIAGUARI TORINO drive start at 02:43." newcontext="H,1,10,V28">
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG28" context="H,1,10,V28" playid="14,2,102" type="E"
+      text="Papeo M. rush for 15 yards to the FRG13, out-of-bounds (Belloni D.), PENALTY GIT holding (Silletta G.) 10 yards to the FRG38, NO PLAY." ob="Y" newcontext="H,1,20,V38">
+    <p_pn vh="H" code="HO" type="holding" name="Silletta G." result="ACCEPT" at="V28" yards="10"></p_pn>
+   </play>
+   <play hasball="GIT" down="1" togo="20" spot="FRG38" context="H,1,20,V38" playid="14,3,103" type="R" first="R"
+      text="Vito M. rush for 21 yards to the FRG17, 1ST DOWN GIT (Longoni A.)." newcontext="H,1,10,V17">
+    <p_ru vh="H" name="Vito M." gain="21"></p_ru>
+    <p_tk vh="V" name="Longoni A."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG17" context="H,1,10,V17" playid="14,4,104" type="R" first="R" score="Y" clock="00:40"
+      text="Papeo M. rush for 17 yards to the FRG0, 1ST DOWN GIT, TOUCHDOWN, clock 00:40." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Papeo M." gain="17"></p_ru>
+   </play>
+   <play hasball="GIT" down="1" togo="0" spot="FRG03" context="H,1,0,V03" playid="14,5,105" type="X"
+      text="Papeo M. rush attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Papeo M." qb="Papeo M." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="0" H="44"></score>
+   <drivesum plays="2" yards="28" top="2:03" driveindex="14" complete="Y"></drivesum>
+   <play hasball="GIT" down="1" togo="0" spot="GIT30" context="H,1,0,H30" playid="14,6,106" type="K"
+      text="TEAM kickoff 35 yards to the FRG25, downed." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="TEAM" gain="35"></p_ko>
+   </play>
+   <drivestart poss="V,V25,00:40" vh="V" spot="V25" clock="00:40" driveindex="15,106"></drivestart>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="15,1,107" clock="00:40"
+      text="FROGS LEGNANO drive start at 00:40." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="15,2,108" type="R"
+      text="Gallo R. rush for loss of 6 yards to the FRG19 (Brancaleoni R.)." newcontext="V,2,16,V19">
+    <p_ru vh="V" name="Gallo R." gain="-6"></p_ru>
+    <p_tk vh="H" name="Brancaleoni R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="2" togo="16" spot="FRG19" context="V,2,16,V19" playid="15,3,109" type="P" score="Y" turnover="I" clock="00:00"
+      text="Gallo R. pass intercepted by Fontana F. at the FRG30, Fontana F. return 30 yards to the FRG0, TOUCHDOWN, clock 00:00." newcontext="H,1,0,V03">
+    <p_pa vh="V" qb="Gallo R." result="INT"></p_pa>
+    <p_ir vh="H" name="Fontana F." at="V30" gain="30"></p_ir>
+   </play>
+   <drivesum plays="2" yards="-6" top="0:40" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="H,V03,00:00" vh="H" spot="V03" clock="00:00" driveindex="16,109"></drivestart>
+   <play hasball="GIT" down="1" togo="0" spot="FRG03" context="H,1,0,V03" playid="16,1,110" type="X"
+      text="Papeo M. rush attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Papeo M." qb="Papeo M." type="R" result="MISSED"></p_pat>
+   </play>
+   <score V="0" H="50"></score>
+   <score qtr="3" V="0" H="50"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="FRG">
+    <firstdowns no="1" rush="0" pass="1" penalty="0"></firstdowns>
+    <penalties no="2" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:28"></misc>
+    <rush att="2" yds="-17" gain="0" loss="17" td="0" long="0"></rush>
+    <pass comp="2" att="8" int="2" yds="21" td="0" long="8" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="21" td="0" long="8"></rcv>
+    <punt no="1" yds="35" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="35.0"></punt>
+    <defense tackua="4" tacka="0" tot_tack="4" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIT">
+    <firstdowns no="4" rush="4" pass="0" penalty="0"></firstdowns>
+    <penalties no="1" yds="10"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:32"></misc>
+    <rush att="6" yds="103" gain="103" loss="0" td="2" long="21"></rush>
+    <ko no="3" yds="105" ob="0" tb="0"></ko>
+    <pat rushatt="3" rushmade="1"></pat>
+    <defense tackua="3" tacka="0" tot_tack="3" tflua="3" tfla="0" tflyds="23" sacks="0" sackyds="0" brup="2" int="2" intyds="30"></defense>
+    <ir no="2" yds="30" td="1" long="2"></ir>
+    <scoring td="3" patrush="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="GIT" down="1" togo="0" spot="GIT30" context="H,1,0,H30" playid="16,2,111" type="#" clock="10:00"
+      text="Start of 4th quarter, clock 10:00." newcontext="H,1,0,H30">
+   </play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="16" complete="Y"></drivesum>
+   <play hasball="GIT" down="1" togo="0" spot="GIT30" context="H,1,0,H30" playid="16,3,112" type="K"
+      text="TEAM kickoff 35 yards to the FRG25, downed." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="TEAM" gain="35"></p_ko>
+   </play>
+   <drivestart poss="V,V25,10:00" vh="V" spot="V25" clock="10:00" driveindex="17,112"></drivestart>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="17,1,113" clock="10:00"
+      text="FROGS LEGNANO drive start at 10:00." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="17,2,114" clock="10:00"
+      text="FROGS LEGNANO drive start at 10:00." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="17,3,115" type="P"
+      text="Gallo R. pass incomplete." newcontext="V,2,10,V25">
+    <p_pa vh="V" qb="Gallo R." result="INC"></p_pa>
+   </play>
+   <play hasball="FRG" down="2" togo="10" spot="FRG25" context="V,2,10,V25" playid="17,4,116" type="E"
+      text="Gallo R. pass incomplete, PENALTY GIT offside (Silletta G.) 5 yards to the FRG30, NO PLAY." newcontext="V,2,5,V30">
+    <p_pn vh="H" code="OS" type="offside" name="Silletta G." result="ACCEPT" at="V25" yards="5"></p_pn>
+   </play>
+   <play hasball="FRG" down="2" togo="5" spot="FRG30" context="V,2,5,V30" playid="17,5,117" type="P"
+      text="Gallo R. pass incomplete to Longoni A.." newcontext="V,3,5,V30">
+    <p_pa vh="V" qb="Gallo R." result="INC" rcv="Longoni A."></p_pa>
+   </play>
+   <play hasball="FRG" down="3" togo="5" spot="FRG30" context="V,3,5,V30" playid="17,6,118" type="R"
+      text="Sommacal E. rush for loss of 10 yards to the FRG20 (Klemmer T.)." newcontext="V,4,15,V20">
+    <p_ru vh="V" name="Sommacal E." gain="-10"></p_ru>
+    <p_tk vh="H" name="Klemmer T." tfl="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="4" togo="15" spot="FRG20" context="V,4,15,V20" playid="17,7,119" type="U"
+      text="TEAM punt 45 yards to the GIT25, downed." newcontext="H,1,10,H25">
+    <p_pu vh="V" name="TEAM" gain="45"></p_pu>
+   </play>
+   <drivesum plays="3" yards="-5" top="1:22" driveindex="17" complete="Y"></drivesum>
+   <drivestart poss="H,H25,10:00" vh="H" spot="H25" clock="10:00" driveindex="18,119"></drivestart>
+   <play hasball="GIT" down="1" togo="10" spot="GIT25" context="H,1,10,H25" playid="18,1,120" clock="08:38"
+      text="GIAGUARI TORINO drive start at 08:38." newcontext="H,1,10,H25">
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="GIT25" context="H,1,10,H25" playid="18,2,121" type="R" first="R"
+      text="Papeo M. rush for 13 yards to the GIT38, 1ST DOWN GIT, out-of-bounds." ob="Y" newcontext="H,1,10,H38">
+    <p_ru vh="H" name="Papeo M." gain="13"></p_ru>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="GIT38" context="H,1,10,H38" playid="18,3,122" type="R"
+      text="Papeo M. rush for 9 yards to the FRG43 (Belloni D.)." newcontext="H,2,1,V43">
+    <p_ru vh="H" name="Papeo M." gain="9"></p_ru>
+    <p_tk vh="V" name="Belloni D."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="1" spot="FRG43" context="H,2,1,V43" playid="18,4,123" type="R" first="R"
+      text="Vito M. rush for 13 yards to the FRG30, 1ST DOWN GIT (Belloni D.)." newcontext="H,1,10,V30">
+    <p_ru vh="H" name="Vito M." gain="13"></p_ru>
+    <p_tk vh="V" name="Belloni D."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG30" context="H,1,10,V30" playid="18,5,124" type="R"
+      text="Papeo M. rush for 6 yards to the FRG24 (Longoni A.)." newcontext="H,2,4,V24">
+    <p_ru vh="H" name="Papeo M." gain="6"></p_ru>
+    <p_tk vh="V" name="Longoni A."></p_tk>
+   </play>
+   <play hasball="GIT" down="2" togo="4" spot="FRG24" context="H,2,4,V24" playid="18,6,125" type="R" first="R"
+      text="Papeo M. rush for 6 yards to the FRG18, 1ST DOWN GIT (Cozzi A.)." newcontext="H,1,10,V18">
+    <p_ru vh="H" name="Papeo M." gain="6"></p_ru>
+    <p_tk vh="V" name="Cozzi A."></p_tk>
+   </play>
+   <play hasball="GIT" down="1" togo="10" spot="FRG18" context="H,1,10,V18" playid="18,7,126" type="R" first="R" score="Y" clock="03:40"
+      text="Vito M. rush for 18 yards to the FRG0, 1ST DOWN GIT, TOUCHDOWN, clock 03:40." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="Vito M." gain="18"></p_ru>
+   </play>
+   <play hasball="GIT" down="1" togo="0" spot="FRG03" context="H,1,0,V03" playid="18,8,127" type="E"
+      text="Papeo M. rush attempt good, PENALTY GIT holding 10 yards to the FRG13, NO PLAY." newcontext="H,1,0,V13">
+    <p_pn vh="H" code="HO" type="holding" result="ACCEPT" at="V03" yards="10"></p_pn>
+   </play>
+   <play hasball="GIT" down="1" togo="0" spot="FRG13" context="H,1,0,V13" playid="18,9,128" type="X"
+      text="Aviano R. pass attempt failed." newcontext="H,1,0,H30">
+    <p_pat vh="H" name="Aviano R." qb="Aviano R." type="P" result="MISSED"></p_pat>
+   </play>
+   <score V="0" H="56"></score>
+   <drivesum plays="6" yards="65" top="4:58" driveindex="18" complete="Y"></drivesum>
+   <play hasball="GIT" down="1" togo="0" spot="GIT30" context="H,1,0,H30" playid="18,10,129" type="K"
+      text="TEAM kickoff 35 yards to the FRG25, downed." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="TEAM" gain="35"></p_ko>
+   </play>
+   <drivestart poss="V,V25,03:40" vh="V" spot="V25" clock="03:40" driveindex="19,129"></drivestart>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="19,1,130" clock="03:40"
+      text="FROGS LEGNANO drive start at 03:40." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG25" context="V,1,10,V25" playid="19,2,131" type="P"
+      text="Gallo R. pass complete to Gallo F. for loss of 3 yards to the FRG22 (Brancaleoni R.)." newcontext="V,2,13,V22">
+    <p_pa vh="V" qb="Gallo R." result="COMP" rcv="Gallo F." gain="-3"></p_pa>
+    <p_tk vh="H" name="Brancaleoni R." tfl="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="2" togo="13" spot="FRG22" context="V,2,13,V22" playid="19,3,132" type="P"
+      text="Gallo R. pass complete to Gallo F. for loss of 5 yards to the FRG17 (Brancaleoni R.;Ferrando A.)." newcontext="V,3,18,V17">
+    <p_pa vh="V" qb="Gallo R." result="COMP" rcv="Gallo F." gain="-5"></p_pa>
+    <p_tk vh="H" name="Brancaleoni R." tfl="Y" assist="Y"></p_tk>
+    <p_tk vh="H" name="Ferrando A." tfl="Y" assist="Y"></p_tk>
+   </play>
+   <play hasball="FRG" down="3" togo="18" spot="FRG17" context="V,3,18,V17" playid="19,4,133" type="E" first="E"
+      text="Gallo F. rush for 3 yards to the FRG20, out-of-bounds, PENALTY GIT personal foul 15 yards to the FRG32, 1ST DOWN FRG, NO PLAY." ob="Y" newcontext="V,1,10,V32">
+    <p_pn vh="H" code="PF" type="personal foul" result="ACCEPT" at="V17" yards="15"></p_pn>
+   </play>
+   <play hasball="FRG" down="1" togo="10" spot="FRG32" context="V,1,10,V32" playid="19,5,134" type="P"
+      text="Gallo R. pass incomplete." newcontext="V,2,10,V32">
+    <p_pa vh="V" qb="Gallo R." result="INC"></p_pa>
+   </play>
+   <play hasball="FRG" down="2" togo="10" spot="FRG32" context="V,2,10,V32" playid="19,6,135" type="#" clock="00:49"
+      text="Timeout Frogs Legnano, clock 00:49." newcontext="V,2,10,V32">
+    <p_to vh="V" team="Frogs Legnano"></p_to>
+   </play>
+   <play hasball="FRG" down="2" togo="10" spot="FRG32" context="V,2,10,V32" playid="19,7,136" type="P"
+      text="Gallo R. pass incomplete to Sommacal E.." newcontext="V,3,10,V32">
+    <p_pa vh="V" qb="Gallo R." result="INC" rcv="Sommacal E."></p_pa>
+   </play>
+   <play hasball="FRG" down="3" togo="10" spot="FRG32" context="V,3,10,V32" playid="19,8,137" type="#" clock="00:30"
+      text="Timeout Frogs Legnano, clock 00:30." newcontext="V,3,10,V32">
+    <p_to vh="V" team="Frogs Legnano"></p_to>
+   </play>
+   <play hasball="FRG" down="3" togo="10" spot="FRG32" context="V,3,10,V32" playid="19,9,138" type="P"
+      text="Gallo R. pass incomplete to Gallo F.." newcontext="V,4,10,V32">
+    <p_pa vh="V" qb="Gallo R." result="INC" rcv="Gallo F."></p_pa>
+   </play>
+   <play hasball="FRG" down="4" togo="10" spot="FRG32" context="V,4,10,V32" playid="19,10,139" type="#" clock="00:00"
+      text="End of game, clock 00:00." newcontext="V,4,10,V32">
+   </play>
+   <drivesum plays="5" yards="7" top="3:40" driveindex="19" complete="Y"></drivesum>
+   <score final="Y" V="0" H="56"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="FRG">
+    <firstdowns no="1" rush="0" pass="0" penalty="1"></firstdowns>
+    <penalties no="0" yds="0"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="05:02"></misc>
+    <rush att="1" yds="-10" gain="0" loss="10" td="0" long="0"></rush>
+    <pass comp="2" att="7" int="0" yds="-8" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="-8" td="0" long="0"></rcv>
+    <punt no="1" yds="45" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="45.0"></punt>
+    <defense tackua="4" tacka="0" tot_tack="4" sacks="0" sackyds="0"></defense>
+   </qtrsummary>
+   <qtrsummary vh="H" id="GIT">
+    <firstdowns no="4" rush="4" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="30"></penalties>
+    <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:58"></misc>
+    <rush att="6" yds="65" gain="65" loss="0" td="1" long="0"></rush>
+    <ko no="2" yds="70" ob="0" tb="0"></ko>
+    <pat passatt="1" passmade="0"></pat>
+    <defense tackua="2" tacka="2" tot_tack="4" tflua="4" tfla="0" tflyds="23" sacks="0" sackyds="0"></defense>
+    <scoring td="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="V" id="FRG" down="4" togo="10" spot="FRG32" context="V,4,10,V32" qtr="4" clock="00:00" vtoh="2" htoh="0"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="FRG">
+ </dnp>
+ <dnp vh="H" id="GIT">
+  <player name="15" checkname="" uni="15" gp="0" code="15"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>

@@ -38,7 +38,7 @@ $(document).ready(function () {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  //const url = "20221023.xml"
+  //const url = "20221031.XML"
   //FIRST PAGE   20221023.xml    3divxml/20220100.xml
   // <a href="stats.html?game=20220640 target='_blank'">
   //STATS PAGE
@@ -845,20 +845,20 @@ function buildTeamStats(x) {
   headerRow('TOTAL OFFENSE', contentTable)
   rowEntry = document.createElement('tr')
   createElementAttr('td', 'Yards', 'class', 'titleCell', rowEntry)
-  createElementAttr('td', parseFloat(rushH.getAttribute('yds'))+ parseFloat(passH.getAttribute('yds')), 'class', 'text-center', rowEntry)
-  createElementAttr('td', parseFloat(rushV.getAttribute('yds'))+ parseFloat(passV.getAttribute('yds')), 'class', 'text-center', rowEntry)
+  createElementAttr('td', parseFloat(rushH?.getAttribute('yds'))+ parseFloat(passH?.getAttribute('yds')), 'class', 'text-center', rowEntry)
+  createElementAttr('td', parseFloat(rushV?.getAttribute('yds'))+ parseFloat(passV?.getAttribute('yds')), 'class', 'text-center', rowEntry)
   contentTable.appendChild(rowEntry)
   rowEntry = document.createElement('tr')
   createElementHTML('td', 'Plays', rowEntry)
-  createElementAttr('td', parseFloat(rushH.getAttribute('att'))+ parseFloat(passH.getAttribute('att')), 'class', 'text-center', rowEntry)
-  createElementAttr('td', parseFloat(rushV.getAttribute('att'))+ parseFloat(passV.getAttribute('att')), 'class', 'text-center', rowEntry)
+  createElementAttr('td', parseFloat(rushH?.getAttribute('att'))+ parseFloat(passH?.getAttribute('att')), 'class', 'text-center', rowEntry)
+  createElementAttr('td', parseFloat(rushV?.getAttribute('att'))+ parseFloat(passV?.getAttribute('att')), 'class', 'text-center', rowEntry)
   contentTable.appendChild(rowEntry)
   rowEntry = document.createElement('tr')
   createElementHTML('td', 'Avg. / Play', rowEntry)
-  let totydsH = parseFloat(rushH.getAttribute('yds')) + parseFloat(passH.getAttribute('yds'))
-  let totydsV = parseFloat(rushV.getAttribute('yds')) + parseFloat(passV.getAttribute('yds'))
-  let totplaysV = parseFloat(rushH.getAttribute('att')) + parseFloat(passH.getAttribute('att'))
-  let totplaysH = parseFloat(rushV.getAttribute('att')) + parseFloat(passV.getAttribute('att'))
+  let totydsH = parseFloat(rushH?.getAttribute('yds')) + parseFloat(passH?.getAttribute('yds'))
+  let totydsV = parseFloat(rushV?.getAttribute('yds')) + parseFloat(passV?.getAttribute('yds'))
+  let totplaysV = parseFloat(rushH?.getAttribute('att')) + parseFloat(passH?.getAttribute('att'))
+  let totplaysH = parseFloat(rushV?.getAttribute('att')) + parseFloat(passV?.getAttribute('att'))
   createElementAttr('td', (totydsH / totplaysH).toFixed(1), 'class', 'text-center', rowEntry)
   createElementAttr('td', (totydsV / totplaysV).toFixed(1), 'class', 'text-center', rowEntry)
   contentTable.appendChild(rowEntry)
@@ -1066,7 +1066,7 @@ function buildPlays(x){
         quarterDiv.appendChild(currentTable)
       } else {
         // NOT FIRST DRIVE
-        while(nd !== Number(drivestart[j].getAttribute('driveindex').split(',')[0])){
+        while(Number(drivestart[j].getAttribute('driveindex').split(',')[0]) !== nd){
           //Skipping driveindex problem in xml file (from 11 to 13, drive 12 doesn't exist)
           if (Number(drivestart[j].getAttribute('driveindex').split(',')[0]) > nd) {
             continue main;
@@ -1103,7 +1103,10 @@ function buildPlays(x){
         td.classList.add('text-center', 'emphasize', 'hide-on-medium')
         rowEntry.appendChild(td)
         bodyTable.appendChild(rowEntry)
-        while(Number(plays[k].getAttribute('playid').split(',')[0]) !== nd){k += 1}
+        
+        console.table(plays)
+        while (Number(plays[k].getAttribute('playid').split(',')[0]) !== nd) {k+=1}
+
         while (Number(plays[k]?.getAttribute('playid').split(',')[0]) === nd) {
           //PLAYS
           rowEntry = document.createElement('tr')
